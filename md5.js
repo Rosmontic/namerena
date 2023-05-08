@@ -16480,23 +16480,14 @@ T.yuriy.prototype = {
             t.r = this
             this.k2 = t
             t = this.id
-            u = new T.hellDefend()
-            u.f = 90
-            t.push(u)
-            u = new T.hellFireAttack()
-            u.f = 20
-            t.push(u)
-            u = new T.hellWindAttack()
-            u.f = 20
-            t.push(u)
-            u = new T.hellCutter()
-            u.f = 30
-            t.push(u)
-            u = new T.hellBehead()
-            u.f = 30
-            t.push(u)
-            u = new T.hellCheckHP()
-            t.push(u)
+           u=new T.dW()
+u.f=48
+t.push(u)
+u=new T.dP()
+u.f=48
+t.push(u)
+u=new T.bU()
+u.f=48
         }
     }
     T.i4.prototype = {

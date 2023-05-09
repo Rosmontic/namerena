@@ -7027,7 +7027,7 @@ yuriy: function yuriy(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
-            _.upgrade = false
+            _.upgrade = ture
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -16487,7 +16487,7 @@ u=new T.i9()
 u.f=480
 t.push(u)
 u=new T.bU()
-u.f=480
+u.f=100
         }
     }
     T.i4.prototype = {

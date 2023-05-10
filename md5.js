@@ -13913,7 +13913,7 @@ T.hKm.prototype = {
         },
         am: function(a, b) {
             if (b)
-                return a.fr > 160
+                return a.fr > 0
             return !0
         },
         a8: function(a, b, c) {
@@ -13928,7 +13928,7 @@ T.hKm.prototype = {
             var u, t, s, r = this, q = null, p = r.fy
             if (p == null) {
                 r.fy = a[0].a
-                d.a.push(T.e("[0]对[1]发动[虚假的剑闪]", r.r, r.fy, q, q, 1, 1000, 100))
+                d.a.push(T.e("[0]对[1]发动[虚假的剑闪]", r.r, q, q, 1, 1000, 100))
                 r.r.ry.i(0, r.fr)
                 p = r.r
                 p.j = p.j + p.db * 3

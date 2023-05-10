@@ -13913,7 +13913,7 @@ T.hKm.prototype = {
         },
         am: function(a, b) {
             if (b)
-                return a.fr > 0
+                return a.fr > 160
             return !0
         },
         a8: function(a, b, c) {
@@ -13931,7 +13931,7 @@ T.hKm.prototype = {
                 d.a.push(T.e(O.c("[0]发动[虚假的剑闪]"), r.r, r.fy, q, q, 1, 1000, 100))
                 r.r.ry.i(0, r.fr)
                 p = r.r
-                p.j = p.j + p.db * 3.3
+                p.j = p.j + p.db * 3
                 p = p.r1.G(0, $.X())
                 u = r.r
                 if (p)

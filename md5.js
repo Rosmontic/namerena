@@ -16573,9 +16573,6 @@ T.megia.prototype = {
            u=new T.i1()
 u.f=300
 t.push(u)
-u=new T.ih()
-u.f=100
-t.push(u)
 u=new T.dS()
 u.f=300
 t.push(u)

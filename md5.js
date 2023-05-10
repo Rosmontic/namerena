@@ -16570,8 +16570,8 @@ T.megia.prototype = {
             t.r = this
             this.k2 = t
             t = this.id
-           u=new T.hK()
-u.f=40
+           u=new T.ig()
+u.f=700
 t.push(u)
         }
     }

@@ -5973,6 +5973,13 @@ if (a == "megia") {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
+hKm: function hKm() {
+            var _ = this
+            _.fy = _.fx = _.fr = null
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
         bx: function bx() {
             var _ = this
             _.fr = 1
@@ -13896,7 +13903,82 @@ megia: function megia(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t
             this.fx.C()
             this.fr.C()
         }
+}
+
+T.hKm.prototype = {
+        ar: function(a, b) {
+            if (b && this.r.r1.G(0, $.b9()))
+                return !1
+            return this.aS(a, b)
+        },
+        am: function(a, b) {
+            if (b)
+                return a.fr > 0
+            return !0
+        },
+        a8: function(a, b, c) {
+            return this.bs(a, b, c, !0)
+        },
+        a9: function(a, b, c) {
+            if (this.fy != null)
+                return H.a([], [T.Z])
+            return this.dM(0, b, c)
+        },
+        t: function(a, b, c, d) {
+            var u, t, s, r = this, q = null, p = r.fy
+            if (p == null) {
+                r.fy = a[0].a
+                d.a.push(T.e(O.c("[0]发动[虚假的剑闪]"), r.r, r.fy, q, q, 1, 1000, 100))
+                r.r.ry.i(0, r.fr)
+                p = r.r
+                p.j = p.j + p.db * 3.3
+                p = p.r1.G(0, $.X())
+                u = r.r
+                if (p)
+                    u.j = u.j + 1600
+                else
+                    u.y2.i(0, r.fx)
+            } else {
+                r.ae(0)
+                if (p.fr > 0) {
+                    u = d.a
+                    u.push(T.e(O.c("[0]发动[真实的斩击]"), r.r, p, q, q, 1, 1000, 100))
+                    t = T.u(r.r, !0, c)
+                    s = T.u(r.r, !0, c)
+                    if (s > t)
+                        t = s
+                    s = T.u(r.r, !0, c)
+                    if (s > t)
+                        t = s
+                    if (p.a6($.c3(), c)) {
+                        u.push(T.e(O.c("vVob"), p, r.r, q, q, 0, 1000, 100))
+                        return
+                    }
+                    p.bL(t * 4, !0, r.r, T.a3(), c, d)
+                }
+            }
+        },
+        ay: function(a, b, c, d) {
+            var u = d.a
+            u.push($.v())
+            u.push(T.ap(O.c("[0]被打断了"), this.r, this.fy))
+            this.ae(0)
+        },
+        aK: function(a, b, c, d) {
+            var u = this.fy
+            if (u != null && u.fr > 0)
+                return this
+            else
+                this.ae(0)
+            return
+        },
+        ae: function(a) {
+            this.fy = null
+            this.fx.C()
+            this.fr.C()
+        }
     }
+
     T.bx.prototype = {
         gR: function() {
             return -1
@@ -16576,9 +16658,9 @@ u.fr = f
 u.fx = new T.ay(u)
 u.fy = new T.aN(u)
 f.r = 10
-u.f = 100
+u.f = 0
 t.push(u) 
-u = new T.hK()
+u = new T.hKm()
 u.fr = new T.bP(u)
 u.fx = new T.cB(u)
 u.f = 100
@@ -17659,6 +17741,11 @@ t.push(u)
             u.fr = new T.bP(u)
             u.fx = new T.cB(u)
             s.push(u)
+u = new T.hKm()
+            u.fr = new T.bP(u)
+            u.fx = new T.cB(u)
+            s.push(u)
+
             s.push(new T.ik())
             s.push(new T.dO())
             s.push(new T.ig())
@@ -19705,7 +19792,7 @@ t.push(u)
         t(Z.hl, Z.ax)
         s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
         s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
-        s(T.y, [T.dL, T.hI, T.hK, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
+        s(T.y, [T.dL, T.hI, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
         s(T.M, [T.bf, T.co, T.dj, T.cG, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade])
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
         s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])

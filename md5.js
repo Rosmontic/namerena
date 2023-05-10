@@ -16572,17 +16572,17 @@ T.megia.prototype = {
             t = this.id
 u = new T.i1()
 f = new T.dF(1 / 0,u)
-u.fr = t
+u.fr = f
 u.fx = new T.ay(u)
 u.fy = new T.aN(u)
-t.r = 10
-u.f = 100
-s.push(u) 
+f.r = 10
+u.f = 0
+t.push(u) 
 u = new T.hK()
 u.fr = new T.bP(u)
 u.fx = new T.cB(u)
-u.f = 100
-s.push(u)        
+u.f = 0
+t.push(u)        
 }
     }
     T.i4.prototype = {

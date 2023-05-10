@@ -16570,13 +16570,19 @@ T.megia.prototype = {
             t.r = this
             this.k2 = t
             t = this.id
-           u=new T.i1()
-u.f=300
-t.push(u)
-u=new T.dS()
-u.f=300
-t.push(u)
-        }
+u = new T.i1()
+f = new T.dF(1 / 0,u)
+u.fr = f
+u.fx = new T.ay(u)
+u.fy = new T.aN(u)
+f.r = 10
+u.f = 100
+u = new T.hK()
+u.fr = new T.bP(u)
+u.fx = new T.cB(u)
+u.f = 100
+s.push(u)        
+}
     }
     T.i4.prototype = {
         gR: function() {

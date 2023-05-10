@@ -13961,7 +13961,7 @@ T.hKm.prototype = {
         ay: function(a, b, c, d) {
             var u = d.a
             u.push($.v())
-            u.push(T.ap(O.c("[0]被打断了"), this.r, this.fy))
+            u.push(T.ap("[0]被打断了", this.r, this.fy))
             this.ae(0)
         },
         aK: function(a, b, c, d) {

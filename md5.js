@@ -13935,7 +13935,6 @@ T.hKm.prototype = {
             if (p == null) {
                 r.fy = a[0].a
                 d.a.push(T.e("[0]发动[虚假的剑闪]", r.r , p, q, q, 1, 1000, 100))
-t = T.u(r.r, !0, c)
 p.bL(t , !0, r.r, T.a3(), c, d)
                 r.r.ry.i(0, r.fr)
                 p = r.r

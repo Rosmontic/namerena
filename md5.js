@@ -13980,7 +13980,7 @@ u.push($.v())
         ay: function(a, b, c, d) {
             var u = d.a
             u.push($.v())
-            u.push(T.ap("[0]被打断了", this.r, this.fy))
+            u.push(T.ap("[0]的剑技被打断了", this.r, this.fy))
             this.ae(0)
         },
         aK: function(a, b, c, d) {
@@ -19828,7 +19828,7 @@ T.i9m.prototype = {
         s(T.D, [T.cg, T.dF, T.el])
         s(T.J, [T.dE, T.ay])
         s(T.av, [T.hh, T.hi, T.ho])
-        s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia])
+        s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.megia])
         t(T.hg, T.cy)
         t(T.f3, T.bA)
         t(T.e_, T.dN, T.yuriSuperControl)

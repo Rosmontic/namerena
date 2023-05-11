@@ -13949,6 +13949,7 @@ T.hKm.prototype = {
                 if (p.fr > 0) {
                     u = d.a
                     u.push(T.e("[0]发动[真实的斩击]", r.r, p, q, q, 1, 1000, 100))
+d.a.push($.v())
                     t = T.u(r.r, !0, c)
                     s = T.u(r.r, !0, c)
 

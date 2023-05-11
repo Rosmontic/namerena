@@ -13934,7 +13934,7 @@ T.hKm.prototype = {
             var u, t, s, r = this, q = null, p = r.fy
             if (p == null) {
                 r.fy = a[0].a
-                d.a.push(T.e("[0]发动[虚伪的剑闪],[1]", r.r , p, q, q, 1, 1000, 100))
+                d.a.push(T.e("[0]发动[虚伪的剑闪]", r.r , p, q, q, 1, 1000, 100))
                 r.r.ry.i(0, r.fr)
                 p = r.r
                 p.j = p.j + p.db * 3
@@ -13950,7 +13950,7 @@ T.hKm.prototype = {
                     
 if (r.r.fr > 200){
 u = d.a
-                    u.push(T.e("[0]发动[真实的斩击][1]", r.r, p, q, q, 1, 1000, 100))
+                    u.push(T.e("[0]发动[真实的斩击]", r.r, p, q, q, 1, 1000, 100))
                     t = T.u(r.r, !0, c)
                     s = T.u(r.r, !0, c)
 
@@ -13964,7 +13964,7 @@ else{
 u = d.a
 u.push(T.e("[0]:[我将在此，成为英雄]", r.r, p, q, q, 1, 1000, 100))
 u.push($.v())
-                    u.push(T.e("[0]发动[肃清的一刀][1]", r.r, p, q, q, 1, 1000, 100))
+                    u.push(T.e("[0]发动[肃清的一刀]", r.r, p, q, q, 1, 1000, 100))
                     t = T.u(r.r, !0, c)
                     s = T.u(r.r, !0, c)
 
@@ -18760,7 +18760,7 @@ T.i9m.prototype = {
         },
         aX: function(a, b, c, d) {
             var u, t = this, s = c.m(), r = t.f
-            if ((s & 127) < r ) {
+            if ( r >0) {
                 t.f = 0
                 s = C.c.K("[0]发动[无名的决意]", $.lb())
                 r = t.r

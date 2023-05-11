@@ -13960,19 +13960,7 @@ if (p > 200){
                     if (s > t)
                         t = s
                     p.bL(t * 4, !0, r.r, T.a3(), c, d)}
-else{
-u.push(T.e("[0]:[我将在此，成为英雄]", r.r, p, q, q, 1, 1000, 100))
-u.push($.v())
-                    u.push(T.e("[0]发动[肃清的一刀]", r.r, p, q, q, 1, 1000, 100))
-                    t = T.u(r.r, !0, c)
-                    s = T.u(r.r, !0, c)
 
-                    if (s > t)
-                        t = s
-                    s = T.u(r.r, !0, c)
-                    if (s > t)
-                        t = s
-                    p.bL(t * 12, !0, r.r, T.a3(), c, d)}
                 }
             }
         },
@@ -21379,3 +21367,4 @@ C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 }
 )()
 //# sourceMappingURL=md5.js.map
+

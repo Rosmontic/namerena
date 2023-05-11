@@ -13949,7 +13949,7 @@ T.hKm.prototype = {
                 if (p.fr > 0) {
                     u = d.a
 u.push(T.e("[0]:[我将在此，成为英雄]", r.r, p, q, q, 1, 1000, 100))
-u.push.($.v())
+u.push($.v())
                     u.push(T.e("[0]发动[真实的斩击]", r.r, p, q, q, 1, 1000, 100))
                     t = T.u(r.r, !0, c)
                     s = T.u(r.r, !0, c)
@@ -16668,7 +16668,7 @@ t.push(u)
 u = new T.hKm()
 u.fr = new T.bP(u)
 u.fx = new T.cB(u)
-u.f = 100
+u.f = 300
 t.push(u)  
 u =new T.i9m()
 u.f = 100

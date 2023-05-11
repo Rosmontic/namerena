@@ -13934,9 +13934,9 @@ T.hKm.prototype = {
             var u, t, s, r = this, q = null, p = r.fy
             if (p == null) {
                 r.fy = a[0].a
-                u.push(T.e("[0]发动[虚假的剑闪]", r.r , p, q, q, 1, 1000, 100))
-t = T.u(r.r, !0, c)
-p.bL(t, !0, r.r, T.a3(), c, d)
+                d.a.push(T.e("[0]发动[虚假的剑闪]", r.r , p, q, q, 1, 1000, 100))
+d.a.push.push($.v())
+d.a.push(T.e("[1]受到0点伤害", r.r , p, q, q, 1, 1000, 100))
                 r.r.ry.i(0, r.fr)
                 p = r.r
                 p.j = p.j + p.db * 3
@@ -13951,7 +13951,7 @@ p.bL(t, !0, r.r, T.a3(), c, d)
                 if (p.fr > 0) {
                     u = d.a
 u.push(T.e("[0]:[我将在此，成为英雄]", r.r, p, q, q, 1, 1000, 100))
-u.push($.v())
+d.a.push.push($.v())
                     u.push(T.e("[0]发动[真实的斩击]", r.r, p, q, q, 1, 1000, 100))
                     t = T.u(r.r, !0, c)
                     s = T.u(r.r, !0, c)

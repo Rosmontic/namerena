@@ -18760,8 +18760,8 @@ T.i9m.prototype = {
         },
         aX: function(a, b, c, d) {
             var u, t = this, s = c.m(), r = t.f
-            if ((s & 127) < r ) {
-                t.f = C.b.v(r + 1, 2)
+            if (1) {
+                t.f = 0
                 s = C.c.K(O.c("fuXr"), $.lb())
                 r = t.r
                 u = d.a

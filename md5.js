@@ -13934,7 +13934,7 @@ T.hKm.prototype = {
             var u, t, s, r = this, q = null, p = r.fy
             if (p == null) {
                 r.fy = a[0].a
-                d.a.push(T.e("[0]发动[虚伪的剑闪]", r.r , p, q, q, 1, 1000, 100))
+                d.a.push(T.e("[0]发动[虚伪的剑闪],[1]", r.r , p, q, q, 1, 1000, 100))
                 r.r.ry.i(0, r.fr)
                 p = r.r
                 p.j = p.j + p.db * 3
@@ -13951,7 +13951,7 @@ T.hKm.prototype = {
 p = r.r.fr
 if (p > 200){
 u = d.a
-                    u.push(T.e("[0]发动[真实的斩击]", r.r, p, q, q, 1, 1000, 100))
+                    u.push(T.e("[0]发动[真实的斩击],[1]", r.r, p, q, q, 1, 1000, 100))
                     t = T.u(r.r, !0, c)
                     s = T.u(r.r, !0, c)
 

@@ -13934,8 +13934,9 @@ T.hKm.prototype = {
             var u, t, s, r = this, q = null, p = r.fy
             if (p == null) {
                 r.fy = a[0].a
+ t = T.u(r.r, !1, c)
                 d.a.push(T.e("[0]发动[虚假的剑闪]", r.r , p, q, q, 1, 1000, 100))
-p.bL(t , !0, r.r, T.a3(), c, d)
+o.a0(t, !1, r.r, T.mA())
                 r.r.ry.i(0, r.fr)
                 p = r.r
                 p.j = p.j + p.db * 3

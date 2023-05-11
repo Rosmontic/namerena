@@ -13938,9 +13938,9 @@ T.hKm.prototype = {
                 r.r.ry.i(0, r.fr)
                 p = r.r
                 p.j = p.j + p.db * 3
-                p = p.r1.G(0, $.X())
+                p = r.r.fr
                 u = r.r
-                if (p)
+                if (p > 0 && p < 200)
                     u.j = u.j + 1600
                 else
                     u.y2.i(0, r.fx)
@@ -18756,11 +18756,11 @@ T.i9m.prototype = {
             var u, t = this, s = c.m(), r = t.f
             if ((s & 127) < r ) {
                 t.f = 0
-                s = C.c.K("[0]使用无名的决意", $.lb())
+                s = C.c.K("[0]发动[无名的决意]", $.lb())
                 r = t.r
                 u = d.a
                 u.push(T.e(s, r, r, null, null, 80, 1500, 100))
-                t.r.fr = 300
+                t.r.fr = 199
                 r = O.c("YmSv")
                 s = t.r
                 u.push(T.e(r, s, T.a1(s, 0), new T.aG(t.r.fr), null, 0, 1000, 100))

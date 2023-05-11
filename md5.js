@@ -13947,9 +13947,10 @@ T.hKm.prototype = {
             } else {
                 r.ae(0)
                 if (p.fr > 0) {
-                    u = d.a
+                    
 p = r.r.fr
 if (p > 200){
+u = d.a
                     u.push(T.e("[0]发动[真实的斩击]", r.r, p, q, q, 1, 1000, 100))
                     t = T.u(r.r, !0, c)
                     s = T.u(r.r, !0, c)
@@ -13960,7 +13961,20 @@ if (p > 200){
                     if (s > t)
                         t = s
                     p.bL(t * 4, !0, r.r, T.a3(), c, d)}
+else{
+u = d.a
+u.push(T.e("[0]:[我将在此，成为英雄]", r.r, p, q, q, 1, 1000, 100))
+u.push($.v())
+                    u.push(T.e("[0]发动[肃清的一刀]", r.r, p, q, q, 1, 1000, 100))
+                    t = T.u(r.r, !0, c)
+                    s = T.u(r.r, !0, c)
 
+                    if (s > t)
+                        t = s
+                    s = T.u(r.r, !0, c)
+                    if (s > t)
+                        t = s
+                    p.bL(t * 12, !0, r.r, T.a3(), c, d)}
                 }
             }
         },
@@ -21367,4 +21381,3 @@ C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 }
 )()
 //# sourceMappingURL=md5.js.map
-

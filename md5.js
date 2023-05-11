@@ -13949,7 +13949,7 @@ T.hKm.prototype = {
                 if (p.fr > 0) {
                     u = d.a
 u.push(T.e("[0]:[我将在此，成为英雄]", r.r, p, q, q, 1, 1000, 100))
-d.a.push.push($.v())
+u.push.push($.v())
                     u.push(T.e("[0]发动[真实的斩击]", r.r, p, q, q, 1, 1000, 100))
                     t = T.u(r.r, !0, c)
                     s = T.u(r.r, !0, c)
@@ -18756,11 +18756,11 @@ T.i9m.prototype = {
             var u, t = this, s = c.m(), r = t.f
             if ((s & 127) < r ) {
                 t.f = 0
-                s = C.c.K(O.c("fuXr"), $.lb())
+                s = C.c.K("[0]使用无名的决意"), $.lb())
                 r = t.r
                 u = d.a
                 u.push(T.e(s, r, r, null, null, 80, 1500, 100))
-                t.r.fr = (c.m() & 15) + 300
+                t.r.fr = 300
                 r = O.c("YmSv")
                 s = t.r
                 u.push(T.e(r, s, T.a1(s, 0), new T.aG(t.r.fr), null, 0, 1000, 100))

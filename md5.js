@@ -18756,7 +18756,7 @@ T.i9m.prototype = {
             var u, t = this, s = c.m(), r = t.f
             if ((s & 127) < r ) {
                 t.f = 0
-                s = C.c.K("[0]使用无名的决意"), $.lb())
+                s = C.c.K("[0]使用无名的决意", $.lb())
                 r = t.r
                 u = d.a
                 u.push(T.e(s, r, r, null, null, 80, 1500, 100))

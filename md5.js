@@ -13948,7 +13948,7 @@ T.hKm.prototype = {
                 r.ae(0)
                 if (p.fr > 0) {
                     
-if (r.r.fr > 200){
+if (r.r.fr > 199){
 u = d.a
                     u.push(T.e("[0]发动[真实的斩击]", r.r, p, q, q, 1, 1000, 100))
                     t = T.u(r.r, !0, c)
@@ -19828,7 +19828,7 @@ T.i9m.prototype = {
         s(T.D, [T.cg, T.dF, T.el])
         s(T.J, [T.dE, T.ay])
         s(T.av, [T.hh, T.hi, T.ho])
-        s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.megia])
+        s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia])
         t(T.hg, T.cy)
         t(T.f3, T.bA)
         t(T.e_, T.dN, T.yuriSuperControl)

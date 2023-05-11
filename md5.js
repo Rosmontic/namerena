@@ -7718,6 +7718,12 @@ megia: function megia(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
+i9m: function i9m() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
         darkRevive: function darkRevive() {
             var _ = this
             _.e = !1
@@ -13952,10 +13958,6 @@ u.push(T.e("[0]:[我将在此，成为英雄]", r.r, p, q, q, 1, 1000, 100))
                     s = T.u(r.r, !0, c)
                     if (s > t)
                         t = s
-                    if (p.a6($.c3(), c)) {
-                        u.push(T.e(O.c("vVob"), p, r.r, q, q, 0, 1000, 100))
-                        return
-                    }
                     p.bL(t * 4, !0, r.r, T.a3(), c, d)
                 }
             }
@@ -16667,9 +16669,8 @@ u.fr = new T.bP(u)
 u.fx = new T.cB(u)
 u.f = 100
 t.push(u)  
-u = new T.im()
-u.Q = new T.aN(u)
-u.f = 100
+u =new T.i9m()
+u.f = 200
 t.push(u)    
 }
     }
@@ -17755,11 +17756,15 @@ u = new T.hKm()
             s.push(new T.dV())
             s.push(new T.dX())
             s.push(new T.i9())
+s.push(new T.i9m())
             s.push(new T.ih())
             s.push(new T.bU())
             s.push(new T.i5())
             s.push(new T.io())
             u = new T.im()
+            u.Q = new T.aN(u)
+            s.push(u)
+u = new T.imm()
             u.Q = new T.aN(u)
             s.push(u)
             u = new T.hZ()
@@ -18740,6 +18745,31 @@ u = new T.hKm()
                 u = d.a
                 u.push(T.e(s, r, r, null, null, 80, 1500, 100))
                 t.r.fr = (c.m() & 15) + 1
+                r = O.c("YmSv")
+                s = t.r
+                u.push(T.e(r, s, T.a1(s, 0), new T.aG(t.r.fr), null, 0, 1000, 100))
+                return !0
+            }
+            return !1
+        },
+        T: function() {
+            this.r.I.i(0, this)
+        },
+        $iC: 1
+}
+T.i9m.prototype = {
+        ga1: function() {
+            return 1
+        },
+        aX: function(a, b, c, d) {
+            var u, t = this, s = c.m(), r = t.f
+            if ((s & 127) < r ) {
+                t.f = C.b.v(r + 1, 2)
+                s = C.c.K(O.c("fuXr"), $.lb())
+                r = t.r
+                u = d.a
+                u.push(T.e(s, r, r, null, null, 80, 1500, 100))
+                t.r.fr = (c.m() & 15) + 300
                 r = O.c("YmSv")
                 s = t.r
                 u.push(T.e(r, s, T.a1(s, 0), new T.aG(t.r.fr), null, 0, 1000, 100))
@@ -19793,7 +19823,7 @@ u = new T.hKm()
         t(P.cD, P.l)
         t(Z.hl, Z.ax)
         s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
-        s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
+        s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9 , T.i9m, T.ih, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
         s(T.y, [T.dL, T.hI, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
         s(T.M, [T.bf, T.co, T.dj, T.cG, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade])
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])

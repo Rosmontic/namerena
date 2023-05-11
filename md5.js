@@ -13951,7 +13951,6 @@ T.hKm.prototype = {
                     u.push(T.e("[0]发动[真实的斩击]", r.r, p, q, q, 1, 1000, 100))
                     t = T.u(r.r, !0, c)
                     s = T.u(r.r, !0, c)
-u.push(T.e("[0]:[我将在此，成为英雄]", r.r, p, q, q, 1, 1000, 100))
 
                     if (s > t)
                         t = s
@@ -13959,6 +13958,7 @@ u.push(T.e("[0]:[我将在此，成为英雄]", r.r, p, q, q, 1, 1000, 100))
                     if (s > t)
                         t = s
                     p.bL(t * 4, !0, r.r, T.a3(), c, d)
+u.push(T.e("[0]:[我将在此，成为英雄]", r.r, p, q, q, 1, 1000, 100))
                 }
             }
         },
@@ -17750,7 +17750,6 @@ t.push(u)
             s.push(new T.dV())
             s.push(new T.dX())
             s.push(new T.i9())
-s.push(new T.i9m())
             s.push(new T.ih())
             s.push(new T.bU())
             s.push(new T.i5())

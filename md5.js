@@ -15662,7 +15662,7 @@ T.hha4n2.prototype = {
             d.a5 = new T.cj(d)
             d.af = c
             d.e = T.du(c.r)
-            d.r = O.c("xRWn")
+            d.r = O.c("妖精")
             s = c.r
             d.x = s.x
             s.I.i(0, d.a5)
@@ -15672,7 +15672,7 @@ T.hha4n2.prototype = {
             else
                 d.j = -2048
             c.r.x.aU(d)
-            u.push(T.e("妖精", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+            u.push(T.e("召唤了[妖精]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }
     }
     T.cG.prototype = {

@@ -19315,6 +19315,7 @@ T.tha4b1.prototype = {
                 u = T.u(s.r, !0, f) * 0.5
                 if (u > a)
                     u = a
+g.a.push(T.e(C.c.K("[0]免疫了伤害", $.nj()), s.r, c, null, null, 20, 1500, 100))
                 g.a.push(T.e("[0]免疫了伤害", s.r, c, null, null, 20, 1500, 100))
                 t = s.r
                 t.j = t.j - 480
@@ -19360,7 +19361,7 @@ T.i9m.prototype = {
             var u, t = this, s = c.m(), r = t.f
             if ( r >0) {
                 t.f = 0
-                s = C.c.K("[0]发动[无名的决意]")
+                s = C.c.K("[0]发动[无名的决意], $.lb()")
                 r = t.r
                 u = d.a
                 u.push(T.e(s, r, r, null, null, 80, 1500, 100))

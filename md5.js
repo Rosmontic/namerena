@@ -19315,7 +19315,7 @@ T.tha4b1.prototype = {
                 u = T.u(s.r, !0, f) * 0.5
                 if (u > a)
                     u = a
-                g.a.push(T.e("[0]免疫了伤害", $.nj()), s.r, c, null, null, 20, 1500, 100))
+                g.a.push(T.e("[0]免疫了伤害", s.r, c, null, null, 20, 1500, 100))
                 t = s.r
                 t.j = t.j - 480
                 return 0

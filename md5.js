@@ -15071,16 +15071,14 @@ u.push($.v())
             u.a0(t * 0.7, !0, this.r, T.kV(), c, d)
         }
 }
+
 T.tha5n1.prototype = {
-        a8: function(a, b, c) {
-            var u = this.bw(a, b, c)
-            return a.r1.h(0, $.b8()) != null ? u / 2 : u
-        },
         t: function(a, b, c, d) {
             var u = a[0].a
               , t = T.u(this.r, !0, c)
-            d.a.push(T.e(O.c("qctf"), this.r, u, null, null, 1, 1000, 100))
+            d.a.push(T.e(O.c("[0]使用冰符「冰瀑」"), this.r, u, null, null, 1, 1000, 100))
             u.a0(t * 1.1, !0, this.r, T.kV(), c, d)
+
         }
 }
     T.i1.prototype = {

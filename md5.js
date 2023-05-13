@@ -15601,16 +15601,11 @@ T.hha4n2.prototype = {
             u.r = this
             this.k2 = u
         },
-        aR: function() {
-            this.bv()
-            var u = this.u
-            u[7] = C.d.v(u[7], 2)
-        }
     }
     T.tha4n2.prototype = {
         ar: function(a, b) {
             if (b)
-                if (this.r.fr < 80)
+                if (this.r.fr < 40)
                     return !1
             return this.aS(a, b)
         },
@@ -15621,7 +15616,7 @@ T.hha4n2.prototype = {
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null
             c.f = C.d.Z(c.f * 0.8)
             u = a2.a
-            u.push(T.e(O.c("EwPC"), c.r, b, b, b, 60, 1000, 100))
+            u.push(T.e("使用[妖精的声援]", c.r, b, b, b, 60, 1000, 100))
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
             r = s.b
@@ -15662,7 +15657,7 @@ T.hha4n2.prototype = {
             d.a5 = new T.cj(d)
             d.af = c
             d.e = T.du(c.r)
-            d.r = O.c("xRWn")
+            d.r = O.c("妖精")
             s = c.r
             d.x = s.x
             s.I.i(0, d.a5)

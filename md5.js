@@ -14946,6 +14946,41 @@ u.push($.v())
             p.push(T.e(O.c("YmSv"), q.r, T.a1(u, r), new T.aG(t), null, 0, 1000, 100))
             u.bI(q.r, d)
         }
+}
+T.tha5n1.prototype = {
+        b5: function(a) {
+            return a.b1(this.r.y.f)
+        },
+        am: function(a, b) {
+            if (b)
+                return a.fr + 80 < a.fx
+            return a.fr < a.fx
+        },
+        a8: function(a, b, c) {
+            var u = {}
+            if (b) {
+                u.a = a.fx - a.fr
+                a.r1.ap(0, new T.hY(u))
+                return u.a = u.a * a.L
+            }
+            return c.gbh()
+        },
+        t: function(a, b, c, d) {
+            var u, t, s, r, q = this, p = q.f
+            if (p > 8)
+                q.f = p - 1
+            u = a[0].a
+            t = C.e.Z(T.u(q.r, !0, c) / 50)
+            s = u.fx - u.fr
+            if (t > s)
+                t = s
+            p = d.a
+            p.push(T.e("[0]使用[妖精的祈愿]", q.r, u, null, null, t, 1000, 100))
+            r = u.fr
+            u.fr = r + t
+            p.push(T.e(O.c("YmSv"), q.r, T.a1(u, r), new T.aG(t), null, 0, 1000, 100))
+            u.bI(q.r, d)
+        }
     }
     T.tigerRecover.prototype = {
         b5: function(a) {
@@ -15070,7 +15105,17 @@ u.push($.v())
             d.a.push(T.e(O.c("qctf"), this.r, u, null, null, 1, 1000, 100))
             u.a0(t * 0.7, !0, this.r, T.kV(), c, d)
         }
-    }
+}
+
+T.tha5n1.prototype = {
+        t: function(a, b, c, d) {
+            var u = a[0].a
+              , t = T.u(this.r, !0, c)
+            d.a.push(T.e(O.c("[0]使用冰符「冰瀑」"), this.r, u, null, null, 1, 1000, 100))
+            u.a0(t * 1.1, !0, this.r, T.kV(), c, d)
+
+        }
+}
     T.i1.prototype = {
         ga1: function() {
             return 4000
@@ -16942,7 +16987,9 @@ T.cirno.prototype = {
             t.r = this
             this.k2 = t
             t = this.id 
-   
+u =new T.tha5n1()
+u.f = 300
+t.push(u)  
 }
 }
 
@@ -20215,7 +20262,7 @@ T.i9m.prototype = {
         t(Z.hl, Z.ax)
         s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
         s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9 , T.i9m, T.ih, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
-        s(T.y, [T.dL, T.hI, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
+        s(T.y, [T.dL, T.hI, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.tha5n1, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tha4n1, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
         s(T.M, [T.bf, T.co, T.dj, T.cG, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade])
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
         s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])

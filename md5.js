@@ -15070,7 +15070,19 @@ u.push($.v())
             d.a.push(T.e(O.c("qctf"), this.r, u, null, null, 1, 1000, 100))
             u.a0(t * 0.7, !0, this.r, T.kV(), c, d)
         }
-    }
+}
+T.tha5n1.prototype = {
+        a8: function(a, b, c) {
+            var u = this.bw(a, b, c)
+            return a.r1.h(0, $.b8()) != null ? u / 2 : u
+        },
+        t: function(a, b, c, d) {
+            var u = a[0].a
+              , t = T.u(this.r, !0, c)
+            d.a.push(T.e(O.c("qctf"), this.r, u, null, null, 1, 1000, 100))
+            u.a0(t * 1.1, !0, this.r, T.kV(), c, d)
+        }
+}
     T.i1.prototype = {
         ga1: function() {
             return 4000
@@ -16942,7 +16954,9 @@ T.cirno.prototype = {
             t.r = this
             this.k2 = t
             t = this.id 
-   
+u =new T.tha5n1()
+u.f = 300
+t.push(u)  
 }
 }
 
@@ -20215,7 +20229,7 @@ T.i9m.prototype = {
         t(Z.hl, Z.ax)
         s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
         s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9 , T.i9m, T.ih, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
-        s(T.y, [T.dL, T.hI, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
+        s(T.y, [T.dL, T.hI, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.tha5n1, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
         s(T.M, [T.bf, T.co, T.dj, T.cG, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade])
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
         s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])

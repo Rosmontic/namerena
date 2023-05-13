@@ -15574,7 +15574,7 @@ T.tha4n1.prototype = {
             f.c = f
             f.b = f
             e = [P.j]
-            d = new T.hha4n2(t,r,s,b,q,p,o,n,m,l,k,j,i,h,g,f,H.a([], e),H.a([], e),H.a([], e),H.a([], e))
+            d = new T.hh(t,r,s,b,q,p,o,n,m,l,k,j,i,h,g,f,H.a([], e),H.a([], e),H.a([], e),H.a([], e))
             d.Y(t, r, s, b)
             d.a5 = new T.cj(d)
             d.af = c
@@ -15601,6 +15601,11 @@ T.hha4n2.prototype = {
             u.r = this
             this.k2 = u
         },
+        aR: function() {
+            this.bv()
+            var u = this.u
+            u[7] = C.d.v(u[7], 1)
+        }
     }
     T.tha4n2.prototype = {
         ar: function(a, b) {
@@ -15617,7 +15622,7 @@ T.hha4n2.prototype = {
             c.f = C.d.Z(c.f * 0.8)
             u = a2.a
             u.push(T.e("[0]发动[妖精的声援]", c.r, b, b, b, 60, 1000, 100))
-            t = H.d(c.r.a) + "?" + H.d($.nn())
+            t = H.d(c.r.a) + "妖精" + H.d($.nn())
             s = c.r
             r = s.b
             s = s.c
@@ -15652,12 +15657,12 @@ T.hha4n2.prototype = {
             f.c = f
             f.b = f
             e = [P.j]
-            d = new T.hh(t,r,s,b,q,p,o,n,m,l,k,j,i,h,g,f,H.a([], e),H.a([], e),H.a([], e),H.a([], e))
+            d = new T.a4n2hh(t,r,s,b,q,p,o,n,m,l,k,j,i,h,g,f,H.a([], e),H.a([], e),H.a([], e),H.a([], e))
             d.Y(t, r, s, b)
             d.a5 = new T.cj(d)
             d.af = c
             d.e = T.du(c.r)
-            d.r = O.c("妖精")
+            d.r = O.c("xRWn")
             s = c.r
             d.x = s.x
             s.I.i(0, d.a5)

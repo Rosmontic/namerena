@@ -15662,7 +15662,7 @@ T.hha4n2.prototype = {
             d.a5 = new T.cj(d)
             d.af = c
             d.e = T.du(c.r)
-            d.r = O.c("妖精")
+            d.r = "妖精"
             s = c.r
             d.x = s.x
             s.I.i(0, d.a5)

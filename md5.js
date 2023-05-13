@@ -14976,12 +14976,12 @@ T.tha4n1.prototype = {
             if (p > 8)
                 q.f = p - 1
             u = a[0].a
-            t = C.e.Z(T.u(q.r, !0, c) / 50)
+            t = C.e.Z(T.u(q.r, !0, c) / 40)
             s = u.fx - u.fr
             if (t > s)
                 t = s
             p = d.a
-            p.push(T.e(O.c("[0]使用[妖精的祈愿]"), q.r, u, null, null, t, 1000, 100))
+            p.push(T.e("[0]使用[妖精的祈愿]", q.r, u, null, null, t, 1000, 100))
             r = u.fr
             u.fr = r + t
             p.push(T.e(O.c("YmSv"), q.r, T.a1(u, r), new T.aG(t), null, 0, 1000, 100))

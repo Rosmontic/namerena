@@ -17102,13 +17102,13 @@ T.daiyousei.prototype = {
             this.k2 = t
             t = this.id 
     u = new T.tha4n1()
-u.f = 10
+u.f = 100
 t.push(u)
 u = new T.tha4n2()
-u.f = 10
+u.f = 100
 t.push(u)
 u = new T.tha4b1()
-u.f = 100
+u.f = 200
 t.push(u)
 
 }
@@ -19315,7 +19315,7 @@ T.tha4b1.prototype = {
                 u = T.u(s.r, !0, f) * 0.5
                 if (u > a)
                     u = a
-g.a.push(T.e(C.c.K("[0]免疫了伤害[1]", $.nj()), s.r, c, null, null, 20, 1500, 100))
+g.a.push(T.e(C.c.K("[0]免疫", $.nj()), s.r, c, null, null, 20, 1500, 100))
 c.a0(0, !0, s.r, e, f, g)
                 t = s.r
                 t.j = t.j - 480

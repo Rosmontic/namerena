@@ -15587,6 +15587,7 @@ T.tha4s1.prototype = {
 r.push(T.e("[0]消散了", n.r, u, m, m, 1, 1000, 100))
 n.r.fr=0
 n.r.bf(n.r.fr, null, c, d)
+r.push(T.e("[0]消散了", n.r.fr, u, m, m, 1, 1000, 100))
         }
     }
 

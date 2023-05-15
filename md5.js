@@ -15968,11 +15968,18 @@ T.tha4s1.prototype = {
                 C.a.i(q.f, u)
             }
             r.push(T.e(O.c("YmSv"), n.r, T.a1(u, 0), new T.aG(t), m, 0, 1000, 100))
-r.push(T.e("[0]消散了", n.r, u, m, m, 1, 1000, 100))
-n.r.bf(n.r.fr, null, c, d)
-n.r.fr=0
+            if (n.r.fr > 0) {
+                n.r.fr = 0
+                t.push($.v())
+                t.push(T.e("[1]消失了", n.r, T.a1(n.r, n.r.fr), new T.aT(n.r.fr), u, n.r.fr + 80, 1000, 100))
+                u.bf(n.r.fr, n.r, a, b)
+            }
+        },
+        $ip: 1
         }
-    }
+
+
+    
 
     T.i7.prototype = {
         ai: function(a, b) {

@@ -15557,7 +15557,7 @@ T.tha4s1.prototype = {
             return c.gbh()
         },
         t: function(a, b, c, d) {
-            var u, t, s, r, q, p, o, n = this, m = null,v= n.fr
+            var u, t, s, r, q, p, o, n = this, m = null
             n.f = C.b.v(n.f + 1, 2)
             u = a[0].a
             t = C.e.Z(T.u(n.r, !0, c) / 75)
@@ -15565,7 +15565,7 @@ T.tha4s1.prototype = {
             if (s = u.fx)
                 t = s
             r = d.a
-            r.push(T.e("[0]使用捏造「科廷利的花仙子」", n.r, u, m, m, 1, 1000, 100))
+            r.push(T.e("[0]使用[捏造「科廷利的花仙子」]", n.r, u, m, m, 1, 1000, 100))
             r.push(T.e(C.c.K(O.c("ldpQ"), $.lb()), n.r, u, m, m, t + 60, 1000, 100))
             u.fr = t
             q = u.x
@@ -17209,16 +17209,16 @@ T.daiyousei.prototype = {
             this.k2 = t
             t = this.id 
 u = new T.tha4n1()
-u.f = 100
+u.f = 0
 t.push(u)
 u = new T.tha4n2()
-u.f = 100
+u.f = 0
 t.push(u)
 u = new T.tha4n3()
-u.f = 100
+u.f = 0
 t.push(u)
 u = new T.tha4s1()
-u.f = 100
+u.f = 1000
 t.push(u)
 u = new T.tha4b1()
 u.f = 100
@@ -20889,7 +20889,7 @@ T.i9m.prototype = {
         C.S = H.a(u([6, 21, 5, 19, 38, 21, 12, 62]), [P.j])
         C.P = H.a(u([10, 9, 0, 12, 0, 12, 0, 60]), [P.j])
         C.T = H.a(u([26, 31, 46, 9, 40, 5, 32, 24]), [P.j])
-        C.Q = H.a(u([40, 30, 40, 10, 35, 4, 40, 96]), [P.j])
+        C.Q = H.a(u([40, 30, 40, 10, 35, 4, 40, 96]), [P.j])	
         C.R = H.a(u([48, 28, 21, 45, 10, 19, 33, 150]), [P.j])
         C.O = H.a(u([72, 39, 69, 76, 67, 66, 0, 84]), [P.j])
         C.tigershark = H.a(u([62, 49, 89, 86, 77, 76, 30, 120]), [P.j])
@@ -20897,8 +20897,8 @@ T.i9m.prototype = {
         C.hell = H.a(u([20, 20, 60, 50, 20, 20, 90, 120]), [P.j])
 C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
-C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 152]), [P.j])
-C.cirno = H.a(u([0, 12, 0, 0, 0, 0, 0, 600]), [P.j])
+C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 5052]), [P.j])
+C.cirno = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
         C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])
         C.W = H.a(u([10, -6, 1000, 0, 10, -15, 6, 0]), [P.j])
         C.X = H.a(u(["", "", "", "", "", "", "", "", "", ""]), [P.f])
@@ -22091,4 +22091,3 @@ C.cirno = H.a(u([0, 12, 0, 0, 0, 0, 0, 600]), [P.j])
 }
 )()
 //# sourceMappingURL=md5.js.map
-

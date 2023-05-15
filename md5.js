@@ -15941,7 +15941,7 @@ T.tha4s1.prototype = {
             return c.gbh()
         },
         t: function(a, b, c, d) {
-            var u, t, s, r, q, p, o, n = this, m = null , l
+            var u, t, s, r, q, p, o,l, n = this, m = null
             n.f = C.b.v(n.f + 1, 2)
             u = a[0].a
             t = C.e.Z(T.u(n.r, !0, c) / 75)
@@ -15968,25 +15968,12 @@ T.tha4s1.prototype = {
                 C.a.i(q.f, u)
             }
             r.push(T.e(O.c("YmSv"), n.r, T.a1(u, 0), new T.aG(t), m, 0, 1000, 100))
+r.push(T.e("[0]消散了", n.r, u, m, m, 1, 1000, 100))
+n.r.bf(n.r.fr, null, c, d)
+l=n.r.fr
+n.r.fr-=l
         }
-H: function(a, b) {
-            var u, t, s
-            u = this.x
-            if (u.fr > 0) {
-                s = u.fr
-                u.fr = 0
-                t = b.a
-                t.push($.v())
-                t.push(T.ap("[1]的[修罗轮回]结束", null, u))
-                t.push(T.e("[1]生命力[耗尽]", u, T.a1(u, s), new T.aT(s), u, s + 80, 1000, 100))
-                u.bf(s, u, a, b)
-            }
-        },
-        $ip: 1
     }
-
-
-    
 
     T.i7.prototype = {
         ai: function(a, b) {
@@ -17605,10 +17592,8 @@ T.rumia.prototype = {
             var u, t = new T.aK()
             t.r = this
             this.k2 = t
-            t = this.id
-u = new T.ik()
-u.f = 300
-t.push(u) 
+            t = this.id 
+
 }
 }
 T.daiyousei.prototype = {

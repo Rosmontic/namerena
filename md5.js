@@ -6267,6 +6267,12 @@ hKm: function hKm() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
+tha4n3: function tha4n3() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
         darkHaste: function darkHaste() {
             var _ = this
             _.e = !1
@@ -14921,6 +14927,53 @@ u.push($.v())
             }
             p.push(T.e(C.c.K(O.c("TxmT"), $.nf()), s.r, q, r, r, 0, 1000, 100))
         }
+}
+T.tha4n3.prototype = {
+        b5: function(a) {
+            return a.b1(this.r.y.f)
+        },
+        am: function(a, b) {
+            var u
+            if (b) {
+                if (a.fr < 60)
+                    return !1
+                u = a.r1
+                if (u.h(0, $.c5()) != null && (H.o(u.h(0, $.c5()), "$ico").Q + 1) * 60 > a.fr)
+                    return !1
+                return !a.$iav
+            }
+            return !0
+        },
+        a8: function(a, b, c) {
+            var u
+            if (b) {
+                u = T.d5(a) * a.L
+                return a.r1.h(0, $.c5()) != null ? u / 2 : u
+            }
+            return c.gbh()
+        },
+        t: function(a, b, c, d) {
+            var u, t, s = this, r = null, q = a[0].a, p = d.a
+            p.push(T.e("发动「妖精的策动」", s.r, q, r, r, 60, 1000, 100))
+            u = s.r
+            u.j = u.j + u.cx
+            u = q.r1
+            t = H.o(u.h(0, $.c5()), "$ico")
+            if (t == null) {
+                t = new T.co(q)
+                t.y = new T.ay(t)
+                u.k(0, $.c5(), t)
+                q.r2.i(0, t)
+                q.x1.i(0, t.y)
+                q.E()
+            } else
+                t.Q += 4
+            if (s.r.r1.G(0, $.X())) {
+                t.z += 2
+                t.Q += 2
+            }
+            p.push(T.e(C.c.K(O.c("TxmT"), $.nf()), s.r, q, r, r, 0, 1000, 100))
+        }
     }
     T.darkHaste.prototype = {
         b5: function(a) {
@@ -17101,16 +17154,18 @@ T.daiyousei.prototype = {
             t.r = this
             this.k2 = t
             t = this.id 
-    u = new T.tha4n1()
+u = new T.tha4n1()
 u.f = 100
 t.push(u)
 u = new T.tha4n2()
 u.f = 100
 t.push(u)
+u = new T.tha4n3()
+u.f = 100
+t.push(u)
 u = new T.tha4b1()
 u.f = 200
 t.push(u)
-
 }
 }
 T.cirno.prototype = {
@@ -20420,7 +20475,7 @@ T.i9m.prototype = {
         t(Z.hl, Z.ax)
         s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
         s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.tha4b1, T.i9 , T.i9m, T.ih, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
-        s(T.y, [T.dL, T.hI, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.tha4n1, T.tha4n2, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
+        s(T.y, [T.dL, T.hI, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.tha4n3, T.dS, T.tha4n1, T.tha4n2, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
         s(T.M, [T.bf, T.co, T.dj, T.cG, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade])
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
         s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])

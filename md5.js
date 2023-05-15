@@ -15970,8 +15970,8 @@ T.tha4s1.prototype = {
             r.push(T.e(O.c("YmSv"), n.r, T.a1(u, 0), new T.aG(t), m, 0, 1000, 100))
             
                 n.r.fr =0
-                t.push($.v())
-                t.push(T.e("[0]消失了", n.r, T.a1(n.r, n.r.fr), new T.aT(n.r.fr), n.r, n.r.fr + 80, 1000, 100))
+                r.push($.v())
+                r.push(T.e("[0]消失了", n.r, T.a1(n.r, n.r.fr), new T.aT(n.r.fr), n.r, n.r.fr + 80, 1000, 100))
                 u.bf(n.r.fr, n.r, a, b)
             
         },

@@ -15972,7 +15972,7 @@ T.tha4s1.prototype = {
                 n.r.fr =0
                 r.push($.v())
                 r.push(T.e("[0]消失了[1][2]", n.r, T.a1(n.r, n.r.fr), new T.aT(n.r.fr), n.r, n.r.fr + 80, 1000, 100))
-                u.bf(n.r.fr, n.r, a, b)
+                u.bf(n.r.fr, n.r, c, d)
             
         },
         $ip: 1

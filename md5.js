@@ -17591,8 +17591,10 @@ T.rumia.prototype = {
             var u, t = new T.aK()
             t.r = this
             this.k2 = t
-            t = this.id 
-
+            t = this.id
+u = new T.ik()
+u.f = 300
+t.push(u) 
 }
 }
 T.daiyousei.prototype = {
@@ -21355,7 +21357,7 @@ T.i9m.prototype = {
         C.hell = H.a(u([20, 20, 60, 50, 20, 20, 90, 120]), [P.j])
 C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
-C.rumia = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
+C.rumia = H.a(u([0, 12, 0, 0, 0, 0, 0, 4000]), [P.j])
 C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 5052]), [P.j])
 C.cirno = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.hong = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])

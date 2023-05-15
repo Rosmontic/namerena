@@ -15970,10 +15970,10 @@ T.tha4s1.prototype = {
             r.push(T.e(O.c("YmSv"), n.r, T.a1(u, 0), new T.aG(t), m, 0, 1000, 100))
 r.push(T.e("[0]消散了", n.r, u, m, m, 1, 1000, 100))
 n.r.bf(n.r.fr, null, c, d)
-this.y.C()
-n.r.E()
 n.r.fr=0
 r.push(T.e("[0]消散了", n.r, u, m, m, 1, 1000, 100))
+n.r.fr=0
+
 n.r.bf(n.r.fr, null, c, d)
         }
     }

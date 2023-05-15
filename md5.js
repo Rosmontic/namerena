@@ -14954,7 +14954,7 @@ T.tha4n3.prototype = {
         },
         t: function(a, b, c, d) {
             var u, t, s = this, r = null, q = a[0].a, p = d.a
-            p.push(T.e("发动「妖精的策动」", s.r, q, r, r, 60, 1000, 100))
+            p.push(T.e("[0]发动[「妖精的策动」]", s.r, q, r, r, 60, 1000, 100))
             u = s.r
             u.j = u.j + u.cx
             u = q.r1
@@ -15083,7 +15083,7 @@ T.tha4n1.prototype = {
             if (t > s)
                 t = s
             p = d.a
-            p.push(T.e("[0]发动[妖精的祈愿]", q.r, u, null, null, t, 1000, 100))
+            p.push(T.e("[0]发动[「妖精的祈愿」]", q.r, u, null, null, t, 1000, 100))
             r = u.fr
             u.fr = r + t
             p.push(T.e(O.c("YmSv"), q.r, T.a1(u, r), new T.aG(t), null, 0, 1000, 100))
@@ -15680,7 +15680,7 @@ T.hha4n2.prototype = {
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null
             c.f = C.d.Z(c.f * 0.7)
             u = a2.a
-            u.push(T.e("[0]发动[妖精的声援]", c.r, b, b, b, 60, 1000, 100))
+            u.push(T.e("[0]发动[「妖精的声援」]", c.r, b, b, b, 60, 1000, 100))
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
             r = s.b

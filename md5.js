@@ -16643,10 +16643,10 @@ T.hha4n2.prototype = {
 }
 T.tha5n2.prototype = {
         gb3: function() {
-            return 5
+            return 2
         },
         gb4: function() {
-            return 6
+            return 3
         },
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o, n = H.a([], [T.aU])
@@ -17703,7 +17703,7 @@ u = new T.tha5n1()
 u.f = 100
 t.push(u)
 u = new T.tha5n2()
-u.f = 80
+u.f = 800
 t.push(u)
 
 }
@@ -21426,7 +21426,7 @@ C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
 C.rumia = H.a(u([100, 12, 0, 0, 0, 0, 0, 4000]), [P.j])
 C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 5052]), [P.j])
-C.cirno = H.a(u([50, 12, 0, 0, 0, 0, 0, 10]), [P.j])
+C.cirno = H.a(u([50, 12, 0, 0, 0, 0, 0, 700]), [P.j])
 C.hong = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.koakuma = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.patchouli = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])

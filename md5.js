@@ -16643,7 +16643,7 @@ T.hha4n2.prototype = {
 }
 T.tha5n2.prototype = {
         gb3: function() {
-            return 2
+            return 3
         },
         gb4: function() {
             return 3
@@ -16657,7 +16657,7 @@ T.tha5n2.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 0.75
+            p = T.u(this.r, !0, c) * 0.7
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
                 if (o.fr > 0) {
@@ -21426,7 +21426,7 @@ C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
 C.rumia = H.a(u([100, 12, 0, 0, 0, 0, 0, 4000]), [P.j])
 C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 5052]), [P.j])
-C.cirno = H.a(u([50, 12, 0, 0, 0, 0, 0, 700]), [P.j])
+C.cirno = H.a(u([50, 50, 50, 50, 50, 50, -33, 700]), [P.j])
 C.hong = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.koakuma = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.patchouli = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])

@@ -15968,7 +15968,7 @@ T.tha4s1.prototype = {
                 C.a.i(q.f, u)
             }
             r.push(T.e(O.c("YmSv"), n.r, T.a1(u, 0), new T.aG(t), m, 0, 1000, 100))
-d.a.push($.v())
+r.push(T.e("[0][1]：大！酱！", u, u.r, m, m, 1, 1000, 100))
 if(u="cirno@!")
 {
 u.Q = u.Q + u.Q 

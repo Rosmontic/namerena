@@ -15974,14 +15974,14 @@ if(u="cirno@!")
 u.Q = u.Q + u.Q 
 u.ch = u.ch + u.ch
 u.cy = u.cy + u.cy
-u.db = u.db + u.db
-u.dx = u.dx + u.dx
+u.db = u.db + u.db+1000
+u.dx = u.dx + u.dx+1000
 u.cx = u.cx + u.cx
 r.push(T.e("[0]：[琪露诺酱]！这是我最后的波纹了！", n.r, u.r, m, m, 1, 1000, 100))
-r.push(T.e("[1]属性增加了[0]", u.ch, u, m, m, 1, 1000, 100))
+r.push(T.e("[琪露诺]的属性增加了", u.ch, u, m, m, 1, 1000, 100))
 d.a.push($.v())
 
-r.push(T.e("[琪露诺]：大！酱！", n.r, u.r, m, m, 1, 1000, 100))
+r.push(T.e("[1]：大！酱！", n.r, u.r, m, m, 1, 1000, 100))
 }
 r.push(T.e("[0]灵力耗尽", n.r, u, m, m, 1, 1000, 100))
 n.r.fr=0

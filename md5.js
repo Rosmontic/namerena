@@ -15968,11 +15968,12 @@ T.tha4s1.prototype = {
                 C.a.i(q.f, u)
             }
 r.push(T.e("[0]：[琪露诺酱]！这是我最后的波纹了！", n.r, u, m, m, 0, 1000, 100))
+d.a.push($.v())
 r.push(T.e("[1]的属性增加了", n.r, u, m, m, 0, 1000, 100))
 d.a.push($.v())	
-r.push(T.e("[1]：大！酱！", n.r, u, m, m, 0, 1000, 100))
-u.r.db = 900
-r.push(T.e("[0]灵力耗尽[1]", n.r, u.r.db, m, m, 0, 1000, 100))
+r.push(T.e("[1]：大！酱！[0]", this.ci, u, m, m, 0, 1000, 100))
+d.a.push($.v())
+r.push(T.e("[0]灵力耗尽[1]", this.id, this.id[0], m, m, 0, 1000, 100))
 n.r.fr=0
 n.r.bf(n.r.fr, null, c, d)
 

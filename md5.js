@@ -16652,12 +16652,12 @@ T.tha5n2.prototype = {
             var u, t, s, r, q, p, o, n = H.a([], [T.aU])
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
-            t = "雪符「钻石风暴」"
+            t = "[0]使用[雪符「钻石风暴」]"
             s = this.r
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 0.65
+            p = T.u(this.r, !0, c) * 0.75
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
                 if (o.fr > 0) {

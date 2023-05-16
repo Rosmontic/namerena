@@ -14968,7 +14968,7 @@ T.tha5n1.prototype = {
             t = a[0].a
             r = T.u(u.r, !1, c)
             d.a.push(T.e("[0]使用[冰符「冰瀑」]", u.r, t, null, null, 1, 1000, 100))
-            t.a0(s, !1, u.r, T.kV(), c, d)
+            t.a0(t, !1, u.r, T.kV(), c, d)
         }
 }
     T.cg.prototype = {
@@ -15999,8 +15999,8 @@ d.a.push($.v())
 r.push(T.e("[1]：大！酱！", n.r, u, m, m, 0, 1000, 100))
 d.a.push($.v())
 }
-r.push(T.e("[1]灵力散尽", n.r, T.a1(n.r, n.r.fr) , m, m, 0, 1000, 100))
 n.r.fr=0
+r.push(T.e("[1]灵力散尽", n.r, T.a1(n.r, n.r.fr) , m, m, 0, 1000, 100))
 n.r.bf(n.r.fr, null, c, d)
         }
     }

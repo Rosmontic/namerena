@@ -15973,7 +15973,7 @@ r.push(T.e("[1]的属性增加了", n.r, u, m, m, 0, 1000, 100))
 d.a.push($.v())	
 r.push(T.e("[1]：大！酱！[0]", this.ci, u, m, m, 0, 1000, 100))
 d.a.push($.v())
-r.push(T.e("[0]灵力耗尽[1]", this.id, this.id[0], m, m, 0, 1000, 100))
+r.push(T.e("[0]灵力耗尽[1]", this.id[1], this.id[0], m, m, 0, 1000, 100))
 n.r.fr=0
 n.r.bf(n.r.fr, null, c, d)
 

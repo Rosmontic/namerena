@@ -15969,16 +15969,6 @@ u.push($.v())
                 C.a.i(q.f, u)
             }
             r.push(T.e(O.c("YmSv"), n.r, T.a1(u, 0), new T.aG(t), m, 0, 1000, 100))
-if(1)
-{
-u.Q = u.Q + u.Q 
-u.ch = u.ch + u.ch
-u.cy = u.cy + u.cy
-u.db = u.db + u.db
-u.dx = u.dx + u.dx
-u.cx = u.cx + u.cx
-r.push(T.e("[0][1]属性增加了", n.r, u, m, m, 1, 1000, 100))
-}
 u.push($.v())
 r.push(T.e("[0]灵力耗尽", n.r, u, m, m, 1, 1000, 100))
 n.r.fr=0

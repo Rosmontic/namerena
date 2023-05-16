@@ -15968,17 +15968,11 @@ T.tha4s1.prototype = {
                 C.a.i(q.f, u)
             }
             r.push(T.e(O.c("YmSv"), n.r, T.a1(u, 0), new T.aG(t), m, 0, 1000, 100))
-u.Q = u.Q +1000
-u.ch = u.ch +1000
-u.cy = u.cy +1000
-u.db = u.db +1000
-u.dx = u.dx +1000
-u.cx = u.cx +1000
 r.push(T.e("[0]：[琪露诺酱]！这是我最后的波纹了！", n.r, u.r, m, m, 1, 1000, 100))
-r.push(T.e("[1]的属性增加了", u.ch, u, m, m, 1, 1000, 100))
+r.push(T.e("[1]的属性增加了", n.r, u, m, m, 1, 1000, 100))
 d.a.push($.v())
 
-r.push(T.e("[1]：大！酱！", n.r, u.r, m, m, 1, 1000, 100))
+r.push(T.e("[1]：大！酱！", n.r, u, m, m, 1, 1000, 100))
 
 r.push(T.e("[0]灵力耗尽", n.r, u, m, m, 1, 1000, 100))
 n.r.fr=0

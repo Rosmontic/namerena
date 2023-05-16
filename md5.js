@@ -15950,7 +15950,6 @@ T.tha4s1.prototype = {
                 t = s
             r = d.a
             r.push(T.e("[0]使用[捏造「科廷利的花仙子」]", n.r, u, m, m, 1, 1000, 100))
-r.push($.v())
             r.push(T.e(C.c.K(O.c("ldpQ"), $.lb()), n.r, u, m, m, t + 60, 1000, 100))
             u.fr = t
             q = u.x
@@ -15979,7 +15978,6 @@ u.dx = u.dx + u.dx
 u.cx = u.cx + u.cx
 r.push(T.e("[0][1]属性增加了", n.r, u, m, m, 1, 1000, 100))
 }
-r.push($.v())
 r.push(T.e("[0]灵力耗尽", n.r, u, m, m, 1, 1000, 100))
 n.r.fr=0
 n.r.bf(n.r.fr, null, c, d)

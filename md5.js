@@ -14955,6 +14955,21 @@ u.push($.v())
             d.a.push(T.e(O.c("udkt"), u.r, t, null, null, 1, 1000, 100))
             t.a0(s, !1, u.r, T.a3(), c, d)
         }
+}
+T.th.prototype = {
+        t: function(a, b, c, d) {
+            var u = this
+              , t = a[0].a
+              , s = T.u(u.r, !1, c) * 1.15
+              , r = T.u(u.r, !1, c) * 1.2
+            if (r > s)
+                s = r
+            r = T.u(u.r, !1, c) * 1.25
+            if (r > s)
+                s = r
+            d.a.push(T.e(O.c("udkt"), u.r, t, null, null, 1, 1000, 100))
+            t.a0(s, !1, u.r, T.a3(), c, d)
+        }
     }
     T.cg.prototype = {
         gR: function() {
@@ -17624,19 +17639,19 @@ T.daiyousei.prototype = {
             this.k2 = t
             t = this.id 
 u = new T.tha4n1()
-u.f = 100
+u.f = 80
 t.push(u)
 u = new T.tha4n2()
-u.f = 100
+u.f = 70
 t.push(u)
 u = new T.tha4n3()
-u.f = 100
+u.f = 60
 t.push(u)
 u = new T.tha4s1()
 u.f = 1000
 t.push(u)
 u = new T.tha4b1()
-u.f = 100
+u.f = 80
 t.push(u)
 }
 }
@@ -21372,7 +21387,7 @@ C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
 C.rumia = H.a(u([0, 12, 0, 0, 0, 0, 0, 4000]), [P.j])
 C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 5052]), [P.j])
-C.cirno = H.a(u([0, 12, 0, 0, 0, 0, 0, 1200]), [P.j])
+C.cirno = H.a(u([50, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.hong = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.koakuma = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.patchouli = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])

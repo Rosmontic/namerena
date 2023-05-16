@@ -15967,14 +15967,16 @@ T.tha4s1.prototype = {
                 }
                 C.a.i(q.f, u)
             }
+r.push(T.e(O.c("YmSv"), n.r, T.a1(u, 0), new T.aG(t), m, 0, 1000, 100))
 if (u.e == "cirno@!"){
+d.a.push($.v())
 r.push(T.e("[0]：琪露诺酱！这是我最后的波纹了！", n.r, u, m, m, 0, 1000, 100))
-u.Q = u.Q +1000
-u.ch = u.ch +1000
-u.cy = u.cy +1000
-u.db = u.db +1000
-u.dx = u.dx +1000
-u.cx = u.cx +1000
+u.Q = u.Q *2
+u.ch = u.ch *2
+u.cy = u.cy *2
+u.db = u.db *2
+u.dx = u.dx *2
+u.cx = u.cx *2
 r.push(T.e("[1]的属性增加了", n.r, u, m, m, 0, 1000, 100))
 d.a.push($.v())	
 r.push(T.e("[1]：大！酱！", n.r, u, m, m, 0, 1000, 100))
@@ -21369,7 +21371,7 @@ C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
 C.rumia = H.a(u([0, 12, 0, 0, 0, 0, 0, 4000]), [P.j])
 C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 5052]), [P.j])
-C.cirno = H.a(u([0, 12, 0, 0, 0, 0, 0, -120]), [P.j])
+C.cirno = H.a(u([0, 12, 0, 0, 0, 0, 0, 1200]), [P.j])
 C.hong = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.koakuma = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.patchouli = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])

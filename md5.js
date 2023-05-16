@@ -6373,7 +6373,7 @@ hKm: function hKm() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
-Tha5n1: function tha5n1() {
+tha5n1: function tha5n1() {
             var _ = this
             _.e = !1
             _.f = 0
@@ -14970,7 +14970,7 @@ T.tha5n1.prototype = {
               , r = T.u(u.r, !1, c) * 1.2
             if (r > s)
                 s = r
-            r = T.u(u.r, !1, c)
+            r = T.u(u.r, !1, c) * 1.25
             if (r > s)
                 s = r
             d.a.push(T.e(O.c("udkt"), u.r, t, null, null, 1, 1000, 100))
@@ -15993,7 +15993,7 @@ T.tha4s1.prototype = {
 r.push(T.e(O.c("YmSv"), n.r, T.a1(u, 0), new T.aG(t), m, 0, 1000, 100))
 if (u.e == "cirno@!"){
 d.a.push($.v())
-r.push(T.e("[0]：琪露诺酱！这是我最后的波纹了！", n.r, u, m, m, 0, 1000, 100))
+r.push(T.e("[0]：琪露诺酱！这是我最后的灵力了！", n.r, u, m, m, 0, 1000, 100))
 u.Q = u.Q *2
 u.ch = u.ch *2
 u.cy = u.cy *2
@@ -17674,7 +17674,7 @@ T.cirno.prototype = {
             this.k2 = t
             t = this.id 
 u = new T.tha5n1()
-u.f = 280
+u.f = 180
 t.push(u)
 }
 }

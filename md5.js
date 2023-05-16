@@ -14956,21 +14956,7 @@ u.push($.v())
             t.a0(s, !1, u.r, T.a3(), c, d)
         }
 }
-T.th.prototype = {
-        t: function(a, b, c, d) {
-            var u = this
-              , t = a[0].a
-              , s = T.u(u.r, !1, c) * 1.15
-              , r = T.u(u.r, !1, c) * 1.2
-            if (r > s)
-                s = r
-            r = T.u(u.r, !1, c) * 1.25
-            if (r > s)
-                s = r
-            d.a.push(T.e(O.c("udkt"), u.r, t, null, null, 1, 1000, 100))
-            t.a0(s, !1, u.r, T.a3(), c, d)
-        }
-    }
+
     T.cg.prototype = {
         gR: function() {
             return -1

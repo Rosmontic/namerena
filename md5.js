@@ -15977,8 +15977,11 @@ u.cy = u.cy + u.cy
 u.db = u.db + u.db
 u.dx = u.dx + u.dx
 u.cx = u.cx + u.cx
-r.push(T.e("[0]:[1]！这是我最后的波纹了！", n.r, u.r, m, m, 1, 1000, 100))
-r.push(T.e("[1]属性增加了", n.r, u.r, m, m, 1, 1000, 100))
+r.push(T.e("[0]：[琪露诺酱]！这是我最后的波纹了！", n.r, u.r, m, m, 1, 1000, 100))
+r.push(T.e("[1]属性增加了[0]", u.ch, u, m, m, 1, 1000, 100))
+d.a.push($.v())
+
+r.push(T.e("[琪露诺]：大！酱！", n.r, u.r, m, m, 1, 1000, 100))
 }
 r.push(T.e("[0]灵力耗尽", n.r, u, m, m, 1, 1000, 100))
 n.r.fr=0

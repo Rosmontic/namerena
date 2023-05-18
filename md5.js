@@ -16757,11 +16757,7 @@ T.tha5s1.prototype = {
             }
 d.a.push($.v())
 d.a.push(T.e("[0]变[⑨]了", s, null, null, r, 1, 1000, 100))
-this.r.fr=900
-this.r.db=900
-this.r.dx=900
-this.r.ch=900
-this.r.cx=900
+this.r.cx += 9
         }
     }
     T.hellWindAttack.prototype = {
@@ -17798,13 +17794,13 @@ T.cirno.prototype = {
             t = this.id 
 t.push(new T.tha5b1())
 u = new T.tha5n1()
-u.f = 0
+u.f = 45
 t.push(u)
 u = new T.tha5n2()
-u.f = 0
+u.f = 40
 t.push(u)
 u = new T.tha5n3()
-u.f = 0
+u.f = 40
 t.push(u)
 u = new T.tha5s1()
 u.f = 100

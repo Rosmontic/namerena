@@ -16632,9 +16632,8 @@ T.tha5b1.prototype = {
             var u = a > 0
             if (u && J.Q(c, T.kV())) {
                 e.a.push(T.e("[0][免疫]冰冻伤害", this.r, null, null, null, a, 1000, 100))
-                return 0
-            }
-            return u && J.Q(c, T.mA()) ? 0 : a
+                return a=0
+            }  
         },
         T: function() {
             this.r.y1.i(0, this)
@@ -16754,8 +16753,8 @@ T.tha5s1.prototype = {
                     o.a0(p, !0, this.r, T.kV(), c, d)
                 }
             }
-this.dy = 1
-this.cx= this.cx*10
+this.r.dy = 1
+this.r.cx= this.r.cx*10
 q.push(T.e("[0]变[⑨]了", s, null, null, r, 1, 1000, 100))
         }
     }

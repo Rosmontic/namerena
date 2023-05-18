@@ -14980,7 +14980,7 @@ T.tha5n1.prototype = {
             t = a[0].a
             s = T.u(u.r, !1, c)
             d.a.push(T.e("[0]使用[冰符「冰瀑」]", u.r, t, null, null, 1, 1000, 100))
-            t.a0(s*1.1, !1, u.r, T.kV(), c, d)
+            t.a0(s*1.1, !0, u.r, T.kV(), c, d)
         }
 }
     T.cg.prototype = {
@@ -16466,7 +16466,7 @@ T.tha5n3.prototype = {
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o, n = this, m = null, l = a[0].a, k = d.a
             k.push(T.e("[0]使用[冻符「完美冻结」]", n.r, l, m, m, 1, 1000, 100))
-            u = 3 + (c.m() & 3)
+            u = 3
             t = 100 + n.r.cy
             for (s = !1,
             r = 0; r < u; ++r) {
@@ -16480,7 +16480,7 @@ T.tha5n3.prototype = {
                             k.push(T.e(O.c("vVob"), l, n.r, m, m, 0, 1000, 100))
                         return
                     }
-                    t -= 0
+                    t -= 10
                     q = T.u(n.r, !0, c)
                     p = k.length
                     o = n.r

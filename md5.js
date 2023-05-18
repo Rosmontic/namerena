@@ -16484,7 +16484,7 @@ T.tha5n3.prototype = {
                     q = T.u(n.r, !0, c)
                     p = k.length
                     o = n.r
-                    if (l.aA(l.ak(C.e.Z(q * 0.30 / T.cc(l, !0, c)), o, T.kV(), c, d), o, T.kV(), c, d) > 0)
+                    if (l.aA(l.ak(C.e.Z(q * 1.5 / T.cc(l, !0, c)), o, T.kV(), c, d), o, T.kV(), c, d) > 0)
                         s = !0
                     k[p].b = 300
                 }
@@ -16679,10 +16679,10 @@ T.tha5n3.prototype = {
 }
 T.tha5n2.prototype = {
         gb3: function() {
-            return 3
+            return 5
         },
         gb4: function() {
-            return 3
+            return 6
         },
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o, n = H.a([], [T.aU])

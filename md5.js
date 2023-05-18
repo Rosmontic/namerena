@@ -14994,10 +14994,10 @@ T.tha5n1.prototype = {
             t = a[0].a
             s = T.u(u.r, !1, c)
             d.a.push(T.e("[0]使用[冰符「冰瀑」]", u.r, t, null, null, 1, 1000, 100))
-            if (t.r1.G(0, $.b8()))
-            t.a0(s*1.3, !0, u.r, T.kV(), c, d)
-else
-            t.a0(s, !0, u.r, T.kV(), c, d)
+            if (t.r1.G(0, $.b8())){
+            t.a0(s*1.3, !0, u.r, T.kV(), c, d)}
+else{
+            t.a0(s, !0, u.r, T.kV(), c, d)}
         }
 }
     T.cg.prototype = {
@@ -16497,10 +16497,10 @@ T.tha5n3.prototype = {
                             k.push(T.e(O.c("vVob"), l, n.r, m, m, 0, 1000, 100))
                         return
                     }
-                    if (t.r1.G(0, $.b8()))
-                    q = T.u(n.r, !0, c)* 1.3
-                    else
-                    q = T.u(n.r, !0, c)
+                    if (t.r1.G(0, $.b8())){
+                    q = T.u(n.r, !0, c)* 1.3}
+                    else{
+                    q = T.u(n.r, !0, c)}
                     p = k.length
                     o = n.r
                     if (l.aA(l.ak(C.e.Z(q * 0.5 / T.cc(l, !0, c)), o, T.kV(), c, d), o, T.kV(), c, d) > 0)
@@ -16727,10 +16727,10 @@ T.tha5n2.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            if (t.r1.G(0, $.b8()))
-            p = T.u(this.r, !0, c) * 0.91
-            else
-            p = T.u(this.r, !0, c) * 0.7
+            if (t.r1.G(0, $.b8())){
+            p = T.u(this.r, !0, c) * 0.91}
+            else{
+            p = T.u(this.r, !0, c) * 0.7}
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
                 if (o.fr > 0) {
@@ -16756,10 +16756,10 @@ T.tha5s1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            if (t.r1.G(0, $.b8()))
-            p = T.u(this.r, !0, c) * 1.98
-            else
-            p = T.u(this.r, !0, c) * 0.99
+            if (t.r1.G(0, $.b8())){
+            p = T.u(this.r, !0, c) * 1.98}
+            else{
+            p = T.u(this.r, !0, c) * 0.99}
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
                 if (o.fr > 0) {

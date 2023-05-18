@@ -16741,7 +16741,7 @@ T.tha5s1.prototype = {
             var u, t, s, r, q, p, o, n = H.a([], [T.aU])
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
-            t = "[0]使用[冻符「绝对零度」]"
+            t = "[0]使用[冻符「绝对零度」"
             s = this.r
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
@@ -16754,8 +16754,9 @@ T.tha5s1.prototype = {
                     o.a0(p, !0, this.r, T.kV(), c, d)
                 }
             }
-s.dy = s.dy/2
-d.a.push(T.e("[0]变⑨了]", s, null, null, r, 1, 1000, 100))
+this.dy = 1
+this.cx= this.cx*10
+q.push(T.e("[0]变[⑨]了", s, null, null, r, 1, 1000, 100))
         }
     }
     T.hellWindAttack.prototype = {

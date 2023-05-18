@@ -16630,7 +16630,10 @@ T.tha5n3.prototype = {
 T.tha5b1.prototype = {
         ak: function(a, b, c, d, e) {
             var u = a > 0
-        
+         if (u && J.Q(c, T.kV())) {
+                e.a.push(T.e(O.c("bUrB"), this.r, null, null, null, a, 1000, 100))
+                return -a
+            }
             return u && J.Q(c, T.mA()) ? 0 : a
         },
         T: function() {
@@ -16738,10 +16741,8 @@ T.tha5s1.prototype = {
             var u, t, s, r, q, p, o, n = H.a([], [T.aU])
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
-            t = "[0]使用[冻符「绝对零度」"
+            t = "[0]使用[冻符「绝对零度」]"
             s = this.r
-s.dy=1
-s.cx=1999
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))

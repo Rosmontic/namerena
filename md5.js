@@ -16631,10 +16631,11 @@ T.tha5b1.prototype = {
         ak: function(a, b, c, d, e) {
             var u = a > 0
             if (u && J.Q(c, T.kV())) {
-                e.a.push(T.e(O.c("bUrB"), this.r, null, null, null, a, 1000, 100))
-                return -a
+                e.a.push(T.e("[0][免疫]冰冻伤害", this.r, null, null, null, a, 1000, 100))
+a=0
+                return a
             }
-            return u && J.Q(c, T.mA()) ? 0 : a
+            return a
         },
         T: function() {
             this.r.y1.i(0, this)

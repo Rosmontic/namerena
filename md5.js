@@ -6739,6 +6739,12 @@ tha4n2: function tha4n2() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
+tha5n3: function tha5n3() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
         eY: function eY(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
             var _ = this
             _.a = a
@@ -14974,7 +14980,7 @@ T.tha5n1.prototype = {
             t = a[0].a
             s = T.u(u.r, !1, c)
             d.a.push(T.e("[0]使用[冰符「冰瀑」]", u.r, t, null, null, 1, 1000, 100))
-            t.a0(s, !1, u.r, T.kV(), c, d)
+            t.a0(s*1.1, !1, u.r, T.kV(), c, d)
         }
 }
     T.cg.prototype = {
@@ -15907,7 +15913,8 @@ T.tha4n1.prototype = {
                 s = C.b.a3(s + (c.m() & 3), a.length)
             }
         }
-    }
+}
+
     T.ia.prototype = {
         b5: function(a) {
             return a.b1(this.r.y.e)
@@ -16449,6 +16456,35 @@ T.hha4n2.prototype = {
                     p = k.length
                     o = n.r
                     if (l.aA(l.ak(C.e.Z(q * 0.36 / T.cc(l, !0, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
+                        s = !0
+                    k[p].b = 300
+                }
+            }
+        }
+}
+T.tha5n3.prototype = {
+        t: function(a, b, c, d) {
+            var u, t, s, r, q, p, o, n = this, m = null, l = a[0].a, k = d.a
+            k.push(T.e("[0]使用[冻符「完美冻结」]", n.r, l, m, m, 1, 1000, 100))
+            u = 3 + (c.m() & 3)
+            t = 100 + n.r.cy
+            for (s = !1,
+            r = 0; r < u; ++r) {
+                q = n.r
+                if (q.fr > 0 && !q.A && l.fr > 0) {
+                    k.push($.v())
+                    if (l.fr > 0 && !l.A && T.bd(t, l.dx + l.cy, c)) {
+                        if (s)
+                            k.push(T.e(O.c("SYdr"), l, n.r, m, m, 0, 1000, 100))
+                        else
+                            k.push(T.e(O.c("vVob"), l, n.r, m, m, 0, 1000, 100))
+                        return
+                    }
+                    t -= 0
+                    q = T.u(n.r, !0, c)
+                    p = k.length
+                    o = n.r
+                    if (l.aA(l.ak(C.e.Z(q * 0.30 / T.cc(l, !0, c)), o, T.kV(), c, d), o, T.kV(), c, d) > 0)
                         s = !0
                     k[p].b = 300
                 }
@@ -17703,7 +17739,10 @@ u = new T.tha5n1()
 u.f = 100
 t.push(u)
 u = new T.tha5n2()
-u.f = 800
+u.f = 100
+t.push(u)
+u = new T.tha5n3()
+u.f = 100
 t.push(u)
 
 }
@@ -21059,7 +21098,7 @@ T.i9m.prototype = {
         t(Z.hl, Z.ax)
         s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
         s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.tha4b1, T.i9 , T.i9m, T.ih, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
-        s(T.y, [T.dL, T.hI, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.tha5n1,T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.tha4n3, T.dS, T.tha4n1, T.tha4n2, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia ,T.tha4s1, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.tha5n2, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
+        s(T.y, [T.dL, T.hI, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.tha5n1,T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.tha4n3, T.dS, T.tha4n1, T.tha4n2, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia ,T.tha4s1, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.tha5n3, T.dM, T.tha5n2, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
         s(T.M, [T.bf, T.co, T.dj , T.cG, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade])
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
         s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])
@@ -21426,7 +21465,7 @@ C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
 C.rumia = H.a(u([100, 12, 0, 0, 0, 0, 0, 4000]), [P.j])
 C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 5052]), [P.j])
-C.cirno = H.a(u([50, 50, 50, 50, 50, 50, -33, 700]), [P.j])
+C.cirno = H.a(u([50, 50, 50, 50, 50, 50, 33, 700]), [P.j])
 C.hong = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.koakuma = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.patchouli = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])

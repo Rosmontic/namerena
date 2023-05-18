@@ -16763,13 +16763,6 @@ this.r.dx=900
 this.r.ch=900
 this.r.cx=900
 this.r.dy=9
-d.a.push($.v())
-d.a.push(T.e("[0]变[⑨]了", this.r.fr, null, null, r, 1, 1000, 100))
-d.a.push(T.e("[0]变[⑨]了", this.r.db, null, null, r, 1, 1000, 100))
-d.a.push(T.e("[0]变[⑨]了", this.r.dx, null, null, r, 1, 1000, 100))
-d.a.push(T.e("[0]变[⑨]了", this.r.ch, null, null, r, 1, 1000, 100))
-d.a.push(T.e("[0]变[⑨]了", this.r.dy, null, null, r, 1, 1000, 100))
-
         }
     }
     T.hellWindAttack.prototype = {

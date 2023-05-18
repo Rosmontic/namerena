@@ -16497,13 +16497,13 @@ T.tha5n3.prototype = {
                             k.push(T.e(O.c("vVob"), l, n.r, m, m, 0, 1000, 100))
                         return
                     }
-                    if (t.r1.G(0, $.b8())){
+            if (l.r1.G(0, $.b8())){
                     q = T.u(n.r, !0, c)* 1.3}
                     else{
                     q = T.u(n.r, !0, c)}
                     p = k.length
                     o = n.r
-                    if (l.aA(l.ak(C.e.Z(q * 0.5 / T.cc(l, !0, c)), o, T.kV(), c, d), o, T.kV(), c, d) > 0)
+                    if (l.aA(l.ak(C.e.Z(q * 0.6 / T.cc(l, !0, c)), o, T.kV(), c, d), o, T.kV(), c, d) > 0)
                         s = !0
                     k[p].b = 300
                 }
@@ -16727,15 +16727,14 @@ T.tha5n2.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            if (t.r1.G(0, $.b8())){
-            p = T.u(this.r, !0, c) * 0.91}
-            else{
-            p = T.u(this.r, !0, c) * 0.7}
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
                 if (o.fr > 0) {
                     q.push($.v())
-                    o.a0(p, !0, this.r, T.kV(), c, d)
+                    if (o.r1.G(0, $.b8())){
+                        o.a0(1.3*p, !0, this.r, T.kV(), c, d)}
+                        else{
+                            o.a0(p, !0, this.r, T.kV(), c, d)}
                 }
             }
         }
@@ -16764,7 +16763,10 @@ T.tha5s1.prototype = {
                 o = n[u]
                 if (o.fr > 0) {
                     q.push($.v())
-                    o.a0(p, !0, this.r, T.kV(), c, d)
+                    if (o.r1.G(0, $.b8())){
+                        o.a0(2*p, !0, this.r, T.kV(), c, d)}
+                        else{
+                            o.a0(p, !0, this.r, T.kV(), c, d)}
                 }
             }
 d.a.push($.v())

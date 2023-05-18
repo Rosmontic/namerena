@@ -14994,7 +14994,10 @@ T.tha5n1.prototype = {
             t = a[0].a
             s = T.u(u.r, !1, c)
             d.a.push(T.e("[0]使用[冰符「冰瀑」]", u.r, t, null, null, 1, 1000, 100))
-            t.a0(s*1.1, !0, u.r, T.kV(), c, d)
+            if (t.r1.G(0, $.b8()))
+            t.a0(s*1.3, !0, u.r, T.kV(), c, d)
+else
+            t.a0(s, !0, u.r, T.kV(), c, d)
         }
 }
     T.cg.prototype = {
@@ -17765,13 +17768,13 @@ T.daiyousei.prototype = {
             this.k2 = t
             t = this.id 
 u = new T.tha4n1()
-u.f = 80
-t.push(u)
-u = new T.tha4n2()
 u.f = 70
 t.push(u)
-u = new T.tha4n3()
+u = new T.tha4n2()
 u.f = 60
+t.push(u)
+u = new T.tha4n3()
+u.f = 70
 t.push(u)
 u = new T.tha4s1()
 u.f = 300
@@ -17798,13 +17801,13 @@ u = new T.tha5n1()
 u.f = 45
 t.push(u)
 u = new T.tha5n2()
-u.f = 40
+u.f = 60
 t.push(u)
 u = new T.tha5n3()
-u.f = 40
+u.f = 60
 t.push(u)
 u = new T.tha5s1()
-u.f = 100
+u.f = 80
 t.push(u)
 
 }

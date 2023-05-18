@@ -17736,13 +17736,13 @@ T.cirno.prototype = {
             this.k2 = t
             t = this.id 
 u = new T.tha5n1()
-u.f = 100
+u.f = 40
 t.push(u)
 u = new T.tha5n2()
-u.f = 100
+u.f = 30
 t.push(u)
 u = new T.tha5n3()
-u.f = 100
+u.f = 30
 t.push(u)
 
 }

@@ -16758,6 +16758,7 @@ T.tha5s1.prototype = {
 d.a.push($.v())
 d.a.push(T.e("[0]变[⑨]了", s, null, null, r, 1, 1000, 100))
 this.r.cx += 9
+this.r.dy = 9
         }
     }
     T.hellWindAttack.prototype = {

@@ -14994,9 +14994,9 @@ T.tha5n1.prototype = {
             t = a[0].a
             s = T.u(u.r, !1, c)
             d.a.push(T.e("[0]使用[冰符「冰瀑」]", u.r, t, null, null, 1, 1000, 100))
-            if (t.r1.G(0, $.b8())){
+            if (t.G(0, $.b8())){
             t.a0(s*1.3, !0, u.r, T.kV(), c, d)}
-else{
+            else{
             t.a0(s, !0, u.r, T.kV(), c, d)}
         }
 }
@@ -16497,7 +16497,7 @@ T.tha5n3.prototype = {
                             k.push(T.e(O.c("vVob"), l, n.r, m, m, 0, 1000, 100))
                         return
                     }
-            if (l.r1.G(0, $.b8())){
+            if (l.G(0, $.b8())){
                     q = T.u(n.r, !0, c)* 1.3}
                     else{
                     q = T.u(n.r, !0, c)}
@@ -16731,7 +16731,7 @@ T.tha5n2.prototype = {
                 o = n[u]
                 if (o.fr > 0) {
                     q.push($.v())
-                    if (o.r1.G(0, $.b8())){
+                    if (o.G(0, $.b8())){
                         o.a0(1.3*p, !0, this.r, T.kV(), c, d)}
                         else{
                             o.a0(p, !0, this.r, T.kV(), c, d)}
@@ -16763,7 +16763,7 @@ T.tha5s1.prototype = {
                 o = n[u]
                 if (o.fr > 0) {
                     q.push($.v())
-                    if (o.r1.G(0, $.b8())){
+                    if (o.G(0, $.b8())){
                         o.a0(2*p, !0, this.r, T.kV(), c, d)}
                         else{
                             o.a0(p, !0, this.r, T.kV(), c, d)}

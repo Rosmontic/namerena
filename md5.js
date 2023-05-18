@@ -15986,7 +15986,7 @@ T.tha4s1.prototype = {
         },
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o,l, n = this, m = null
-            n.f = C.b.v(n.f + 1, 2)
+            n.f = 0
             u = a[0].a
             t = C.e.Z(T.u(n.r, !0, c) / 75)
             s = u.fx
@@ -16755,8 +16755,7 @@ T.tha5s1.prototype = {
                 }
             }
 s.dy = s.dy/2
-d.a.push(T.e("[[0]变⑨了]", s, null, null, r, 1, 1000, 100))
-d.a.push(T.e("[[0]变⑨了]", s, null, null, r, 1, 1000, 100))
+d.a.push(T.e("[0]变⑨了]", s, null, null, r, 1, 1000, 100))
         }
     }
     T.hellWindAttack.prototype = {
@@ -17772,7 +17771,7 @@ u = new T.tha4n3()
 u.f = 60
 t.push(u)
 u = new T.tha4s1()
-u.f = 1000
+u.f = 300
 t.push(u)
 u = new T.tha4b1()
 u.f = 80
@@ -17793,16 +17792,16 @@ T.cirno.prototype = {
             t = this.id 
 t.push(new T.tha5b1())
 u = new T.tha5n1()
-u.f = 20
+u.f = 0
 t.push(u)
 u = new T.tha5n2()
-u.f = 50
+u.f = 0
 t.push(u)
 u = new T.tha5n3()
-u.f = 70
+u.f = 0
 t.push(u)
 u = new T.tha5s1()
-u.f = 160
+u.f = 100
 t.push(u)
 
 }

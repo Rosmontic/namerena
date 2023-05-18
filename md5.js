@@ -16762,7 +16762,6 @@ this.r.db=900
 this.r.dx=900
 this.r.ch=900
 this.r.cx=900
-this.r.dy=9
         }
     }
     T.hellWindAttack.prototype = {

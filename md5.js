@@ -16754,9 +16754,9 @@ T.tha5s1.prototype = {
                     o.a0(p, !0, this.r, T.kV(), c, d)
                 }
             }
-s.dy = C.b.v(s.dy + 1, 2)
+s.dy = s.dy/2
 d.a.push(T.e("[[0]变⑨了]", s, null, null, r, 1, 1000, 100))
-d.a.push(T.e("[[0]变⑨了]", s.dy, null, null, r, 1, 1000, 100))
+d.a.push(T.e("[[0]变⑨了]", s, null, null, r, 1, 1000, 100))
         }
     }
     T.hellWindAttack.prototype = {

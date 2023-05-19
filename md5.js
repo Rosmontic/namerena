@@ -15028,7 +15028,7 @@ T.tha3n2.prototype = {
             t = a[0].a
 s = T.u(u.r, !1, c)   
 d.a.push(T.e("[0]使用[夜符「夜盲症」]", u.r, t, null, null, 1, 1000, 100))
-t.a0(1.2*s, !1, u.r, T.a3(), c, d)
+t.a0(1.2*s, !1, u.r, T.q8(), c, d)
             
         }
 }
@@ -15036,10 +15036,14 @@ T.tha3s1.prototype = {
         t: function(a, b, c, d) {
             var u = this
             t = a[0].a
+u.f = u.f-100
+p = t.db
+q = 0
+t.db = 0
 s = T.u(u.r, !1, c)   
 d.a.push(T.e("[0]使用[暗符「月的阴暗面」]", u.r, t, null, null, 1, 1000, 100))
 t.a0(1.6*s, !0, u.r, T.a3(), c, d)
-            
+t.db = p      
         }
 }
     T.cg.prototype = {
@@ -16840,7 +16844,7 @@ T.tha3n1.prototype = {
                 o = n[u]
 if (o.fr > 0 ) {
 q.push($.v())
-o.a0(p, !0, this.r, T.kV(), c, d)
+o.a0(p, !0, this.r, T.a3(), c, d)
 }
                     
                 }

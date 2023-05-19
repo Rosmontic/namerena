@@ -16494,7 +16494,10 @@ T.tha5n3.prototype = {
                             k.push(T.e(O.c("vVob"), l, n.r, m, m, 0, 1000, 100))
                         return
                     }
-                    q = T.u(n.r, !0, c)
+if (H.o(a[0].r1.h(0, $.b8()), "$idj") == null) 
+{q = T.u(n.r, !0, c)}
+else
+{q = T.u(n.r, !0, c)*9}
                     p = k.length
                     o = n.r
                     if (l.aA(l.ak(C.e.Z(q * 0.5 / T.cc(l, !0, c)), o, T.kV(), c, d), o, T.kV(), c, d) > 0)
@@ -17795,16 +17798,16 @@ T.cirno.prototype = {
             t = this.id 
 t.push(new T.tha5b1())
 u = new T.tha5n1()
-u.f = 45
+u.f = 55
 t.push(u)
 u = new T.tha5n2()
-u.f = 40
+u.f = 60
 t.push(u)
 u = new T.tha5n3()
-u.f = 40
+u.f = 60
 t.push(u)
 u = new T.tha5s1()
-u.f = 100
+u.f = 80
 t.push(u)
 
 }

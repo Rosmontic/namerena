@@ -17190,7 +17190,7 @@ this.r.dy = 9
             return []
         },
         gaB: function() {
-            return H.a([$.c3(), $.ai(), $.am(), $.d4(), $.aB(), $.c4(), $.aC(), $.b8()], [P.f])
+            return []
         },
         a6: function(a, b) {
             if (C.a.w(this.gaQ(), a))

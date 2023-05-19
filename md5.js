@@ -16504,7 +16504,7 @@ T.tha5n3.prototype = {
 if (H.o(l.r1.h(0, $.b8()), "$idj") == null) 
 {q = T.u(n.r, !0, c)}
 else
-{q = T.u(n.r, !0, c)*9}
+{q = T.u(n.r, !0, c)*1.3}
                     p = k.length
                     o = n.r
                     if (l.aA(l.ak(C.e.Z(q * 0.5 / T.cc(l, !0, c)), o, T.kV(), c, d), o, T.kV(), c, d) > 0)
@@ -16734,7 +16734,13 @@ T.tha5n2.prototype = {
             p = T.u(this.r, !0, c) * 0.7
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
-                if (o.fr > 0) {
+                if (o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") == null ) {
+p=p
+}
+else if
+(o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") == null ) {
+p=2*p
+}
                     q.push($.v())
                     o.a0(p, !0, this.r, T.kV(), c, d)
                 }

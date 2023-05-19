@@ -15028,7 +15028,7 @@ T.tha3n2.prototype = {
             t = a[0].a
 s = T.u(u.r, !1, c)   
 d.a.push(T.e("[0]使用[夜符「夜盲症」]", u.r, t, null, null, 1, 1000, 100))
-t.a0(1.2*s, !1, u.r, T.q8(), c, d)
+t.a0(1.2*s, !1, u.r, T.a3(), c, d)
             
         }
 }
@@ -15935,10 +15935,10 @@ T.tha4n1.prototype = {
 }
 T.tha3n1.prototype = {
         gb3: function() {
-            return 2
+            return 5
         },
         gb4: function() {
-            return 4
+            return 6
         },
         t: function(a, b, c, d) {
             var u, t, s, r, q, p = c.m() < 128 ? 5 : 4, o = H.a([], [T.aU]), n = 0

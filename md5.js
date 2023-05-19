@@ -16765,11 +16765,6 @@ T.tha5s1.prototype = {
                     o.a0(p, !0, this.r, T.kV(), c, d)
                 }
 
-else if (o.fr > 0 && (H.o(o.r1.h(0, $.b8()), "$idj") == null) {
-                    q.push($.v())
-p=p*2
-                    o.a0(p, !0, this.r, T.kV(), c, d)
-                }
             }
 d.a.push($.v())
 d.a.push(T.e("[0]变[⑨]了", s, null, null, r, 1, 1000, 100))

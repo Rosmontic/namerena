@@ -5391,7 +5391,7 @@ if (a == "patchouli") {
                     h.c = h
                     h.b = h
                     g = [P.j]
-                    g = new T.rumia(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g = new T.patchouli(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
                     g.Y(a, u, t, f)
                     g.at(a, u)
                     return g
@@ -5429,7 +5429,7 @@ if (a == "sakuya") {
                     h.c = h
                     h.b = h
                     g = [P.j]
-                    g = new T.rumia(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g = new T.sakuya(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
                     g.Y(a, u, t, f)
                     g.at(a, u)
                     return g
@@ -17950,7 +17950,6 @@ T.patchouli.prototype = {
             t.r = this
             this.k2 = t
             t = this.id 
-
 }
 }
 T.sakuya.prototype = {

@@ -14992,9 +14992,16 @@ T.tha5n1.prototype = {
         t: function(a, b, c, d) {
             var u = this
             t = a[0].a
-            s = T.u(u.r, !1, c)
-            d.a.push(T.e("[0]使用[冰符「冰瀑」]", u.r, t, null, null, 1, 1000, 100))
-            t.a0(s*1.1, !0, u.r, T.kV(), c, d)
+if (H.o(t.r1.h(0, $.b8()), "$idj") == null) 
+{
+s = T.u(u.r, !1, c)}
+else
+{
+s = 1.3*T.u(u.r, !1, c)
+}            
+d.a.push(T.e("[0]使用[冰符「冰瀑」]", u.r, t, null, null, 1, 1000, 100))
+t.a0(s, !0, u.r, T.kV(), c, d)
+            
         }
 }
     T.cg.prototype = {
@@ -16494,7 +16501,7 @@ T.tha5n3.prototype = {
                             k.push(T.e(O.c("vVob"), l, n.r, m, m, 0, 1000, 100))
                         return
                     }
-if (H.o(a[0].r1.h(0, $.b8()), "$idj") == null) 
+if (H.o(l.r1.h(0, $.b8()), "$idj") == null) 
 {q = T.u(n.r, !0, c)}
 else
 {q = T.u(n.r, !0, c)*9}

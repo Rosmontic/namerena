@@ -6379,6 +6379,24 @@ tha5n1: function tha5n1() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
+tha3n1: function tha3n1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+tha3n2: function tha3n2() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+tha3ns1: function tha3s1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
         cg: function cg(a, b) {
             var _ = this
             _.r = a
@@ -15004,6 +15022,26 @@ t.a0(s, !0, u.r, T.kV(), c, d)
             
         }
 }
+T.tha3n2.prototype = {
+        t: function(a, b, c, d) {
+            var u = this
+            t = a[0].a
+s = T.u(u.r, !1, c)   
+d.a.push(T.e("[0]使用[夜符「夜盲症」]", u.r, t, null, null, 1, 1000, 100))
+t.a0(1.2*s, !1, u.r, T.q8(), c, d)
+            
+        }
+}
+T.tha3s1.prototype = {
+        t: function(a, b, c, d) {
+            var u = this
+            t = a[0].a
+s = T.u(u.r, !1, c)   
+d.a.push(T.e("[0]使用[暗符「月的阴暗面」]", u.r, t, null, null, 1, 1000, 100))
+t.a0(1.6*s, !0, u.r, T.a3(), c, d)
+            
+        }
+}
     T.cg.prototype = {
         gR: function() {
             return -1
@@ -15891,6 +15929,37 @@ T.tha4n1.prototype = {
                 if (q.fr > 0) {
                     r.push($.v())
                     q.a0(u * 2.44 / (t + 0.6), !0, this.r, T.a3(), c, d)
+                }
+            }
+        }
+}
+T.tha3n1.prototype = {
+        gb3: function() {
+            return 2
+        },
+        gb4: function() {
+            return 4
+        },
+        t: function(a, b, c, d) {
+            var u, t, s, r, q, p = c.m() < 128 ? 4 : 2, o = H.a([], [T.aU]), n = 0
+            while (!0) {
+                if (!(n < p && n < a.length))
+                    break
+                o.push(a[n].a);
+                ++n
+            }
+            u = "[[0]使用暗符「境界线」]"
+            t = this.r
+            s = H.a(o.slice(0), [H.n(o, 0)])
+            r = d.a
+            r.push(T.e(u, t, null, null, s, 1, 1000, 100))
+            for (n = 0; n < o.length; ++n) {
+                u = T.u(this.r, !0, c)
+                t = o.length
+                q = o[n]
+                if (q.fr > 0) {
+                    r.push($.v())
+                    q.a0(u * 0.85 , !0, this.r, T.a3(), c, d)
                 }
             }
         }
@@ -17769,6 +17838,15 @@ T.rumia.prototype = {
             t.r = this
             this.k2 = t
             t = this.id 
+u = new T.tha3n1()
+u.f = 40
+t.push(u)
+u = new T.tha3n2()
+u.f = 80
+t.push(u)
+u = new T.tha3s1()
+u.f = 200
+t.push(u)
 
 }
 }
@@ -21180,7 +21258,7 @@ T.i9m.prototype = {
         t(Z.hl, Z.ax)
         s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
         s(T.H, [T.y, T.hJ, T.tha5b1, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.tha4b1, T.i9 , T.i9m, T.ih, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
-        s(T.y, [T.dL, T.hI, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.tha5n1,T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.tha4n3, T.dS, T.tha4n1, T.tha4n2, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia ,T.tha4s1, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.tha5n3, T.dM, T.tha5n2, T.tha5s1, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
+        s(T.y, [T.dL, T.hI, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.tha3n1, T.tha3n2, T.tha3s1, T.tha5n1,T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.tha4n3, T.dS, T.tha4n1, T.tha4n2, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia ,T.tha4s1, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.tha5n3, T.dM, T.tha5n2, T.tha5s1, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
         s(T.M, [T.bf, T.co, T.dj , T.cG, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade])
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
         s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])

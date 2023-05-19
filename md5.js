@@ -16734,17 +16734,17 @@ T.tha5n2.prototype = {
             p = T.u(this.r, !0, c) * 0.7
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
-                if (o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") == null ) {
-p=p
+if (o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") == null ) {
+q.push($.v())
+o.a0(p, !0, this.r, T.kV(), c, d)}
+else if(o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") != null ) {
+p=1.3*p
+q.push($.v())
+o.a0(p, !0, this.r, T.kV(), c, d)
 }
-else if
-(o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") != null ) {
-p=2*p
-}
-                    q.push($.v())
-                    o.a0(p, !0, this.r, T.kV(), c, d)
+                    
                 }
-            }
+            
         }
 }
 T.tha5s1.prototype = {
@@ -16766,11 +16766,14 @@ T.tha5s1.prototype = {
             p = T.u(this.r, !0, c) * 0.99
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
-                
-                    q.push($.v())
-                    o.a0(p, !0, this.r, T.kV(), c, d)
-                }
-
+                if (o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") == null ) {
+q.push($.v())
+o.a0(p, !0, this.r, T.kV(), c, d)}
+else if(o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") != null ) {
+p=2*p
+q.push($.v())
+o.a0(p, !0, this.r, T.kV(), c, d)
+}
             }
 d.a.push($.v())
 d.a.push(T.e("[0]变[⑨]了", s, null, null, r, 1, 1000, 100))
@@ -21543,8 +21546,8 @@ T.i9m.prototype = {
 C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
 C.rumia = H.a(u([100, 12, 0, 0, 0, 0, 0, 4000]), [P.j])
-C.daiyousei = H.a(u([0, , 0, 0, 0, 0, 0, 0]), [P.j])
-C.cirno = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 52]), [P.j])
+C.cirno = H.a(u([20, 20, 20, 20, 20, 20, 57, 0]), [P.j])
 C.hong = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.koakuma = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.patchouli = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])

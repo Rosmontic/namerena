@@ -16497,7 +16497,7 @@ T.tha5n3.prototype = {
                             k.push(T.e(O.c("vVob"), l, n.r, m, m, 0, 1000, 100))
                         return
                     }
-            if (l.G(0, $.b8())){
+            if (1){
                     q = T.u(n.r, !0, c)* 1.3}
                     else{
                     q = T.u(n.r, !0, c)}
@@ -16731,7 +16731,7 @@ T.tha5n2.prototype = {
                 o = n[u]
                 if (o.fr > 0) {
                     q.push($.v())
-                    if (o.G(0, $.b8())){
+                    if (1){
                         o.a0(1.3*p, !0, this.r, T.kV(), c, d)}
                         else{
                             o.a0(p, !0, this.r, T.kV(), c, d)}
@@ -16763,7 +16763,7 @@ T.tha5s1.prototype = {
                 o = n[u]
                 if (o.fr > 0) {
                     q.push($.v())
-                    if (o.G(0, $.b8())){
+                    if (1){
                         o.a0(2*p, !0, this.r, T.kV(), c, d)}
                         else{
                             o.a0(p, !0, this.r, T.kV(), c, d)}

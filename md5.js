@@ -14992,10 +14992,7 @@ T.tha5n1.prototype = {
         t: function(a, b, c, d) {
             var u = this
             t = a[0].a
-if (H.o(t.r1.h(0, $.b8()), "$idj") == null) 
-{s = T.u(u.r, !1, c)}
-else
-{s = 1.3*T.u(u.r, !1, c)}     
+            s = T.u(u.r, !1, c)
             d.a.push(T.e("[0]使用[冰符「冰瀑」]", u.r, t, null, null, 1, 1000, 100))
             t.a0(s*1.1, !0, u.r, T.kV(), c, d)
         }
@@ -16497,10 +16494,10 @@ T.tha5n3.prototype = {
                             k.push(T.e(O.c("vVob"), l, n.r, m, m, 0, 1000, 100))
                         return
                     }
-if (H.o(l.r1.h(0, $.b8()), "$idj") == null) 
+if (H.o(a[0].r1.h(0, $.b8()), "$idj") == null) 
 {q = T.u(n.r, !0, c)}
 else
-{q = T.u(n.r, !0, c)*1.3}
+{q = T.u(n.r, !0, c)*9}
                     p = k.length
                     o = n.r
                     if (l.aA(l.ak(C.e.Z(q * 0.5 / T.cc(l, !0, c)), o, T.kV(), c, d), o, T.kV(), c, d) > 0)
@@ -16727,11 +16724,10 @@ T.tha5n2.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-p = T.u(this.r, !0, c) * 0.7}
-         
+            p = T.u(this.r, !0, c) * 0.7
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
-                if (o.fr > 0 {
+                if (o.fr > 0) {
                     q.push($.v())
                     o.a0(p, !0, this.r, T.kV(), c, d)
                 }
@@ -16757,10 +16753,10 @@ T.tha5s1.prototype = {
             p = T.u(this.r, !0, c) * 0.99
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
-                if (o.fr > 0 && H.o(o.r1.h(0, $.b8()), "$idj") == null) {
+                if (o.fr > 0) {
                     q.push($.v())
                     o.a0(p, !0, this.r, T.kV(), c, d)
-              }
+                }
             }
 d.a.push($.v())
 d.a.push(T.e("[0]变[⑨]了", s, null, null, r, 1, 1000, 100))

@@ -15933,37 +15933,6 @@ T.tha4n1.prototype = {
             }
         }
 }
-T.tha3n1.prototype = {
-        gb3: function() {
-            return 5
-        },
-        gb4: function() {
-            return 6
-        },
-        t: function(a, b, c, d) {
-            var u, t, s, r, q, p = c.m() < 128 ? 5 : 4, o = H.a([], [T.aU]), n = 0
-            while (!0) {
-                if (!(n < p && n < a.length))
-                    break
-                o.push(a[n].a);
-                ++n
-            }
-            u = "[[0]使用暗符「境界线」]"
-            t = this.r
-            s = H.a(o.slice(0), [H.n(o, 0)])
-            r = d.a
-            r.push(T.e(u, t, null, null, s, 1, 1000, 100))
-            for (n = 0; n < o.length; ++n) {
-                u = T.u(this.r, !0, c)
-                t = o.length
-                q = o[n]
-                if (q.fr > 0) {
-                    r.push($.v())
-                    q.a0(u * 0.85 , !0, this.r, T.a3(), c, d)
-                }
-            }
-        }
-    }
     T.dW.prototype = {
         gb3: function() {
             return 3
@@ -16849,7 +16818,35 @@ d.a.push(T.e("[0]变[⑨]了", s, null, null, r, 1, 1000, 100))
 this.r.db += 9
 this.r.dy = 9
         }
-    }
+}
+T.tha3n1.prototype = {
+        gb3: function() {
+            return 2
+        },
+        gb4: function() {
+            return 4
+        },
+        t: function(a, b, c, d) {
+            var u, t, s, r, q, p, o, n = H.a([], [T.aU])
+            for (u = 0; u < a.length; ++u)
+                n.push(a[u].a)
+            t = "[0]使用[暗符「境界线」]"
+            s = this.r
+            r = H.a(n.slice(0), [H.n(n, 0)])
+            q = d.a
+            q.push(T.e(t, s, null, null, r, 1, 1000, 100))
+            p = T.u(this.r, !0, c) * 0.85
+            for (u = 0; u < n.length; ++u) {
+                o = n[u]
+if (o.fr > 0 ) {
+q.push($.v())
+o.a0(p, !0, this.r, T.kV(), c, d)
+}
+                    
+                }
+            
+        }
+}
     T.hellWindAttack.prototype = {
         gb3: function() {
             return 5

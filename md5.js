@@ -15993,7 +15993,7 @@ T.tha4s1.prototype = {
         },
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o,l, n = this, m = null
-            n.f = 0
+            n.f = C.b.v(n.f + 1, 2)
             u = a[0].a
             t = C.e.Z(T.u(n.r, !0, c) / 75)
             s = u.fx
@@ -21546,7 +21546,7 @@ T.i9m.prototype = {
 C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
 C.rumia = H.a(u([100, 12, 0, 0, 0, 0, 0, 4000]), [P.j])
-C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 52]), [P.j])
+C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 5002]), [P.j])
 C.cirno = H.a(u([20, 20, 20, 20, 20, 20, 57, 0]), [P.j])
 C.hong = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.koakuma = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])

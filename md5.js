@@ -19874,6 +19874,42 @@ s.push(u)
             r.Q = !1
             r.ch = null
             if (r.cx.fr > 0 && r.r.bq(a)) {
+                u = C.b.v(r.r.ch + r.r.dx + 1, 2)
+                t = $.v()
+                s = b.a
+                s.push(t)
+                s.push(T.e(C.c.K(O.c("fQsn"), $.n7()), r.r, r.cx, null, null, 1, 1000, 100))
+                r.cx.a0(u, !1, r.r, T.a3(), a, b)
+            }
+        },
+        $iA: 1
+    }
+    T.tha3b2.prototype = {
+        T: function() {
+            this.r.y2.i(0, this)
+        },
+        ay: function(a, b, c, d) {
+            var u = this
+            if (b.x == u.r.y)
+                return
+            if (u.ch === d) {
+                if (u.Q && b != u.cx)
+                    if ((c.m() & 127) < u.f)
+                        u.cx = b
+            } else {
+                u.ch = d
+                if (c.m() < u.f) {
+                    u.cx = b
+                    u.Q = !0
+                    d.b.push(u.gdg())
+                }
+            }
+        },
+        f_: function(a, b) {
+            var u, t, s, r = this
+            r.Q = !1
+            r.ch = null
+            if (r.cx.fr > 0 && r.r.bq(a)) {
                 u = T.u(r.r, !1, a)
                 t = $.v()
                 s = b.a
@@ -20150,26 +20186,7 @@ s.push(u)
         },
         $iK: 1
 }
-T.tha3b2.prototype = {
-    dk: function(a, b, c, d, e, f, g) {
-        var u, t, s = this
-        if (c.fr <= 0)
-            return a
-        if ( s.r.fr > 0 ) {
-            u = C.b.v(s.r.ch + s.r.dx + 1, 10)
-            g.a.push(T.e(C.c.K("[0]反伤", $.nj()), s.r, c, null, null, 20, 1500, 100))
-            c.a0(u, !0, s.r, e, f, g)
-            t = s.r
-            t.j = t.j - 480
-            return a
-        }
-        return a
-    },
-    T: function() {
-        this.r.x2.i(0, this)
-    },
-    $iK: 1
-}
+
 T.tha4b1.prototype = {
         dk: function(a, b, c, d, e, f, g) {
             var u, t, s = this

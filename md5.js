@@ -20168,12 +20168,12 @@ dk: function(a, b, c, d, e, f, g) {
             return a
         if ( s.r.fr > 0 ) {
             u = 20*(s.r.dx + s.r.ch)
-            return a
             g.a.push(T.e(C.c.K("[0]触发[黑雾]", $.nj()), s.r, c, null, null, 20, 1500, 100))
             c.a0(u, !1, s.r, T.a3(), f, g)
             t = s.r
             t.j = t.j - 480
             g.a.push($.v())
+            return a
         }
         return a
         
@@ -20408,23 +20408,19 @@ T.i9m.prototype = {
             this.r.y2.i(0, this)
         },
         ay: function(a, b, c, d) {
-            var u, t, s, r = this, q = null, p = r.f
-            if (p <= 0 || r.Q.a != null)
-                return
-            u = 100
-            p = r.r.fr
-            if (p > 0 && p < u) {
+            var u, t, s, r = this, q = null, p
+
+            if (r.r.fr > 0 && r.r.fr < 101) {
                 r.r.r1.k(0, $.lg(), r)
                 r.r.r2.i(0, r.Q)
                 r.r.E()
-                p = d.a
-                p.push($.v())
+                d.a.push($.v())
                 t = "[0]的封印解除了"
                 s = r.r
-                p.push(T.e(t, s, s, q, q, 60, 1500, 100))
+                d.a.push(T.e(t, s, s, q, q, 60, 1500, 100))
                 s = C.c.K("[0]：[!毁灭模式!]，启动", $.nl())
                 t = r.r
-                p.push(T.e(s, t, t, q, q, 0, 1000, 100))
+                d.a.push(T.e(s, t, t, q, q, 0, 1000, 100))
                 t = r.r
                 t.j = t.j + 400
             }

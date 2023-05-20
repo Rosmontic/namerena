@@ -20155,7 +20155,7 @@ T.tha3b2.prototype = {
         var u, t, s = this
         if (c.fr <= 0)
             return a
-        if ( s.r.fr <= 0 ) {
+        if ( s.r.fr > 0 ) {
             u = C.b.v(s.r.ch + s.r.dx + 1, 10)
             g.a.push(T.e(C.c.K("[0]反伤", $.nj()), s.r, c, null, null, 20, 1500, 100))
             c.a0(u, !0, s.r, e, f, g)

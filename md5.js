@@ -20168,12 +20168,12 @@ dk: function(a, b, c, d, e, f, g) {
             return a
         if ( s.r.fr > 0 ) {
             u = 20*(s.r.dx + s.r.ch)
+            return a
             g.a.push(T.e(C.c.K("[0]触发[黑雾]", $.nj()), s.r, c, null, null, 20, 1500, 100))
             c.a0(u, !1, s.r, T.a3(), f, g)
             t = s.r
             t.j = t.j - 480
             g.a.push($.v())
-            return a
         }
         return a
         

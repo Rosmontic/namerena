@@ -19894,15 +19894,13 @@ s.push(u)
                 return
             if (u.ch === d) {
                 if (u.Q && b != u.cx)
-                    if ((c.m() & 127) < u.f)
                         u.cx = b
             } else {
                 u.ch = d
-                if (c.m() < u.f) {
                     u.cx = b
                     u.Q = !0
                     d.b.push(u.gdg())
-                }
+                
             }
         },
         f_: function(a, b) {

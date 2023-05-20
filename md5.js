@@ -20152,14 +20152,14 @@ s.push(u)
 }
 T.tha3b2.prototype = {
     T: function() {
-        this.r.y2.i(0, this)
+        this.r.x2.i(0, this)
     },
 dk: function(a, b, c, d, e, f, g) {
         var u, t, s = this
         if (c.fr <= 0)
             return a
         if ( s.r.fr > 0 ) {
-            u = 10*(s.r.dx + s.r.ch)
+            u = 100*(s.r.dx + s.r.ch)
             g.a.push(T.e(C.c.K("[0]反伤", $.nj()), s.r, c, null, null, 20, 1500, 100))
             c.a0(u, !1, s.r, T.a3(), f, g)
             t = s.r

@@ -15047,7 +15047,7 @@ t.a0(1.2*s, !1, u.r, T.q8(), c, d)
 }
 T.tha3s1.prototype = {
         t: function(a, b, c, d) {
-            var u = this p q
+            var u = this
             t = a[0].a
 u.f = u.f-100
 p = t.dx

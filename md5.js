@@ -15052,11 +15052,11 @@ T.tha3s1.prototype = {
 u.f = u.f-100
 p = t.db
 q = 0
-t.db = 0
+t.dx = 0
 s = T.u(u.r, !1, c)   
 d.a.push(T.e("[0]使用[暗符「月的阴暗面」]", u.r, t, null, null, 1, 1000, 100))
 t.a0(1.6*s, !0, u.r, T.a3(), c, d)
-t.db = p      
+t.dx = p      
         }
 }
     T.cg.prototype = {
@@ -20422,7 +20422,6 @@ T.i9m.prototype = {
                 s = r.r
                 d.a.push(T.e(t, s, s, q, q, 60, 1500, 100))
                 s = C.c.K("[0]：[!毁灭模式!]，启动", $.nl())
-                r.r.e = "露米娅Ex"
                 t = r.r
                 d.a.push(T.e(s, t, t, q, q, 0, 1000, 100))
                 t = r.r
@@ -20440,7 +20439,7 @@ T.i9m.prototype = {
             if (t.r.fr > 0) {
                 u = b.a
                 u.push($.v())
-                u.push(T.ap("[0]找到了自己的[发饰]", a, t.r))
+                u.push(T.ap("[0]从[!毁灭模式!]中解除", a, t.r))
             }
         },
         al: function(a) {
@@ -20450,7 +20449,7 @@ T.i9m.prototype = {
             u.db = u.db * 10
             u.dx = u.dx * 10
             u.dy = u.dy * 10
-            u.go = u.go + 1
+            u.go = u.go + 2
         },
         $ip: 1,
         $iA: 1
@@ -21712,7 +21711,7 @@ T.i9m.prototype = {
         C.hell = H.a(u([20, 20, 60, 50, 20, 20, 90, 120]), [P.j])
 C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
-C.rumia = H.a(u([10, 35, 10, 0, 0, 25, 0, 685]), [P.j])
+C.rumia = H.a(u([17, 35, 20, 1, -8, 25, 7, 685]), [P.j])
 C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 1000]), [P.j])
 C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 565]), [P.j])
 C.hong = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])

@@ -20159,8 +20159,9 @@ dk: function(a, b, c, d, e, f, g) {
         if (c.fr <= 0)
             return a
         if ( s.r.fr > 0 ) {
-            u = 100*(s.r.dx + s.r.ch)
+            u = 10*(s.r.dx + s.r.ch)
             g.a.push(T.e(C.c.K("[0]反伤", $.nj()), s.r, c, null, null, 20, 1500, 100))
+            g.a.push($.v())
             c.a0(u, !1, s.r, T.a3(), f, g)
             t = s.r
             t.j = t.j - 480
@@ -21651,7 +21652,7 @@ T.i9m.prototype = {
         C.hell = H.a(u([20, 20, 60, 50, 20, 20, 90, 120]), [P.j])
 C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
-C.rumia = H.a(u([100, 12, 0, 0, 0, 0, 0, 4000]), [P.j])
+C.rumia = H.a(u([10, 35, 10, 0, 0, 25, 0, 685]), [P.j])
 C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 1000]), [P.j])
 C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 565]), [P.j])
 C.hong = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])

@@ -17853,7 +17853,6 @@ T.rumia.prototype = {
             this.k2 = t
             t = this.id 
 t.push(new T.tha3b2())
-t.push(new T.tha3b1())
 u = new T.tha3n1()
 u.f = 40
 t.push(u)
@@ -17863,6 +17862,9 @@ t.push(u)
 u = new T.tha3s1()
 u.f = 200
 t.push(u)
+u = new T.im()
+u.f = 300
+t.push(u) 
 }
 }
 T.daiyousei.prototype = {
@@ -20159,7 +20161,7 @@ s.push(u)
         $iK: 1
 }
 T.tha3b2.prototype = {
-    T: function() {
+T: function() {
         this.r.x2.i(0, this)
     },
 dk: function(a, b, c, d, e, f, g) {

@@ -16670,7 +16670,7 @@ else
                 n.r.hongs1 = 1
                 n.f = 1000
                 n.r.j = n.r.j + 1600
-                k.push(T.e("[0]蓄力]", n.r, n.r, m, m, 1, 1000, 100))
+                k.push(T.e("[0][蓄力]", n.r, n.r, m, m, 1, 1000, 100))
             }
             else if (n.r.hongs1 == 1){
             l = a[0].a
@@ -16693,6 +16693,7 @@ else
                     p = k.length
                     o = n.r
                     n.r.hongs1 = 0
+                    n.f = 1000
                     if (l.aA(l.ak(C.e.Z(q / T.cc(l, !1, c)), o, T.kV(), c, d), o, T.kV(), c, d) > 0)
                         s = !0
                     k[p].b = 300
@@ -18097,13 +18098,13 @@ T.hong.prototype = {
             t = this.id 
             u = new T.tha6n1(1.8)
             u.fr = new T.aN(u)
-            u.f = 120
+            u.f = 0
             t.push(u)
             u = new T.tha6n2()
-            u.f = 60
+            u.f = 0
             t.push(u)
             u = new T.tha6n3()
-            u.f = 60
+            u.f = 0
             t.push(u)
             u = new T.tha6s1()
             u.f = 180

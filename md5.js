@@ -17864,7 +17864,7 @@ u.f = 200
 t.push(u)
 u = new T.tha3b1()
 u.Q = new T.aN(u) 
-u.f = 300
+u.f = 100
 t.push(u) 
 }
 }
@@ -20170,7 +20170,7 @@ dk: function(a, b, c, d, e, f, g) {
         if (c.fr <= 0)
             return a
         if ( s.r.fr > 0 ) {
-            u = 20*(s.r.dx + s.r.ch)
+            u = 10*(s.r.dx + s.r.ch)
             g.a.push(T.e(C.c.K("[0]触发[黑雾]", $.nj()), s.r, c, null, null, 20, 1500, 100))
             c.a0(u, !1, s.r, T.a3(), f, g)
             t = s.r
@@ -20418,10 +20418,11 @@ T.i9m.prototype = {
                 r.r.r2.i(0, r.Q)
                 r.r.E()
                 d.a.push($.v())
-                t = "[0]的封印解除了"
+                t = "[0]的[封印]解除了"
                 s = r.r
                 d.a.push(T.e(t, s, s, q, q, 60, 1500, 100))
                 s = C.c.K("[0]：[!毁灭模式!]，启动", $.nl())
+                r.r.e = "露米娅Ex"
                 t = r.r
                 d.a.push(T.e(s, t, t, q, q, 0, 1000, 100))
                 t = r.r
@@ -20439,17 +20440,15 @@ T.i9m.prototype = {
             if (t.r.fr > 0) {
                 u = b.a
                 u.push($.v())
-                u.push(T.ap("[0]：[!毁灭模式!]，关闭", a, t.r))
+                u.push(T.ap("[0]找到了自己的[发饰]", a, t.r))
             }
         },
         al: function(a) {
             var u = this.r
             u.Q = u.Q * 10
             u.ch = u.ch * 10
-            u.cy = u.cy * 10
             u.db = u.db * 10
             u.dx = u.dx * 10
-            u.cx = u.cx * 10
             u.dy = u.dy * 10
             u.go = u.go + 1
         },

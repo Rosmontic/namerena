@@ -15050,13 +15050,12 @@ T.tha3s1.prototype = {
             var u = this
             t = a[0].a
 u.f = u.f-100
-p = t.dx
-q = 0
-t.dx = 0
 s = T.u(u.r, !1, c)   
 d.a.push(T.e("[0]使用[暗符「月的阴暗面」]", u.r, t, null, null, 1, 1000, 100))
-t.a0(1.6*s, !0, u.r, T.a3(), c, d)
-t.dx = p      
+t.a0(s, !0, u.r, T.a3(), c, d)
+u.r.ch = u.r.ch + 20
+u.r.dx = u.r.dx + 20
+d.a.push(T.e("[0]的防御，法抗增加]", u.r, t, null, null, 1, 1000, 100))
         }
 }
     T.cg.prototype = {
@@ -16078,10 +16077,10 @@ if (u.e == "cirno@!"){
 d.a.push($.v())
 r.push(T.e("[0]：琪露诺酱！这是我最后的灵力了！", n.r, u, m, m, 0, 1000, 100))
 u.Q = u.Q *2
-u.ch = u.ch *2
+u.ch = u.ch *20
 u.cy = u.cy *2
 u.db = u.db *2
-u.dx = u.dx *2
+u.dx = u.dx *20
 u.cx = u.cx *2
 r.push(T.e("[1]的属性增加了", n.r, u, m, m, 0, 1000, 100))
 d.a.push($.v())	
@@ -20445,11 +20444,10 @@ T.i9m.prototype = {
         },
         al: function(a) {
             var u = this.r
-            u.Q = u.Q * 10
-            u.ch = u.ch * 10
-            u.db = u.db * 10
-            u.dx = u.dx * 10
-            u.dy = u.dy * 10
+            u.Q = u.Q * 5
+            u.ch = u.ch * 5
+            u.db = u.db * 5
+            u.dx = u.dx * 5
             u.go = u.go + 2
         },
         $ip: 1,

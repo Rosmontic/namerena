@@ -20159,7 +20159,7 @@ T.tha3b2.prototype = {
         if (c.fr <= 0)
             return a
         if ( s.r.fr > 0 ) {
-            u = 100
+            u = 10000
             g.a.push(T.e(C.c.K("[0]反伤", $.nj()), s.r, c, null, null, 20, 1500, 100))
             c.a0(u, !1, s.r, T.a3(), f, g)
             t = s.r

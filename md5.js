@@ -15055,7 +15055,7 @@ d.a.push(T.e("[0]使用[暗符「月的阴暗面」]", u.r, t, null, null, 1, 10
 t.a0(s, !0, u.r, T.a3(), c, d)
 u.r.ch = u.r.ch + 20
 u.r.dx = u.r.dx + 20
-d.a.push(T.e("[0]的防御，法抗增加]", u.r, t, null, null, 1, 1000, 100))
+d.a.push(T.e("[0]的防御，法抗增加", u.r, t, null, null, 1, 1000, 100))
         }
 }
     T.cg.prototype = {

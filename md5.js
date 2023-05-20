@@ -17832,7 +17832,7 @@ T.rumia.prototype = {
             return C.rumia
         },
         gaQ: function() {
-            return H.a([], [P.f])
+            return H.a([], [])
         },
         aa: function() {
             var u, t = new T.aK()
@@ -17848,7 +17848,9 @@ t.push(u)
 u = new T.tha3s1()
 u.f = 200
 t.push(u)
-
+u = new T.bU()
+u.f = 400
+t.push(u)
 }
 }
 T.daiyousei.prototype = {
@@ -17856,7 +17858,7 @@ T.daiyousei.prototype = {
             return C.daiyousei
         },
         gaQ: function() {
-            return H.a([], [P.f])
+            return H.a([], [])
         },
         aa: function() {
             var u, t = new T.aK()

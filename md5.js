@@ -6397,13 +6397,13 @@ tha3s1: function tha3s1() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
-tha6n2: function tha3s1() {
+tha6n2: function tha6n2() {
             var _ = this
             _.e = !1
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
-tha6n3: function tha3s1() {
+tha6n3: function tha6n3() {
             var _ = this
             _.e = !1
             _.f = 0
@@ -15076,7 +15076,7 @@ T.tha6n2.prototype = {
         t = a[0].a
 s = T.u(u.r, !1, c)
 d.a.push(T.e("[0]使用[华符「彩光莲华掌」]", u.r, t, null, null, 1, 1000, 100))
-t.a0(1.6*s, !1, u.r, T.q8(), c, d)     
+t.a0(1.6*s, !1, u.r, T.a3(), c, d)     
     }
 }
     T.cg.prototype = {

@@ -15047,7 +15047,7 @@ t.a0(1.2*s, !1, u.r, T.q8(), c, d)
 }
 T.tha3s1.prototype = {
         t: function(a, b, c, d) {
-            var u = this
+            var u = this p q
             t = a[0].a
 u.f = u.f-100
 p = t.dx
@@ -20411,9 +20411,10 @@ T.i9m.prototype = {
             this.r.y2.i(0, this)
         },
         ay: function(a, b, c, d) {
-            var u, t, s, r = this, q = null, p
+            var u, t, s, r = this, q = null
 
-            if (r.r.fr > 0 && r.r.fr < 101) {
+            if (r.r.fr > 0 && r.r.fr < 101 && r.f > 0) {
+                r.f = r.f-100
                 r.r.r1.k(0, $.lg(), r)
                 r.r.r2.i(0, r.Q)
                 r.r.E()

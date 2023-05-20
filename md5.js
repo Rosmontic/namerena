@@ -16077,10 +16077,10 @@ if (u.e == "cirno@!"){
 d.a.push($.v())
 r.push(T.e("[0]：琪露诺酱！这是我最后的灵力了！", n.r, u, m, m, 0, 1000, 100))
 u.Q = u.Q *2
-u.ch = u.ch *20
+u.ch = u.ch *2
 u.cy = u.cy *2
 u.db = u.db *2
-u.dx = u.dx *20
+u.dx = u.dx *2
 u.cx = u.cx *2
 r.push(T.e("[1]的属性增加了", n.r, u, m, m, 0, 1000, 100))
 d.a.push($.v())	
@@ -20193,7 +20193,6 @@ T.tha4b1.prototype = {
                 if (u > a)
                     u = a
 g.a.push(T.e(C.c.K("[0]免疫", $.nj()), s.r, c, null, null, 20, 1500, 100))
-c.a0(0, !0, s.r, e, f, g)
                 t = s.r
                 t.j = t.j - 480
                 return 0

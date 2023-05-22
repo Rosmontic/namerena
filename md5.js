@@ -16719,24 +16719,28 @@ aK: function(a, b, c, d) {
             this.fr.C()
         }  
 }
-T.tha6s1t.prototype = {
+       T.tha6s1t.prototype = {
         t: function(a, b, c, d) {
-            var u, s, r = this, q = null, l ,n
-            l = a[0].a
-            d.a.push(T.e("[0]使用[炽击「大鹏坠击拳」]", r.r, l, q, q, 1, 1000, 100))
-            for (s = !1,n = 0; n < 3; ++n) {
+            var u, s, r = this, q = null, l ,n, k=d.a , t ,p , l = a[0].a , o,m
+            k.push(T.e("[0]使用[炽击「大鹏坠击拳」]", r.r, l, q, q, 1, 1000, 100))
+u = 3
+            t = 100 + r.r.cy
+            for (s = !1,n = 0; n < u; ++n) {
                 if (r.r.fr > 0 && !r.r.A && l.fr > 0) {
                     d.a.push($.v())
-                    if (l.fr > 0 && !l.A && T.bd(100 + r.r.cy, l.dx + l.cy, c)) {
+                    if (l.fr > 0 && !l.A && T.bd(t, l.dx + l.cy, c)) {
                         if (s)
-                            d.a.push(T.e(O.c("SYdr"), l, r.r, q, q, 0, 1000, 100))
+                            k.push(T.e(O.c("SYdr"), l, r.r, q, q, 0, 1000, 100))
                         else
-                            d.a.push(T.e(O.c("vVob"), l, r.r, q, q, 0, 1000, 100))
+                            k.push(T.e(O.c("vVob"), l, r.r, q, q, 0, 1000, 100))
                         return
                     }
-                    if (l.aA(l.ak(C.e.Z(T.u(r.r, !1, c)*1.5 / T.cc(l, !1, c)), r.r, T.a3(), c, d), r.r, T.a3(), c, d) > 0)
+m = T.u(r.r, !0, c)
+p = k.length
+                    o = r.r
+                    if (l.aA(l.ak(m*1.5 / T.cc(l, !1, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
                         s = !0
-                    d.a[d.a.length].b = 300
+                    k[p].b = 300
                     }
                 }
 }

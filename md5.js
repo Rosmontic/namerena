@@ -6785,7 +6785,7 @@ tha4n2: function tha4n2() {
         },
         tha6s1: function tha6s1() {
             var _ = this
-             _.fr = _.fy = null
+             _.fx =_.fr = _.fy = null
             _.e = !1
             _.f = 0
             _.c = _.b = _.a = _.r = null
@@ -16673,6 +16673,7 @@ r.r.ry.i(0, r.fr)
                 r.r.j = r.r.j + 1600
             }
             else {
+r.ae(0)
             l = a[0].a
             d.a.push(T.e("[0]使用[炽击「大鹏坠击拳」]", r.r, l, q, q, 1, 1000, 100))
             t = 100 + r.r.cy
@@ -16693,7 +16694,25 @@ r.r.ry.i(0, r.fr)
                     }
                 }
 }
-        }      
+        },
+ay: function(a, b, c, d) {
+            d.a.push($.v())
+            d.a.push(T.ap(O.c("UCEL"), this.r, this.fy))
+            this.ae(0)
+        },
+aK: function(a, b, c, d) {
+            var u = this.fy
+            if (u != null && u.fr > 0)
+                return this
+            else
+                this.ae(0)
+            return
+        },
+        ae: function(a) {
+            this.fy = null
+            this.fx.C()
+            this.fr.C()
+        }  
 }
     T.tigerFastPunch.prototype = {
         t: function(a, b, c, d) {
@@ -18101,6 +18120,7 @@ T.hong.prototype = {
             t.push(u)
             u = new T.tha6s1()
 u.fr = new T.bP(u)
+u.fx = new T.cB(u)
             u.f = 180
             t.push(u)
 }

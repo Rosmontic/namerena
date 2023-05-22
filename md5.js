@@ -16699,6 +16699,16 @@ else
                 }
                 }
             }
+        },
+        aK: function(a, b, c, d) {
+            if (this.r.hongs1 == 1)
+                return this
+            else
+                this.ae(0)
+            return
+        },
+        ae: function(a) {
+this.fr.C()
         }
     }
     T.tigerFastPunch.prototype = {

@@ -16660,7 +16660,7 @@ T.tha5n3.prototype = {
 if (H.o(l.r1.h(0, $.b8()), "$idj") == null) 
 {q = T.u(n.r, !0, c)}
 else
-{q = T.u(n.r, !0, c)*130}
+{q = T.u(n.r, !0, c)*1.3}
                     p = k.length
                     o = n.r
                     if (l.aA(l.ak(C.e.Z(q * 0.5 / T.cc(l, !0, c)), o, T.kV(), c, d), o, T.kV(), c, d) > 0)
@@ -16672,7 +16672,7 @@ else
     }
      T.tha6s1.prototype = {
         t: function(a, b, c, d) {
-            var u, s, r = this, q = null, p = r.fy, l ,n
+            var u, s, r = this, q = null, p = r.fy, l ,n, m
             if (p == null) {
                 r.fy = r.r
 r.r.ry.i(0, r.fr)
@@ -16694,7 +16694,8 @@ n = 0; n < 3; ++n) {
                             d.a.push(T.e(O.c("vVob"), l, r.r, q, q, 0, 1000, 100))
                         return
                     }
-                    if (l.aA(l.ak(C.e.Z(T.u(r.r, !1, c)*1.5 / T.cc(l, !1, c)), r.r, T.a3(), c, d), r.r, T.a3(), c, d) > 0)
+                    m = T.u(r.r, !1, c) * 3
+                    if (l.aA(l.ak(C.e.Z(m*0.5 / T.cc(l, !1, c)), r.r, T.a3(), c, d), r.r, T.a3(), c, d) > 0)
                         s = !0
                     d.a[d.a.length].b = 500
                     }
@@ -18144,7 +18145,7 @@ T.hong.prototype = {
             t = this.id 
             u = new T.tha6n1(1.8)
             u.fr = new T.aN(u)
-            u.f = 0
+            u.f = 100
             t.push(u)
             u = new T.tha6n2()
             u.f = 0
@@ -18152,13 +18153,13 @@ T.hong.prototype = {
             u = new T.tha6n3()
             u.f = 0
             t.push(u)
-u = new T.tha6s1t()
-            u.f = 200
+            u = new T.tha6s1t()
+            u.f = 0
             t.push(u)
             u = new T.tha6s1()
-u.fr = new T.bP(u)
-u.fx = new T.cB(u)
-            u.f = 0
+            u.fr = new T.bP(u)
+            u.fx = new T.cB(u)
+            u.f = 200
             t.push(u)
 }
 }

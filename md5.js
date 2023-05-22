@@ -6785,6 +6785,7 @@ tha4n2: function tha4n2() {
         },
         tha6s1: function tha6s1() {
             var _ = this
+            _.fr = null
             _.e = !1
             _.f = 0
             _.c = _.b = _.a = _.r = null
@@ -16699,17 +16700,8 @@ else
                 }
                 }
             }
-        },
-        aK: function(a, b, c, d) {
-            if (this.r.hongs1 == 1)
-                return this
-            else
-                this.ae(0)
-            return
-        },
-        ae: function(a) {
-this.fr.C()
         }
+       
     }
     T.tigerFastPunch.prototype = {
         t: function(a, b, c, d) {

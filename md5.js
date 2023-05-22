@@ -20345,7 +20345,7 @@ dk: function(a, b, c, d, e, f, g) {
             return a
         if ( s.r.fr > 0 ) {
             u = 10*(s.r.dx + s.r.ch)
-            g.a.push(T.e(C.c.K("[0]触发[黑雾]", $.nj()), s.r, c, null, null, 20, 1500, 100))
+            g.a.push(T.e(C.c.K("[0]触发[黑雾]"), s.r, c, null, null, 20, 1500, 100))
             c.a0(u, !1, s.r, T.a3(), f, g)
             t = s.r
             t.j = t.j - 480
@@ -20595,7 +20595,7 @@ T.i9m.prototype = {
                 t = "[0]的[封印]解除了"
                 s = r.r
                 d.a.push(T.e(t, s, s, q, q, 60, 1500, 100))
-                s = C.c.K("[0]：[!毁灭模式!]，启动", $.nl())
+                s = C.c.K("[0]：[!毁灭模式!]，启动")
                 t = r.r
                 d.a.push(T.e(s, t, t, q, q, 0, 1000, 100))
                 t = r.r

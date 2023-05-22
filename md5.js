@@ -16688,7 +16688,7 @@ r.ae(0)
                     }
                     if (l.aA(l.ak(C.e.Z(T.u(r.r, !1, c)*1.5 / T.cc(l, !1, c)), r.r, T.a3(), c, d), r.r, T.a3(), c, d) > 0)
                         s = !0
-                    d.a[d.a.length].b = 300
+                    d.a[d.a.length].b = 500
                     }
                 }
 }

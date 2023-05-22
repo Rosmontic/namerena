@@ -16677,7 +16677,7 @@ else
                 r.fy = r.r
                 r.r.ry.i(0, r.fr)
                 k.push(T.e("[0]蓄气", r.r, r.fy, q, q, 1, 1000, 100))
-                r.r.j = r.r.j + 1600
+                r.r.j = r.r.j + 400
             }
             else {
             r.ae(0)
@@ -16697,7 +16697,7 @@ else
                         return
                     }
                     t =-10
-                    m = T.u(r.r, !1, c)
+                    m = 3*T.u(r.r, !1, c)
                     o =r.r
                     w = k.length
                     if (l.aA(l.ak(C.e.Z( m *0.5 / T.cc(l, !0, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)

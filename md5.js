@@ -16722,8 +16722,7 @@ aK: function(a, b, c, d) {
 }
        T.tha6s1t.prototype = {
         t: function(a, b, c, d) {
-            var u, s, r = this, q = null, l ,n ,m
-            l = a[0].a
+            var u, s, r = this, q = null, l ,n ,m, o , t , v , w, l = a[0].a
             d.a.push(T.e("[0]使用[炽击「大鹏坠击拳」]", r.r, l, q, q, 1, 1000, 100))
             for (s = !1,
             n = 0; n < 3; ++n) {

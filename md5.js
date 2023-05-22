@@ -16900,7 +16900,7 @@ a=0
 T.tha6b1.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0
-        return u && J.Q(c, T.mA()) ? 0.75*a : a
+        return u && J.Q(c, T.mA()) ? 75*a : a
     },
     T: function() {
         this.r.y1.i(0, this)

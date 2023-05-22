@@ -6785,7 +6785,7 @@ tha4n2: function tha4n2() {
         },
         tha6s1: function tha6s1() {
             var _ = this
-             _.fr = null
+             _.fr = _.fy = null
             _.e = !1
             _.f = 0
             _.c = _.b = _.a = _.r = null
@@ -16668,8 +16668,8 @@ else
             var u, t, s, r = this, q = null, p = r.fy, l ,n, o
             if (p == null) {
                 r.fy = r.r
+r.r.ry.i(0, r.fr)
                 d.a.push(T.e("[0]蓄气", r.r, r.fy, q, q, 1, 1000, 100))
-                r.r.ry.i(0, r.fr)
                 r.r.j = r.r.j + 1600
             }
             else {

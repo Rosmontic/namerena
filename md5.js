@@ -16741,7 +16741,7 @@ aK: function(a, b, c, d) {
                     m = T.u(r.r, !0, c)
                     o = r.r
                     w = k.length
-                    if (l.aA(l.ak(C.e.Z( m *1.5 / T.cc(l, !0, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
+                    if (l.aA(l.ak(C.e.Z( m *0.5 / T.cc(l, !0, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
                         s = !0
                     k[w].b = 300
                     }

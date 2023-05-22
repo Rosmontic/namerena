@@ -16722,23 +16722,28 @@ aK: function(a, b, c, d) {
 }
        T.tha6s1t.prototype = {
         t: function(a, b, c, d) {
-            var u, s, r = this, q = null, l ,n ,m, o , t , v , w, l = a[0].a
-            d.a.push(T.e("[0]使用[炽击「大鹏坠击拳」]", r.r, l, q, q, 1, 1000, 100))
+            var u, s, r = this, q = null, l ,n ,m, o , t , k = d.a , w, l = a[0].a
+            k.push(T.e("[0]使用[炽击「大鹏坠击拳」]", r.r, l, q, q, 1, 1000, 100))
+            t = 100 + r.r.cy
             for (s = !1,
             n = 0; n < 3; ++n) {
-                if (r.r.fr > 0 && !r.r.A && l.fr > 0) {
+                m = r.r
+                if (m.fr > 0 && !m.A && l.fr > 0) {
                     d.a.push($.v())
-                    if (l.fr > 0 && !l.A && T.bd(100 + r.r.cy, l.dx + l.cy, c)) {
+                    if (l.fr > 0 && !l.A && T.bd(t, l.dx + l.cy, c)) {
                         if (s)
-                            d.a.push(T.e("[0]1", l, r.r, q, q, 0, 1000, 100))
+                            k.push(T.e("[0]1", l, r.r, q, q, 0, 1000, 100))
                         else
-                            d.a.push(T.e("[0]2", l, r.r, q, q, 0, 1000, 100))
+                            k.push(T.e("[0]2", l, r.r, q, q, 0, 1000, 100))
                         return
                     }
+                    t -= 10
                     m = T.u(r.r, !0, c)
-                    if (l.aA(l.ak(C.e.Z( m *1.5 / T.cc(l, !0, c)), r.r, T.a3(), c, d), r.r, T.a3(), c, d) > 0){
-                        s = !0}
-                    d.a[d.a.length].b = 300
+                    o = r.r
+                    w = k.length
+                    if (l.aA(l.ak(C.e.Z( m *1.5 / T.cc(l, !0, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
+                        s = !0
+                    k[w].b = 300
                     }
                 }
 }

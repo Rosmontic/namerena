@@ -16673,7 +16673,6 @@ else
                 r.r.j = r.r.j + 1600
             }
             else {
-            r.ae(0)
             l = a[0].a
             d.a.push(T.e("[0]使用[炽击「大鹏坠击拳」]", r.r, l, q, q, 1, 1000, 100))
             t = 100 + r.r.cy
@@ -16694,10 +16693,7 @@ else
                     }
                 }
 }
-        },
-        ae: function(a) {
-            this.fr.C()
-        }
+        }      
 }
     T.tigerFastPunch.prototype = {
         t: function(a, b, c, d) {

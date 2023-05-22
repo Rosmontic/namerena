@@ -16672,32 +16672,37 @@ else
     }
      T.tha6s1.prototype = {
         t: function(a, b, c, d) {
-            var u, s, r = this, q = null, p = r.fy, l ,n, m
+            var u, s, r = this, q = null, p = r.fy, l ,n, m , o , k=d.a, w ,t
             if (p == null) {
                 r.fy = r.r
                 r.r.ry.i(0, r.fr)
-                d.a.push(T.e("[0]蓄气", r.r, r.fy, q, q, 1, 1000, 100))
+                k.push(T.e("[0]蓄气", r.r, r.fy, q, q, 1, 1000, 100))
                 r.r.j = r.r.j + 1600
             }
             else {
             r.ae(0)
             l = a[0].a
-            d.a.push(T.e("[0]使用[炽击「大鹏坠击拳」]", r.r, l, q, q, 1, 1000, 100))
+            k.push(T.e("[0]使用[炽击「大鹏坠击拳」]", r.r, l, q, q, 1, 1000, 100))
+            t = 100 + r.r.cy
             for (s = !1,
             n = 0; n < 3; ++n) {
-                if (r.r.fr > 0 && !r.r.A && l.fr > 0) {
-                    d.a.push($.v())
-                    if (l.fr > 0 && !l.A && T.bd(100 + r.r.cy, l.dx + l.cy, c)) {
+                m = r.r
+                if (m.fr > 0 && !m.A && l.fr > 0) {
+                    k.push($.v())
+                    if (l.fr > 0 && !l.A && T.bd(t, l.dx + l.cy, c)) {
                         if (s)
-                            d.a.push(T.e(O.c("SYdr"), l, r.r, q, q, 0, 1000, 100))
+                            k.push(T.e(O.c("SYdr"), l, r.r, q, q, 0, 1000, 100))
                         else
-                            d.a.push(T.e(O.c("vVob"), l, r.r, q, q, 0, 1000, 100))
+                            k.push(T.e(O.c("vVob"), l, r.r, q, q, 0, 1000, 100))
                         return
                     }
+                    t =-10
                     m = T.u(r.r, !1, c)
-                    if (l.aA(l.ak(C.e.Z( m *0.5 / T.cc(l, !1, c)), r.r, T.a3(), c, d), r.r, T.a3(), c, d) > 0)
+                    o =r.r
+                    w = k.length
+                    if (l.aA(l.ak(C.e.Z( m *0.5 / T.cc(l, !0, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
                         s = !0
-                    d.a[d.a.length].b = 300
+                    k[w].b = 300
                     }
                 }
 }

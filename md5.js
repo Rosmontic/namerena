@@ -14784,12 +14784,12 @@ T.hKm.prototype = {
                     
 if (r.r.fr > 199){
 u = d.a
-                    u.push(T.e("[0]发动[真实的斩击]", r.r, p, q, q, 1, 1000, 100))
-                    t = T.u(r.r, !0, c)
-                    s = T.u(r.r, !0, c)
+                u.push(T.e("[0]发动[真实的斩击]", r.r, p, q, q, 1, 1000, 100))
+                t = T.u(r.r, !0, c)
+                s = T.u(r.r, !0, c)
 
-                    if (s > t)
-                        t = s
+                if (s > t)
+                    t = s
                     s = T.u(r.r, !0, c)
                     if (s > t)
                         t = s
@@ -16668,11 +16668,11 @@ else
             if(n.r.hongs1 == 0)
             {
                 n.r.hongs1 = 1
-                n.f = 10000
                 n.r.j = n.r.j + 1600
                 k.push(T.e("[0][蓄力]", n.r, n.r, m, m, 1, 1000, 100))
             }
-            else if (n.r.hongs1 == 1){
+            else {
+            n.ae(0)
             l = a[0].a
             k.push(T.e("[0]使用[炽击「大鹏坠击拳」]", n.r, l, m, m, 1, 1000, 100))
             u = 3
@@ -16693,7 +16693,6 @@ else
                     p = k.length
                     o = n.r
                     n.r.hongs1 = 0
-                    n.f = 180
                     if (l.aA(l.ak(C.e.Z(q / T.cc(l, !1, c)), o, T.kV(), c, d), o, T.a3(), c, d) > 0)
                         s = !0
                     k[p].b = 300

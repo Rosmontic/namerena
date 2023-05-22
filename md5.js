@@ -16683,7 +16683,8 @@ r.r.ry.i(0, r.fr)
 r.ae(0)
             l = a[0].a
             d.a.push(T.e("[0]使用[炽击「大鹏坠击拳」]", r.r, l, q, q, 1, 1000, 100))
-            for (s = !1,n = 0; n < 3; ++n) {
+            for (s = !1,
+n = 0; n < 3; ++n) {
                 if (r.r.fr > 0 && !r.r.A && l.fr > 0) {
                     d.a.push($.v())
                     if (l.fr > 0 && !l.A && T.bd(100 + r.r.cy, l.dx + l.cy, c)) {
@@ -16724,7 +16725,8 @@ aK: function(a, b, c, d) {
             var u, s, r = this, q = null, l ,n
             l = a[0].a
             d.a.push(T.e("[0]使用[炽击「大鹏坠击拳」]", r.r, l, q, q, 1, 1000, 100))
-            for (s = !1,n = 0; n < 3; ++n) {
+            for (s = !1,
+n = 0; n < 3; ++n) {
                 if (r.r.fr > 0 && !r.r.A && l.fr > 0) {
                     d.a.push($.v())
                     if (l.fr > 0 && !l.A && T.bd(100 + r.r.cy, l.dx + l.cy, c)) {

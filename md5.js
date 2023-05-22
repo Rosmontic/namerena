@@ -6846,7 +6846,12 @@ tha5b1: function tha5b1() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
-
+        tha6b1: function tha6b1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
         tigerCheckHP: function tigerCheckHP() {
             var _ = this
             _.e = !1
@@ -16892,6 +16897,16 @@ a=0
         },
         $iD: 1
 }
+T.tha6b1.prototype = {
+    ak: function(a, b, c, d, e) {
+        var u = a > 0
+        return u && J.Q(c, T.mA()) ? 0.75*a : a
+    },
+    T: function() {
+        this.r.y1.i(0, this)
+    },
+    $iD: 1
+}
     T.tigerCheckHP.prototype = {
         ak: function(a, b, c, d, e) {
 			if(this.r.fr - a <= 180 && !this.r.upgrade) {
@@ -18147,7 +18162,8 @@ T.hong.prototype = {
             var u, t = new T.aK()
             t.r = this
             this.k2 = t
-            t = this.id 
+            t = this.id
+            t.push(new T.tha6b1())
             u = new T.tha6n1(1.8)
             u.fr = new T.aN(u)
             u.f = 100
@@ -18156,7 +18172,7 @@ T.hong.prototype = {
             u.f = 50
             t.push(u)
             u = new T.tha6n3()
-            u.f = 60
+            u.f = 65
             t.push(u)
             u = new T.dV()
             u.f = 100
@@ -21578,7 +21594,7 @@ T.i9m.prototype = {
         t(P.cD, P.l)
         t(Z.hl, Z.ax)
         s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
-        s(T.H, [T.y, T.hJ, T.tha5b1, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.tha4b1,T.tha3b2, T.i9 , T.i9m, T.ih, T.im, T.tha3b1, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
+        s(T.H, [T.y, T.hJ, T.tha5b1, T.tha6b1, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.tha4b1,T.tha3b2, T.i9 , T.i9m, T.ih, T.im, T.tha3b1, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
         s(T.y, [T.dL, T.hI ,T.tha6n1, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.tha3n1, T.tha3n2, T.tha3s1, T.tha6n2, T.tha6n3, T.tha5n1, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.tha4n3, T.dS, T.tha4n1, T.tha4n2, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia ,T.tha4s1, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.tha5n3, T.tha6s1t,T.tha6s1, T.dM, T.tha5n2, T.tha5s1, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
         s(T.M, [T.bf, T.co, T.dj , T.cG, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade])
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])

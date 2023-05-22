@@ -16681,7 +16681,7 @@ else
             if (p == null) {
                 r.fy = r.r
                 r.r.ry.i(0, r.fr)
-                k.push(T.e("[0]蓄气", r.r, r.fy, q, q, 1, 1000, 100))
+                k.push(T.e("[0][蓄气]", r.r, r.fy, q, q, 1, 1000, 100))
                 r.r.j = r.r.j + 400
             }
             else {
@@ -16900,7 +16900,7 @@ a=0
 T.tha6b1.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0
-        return u && J.Q(c, T.mA()) ? 75*a : a
+        return u && J.Q(c, T.mA()) ? 0.75*a : a
     },
     T: function() {
         this.r.y1.i(0, this)

@@ -15141,7 +15141,7 @@ d.a.push(T.e("[0]使用[暗符「月的阴暗面」]", u.r, t, null, null, 1, 10
 t.a0(s, !0, u.r, T.a3(), c, d)
 u.r.ch = u.r.ch + 25
 u.r.dx = u.r.dx + 25
-}
+        }
 }
 T.tha6n2.prototype = {
     t: function(a, b, c, d) {
@@ -20355,6 +20355,8 @@ dk: function(a, b, c, d, e, f, g) {
         return a
         
     },
+    
+    $iK: 1
 }
 T.tha4b1.prototype = {
         dk: function(a, b, c, d, e, f, g) {
@@ -20362,6 +20364,9 @@ T.tha4b1.prototype = {
             if (c.fr <= 0)
                 return a
             if (f.m() < s.f && f.m() < 128 && s.r.bq(f) && !c.millionPower) {
+                u = T.u(s.r, !0, f) * 0.5
+                if (u > a)
+                    u = a
 g.a.push(T.e(C.c.K("[0]免疫", $.nj()), s.r, c, null, null, 20, 1500, 100))
                 t = s.r
                 t.j = t.j - 480
@@ -20372,6 +20377,7 @@ g.a.push(T.e(C.c.K("[0]免疫", $.nj()), s.r, c, null, null, 20, 1500, 100))
         T: function() {
             this.r.x2.i(0, this)
         },
+        $iK: 1
     }
     T.i9.prototype = {
         ga1: function() {
@@ -20618,6 +20624,8 @@ T.i9m.prototype = {
             u.dx = u.dx * 5
             u.go = u.go + 2
         },
+        $ip: 1,
+        $iA: 1
     }
     T.bn.prototype = {
         ai: function(a, b) {

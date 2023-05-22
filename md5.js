@@ -16675,7 +16675,7 @@ r.r.ry.i(0, r.fr)
             else {
 r.ae(0)
             l = a[0].a
-            d.a.push(T.e("[0]使用[炽击「大鹏坠击拳」]", r.r, l, q, q, 1, 1000, 100))
+            d.a.push(T.e("[0]对[1]使用[炽击「大鹏坠击拳」]", r.r, l, q, q, 1, 1000, 100))
             t = 100 + r.r.cy
             for (s = !1,n = 0; n < 3; ++n) {
                 if (r.r.fr > 0 && !r.r.A && l.fr > 0) {
@@ -16688,7 +16688,7 @@ r.ae(0)
                         return
                     }
                     o = r.r
-                    if (l.aA(l.ak(C.e.Z(T.u(n.r, !0, c)*1.5 / T.cc(l, !1, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
+                    if (l.aA(l.ak(C.e.Z(T.u(r.r, !0, c)*1.5 / T.cc(l, !1, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
                         s = !0
                     k[d.a.length].b = 300
                     }

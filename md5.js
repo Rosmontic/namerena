@@ -18153,18 +18153,21 @@ T.hong.prototype = {
             u.f = 100
             t.push(u)
             u = new T.tha6n2()
-            u.f = 0
+            u.f = 50
             t.push(u)
             u = new T.tha6n3()
-            u.f = 0
+            u.f = 60
             t.push(u)
-            u = new T.tha6s1t()
-            u.f = 0
+            u = new T.dV()
+            u.f = 100
             t.push(u)
             u = new T.tha6s1()
             u.fr = new T.bP(u)
             u.fx = new T.cB(u)
-            u.f = 200
+            u.f = 150
+            t.push(u)
+            u = new T.tha6s1t()
+            u.f = 0
             t.push(u)
 }
 }
@@ -21944,7 +21947,7 @@ C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
 C.rumia = H.a(u([17, 35, 20, 1, -8, 25, 7, 685]), [P.j])
 C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 1000]), [P.j])
 C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 565]), [P.j])
-C.hong = H.a(u([0, 12, 0, 0, 0, 0, 0, 4000]), [P.j])
+C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
 C.koakuma = H.a(u([0, 12, 100, 100, 0, 0, 0, 3000]), [P.j])
 C.patchouli = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 C.sakuya = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])

@@ -16688,8 +16688,7 @@ T.tha5n3.prototype = {
             k.push(T.e("[0]使用[冻符「完美冻结」]", n.r, l, m, m, 1, 1000, 100))
             u = 3
             t = 100 + n.r.cy
-            for (s = !1,
-            r = 0; r < u; ++r) {
+            for (r = 0; r < u; ++r) {
                 q = n.r
                 if (q.fr > 0 && !q.A && l.fr > 0) {
                     k.push($.v())

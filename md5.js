@@ -17154,8 +17154,8 @@ T.tha7s1.prototype = {
             n.push(a[u].a)
         t = "[0]使用「梦中的死灵之书」]"
         s = this.r
-        this.time ++
-        if (this.time > 2)
+        s.time ++
+        if (s.time > 1)
         {
             this.f = 0
         }

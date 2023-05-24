@@ -16693,7 +16693,7 @@ T.tha5n3.prototype = {
                 if (q.fr > 0 && !q.A && l.fr > 0) {
                     k.push($.v())
                     if (l.fr > 0 && !l.A && T.bd(t, l.dx + l.cy, c)) {
-                        if (s)
+                        if (1)
                             k.push(T.e(O.c("SYdr"), l, n.r, m, m, 0, 1000, 100))
                         else
                             k.push(T.e(O.c("vVob"), l, n.r, m, m, 0, 1000, 100))
@@ -16705,7 +16705,7 @@ else
 {q = T.u(n.r, !0, c)*1.3}
                     p = k.length
                     o = n.r
-                    if (l.aA(l.ak(C.e.Z(q * 0.5 / T.cc(l, !0, c)), o, T.kV(), c, d), o, T.kV(), c, d) > 0)
+                    if (l.aA(l.ak(C.e.Z(q * 0.4 / T.cc(l, !0, c)), o, T.kV(), c, d), o, T.kV(), c, d) > 0)
                         s = !0
                     k[p].b = 300
                 }
@@ -17079,7 +17079,7 @@ o.a0(p, !0, this.r, T.kV(), c, d)
 d.a.push($.v())
 d.a.push(T.e("[0]变[⑨]了", s, null, null, r, 1, 1000, 100))
 this.r.db += 9
-this.r.dy = 9
+this.r.dy = this.r.dy / 11
         }
 }
 T.tha3n1.prototype = {

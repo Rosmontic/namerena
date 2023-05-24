@@ -18277,6 +18277,8 @@ T.hong.prototype = {
             t.push(u)
 }
 }
+T.cy.prototype = {}
+T.hg.prototype = {}
 T.koakuma.prototype = {
     gah: function() {
         return C.S

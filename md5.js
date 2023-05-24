@@ -18278,26 +18278,21 @@ T.hong.prototype = {
 }
 }
 T.koakuma.prototype = {
-        gah: function() {
-            return C.koakuma
-        },
-        gaQ: function() {
-            return H.a([], [P.f])
-        },
-        aa: function() {
-            var u, t = new T.aK()
-            t.r = this
-            this.k2 = t
-            t = this.id
-            u = new T.tha7s1()
-            u.f = 100
-            t.push(u)
-            u = new T.bm()
-            u.r = this
-            this.k2 = u
-            this.id.push(new T.dZ())
-
-}
+    gah: function() {
+        return C.S
+    },
+    gaQ: function() {
+        return H.a([], [P.f])
+    },
+    gaB: function() {
+        return H.a([$.b9()], [P.f])
+    },
+    aa: function() {
+        var u = new T.bm()
+        u.r = this
+        this.k2 = u
+        this.id.push(new T.dZ())
+    }
 }
 T.patchouli.prototype = {
         gah: function() {

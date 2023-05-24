@@ -17154,10 +17154,14 @@ T.tha7s1.prototype = {
             n.push(a[u].a)
         t = "[0]使用「梦中的死灵之书」]"
         s = this.r
-        s.time ++
-        if (s.time > 1)
+        s.time = 1
+        if (s.time == 2)
         {
-            this.f = 0
+            this.f = 0*this.f
+        }
+        if (s.time == 1)
+        {
+            s.time = 2
         }
         r = H.a(n.slice(0), [H.n(n, 0)])
         q = d.a
@@ -18284,7 +18288,8 @@ T.koakuma.prototype = {
             var u, t = new T.aK()
             t.r = this
             this.k2 = t
-            t = this.id 
+            t = this.id
+            this.id.push(new T.dZ())
             u = new T.tha7s1()
             u.f = 100
             t.push(u)

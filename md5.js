@@ -7814,7 +7814,7 @@ koakuma: function koakuma(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, 
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
-            _.upgrade = true
+            _.time = 0
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -17154,12 +17154,17 @@ T.tha7s1.prototype = {
             n.push(a[u].a)
         t = "[0]使用「梦中的死灵之书」]"
         s = this.r
+        this.time ++
+        if (this.time > 2)
+        {
+            this.f = 0
+        }
         r = H.a(n.slice(0), [H.n(n, 0)])
         q = d.a
         q.push(T.e(t, s, null, null, r, 1, 1000, 100))
         for (u = 0; u < n.length; ++u) {
             o = n[u]
-            p = 80*(o.dx + o.ch)
+            p = 100*(o.dx + o.ch)
 q.push($.v())
 o.a0(p, !0, this.r, T.a3(), c, d)
 if(o.fr > 0 && this.r.fr > 0) {

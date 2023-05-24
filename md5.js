@@ -16698,7 +16698,7 @@ T.tha5n3.prototype = {
                 if (q.fr > 0 && !q.A && l.fr > 0) {
                     k.push($.v())
                     if (l.fr > 0 && !l.A && T.bd(t, l.dx + l.cy, c)) {
-                        if (r == u)
+                        if (0)
                             k.push(T.e(O.c("SYdr"), l, n.r, m, m, 0, 1000, 100))
                         else
                             k.push(T.e(O.c("vVob"), l, n.r, m, m, 0, 1000, 100))
@@ -18280,8 +18280,8 @@ T.koakuma.prototype = {
             t.r = this
             this.k2 = t
             t = this.id 
-            u = new T.hL()
-            u.f = 300
+            u = new T.tha7s1()
+            u.f = 100
             t.push(u)
 
 }

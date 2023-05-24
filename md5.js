@@ -21698,7 +21698,7 @@ T.i9m.prototype = {
         s(T.av, [T.hh,T.hha4n2, T.hi, T.ho])
         s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.testa, T.rumia, T.daiyousei, T.cirno , T.hong , T.testa , T.koakuma , T.patchouli , T.sakuya])
         t(T.hg, T.cy)
-        t(T.f3, T.bA)
+        t(T.f3, T.bA, T.koakuma)
         t(T.e_, T.dN, T.yuriSuperControl)
         s(T.aU, [T.b_, T.bG, T.dr, T.ch])
         s(T.aw, [T.dJ, T.bT])

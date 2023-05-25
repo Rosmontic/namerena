@@ -4747,6 +4747,28 @@
                 e.a.push(u)
             }
         },
+        sls: function(a, b, c, d, e) {
+            var u, t
+            if (c > 0 && !(b.fr <= 0)) {
+                if (b.a6($.aC(), d))
+                    return
+                u = b.r1
+                t = H.o(u.h(0, $.aC()), "$icG")
+                if (t == null) {
+                    t = new T.sl(b)
+                    t.x = new T.hs(t)
+                    u.k(0, $.aC(), t)
+                    b.r2.i(0, t)
+                    b.rx.i(0, t.x)
+                    b.E()
+                } else
+                    t.y += 1024
+                if (a.r1.G(0, $.X()))
+                    t.y += 2048
+                u = T.e(C.c.K("[0]被减速了", $.ng()), a, b, null, null, 40, 1000, 100)
+                e.a.push(u)
+            }
+        },
         pe: function(a, b, c, d, e) {
             var u, t
             if (c > 4 && !(b.fr <= 0)) {
@@ -6625,6 +6647,13 @@ tha4n1: function tha4n1() {
             this.a = a
         },
         dj: function dj(a) {
+            var _ = this
+            _.r = a
+            _.x = null
+            _.y = 1024
+            _.c = _.b = _.a = null
+        },
+        sl: function sl(a) {
             var _ = this
             _.r = a
             _.x = null
@@ -15331,9 +15360,11 @@ o.a0(p, !0, this.r, T.a3(), c, d)
                 var u = this
                 t = a[0].a
         s = T.u(u.r, !1, c)
-        d.a.push(T.e("[0]使用[金符「银龙」]", u.r, t, null, null, 1, 1000, 100))
-        u.r.element1 = 1
-        t.a0(1.35*s, !0, u.r, T.a3(), c, d)
+        d.a.push(T.e("[0]使用[木符「翠绿风暴」]", u.r, t, null, null, 1, 1000, 100))
+        u.r.element1 = 2
+        t.a0(0.7*s, !0, u.r, T.a3(), c, d)
+        d.a.push($.v())
+        t.a0(0.7*s, !0, u.r, T.a3(), c, d)
         }   
         }
         T.tha8t2.prototype = {
@@ -15344,33 +15375,18 @@ o.a0(p, !0, this.r, T.a3(), c, d)
                     }
                     return this.aS(a, b)
                 },
-                gb3: function() {
-                    return 4
-                },
-                gb4: function() {
-                    return 4
-                },
                 t: function(a, b, c, d) {
                     if(u.r.element5 == 0){
                         return !1
                     }
-                    var u, t, s, r, q, p, o, n = H.a([], [T.aU])
-                    for (u = 0; u < a.length; ++u)
-                        n.push(a[u].a)
-                    t = "[0]使用[土金符「翡翠巨石」]"
-                    s = this.r
-                    r = H.a(n.slice(0), [H.n(n, 0)])
-                    q = d.a
-                    q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-                    s.element1 = 1
-                    p = T.u(this.r, !0, c) * 0.90
-                    for (u = 0; u < n.length; ++u) {
-                        o = n[u]
-        if (o.fr > 0 ) {
-        q.push($.v())
-        o.a0(p, !0, this.r, T.a3(), c, d)
-        }                    
-        }
+                    var u = this
+                t = a[0].a
+        s = T.u(u.r, !1, c)
+        d.a.push(T.e("[0]使用[水木符「水精灵」]", u.r, t, null, null, 1, 1000, 100))
+        u.r.element1 = 2
+        t.a0(0.75*s, !0, u.r, T.sla(), c, d)
+        d.a.push($.v())
+        t.a0(0.75*s, !0, u.r, T.sla(), c, d)
         }   
         }
         T.tha8n3.prototype = {
@@ -16227,6 +16243,42 @@ T.tha4n1.prototype = {
                 t = b.a
                 t.push($.v())
                 t.push(T.ap(O.c("yICz"), a, u))
+            }
+        },
+        $ip: 1
+    }
+    T.sl.prototype = {
+        gR: function() {
+            return -1
+        },
+        al: function(a) {
+            a.cx = C.b.v(a.cx, 2)
+        },
+        ff: function(a, b, c) {
+            var u, t = this
+            if (a > 0) {
+                u = t.y
+                if (u > 0) {
+                    t.y = u - a
+                    return 0
+                } else if (a + t.r.j >= 3072) {
+                    t.H(null, c)
+                    return 0
+                }
+            }
+            return a
+        },
+        H: function(a, b) {
+            var u, t
+            this.C()
+            u = this.r
+            u.r1.S(0, $.b8())
+            this.x.C()
+            u.E()
+            if (u.fr > 0) {
+                t = b.a
+                t.push($.v())
+                t.push(T.ap("[0]从减速中解除", a, u))
             }
         },
         $ip: 1
@@ -21986,6 +22038,7 @@ T.i9m.prototype = {
         r(T, "darkLock_1", 5, null, ["$5"], ["darkLockAttack"], 0, 0)
         r(T, "mC", 5, null, ["$5"], ["pb"], 0, 0)
         r(T, "kV", 5, null, ["$5"], ["pc"], 0, 0)
+        r(T, "sla", 5, null, ["$5"], ["sls"], 0, 0)
         r(T, "qc", 5, null, ["$5"], ["pe"], 0, 0)
         r(T, "q9", 5, null, ["$5"], ["p8"], 0, 0)
         r(T, "qb", 5, null, ["$5"], ["pd"], 0, 0)

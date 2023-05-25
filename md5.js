@@ -7950,7 +7950,7 @@ koakuma: function koakuma(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, 
             _.id = e
             _.element1 = 0
             _.element2 = 0
-            _.element3 = 0
+            _.element3 = 1
             _.element4 = 0
             _.element5 = 0
             _.k2 = _.k1 = null
@@ -15290,7 +15290,7 @@ t.a0(1.6*s, !1, u.r, T.a3(), c, d)
 T.tha8n1.prototype = {
     ar: function(a, b) {
         if (b) {
-            if (this.r.element1*this.r.element2*this.r.element3*this.r.element4*this.r.element5 == 1)
+            if (this.r.element1 == 1)
                 return !1
         }
         return this.aS(a, b)
@@ -15310,7 +15310,7 @@ t.a0(1.35*s, !0, u.r, T.a3(), c, d)
 T.tha8t1.prototype = {
         ar: function(a, b) {
             if (b) {
-                if (this.r.element1*this.r.element2*this.r.element3*this.r.element4*this.r.element5 == 1)
+                if (this.r.element1 == 1)
                     return !1
             }
             return this.aS(a, b)
@@ -15348,13 +15348,13 @@ o.a0(p, !0, this.r, T.a3(), c, d)
         T.tha8n2.prototype = {
             ar: function(a, b) {
                 if (b) {
-                    if (this.r.element1*this.r.element2*this.r.element3*this.r.element4*this.r.element5 == 1)
+                    if (this.r.element2 == 1)
                         return !1
                 }
                 return this.aS(a, b)
             },
             t: function(a, b, c, d) {
-                if(u.r.element5 == 1){
+                if(u.r.element3 == 1){
                     return !1
                 }
                 var u = this
@@ -15370,13 +15370,13 @@ o.a0(p, !0, this.r, T.a3(), c, d)
         T.tha8t2.prototype = {
                 ar: function(a, b) {
                     if (b) {
-                        if (this.r.element1*this.r.element2*this.r.element3*this.r.element4*this.r.element5 == 1)
+                        if (this.r.element2 == 1)
                             return !1
                     }
                     return this.aS(a, b)
                 },
                 t: function(a, b, c, d) {
-                    if(u.r.element5 == 0){
+                    if(u.r.element3 == 0){
                         return !1
                     }
                     var u = this
@@ -18744,6 +18744,9 @@ T.patchouli.prototype = {
             t.r = this
             this.k2 = t
             t = this.id 
+            u = new T.tha8t2()
+            u.f = 100
+            t.push(u)
 }
 }
 T.sakuya.prototype = {

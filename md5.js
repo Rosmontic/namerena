@@ -17030,7 +17030,7 @@ T.tha5n2.prototype = {
         },
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o, n = H.a([], [T.aU])
-            for (u = 0; u < a.length; ++u)
+            for (u = 0; u < 3; ++u)
                 n.push(a[u].a)
             t = "[0]使用[雪符「钻石风暴」]"
             s = this.r
@@ -17038,7 +17038,7 @@ T.tha5n2.prototype = {
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
             p = T.u(this.r, !0, c) * 0.7
-            for (u = 0; u < n.length; ++u) {
+            for (u = 0; u < 3; ++u) {
                 o = n[u]
 if (o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") == null ) {
 q.push($.v())
@@ -18277,24 +18277,27 @@ T.hong.prototype = {
             t.push(u)
 }
 }
-T.cy.prototype = {}
-T.hg.prototype = {}
 T.koakuma.prototype = {
-    gah: function() {
-        return C.S
-    },
-    gaQ: function() {
-        return H.a([], [P.f])
-    },
-    gaB: function() {
-        return H.a([$.b9()], [P.f])
-    },
-    aa: function() {
-        var u = new T.bm()
-        u.r = this
-        this.k2 = u
-        this.id.push(new T.dZ())
-    }
+        gah: function() {
+            return C.koakuma
+        },
+        gaQ: function() {
+            return H.a([], [P.f])
+        },
+        aa: function() {
+            var u, t = new T.aK()
+            t.r = this
+            this.k2 = t
+            t = this.id
+            u = new T.tha7s1()
+            u.f = 100
+            t.push(u)
+            u = new T.bm()
+            u.r = this
+            this.k2 = u
+            this.id.push(new T.dZ())
+
+}
 }
 T.patchouli.prototype = {
         gah: function() {
@@ -18610,7 +18613,8 @@ t.push(u)
             return C.b.v(a, 100)
         }
     }
-
+    T.cy.prototype = {}
+    T.hg.prototype = {}
     T.bA.prototype = {
         gah: function() {
             return C.S
@@ -21694,7 +21698,7 @@ T.i9m.prototype = {
         s(T.av, [T.hh,T.hha4n2, T.hi, T.ho])
         s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.testa, T.rumia, T.daiyousei, T.cirno , T.hong , T.testa , T.koakuma , T.patchouli , T.sakuya])
         t(T.hg, T.cy)
-        t(T.f3, T.koakuma)
+        t(T.f3, T.bA, T.koakuma)
         t(T.e_, T.dN, T.yuriSuperControl)
         s(T.aU, [T.b_, T.bG, T.dr, T.ch])
         s(T.aw, [T.dJ, T.bT])

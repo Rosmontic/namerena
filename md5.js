@@ -15348,7 +15348,7 @@ o.a0(p, !0, this.r, T.a3(), c, d)
         T.tha8n2.prototype = {
             ar: function(a, b) {
                 if (b) {
-                    if (this.r.element2 == 1)
+                    if (this.r.element3 == 1)
                         return !1
                 }
                 return this.aS(a, b)
@@ -15361,7 +15361,7 @@ o.a0(p, !0, this.r, T.a3(), c, d)
                 t = a[0].a
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[木符「翠绿风暴」]", u.r, t, null, null, 1, 1000, 100))
-        u.r.element1 = 2
+        u.r.element2 = 1
         t.a0(0.7*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
         t.a0(0.7*s, !0, u.r, T.a3(), c, d)
@@ -15370,20 +15370,25 @@ o.a0(p, !0, this.r, T.a3(), c, d)
         T.tha8t2.prototype = {
                 ar: function(a, b) {
                     if (b) {
-                        if (this.r.element2 == 1)
+                        if (this.r.element3 == 0)
                             return !1
                     }
                     return this.aS(a, b)
                 },
+if (this.r.element2 == 1)
+                        return !1
+                }
+
                 t: function(a, b, c, d) {
                     var u = this
                 t = a[0].a
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[水木符「水精灵」]", u.r, t, null, null, 1, 1000, 100))
-        u.r.element1 = 2
-        t.a0(0.75*s, !0, u.r, T.a3(), c, d)
+        u.r.element2 = 1
+d.a.push($.v())
+        t.a0(0.75*s, !0, u.r, T.sla(), c, d)
         d.a.push($.v())
-        t.a0(0.75*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.75*s, !0, u.r, T.sla(), c, d)
         }   
         }
         T.tha8n3.prototype = {

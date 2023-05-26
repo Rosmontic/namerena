@@ -4748,16 +4748,16 @@
             }
         },
         sls: function(a, b, c, d, e) {
-            var u, t
+             var u, t
             if (c > 0 && !(b.fr <= 0)) {
-                if (b.a6($.aC(), d))
+                if (b.a6($.b8(), d))
                     return
                 u = b.r1
-                t = H.o(u.h(0, $.aC()), "$icG")
+                t = H.o(u.h(0, $.b8()), "$idj")
                 if (t == null) {
-                    t = new T.sl(b)
+                    t = new T.dj(b)
                     t.x = new T.hs(t)
-                    u.k(0, $.aC(), t)
+                    u.k(0, $.b8(), t)
                     b.r2.i(0, t)
                     b.rx.i(0, t.x)
                     b.E()
@@ -4765,28 +4765,8 @@
                     t.y += 1024
                 if (a.r1.G(0, $.X()))
                     t.y += 2048
-                u = T.e(C.c.K("[0]被减速了", $.ng()), a, b, null, null, 40, 1000, 100)
+                u = T.e(C.c.K(O.c("lZqU"), $.ng()), a, b, null, null, 40, 1000, 100)
                 e.a.push(u)
-            }
-        },
-        pe: function(a, b, c, d, e) {
-            var u, t
-            if (c > 4 && !(b.fr <= 0)) {
-                if (b.a6($.b9(), d))
-                    return
-                u = b.r1
-                t = H.o(u.h(0, $.b9()), "$idE")
-                if (t == null) {
-                    t = new T.dE(a,b)
-                    t.y = T.u(a, !0, d) * 1.2
-                    u.k(0, $.b9(), t)
-                    b.x1.i(0, t)
-                } else {
-                    t.y = t.y + T.u(a, !0, d) * 1.2
-                    t.z = 4
-                    t.r = a
-                }
-                e.a.push(T.e(C.c.K(O.c("UAjR"), $.ni()), a, b, null, null, 60, 1000, 100))
             }
         },
         u: function(a, b, c) {
@@ -15380,7 +15360,6 @@ o.a0(p, !0, this.r, T.a3(), c, d)
                 t = a[0].a
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[水木符「水精灵」]", u.r, t, null, null, 1, 1000, 100))
-        u.r.element1 = 2
         t.a0(0.75*s, !0, u.r, T.sla(), c, d)
         d.a.push($.v())
         t.a0(0.75*s, !0, u.r, T.a3(), c, d)
@@ -16249,7 +16228,7 @@ T.tha4n1.prototype = {
             return -1
         },
         al: function(a) {
-            a.cx = C.b.v(a.cx, 2)
+            a.A = !0
         },
         ff: function(a, b, c) {
             var u, t = this
@@ -16258,7 +16237,7 @@ T.tha4n1.prototype = {
                 if (u > 0) {
                     t.y = u - a
                     return 0
-                } else if (a + t.r.j >= 3072) {
+                } else if (a + t.r.j >= 2048) {
                     t.H(null, c)
                     return 0
                 }
@@ -16269,16 +16248,17 @@ T.tha4n1.prototype = {
             var u, t
             this.C()
             u = this.r
-            u.r1.S(0, $.aC())
+            u.r1.S(0, $.b8())
             this.x.C()
             u.E()
             if (u.fr > 0) {
                 t = b.a
                 t.push($.v())
-                t.push(T.ap("[0]从减速中解除", a, u))
+                t.push(T.ap(O.c("yICz"), a, u))
             }
         },
         $ip: 1
+
     }
     T.dT.prototype = {
         a8: function(a, b, c) {

@@ -15386,9 +15386,9 @@ if (this.r.element2 == 1)
         d.a.push(T.e("[0]使用[水木符「水精灵」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element2 = 1
 d.a.push($.v())
-        t.a0(0.75*s, !0, u.r, T.sla(), c, d)
+        t.a0(0.75*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
-        t.a0(0.75*s, !0, u.r, T.sla(), c, d)
+        t.a0(0.75*s, !0, u.r, T.a3(), c, d)
         }   
         }
         T.tha8n3.prototype = {

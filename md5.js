@@ -15376,9 +15376,6 @@ o.a0(p, !0, this.r, T.a3(), c, d)
                     return this.aS(a, b)
                 },
                 t: function(a, b, c, d) {
-                    if(u.r.element3 == 0){
-                        return !1
-                    }
                     var u = this
                 t = a[0].a
         s = T.u(u.r, !1, c)

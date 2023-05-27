@@ -4750,14 +4750,14 @@
         sls: function(a, b, c, d, e) {
             var u, t
             if (c > 0 && !(b.fr <= 0)) {
-                if (b.a6($.aC(), d))
+                if (b.a6($.b8(), d))
                     return
                 u = b.r1
-                t = H.o(u.h(0, $.aC()), "$isl")
+                t = H.o(u.h(0, $.b8()), "$isl")
                 if (t == null) {
                     t = new T.sl(b)
                     t.x = new T.hs(t)
-                    u.k(0, $.aC(), t)
+                    u.k(0, $.b8(), t)
                     b.r2.i(0, t)
                     b.rx.i(0, t.x)
                     b.E()
@@ -4765,7 +4765,7 @@
                     t.y += 1024
                 if (a.r1.G(0, $.X()))
                     t.y += 2048
-                u = T.e(C.c.K("[1]被减速了", $.ng()), a, b, null, null, 40, 1000, 100)
+                u = T.e(C.c.K("[1]被[减速]了", $.ng()), a, b, null, null, 40, 1000, 100)
                 e.a.push(u)
             }
         },
@@ -16297,7 +16297,7 @@ T.tha4n1.prototype = {
             var u, t
             this.C()
             u = this.r
-            u.r1.S(0, $.aC())
+            u.r1.S(0, $.b8())
             this.x.C()
             u.E()
             if (u.fr > 0) {

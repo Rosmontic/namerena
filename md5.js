@@ -15476,7 +15476,7 @@ T.tha8n4.prototype = {
         d.a.push(T.e("[0]使用[火符「火神的光辉」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element4 = 1
         this.r.db = 1.2*this.r.db
-        t.a0(s, !0, u.r, T.(), c, d)
+        t.a0(s, !0, u.r, T.firea(), c, d)
         }   
         }
 T.tha8t4.prototype = {

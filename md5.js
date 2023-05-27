@@ -4750,14 +4750,14 @@
         sls: function(a, b, c, d, e) {
             var u, t
             if (c > 0 && !(b.fr <= 0)) {
-                if (b.a6($.b8(), d))
+                if (b.a6($.aC1(), d))
                     return
                 u = b.r1
-                t = H.o(u.h(0, $.b8()), "$isl")
+                t = H.o(u.h(0, $.aC1()), "$isl")
                 if (t == null) {
                     t = new T.sl(b)
                     t.x = new T.hs(t)
-                    u.k(0, $.b8(), t)
+                    u.k(0, $.aC1(), t)
                     b.r2.i(0, t)
                     b.rx.i(0, t.x)
                     b.E()
@@ -16297,7 +16297,7 @@ T.tha4n1.prototype = {
             var u, t
             this.C()
             u = this.r
-            u.r1.S(0, $.b8())
+            u.r1.S(0, $.aC1())
             this.x.C()
             u.E()
             if (u.fr > 0) {
@@ -22902,6 +22902,9 @@ C.sakuya = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
         })
         u($, "qX", "l2", function() {
             return O.i("\u6983\u50a5\u3440")
+        })
+        u($, "rN", "aC1", function() {
+            return O.i("\u6e80\u50a7\u3460")
         })
         u($, "rN", "aC", function() {
             return O.i("\u6e80\u50a7\u3460")

@@ -16277,7 +16277,7 @@ T.tha4n1.prototype = {
             return -1
         },
         al: function(a) {
-        a.cx = C.b.v(a.cx, 2)
+            a.A = !0
         },
         ff: function(a, b, c) {
             var u, t = this
@@ -16533,8 +16533,8 @@ T.tha4n1.prototype = {
                 t = q.z
                 s = u * (1 + (t - 1) * 0.1) / t
                 q.y = u - s
-                r = C.e.Z(1.8*s / (p.db + 64))
-                b.a.push(T.e("[1]被烧伤", q.r, p, null, null, 0, 1000, 100))
+                r = C.e.Z(1.5*s / (p.db + 64))
+                b.a.push(T.e("[1]被[烧伤]了", q.r, p, null, null, 0, 1000, 100))
                 p.aA(r, q.r, T.a3(), a, b)
                 if (--q.z === 0)
                     q.H(null, b)
@@ -18800,28 +18800,28 @@ T.patchouli.prototype = {
             this.k2 = t
             t = this.id
             u = new T.tha8n1()
-            u.f = 27
+            u.f = 20
             t.push(u)
             u = new T.tha8t1()
-            u.f = 27
+            u.f = 20
             t.push(u)
             u = new T.tha8n2()
-            u.f = 36
+            u.f = 25
             t.push(u)
             u = new T.tha8t2()
-            u.f = 36
+            u.f = 25
             t.push(u)
             u = new T.tha8n3()
-            u.f = 45
+            u.f = 33
             t.push(u)
             u = new T.tha8t3()
-            u.f = 45
+            u.f = 33
             t.push(u)
             u = new T.tha8n4()
-            u.f = 70
+            u.f = 50
             t.push(u)
             u = new T.tha8t4()
-            u.f = 70
+            u.f = 50
             t.push(u)
             u = new T.tha8n5()
             u.f = 100

@@ -4753,11 +4753,11 @@
                 if (b.a6($.b8(), d))
                     return
                 u = b.r1
-                t = H.o(u.h(0, $.b8()), "$idj")
+                t = H.o(u.h(0, $.aC()), "$isl")
                 if (t == null) {
                     t = new T.sl(b)
                     t.x = new T.hs(t)
-                    u.k(0, $.b8(), t)
+                    u.k(0, $.aC(), t)
                     b.r2.i(0, t)
                     b.rx.i(0, t.x)
                     b.E()
@@ -16250,7 +16250,7 @@ T.tha4n1.prototype = {
             return -1
         },
         al: function(a) {
-a.cx = C.b.v(a.cx, 10)
+        a.cx = C.b.v(a.cx, 2)
         },
         ff: function(a, b, c) {
             var u, t = this
@@ -16270,13 +16270,13 @@ a.cx = C.b.v(a.cx, 10)
             var u, t
             this.C()
             u = this.r
-            u.r1.S(0, $.b8())
+            u.r1.S(0, $.aC())
             this.x.C()
             u.E()
             if (u.fr > 0) {
                 t = b.a
                 t.push($.v())
-                t.push(T.ap("[0]从迟缓中解除", a, u))
+                t.push(T.ap("[1]从迟缓中解除", a, u))
             }
         },
         $ip: 1

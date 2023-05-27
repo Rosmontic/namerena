@@ -4765,7 +4765,7 @@
                     t.y += 1024
                 if (a.r1.G(0, $.X()))
                     t.y += 2048
-                u = T.e(C.c.K(O.c("lZqU"), $.ng()), a, b, null, null, 40, 1000, 100)
+                u = T.e(C.c.K("[0]被减速了", $.ng()), a, b, null, null, 40, 1000, 100)
                 e.a.push(u)
             }
         },
@@ -15305,7 +15305,7 @@ T.tha8n1.prototype = {
 s = T.u(u.r, !1, c)
 d.a.push(T.e("[0]使用[金符「银龙」]", u.r, t, null, null, 1, 1000, 100))
 u.r.element1 = 1
-t.a0(1.35*s, !0, u.r, T.a3(), c, d)
+t.a0(1.40*s, !0, u.r, T.a3(), c, d)
 }   
     }
 T.tha8t1.prototype = {
@@ -15346,7 +15346,7 @@ o.a0(p, !0, this.r, T.a3(), c, d)
                 }
     }   
         }
-        T.tha8n2.prototype = {
+T.tha8n2.prototype = {
             ar: function(a, b) {
                 if (b) {
                     if (this.r.element2 == 1)
@@ -15362,13 +15362,13 @@ o.a0(p, !0, this.r, T.a3(), c, d)
                 t = a[0].a
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[木符「翠绿风暴」]", u.r, t, null, null, 1, 1000, 100))
-        u.r.element1 = 2
+        u.r.element2 = 1
         t.a0(0.7*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
         t.a0(0.7*s, !0, u.r, T.a3(), c, d)
         }   
         }
-        T.tha8t2.prototype = {
+T.tha8t2.prototype = {
                 ar: function(a, b) {
                     if (b) {
                         if (this.r.element2 == 1)
@@ -15377,40 +15377,144 @@ o.a0(p, !0, this.r, T.a3(), c, d)
                     return this.aS(a, b)
                 },
                 t: function(a, b, c, d) {
+                    if(u.r.element3 == 0){
+                        return !1
+                    }
                     var u = this
                 t = a[0].a
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[水木符「水精灵」]", u.r, t, null, null, 1, 1000, 100))
-        u.r.element1 = 2
-        t.a0(0.75*s, !0, u.r, T.sla(), c, d)
+        u.r.element2 = 1
         d.a.push($.v())
-        t.a0(0.75*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.7*s, !0, u.r, T.sla(), c, d)
+        d.a.push($.v())
+        t.a0(0.7*s, !0, u.r, T.sla(), c, d)
         }   
         }
-        T.tha8n3.prototype = {
+T.tha8n3.prototype = {
             ar: function(a, b) {
                 if (b) {
-                    if (this.r.element1*this.r.element2*this.r.element3*this.r.element4*this.r.element5 == 1)
+                    if (this.r.element3 == 1)
                         return !1
                 }
                 return this.aS(a, b)
             },
             t: function(a, b, c, d) {
-                if(u.r.element5 == 1){
+                if(this.r.element1 == 1){
                     return !1
                 }
                 var u = this
                 t = a[0].a
         s = T.u(u.r, !1, c)
-        d.a.push(T.e("[0]使用[金符「银龙」]", u.r, t, null, null, 1, 1000, 100))
-        u.r.element1 = 1
-        t.a0(1.35*s, !0, u.r, T.a3(), c, d)
+        d.a.push(T.e("[0]使用[水符「湖葬」]", u.r, t, null, null, 1, 1000, 100))
+        u.r.element3 = 1
+        t.a0(0.85*s, !0, u.r, T.sla(), c, d)
         }   
         }
-        T.tha8t3.prototype = {
+T.tha8t3.prototype = {
+            ar: function(a, b) {
+                if (b) {
+                    if (this.r.element3 == 1)
+                        return !1
+                }
+                return this.aS(a, b)
+            },
+            t: function(a, b, c, d) {
+                if(this.r.element1 == 0){
+                    return !1
+                }
+                var u = this
+                t = a[0].a
+        s = T.u(u.r, !1, c)
+        d.a.push(T.e("[0]使用[金水符「水银之毒」]", u.r, t, null, null, 1, 1000, 100))
+        u.r.element3 = 1
+        t.a0(1.7*s, !0, u.r, T.sla(), c, d)
+        }   
+        }
+T.tha8n4.prototype = {
+            ar: function(a, b) {
+                if (b) {
+                    if (this.r.element4 == 1)
+                        return !1
+                }
+                return this.aS(a, b)
+            },
+            t: function(a, b, c, d) {
+                if(this.r.element2 == 1){
+                    return !1
+                }
+                var u = this
+                t = a[0].a
+        s = T.u(u.r, !1, c)
+        d.a.push(T.e("[0]使用[火符「火神的光辉」]", u.r, t, null, null, 1, 1000, 100))
+        u.r.element4 = 1
+        t.a0(1.1*s, !0, u.r, T.a3(), c, d)
+        }   
+        }
+T.tha8t4.prototype = {
+            ar: function(a, b) {
+                if (b) {
+                    if (this.r.element4 == 1)
+                        return !1
+                }
+                return this.aS(a, b)
+            },
+            t: function(a, b, c, d) {
+                if(u.r.element2 == 0){
+                    return !1
+                }
+                var u = this
+                t = a[0].a
+        s = T.u(u.r, !1, c)
+        d.a.push(T.e("[0]使用[木火符「森林大火」]", u.r, t, null, null, 1, 1000, 100))
+        u.r.element4 = 1
+        t.a0(0.8*s, !0, u.r, T.a3(), c, d)
+        d.a.push($.v())
+        t.a0(0.8*s, !0, u.r, T.a3(), c, d)
+        }   
+        } 
+
+T.tha8n5.prototype = {
+            ar: function(a, b) {
+                if (b) {
+                    if (this.r.element5 == 1)
+                        return !1
+                }
+                return this.aS(a, b)
+            },
+            gb3: function() {
+                return 4
+            },
+            gb4: function() {
+                return 4
+            },
+            t: function(a, b, c, d) {
+                if(this.r.element4 == 1){
+                    return !1
+                }
+                var u, t, s, r, q, p, o, n = H.a([], [T.aU])
+                for (u = 0; u < a.length; ++u)
+                    n.push(a[u].a)
+                t = "[0]使用[土符「三石塔的震动」]"
+                s = this.r
+                r = H.a(n.slice(0), [H.n(n, 0)])
+                q = d.a
+                q.push(T.e(t, s, null, null, r, 1, 1000, 100))
+                s.element5 = 1
+                p = T.u(this.r, !0, c) * 0.70
+                for (u = 0; u < n.length; ++u) {
+                    o = n[u]
+    if (o.fr > 0 ) {
+    q.push($.v())
+    o.a0(p, !0, this.r, T.a3(), c, d)
+    }                    
+    }
+    }   
+    }
+T.tha8t5.prototype = {
                 ar: function(a, b) {
                     if (b) {
-                        if (this.r.element1*this.r.element2*this.r.element3*this.r.element4*this.r.element5 == 1)
+                        if (this.r.element5 == 1)
                             return !1
                     }
                     return this.aS(a, b)
@@ -15422,133 +15526,19 @@ o.a0(p, !0, this.r, T.a3(), c, d)
                     return 4
                 },
                 t: function(a, b, c, d) {
-                    if(u.r.element5 == 0){
+                    if(this.r.element4 == 0){
                         return !1
                     }
                     var u, t, s, r, q, p, o, n = H.a([], [T.aU])
                     for (u = 0; u < a.length; ++u)
                         n.push(a[u].a)
-                    t = "[0]使用[土金符「翡翠巨石」]"
+                    t = "[0]使用[火土符「环状熔岩带」]"
                     s = this.r
                     r = H.a(n.slice(0), [H.n(n, 0)])
                     q = d.a
                     q.push(T.e(t, s, null, null, r, 1, 1000, 100))
                     s.element1 = 1
-                    p = T.u(this.r, !0, c) * 0.90
-                    for (u = 0; u < n.length; ++u) {
-                        o = n[u]
-        if (o.fr > 0 ) {
-        q.push($.v())
-        o.a0(p, !0, this.r, T.a3(), c, d)
-        }                    
-        }
-        }   
-        }
-        T.tha8n4.prototype = {
-            ar: function(a, b) {
-                if (b) {
-                    if (this.r.element1*this.r.element2*this.r.element3*this.r.element4*this.r.element5 == 1)
-                        return !1
-                }
-                return this.aS(a, b)
-            },
-            t: function(a, b, c, d) {
-                if(u.r.element5 == 1){
-                    return !1
-                }
-                var u = this
-                t = a[0].a
-        s = T.u(u.r, !1, c)
-        d.a.push(T.e("[0]使用[金符「银龙」]", u.r, t, null, null, 1, 1000, 100))
-        u.r.element1 = 1
-        t.a0(1.35*s, !0, u.r, T.a3(), c, d)
-        }   
-        }
-        T.tha8t4.prototype = {
-                ar: function(a, b) {
-                    if (b) {
-                        if (this.r.element1*this.r.element2*this.r.element3*this.r.element4*this.r.element5 == 1)
-                            return !1
-                    }
-                    return this.aS(a, b)
-                },
-                gb3: function() {
-                    return 4
-                },
-                gb4: function() {
-                    return 4
-                },
-                t: function(a, b, c, d) {
-                    if(u.r.element5 == 0){
-                        return !1
-                    }
-                    var u, t, s, r, q, p, o, n = H.a([], [T.aU])
-                    for (u = 0; u < a.length; ++u)
-                        n.push(a[u].a)
-                    t = "[0]使用[土金符「翡翠巨石」]"
-                    s = this.r
-                    r = H.a(n.slice(0), [H.n(n, 0)])
-                    q = d.a
-                    q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-                    s.element1 = 1
-                    p = T.u(this.r, !0, c) * 0.90
-                    for (u = 0; u < n.length; ++u) {
-                        o = n[u]
-        if (o.fr > 0 ) {
-        q.push($.v())
-        o.a0(p, !0, this.r, T.a3(), c, d)
-        }                    
-        }
-        }   
-        }
-        T.tha8n5.prototype = {
-            ar: function(a, b) {
-                if (b) {
-                    if (this.r.element1*this.r.element2*this.r.element3*this.r.element4*this.r.element5 == 1)
-                        return !1
-                }
-                return this.aS(a, b)
-            },
-            t: function(a, b, c, d) {
-                if(u.r.element5 == 1){
-                    return !1
-                }
-                var u = this
-                t = a[0].a
-        s = T.u(u.r, !1, c)
-        d.a.push(T.e("[0]使用[金符「银龙」]", u.r, t, null, null, 1, 1000, 100))
-        u.r.element1 = 1
-        t.a0(1.35*s, !0, u.r, T.a3(), c, d)
-        }   
-        }
-        T.tha8t5.prototype = {
-                ar: function(a, b) {
-                    if (b) {
-                        if (this.r.element1*this.r.element2*this.r.element3*this.r.element4*this.r.element5 == 1)
-                            return !1
-                    }
-                    return this.aS(a, b)
-                },
-                gb3: function() {
-                    return 4
-                },
-                gb4: function() {
-                    return 4
-                },
-                t: function(a, b, c, d) {
-                    if(u.r.element5 == 0){
-                        return !1
-                    }
-                    var u, t, s, r, q, p, o, n = H.a([], [T.aU])
-                    for (u = 0; u < a.length; ++u)
-                        n.push(a[u].a)
-                    t = "[0]使用[土金符「翡翠巨石」]"
-                    s = this.r
-                    r = H.a(n.slice(0), [H.n(n, 0)])
-                    q = d.a
-                    q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-                    s.element1 = 1
-                    p = T.u(this.r, !0, c) * 0.90
+                    p = T.u(this.r, !0, c) * 0.75
                     for (u = 0; u < n.length; ++u) {
                         o = n[u]
         if (o.fr > 0 ) {
@@ -16276,7 +16266,7 @@ T.tha4n1.prototype = {
             if (u.fr > 0) {
                 t = b.a
                 t.push($.v())
-                t.push(T.ap("[1]从迟缓中解除", a, u))
+                t.push(T.ap("[1]从[迟缓]中解除", a, u))
             }
         },
         $ip: 1
@@ -18741,9 +18731,39 @@ T.patchouli.prototype = {
             var u, t = new T.aK()
             t.r = this
             this.k2 = t
-            t = this.id 
+            t = this.id
+            u = new T.tha8n1()
+            u.f = 50
+            t.push(u)
+            u = new T.tha8t1()
+            u.f = 50
+            t.push(u)
+            u = new T.tha8n2()
+            u.f = 50
+            t.push(u)
             u = new T.tha8t2()
-            u.f = 100
+            u.f = 50
+            t.push(u)
+            u = new T.tha8n3()
+            u.f = 50
+            t.push(u)
+            u = new T.tha8t3()
+            u.f = 50
+            t.push(u)
+            u = new T.tha8n4()
+            u.f = 50
+            t.push(u)
+            u = new T.tha8t4()
+            u.f = 50
+            t.push(u)
+            u = new T.tha8n5()
+            u.f = 50
+            t.push(u)
+            u = new T.tha8t5()
+            u.f = 50
+            t.push(u)
+            u = new T.tha8s1()
+            u.f = 500
             t.push(u)
 }
 }
@@ -22494,7 +22514,7 @@ C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 1000]), [P.j])
 C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 565]), [P.j])
 C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
 C.koakuma = H.a(u([0, 12, 100, 100, 0, 0, 0, 3000]), [P.j])
-C.patchouli = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
+C.patchouli = H.a(u([0, 12, 0, 0, 0, 0, 0, 4100]), [P.j])
 C.sakuya = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
         C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])
         C.W = H.a(u([10, -6, 1000, 0, 10, -15, 6, 0]), [P.j])

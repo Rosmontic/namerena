@@ -15303,6 +15303,7 @@ T.tha8n1.prototype = {
 s = T.u(u.r, !1, c)
 d.a.push(T.e("[0]使用[金符「银龙」]", u.r, t, null, null, 1, 1000, 100))
 u.r.element1 = 1
+u.r.cx = 1.2*u.r.cx
 t.a0(1.40*s, !0, u.r, T.a3(), c, d)
 }   
     }
@@ -15333,7 +15334,8 @@ T.tha8t1.prototype = {
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
             this.r.element1 = 1
-            p = T.u(this.r, !0, c) * 0.90
+            this.r.cx = 1.2*this.r.cx
+            p = T.u(this.r, !0, c) * 0.9
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
 if (o.fr > 0 ) {
@@ -15359,6 +15361,7 @@ T.tha8n2.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[木符「翠绿风暴」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element2 = 1
+        this.r.cy = 1.2*this.r.cy
         t.a0(0.7*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
         t.a0(0.7*s, !0, u.r, T.a3(), c, d)
@@ -15379,10 +15382,11 @@ T.tha8t2.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[水木符「水精灵」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element2 = 1
+        this.r.cy = 1.2*this.r.cy
         d.a.push($.v())
-        t.a0(0.7*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.7*s, !0, u.r, T.kV(), c, d)
         d.a.push($.v())
-        t.a0(0.7*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.7*s, !0, u.r, T.kV(), c, d)
         }   
         }
 T.tha8n3.prototype = {
@@ -15402,7 +15406,8 @@ T.tha8n3.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[水符「湖葬」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element3 = 1
-        t.a0(0.85*s, !0, u.r, T.a3(), c, d)
+        this.r.dx = 1.2*this.r.dx
+        t.a0(0.9*s, !0, u.r, T.kV(), c, d)
         }   
         }
 T.tha8t3.prototype = {
@@ -15421,7 +15426,8 @@ T.tha8t3.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[金水符「水银之毒」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element3 = 1
-        t.a0(1.7*s, !0, u.r, T.a3(), c, d)
+        this.r.dx = 1.2*this.r.dx
+        t.a0(1.65*s, !0, u.r, T.kV(), c, d)
         }   
         }
 T.tha8n4.prototype = {
@@ -15440,7 +15446,8 @@ T.tha8n4.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[火符「火神的光辉」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element4 = 1
-        t.a0(1.1*s, !0, u.r, T.a3(), c, d)
+        this.r.db = 1.2*this.r.db
+        t.a0(s, !0, u.r, T.qc(), c, d)
         }   
         }
 T.tha8t4.prototype = {
@@ -15460,9 +15467,10 @@ T.tha8t4.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[木火符「森林大火」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element4 = 1
-        t.a0(0.8*s, !0, u.r, T.a3(), c, d)
+        this.r.db = 1.2*this.r.db
+        t.a0(0.75*s, !0, u.r, T.qc(), c, d)
         d.a.push($.v())
-        t.a0(0.8*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.75*s, !0, u.r, T.qc(), c, d)
         }   
         } 
 
@@ -15492,6 +15500,7 @@ T.tha8n5.prototype = {
                 q = d.a
                 q.push(T.e(t, s, null, null, r, 1, 1000, 100))
                 s.element5 = 1
+                this.r.ch = 1.2*this.r.ch
                 p = T.u(this.r, !0, c) * 0.70
                 for (u = 0; u < n.length; ++u) {
                     o = n[u]
@@ -15528,12 +15537,13 @@ T.tha8t5.prototype = {
                     q = d.a
                     q.push(T.e(t, s, null, null, r, 1, 1000, 100))
                     s.element5 = 1
+                    this.r.ch = 1.2*this.r.ch
                     p = T.u(this.r, !0, c) * 0.75
                     for (u = 0; u < n.length; ++u) {
                         o = n[u]
         if (o.fr > 0 ) {
         q.push($.v())
-        o.a0(p, !0, this.r, T.a3(), c, d)
+        o.a0(p, !0, this.r, T.qc(), c, d)
         }                    
         }
         }   
@@ -18731,16 +18741,16 @@ T.patchouli.prototype = {
             this.k2 = t
             t = this.id
             u = new T.tha8n1()
-            u.f = 50
+            u.f = 30
             t.push(u)
             u = new T.tha8t1()
-            u.f = 50
+            u.f = 30
             t.push(u)
             u = new T.tha8n2()
-            u.f = 50
+            u.f = 40
             t.push(u)
             u = new T.tha8t2()
-            u.f = 50
+            u.f = 40
             t.push(u)
             u = new T.tha8n3()
             u.f = 50
@@ -18748,20 +18758,17 @@ T.patchouli.prototype = {
             u = new T.tha8t3()
             u.f = 50
             t.push(u)
-            u = new T.tha8t3()
-            u.f = 50
-            t.push(u)
             u = new T.tha8n4()
-            u.f = 50
+            u.f = 60
             t.push(u)
             u = new T.tha8t4()
-            u.f = 50
+            u.f = 60
             t.push(u)
             u = new T.tha8n5()
-            u.f = 50
+            u.f = 70
             t.push(u)
             u = new T.tha8t5()
-            u.f = 50
+            u.f = 70
             t.push(u)
             u = new T.tha8s1()
             u.f = 500
@@ -22514,7 +22521,7 @@ C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 1000]), [P.j])
 C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 565]), [P.j])
 C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
 C.koakuma = H.a(u([0, 12, 100, 100, 0, 0, 0, 3000]), [P.j])
-C.patchouli = H.a(u([0, 12, 0, 0, 0, 0, 0, 4100]), [P.j])
+C.patchouli = H.a(u([21, -5, -20, 19, 26, 49, 39, 500]), [P.j])
 C.sakuya = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
         C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])
         C.W = H.a(u([10, -6, 1000, 0, 10, -15, 6, 0]), [P.j])

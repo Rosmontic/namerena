@@ -4765,7 +4765,7 @@
                     t.y += 1024
                 if (a.r1.G(0, $.X()))
                     t.y += 2048
-                u = T.e(C.c.K("[0]被减速了", $.ng()), a, b, null, null, 40, 1000, 100)
+                u = T.e(C.c.K("[1]被减速了", $.ng()), a, b, null, null, 40, 1000, 100)
                 e.a.push(u)
             }
         },
@@ -18743,9 +18743,6 @@ T.patchouli.prototype = {
             u = new T.tha8n1()
             u.f = 50
             t.push(u)
-            u = new T.tha8t1()
-            u.f = 50
-            t.push(u)
             u = new T.tha8n2()
             u.f = 50
             t.push(u)
@@ -18760,12 +18757,6 @@ T.patchouli.prototype = {
             t.push(u)
             u = new T.tha8n4()
             u.f = 50
-            t.push(u)
-            u = new T.tha8t4()
-            u.f = 50
-            t.push(u)
-            u = new T.tha8s1()
-            u.f = 500
             t.push(u)
 }
 }

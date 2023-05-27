@@ -4750,13 +4750,13 @@
         sls: function(a, b, c, d, e) {
             var u, t
             if (c > 0 && !(b.fr <= 0)) {
-                if (b.a6($.b8(), d))
+                if (b.a6($.aC(), d))
                     return
                 u = b.r1
                 t = H.o(u.h(0, $.aC()), "$isl")
                 if (t == null) {
                     t = new T.sl(b)
-                    t.x = new T.hs(t)
+                    t.x = new T.ay(t)
                     u.k(0, $.aC(), t)
                     b.r2.i(0, t)
                     b.rx.i(0, t.x)

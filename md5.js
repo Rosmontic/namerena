@@ -15332,8 +15332,8 @@ T.tha8n1.prototype = {
 s = T.u(u.r, !1, c)
 d.a.push(T.e("[0]使用[金符「银龙」]", u.r, t, null, null, 1, 1000, 100))
 u.r.element1 = 1
-u.r.cx = 1.2*u.r.cx
-t.a0(1.40*s, !0, u.r, T.a3(), c, d)
+u.r.cx = 1.15*u.r.cx
+t.a0(1.35*s, !0, u.r, T.a3(), c, d)
 }   
     }
 T.tha8t1.prototype = {
@@ -15363,7 +15363,7 @@ T.tha8t1.prototype = {
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
             this.r.element1 = 1
-            this.r.cx = 1.2*this.r.cx
+            this.r.cx = 1.15*this.r.cx
             p = T.u(this.r, !0, c) * 0.9
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
@@ -15390,7 +15390,7 @@ T.tha8n2.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[木符「翠绿风暴」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element2 = 1
-        this.r.cy = 1.2*this.r.cy
+        this.r.cy = 1.15*this.r.cy
         t.a0(0.7*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
         t.a0(0.7*s, !0, u.r, T.a3(), c, d)
@@ -15411,11 +15411,11 @@ T.tha8t2.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[水木符「水精灵」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element2 = 1
-        this.r.cy = 1.2*this.r.cy
+        this.r.cy = 1.15*this.r.cy
         d.a.push($.v())
-        t.a0(0.7*s, !0, u.r, T.sla(), c, d)
+        t.a0(0.7*s, !0, u.r, T.kV(), c, d)
         d.a.push($.v())
-        t.a0(0.7*s, !0, u.r, T.sla(), c, d)
+        t.a0(0.7*s, !0, u.r, T.kV(), c, d)
         }   
         }
 T.tha8n3.prototype = {
@@ -15435,8 +15435,8 @@ T.tha8n3.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[水符「湖葬」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element3 = 1
-        this.r.dx = 1.2*this.r.dx
-        t.a0(0.9*s, !0, u.r, T.sla(), c, d)
+        this.r.dx = 1.15*this.r.dx
+        t.a0(0.9*s, !0, u.r, T.kV(), c, d)
         }   
         }
 T.tha8t3.prototype = {
@@ -15455,8 +15455,8 @@ T.tha8t3.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[金水符「水银之毒」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element3 = 1
-        this.r.dx = 1.2*this.r.dx
-        t.a0(1.65*s, !0, u.r, T.sla(), c, d)
+        this.r.dx = 1.15*this.r.dx
+        t.a0(1.65*s, !0, u.r, T.kV(), c, d)
         }   
         }
 T.tha8n4.prototype = {
@@ -15475,7 +15475,7 @@ T.tha8n4.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[火符「火神的光辉」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element4 = 1
-        this.r.db = 1.2*this.r.db
+        this.r.db = 1.15*this.r.db
         t.a0(s, !0, u.r, T.firea(), c, d)
         }   
         }
@@ -15496,7 +15496,7 @@ T.tha8t4.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[木火符「森林大火」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element4 = 1
-        this.r.db = 1.2*this.r.db
+        this.r.db = 1.15*this.r.db
         t.a0(0.75*s, !0, u.r, T.firea(), c, d)
         d.a.push($.v())
         t.a0(0.75*s, !0, u.r, T.firea(), c, d)
@@ -15529,7 +15529,7 @@ T.tha8n5.prototype = {
                 q = d.a
                 q.push(T.e(t, s, null, null, r, 1, 1000, 100))
                 s.element5 = 1
-                this.r.ch = 1.2*this.r.ch
+                this.r.ch = 1.15*this.r.ch
                 p = T.u(this.r, !0, c) * 0.70
                 for (u = 0; u < n.length; ++u) {
                     o = n[u]
@@ -15566,8 +15566,8 @@ T.tha8t5.prototype = {
                     q = d.a
                     q.push(T.e(t, s, null, null, r, 1, 1000, 100))
                     s.element5 = 1
-                    this.r.ch = 1.2*this.r.ch
-                    p = T.u(this.r, !0, c) * 0.75
+                    this.r.ch = 1.15*this.r.ch
+                    p = T.u(this.r, !0, c) * 0.70
                     for (u = 0; u < n.length; ++u) {
                         o = n[u]
         if (o.fr > 0 ) {
@@ -16272,7 +16272,7 @@ T.tha4n1.prototype = {
         },
         $ip: 1
     }
-    T.sl.prototype = {
+    T..prototype = {
         gR: function() {
             return -1
         },
@@ -16533,7 +16533,7 @@ T.tha4n1.prototype = {
                 t = q.z
                 s = u * (1 + (t - 1) * 0.1) / t
                 q.y = u - s
-                r = C.e.Z(1.5*s / (p.db + 64))
+                r = C.e.Z(1.4*s / (p.db + 64))
                 b.a.push(T.e("[1]被[烧伤]了", q.r, p, null, null, 0, 1000, 100))
                 p.aA(r, q.r, T.a3(), a, b)
                 if (--q.z === 0)

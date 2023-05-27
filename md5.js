@@ -4799,7 +4799,7 @@
                 u = b.r1
                 t = H.o(u.h(0, $.b9()), "$ifire")
                 if (t == null) {
-                    t = new T.dE(a,b)
+                    t = new T.fire(a,b)
                     t.y = T.u(a, !0, d) * 1.2
                     u.k(0, $.b9(), t)
                     b.x1.i(0, t)
@@ -20309,6 +20309,16 @@ s.push(u)
             this.X = !1
         },
         dj: function(a, b, c, d, e, f) {
+            var u
+            for (u = this.x2,
+            u = new F.ar(u,u.b,[H.n(u, 0)]); u.p(); ) {
+                a = u.b.dk(a, b, c, this, d, e, f)
+                if (a === 0)
+                    return 0
+            }
+            return a
+        },
+        sl: function(a, b, c, d, e, f) {
             var u
             for (u = this.x2,
             u = new F.ar(u,u.b,[H.n(u, 0)]); u.p(); ) {

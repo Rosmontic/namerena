@@ -18713,6 +18713,9 @@ T.patchouli.prototype = {
             u = new T.tha8n1()
             u.f = 50
             t.push(u)
+            u = new T.tha8t1()
+            u.f = 50
+            t.push(u)
             u = new T.tha8n2()
             u.f = 50
             t.push(u)
@@ -18725,7 +18728,19 @@ T.patchouli.prototype = {
             u = new T.tha8t3()
             u.f = 50
             t.push(u)
+            u = new T.tha8t3()
+            u.f = 50
+            t.push(u)
             u = new T.tha8n4()
+            u.f = 50
+            t.push(u)
+            u = new T.tha8t4()
+            u.f = 50
+            t.push(u)
+            u = new T.tha8n5()
+            u.f = 50
+            t.push(u)
+            u = new T.tha8t5()
             u.f = 50
             t.push(u)
 }

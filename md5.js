@@ -14913,7 +14913,7 @@ i9m: function i9m() {
 
 T.hKm.prototype = {
         ar: function(a, b) {
-            if (b && this.r.r1.G(0, $.b9()))
+            if (b && (this.r.r1.G(0, $.b9()) && this.r.fr > 199))
                 return !1
             return this.aS(a, b)
         },
@@ -16535,7 +16535,7 @@ T.tha4n1.prototype = {
                 t = q.z
                 s = u * (1 + (t - 1) * 0.1) / t
                 q.y = u - s
-                r = C.e.Z(1.4*s / (p.db + 64))
+                r = C.e.Z(s / (p.db + 64))
                 b.a.push(T.e("[1]被[烧伤]了", q.r, p, null, null, 0, 1000, 100))
                 p.aA(r, q.r, T.a3(), a, b)
                 if (--q.z === 0)

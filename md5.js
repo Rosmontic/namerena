@@ -15290,10 +15290,11 @@ t.a0(1.6*s, !1, u.r, T.a3(), c, d)
 }
 T.tha8n1.prototype = {
     ar: function(a, b) {
-        if (b) {
-            if (this.r.element1 == 1 || this.r.element5 == 1)
+        
+            if(this.r.element1 == 1 || this.r.element5 == 1)
+            { 
                 return !1
-        }
+            }
         return this.aS(a, b)
     },
     t: function(a, b, c, d) {    
@@ -15307,10 +15308,12 @@ t.a0(1.40*s, !0, u.r, T.a3(), c, d)
     }
 T.tha8t1.prototype = {
     ar: function(a, b) {
-        if (b) {
+        
             if (this.r.element1 == 1 || this.r.element5 == 0)
+            { 
                 return !1
-        }
+            }
+        
         return this.aS(a, b)
     },
         gb3: function() {
@@ -15342,11 +15345,11 @@ o.a0(p, !0, this.r, T.a3(), c, d)
     }   
         }
 T.tha8n2.prototype = {
-    ar: function(a, b) {
-        if (b) {
+    ar: function(a, b) {     
             if (this.r.element2 == 1 || this.r.element3 == 1)
+            { 
                 return !1
-        }
+            }
         return this.aS(a, b)
     },
             t: function(a, b, c, d) {
@@ -15362,11 +15365,11 @@ T.tha8n2.prototype = {
         }   
         }
 T.tha8t2.prototype = {
-    ar: function(a, b) {
-        if (b) {
+    ar: function(a, b) {      
             if (this.r.element2 == 1 || this.r.element3 == 0)
+            { 
                 return !1
-        }
+            }
         return this.aS(a, b)
     },
                 t: function(a, b, c, d) {
@@ -15384,10 +15387,12 @@ T.tha8t2.prototype = {
         }
 T.tha8n3.prototype = {
     ar: function(a, b) {
-        if (b) {
+
             if (this.r.element3 == 1 || this.r.element1 == 1)
+            { 
                 return !1
-        }
+            }
+        
         return this.aS(a, b)
     },
             t: function(a, b, c, d) {
@@ -15402,10 +15407,11 @@ T.tha8n3.prototype = {
         }
 T.tha8t3.prototype = {
     ar: function(a, b) {
-        if (b) {
             if (this.r.element3 == 1 || this.r.element1 == 0)
+            { 
                 return !1
-        }
+            }
+        
         return this.aS(a, b)
     },
             t: function(a, b, c, d) {
@@ -15420,10 +15426,11 @@ T.tha8t3.prototype = {
         }
 T.tha8n4.prototype = {
     ar: function(a, b) {
-        if (b) {
             if (this.r.element4 == 1 || this.r.element2 == 1)
+            { 
                 return !1
-        }
+            }
+        
         return this.aS(a, b)
     },
             t: function(a, b, c, d) {
@@ -15438,10 +15445,12 @@ T.tha8n4.prototype = {
         }
 T.tha8t4.prototype = {
     ar: function(a, b) {
-        if (b) {
+
             if (this.r.element4 == 1 || this.r.element2 == 0)
+            { 
                 return !1
-        }
+            }
+        
         return this.aS(a, b)
     },
             t: function(a, b, c, d) {
@@ -15459,10 +15468,12 @@ T.tha8t4.prototype = {
 
 T.tha8n5.prototype = {
     ar: function(a, b) {
-        if (b) {
+        
             if (this.r.element5 == 1 || this.r.element4 == 1)
+            { 
                 return !1
-        }
+            }
+        
         return this.aS(a, b)
     },
             gb3: function() {
@@ -15493,10 +15504,11 @@ T.tha8n5.prototype = {
     }
 T.tha8t5.prototype = {
     ar: function(a, b) {
-        if (b) {
             if (this.r.element5 == 1 || this.r.element4 == 0)
+            { 
                 return !1
-        }
+            }
+        
         return this.aS(a, b)
     },
                 gb3: function() {
@@ -15527,6 +15539,14 @@ T.tha8t5.prototype = {
         }   
         }
 T.tha8s1.prototype = {
+    ar: function(a, b) {
+        if (this.r.element1 == 0 || this.r.element2 == 0|| this.r.element3 == 0|| this.r.element4 == 0|| this.r.element5 == 0)
+        { 
+            return !1
+        }
+    
+    return this.aS(a, b)
+},
             gb3: function() {
                 return 5
             },
@@ -18742,6 +18762,9 @@ T.patchouli.prototype = {
             t.push(u)
             u = new T.tha8t5()
             u.f = 50
+            t.push(u)
+            u = new T.tha8s1()
+            u.f = 500
             t.push(u)
 }
 }

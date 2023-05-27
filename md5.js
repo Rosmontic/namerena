@@ -7951,7 +7951,7 @@ koakuma: function koakuma(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, 
             _.id = e
             _.element1 = 0
             _.element2 = 0
-            _.element3 = 1
+            _.element3 = 0
             _.element4 = 0
             _.element5 = 0
             _.k2 = _.k1 = null
@@ -15295,11 +15295,11 @@ T.tha8n1.prototype = {
                 return !1
         }
         return this.aS(a, b)
-    },
-    t: function(a, b, c, d) {
-        if(u.r.element5 == 1){
+        if(this.r.element5 == 1){
             return !1
         }
+    },
+    t: function(a, b, c, d) {    
         var u = this
         t = a[0].a
 s = T.u(u.r, !1, c)
@@ -15314,6 +15314,9 @@ T.tha8t1.prototype = {
                 if (this.r.element1 == 1)
                     return !1
             }
+            if(this.r.element5 == 0){
+                return !1
+            }
             return this.aS(a, b)
         },
         gb3: function() {
@@ -15323,9 +15326,7 @@ T.tha8t1.prototype = {
             return 4
         },
         t: function(a, b, c, d) {
-            if(u.r.element5 == 0){
-                return !1
-            }
+            
             var u, t, s, r, q, p, o, n = H.a([], [T.aU])
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
@@ -15352,12 +15353,13 @@ T.tha8n2.prototype = {
                     if (this.r.element2 == 1)
                         return !1
                 }
+                if(this.r.element3 == 1){
+                    return !1
+                }
                 return this.aS(a, b)
             },
             t: function(a, b, c, d) {
-                if(u.r.element3 == 1){
-                    return !1
-                }
+                
                 var u = this
                 t = a[0].a
         s = T.u(u.r, !1, c)
@@ -15374,12 +15376,13 @@ T.tha8t2.prototype = {
                         if (this.r.element2 == 1)
                             return !1
                     }
+                    if(this.r.element3 == 0){
+                        return !1
+                    }
                     return this.aS(a, b)
                 },
                 t: function(a, b, c, d) {
-                    if(u.r.element3 == 0){
-                        return !1
-                    }
+                    
                     var u = this
                 t = a[0].a
         s = T.u(u.r, !1, c)
@@ -15398,11 +15401,12 @@ T.tha8n3.prototype = {
                         return !1
                 }
                 return this.aS(a, b)
-            },
-            t: function(a, b, c, d) {
                 if(this.r.element1 == 1){
                     return !1
                 }
+            },
+            t: function(a, b, c, d) {
+                
                 var u = this
                 t = a[0].a
         s = T.u(u.r, !1, c)
@@ -15417,12 +15421,13 @@ T.tha8t3.prototype = {
                     if (this.r.element3 == 1)
                         return !1
                 }
-                return this.aS(a, b)
-            },
-            t: function(a, b, c, d) {
                 if(this.r.element1 == 0){
                     return !1
                 }
+                return this.aS(a, b)
+            },
+            t: function(a, b, c, d) {
+                
                 var u = this
                 t = a[0].a
         s = T.u(u.r, !1, c)
@@ -15437,12 +15442,13 @@ T.tha8n4.prototype = {
                     if (this.r.element4 == 1)
                         return !1
                 }
-                return this.aS(a, b)
-            },
-            t: function(a, b, c, d) {
                 if(this.r.element2 == 1){
                     return !1
                 }
+                return this.aS(a, b)
+            },
+            t: function(a, b, c, d) {
+                
                 var u = this
                 t = a[0].a
         s = T.u(u.r, !1, c)
@@ -15457,12 +15463,13 @@ T.tha8t4.prototype = {
                     if (this.r.element4 == 1)
                         return !1
                 }
-                return this.aS(a, b)
-            },
-            t: function(a, b, c, d) {
                 if(u.r.element2 == 0){
                     return !1
                 }
+                return this.aS(a, b)
+            },
+            t: function(a, b, c, d) {
+                
                 var u = this
                 t = a[0].a
         s = T.u(u.r, !1, c)
@@ -15480,6 +15487,9 @@ T.tha8n5.prototype = {
                     if (this.r.element5 == 1)
                         return !1
                 }
+                if(this.r.element4 == 1){
+                    return !1
+                }
                 return this.aS(a, b)
             },
             gb3: function() {
@@ -15489,9 +15499,7 @@ T.tha8n5.prototype = {
                 return 4
             },
             t: function(a, b, c, d) {
-                if(this.r.element4 == 1){
-                    return !1
-                }
+                
                 var u, t, s, r, q, p, o, n = H.a([], [T.aU])
                 for (u = 0; u < a.length; ++u)
                     n.push(a[u].a)
@@ -15517,6 +15525,9 @@ T.tha8t5.prototype = {
                         if (this.r.element5 == 1)
                             return !1
                     }
+                    if(this.r.element4 == 0){
+                        return !1
+                    }
                     return this.aS(a, b)
                 },
                 gb3: function() {
@@ -15526,9 +15537,7 @@ T.tha8t5.prototype = {
                     return 4
                 },
                 t: function(a, b, c, d) {
-                    if(this.r.element4 == 0){
-                        return !1
-                    }
+                    
                     var u, t, s, r, q, p, o, n = H.a([], [T.aU])
                     for (u = 0; u < a.length; ++u)
                         n.push(a[u].a)

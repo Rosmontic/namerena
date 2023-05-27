@@ -4750,14 +4750,14 @@
         sls: function(a, b, c, d, e) {
             var u, t
             if (c > 0 && !(b.fr <= 0)) {
-                if (b.a6($.aC1(), d))
+                if (b.a6($.aC(), d))
                     return
                 u = b.r1
-                t = H.o(u.h(0, $.aC1()), "$isl")
+                t = H.o(u.h(0, $.b8()), "$isl")
                 if (t == null) {
                     t = new T.sl(b)
                     t.x = new T.hs(t)
-                    u.k(0, $.aC1(), t)
+                    u.k(0, $.b8(), t)
                     b.r2.i(0, t)
                     b.rx.i(0, t.x)
                     b.E()
@@ -16277,7 +16277,7 @@ T.tha4n1.prototype = {
             return -1
         },
         al: function(a) {
-            a.A = !0
+            a.cx = C.b.v(a.cx , 2)
         },
         ff: function(a, b, c) {
             var u, t = this
@@ -16297,7 +16297,7 @@ T.tha4n1.prototype = {
             var u, t
             this.C()
             u = this.r
-            u.r1.S(0, $.aC1())
+            u.r1.S(0, $.b8())
             this.x.C()
             u.E()
             if (u.fr > 0) {
@@ -16966,7 +16966,7 @@ T.hha4n2.prototype = {
             if (b) {
                 if (!(a.fr < 80)) {
                     u = a.r1
-                    u = u.G(0, $.aC()) && H.o(u.h(0, $.aC()), "$icG").z > 1
+                    u = u.G(0, $.aC()) && H.o(u.h(0, $.aC()), "$isl").z > 1
                 } else
                     u = !0
                 if (u)
@@ -18800,28 +18800,28 @@ T.patchouli.prototype = {
             this.k2 = t
             t = this.id
             u = new T.tha8n1()
-            u.f = 20
+            u.f = 40
             t.push(u)
             u = new T.tha8t1()
-            u.f = 20
+            u.f = 40
             t.push(u)
             u = new T.tha8n2()
-            u.f = 25
+            u.f = 45
             t.push(u)
             u = new T.tha8t2()
-            u.f = 25
+            u.f = 45
             t.push(u)
             u = new T.tha8n3()
-            u.f = 33
+            u.f = 50
             t.push(u)
             u = new T.tha8t3()
-            u.f = 33
+            u.f = 50
             t.push(u)
             u = new T.tha8n4()
-            u.f = 50
+            u.f = 75
             t.push(u)
             u = new T.tha8t4()
-            u.f = 50
+            u.f = 75
             t.push(u)
             u = new T.tha8n5()
             u.f = 100
@@ -22902,9 +22902,6 @@ C.sakuya = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
         })
         u($, "qX", "l2", function() {
             return O.i("\u6983\u50a5\u3440")
-        })
-        u($, "rN", "aC1", function() {
-            return O.i("\u6e80\u50a7\u3460")
         })
         u($, "rN", "aC", function() {
             return O.i("\u6e80\u50a7\u3460")

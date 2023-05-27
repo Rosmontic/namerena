@@ -4790,6 +4790,27 @@
                 e.a.push(T.e(C.c.K(O.c("UAjR"), $.ni()), a, b, null, null, 60, 1000, 100))
             }
         },
+
+        fires: function(a, b, c, d, e) {
+            var u, t
+            if (c > 4 && !(b.fr <= 0)) {
+                if (b.a6($.b9(), d))
+                    return
+                u = b.r1
+                t = H.o(u.h(0, $.b9()), "$ifire")
+                if (t == null) {
+                    t = new T.dE(a,b)
+                    t.y = T.u(a, !0, d) * 1.2
+                    u.k(0, $.b9(), t)
+                    b.x1.i(0, t)
+                } else {
+                    t.y = t.y + T.u(a, !0, d) * 1.2
+                    t.z = 2
+                    t.r = a
+                }
+                e.a.push(T.e(C.c.K("[1]被点燃了", $.ni()), a, b, null, null, 60, 1000, 100))
+            }
+        },
         u: function(a, b, c) {
             var u, t = b ? a.db : a.Q, s = t + 64, r = [P.j], q = H.a([c.m() & 127, c.m() & 127, c.m() & 127, s, t], r)
             C.a.aE(q)
@@ -6689,6 +6710,14 @@ tha4n1: function tha4n1() {
             _.x = b
             _.y = null
             _.z = 4
+            _.c = _.b = _.a = null
+        },
+        fire: function fire(a, b) {
+            var _ = this
+            _.r = a
+            _.x = b
+            _.y = null
+            _.z = 1
             _.c = _.b = _.a = null
         },
         i6: function i6() {
@@ -15447,7 +15476,7 @@ T.tha8n4.prototype = {
         d.a.push(T.e("[0]使用[火符「火神的光辉」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element4 = 1
         this.r.db = 1.2*this.r.db
-        t.a0(s, !0, u.r, T.qc(), c, d)
+        t.a0(s, !0, u.r, T.(), c, d)
         }   
         }
 T.tha8t4.prototype = {
@@ -15468,9 +15497,9 @@ T.tha8t4.prototype = {
         d.a.push(T.e("[0]使用[木火符「森林大火」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element4 = 1
         this.r.db = 1.2*this.r.db
-        t.a0(0.75*s, !0, u.r, T.qc(), c, d)
+        t.a0(0.75*s, !0, u.r, T.firea(), c, d)
         d.a.push($.v())
-        t.a0(0.75*s, !0, u.r, T.qc(), c, d)
+        t.a0(0.75*s, !0, u.r, T.firea(), c, d)
         }   
         } 
 
@@ -15543,7 +15572,7 @@ T.tha8t5.prototype = {
                         o = n[u]
         if (o.fr > 0 ) {
         q.push($.v())
-        o.a0(p, !0, this.r, T.qc(), c, d)
+        o.a0(p, !0, this.r, T.firea(), c, d)
         }                    
         }
         }   
@@ -16489,6 +16518,36 @@ T.tha4n1.prototype = {
                 u = b.a
                 u.push($.v())
                 u.push(T.ap(O.c("RMys"), a, t))
+            }
+        },
+        $ip: 1
+    }
+    T.fire.prototype = {
+        gR: function() {
+            return -1
+        },
+        aq: function(a, b) {
+            var u, t, s, r, q = this, p = q.x
+            if (p.fr > 0) {
+                u = q.y
+                t = q.z
+                s = u * (1 + (t - 1) * 0.1) / t
+                q.y = u - s
+                r = C.e.Z(1.8*s / (p.db + 64))
+                b.a.push(T.e("[1]被烧伤", q.r, p, null, null, 0, 1000, 100))
+                p.aA(r, q.r, T.a3(), a, b)
+                if (--q.z === 0)
+                    q.H(null, b)
+            }
+        },
+        H: function(a, b) {
+            var u, t = this.x
+            t.r1.S(0, $.b9())
+            this.C()
+            if (t.fr > 0) {
+                u = b.a
+                u.push($.v())
+                u.push(T.ap("[1]从燃烧中解除", a, t))
             }
         },
         $ip: 1
@@ -19582,6 +19641,43 @@ t.push(u)
             })
             return P.a7($async$ad, t)
         },
+        ad: function(a, b) {
+            return this.fire(a, b)
+        },
+        fire: function(a, b) {
+            var u = 0, t = P.a8(null), s = this, r, q, p, o, n, m
+            var $async$ad = P.a9(function(c, d) {
+                if (c === 1)
+                    return P.a5(d, t)
+                while (true)
+                    switch (u) {
+                    case 0:
+                        s.db = b
+                        r = s.dx
+                        r[0] = Date.now() + 2048
+                        q = s.a
+                        p = new H.R(q,new T.fq(),[H.n(q, 0), P.f]).b_(0, "\n")
+                        q = s.z
+                        o = q.length
+                        if (o !== 0)
+                            for (n = 0; n < q.length; q.length === o || (0,
+                            H.r)(q),
+                            ++n) {
+                                m = q[n]
+                                p += "\n" + H.d(m.e) + "\t" + H.d(m.a)
+                            }
+                        q = C.f.gaH().aw(p)
+                        o = H.c1(C.i, q, "S", 0)
+                        o = new H.R(new H.aJ(q,[o]),new T.fr(s),[o, P.j]).ag(0)
+                        r = r.buffer
+                        r.toString
+                        C.a.a2(o, H.dy(r, 0, null))
+                        A.d1(F.cd(o))
+                        return P.a6(null, t)
+                    }
+            })
+            return P.a7($async$ad, t)
+        },
         cm: function(a, b) {
             return this.eZ(a, b)
         },
@@ -22069,6 +22165,7 @@ T.i9m.prototype = {
         r(T, "kV", 5, null, ["$5"], ["pc"], 0, 0)
         r(T, "sla", 5, null, ["$5"], ["sls"], 0, 0)
         r(T, "qc", 5, null, ["$5"], ["pe"], 0, 0)
+        r(T, "firea", 5, null, ["$5"], ["fires"], 0, 0)
         r(T, "q9", 5, null, ["$5"], ["p8"], 0, 0)
         r(T, "qb", 5, null, ["$5"], ["pd"], 0, 0)
         u(T, "q5", "oo", 26)
@@ -22157,7 +22254,7 @@ T.i9m.prototype = {
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
         s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])
         s(T.D, [T.cg, T.dF, T.el])
-        s(T.J, [T.dE, T.ay])
+        s(T.J, [T.dE, T.fire, T.ay])
         s(T.av, [T.hh,T.hha4n2, T.hi, T.ho])
         s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.testa, T.rumia, T.daiyousei, T.cirno , T.hong , T.testa , T.koakuma , T.patchouli , T.sakuya])
         t(T.hg, T.cy)

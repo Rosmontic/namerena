@@ -16272,7 +16272,7 @@ T.tha4n1.prototype = {
         },
         $ip: 1
     }
-    T..prototype = {
+    T.sl.prototype = {
         gR: function() {
             return -1
         },

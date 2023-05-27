@@ -15391,6 +15391,7 @@ T.tha8n2.prototype = {
         d.a.push(T.e("[0]使用[木符「翠绿风暴」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element2 = 1
         this.r.cy = 1.15*this.r.cy
+        d.a.push($.v())
         t.a0(0.7*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
         t.a0(0.7*s, !0, u.r, T.a3(), c, d)
@@ -15497,6 +15498,7 @@ T.tha8t4.prototype = {
         d.a.push(T.e("[0]使用[木火符「森林大火」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element4 = 1
         this.r.db = 1.15*this.r.db
+        d.a.push($.v())
         t.a0(0.75*s, !0, u.r, T.firea(), c, d)
         d.a.push($.v())
         t.a0(0.75*s, !0, u.r, T.firea(), c, d)
@@ -15604,7 +15606,7 @@ T.tha8s1.prototype = {
                 r = H.a(n.slice(0), [H.n(n, 0)])
                 q = d.a
                 q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-                p = T.u(this.r, !0, c) * 360
+                p = T.u(this.r, !0, c) * 3.6
                 for (u = 0; u < n.length; ++u) {
                     o = n[u]
     if (o.fr > 0 ) {
@@ -18800,10 +18802,10 @@ T.patchouli.prototype = {
             this.k2 = t
             t = this.id
             u = new T.tha8n1()
-            u.f = 36
+            u.f = 35
             t.push(u)
             u = new T.tha8t1()
-            u.f = 36
+            u.f = 35
             t.push(u)
             u = new T.tha8n2()
             u.f = 45
@@ -18812,22 +18814,22 @@ T.patchouli.prototype = {
             u.f = 45
             t.push(u)
             u = new T.tha8n3()
-            u.f = 63
+            u.f = 60
             t.push(u)
             u = new T.tha8t3()
-            u.f = 63
+            u.f = 60
             t.push(u)
             u = new T.tha8n4()
-            u.f = 70
+            u.f = 67
             t.push(u)
             u = new T.tha8t4()
-            u.f = 70
+            u.f = 67
             t.push(u)
             u = new T.tha8n5()
-            u.f = 100
+            u.f = 120
             t.push(u)
             u = new T.tha8t5()
-            u.f = 100
+            u.f = 120
             t.push(u)
             u = new T.tha8s1()
             u.f = 300

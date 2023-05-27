@@ -18783,6 +18783,13 @@ T.koakuma.prototype = {
             t.r = this
             this.k2 = t
             t = this.id
+            t.push(new T.tha7b1())
+            u = new T.tha7n1()
+            u.f = 40
+            t.push(u)
+            u = new T.tha7s1()
+            u.f = 66
+            t.push(u)
             u = new T.tha7s1()
             u.f = 100
             t.push(u)

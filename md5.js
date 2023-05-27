@@ -15291,13 +15291,10 @@ t.a0(1.6*s, !1, u.r, T.a3(), c, d)
 T.tha8n1.prototype = {
     ar: function(a, b) {
         if (b) {
-            if (this.r.element1 == 1)
+            if (this.r.element1 == 1 || this.r.element5 == 1)
                 return !1
         }
         return this.aS(a, b)
-        if(this.r.element5 == 1){
-            return !1
-        }
     },
     t: function(a, b, c, d) {    
         var u = this
@@ -15309,16 +15306,13 @@ t.a0(1.40*s, !0, u.r, T.a3(), c, d)
 }   
     }
 T.tha8t1.prototype = {
-        ar: function(a, b) {
-            if (b) {
-                if (this.r.element1 == 1)
-                    return !1
-            }
-            if(this.r.element5 == 0){
+    ar: function(a, b) {
+        if (b) {
+            if (this.r.element1 == 1 || this.r.element5 == 0)
                 return !1
-            }
-            return this.aS(a, b)
-        },
+        }
+        return this.aS(a, b)
+    },
         gb3: function() {
             return 4
         },
@@ -15335,7 +15329,7 @@ T.tha8t1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            s.element1 = 1
+            this.r.element1 = 1
             p = T.u(this.r, !0, c) * 0.90
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
@@ -15348,16 +15342,13 @@ o.a0(p, !0, this.r, T.a3(), c, d)
     }   
         }
 T.tha8n2.prototype = {
-            ar: function(a, b) {
-                if (b) {
-                    if (this.r.element2 == 1)
-                        return !1
-                }
-                if(this.r.element3 == 1){
-                    return !1
-                }
-                return this.aS(a, b)
-            },
+    ar: function(a, b) {
+        if (b) {
+            if (this.r.element2 == 1 || this.r.element3 == 1)
+                return !1
+        }
+        return this.aS(a, b)
+    },
             t: function(a, b, c, d) {
                 
                 var u = this
@@ -15371,16 +15362,13 @@ T.tha8n2.prototype = {
         }   
         }
 T.tha8t2.prototype = {
-                ar: function(a, b) {
-                    if (b) {
-                        if (this.r.element2 == 1)
-                            return !1
-                    }
-                    if(this.r.element3 == 0){
-                        return !1
-                    }
-                    return this.aS(a, b)
-                },
+    ar: function(a, b) {
+        if (b) {
+            if (this.r.element2 == 1 || this.r.element3 == 0)
+                return !1
+        }
+        return this.aS(a, b)
+    },
                 t: function(a, b, c, d) {
                     
                     var u = this
@@ -15395,16 +15383,13 @@ T.tha8t2.prototype = {
         }   
         }
 T.tha8n3.prototype = {
-            ar: function(a, b) {
-                if (b) {
-                    if (this.r.element3 == 1)
-                        return !1
-                }
-                return this.aS(a, b)
-                if(this.r.element1 == 1){
-                    return !1
-                }
-            },
+    ar: function(a, b) {
+        if (b) {
+            if (this.r.element3 == 1 || this.r.element1 == 1)
+                return !1
+        }
+        return this.aS(a, b)
+    },
             t: function(a, b, c, d) {
                 
                 var u = this
@@ -15416,16 +15401,13 @@ T.tha8n3.prototype = {
         }   
         }
 T.tha8t3.prototype = {
-            ar: function(a, b) {
-                if (b) {
-                    if (this.r.element3 == 1)
-                        return !1
-                }
-                if(this.r.element1 == 0){
-                    return !1
-                }
-                return this.aS(a, b)
-            },
+    ar: function(a, b) {
+        if (b) {
+            if (this.r.element3 == 1 || this.r.element1 == 0)
+                return !1
+        }
+        return this.aS(a, b)
+    },
             t: function(a, b, c, d) {
                 
                 var u = this
@@ -15437,16 +15419,13 @@ T.tha8t3.prototype = {
         }   
         }
 T.tha8n4.prototype = {
-            ar: function(a, b) {
-                if (b) {
-                    if (this.r.element4 == 1)
-                        return !1
-                }
-                if(this.r.element2 == 1){
-                    return !1
-                }
-                return this.aS(a, b)
-            },
+    ar: function(a, b) {
+        if (b) {
+            if (this.r.element4 == 1 || this.r.element2 == 1)
+                return !1
+        }
+        return this.aS(a, b)
+    },
             t: function(a, b, c, d) {
                 
                 var u = this
@@ -15458,16 +15437,13 @@ T.tha8n4.prototype = {
         }   
         }
 T.tha8t4.prototype = {
-            ar: function(a, b) {
-                if (b) {
-                    if (this.r.element4 == 1)
-                        return !1
-                }
-                if(u.r.element2 == 0){
-                    return !1
-                }
-                return this.aS(a, b)
-            },
+    ar: function(a, b) {
+        if (b) {
+            if (this.r.element4 == 1 || this.r.element2 == 0)
+                return !1
+        }
+        return this.aS(a, b)
+    },
             t: function(a, b, c, d) {
                 
                 var u = this
@@ -15482,16 +15458,13 @@ T.tha8t4.prototype = {
         } 
 
 T.tha8n5.prototype = {
-            ar: function(a, b) {
-                if (b) {
-                    if (this.r.element5 == 1)
-                        return !1
-                }
-                if(this.r.element4 == 1){
-                    return !1
-                }
-                return this.aS(a, b)
-            },
+    ar: function(a, b) {
+        if (b) {
+            if (this.r.element5 == 1 || this.r.element4 == 1)
+                return !1
+        }
+        return this.aS(a, b)
+    },
             gb3: function() {
                 return 4
             },
@@ -15519,16 +15492,13 @@ T.tha8n5.prototype = {
     }   
     }
 T.tha8t5.prototype = {
-                ar: function(a, b) {
-                    if (b) {
-                        if (this.r.element5 == 1)
-                            return !1
-                    }
-                    if(this.r.element4 == 0){
-                        return !1
-                    }
-                    return this.aS(a, b)
-                },
+    ar: function(a, b) {
+        if (b) {
+            if (this.r.element5 == 1 || this.r.element4 == 0)
+                return !1
+        }
+        return this.aS(a, b)
+    },
                 gb3: function() {
                     return 4
                 },
@@ -22498,7 +22468,6 @@ T.i9m.prototype = {
         C.R = H.a(u([48, 28, 21, 45, 10, 19, 33, 150]), [P.j])
         C.O = H.a(u([72, 39, 69, 76, 67, 66, 0, 84]), [P.j])
         C.tigershark = H.a(u([62, 49, 89, 86, 77, 76, 30, 120]), [P.j])
-        C.th4545 = H.a(u([42, 69, 59, 66, 67, 68, 40, 120]), [P.j])
         C.hell = H.a(u([20, 20, 60, 50, 20, 20, 90, 120]), [P.j])
 C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])

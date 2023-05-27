@@ -15413,9 +15413,9 @@ T.tha8t2.prototype = {
         u.r.element2 = 1
         this.r.cy = 1.2*this.r.cy
         d.a.push($.v())
-        t.a0(0.7*s, !0, u.r, T.kV(), c, d)
+        t.a0(0.7*s, !0, u.r, T.sla(), c, d)
         d.a.push($.v())
-        t.a0(0.7*s, !0, u.r, T.kV(), c, d)
+        t.a0(0.7*s, !0, u.r, T.sla(), c, d)
         }   
         }
 T.tha8n3.prototype = {
@@ -15436,7 +15436,7 @@ T.tha8n3.prototype = {
         d.a.push(T.e("[0]使用[水符「湖葬」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element3 = 1
         this.r.dx = 1.2*this.r.dx
-        t.a0(0.9*s, !0, u.r, T.kV(), c, d)
+        t.a0(0.9*s, !0, u.r, T.sla(), c, d)
         }   
         }
 T.tha8t3.prototype = {
@@ -15456,7 +15456,7 @@ T.tha8t3.prototype = {
         d.a.push(T.e("[0]使用[金水符「水银之毒」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element3 = 1
         this.r.dx = 1.2*this.r.dx
-        t.a0(1.65*s, !0, u.r, T.kV(), c, d)
+        t.a0(1.65*s, !0, u.r, T.sla(), c, d)
         }   
         }
 T.tha8n4.prototype = {
@@ -18800,34 +18800,34 @@ T.patchouli.prototype = {
             this.k2 = t
             t = this.id
             u = new T.tha8n1()
-            u.f = 30
+            u.f = 27
             t.push(u)
             u = new T.tha8t1()
-            u.f = 30
+            u.f = 27
             t.push(u)
             u = new T.tha8n2()
-            u.f = 40
+            u.f = 36
             t.push(u)
             u = new T.tha8t2()
-            u.f = 40
+            u.f = 36
             t.push(u)
             u = new T.tha8n3()
-            u.f = 50
+            u.f = 45
             t.push(u)
             u = new T.tha8t3()
-            u.f = 50
+            u.f = 45
             t.push(u)
             u = new T.tha8n4()
-            u.f = 60
+            u.f = 70
             t.push(u)
             u = new T.tha8t4()
-            u.f = 60
+            u.f = 70
             t.push(u)
             u = new T.tha8n5()
-            u.f = 70
+            u.f = 100
             t.push(u)
             u = new T.tha8t5()
-            u.f = 70
+            u.f = 100
             t.push(u)
             u = new T.tha8s1()
             u.f = 500

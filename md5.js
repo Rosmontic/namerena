@@ -15380,9 +15380,9 @@ T.tha8t2.prototype = {
         d.a.push(T.e("[0]使用[水木符「水精灵」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element2 = 1
         d.a.push($.v())
-        t.a0(0.7*s, !0, u.r, T.sla(), c, d)
+        t.a0(0.7*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
-        t.a0(0.7*s, !0, u.r, T.sla(), c, d)
+        t.a0(0.7*s, !0, u.r, T.a3(), c, d)
         }   
         }
 T.tha8n3.prototype = {
@@ -15402,7 +15402,7 @@ T.tha8n3.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[水符「湖葬」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element3 = 1
-        t.a0(0.85*s, !0, u.r, T.sla(), c, d)
+        t.a0(0.85*s, !0, u.r, T.a3(), c, d)
         }   
         }
 T.tha8t3.prototype = {
@@ -15421,7 +15421,7 @@ T.tha8t3.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[金水符「水银之毒」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element3 = 1
-        t.a0(1.7*s, !0, u.r, T.sla(), c, d)
+        t.a0(1.7*s, !0, u.r, T.a3(), c, d)
         }   
         }
 T.tha8n4.prototype = {

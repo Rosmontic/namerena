@@ -16992,6 +16992,13 @@ n.r.bf(n.r.fr, null, c, d)
             var u = new T.aK()
             u.r = this
             this.k2 = u
+            u = new T.i1()
+            f = new T.dF(1 / 0,u)
+            u.fr = f
+            u.fx = new T.ay(u)
+            u.fy = new T.aN(u)
+            f.r = 10
+            u.f = 100
         },
         aR: function() {
             this.bv()
@@ -17011,7 +17018,7 @@ n.r.bf(n.r.fr, null, c, d)
         },
         t: function(a, a0, a1, a2) {
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null
-            c.f = C.d.Z(c.f * 0.7)
+            c.f = 0
             u = a2.a
             u.push(T.e("[0]发动[「逆恶魔召唤」]", c.r, b, b, b, 60, 1000, 100))
             t = H.d(c.r.a) + "?" + H.d($.nn())
@@ -17057,8 +17064,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.r = "帕秋莉？"
             s = c.r
             d.x = s.x
-            s.I.i(0, d.a5)
             d.av()
+            d.j = 2048
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }

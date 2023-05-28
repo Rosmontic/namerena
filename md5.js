@@ -22429,7 +22429,7 @@ T.i9m.prototype = {
         s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])
         s(T.D, [T.cg, T.dF, T.el])
         s(T.J, [T.dE, T.fire, T.ay])
-        s(T.av, [T.hh,T.hha4n2, T.hi, T.ho ,T.patchouliK])
+        s(T.av, [T.hh,T.hha4n2, T.hi, T.ho ,T.patchoulik])
         s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.testa, T.rumia, T.daiyousei, T.cirno , T.hong , T.testa , T.koakuma , T.patchouli , T.patchoulik, T.sakuya])
         t(T.hg, T.cy)
         t(T.f3, T.bA)

@@ -17064,8 +17064,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.av()
             d.j = 2048
             d.fr = 720
-            d.db = 110
-            d.dy = d.dy*2
+            d.r.db = d.r.db*200
+            d.r.dy = d.r.dy*200
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }

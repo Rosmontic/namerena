@@ -6843,6 +6843,44 @@ tha4n1: function tha4n1() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
+        
+        patchoulik: function patchoulik(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.a5 = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
         tha4n2x: function tha4n2x() {
             var _ = this
             _.e = !1
@@ -8288,6 +8326,12 @@ testa: function testa(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t
         },
         ii: function ii() {},
         dZ: function dZ() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+        dZk: function dZk() {
             var _ = this
             _.e = !1
             _.f = 0
@@ -16873,6 +16917,19 @@ n.r.bf(n.r.fr, null, c, d)
             u[7] = C.d.v(u[7], 1)
         }
     }
+    T.patchoulik.prototype = {
+        gah: function() {
+            return C.patchoulik
+        },
+        gaQ: function() {
+            return H.a([], [P.f])
+        },
+        aa: function() {
+            var u = new T.aK()
+            u.r = this
+            this.k2 = u
+        },
+    }
     T.tha4n2.prototype = {
         ar: function(a, b) {
             if (b)
@@ -19310,6 +19367,30 @@ t.push(u)
             r.j = c.m() * 4
             q.r.x.aU(r)
             u.push(T.e(O.c("CFbS"), T.a1(s, s.fr), T.a1(r, r.fr), p, p, 0, 1000, 100))
+            return !1
+        },
+        T: function() {
+            this.r.I.i(0, this)
+        },
+        $iC: 1
+    }
+    T.dZk.prototype = {
+        ga1: function() {
+            return 0
+        },
+        aX: function(a, b, c, d) {
+            var u, t, s, r, q = this, p = null
+            q.r.r1.k(0, $.eE(), new T.ii())
+            u = d.a
+            u.push($.v())
+            u.push(T.e("[0]使用[「逆恶魔召唤」]", q.r, p, p, p, 0, 1000, 100))
+            t = H.o(q.r, "$ibA")
+            s = T.patchoulik()
+            s.x = q.r.x
+            s.av()
+            s.j = c.m() * 4
+            q.r.x.aU(s)
+            u.push(T.e("召唤出了[0]", T.a1(s, s.fr), null, p, p, 0, 1000, 100))
             return !1
         },
         T: function() {
@@ -22341,17 +22422,17 @@ T.i9m.prototype = {
         t(P.cD, P.l)
         t(Z.hl, Z.ax)
         s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
-        s(T.H, [T.y, T.hJ, T.tha5b1, T.tha6b1, T.tha7b1, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.tha4b1,T.tha3b2, T.i9 , T.i9m, T.ih, T.im, T.tha3b1, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
+        s(T.H, [T.y, T.hJ, T.tha5b1, T.tha6b1, T.tha7b1, T.hR, T.i0, T.i3, T.dU, T.dZ, T.dZk, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.tha4b1,T.tha3b2, T.i9 , T.i9m, T.ih, T.im, T.tha3b1, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
         s(T.y, [T.dL, T.hI ,T.tha6n1, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.tha3n1, T.tha3n2, T.tha3s1, T.tha6n2, T.tha6n3, T.tha5n1, T.tha7n1 ,T.tha7n2,T.tha8n1 ,T.tha8t1 ,T.tha8n2 ,T.tha8t2 ,T.tha8n3 ,T.tha8t3 ,T.tha8n4 ,T.tha8t4 ,T.tha8n5 ,T.tha8t5 ,T.tha8s1 , T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.tha4n3, T.dS, T.tha4n1, T.tha4n2, T.tha4n2x, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia ,T.tha4s1, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.tha5n3, T.tha6s1t,T.tha6s1, T.dM, T.tha5n2, T.tha5s1, T.tha7s1, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
         s(T.M, [T.bf, T.co, T.dj ,T.sl , T.cG, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade])
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
         s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])
         s(T.D, [T.cg, T.dF, T.el])
         s(T.J, [T.dE, T.fire, T.ay])
-        s(T.av, [T.hh,T.hha4n2, T.hi, T.ho])
-        s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.testa, T.rumia, T.daiyousei, T.cirno , T.hong , T.testa , T.koakuma , T.patchouli , T.sakuya])
+        s(T.av, [T.hh,T.hha4n2, T.hi, T.ho ,T.patchouliK])
+        s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.testa, T.rumia, T.daiyousei, T.cirno , T.hong , T.testa , T.koakuma , T.patchouli , T.patchoulik, T.sakuya])
         t(T.hg, T.cy)
-        t(T.f3, T.bA, T.koakuma)
+        t(T.f3, T.bA)
         t(T.e_, T.dN, T.yuriSuperControl)
         s(T.aU, [T.b_, T.bG, T.dr, T.ch])
         s(T.aw, [T.dJ, T.bT])
@@ -22712,6 +22793,7 @@ C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 565]), [P.j])
 C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
 C.koakuma = H.a(u([0, 0, 0, 0, 0, 0, 0, 800]), [P.j])
 C.patchouli = H.a(u([21, -5, -20, 19, 26, 49, 39, 438]), [P.j])
+C.patchoulik = H.a(u([21, -5, -20, 19, 26, 49, 39, 438]), [P.j])
 C.sakuya = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
         C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])
         C.W = H.a(u([10, -6, 1000, 0, 10, -15, 6, 0]), [P.j])
@@ -22769,6 +22851,8 @@ C.sakuya = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
 "koakuma",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJlJREFUOE/dk8ENgDAIAMtmuJmbyWYYoBhK4WH86acJ4a4FBEbxISJXcSKCHNdABVyES+6BtDlFCA5nQLJhnArxPKPBhSroYGarBABaSSl4bg6C6iXyik3gsAJJkCWbIMKdIEoWgcB+YzXCGPOePAIiG9EbwRy/9cAF+eaqBzEHEX8jkLq6PnQTkfrtd2+WKQsdiEJdpq/rfAODgHkFcTImOAAAAABJRU5ErkJggg==",
 "patchouli",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJtJREFUOE+tk0EOgCAMBMuvPJaXqTd/RY/+SrOSNYDVRJFj6U7ptgRV3cQ5ZhbK8F1ewIUOqULYGj2mJNMqHtXEBTBrXGYXxOAjYFqqDmST6QK7BbRiKlvICUACfSjFFISiOmMQ4xzvpJGemNVbCACY1AmAw0zy+s3Vsg+4/x8ADz61wA37bKK3ia/H2K4yjOpapO5Vfv2Zer7zDotvfwXtyOBSAAAAAElFTkSuQmCC",
+"patchoulik",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJtJREFUOE+tk0EOgCAMBMuvPJaXqTd/RY/+SrOSNYDVRJFj6U7ptgRV3cQ5ZhbK8F1ewIUOqULYGj2mJNMqHtXEBTBrXGYXxOAjYFqqDmST6QK7BbRiKlvICUACfSjFFISiOmMQ4xzvpJGemNVbCACY1AmAw0zy+s3Vsg+4/x8ADz61wA37bKK3ia/H2K4yjOpapO5Vfv2Zer7zDotvfwXtyOBSAAAAAElFTkSuQmCC",
 "sakuya",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAALxJREFUOE+dk1ESgzAIRJuTldzMmwVPlg7BZQhQndavOGTfwirt5R4imv7925mZG2rr4IV8jFsGHd3qAjJAJZxvvdvOzBTQAsA9Aci6VDXv06GTBXgUo4ECkgHOeU51bTpp6kS62AGF2NIuIBtAAoMTnGN0vi7BGmAM/XS/AOR+79cIESDF2IXPAbUEiIFVIXpwCUipuyBiVwaQOxijTL0YScTLDLsQAbcLcQW47QIETyA4r78bywTxP+v8ARYeg4exsRRuAAAAAElFTkSuQmCC",

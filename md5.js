@@ -16989,17 +16989,10 @@ n.r.bf(n.r.fr, null, c, d)
             return this.af.r
         },
         aa: function() {
-            var t ,u = new T.aK()
+            var u = new T.aK()
             u.r = this
             this.k2 = u
-            t = new T.i1()
-            f = new T.dF(1 / 0,t)
-            t.fr = f
-            t.fx = new T.ay(u)
-            t.fy = new T.aN(u)
-            f.r = 10
-            t.f = 100
-            this.id.push(t)
+            this.id.push(new T.i1)
         },
         aR: function() {
             this.bv()
@@ -17067,6 +17060,7 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             d.av()
             d.j = 2048
+            d.fr = 720
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }

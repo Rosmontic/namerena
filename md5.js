@@ -16992,7 +16992,11 @@ n.r.bf(n.r.fr, null, c, d)
             var u = new T.aK()
             u.r = this
             this.k2 = u
-            this.id.push(new T.i1)
+            this.id.push(new T.tha8n1)
+            this.id.push(new T.tha8n2)
+            this.id.push(new T.tha8n3)
+            this.id.push(new T.tha8n4)
+            this.id.push(new T.tha8n5)
         },
         aR: function() {
             this.bv()
@@ -17002,8 +17006,7 @@ n.r.bf(n.r.fr, null, c, d)
     }
     T.tha7t1.prototype = {
         ar: function(a, b) {
-            if (b)
-                if (this.r.fr < 40)
+                if (this.r.fr > 450)
                     return !1
             return this.aS(a, b)
         },

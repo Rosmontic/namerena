@@ -16989,16 +16989,17 @@ n.r.bf(n.r.fr, null, c, d)
             return this.af.r
         },
         aa: function() {
-            var u = new T.aK()
+            var t ,u = new T.aK()
             u.r = this
             this.k2 = u
-            u = new T.i1()
-            f = new T.dF(1 / 0,u)
-            u.fr = f
-            u.fx = new T.ay(u)
-            u.fy = new T.aN(u)
+            t = new T.i1()
+            f = new T.dF(1 / 0,t)
+            t.fr = f
+            t.fx = new T.ay(u)
+            t.fy = new T.aN(u)
             f.r = 10
-            u.f = 100
+            t.f = 100
+            this.id.push(t)
         },
         aR: function() {
             this.bv()
@@ -18994,9 +18995,6 @@ T.koakuma.prototype = {
             t.push(u)
             u = new T.tha7s1()
             u.f = 0
-            t.push(u)
-            u = new T.tha4n2x()
-            u.f = 100
             t.push(u)
 
 }

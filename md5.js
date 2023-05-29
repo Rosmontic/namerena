@@ -17073,6 +17073,9 @@ u[6] = t[6]*10
             d.j = 2048
             d.fx = 720
             d.fr = 720
+            d.cx = this.r.cx
+            d.db = this.r.db
+            d.dy = this.r.dy
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }

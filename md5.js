@@ -17077,12 +17077,6 @@ u[6] = t[6]*10
             d.cx = 10*this.r.cx
             d.db = 2*this.r.db
             d.dy = 2*this.r.dy
-            d.id[1].f = 20
-d.id[2].f = 25
-d.id[3].f = 35
-d.id[4].f = 25
-d.id[5].f = 35
-
 
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
@@ -19001,8 +18995,14 @@ T.koakuma.prototype = {
             this.k2 = t
             t = this.id
             t.push(new T.tha7b1())
-            u = new T.tha7t1()
+            u = new T.dO()
             u.f = 100
+            t.push(u)
+u = new T.ik()
+            u.f = 100
+            t.push(u)
+            u = new T.tha7t1()
+            u.f = 0
             t.push(u)
             u = new T.tha7n1()
             u.f = 0
@@ -22498,7 +22498,7 @@ T.i9m.prototype = {
         s(T.av, [T.hh,T.hha4n2,T.hha7t1, T.hi, T.ho])
         s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.testa, T.rumia, T.daiyousei, T.cirno , T.hong , T.testa , T.koakuma , T.patchouli , T.sakuya])
         t(T.hg, T.cy)
-        t(T.f3, T.bA, T.koakuma)
+        t(T.f3, T.bA)
         t(T.e_, T.dN, T.yuriSuperControl)
         s(T.aU, [T.b_, T.bG, T.dr, T.ch])
         s(T.aw, [T.dJ, T.bT])

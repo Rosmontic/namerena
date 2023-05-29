@@ -16789,7 +16789,7 @@ n.r.bf(n.r.fr, null, c, d)
     T.i7.prototype = {
         ai: function(a, b) {
             this.r = a
-            this.f = C.b.v(b, 2) + 36
+            this.f = 360
         },
         t: function(a, b, c, d) {
             var u, t, s, r = this, q = null, p = a[0].a, o = d.a
@@ -18995,11 +18995,8 @@ T.koakuma.prototype = {
             this.k2 = t
             t = this.id
             t.push(new T.tha7b1())
-            u = new T.dO()
-            u.f = 100
-            t.push(u)
-u = new T.ik()
-            u.f = 100
+u = new T.ig()
+            u.f = 200
             t.push(u)
             u = new T.tha7t1()
             u.f = 0

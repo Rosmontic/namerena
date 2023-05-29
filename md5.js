@@ -21282,15 +21282,12 @@ s.push(u)
         $iI: 1
     }
     T.thj7b1.prototype = {
-        T: function() {
-            this.r.N.i(0, this)
-        },
-        bP: function(a, b, c) {
+        dk: function(a, b, c, d, e, f, g) {
             var u, t, s, r, q, p, o, n, m = this, l = null
-            if ((b.m() & 63) < m.f) {
+            if ( 0 < m.f) {
                 for (u = m.r.u,
                 t = u.length,
-                s = a.u,
+                s = c.u,
                 r = !1,
                 q = 0; q < t; ++q) {
                     p = s[q]
@@ -21299,7 +21296,7 @@ s.push(u)
                         r = !0
                     }
                 }
-                u = a.id
+                u = c.id
                 q = 0
                 while (!0) {
                     t = m.r.id
@@ -21308,7 +21305,7 @@ s.push(u)
                     o = t[q]
                     n = u[q]
                     t = J.pS(o)
-                    if (!t.gcs(o).aD(0, t.gcs(o)))
+                    if (!t.gcs(o).cD(0, t.gcs(o)))
                         break
                     s = n.f
                     p = o.f
@@ -21324,32 +21321,20 @@ s.push(u)
                     }
                     ++q
                 }
-                u = a.fy
-                t = m.r
-                if (u > t.fy) {
-                    t.fy = u
-                    a.fy = 0
-                }
-                u = a.j
-                s = t.j
-                if (u > s) {
-                    t.j = s + u
-                    a.j = 0
-                }
                 if (r) {
-                    a.r1.k(0, $.eE(), new T.h0())
+                    c.r1.k(0, $.eE(), new T.h0())
                     m.r.E()
-                    u = c.a
+                    u = g.c
                     u.push($.v())
-                    u.push(T.e("[0]触发[「平安京的恶梦」]", m.r, a, l, l, 60, 1500, 100))
-                    u.push(T.e(O.c("PsKl"), T.lV(m.r), a, l, l, 0, 1000, 100))
-                    return !0
+                    u.push(T.e(O.c("ycKN"), m.r, c, l, l, 60, 1500, 100))
+                    u.push(T.e(O.c("PsKl"), T.lV(m.r), c, l, l, 0, 1000, 100))
+                    return a
                 }
             }
-            return !1
+            return a
         },
-        $iI: 1
-    }
+        $iK: 1
+}
     T.bR.prototype = {
         gR: function() {
             return 0
@@ -23028,7 +23013,7 @@ C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
 C.koakuma = H.a(u([0, 100, 0, 0, 100, 100, 100, 800]), [P.j])
 C.patchouli = H.a(u([21, -5, -20, 19, 26, 49, 39, 438]), [P.j])
 C.sakuya = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
-C.nue = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.nue = H.a(u([47, 32, 26, 51, 59, 37, 13, 791]), [P.j])
         C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])
         C.W = H.a(u([10, -6, 1000, 0, 10, -15, 6, 0]), [P.j])
         C.X = H.a(u(["", "", "", "", "", "", "", "", "", ""]), [P.f])

@@ -17001,12 +17001,15 @@ n.r.bf(n.r.fr, null, c, d)
         aR: function() {
             this.bv()
             var u = this.u
-            u[7] = C.d.v(u[7], 1)
+u[4] = u[4]*10
+u[5] = u[5]*10
+u[6] = u[6]*10
+            u[7] = u[7]
         }
     }
     T.tha7t1.prototype = {
         ar: function(a, b) {
-                if (this.r.fr > 450)
+                if (this.r.fr > 900)
                     return !1
             return this.aS(a, b)
         },
@@ -17063,9 +17066,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             d.av()
             d.j = 2048
+            d.fx = 720
             d.fr = 720
-            d.r.db = d.r.db*200
-            d.r.dy = d.r.dy*200
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }

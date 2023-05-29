@@ -16993,9 +16993,9 @@ n.r.bf(n.r.fr, null, c, d)
             u.r = this
             this.k2 = u
             this.id.push(new T.tha8n1)
-            this.id.push(new T.tha8n1)
-            this.id.push(new T.tha8n1)
-            this.id.push(new T.tha8n1)
+            this.id.push(new T.tha8n2)
+            this.id.push(new T.tha8n4)
+            this.id.push(new T.tha8n3)
             this.id.push(new T.tha8n5)
         },
         aR: function() {
@@ -17010,6 +17010,7 @@ u[4] = t[4]*10
 u[5] = t[5]*10
 u[6] = t[6]*10
             u[7] = u[7]
+            
         }
     }
     T.tha7t1.prototype = {
@@ -17073,9 +17074,16 @@ u[6] = t[6]*10
             d.j = 2048
             d.fx = 720
             d.fr = 720
-            d.cx = this.r.cx
-            d.db = this.r.db
-            d.dy = this.r.dy
+            d.cx = 10*this.r.cx
+            d.db = 2*this.r.db
+            d.dy = 2*this.r.dy
+            d.id[1].f = 20
+d.id[2].f = 25
+d.id[3].f = 35
+d.id[4].f = 25
+d.id[5].f = 35
+
+
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }

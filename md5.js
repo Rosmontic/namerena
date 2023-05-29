@@ -16993,15 +16993,16 @@ n.r.bf(n.r.fr, null, c, d)
             u.r = this
             this.k2 = u
             this.id.push(new T.tha8n1)
-            this.id.push(new T.tha8n2)
-            this.id.push(new T.tha8n3)
-            this.id.push(new T.tha8n4)
+            this.id.push(new T.tha8n1)
+            this.id.push(new T.tha8n1)
+            this.id.push(new T.tha8n1)
             this.id.push(new T.tha8n5)
         },
         aR: function() {
             this.bv()
             var t,u = this.u
             t = this.af.r.u
+            u[0] = 0 
 u[1] = t[1]*10
 u[2] = t[2]*10
 u[3] = t[3]*10

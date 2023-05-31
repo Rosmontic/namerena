@@ -15797,7 +15797,7 @@ T.tha9n1.prototype = {
                 var u = this
                 t = a[0].a        
         s = T.u(u.r, !1, c)
-        If(this.r.timekp > 0){
+        if(this.r.timekp > 0){
         v = T.u(u.r, !1, c)
         if (v > s)
         s = v
@@ -17464,6 +17464,86 @@ d.a.push(T.e("所有其它角色陷入了[时停]", this.r, null, null, r, 1, 10
         }
 }
     }
+T.ik.prototype = {
+        ar: function(a, b) {
+            var u
+            if (b)
+                if (this.r.fr < 80)
+                    return !1
+            u = this.fr
+            return (u == null || u.fr <= 0) && this.aS(a, b)
+        },
+        a9: function(a, b, c) {
+            return H.a([], [T.Z])
+        },
+        t: function(a, b, a0, a1) {
+            var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e = this, d = null, c = a1.a
+            c.push(T.e(O.c("IwBM"), e.r, d, d, d, 60, 1000, 100))
+            u = e.fr
+            if (u == null) {
+                u = H.d(e.r.a) + "?" + H.d($.nr())
+                t = e.r
+                s = t.b
+                t = t.c
+                r = H.a([], [T.H])
+                q = H.a([], [T.y])
+                p = P.U(P.f, T.p)
+                o = new F.b([T.M])
+                o.c = o
+                o.b = o
+                n = new F.b([T.L])
+                n.c = n
+                n.b = n
+                m = new F.b([T.G])
+                m.c = m
+                m.b = m
+                l = new F.b([T.J])
+                l.c = l
+                l.b = l
+                k = new F.b([T.K])
+                k.c = k
+                k.b = k
+                j = new F.b([T.D])
+                j.c = j
+                j.b = j
+                i = new F.b([T.A])
+                i.c = i
+                i.b = i
+                h = new F.b([T.C])
+                h.c = h
+                h.b = h
+                g = new F.b([T.I])
+                g.c = g
+                g.b = g
+                f = [P.j]
+                f = new T.hi(u,s,t,d,r,q,p,o,n,m,l,k,j,i,h,g,H.a([], f),H.a([], f),H.a([], f),H.a([], f))
+                f.Y(u, s, t, d)
+                f.a5 = new T.cj(f)
+                f.af = e
+                f.e = T.du(e.r)
+                e.fr = f
+                f.r = O.c("vbuJ")
+                f = e.fr
+                f.x = e.r.x
+                f.av()
+            } else {
+                u.bM()
+                u.bm()
+                u.cj()
+            }
+            e.r.I.i(0, e.fr.a5)
+            e.fr.j = a0.m() * 4
+            if (e.r.r1.G(0, $.X())) {
+                e.fr.bb.C()
+                e.fr.j = 2048
+            }
+            e.r.x.aU(e.fr)
+            u = O.c("IFkr")
+            t = e.r
+            s = e.fr
+            c.push(T.e(u, t, T.a1(s, s.fr), d, d, 0, 1000, 100))
+        }
+}
     T.il.prototype = {
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o, n = this, m = null, l = a[0].a, k = d.a

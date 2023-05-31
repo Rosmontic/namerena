@@ -15794,34 +15794,38 @@ T.tha9n1.prototype = {
                 var r,v,u = this
                 t = a[0].a
         s = T.u(u.r, !1, c)
+		d.a.push(T.e("[0]使用[银符「银之跳跃」]", u.r, t, null, null, 1, 1000, 100))
 		if(this.r.timekp > 0){
-		r = t.cy
-		t.cy = 0
-		v = T.u(u.r, !1, c)
-		if(s < v)
-		s = v
-		v = T.u(u.r, !1, c)
-		if(s < v)
-		s = v
+		d.a.push($.v())
+        t.bL(0.20*s, !0, u.r, T.a3(), c, d)
+        d.a.push($.v())
+        t.bL(0.20*s, !0, u.r, T.a3(), c, d)
+		d.a.push($.v())
+        t.bL(0.20*s, !0, u.r, T.a3(), c, d)
+		d.a.push($.v())
+        t.bL(0.20*s, !0, u.r, T.a3(), c, d)
+		d.a.push($.v())
+        t.bL(0.20*s, !0, u.r, T.a3(), c, d)
+		d.a.push($.v())
+        t.bL(0.20*s, !0, u.r, T.a3(), c, d)
+		d.a.push($.v())
+        t.bL(0.20*s, !0, u.r, T.a3(), c, d)  
 		}
-        d.a.push(T.e("[0]使用[银符「银之跳跃」]", u.r, t, null, null, 1, 1000, 100))
         d.a.push($.v())
-        t.a0(0.21*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.20*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
-        t.a0(0.21*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.20*s, !0, u.r, T.a3(), c, d)
 		d.a.push($.v())
-        t.a0(0.21*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.20*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
-        t.a0(0.21*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.20*s, !0, u.r, T.a3(), c, d)
 		d.a.push($.v())
-        t.a0(0.21*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.20*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
-        t.a0(0.21*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.20*s, !0, u.r, T.a3(), c, d)
 		d.a.push($.v())
-        t.a0(0.21*s, !0, u.r, T.a3(), c, d)    
-		if(this.r.timekp > 0){
-		t.cy = r
-		}
+        t.a0(0.20*s, !0, u.r, T.a3(), c, d)    
+
         }   
         }
     T.cg.prototype = {
@@ -19255,6 +19259,9 @@ T.sakuya.prototype = {
 			u = new T.tha9n1()
             u.f = 210
             t.push(u)
+			u = new T.tha9b1()
+            u.f = 210
+            t.push(u)
 
 
 }
@@ -21753,7 +21760,10 @@ T.i9m.prototype = {
             if(r.r.timekp > 0)
             r.r.timekp = r.r.timekp + 1
             if(r.r.timekp > 4)
+			{
             r.r.timekp = 0
+			d.a.push(T.e("[0]的[世界]结束了", r.r, r.r, null, null, 0, 1000, 100))
+			}
 			return a
         },
 		T: function() {

@@ -17382,7 +17382,7 @@ this.f=0
                 n.push(a[u].a)
             r = H.a(n.slice(0), [H.n(n, 0)])
             d.a.push(T.e("[0]使用[幻世「世界」]", this.r, null, null, r, 1, 1000, 100))
-            this.timekp = 1
+            this.r.timekp = 1
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
 if (o.fr > 0 && o.e != "sakuya@!" ) {

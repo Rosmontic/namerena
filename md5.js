@@ -17335,8 +17335,8 @@ this.f=0
                 o = n[u]
 if (o.fr > 0 && o.e != "sakuya@!" ) {
 d.a.push($.v())
-o.j = o.j -3072
-this.j = this.js + 1024
+o.j = o.j -6144
+this.j = this.js + 2048
 d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
 
 

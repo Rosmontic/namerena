@@ -15797,21 +15797,21 @@ T.tha9n1.prototype = {
 		d.a.push(T.e("[0]使用[银符「银之跳跃」]", u.r, t, null, null, 1, 1000, 100))
 		if(this.r.timekp > 0){
 		d.a.push($.v())
-        t.bL(0.20*s, !0, u.r, T.a3(), c, d)
+        t.bL(0.21*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
-        t.bL(0.20*s, !0, u.r, T.a3(), c, d)
+        t.bL(0.22*s, !0, u.r, T.a3(), c, d)
 		d.a.push($.v())
-        t.bL(0.20*s, !0, u.r, T.a3(), c, d)
+        t.bL(0.23*s, !0, u.r, T.a3(), c, d)
 		d.a.push($.v())
-        t.bL(0.20*s, !0, u.r, T.a3(), c, d)
+        t.bL(0.24*s, !0, u.r, T.a3(), c, d)
 		d.a.push($.v())
-        t.bL(0.20*s, !0, u.r, T.a3(), c, d)
+        t.bL(0.25*s, !0, u.r, T.a3(), c, d)
 		d.a.push($.v())
-        t.bL(0.20*s, !0, u.r, T.a3(), c, d)
+        t.bL(0.26*s, !0, u.r, T.a3(), c, d)
 		d.a.push($.v())
-        t.bL(0.20*s, !0, u.r, T.a3(), c, d)  
-        return 0
+        t.bL(0.27*s, !0, u.r, T.a3(), c, d)  
 		}
+        else{
         d.a.push($.v())
         t.a0(0.21*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
@@ -15826,7 +15826,7 @@ T.tha9n1.prototype = {
         t.a0(0.26*s, !0, u.r, T.a3(), c, d)
 		d.a.push($.v())
         t.a0(0.27*s, !0, u.r, T.a3(), c, d)    
-
+        }
         }   
         }
     T.cg.prototype = {
@@ -17388,7 +17388,7 @@ this.f=0
                 o = n[u]
 if (o.fr > 0 && o.e != "sakuya@!" ) {
 d.a.push($.v())
-o.j = o.j -6144
+o.j = o.j -8192
 this.j = this.js + 2048
 d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
 
@@ -21758,6 +21758,7 @@ T.i9m.prototype = {
 	T.tha9b1.prototype = {
         aK: function(a, b, c, d) {
             var u, t, s, r = this
+            r.r.cy = r.r.cy + 10
             if(r.r.timekp > 0)
 			{
             r.r.timekp = r.r.timekp + 1
@@ -21765,8 +21766,8 @@ T.i9m.prototype = {
             if(r.r.timekp > 4)
 			{
             r.r.timekp = 0
-            d.a.push($.v())
 			d.a.push(T.e("[0]的[世界]结束了", r.r, r.r, null, null, 0, 1000, 100))
+            d.a.push($.v())
 			}
 			return a
         },

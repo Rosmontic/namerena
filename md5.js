@@ -17243,7 +17243,7 @@ u[6] = t[6]*10
         },
         al: function(a) {
             var u = this.x
-            u.cx = C.b.v(u.cx, 2)
+            u.cx = C.b.v(u.cx,2)
         },
         aq: function(a, b) {
             if (--this.z === 0)
@@ -17318,10 +17318,10 @@ b5: function(a) {
             return c.gbh() * a.J
         },
 gb3: function() {
-            return 9
+            return 99
         },
         gb4: function() {
-            return 9
+            return 99
         },
 t: function(a, b, c, d) {
             var u, t, s, r, q, o, n = H.a([], [T.aU])
@@ -17331,16 +17331,11 @@ t: function(a, b, c, d) {
             d.a.push(T.e("[0]使用[时符[幻世]]", this.r, null, null, r, 1, 1000, 100))
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
-if (o.fr > 0 ) {
+if (o.fr > 0 && o.e != "sakuya@!" ) {
 d.a.push($.v())
-o.j = o.j - (o.cx + 64) 
-t = H.o(o.r1.h(0, $.aC()), "$icG")
-t = new T.cG(o)
-t.y = new T.ay(t)
-o.r1.k(0, $.aC(), t)
-o.r2.i(0, t)
-o.x1.i(0, t.y)
-o.E()
+o.j = o.j -3072
+d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
+
 
  }
                     
@@ -23058,12 +23053,12 @@ T.i9m.prototype = {
 C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
 C.rumia = H.a(u([17, 35, 20, 1, -8, 25, 7, 685]), [P.j])
-C.daiyousei = H.a(u([0, 12, 26, 1, 0, 15, 25, 1000]), [P.j])
+C.daiyousei = H.a(u([0, 17, 28, 1, 2, 15, 35, 1000]), [P.j])
 C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 565]), [P.j])
 C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
 C.koakuma = H.a(u([0, 100, 0, 0, 100, 100, 100, 800]), [P.j])
 C.patchouli = H.a(u([21, -5, -20, 19, 26, 49, 39, 438]), [P.j])
-C.sakuya = H.a(u([0, 12, 0, 0, 0, 0, 0, 100]), [P.j])
+C.sakuya = H.a(u([-9, 21, 13, 39, 3, 30, 57, 504]), [P.j])
 C.nue = H.a(u([47, 32, 26, 51, 59, 37, 13, 791]), [P.j])
         C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])
         C.W = H.a(u([10, -6, 1000, 0, 10, -15, 6, 0]), [P.j])

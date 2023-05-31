@@ -15810,21 +15810,22 @@ T.tha9n1.prototype = {
         t.bL(0.20*s, !0, u.r, T.a3(), c, d)
 		d.a.push($.v())
         t.bL(0.20*s, !0, u.r, T.a3(), c, d)  
+        return 0
 		}
         d.a.push($.v())
-        t.a0(0.20*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.21*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
-        t.a0(0.20*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.22*s, !0, u.r, T.a3(), c, d)
 		d.a.push($.v())
-        t.a0(0.20*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.23*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
-        t.a0(0.20*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.24*s, !0, u.r, T.a3(), c, d)
 		d.a.push($.v())
-        t.a0(0.20*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.25*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
-        t.a0(0.20*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.26*s, !0, u.r, T.a3(), c, d)
 		d.a.push($.v())
-        t.a0(0.20*s, !0, u.r, T.a3(), c, d)    
+        t.a0(0.27*s, !0, u.r, T.a3(), c, d)    
 
         }   
         }
@@ -21764,6 +21765,7 @@ T.i9m.prototype = {
             if(r.r.timekp > 4)
 			{
             r.r.timekp = 0
+            d.a.push($.v())
 			d.a.push(T.e("[0]的[世界]结束了", r.r, r.r, null, null, 0, 1000, 100))
 			}
 			return a

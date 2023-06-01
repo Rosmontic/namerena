@@ -17205,11 +17205,12 @@ n.r.bf(n.r.fr, null, c, d)
     }
     T.tha9n2.prototype = {
         ar: function(a, b) {
-                if (this.r.timekp > 0||this.fr > 0 )
-				{
+            var u
+            if (b)
+                if (this.r.timekp > 0)
                     return !1
-					}
-            return this.aS(a, b)
+            u = this.fr
+            return (u == null || u.fr <= 0) && this.aS(a, b)
         },
         a9: function(a, b, c) {
             return H.a([], [T.Z])
@@ -17260,8 +17261,7 @@ n.r.bf(n.r.fr, null, c, d)
             d.e = T.du(c.r)
             d.r = "残影"
             s = c.r
-            d.x = s.x
-			
+            d.x = s.x	
             s.I.i(0, d.a5)
             d.av()
 			d.fx = 1		
@@ -17269,10 +17269,9 @@ n.r.bf(n.r.fr, null, c, d)
 			d.cy = 1
 			d.ch = 1
 			d.db = 1
-            d.j = 2048
             c.r.x.aU(d)
             u.push(T.e("出现了[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
-			this.r.j = 2000
+			this.r.j = 1024
         }
     }
     T.hha7t1.prototype = {

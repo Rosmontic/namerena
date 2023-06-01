@@ -6802,6 +6802,12 @@ tha4n1: function tha4n1() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
+		tha9n2t: function tha9n2t() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
         hh: function hh(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
             var _ = this
             _.a5 = _.af = null
@@ -6993,7 +6999,7 @@ tha4n1: function tha4n1() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
-tha9s1: function tha9s1() {
+        tha9s1: function tha9s1() {
             var _ = this
             _.e = !1
             _.f = 0
@@ -17174,7 +17180,7 @@ n.r.bf(n.r.fr, null, c, d)
 	T.tha9n2t.prototype = {
         ai: function(a, b) {
             this.r = a
-            this.f = 100
+            this.f = 300
         },
         t: function(a, b, c, d) {
             var u, t, s, r = this, q = null, p = a[0].a, o = d.a
@@ -17196,12 +17202,15 @@ n.r.bf(n.r.fr, null, c, d)
             this.bv()
             var u = this.u
             u[7] = C.d.v(u[7], 1)
+			u[1] = 0
+			u[3] = 0
+			u[5] = 0
 			
         }
     }
     T.tha9n2.prototype = {
         ar: function(a, b) {
-                if (this.r.timekp > 0 )
+                if (this.r.timekp > 0||this.fr != null )
 				{
                     return !1
 					}

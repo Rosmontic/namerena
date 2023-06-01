@@ -17174,12 +17174,12 @@ n.r.bf(n.r.fr, null, c, d)
 	T.tha9n2t.prototype = {
         ai: function(a, b) {
             this.r = a
-            this.f = 1000
+            this.f = 100
         },
         t: function(a, b, c, d) {
             var u, t, s, r = this, q = null, p = a[0].a, o = d.a
             o.push(T.e("[0]发起佯攻", r.r, p, q, q, 0, 1000, 100))
-            p.a0(0, !0, this.r, T.a3(), c, d)
+			return 0
         }
     }
     T.hha9n2.prototype = {
@@ -17196,16 +17196,15 @@ n.r.bf(n.r.fr, null, c, d)
             this.bv()
             var u = this.u
             u[7] = C.d.v(u[7], 1)
-			u[1] = 0
-			u[3] = 0
-			u[5] = 0
 			
         }
     }
     T.tha9n2.prototype = {
         ar: function(a, b) {
-                if (this.r.timekp > 0 || this.fr != null ){
-                    return !1}
+                if (this.r.timekp > 0 )
+				{
+                    return !1
+					}
             return this.aS(a, b)
         },
         a9: function(a, b, c) {
@@ -17250,7 +17249,7 @@ n.r.bf(n.r.fr, null, c, d)
             f.c = f
             f.b = f
             e = [P.j]
-            d = new T.hha4n2(t,r,s,b,q,p,o,n,m,l,k,j,i,h,g,f,H.a([], e),H.a([], e),H.a([], e),H.a([], e))
+            d = new T.hha9n2(t,r,s,b,q,p,o,n,m,l,k,j,i,h,g,f,H.a([], e),H.a([], e),H.a([], e),H.a([], e))
             d.Y(t, r, s, b)
             d.a5 = new T.cj(d)
             d.af = c
@@ -21907,7 +21906,6 @@ T.i9m.prototype = {
 			{
             r.r.timekp = 0
 			d.a.push(T.e("[0]的[世界]结束了", r.r, r.r, null, null, 0, 1000, 100))
-            r.r.j = r.r.j -2048
 			}
 			return a
         },

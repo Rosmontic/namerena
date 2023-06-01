@@ -17193,11 +17193,9 @@ n.r.bf(n.r.fr, null, c, d)
             return this.af.r
         },
         aa: function() {
-            var u = new T.aK()
+            var u = new T.tha9n2t()
             u.r = this
             this.k2 = u
-			this.id.push(new T.tha9n2t())
-            this.id.push(new T.i7())
         },
         aR: function() {
             this.bv()
@@ -17263,10 +17261,14 @@ n.r.bf(n.r.fr, null, c, d)
             d.r = "残影"
             s = c.r
             d.x = s.x
-			d.fx = 1000
-			d.fr = 1000
+			
             s.I.i(0, d.a5)
             d.av()
+			d.fx = 1		
+			d.fr = 1
+			d.cy = 1
+			d.ch = 1
+			d.db = 1
             d.j = 2048
             c.r.x.aU(d)
             u.push(T.e("出现了[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))

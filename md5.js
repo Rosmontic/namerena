@@ -17185,7 +17185,7 @@ n.r.bf(n.r.fr, null, c, d)
         t: function(a, b, c, d) {
             var u, t, s, r = this, q = null, p = a[0].a, o = d.a
             o.push(T.e("[0]发起佯攻", r.r, p, q, q, 0, 1000, 100))
-			return 0
+			p.a0(0, !1, r.r, T.a3(), c, d)
         }
     }
     T.hha9n2.prototype = {
@@ -17272,7 +17272,7 @@ n.r.bf(n.r.fr, null, c, d)
             d.av()
             d.j = 2048
             c.r.x.aU(d)
-            u.push(T.e("产生[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+            u.push(T.e("出现了[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			this.r.j = 2000
         }
     }
@@ -19406,7 +19406,10 @@ T.sakuya.prototype = {
             u.f = 300
             t.push(u)
 			u = new T.tha9n1()
-            u.f = 210
+            u.f = 70
+            t.push(u)
+			u = new T.tha9n1()
+            u.f = 60
             t.push(u)
 			u = new T.tha9b1()
             u.f = 100

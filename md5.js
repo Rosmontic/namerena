@@ -17180,7 +17180,7 @@ n.r.bf(n.r.fr, null, c, d)
 	T.tha9n2t.prototype = {
         ai: function(a, b) {
             this.r = a
-            this.f = 360
+            this.f = 3600
         },
         t: function(a, b, c, d) {
             var u, t, s, r = this, q = null, p = a[0].a, o = d.a
@@ -17196,15 +17196,12 @@ n.r.bf(n.r.fr, null, c, d)
             var u = new T.aK()
             u.r = this
             this.k2 = u
+			this.id.push(new T.tha9n2t())
             this.id.push(new T.i7())
         },
         aR: function() {
             this.bv()
             var u = this.u
-            u[7] = C.d.v(u[7], 1)
-			u[1] = 0
-			u[3] = 0
-			u[5] = 0
 			
         }
     }
@@ -17266,8 +17263,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.r = "残影"
             s = c.r
             d.x = s.x
-			d.fx = 1
-			d.fr = 1 
+			d.fx = 1000
+			d.fr = 1000
             s.I.i(0, d.a5)
             d.av()
             d.j = 2048

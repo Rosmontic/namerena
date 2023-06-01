@@ -17180,7 +17180,7 @@ n.r.bf(n.r.fr, null, c, d)
 	T.tha9n2t.prototype = {
         ai: function(a, b) {
             this.r = a
-            this.f = 300
+            this.f = 360
         },
         t: function(a, b, c, d) {
             var u, t, s, r = this, q = null, p = a[0].a, o = d.a
@@ -17196,7 +17196,7 @@ n.r.bf(n.r.fr, null, c, d)
             var u = new T.aK()
             u.r = this
             this.k2 = u
-            this.id.push(new T.tha9n2t())
+            this.id.push(new T.i7())
         },
         aR: function() {
             this.bv()
@@ -17210,7 +17210,7 @@ n.r.bf(n.r.fr, null, c, d)
     }
     T.tha9n2.prototype = {
         ar: function(a, b) {
-                if (this.r.timekp > 0||this.fr != null )
+                if (this.r.timekp > 0||this.fr > 0 )
 				{
                     return !1
 					}
@@ -17266,8 +17266,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.r = "残影"
             s = c.r
             d.x = s.x
-			d.fr = 1
-	        d.fx = 1
+			d.fx = 1
+			d.fr = 1 
             s.I.i(0, d.a5)
             d.av()
             d.j = 2048
@@ -19406,10 +19406,10 @@ T.sakuya.prototype = {
             u.f = 300
             t.push(u)
 			u = new T.tha9n1()
-            u.f = 70
+            u.f = 0
             t.push(u)
 			u = new T.tha9n2()
-            u.f = 60
+            u.f = 600
             t.push(u)
 			u = new T.tha9b1()
             u.f = 100

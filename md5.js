@@ -19404,10 +19404,10 @@ T.sakuya.prototype = {
             u.f = 300
             t.push(u)
 			u = new T.tha9n1()
-            u.f = 0
+            u.f = 70
             t.push(u)
 			u = new T.tha9n2()
-            u.f = 600
+            u.f = 60
             t.push(u)
 			u = new T.tha9b1()
             u.f = 100

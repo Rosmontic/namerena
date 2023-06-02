@@ -5479,6 +5479,195 @@ if (a == "patchouli") {
                     g.at(a, u)
                     return g
                 }
+				if (a == "remilia") {
+                    t = H.d(a) + H.d($.ah())
+                    s = H.a([], [T.H])
+                    r = H.a([], [T.y])
+                    q = P.U(P.f, T.p)
+                    p = new F.b([T.M])
+                    p.c = p
+                    p.b = p
+                    o = new F.b([T.L])
+                    o.c = o
+                    o.b = o
+                    n = new F.b([T.G])
+                    n.c = n
+                    n.b = n
+                    m = new F.b([T.J])
+                    m.c = m
+                    m.b = m
+                    l = new F.b([T.K])
+                    l.c = l
+                    l.b = l
+                    k = new F.b([T.D])
+                    k.c = k
+                    k.b = k
+                    j = new F.b([T.A])
+                    j.c = j
+                    j.b = j
+                    i = new F.b([T.C])
+                    i.c = i
+                    i.b = i
+                    h = new F.b([T.I])
+                    h.c = h
+                    h.b = h
+                    g = [P.j]
+                    g = new T.remilia(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g.Y(a, u, t, f)
+                    g.at(a, u)
+                    return g
+                }
+				if (a == "flandre") {
+                    t = H.d(a) + H.d($.ah())
+                    s = H.a([], [T.H])
+                    r = H.a([], [T.y])
+                    q = P.U(P.f, T.p)
+                    p = new F.b([T.M])
+                    p.c = p
+                    p.b = p
+                    o = new F.b([T.L])
+                    o.c = o
+                    o.b = o
+                    n = new F.b([T.G])
+                    n.c = n
+                    n.b = n
+                    m = new F.b([T.J])
+                    m.c = m
+                    m.b = m
+                    l = new F.b([T.K])
+                    l.c = l
+                    l.b = l
+                    k = new F.b([T.D])
+                    k.c = k
+                    k.b = k
+                    j = new F.b([T.A])
+                    j.c = j
+                    j.b = j
+                    i = new F.b([T.C])
+                    i.c = i
+                    i.b = i
+                    h = new F.b([T.I])
+                    h.c = h
+                    h.b = h
+                    g = [P.j]
+                    g = new T.flandre(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g.Y(a, u, t, f)
+                    g.at(a, u)
+                    return g
+                }
+				if (a == "rin") {
+                    t = H.d(a) + H.d($.ah())
+                    s = H.a([], [T.H])
+                    r = H.a([], [T.y])
+                    q = P.U(P.f, T.p)
+                    p = new F.b([T.M])
+                    p.c = p
+                    p.b = p
+                    o = new F.b([T.L])
+                    o.c = o
+                    o.b = o
+                    n = new F.b([T.G])
+                    n.c = n
+                    n.b = n
+                    m = new F.b([T.J])
+                    m.c = m
+                    m.b = m
+                    l = new F.b([T.K])
+                    l.c = l
+                    l.b = l
+                    k = new F.b([T.D])
+                    k.c = k
+                    k.b = k
+                    j = new F.b([T.A])
+                    j.c = j
+                    j.b = j
+                    i = new F.b([T.C])
+                    i.c = i
+                    i.b = i
+                    h = new F.b([T.I])
+                    h.c = h
+                    h.b = h
+                    g = [P.j]
+                    g = new T.rin(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g.Y(a, u, t, f)
+                    g.at(a, u)
+                    return g
+                }
+				if (a == "reimu") {
+                    t = H.d(a) + H.d($.ah())
+                    s = H.a([], [T.H])
+                    r = H.a([], [T.y])
+                    q = P.U(P.f, T.p)
+                    p = new F.b([T.M])
+                    p.c = p
+                    p.b = p
+                    o = new F.b([T.L])
+                    o.c = o
+                    o.b = o
+                    n = new F.b([T.G])
+                    n.c = n
+                    n.b = n
+                    m = new F.b([T.J])
+                    m.c = m
+                    m.b = m
+                    l = new F.b([T.K])
+                    l.c = l
+                    l.b = l
+                    k = new F.b([T.D])
+                    k.c = k
+                    k.b = k
+                    j = new F.b([T.A])
+                    j.c = j
+                    j.b = j
+                    i = new F.b([T.C])
+                    i.c = i
+                    i.b = i
+                    h = new F.b([T.I])
+                    h.c = h
+                    h.b = h
+                    g = [P.j]
+                    g = new T.reimu(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g.Y(a, u, t, f)
+                    g.at(a, u)
+                    return g
+                }if (a == "marisa") {
+                    t = H.d(a) + H.d($.ah())
+                    s = H.a([], [T.H])
+                    r = H.a([], [T.y])
+                    q = P.U(P.f, T.p)
+                    p = new F.b([T.M])
+                    p.c = p
+                    p.b = p
+                    o = new F.b([T.L])
+                    o.c = o
+                    o.b = o
+                    n = new F.b([T.G])
+                    n.c = n
+                    n.b = n
+                    m = new F.b([T.J])
+                    m.c = m
+                    m.b = m
+                    l = new F.b([T.K])
+                    l.c = l
+                    l.b = l
+                    k = new F.b([T.D])
+                    k.c = k
+                    k.b = k
+                    j = new F.b([T.A])
+                    j.c = j
+                    j.b = j
+                    i = new F.b([T.C])
+                    i.c = i
+                    i.b = i
+                    h = new F.b([T.I])
+                    h.c = h
+                    h.b = h
+                    g = [P.j]
+                    g = new T.marisa(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g.Y(a, u, t, f)
+                    g.at(a, u)
+                    return g
+                }
                 if (a == "nue") {
                     t = H.d(a) + H.d($.ah())
                     s = H.a([], [T.H])
@@ -8197,6 +8386,196 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.id = e
             _.timekp = 0
 			_.timesd = 0
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
+		reimu: function reimu(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
+		marisa: function marisa(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
+		remilia: function remilia(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
+		flandre: function flandre(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
+		rin: function rin(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -19500,7 +19879,7 @@ T.sakuya.prototype = {
             u.f = 50
             t.push(u)
 			u = new T.tha9n1()
-            u.f = 66
+            u.f = 60
             t.push(u)
 			u = new T.tha9n2()
             u.f = 50
@@ -19511,6 +19890,86 @@ T.sakuya.prototype = {
 			u = new T.tha9b1()
             u.f = 100
             t.push(u)
+
+
+}
+}
+T.remilia.prototype = {
+        gah: function() {
+            return C.remilia
+        },
+        gaQ: function() {
+            return H.a([], [P.f])
+        },
+        aa: function() {
+            var u, t = new T.aK()
+            t.r = this
+            this.k2 = t
+            t = this.id 
+
+
+}
+}
+T.flandre.prototype = {
+        gah: function() {
+            return C.flandre
+        },
+        gaQ: function() {
+            return H.a([], [P.f])
+        },
+        aa: function() {
+            var u, t = new T.aK()
+            t.r = this
+            this.k2 = t
+            t = this.id 
+
+
+}
+}
+T.rin.prototype = {
+        gah: function() {
+            return C.rin
+        },
+        gaQ: function() {
+            return H.a([], [P.f])
+        },
+        aa: function() {
+            var u, t = new T.aK()
+            t.r = this
+            this.k2 = t
+            t = this.id 
+
+
+}
+}
+T.reimu.prototype = {
+        gah: function() {
+            return C.reimu
+        },
+        gaQ: function() {
+            return H.a([], [P.f])
+        },
+        aa: function() {
+            var u, t = new T.aK()
+            t.r = this
+            this.k2 = t
+            t = this.id 
+
+
+}
+}
+T.marisa.prototype = {
+        gah: function() {
+            return C.marisa
+        },
+        gaQ: function() {
+            return H.a([], [P.f])
+        },
+        aa: function() {
+            var u, t = new T.aK()
+            t.r = this
+            this.k2 = t
+            t = this.id 
 
 
 }
@@ -23026,7 +23485,7 @@ T.i9m.prototype = {
         s(T.D, [T.cg, T.dF, T.el])
         s(T.J, [T.dE, T.fire, T.ay])
         s(T.av, [T.hh,T.hha4n2, T.hha7t1, T.hha9n2, T.hi, T.ho])
-        s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.testa, T.rumia, T.daiyousei, T.cirno , T.hong , T.testa , T.koakuma , T.patchouli , T.sakuya, T.nue])
+        s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.testa, T.rumia, T.daiyousei, T.cirno , T.hong , T.testa , T.koakuma , T.patchouli , T.sakuya, T.reimu, T.marisa, T.remilia, T.flandre, T.rin, T.nue])
         t(T.hg, T.cy)
         t(T.f3, T.bA)
         t(T.e_, T.dN, T.yuriSuperControl)
@@ -23391,6 +23850,11 @@ C.koakuma = H.a(u([0, 100, 0, 0, 100, 100, 100, 800]), [P.j])
 C.patchouli = H.a(u([21, -5, -20, 19, 26, 19, 39, 438]), [P.j])
 C.sakuya = H.a(u([-13, 21, 6, 36, 3, 19, 57, 474]), [P.j])
 C.nue = H.a(u([47, 32, 26, 51, 59, 37, 13, 791]), [P.j])
+C.reimu = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.marisa = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.reimu = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.flandre = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.rin = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
         C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])
         C.W = H.a(u([10, -6, 1000, 0, 10, -15, 6, 0]), [P.j])
         C.X = H.a(u(["", "", "", "", "", "", "", "", "", ""]), [P.f])
@@ -23452,6 +23916,16 @@ C.nue = H.a(u([47, 32, 26, 51, 59, 37, 13, 791]), [P.j])
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAALxJREFUOE+dk1ESgzAIRJuTldzMmwVPlg7BZQhQndavOGTfwirt5R4imv7925mZG2rr4IV8jFsGHd3qAjJAJZxvvdvOzBTQAsA9Aci6VDXv06GTBXgUo4ECkgHOeU51bTpp6kS62AGF2NIuIBtAAoMTnGN0vi7BGmAM/XS/AOR+79cIESDF2IXPAbUEiIFVIXpwCUipuyBiVwaQOxijTL0YScTLDLsQAbcLcQW47QIETyA4r78bywTxP+v8ARYeg4exsRRuAAAAAElFTkSuQmCC",
 "nue",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAG1JREFUOE/N01ESgCAIBNC42Xry9mY2O0XjDwb2UX7jmwXUAPStcEjaWG4CSKYIAHedQyXAbzskZAkQJOQ1IGg5gaf4CbBP1mg9fiZo7ZzB94AmGqV4bOFaR9hGGohSpABP4W99bCcNDB+l9L0PIexdBbTJePQAAAAASUVORK5CYII=",
+"reimu",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJNJREFUOE+1k0EOwCAIBOFn+HL5mc3GliBCk6bRgwcg45QCi8ig5Kgq+3BVx0io6oIQkYxJWZ0BxkhFUhCCzEx46ACAmaiycbnFAEq996mLIpwICfHW2izHhUZugOrrbzAA+FM7wFtEiLM6DMgsQk/M4Jkw64HXrhpKRNbEZxLTQXoBHBykcnjXxGYQNu/bMv1Z5wvj8YMF0QinpAAAAABJRU5ErkJggg==",
+"marisa",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHtJREFUOE/FU0EOwCAIk5/hy+VnLujIkDVbIkvmzUpraYAKOMzcES4iFPEBIIKILLXMfNNUQTJyJCAHHjPBIdBae6uH77XW8o2At9/7lR/RzAxhZ3bTQezfE7x3EzRMc4AC8Ve9R/Kjg7RAqoWtEP+fAw1te5TTy5Rd5wPOHWcF6gwQGQAAAABJRU5ErkJggg==",
+"remilia",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAKdJREFUOE+Vk1ESxCAIQ/Fm7MnlZrsTppmlCNb2p7WSR0bJEBFR1S/ebx8zG4PiaXakH1eVqvqXA+acIoNbPSdXAPIHOK6HVDsroIFUYhzaZ3FA98FJJ0ZpD7ic7MTPAD+SOyLf9d5BAlSDsgXE7t2UtYAT8e0MsPBhOrDNi0J3r2cWADjtzO6eBQIsZIFDEoc6ZwUOSkAUoyCmNUIWQI4QxfxfRR41Pz1QakbZgQWnAAAAAElFTkSuQmCC",
+"flandre",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAKBJREFUOE+V00sWgCAIBVDcGa48dlbnpSCYvxoKXogoMfNNPx4RST49Abgu+RI+rZbImS1PoTmA1AGCY4WArIENcgZMEO1i3EEY02DCbiYFECHy32IHwLzLLBpQD996MwBFXCxzDyiyAlyBBmAPDtu2iSSiCKxa11vdztoMELdtnCzPaNtfAIHPOh8iAQhdLDbQd2KAdqHB09cJgF7++3s/vc5gBYICY8wAAAAASUVORK5CYII=",
+"rin",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJFJREFUOE/Fk90NwCAIhGUz3KCbdJZu0g1kM5szwaAtiT8P9cUY8POQg5g5h4klImTTCYCU0hAixljzFNQALqJwZl8Q4lg3c9kBeQEQ8CAKQBxqtgF4bFkBLkPFFACX7D8tAWy7/gFslWDb2HwiDnBjn9Db8xOAJLXzFgCgQ2TIyurU0gWVaafSGy63BFvr7Hg/O6GRBdOQufgAAAAASUVORK5CYII=",
 "testa", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHVJREFUOE/dU0EOwCAIk5/hy+Vnmi5hA9MtccuyZB6xtFKqqGov5JiZxPIZTnDRWksUtVbGWRiOEtBuUoTQOwQiafyk3fth2f4CIHy+q2bgnMB92qSikU4QlYCZ6yDApv5A4Am7bSJL4vIa54h+n8Tlz/TkOw+MMoEFWrs6bQAAAABJRU5ErkJggg==",
 "aokiji", "R0lGODlhEAAQAMIDAAAAAEB2/4Kl/////////////////////yH5BAEKAAQALAAAAAAQABAAAANISLrQsJC1MVwkLgSqLW6bQFFi4ACjIGxDoI7gqHFsO9UsXgFuPXIr0Or3691kHGSMxuRMSMPWi3IK/UqeTM7UuDio3YskDEkAADs=", "conan", "R0lGODlhEAAQAMIAAAAAANAYISpXyf///wAAAAAAAAAAAAAAACH5BAEKAAQALAAAAAAQABAAAANISATczkqBQasFcQlrBV6MsHGiEzQj5TEnELzM5cIsbdLLC+/6N/O/E6j3IP5ilVqrBUgNVi6HyDltSJoiVekTCU23me4DEkkAADs=", "covid", "R0lGODlhEAAQAIIAMf/GAOpK/f///wAAAP///wAAAAAAAAAAACH5BAEAAAQALAAAAAAQABAAAgNKSLrTvZC4AeqIqgEttoNU1wSOx1BBmoabNJGDGpjURlqBAJf6ba+WWgwmy3kcRYFO6AKolMuJBCAqmjIUJKd12moemNrxgnF9IgkAOw==", "ikaruga", "R0lGODlhEAAQAMIEAAAAAAcHB7MABFuV/////////////////yH5BAEKAAcALAAAAAAQABAAAANKeLrRsZA1Qlw8jmoCGgzaMAiC9iiTOFBk6WGUypLUk4pbW00EvhG0XWz1C2Z8o9kO1uuNSqUKCqR60l5MZ1AqAf0skczudJliFwkAOw==", "lazy", "R0lGODlhEAAQAMICAAAAAAgICP+3t/////+3t/+3t/+3t/+3tyH5BAEKAAQALAAAAAAQABAAAANPSLpM8K9JMCqQDoIwwp3VQG1fBnFeWFKW6GnL1rFi87raSQQcvXEhHkeQGwqOncBxKeAxj07io6kkQZXPKJM3YCa7yySwIhwnd5qAokhIAAA7", "mario", "R0lGODlhEAAQAIEAMQAAANgoAPz8/AAAACH5BAEAAAAALAAAAAAQABAAAQJBhD2px6AhRFgshRvvHCdJGH1CgoDhKXEWqLHboH2tvEItpq3ZvXvnfPIphooI0YgcLXyjpLKDQnE6g6hxSiVSAAUAOw==", "mosquito", "R0lGODlhEAAQAKECAAAAAP8AAP///////yH5BAEKAAMALAAAAAAQABAAAAJB3ICpaCnxRIRKoAkpsJu/AHpch4DgxR0kcK6GKrGB+zrylrzH2OL62or9SKcYYIgr5mq82eXI5AQtw1gxhVwwDAUAOw==", "saitama", "R0lGODlhEAAQAMIGAAAAAAgICGxsbP/AmP/PV/////jIUfjIUSH5BAEKAAcALAAAAAAQABAAAANKeLrRsZC1MVw8juraYNhUIVYSGIodZprPtG7ZC8YyFxSC8OZFAIi4nJAnAhgLx2DxZwQQCMZn7hmFOp/YKZZa3Xqth6bR1xADDgkAOw==", "seed", "R0lGODlhEAAQAMIDAAAAAG9tbUCy5////////////////////yH5BAEKAAQALAAAAAAQABAAAANFSLrQsJC1MVwkjuraVN6gA4CDIJCNSW5BkJon2LZpAMdzMLiAYN85HQ/28wWHpmJrN3sRjUya4xm0YJzNTmTKe1wkWkgCADs=", "slime", "R0lGODlhEAAQAMIEAAABAFaSRV6qSLn9qgAAAAAAAAAAAAAAACH5BAEKAAQALAAAAAAQABAAAANCSKrQvpA4QcWDrWoLsB5bxwDVYApB2jClaaaqRMIuCk92CuYBR8G9DSUjLBI3wMpRQzvhis4OqVUbjopKkczBvSQAADs=", "sonic", "R0lGODlhEAAQAMIDAAgICOgSJh9O/////////////////////yH5BAEKAAQALAAAAAAQABAAAANBSLrQsJA1IVwkjuraINDDsFUSFYZbh5knqj2T0LpUBp4jN9JpnJuc1S8UIGE+uUBRJRQonzXP5LlkSpCWy/URSQAAOw==", "yuri", "R0lGODlhEAAQAKEDAAAAAN4H28asxv///yH5BAEKAAMALAAAAAAQABAAAAI+hI85EB3s4DNBiFcvs3NjvmlL9WkesEDnKI7fw8Lpi6roMJ42jh8NNeEJVb+bsFc0HIfB5ZFhdPIO0mf0WAAAOw=="], u, u)
         }()

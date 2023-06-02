@@ -15473,9 +15473,6 @@ i9m: function i9m() {
 	T.tha10t1.prototype = {
         ar: function(a, b) {
             var u
-			if((b.m() & 70) > this.f ){
-                return !1
-		    }
             if (b) {
                 u = this.r
                 if (u.fr < 100 + 100*this.r.scarlet)
@@ -15494,7 +15491,7 @@ i9m: function i9m() {
               , r = u.r
               , q = d.a
             q.push(T.e(s, r, r, t, t, 1, 1000, 100))
-			u.f = C.b.v(u.f, 2)
+			u.f = C.b.v(3*u.f, 10)
             u.r.r2.i(0, u.fr)
             u.r.r1.k(0, $.kh(), u)
             if (u.r.r1.G(0, $.X())) {

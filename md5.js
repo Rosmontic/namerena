@@ -15496,7 +15496,7 @@ i9m: function i9m() {
             if (u.r.r1.G(0, $.X())) {
                 ++u.fx
                 s = u.r
-                s.j = s.j + 500
+                s.j = s.j
             }
             u.r.E()
             s = u.r
@@ -15508,12 +15508,12 @@ i9m: function i9m() {
             q.push(T.e(s, r, r, t, t, 0, 1000, 100))
         },
         al: function(a) {
-            a.go = a.go * this.fx
+            a.go = a.go * this.fx * 10
             a.Q = a.Q * this.fx
-			a.cx = a.cx * this.fx
+			a.cx = a.cx * this.fx * 10
 			a.db = a.db * this.fx
         },
-        gR: function() {
+        gR: function() {           
             return 1
         },
         H: function(a, b) {

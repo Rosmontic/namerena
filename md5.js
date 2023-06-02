@@ -15490,7 +15490,7 @@ i9m: function i9m() {
               , r = u.r
               , q = d.a
             q.push(T.e(s, r, r, t, t, 1, 1000, 100))
-			this.f = C.b.v(this + 1, 2)
+			this.f = C.b.v(this.f + 1, 2)
             u.r.r2.i(0, u.fr)
             u.r.r1.k(0, $.kh(), u)
             if (u.r.r1.G(0, $.X())) {
@@ -18095,7 +18095,7 @@ this.f=0
             this.r.timekp = 1
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
-if (o.fr > 0 && o.e != "sakuya@!" ) {
+if (o.fr > 0 && o.e != "sakuya@!" && o.e != "remilia@!" ) {
 d.a.push($.v())
 o.j = o.j -8192*C.b.v(o.cx, this.r.cx)
 this.j = this.js + 2048

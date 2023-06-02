@@ -18556,9 +18556,10 @@ T.tha7b1.prototype = {
 }
    T.tha10b1.prototype = {
     ak: function(a, b, c, d, e) {
-        var u = a > 0
-		a = C.b.v(a*(1+0.7*this.r.scarlet))
-        return a
+        var u = a > 0 , n
+		n = 1+0.7*this.r.scarlet
+		a = C.b.v(a * n,1)
+        return u && J.Q(c, T.mA()) ? a : a
     },
     T: function() {
         this.r.y1.i(0, this)
@@ -20010,6 +20011,7 @@ T.remilia.prototype = {
             u = new T.tha10t1(1.7)
             u.fr = new T.aN(u)
             u.f = 100
+			t.push(u)
 			u = new T.tha10n1()
             u.f = 45
             t.push(u)

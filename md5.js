@@ -6590,6 +6590,24 @@ tha6n3: function tha6n3() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
+		tha10n1: function tha10n1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		tha10n2: function tha10n2() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		tha10s1: function tha10s1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
         cg: function cg(a, b) {
             var _ = this
             _.r = a
@@ -15850,15 +15868,15 @@ T.tha9n3.prototype = {
                 t = a[0].a
         s = T.u(u.r, !1, c)
 		m = t.ch
-        t.ch = 0
+        t.ch = C.d.Z(t.ch * 0.5)
 		d.a.push(T.e("[0]使用[伤魂「灵魂雕塑」]", u.r, t, null, null, 1, 1000, 100))
 		if(this.r.timekp > 0){
-		t.ch = 100*t.ch
+		t.ch = 0
 		for(n = 0; n < 11; ++n){
 		if(t.fr > 0){
 		d.a.push($.v())
         t.bL(0.11*s, !1, u.r, T.a3(), c, d)
-		t.ch = m}
+		}
 		else{
 		t.ch = m
 		return 0
@@ -15866,18 +15884,18 @@ T.tha9n3.prototype = {
         }
 		}
         else{
-        for(n = 0; n < 11; ++n){
-		t.ch = 0
+        for(n = 0; n < 11; ++n){		
 		if(t.fr > 0){
 		d.a.push($.v())
         t.a0(0.11*s, !1, u.r, T.a3(), c, d)
-		t.ch = m}
+		}
 		else{
 		t.ch = m
 		return 0
 		}
         }    
         }
+		t.ch = m
         }   
         }
     T.tha9n1.prototype = {
@@ -15906,6 +15924,56 @@ T.tha9n3.prototype = {
         }
         }   
         }
+	T.tha10n1.prototype = {
+    t: function(a, b, c, d) {
+        var u = this
+        t = a[0].a
+        s = T.u(u.r, !1, c)
+        d.a.push(T.e("[0]使用[必杀「碎心」]", u.r, t, null, null, 1, 1000, 100))
+        t.bL(1.4*s, !1, u.r, T.a3(), c, d)
+    }
+}
+    T.tha10n2.prototype = {
+            gb3: function() {
+                return 2
+            },
+            gb4: function() {
+                return 2
+            },
+            t: function(a, b, c, d) {               
+                var u, t, s, r, q, p, o, n = H.a([], [T.aU])
+                for (u = 0; u < a.length; ++u)
+                    n.push(a[u].a)
+                t = "[0]使用[红符「绯红之击」]"
+                s = this.r
+                r = H.a(n.slice(0), [H.n(n, 0)])
+                q = d.a
+                q.push(T.e(t, s, null, null, r, 1, 1000, 100))
+                p = T.u(this.r, !0, c) * 0.7
+                for (u = 0; u < n.length; ++u) {
+                    o = n[u]
+                if (o.fr > 0 ) {
+                q.push($.v())
+                o.a0(p, !0, this.r, T.a3(), c, d)
+    }                    
+    }
+    }   
+    }
+	T.tha10s1.prototype = {
+    t: function(a, b, c, d) {
+        var u = this
+        t = a[0].a
+        s = T.u(u.r, !1, c)
+        d.a.push(T.e("[0]使用[神枪「冈格尼尔之枪」]", u.r, t, null, null, 1, 1000, 100))
+		if((c.m() & 63) > 31 ){
+        t.bL(3.2*s, !1, u.r, T.a3(), c, d)
+		}
+		else
+		{
+		d.a.push(T.e("[0]的攻击落空了]", u.r, t, null, null, 1, 1000, 100))
+		}
+    }
+}
     T.cg.prototype = {
         gR: function() {
             return -1
@@ -19429,15 +19497,15 @@ T.sakuya.prototype = {
             this.k2 = t
             t = this.id 
             u = new T.tha9s1()
-            u.f = 300
-            t.push(u)
-			u = new T.tha9n3()
-            u.f = 300
+            u.f = 50
             t.push(u)
 			u = new T.tha9n1()
             u.f = 66
             t.push(u)
 			u = new T.tha9n2()
+            u.f = 50
+            t.push(u)
+			u = new T.tha9n3()
             u.f = 100
             t.push(u)
 			u = new T.tha9b1()
@@ -22951,7 +23019,7 @@ T.i9m.prototype = {
         t(Z.hl, Z.ax)
         s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
         s(T.H, [T.y, T.hJ, T.tha5b1, T.tha6b1, T.tha7b1, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.thj7b1, T.dV, T.dX, T.tha4b1,T.tha3b2, T.i9 , T.i9m, T.ih, T.tha9b1, T.im, T.tha3b1, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
-        s(T.y, [T.dL, T.hI ,T.tha6n1, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.tha3n1, T.tha3n2, T.tha3s1, T.tha6n2, T.tha6n3, T.tha5n1, T.tha7n1 ,T.tha7n2,T.tha8n1 ,T.tha8t1 ,T.tha8n2 ,T.tha8t2 ,T.tha8n3 ,T.tha8t3 ,T.tha8n4 ,T.tha8t4 ,T.tha8n5 ,T.tha8t5 ,T.tha8s1 ,T.tha9n1,T.tha9n3, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.tha4n3, T.dS, T.tha4n1, T.tha4n2, T.tha4n2x, T.tha7t1, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia ,T.tha4s1, T.i7, T.ig, T.tha9n2, T.tha9n2t, T.ij, T.tha9s1, T.hW, T.ik, T.il, T.tha5n3, T.tha6s1t,T.tha6s1, T.dM, T.tha5n2, T.tha5s1, T.tha7s1, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
+        s(T.y, [T.dL, T.hI ,T.tha6n1, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.tha3n1, T.tha3n2, T.tha3s1, T.tha6n2, T.tha6n3, T.tha5n1, T.tha7n1 ,T.tha7n2,T.tha8n1 ,T.tha8t1 ,T.tha8n2 ,T.tha8t2 ,T.tha8n3 ,T.tha8t3 ,T.tha8n4 ,T.tha8t4 ,T.tha8n5 ,T.tha8t5 ,T.tha8s1 ,T.tha9n1,T.tha9n3,T.tha10n1,T.tha10n2,T.tha10s1, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.tha4n3, T.dS, T.tha4n1, T.tha4n2, T.tha4n2x, T.tha7t1, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia ,T.tha4s1, T.i7, T.ig, T.tha9n2, T.tha9n2t, T.ij, T.tha9s1, T.hW, T.ik, T.il, T.tha5n3, T.tha6s1t,T.tha6s1, T.dM, T.tha5n2, T.tha5s1, T.tha7s1, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
         s(T.M, [T.bf, T.co, T.dj ,T.sl , T.cG, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade])
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
         s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])
@@ -23320,8 +23388,8 @@ C.daiyousei = H.a(u([0, 17, 28, 1, 2, 15, 35, 1000]), [P.j])
 C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 565]), [P.j])
 C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
 C.koakuma = H.a(u([0, 100, 0, 0, 100, 100, 100, 800]), [P.j])
-C.patchouli = H.a(u([21, -5, -20, 19, 26, 49, 39, 438]), [P.j])
-C.sakuya = H.a(u([-9, 21, 13, 39, 3, 30, 57, 504]), [P.j])
+C.patchouli = H.a(u([21, -5, -20, 19, 26, 19, 39, 438]), [P.j])
+C.sakuya = H.a(u([-13, 21, 6, 36, 3, 19, 57, 474]), [P.j])
 C.nue = H.a(u([47, 32, 26, 51, 59, 37, 13, 791]), [P.j])
         C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])
         C.W = H.a(u([10, -6, 1000, 0, 10, -15, 6, 0]), [P.j])

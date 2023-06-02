@@ -15850,24 +15850,30 @@ T.tha9n3.prototype = {
                 t = a[0].a
         s = T.u(u.r, !1, c)
 		m = t.ch
-        t.ch = 0	
+        t.ch = 0
 		d.a.push(T.e("[0]使用[伤魂「灵魂雕塑」]", u.r, t, null, null, 1, 1000, 100))
 		if(this.r.timekp > 0){
+		t.ch = 100*t.ch
 		for(n = 0; n < 11; ++n){
 		if(t.fr > 0){
 		d.a.push($.v())
-        t.bL(0.11*s, !1, u.r, T.a3(), c, d)}
+        t.bL(0.11*s, !1, u.r, T.a3(), c, d)
+		t.ch = m}
 		else{
+		t.ch = m
 		return 0
 		}
         }
 		}
         else{
         for(n = 0; n < 11; ++n){
+		t.ch = 0
 		if(t.fr > 0){
 		d.a.push($.v())
-        t.a0(0.11*s, !1, u.r, T.a3(), c, d)}
+        t.a0(0.11*s, !1, u.r, T.a3(), c, d)
+		t.ch = m}
 		else{
+		t.ch = m
 		return 0
 		}
         }    

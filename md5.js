@@ -15491,7 +15491,6 @@ i9m: function i9m() {
               , r = u.r
               , q = d.a
             q.push(T.e(s, r, r, t, t, 1, 1000, 100))
-			t.fx = 10*t.fx
 			this.f = C.b.v(this.f, 2)
             u.r.r2.i(0, u.fr)
             u.r.r1.k(0, $.kh(), u)
@@ -15510,11 +15509,10 @@ i9m: function i9m() {
             q.push(T.e(s, r, r, t, t, 0, 1000, 100))
         },
         al: function(a) {
-		    this.fx =(this.fx)^(this.r.scarlet + 1)
-            a.go = a.go * this.fx
-            a.Q = a.Q * this.fx
-			a.cx = a.cx * this.fx
-			a.db = a.db * this.fx
+            a.go = a.go * (this.fx+7*this.r.scarlet)
+            a.Q = a.Q * (this.fx+0.7*this.r.scarlet)
+			a.cx = a.cx * (this.fx+7*this.r.scarlet)
+			a.db = a.db * (this.fx+0.7*this.r.scarlet)
         },
         gR: function() {           
             return 1
@@ -18561,7 +18559,7 @@ T.tha7b1.prototype = {
    T.tha10b1.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n
-		n = 1+0.49*this.r.scarlet
+		n = 1+0.7*this.r.scarlet
 		a = C.b.v(a * n,1)
         return u && J.Q(c, T.mA()) ? a : a
     },
@@ -20014,7 +20012,7 @@ T.remilia.prototype = {
 			t.push(new T.tha10b1())
             u = new T.tha10t1(1.7)
             u.fr = new T.aN(u)
-            u.f = 700
+            u.f = 240
 			t.push(u)
 			u = new T.tha10n1()
             u.f = 50

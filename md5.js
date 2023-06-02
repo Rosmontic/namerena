@@ -15473,11 +15473,17 @@ i9m: function i9m() {
 	T.tha10t1.prototype = {
         ar: function(a, b) {
             var u
+
+			if (this.fr.a != null){
+                return !1}
             if (b) {
                 u = this.r
                 if (u.fr < 100 + 100*this.r.scarlet)
-                    return !1               
+                    return !1
+                if (u.r1.h(0, $.kh()) != null)
+                    return !1
             }
+                              
             return this.aS(a, b)
         },
         a9: function(a, b, c) {
@@ -15508,9 +15514,9 @@ i9m: function i9m() {
             q.push(T.e(s, r, r, t, t, 0, 1000, 100))
         },
         al: function(a) {
-            a.go = a.go * this.fx * 10
+            a.go = a.go * this.fx
             a.Q = a.Q * this.fx
-			a.cx = a.cx * this.fx * 10
+			a.cx = a.cx * this.fx
 			a.db = a.db * this.fx
         },
         gR: function() {           
@@ -20011,7 +20017,7 @@ T.remilia.prototype = {
 			t.push(new T.tha10b1())
             u = new T.tha10t1(1.7)
             u.fr = new T.aN(u)
-            u.f = 700
+            u.f = 70
 			t.push(u)
 			u = new T.tha10n1()
             u.f = 50

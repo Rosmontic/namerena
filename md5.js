@@ -15491,7 +15491,7 @@ i9m: function i9m() {
               , r = u.r
               , q = d.a
             q.push(T.e(s, r, r, t, t, 1, 1000, 100))
-			this.f = C.b.v(this.f, 2)
+			this.f = C.b.v(7*this.f, 10)
             u.r.r2.i(0, u.fr)
             u.r.r1.k(0, $.kh(), u)
             if (u.r.r1.G(0, $.X())) {
@@ -15509,9 +15509,9 @@ i9m: function i9m() {
             q.push(T.e(s, r, r, t, t, 0, 1000, 100))
         },
         al: function(a) {
-            a.go = a.go * (this.fx+7*this.r.scarlet)
+            a.go = a.go * (this.fx+0.7*this.r.scarlet)
             a.Q = a.Q * (this.fx+0.7*this.r.scarlet)
-			a.cx = a.cx * (this.fx+7*this.r.scarlet)
+			a.cx = a.cx * (this.fx+0.7*this.r.scarlet)
 			a.db = a.db * (this.fx+0.7*this.r.scarlet)
         },
         gR: function() {           
@@ -16399,7 +16399,7 @@ T.tha9n3.prototype = {
         t = a[0].a
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[必杀「碎心」]", u.r, t, null, null, 1, 1000, 100))
-        t.bL(1.35*s, !1, u.r, T.q71(), c, d)
+        t.bL(1.3*s, !1, u.r, T.q71(), c, d)
     }
 }
     T.tha10n2.prototype = {
@@ -20012,7 +20012,7 @@ T.remilia.prototype = {
 			t.push(new T.tha10b1())
             u = new T.tha10t1(1.7)
             u.fr = new T.aN(u)
-            u.f = 240
+            u.f = 77
 			t.push(u)
 			u = new T.tha10n1()
             u.f = 50

@@ -16462,8 +16462,8 @@ T.tha9n3.prototype = {
         t.a0(2.1*s, !1, u.r, T.a3(), c, d)
 		if(this.r.fr > 0){
 		this.r.fr = 0.85*this.r.fr
-		d.a.push(T.e("[1]生命减少[2]点", this.r, T.a1(this, 0), new T.aG(this.r.fx), null, 0, 1000, 100))}
-    }
+		d.a.push(T.e("[1]生命减少[2]点", this.r, T.a1(this.r, 0), new T.aG(this.r.fx), null, 0, 1000, 100))
+    }}
 }
     T.cg.prototype = {
         gR: function() {
@@ -20108,10 +20108,10 @@ T.flandre.prototype = {
             this.k2 = t
             t = this.id 
 			u = new T.tha11n1()
-            u.f = 50
+            u.f = 60
             t.push(u)
 			u = new T.tha11n2()
-            u.f = 70
+            u.f = 100
             t.push(u)
 }
 }

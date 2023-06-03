@@ -18042,32 +18042,20 @@ u[6] = t[6]*10
         }
     }
 	T.hha11t1.prototype = {
-        gah: function() {
-            return C.flandre
-        },
-        gaQ: function() {
-            return H.a([], [P.f])
+        gaj: function() {
+            return this.af.r
         },
         aa: function() {
-            var u, t = new T.aK()
-            t.r = this
-            this.k2 = t
-            t = this.id 
-			u = new T.tha11t1()
-            u.f = 400
-            t.push(u)
-			u = new T.tha11n1()
-            u.f = 45
-            t.push(u)
-			u = new T.tha11n2()
-            u.f = 60
-            t.push(u)
-			u = new T.tha11s1()
-            u.fr = new T.bP(u)
-            u.fx = new T.cB(u)
-            u.f = 120
-            t.push(u)
-}
+            var u = new T.tha11n2()
+            u.r = this
+            this.k2 = u
+            this.id.push(new T.i7())
+        },
+        aR: function() {
+            this.bv()
+            var u = this.u
+            u[7] = C.d.v(u[7], 1)
+        }
     }
     T.tha11t1.prototype = {
         ar: function(a, b) {

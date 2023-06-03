@@ -18520,7 +18520,7 @@ aK: function(a, b, c, d) {
 			d.a.push(T.e("[0]触发[「掌中的破坏者」]", r.r, t, null, null, 1, 1000, 100))
 			d.a.push($.v())
 			t.fr = 0
-			d.a.push(T.e(O.c("[1]被毁灭了"), this.r, T.a1(t, v), this.r, null, null, 1000, 100))			
+			d.a.push(T.e("[1]被毁灭了", this.r, T.a1(t, v), this.r, null, null, 1000, 100))            			
 			}
             
     }

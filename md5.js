@@ -18164,22 +18164,23 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
                 p.push(T.e(O.c("vVob"), q, s.r, r, r, 20, 1000, 100))
                 return
             }
-			o = T.this(this.r, !1, c)
-            q.bL(0.72*o, !0, this.r, T.a3(), c, d)
             q.j = q.j - (q.cx + 64)
             u = q.r1
             t = H.o(u.h(0, $.aC()), "$icG")
             if (t == null) {
                 t = new T.cG(q)
+				t.z = 1
                 t.y = new T.ay(t)
                 u.k(0, $.aC(), t)
                 q.r2.i(0, t)
                 q.x1.i(0, t.y)
                 q.E()
-				t.z = t.z - 1
             } else
                 t.z += 1
-            p.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
+			
+            d.a.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
+			o = T.this(this.r, !1, c)
+            q.bL(0.72*o, !0, this.r, T.a3(), c, d)
         }
 }
     T.hW.prototype = {

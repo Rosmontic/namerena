@@ -17989,8 +17989,7 @@ u[6] = t[6]*10
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
             c.f = C.d.Z(c.f * 0.7)
             u = a2.a
-            u.push(T.e("[0]发动[「妖精的声援」]", c.r, b, b, b, 60, 1000, 100))
-			for(v =1 ; v < 5 ; v++){
+            u.push(T.e("[0]发动[「妖精的声援」]", c.r, b, b, b, 60, 1000, 100))			
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
             r = s.b
@@ -18026,6 +18025,7 @@ u[6] = t[6]*10
             f.c = f
             f.b = f
             e = [P.j]
+			for(v =1 ; v < 5 ; v++){
             d = new T.hha4n2(t,r,s,b,q,p,o,n,m,l,k,j,i,h,g,f,H.a([], e),H.a([], e),H.a([], e),H.a([], e))
             d.Y(t, r, s, b)
             d.a5 = new T.cj(d)

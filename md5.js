@@ -18045,19 +18045,24 @@ u[6] = t[6]*10
         gaj: function() {
             return this.af.r
         },
-        aa: function() {
-            var u = new T.aK()
-            u.r = this
-            this.k2 = u
-			this.id.push(new T.tha11n1)
-            this.id.push(new T.tha11n2)
+        gaQ: function() {
+            return H.a([], [P.f])
         },
-        aR: function() {
-            this.bv()
-            var u = this.u
-            u[7] = C.d.v(u[7], 1)
-			u[6] = 100
-        }
+        aa: function() {
+            var u, t = new T.aK()
+            t.r = this
+            this.k2 = t
+            t = this.id 
+			u = new T.tha11t1()
+            u.f = 400
+            t.push(u)
+			u = new T.tha11n1()
+            u.f = 45
+            t.push(u)
+			u = new T.tha11n2()
+            u.f = 60
+            t.push(u)
+}
     }
     T.tha11t1.prototype = {
         ar: function(a, b) {
@@ -18123,14 +18128,14 @@ u[6] = t[6]*10
             d.av()
 			d.fx = this.r.fx / 2
 			d.fr = this.r.fr / 2
-			d.Q = this.r.Q / 2
+			d.Q =  this.r.Q / 2
 			d.ch = this.r.ch / 2
-			d.cx = this.r.cx / 2
-			d.cy = this.r.cy / 2
+			d.cx = this.r.cx
+			d.cy = this.r.cy
 			d.db = this.r.db / 2
 			d.dx = this.r.dx / 2
 			d.dy = this.r.dy
-            d.j = - 2048
+            d.j = - 1024
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }}
@@ -20350,18 +20355,18 @@ T.flandre.prototype = {
             this.k2 = t
             t = this.id 
 			u = new T.tha11t1()
-            u.f = 100
+            u.f = 400
             t.push(u)
 			u = new T.tha11n1()
-            u.f = 0
+            u.f = 45
             t.push(u)
 			u = new T.tha11n2()
-            u.f = 0
+            u.f = 60
             t.push(u)
 			u = new T.tha11s1()
             u.fr = new T.bP(u)
             u.fx = new T.cB(u)
-            u.f = 0
+            u.f = 120
             t.push(u)
 }
 }

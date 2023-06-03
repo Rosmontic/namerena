@@ -17730,6 +17730,8 @@ n.r.bf(n.r.fr, null, c, d)
             c.f = C.d.Z(c.f * 0.7)
             u = a2.a
             u.push(T.e("[0]发动[「妖精的声援」]", c.r, b, b, b, 60, 1000, 100))
+			for(v =1 ; v < 5 ; v++){
+			u.push($.v())
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
             r = s.b
@@ -17781,7 +17783,7 @@ n.r.bf(n.r.fr, null, c, d)
                 d.j = -2048
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
-        }
+        }}
     }
 	T.tha9n2t.prototype = {
         ai: function(a, b) {

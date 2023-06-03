@@ -16463,17 +16463,22 @@ T.tha9n3.prototype = {
 }
     T.tha11n2.prototype = {
     t: function(a, b, c, d) {
-        var u = this,o
+        var u = this, o, p
         t = a[0].a
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[禁忌「被禁止的游戏」]", u.r, t, null, null, 1, 1000, 100))
         t.a0(2.1*s, !1, u.r, T.a3(), c, d)
 		o = this.r.fr
+		p = t.fr
 		if(this.r.fr > 0){
 		this.r.fr = 0.85*this.r.fr
 		d.a.push(T.e(O.c("Thtw"), this.r, T.a1(this.r, o), new T.aT(15), null, this.r.fr-C.e.Z(this.r.fr * (100 - 15) / 100), 1000, 100))
 		if(t.fr > 0 && t.fr < 0.8*t.fx)
 			{
+			d.a.push($.v())
+			d.a.push(T.e("[0]触发[「掌中的破坏者」]", u.r, t, null, null, 1, 1000, 100))
+			d.a.push($.v())
+			d.a.push(T.e(O.c("[1]被毁灭了"), this.r, T.a1(this.r, p), this.r, null, null, 1000, 100))
 			t.fr = 0
 			}
     }}
@@ -18166,7 +18171,8 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
             return a.r1.h(0, $.aC()) != null ? u / 2 : u
         },
         t: function(a, b, c, d) {
-            var u, t, s = this, r = null, q = a[0].a, p = d.a, o
+            var u, t, s = this, r = null, q = a[0].a, p = d.a, o , m
+			m = q.fr
             p.push(T.e("[0]使用[禁忌「笼中鸟」]", s.r, q, r, r, 1, 1000, 100))
             if (!q.a6($.aC(), c))
                 u = q.fr > 0 && !q.A && T.bd(s.r.db, q.dx, c)
@@ -18192,6 +18198,14 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
 			o = T.u(this.r, !1, c)			
             q.bL(0.72*o, !0, this.r, T.a3(), c, d)
             d.a.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
+			if(t.fr > 0 && t.fr < 0.8*t.fx)
+			{
+			d.a.push($.v())
+			d.a.push(T.e("[0]触发[「掌中的破坏者」]", u.r, t, null, null, 1, 1000, 100))
+			d.a.push($.v())
+			t.fr = 0
+			d.a.push(T.e(O.c("[1]被毁灭了"), this.r, T.a1(this.r, m), this.r, null, null, 1000, 100))			
+			}
 			
         }
 }
@@ -18483,7 +18497,7 @@ aK: function(a, b, c, d) {
 }
     T.tha11s1.prototype = {
         t: function(a, b, c, d) {
-            var u, s, r = this, q = null, p = r.fy, l ,n, m , o , k=d.a, w ,t
+            var u, s, r = this, q = null, p = r.fy, l ,n, m , o , k=d.a, w ,t,v
             if (p == null) {
                 r.fy = r.r
                 r.r.ry.i(0, r.fr)
@@ -18493,6 +18507,7 @@ aK: function(a, b, c, d) {
             else {
             r.ae(0)
             t = a[0].a
+			v = t.fr
 			w = 2.4+ 1.2*(r.r.fr / r.r.fx)
 			k.push(T.e("[0]：我是毁灭一切的破坏神！", r.r, t, q, q, 1, 1000, 100))
 			k.push($.v())
@@ -18500,7 +18515,11 @@ aK: function(a, b, c, d) {
             t.a0(w*T.u(r.r, !1, c), !1, r.r, T.firea(), c, d)
 			if(t.fr > 0 && t.fr < 0.8*t.fx)
 			{
+			d.a.push($.v())
+			d.a.push(T.e("[0]触发[「掌中的破坏者」]", u.r, t, null, null, 1, 1000, 100))
+			d.a.push($.v())
 			t.fr = 0
+			d.a.push(T.e(O.c("[1]被毁灭了"), this.r, T.a1(this.r, v), this.r, null, null, 1000, 100))			
 			}
             
     }
@@ -20166,10 +20185,10 @@ T.flandre.prototype = {
             this.k2 = t
             t = this.id 
 			u = new T.tha11n1()
-            u.f = 0
+            u.f = 50
             t.push(u)
 			u = new T.tha11n2()
-            u.f = 0
+            u.f = 70
             t.push(u)
 			u = new T.tha11s1()
             u.fr = new T.bP(u)

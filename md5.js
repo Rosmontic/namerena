@@ -18153,7 +18153,7 @@ T.tha11n1.prototype = {
         },
         t: function(a, b, c, d) {
             var u, t, s = this, r = null, q = a[0].a, p = d.a
-            p.push(T.e(O.c("[0]使用禁忌「笼中鸟」"), this.r, q, r, r, 1, 1000, 100))
+            p.push(T.e("[0]使用禁忌「笼中鸟」", this.r, q, r, r, 1, 1000, 100))
             if (!q.a6($.aC(), c))
                 u = q.fr > 0 && !q.A && T.bd(s.r.db, q.dx, c)
             else

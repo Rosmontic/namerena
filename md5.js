@@ -16480,7 +16480,7 @@ T.tha9n3.prototype = {
 			d.a.push($.v())
 			t.fr = 0
 			d.a.push(T.e("[1]被毁灭了", this.r, T.a1(t, p), t, null, null, 1000, 100))
-			t.bf(t.fr, null, c, d)
+			t.bf(t.fr, this.r, c, d)
 			}
     }}
 }
@@ -18205,8 +18205,8 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
 			d.a.push(T.e("[0]触发[「掌中的破坏者」]", this.r, t, null, null, 1, 1000, 100))
 			d.a.push($.v())
 			q.fr = 0
-			d.a.push(T.e([1]被毁灭了", this.r, T.a1(q, m), q, null, null, 1000, 100))
-		    q.bf(q.fr, null, c, d)
+			d.a.push(T.e("[1]被毁灭了", this.r, T.a1(q, m), q, null, null, 1000, 100))
+		    q.bf(q.fr, this.r, c, d)
 			}
 			
         }
@@ -18522,7 +18522,7 @@ aK: function(a, b, c, d) {
 			d.a.push($.v())
 			t.fr = 0
 			d.a.push(T.e("[1]被毁灭了", this.r, T.a1(t, v), this.r, null, null, 1000, 100)) 
-            t.bf(t.fr, null, c, d)			
+            t.bf(t.fr, this.r, c, d)			
 			}
             
     }

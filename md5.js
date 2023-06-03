@@ -16455,14 +16455,15 @@ T.tha9n3.prototype = {
 }
     T.tha11n2.prototype = {
     t: function(a, b, c, d) {
-        var u = this
+        var u = this,o
         t = a[0].a
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[禁忌「被禁止的游戏」]", u.r, t, null, null, 1, 1000, 100))
         t.a0(2.1*s, !1, u.r, T.a3(), c, d)
+		o = this.r.fr
 		if(this.r.fr > 0){
 		this.r.fr = 0.85*this.r.fr
-		d.a.push(T.e(O.c("Thtw"), this.r, T.a1(this.r, this.r.fr), new T.aT(this.r.fx), null, this.r.fr-C.e.Z(this.r.fr * (100 - 15) / 100), 1000, 100))
+		d.a.push(T.e(O.c("Thtw"), this.r, T.a1(this.r, o), new T.aT(15), null, this.r.fr-C.e.Z(this.r.fr * (100 - 15) / 100), 1000, 100))
     }}
 }
     T.cg.prototype = {
@@ -18133,7 +18134,7 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
         }
 
 }
-T.tha11n1.prototype = {
+    T.tha11n1.prototype = {
         am: function(a, b) {
             var u
             if (b) {
@@ -18153,7 +18154,7 @@ T.tha11n1.prototype = {
         },
         t: function(a, b, c, d) {
             var u, t, s = this, r = null, q = a[0].a, p = d.a , o 
-            p.push(T.e("[0][使用禁忌「笼中鸟」]", this.r, q, r, r, 1, 1000, 100))
+            p.push(T.e("[0]使用[禁忌「笼中鸟」]", this.r, q, r, r, 1, 1000, 100))
             if (!q.a6($.aC(), c))
                 u = q.fr > 0 && !q.A && T.bd(s.r.db, q.dx, c)
             else
@@ -18162,8 +18163,7 @@ T.tha11n1.prototype = {
                 p.push(T.e(O.c("vVob"), q, s.r, r, r, 20, 1000, 100))
                 return
             }
-			o = T.this(this.r, !1, c)
-			q.bL(0.72*o, !0, this.r, T.a3(), c, d)
+
 			t.z -= 1
             q.j = q.j - (q.cx + 64)
             u = q.r1

@@ -18042,8 +18042,8 @@ u[6] = t[6]*10
         }
     }
 	T.hha11t1.prototype = {
-        gaj: function() {
-            return this.af.r
+        gah: function() {
+            return C.flandre
         },
         gaQ: function() {
             return H.a([], [P.f])
@@ -18061,6 +18061,11 @@ u[6] = t[6]*10
             t.push(u)
 			u = new T.tha11n2()
             u.f = 60
+            t.push(u)
+			u = new T.tha11s1()
+            u.fr = new T.bP(u)
+            u.fx = new T.cB(u)
+            u.f = 120
             t.push(u)
 }
     }

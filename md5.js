@@ -18049,17 +18049,20 @@ u[6] = t[6]*10
             var u = new T.aK()
             u.r = this
             this.k2 = u
+			this.id.push(new T.tha11n1)
+            this.id.push(new T.tha11n2)
         },
         aR: function() {
             this.bv()
             var u = this.u
             u[7] = C.d.v(u[7], 1)
+			u[6] = 100
         }
     }
     T.tha11t1.prototype = {
         ar: function(a, b) {
             if (b)
-                if (this.r.fr < 40)
+                if (this.r.fr < 4)
                     return !1
             return this.aS(a, b)
         },
@@ -18071,7 +18074,7 @@ u[6] = t[6]*10
             c.f = 0
             u = a2.a
             u.push(T.e("[0]发动[禁忌「四重存在」]", c.r, b, b, b, 60, 1000, 100))
-			for(v =1 ; v < 5 ; v++){
+			for(v =1 ; v < 4 ; v++){
 			u.push($.v())
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
@@ -18120,7 +18123,14 @@ u[6] = t[6]*10
             d.av()
 			d.fx = this.r.fx / 2
 			d.fr = this.r.fr / 2
-            d.j = -1024
+			d.Q = this.r.Q / 2
+			d.ch = this.r.ch / 2
+			d.cx = this.r.cx / 2
+			d.cy = this.r.cy / 2
+			d.db = this.r.db / 2
+			d.dx = this.r.dx / 2
+			d.dy = this.r.dy
+            d.j = - 2048
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }}

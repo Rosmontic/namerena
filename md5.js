@@ -6818,13 +6818,13 @@ tha6n3: function tha6n3() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
-		tha11n1: function tha10n1() {
+		tha11n1: function tha11n1() {
             var _ = this
             _.e = !1
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
-		tha11n2: function tha10n1() {
+		tha11n2: function tha11n2() {
             var _ = this
             _.e = !1
             _.f = 0
@@ -16476,10 +16476,11 @@ T.tha9n3.prototype = {
 		if(t.fr > 0 && t.fr < 0.8*t.fx)
 			{
 			d.a.push($.v())
-			d.a.push(T.e("[0]触发[「掌中的破坏者」]", u.r, t, null, null, 1, 1000, 100))
+			d.a.push(T.e("[0]触发[「掌中的破坏者」]", this.r, t, null, null, 1, 1000, 100))
 			d.a.push($.v())
-			d.a.push(T.e(O.c("[1]被毁灭了"), this.r, T.a1(this.r, p), this.r, null, null, 1000, 100))
 			t.fr = 0
+			d.a.push(T.e(O.c("[1]被毁灭了"), this.r, T.a1(t, p), t, null, null, 1000, 100))
+			
 			}
     }}
 }
@@ -18198,13 +18199,13 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
 			o = T.u(this.r, !1, c)			
             q.bL(0.72*o, !0, this.r, T.a3(), c, d)
             d.a.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
-			if(t.fr > 0 && t.fr < 0.8*t.fx)
+			if(q.fr > 0 && q.fr < 0.8*q.fx)
 			{
 			d.a.push($.v())
-			d.a.push(T.e("[0]触发[「掌中的破坏者」]", u.r, t, null, null, 1, 1000, 100))
+			d.a.push(T.e("[0]触发[「掌中的破坏者」]", this.r, t, null, null, 1, 1000, 100))
 			d.a.push($.v())
 			t.fr = 0
-			d.a.push(T.e(O.c("[1]被毁灭了"), this.r, T.a1(this.r, m), this.r, null, null, 1000, 100))			
+			d.a.push(T.e(O.c("[1]被毁灭了"), this.r, T.a1(q, m), q, null, null, 1000, 100))			
 			}
 			
         }
@@ -18516,10 +18517,10 @@ aK: function(a, b, c, d) {
 			if(t.fr > 0 && t.fr < 0.8*t.fx)
 			{
 			d.a.push($.v())
-			d.a.push(T.e("[0]触发[「掌中的破坏者」]", u.r, t, null, null, 1, 1000, 100))
+			d.a.push(T.e("[0]触发[「掌中的破坏者」]", r.r, t, null, null, 1, 1000, 100))
 			d.a.push($.v())
 			t.fr = 0
-			d.a.push(T.e(O.c("[1]被毁灭了"), this.r, T.a1(this.r, v), this.r, null, null, 1000, 100))			
+			d.a.push(T.e(O.c("[1]被毁灭了"), this.r, T.a1(t, v), this.r, null, null, 1000, 100))			
 			}
             
     }

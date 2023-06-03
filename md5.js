@@ -16462,7 +16462,7 @@ T.tha9n3.prototype = {
         t.a0(2.1*s, !1, u.r, T.a3(), c, d)
 		if(this.r.fr > 0){
 		this.r.fr = 0.85*this.r.fr
-		d.a.push(T.e("[1]生命减少[2]点", this.r, T.a1(this.r, 0), new T.aG(this.r.fx), null, 0, 1000, 100))
+		d.a.push(T.e(O.c("Thtw"), this.r, T.a1(this.r, this.r.fr), new T.aT(this.r.fx), null, this.r.fr-C.e.Z(this.r.fr * (100 - 15) / 100), 1000, 100))
     }}
 }
     T.cg.prototype = {
@@ -18152,8 +18152,8 @@ T.tha11n1.prototype = {
             return a.r1.h(0, $.aC()) != null ? u / 2 : u
         },
         t: function(a, b, c, d) {
-            var u, t, s = this, r = null, q = a[0].a, p = d.a
-            p.push(T.e("[0]使用禁忌「笼中鸟」", this.r, q, r, r, 1, 1000, 100))
+            var u, t, s = this, r = null, q = a[0].a, p = d.a , o 
+            p.push(T.e("[0][使用禁忌「笼中鸟」]", this.r, q, r, r, 1, 1000, 100))
             if (!q.a6($.aC(), c))
                 u = q.fr > 0 && !q.A && T.bd(s.r.db, q.dx, c)
             else
@@ -18162,7 +18162,8 @@ T.tha11n1.prototype = {
                 p.push(T.e(O.c("vVob"), q, s.r, r, r, 20, 1000, 100))
                 return
             }
-			q.bL(0.72*s, !0, this.r, T.a3(), c, d)
+			o = T.this(this.r, !1, c)
+			q.bL(0.72*o, !0, this.r, T.a3(), c, d)
 			t.z -= 1
             q.j = q.j - (q.cx + 64)
             u = q.r1

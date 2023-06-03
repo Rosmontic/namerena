@@ -16472,6 +16472,10 @@ T.tha9n3.prototype = {
 		if(this.r.fr > 0){
 		this.r.fr = 0.85*this.r.fr
 		d.a.push(T.e(O.c("Thtw"), this.r, T.a1(this.r, o), new T.aT(15), null, this.r.fr-C.e.Z(this.r.fr * (100 - 15) / 100), 1000, 100))
+		if(t.fr > 0 && t.fr < 0.8*t.fx)
+			{
+			t.fr = 0
+			}
     }}
 }
     T.cg.prototype = {
@@ -18489,9 +18493,15 @@ aK: function(a, b, c, d) {
             else {
             r.ae(0)
             t = a[0].a
-			w = 1.4+ r.r.fr / r.r.fx
+			w = 2.4+ 1.2*(r.r.fr / r.r.fx)
+			k.push(T.e("[0]：我是毁灭一切的破坏神！", r.r, t, q, q, 1, 1000, 100))
+			k.push($.v())
             k.push(T.e("[0]使用[禁忌「莱瓦汀」]", r.r, t, q, q, 1, 1000, 100))
             t.a0(w*T.u(r.r, !1, c), !1, r.r, T.firea(), c, d)
+			if(t.fr > 0 && t.fr < 0.8*t.fx)
+			{
+			t.fr = 0
+			}
             
     }
         },

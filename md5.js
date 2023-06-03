@@ -16473,7 +16473,7 @@ T.tha9n3.prototype = {
 		if(this.r.fr > 0){
 		this.r.fr = 0.85*this.r.fr
 		d.a.push(T.e(O.c("Thtw"), this.r, T.a1(this.r, o), new T.aT(15), null, this.r.fr-C.e.Z(this.r.fr * (100 - 15) / 100), 1000, 100))
-		if(t.fr > 0 && t.fr < 0.8*t.fx)
+		if(t.fr > 0 && t.fr < 0.2*t.fx)
 			{
 			d.a.push($.v())
 			d.a.push(T.e("[0]触发[「掌中的破坏者」]", this.r, t, null, null, 1, 1000, 100))
@@ -17986,10 +17986,11 @@ u[6] = t[6]*10
             return H.a([], [T.Z])
         },
         t: function(a, a0, a1, a2) {
-            var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null
+            var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
             c.f = C.d.Z(c.f * 0.7)
             u = a2.a
             u.push(T.e("[0]发动[「妖精的声援」]", c.r, b, b, b, 60, 1000, 100))
+			for(v =1 ; v < 5 ; v++){
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
             r = s.b
@@ -18034,8 +18035,12 @@ u[6] = t[6]*10
             s = c.r
             d.x = s.x
             d.av()
+			d.fx = 100
+			d.fr = 100
             c.r.x.aU(d)
+			u.push($.v())
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+			}
         },
         T: function() {
             this.r.I.i(0, this)
@@ -18199,7 +18204,7 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
 			o = T.u(this.r, !1, c)			
             q.bL(0.72*o, !0, this.r, T.a3(), c, d)
             d.a.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
-			if(q.fr > 0 && q.fr < 0.8*q.fx)
+			if(q.fr > 0 && q.fr < 0.2*q.fx)
 			{
 			d.a.push($.v())
 			d.a.push(T.e("[0]触发[「掌中的破坏者」]", this.r, t, null, null, 1, 1000, 100))
@@ -18515,7 +18520,7 @@ aK: function(a, b, c, d) {
 			k.push($.v())
             k.push(T.e("[0]使用[禁忌「莱瓦汀」]", r.r, t, q, q, 1, 1000, 100))
             t.a0(w*T.u(r.r, !1, c), !1, r.r, T.firea(), c, d)
-			if(t.fr > 0 && t.fr < 0.8*t.fx)
+			if(t.fr > 0 && t.fr < 0.2*t.fx)
 			{
 			d.a.push($.v())
 			d.a.push(T.e("[0]触发[「掌中的破坏者」]", r.r, t, null, null, 1, 1000, 100))

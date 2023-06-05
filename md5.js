@@ -19070,9 +19070,8 @@ a=0
 T.tha1b1.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n ,m
-        n = (this.r.fx - this.r.fr) / this.r.fx
-        m =(4*n+1)/10
-        return u && J.Q(c, T.mA()) ? C.b.v (m*a) : C.b.v (m*a)
+        this.r.f = this.r.f + 1024
+        return u && J.Q(c, T.mA()) ? C.b.v (4*a, 5) : C.b.v (4*a, 5)
     },
     T: function() {
         this.r.y1.i(0, this)

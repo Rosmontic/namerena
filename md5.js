@@ -19072,10 +19072,6 @@ T.tha1b1.prototype = {
         var u = a > 0 , n ,m
         n = this.r.fx - this.r.fr / this.r.fx
         m =(4*n+1)/10
-        if(c.m() & 63 < 32)
-        {
-            this.r.j = this.r.j+ 2048
-        }
         return u && J.Q(c, T.mA()) ? C.b.v (m*a) : C.b.v (m*a)
     },
     T: function() {
@@ -23019,15 +23015,16 @@ T.tha4b1.prototype = {
             var u, t, s = this
             if (c.fr <= 0)
                 return a
-            if (f.m() < s.f && f.m() < 128 && s.r.bq(f) && !c.millionPower) {
+            if (f.m() < 128 && s.r.bq(f)) {
                 u = T.u(s.r, !0, f) * 0.5
                 if (u > a)
                     u = a
-g.a.push(T.e(C.c.K("[0]免疫", $.nj()), s.r, c, null, null, 20, 1500, 100))
+                g.a.push(T.e(C.c.K("[0]免疫", $.nj()), s.r, c, null, null, 20, 1500, 100))
                 t = s.r
                 t.j = t.j - 480
                 return 0
             }
+            g.a.push(T.e(C.c.K("[0]未免疫", $.nj()), s.r, c, null, null, 20, 1500, 100))
             return a
         },
         T: function() {

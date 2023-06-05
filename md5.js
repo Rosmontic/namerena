@@ -9309,14 +9309,6 @@ testa: function testa(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
-        tha1b2: function tha1b2() {
-            var _ = this
-            _.Q = !1
-            _.cx = _.ch = null
-            _.e = !1
-            _.f = 0
-            _.c = _.b = _.a = _.r = null
-        },
         dQ: function dQ() {
             var _ = this
             _.e = !1
@@ -10282,25 +10274,6 @@ i9m: function i9m() {
             return r.substring(u, s)
         },
         bU: function(a, b) {
-            var u, t
-            if (0 >= b)
-                return ""
-            if (b === 1 || a.length === 0)
-                return a
-            if (b !== b >>> 0)
-                throw H.h(C.E)
-            for (u = a,
-            t = ""; !0; ) {
-                if ((b & 1) === 1)
-                    t = u + t
-                b = b >>> 1
-                if (b === 0)
-                    break
-                u += u
-            }
-            return t
-        },
-        tha1b2: function(a, b) {
             var u, t
             if (0 >= b)
                 return ""
@@ -19099,6 +19072,10 @@ T.tha1b1.prototype = {
         var u = a > 0 , n ,m
         n = this.r.fx - this.r.fr / this.r.fx
         m =(4*n+1)/10
+        if(c.m() & 63 < 32)
+        {
+            this.r.j = this.r.j+ 2048
+        }
         return u && J.Q(c, T.mA()) ? C.b.v (m*a) : C.b.v (m*a)
     },
     T: function() {
@@ -20685,9 +20662,6 @@ T.reimu.prototype = {
             this.k2 = t
             t = this.id 
 			t.push(new T.tha1b1())
-            u = new T.tha1b2()
-            u.f = 120
-            t.push(u)
             u = new T.tha1n1()
             f = new T.dF(1 / 0,u)
             u.fr = f
@@ -22697,43 +22671,6 @@ s.push(u)
         },
         $iA: 1
     }
-    T.tha1b2.prototype = {
-        T: function() {
-            this.r.y2.i(0, this)
-        },
-        ay: function(a, b, c, d) {
-            var u = this
-            if (b.x == u.r.y && (c.m() & 63) < 48)
-                return
-            if (u.ch === d) {
-                if (u.Q && b != u.cx)
-                    if (0 < u.f)
-                        u.cx = b
-            } else {
-                u.ch = d
-                if (0 < u.f) {
-                    u.cx = b
-                    u.Q = !0
-                    d.b.push(u.gdg())
-                }
-            }
-        },
-        f_: function(a, b) {
-            var u, t, s, r = this
-            r.Q = !1
-            r.ch = null
-            if (r.cx.fr > 0 && r.r.bq(a)) {
-                u = T.u(r.r, !1, a)
-                t = $.v()
-                s = b.a
-                s.push(t)
-                s.push(T.e(C.c.K(O.c("fQsn"), $.n7()), r.r, r.cx, null, null, 1, 1000, 100))
-                r.cx.a0(u, !1, r.r, T.a3(), a, b)
-                this.r.j = this.r.j + 2048
-            }
-        },
-        $iA: 1
-    }
     T.dQ.prototype = {
         ga1: function() {
             return 2000
@@ -24191,7 +24128,6 @@ T.i9m.prototype = {
         m(k = T.w.prototype, "gfz", "fA", 10)
         m(k, "gbQ", "du", 10)
         l(T.bU.prototype, "gdg", "f_", 20)
-        l(T.tha1b2.prototype, "gdg", "f_", 20)
     }
     )();
     (function inheritance() {
@@ -24286,7 +24222,7 @@ T.i9m.prototype = {
         t(T.dK, T.el)
         s(T.b1, [T.f5, T.cL, T.fw, T.cx, T.hw, T.cM, T.iS])
         t(T.ib, T.dU)
-        t(T.hP, T.bU, T.tha1b2)
+        t(T.hP, T.bU)
         t(O.az, Y.ht)
         u(H.e6, H.iF)
         u(H.cR, P.S)

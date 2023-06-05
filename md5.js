@@ -19072,6 +19072,12 @@ T.tha1b1.prototype = {
         var u = a > 0 , n ,m
         n = this.r.fx - this.r.fr / this.r.fx
         m =(4*n+1)/10
+        if (f.m() < 59 && s.r.bq(f)) {
+            g.a.push(T.e(C.c.K("[0]行动提前", $.nj()), s.r, c, null, null, 20, 1500, 100))
+            t = s.r
+            t.j = t.j + 1024
+            return u && J.Q(c, T.mA()) ? C.b.v (m*a) : C.b.v (m*a)
+        }
         return u && J.Q(c, T.mA()) ? C.b.v (m*a) : C.b.v (m*a)
     },
     T: function() {
@@ -23015,16 +23021,12 @@ T.tha4b1.prototype = {
             var u, t, s = this
             if (c.fr <= 0)
                 return a
-            if (f.m() < 64 && s.r.bq(f)) {
-                u = T.u(s.r, !0, f) * 0.5
-                if (u > a)
-                    u = a
+            if (f.m() < 69 && s.r.bq(f)) {
                 g.a.push(T.e(C.c.K("[0]免疫", $.nj()), s.r, c, null, null, 20, 1500, 100))
                 t = s.r
-                t.j = t.j - 480
+                t.j = t.j
                 return 0
             }
-            g.a.push(T.e("[0]未免疫", s.r, c, null, null, 20, 1500, 100))
             return a
         },
         T: function() {

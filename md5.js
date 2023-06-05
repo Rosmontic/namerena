@@ -19072,12 +19072,7 @@ T.tha1b1.prototype = {
         var u = a > 0 , n ,m
         n = this.r.fx - this.r.fr / this.r.fx
         m =(4*n+1)/10
-        if (e.m() < 59) {
-            g.a.push(T.e(C.c.K("[0]行动提前", $.nj()), s.r, c, null, null, 20, 1500, 100))
-            t = s.r
-            t.j = t.j + 1024
-            return u && J.Q(c, T.mA()) ? C.b.v (m*a) : C.b.v (m*a)
-        }
+        this.r.f = this.r.f + 1024
         return u && J.Q(c, T.mA()) ? C.b.v (m*a) : C.b.v (m*a)
     },
     T: function() {

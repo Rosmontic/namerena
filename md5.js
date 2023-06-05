@@ -8541,8 +8541,6 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
         },
 		reimu: function reimu(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
             var _ = this
-            _.aI = 0
-            _.aP = _.bb = _.af = null
             _.a = a
             _.b = b
             _.c = c
@@ -17389,7 +17387,7 @@ T.tha4n1.prototype = {
     }
 	T.tha1n1.prototype = {
         ga1: function() {
-            return 8000
+            return 5000
         },
         ar: function(a, b) {
             if (this.fr.a != null)
@@ -18288,21 +18286,21 @@ u[6] = t[6]*10
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = C.d.Z(this.r.fx * 4 ,10)
-			d.fr = C.d.Z(this.r.fr * 4 ,10)
-			d.Q =  C.d.Z(this.r.Q * 4 ,10)
-			d.ch = C.d.Z(this.r.ch * 4 ,10)
-			d.cx = C.d.Z(this.r.cx * 4 ,10) 
-			d.cy = C.d.Z(this.r.cy * 4 ,10)
-			d.db = C.d.Z(this.r.db * 4 ,10)
-			d.dx = C.d.Z(this.r.dx * 4 ,10)
+			d.fx = C.d.Z(this.r.fx *0.4)
+			d.fr = C.d.Z(this.r.fr *0.4)
+			d.Q =  C.d.Z(this.r.Q  *0.4)
+			d.ch = C.d.Z(this.r.ch *0.4)
+			d.cx = C.d.Z(this.r.cx *0.64) 
+			d.cy = C.d.Z(this.r.cx *0.64) 
+			d.db = C.d.Z(this.r.db *0.4)
+			d.dx = C.d.Z(this.r.dx *0.4)
 			d.dy = this.r.dy
             d.j = - 1024
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }
-		    this.r.fr = C.d.Z(this.r.fr * 4 ,10)
-			this.r.fx = C.d.Z(this.r.fx * 4 ,10)
+		    this.r.fr = C.d.Z(this.r.fr *0.6)
+			this.r.fx = C.d.Z(this.r.fx *0.6)
 		}
     }
     T.tha4n2x.prototype = {
@@ -18899,7 +18897,7 @@ aK: function(a, b, c, d) {
 			k.push(T.e("[0]：我是毁灭一切的破坏神！", r.r, t, q, q, 1, 1000, 100))
 			k.push($.v())
             k.push(T.e("[0]使用[禁忌「莱瓦汀」]", r.r, t, q, q, 1, 1000, 100))
-            t.a0(w*T.u(r.r, !1, c), !1, r.r, T.firea(), c, d)
+            t.a0(C.d.Z(w*T.u(r.r, !1, c)), !1, r.r, T.firea(), c, d)
 			if(t.fr > 0 && t.fr < 0.2*t.fx)
 			{
 			d.a.push($.v())
@@ -19071,8 +19069,9 @@ a=0
 }
 T.tha1b1.prototype = {
     ak: function(a, b, c, d, e) {
-        var u = a > 0
-        return u && J.Q(c, T.mA()) ? C.b.v (17*a, 20) : C.b.v (17*a, 20)
+        var u = a > 0 , n
+        n = this.r.fx - this.r.fr / this.r.fx
+        return u && J.Q(c, T.mA()) ? C.b.v ((4*n+1)*a, 10) : C.b.v ((4*n+1)*a, 10)
     },
     T: function() {
         this.r.y1.i(0, this)
@@ -20649,6 +20648,9 @@ T.reimu.prototype = {
         gaQ: function() {
             return H.a([], [P.f])
         },
+        gaB: function() {
+            return H.a([$.b9(), $.aC(), $.b8()], [P.f])
+        },
         aa: function() {
             var u, t = new T.aK()
             t.r = this
@@ -20656,18 +20658,18 @@ T.reimu.prototype = {
             t = this.id 
 			t.push(new T.tha1b1())
             u = new T.tha1n1()
-f = new T.dF(1 / 0,u)
-u.fr = f
-u.fx = new T.ay(u)
-u.fy = new T.aN(u)
+            f = new T.dF(1 / 0,u)
+            u.fr = f
+            u.fx = new T.ay(u)
+            u.fy = new T.aN(u)
             f.r = 10
-            u.f = 40
+            u.f = 60
             t.push(u)
             u = new T.tha1n2()
             u.f = 60
             t.push(u)
 			u = new T.tha1n3()
-            u.f = 80
+            u.f = 180
             t.push(u)
 }
 }
@@ -24565,7 +24567,7 @@ C.koakuma = H.a(u([0, 100, 0, 0, 100, 100, 100, 800]), [P.j])
 C.patchouli = H.a(u([21, -5, -20, 19, 26, 19, 39, 438]), [P.j])
 C.sakuya = H.a(u([-9, 23, 6, 36, 3, 29, 57, 474]), [P.j])
 C.nue = H.a(u([47, 32, 26, 51, 59, 37, 13, 791]), [P.j])
-C.reimu = H.a(u([51, 48, 35, 36, 54, 35, 42, 704]), [P.j])
+C.reimu = H.a(u([31, 48, 15, 16, 44, 35, 42, 704]), [P.j])
 C.marisa = H.a(u([39, 33, 22, 44, 56, 27, 31, 665]), [P.j])
 C.remilia = H.a(u([15, 36, 40, 30, 21, 21, 21, 764]), [P.j])
 C.flandre = H.a(u([30, 26, 24, 25, -21, 20, 1, 791]), [P.j])

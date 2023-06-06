@@ -17408,18 +17408,11 @@ T.tha4n1.prototype = {
         $ip: 1
     }
 	T.tha1n1.prototype = {
-	    ar: function(a, b) {
-            if (this.r.meng > 0 )
-            { 
-                return !1
-            }
-			return this.aS(a, b)
-		},
         ga1: function() {
             return 4000
         },
         ar: function(a, b) {
-            if (this.fr.a != null)
+            if (this.fr.a != null || this.r.meng > 0 )
                 return !1
             return this.aS(a, b)
         },
@@ -17438,7 +17431,7 @@ T.tha4n1.prototype = {
             u.r.r2.i(0, u.fy)
             u.r.r1.k(0, "darkiron", u)
             u.r.E()
-            u.id = 3
+            u.id = 5
             r = u.r
             u.go = 240 + u.r.db * 4
             s = u.r
@@ -19350,10 +19343,10 @@ T.tha1s1.prototype = {
         t: function(a, b, c, d) {
 		if(this.r.meng == 0)
 		{this.r.meng = 1
-		d.a.push(T.e("[0][大的要来了]", this.r, null, null, null, 1, 1000, 100))
+		d.a.push(T.e("[0] ['_'#]", this.r, null, null, null, 1, 1000, 100))
 		return 0
 		}
-		if(this.r.meng > 11)	{
+		if(this.r.meng > 6)	{
 		var u, t, s, r, q, p, o, n = H.a([], [T.aU])
 		this.r.meng = 0
 		this.f = 0
@@ -19364,7 +19357,7 @@ T.tha1s1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 6
+            p = T.u(this.r, !0, c) * 7.2
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 && o.e != "reimu@!" )  {

@@ -17409,7 +17409,7 @@ T.tha4n1.prototype = {
             u.r.r2.i(0, u.fy)
             u.r.r1.k(0, "darkiron", u)
             u.r.E()
-            u.id = 5
+            u.id = 3
             r = u.r
             u.go = 240 + u.r.db * 4
             s = u.r
@@ -19070,7 +19070,7 @@ a=0
 T.tha1b1.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n ,m
-		if (d.m() < 29) {
+		if (d.m() < 5) {
                 this.r.f = this.r.f + 1024
 		        this.r.go = this.r.go + 0.15
 				e.a.push(T.e("[0]：这是异变啊！", this.r, null, null, null, a, 1000, 100))

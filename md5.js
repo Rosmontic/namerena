@@ -17412,7 +17412,7 @@ T.tha4n1.prototype = {
             }
 		},
         ga1: function() {
-            return 2000
+            return 4000
         },
         ar: function(a, b) {
             if (this.fr.a != null)
@@ -17429,6 +17429,7 @@ T.tha4n1.prototype = {
               , r = u.r
               , q = d.a
             q.push(T.e(s, r, r, t, t, 60, 1000, 100))
+			q.push(T.e("[0]", this.r.meng, r, t, t, 60, 1000, 100))
             u.r.y1.i(0, u.fr)
             u.r.x1.i(0, u.fx)
             u.r.r2.i(0, u.fy)
@@ -23294,9 +23295,10 @@ T.i9m.prototype = {
             if(r.r.meng > 0)
 			{
             r.r.meng = r.r.meng + 1
-			d.a.push(T.e("[0][1]", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]1", r.r, r.r, null, null, 0, 1000, 100))
+			return a
 			}
-			d.a.push(T.e("[0][2]", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]2", r.r, r.r, null, null, 0, 1000, 100))
 			return a
         },
 		T: function() {

@@ -8547,6 +8547,8 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
         },
 		reimu: function reimu(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
             var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
             _.a = a
             _.b = b
             _.c = c
@@ -17429,7 +17431,6 @@ T.tha4n1.prototype = {
               , r = u.r
               , q = d.a
             q.push(T.e(s, r, r, t, t, 60, 1000, 100))
-			q.push(T.e("[0]", this.r.meng, r, t, t, 60, 1000, 100))
             u.r.y1.i(0, u.fr)
             u.r.x1.i(0, u.fx)
             u.r.r2.i(0, u.fy)
@@ -23295,10 +23296,10 @@ T.i9m.prototype = {
             if(r.r.meng > 0)
 			{
             r.r.meng = r.r.meng + 1
-			d.a.push(T.e("[0]1", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0][1]", r.r, r.r.meng, null, null, 0, 1000, 100))
 			return a
 			}
-			d.a.push(T.e("[0]2", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0][2]", r.r, r.r.meng, null, null, 0, 1000, 100))
 			return a
         },
 		T: function() {

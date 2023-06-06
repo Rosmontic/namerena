@@ -18990,21 +18990,23 @@ aK: function(a, b, c, d) {
                 r.fy = r.r
                 r.r.ry.i(0, r.fr)
                 k.push(T.e("[0][加速]]", r.r, r.fy, q, q, 1, 1000, 100))
-				r.r.j = 1.4*r.r.cx
+				r.r.cx = 1.4*r.r.cx
                 r.r.j = r.r.j
             }
             else {
             r.ae(0)
             t = a[0].a
 			v = t.fr
-			w = 4
+			w = 4.2
+			this.f =0 
             k.push(T.e("[0]使用[彗星「炽热飞星」」]", r.r, t, q, q, 1, 1000, 100))
             t.a0(C.d.Z(w*T.u(r.r, !1, c)), !1, r.r, T.firea(), c, d)
-			if(1)
-			{
-			r.r.j = r.r.j +1024
+            if((c.m() & 63) > 31 ){
+            r.r.j = r.r.j +2048
+		    }
+			else{
+			r.r.j = r.r.j -2048
 			}
-            
     }
         },
         ay: function(a, b, c, d) {
@@ -20900,6 +20902,9 @@ T.marisa.prototype = {
             t.r = this
             this.k2 = t
             t = this.id 
+			u = new T.tha2s1()
+            u.f = 33
+            t.push(u)
             u = new T.tha2n1()
             u.f = 38
             t.push(u)

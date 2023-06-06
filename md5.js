@@ -16111,8 +16111,8 @@ u.f = u.f-100
 s = T.u(u.r, !1, c)   
 d.a.push(T.e("[0]使用[暗符「月的阴暗面」]", u.r, t, null, null, 1, 1000, 100))
 t.a0(s, !0, u.r, T.a3(), c, d)
-u.r.ch = u.r.ch + 40
-u.r.dx = u.r.dx + 40
+u.r.ch = u.r.ch + 50
+u.r.dx = u.r.dx + 50
         }
 }
 T.tha6n2.prototype = {
@@ -19353,7 +19353,7 @@ T.tha1s1.prototype = {
 		d.a.push(T.e("[0][大的要来了]", this.r, null, null, null, 1, 1000, 100))
 		return 0
 		}
-		if(this.r.meng > 6)	{
+		if(this.r.meng > 11)	{
 		var u, t, s, r, q, p, o, n = H.a([], [T.aU])
 		this.r.meng = 0
 		this.f = 0
@@ -19364,7 +19364,7 @@ T.tha1s1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 6.6
+            p = T.u(this.r, !0, c) * 6
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 && o.e != "reimu@!" )  {
@@ -20736,24 +20736,25 @@ T.reimu.prototype = {
             t.r = this
             this.k2 = t
             t = this.id 
-			t.push(new T.tha1b1())		
+			t.push(new T.tha1b1())
+            u = new T.tha1s1()
+            u.f = 20
+            t.push(u)			
             u = new T.tha1n1()
             f = new T.dF(1 / 0,u)
             u.fr = f
             u.fx = new T.ay(u)
             u.fy = new T.aN(u)
             f.r = 10
-            u.f = 35
-            t.push(u)
-            u = new T.tha1n2()
-            u.f = 40
-            t.push(u)
-			u = new T.tha1n3()
             u.f = 45
             t.push(u)
-			u = new T.tha1s1()
-            u.f = 700
+            u = new T.tha1n2()
+            u.f = 65
             t.push(u)
+			u = new T.tha1n3()
+            u.f = 100
+            t.push(u)
+		
 			u = new T.tha1b2()
             u.f = 100
             t.push(u)
@@ -23389,11 +23390,11 @@ T.i9m.prototype = {
         },
         al: function(a) {
             var u = this.r
-            u.Q = u.Q * 10
-            u.ch = u.ch * 10
-            u.db = u.db * 10
-            u.dx = u.dx * 10
-            u.j = u.j + 20480 
+            u.Q = u.Q * 5
+            u.ch = u.ch * 5
+            u.db = u.db * 5
+            u.dx = u.dx * 5
+            u.j = u.j + 2048
         },
         $ip: 1,
         $iA: 1

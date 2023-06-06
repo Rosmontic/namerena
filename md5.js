@@ -17387,7 +17387,7 @@ T.tha4n1.prototype = {
     }
 	T.tha1n1.prototype = {
         ga1: function() {
-            return 5000
+            return 4000
         },
         ar: function(a, b) {
             if (this.fr.a != null)
@@ -17413,7 +17413,7 @@ T.tha4n1.prototype = {
             r = u.r
             u.go = 240 + u.r.db * 4
             s = u.r
-            s.j = s.j - 256
+            s.j = s.j
             s = C.c.K(O.c("PurV"), $.nh())
             r = u.r
             q.push(T.e(s, r, r, t, t, 0, 1000, 100))
@@ -19074,7 +19074,8 @@ T.tha1b1.prototype = {
                 this.r.f = this.r.f + 1024
 		        this.r.go = this.r.go + 0.15
 				e.a.push(T.e("[0]：这是异变啊！", this.r, null, null, null, a, 1000, 100))
-            }		
+            }
+			e.a.push(T.e("[0]：！", this.r, null, null, null, a, 1000, 100))
         return u && J.Q(c, T.mA()) ? C.b.v (4*a, 5) : C.b.v (4*a, 5)
     },
     T: function() {

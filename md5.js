@@ -20903,6 +20903,8 @@ T.marisa.prototype = {
             this.k2 = t
             t = this.id 
 			u = new T.tha2s1()
+            u.fr = new T.bP(u)
+            u.fx = new T.cB(u)
             u.f = 33
             t.push(u)
             u = new T.tha2n1()

@@ -16111,8 +16111,8 @@ u.f = u.f-100
 s = T.u(u.r, !1, c)   
 d.a.push(T.e("[0]使用[暗符「月的阴暗面」]", u.r, t, null, null, 1, 1000, 100))
 t.a0(s, !0, u.r, T.a3(), c, d)
-u.r.ch = u.r.ch + 25
-u.r.dx = u.r.dx + 25
+u.r.ch = u.r.ch + 40
+u.r.dx = u.r.dx + 40
         }
 }
 T.tha6n2.prototype = {
@@ -16686,6 +16686,7 @@ T.tha9n3.prototype = {
             { 
                 return !1
             }
+			return this.aS(a, b)
 		},
         a8: function(a, b, c) {
             var u = this.bw(a, b, c)
@@ -16696,7 +16697,7 @@ T.tha9n3.prototype = {
               , t = null
               , s = "Dt.shield"
               , r = a[0].a
-              , q = T.u(u.r, !0, c)*1.2
+              , q = T.u(u.r, !0, c)
               , p = d.a
             p.push(T.e("[0]使用[灵符「梦想封印」]", u.r, r, t, t, 20, 1000, 100))
             if (r.a6($.kj(), c)) {
@@ -17412,6 +17413,7 @@ T.tha4n1.prototype = {
             { 
                 return !1
             }
+			return this.aS(a, b)
 		},
         ga1: function() {
             return 4000
@@ -18029,12 +18031,9 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = this.r.db
-			d.fr = this.r.db
-            if (c.r.r1.G(0, $.X()))
-                d.j = 2048
-            else
-                d.j = -2048
+			d.fx = C.d.v(this.r.fx, 12) 
+			d.fr = C.d.v(this.r.fx, 12)
+            d.j = -2048
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }}
@@ -19102,7 +19101,6 @@ T.tha1b1.prototype = {
 		        this.r.go = this.r.go + 0.1
 				e.a.push(T.e("[0]：这是异变啊！", this.r, null, null, null, a, 1000, 100))
             }
-			e.a.push(T.e("[0]：！", this.r, null, null, null, a, 1000, 100))
         return u && J.Q(c, T.mA()) ? C.b.v (4*a, 5) : C.b.v (4*a, 5)
     },
     T: function() {
@@ -19301,6 +19299,13 @@ o.a0(p, !0, this.r, T.a3(), c, d)
         }
 }
 T.tha1n3.prototype = {
+        ar: function(a, b) {
+            if (this.r.meng > 0 )
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
         gb3: function() {
             return 4
         },
@@ -19337,15 +19342,15 @@ T.tha1s1.prototype = {
             return c.gbh() * a.J
         },
         gb3: function() {
-            return 12
+            return 120
         },
         gb4: function() {
-            return 12
+            return 120
         },
         t: function(a, b, c, d) {
 		if(this.r.meng == 0)
 		{this.r.meng = 1
-		d.a.push(T.e("[0][蓄能]", this.r, null, null, null, 1, 1000, 100))
+		d.a.push(T.e("[0][大的要来了]", this.r, null, null, null, 1, 1000, 100))
 		return 0
 		}
 		if(this.r.meng > 6)	{
@@ -19359,7 +19364,7 @@ T.tha1s1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 6
+            p = T.u(this.r, !0, c) * 6.6
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 && o.e != "reimu@!" )  {
@@ -20731,21 +20736,20 @@ T.reimu.prototype = {
             t.r = this
             this.k2 = t
             t = this.id 
-			t.push(new T.tha1b1())
-			
+			t.push(new T.tha1b1())		
             u = new T.tha1n1()
             f = new T.dF(1 / 0,u)
             u.fr = f
             u.fx = new T.ay(u)
             u.fy = new T.aN(u)
             f.r = 10
-            u.f = 0
+            u.f = 35
             t.push(u)
             u = new T.tha1n2()
-            u.f = 60
+            u.f = 40
             t.push(u)
 			u = new T.tha1n3()
-            u.f = 70
+            u.f = 45
             t.push(u)
 			u = new T.tha1s1()
             u.f = 700
@@ -23284,10 +23288,8 @@ T.i9m.prototype = {
             if(r.r.meng > 0)
 			{
             r.r.meng = r.r.meng + 1
-			d.a.push(T.e("[0][1]", r.r, r.r.meng, null, null, 0, 1000, 100))
 			return a
 			}
-			d.a.push(T.e("[0][2]", r.r, r.r.meng, null, null, 0, 1000, 100))
 			return a
         },
 		T: function() {
@@ -23387,11 +23389,11 @@ T.i9m.prototype = {
         },
         al: function(a) {
             var u = this.r
-            u.Q = u.Q * 5
-            u.ch = u.ch * 5
-            u.db = u.db * 5
-            u.dx = u.dx * 5
-            u.go = u.go + 2
+            u.Q = u.Q * 10
+            u.ch = u.ch * 10
+            u.db = u.db * 10
+            u.dx = u.dx * 10
+            u.j = u.j + 20480 
         },
         $ip: 1,
         $iA: 1

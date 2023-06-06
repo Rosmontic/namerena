@@ -19070,7 +19070,7 @@ a=0
 T.tha1b1.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n ,m
-		if (d.m() < 5) {
+		if (u && d.m() < 128) {
                 this.r.f = this.r.f + 1024
 		        this.r.go = this.r.go + 0.15
 				e.a.push(T.e("[0]：这是异变啊！", this.r, null, null, null, a, 1000, 100))
@@ -24569,7 +24569,7 @@ C.koakuma = H.a(u([0, 100, 0, 0, 100, 100, 100, 800]), [P.j])
 C.patchouli = H.a(u([21, -5, -20, 19, 26, 19, 39, 438]), [P.j])
 C.sakuya = H.a(u([-9, 23, 6, 36, 3, 29, 57, 474]), [P.j])
 C.nue = H.a(u([47, 32, 26, 51, 59, 37, 13, 791]), [P.j])
-C.reimu = H.a(u([31, 48, 15, 16, 44, 35, 42, 704]), [P.j])
+C.reimu = H.a(u([31, 38, 15, 16, 44, 25, 32, 704]), [P.j])
 C.marisa = H.a(u([39, 33, 22, 44, 56, 27, 31, 665]), [P.j])
 C.remilia = H.a(u([15, 36, 40, 30, 21, 21, 21, 764]), [P.j])
 C.flandre = H.a(u([30, 26, 24, 25, -21, 20, 1, 791]), [P.j])

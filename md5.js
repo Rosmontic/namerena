@@ -16413,7 +16413,7 @@ T.tha8s1.prototype = {
                 r = H.a(n.slice(0), [H.n(n, 0)])
                 q = d.a
                 q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-                p = T.u(this.r, !0, c) * 3
+                p = T.u(this.r, !0, c) * 3.6
                 for (u = 0; u < n.length; ++u) {
                     o = n[u]
     if (o.fr > 0 ) {
@@ -19301,12 +19301,6 @@ o.a0(p, !0, this.r, T.a3(), c, d)
         }
 }
 T.tha1n3.prototype = {
-        ar: function(a, b) {
-            if (this.r.meng > 0 )
-            { 
-                return !1
-            }
-		},
         gb3: function() {
             return 4
         },
@@ -19334,14 +19328,8 @@ o.bL(p, !0, this.r, T.a3(), c, d)
             
         }
 }
-        T.tha1s1.prototype = {
-		ar: function(a, b) {
-            if (this.r.meng > 0 || this.r.meng < 7)
-            { 
-                return !1
-            }       
-        return this.aS(a, b)
-        },
+T.tha1s1.prototype = {      
+        
 		b5: function(a) {
             return a.b1(this.r.x.a.e)
         },
@@ -19358,7 +19346,7 @@ o.bL(p, !0, this.r, T.a3(), c, d)
 		if(this.r.meng == 0)
 		{this.r.meng = 1
 		d.a.push(T.e("[0][蓄能]", this.r, null, null, null, 1, 1000, 100))
-		return 
+		return 0
 		}
 		if(this.r.meng > 6)	{
 		var u, t, s, r, q, p, o, n = H.a([], [T.aU])
@@ -20751,7 +20739,7 @@ T.reimu.prototype = {
             u.fx = new T.ay(u)
             u.fy = new T.aN(u)
             f.r = 10
-            u.f = 40
+            u.f = 0
             t.push(u)
             u = new T.tha1n2()
             u.f = 60

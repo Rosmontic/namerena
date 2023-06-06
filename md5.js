@@ -6728,6 +6728,12 @@ tha2n3: function tha2n3() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
+tha2b1: function tha2b1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+			},
 tha7n1: function tha7n1() {
             var _ = this
             _.e = !1
@@ -16112,7 +16118,101 @@ d.a.push(T.e("[0]使用[恋符「非定向光线」]", u.r, t, null, null, 1, 10
 t.a0(1.75*s, !0, u.r, T.a3(), c, d)     
     }
 }
-
+T.tha2b1.prototype = {
+    t: function(a, b, c, d) {
+        var u = this, n ,m
+		u.f = 0
+        t = a[0].a
+		n = (c.m() & 6)
+		m = (c.m() & 65)
+        d.a.push(T.e("[0]：[等我死了再还你~]", u.r, t, null, null, 1, 1000, 100))
+        if(n ==0)
+		{
+		if(t.Q < m){
+        t.Q = 1
+        u.r.Q = u.r.Q +	t.Q - 1	
+		d.a.push(T.e("[0]偷走[1][2]点攻击", u.r, t, t.Q - 1 , null, null, 1, 1000, 100))
+		}
+		else{
+		t.Q = t.Q - m
+		u.r.Q = u.r.Q +	m
+		d.a.push(T.e("[0]偷走[1][2]点攻击", u.r, t, m, null, null, 1, 1000, 100))
+		}}
+		if(n ==1)
+		{
+		if(t.ch < m){
+        t.ch = 1
+        u.r.ch = u.r.ch +t.ch - 1	
+		d.a.push(T.e("[0]偷走[1][2]点防御", u.r, t, t.ch - 1 , null, null, 1, 1000, 100))
+		}
+		else{
+		t.ch = t.ch - m
+		u.r.ch = u.r.ch + m
+		d.a.push(T.e("[0]偷走[1][2]点防御", u.r, t, m, null, null, 1, 1000, 100))
+		}}
+		if(n ==2)
+		{
+		if(t.cx < m){
+        t.cx = 1
+        u.r.cx = u.r.cx +t.cx - 1	
+		d.a.push(T.e("[0]偷走[1][2]点速度", u.r, t, t.cx - 1 , null, null, 1, 1000, 100))
+		}
+		else{
+		t.cx = t.cx - m
+		u.r.cx = u.r.cx + m
+		d.a.push(T.e("[0]偷走[1][2]点速度", u.r, t, m, null, null, 1, 1000, 100))
+		}}
+		if(n ==3)
+		{
+		if(t.cy < m){
+        t.cy = 1
+        u.r.cy = u.r.cy +t.cy - 1	
+		d.a.push(T.e("[0]偷走[1][2]点敏捷", u.r, t, t.cy - 1 , null, null, 1, 1000, 100))
+		}
+		else{
+		t.cy = t.cy - m
+		u.r.cy = u.r.cy + m
+		d.a.push(T.e("[0]偷走[1][2]点敏捷", u.r, t, m, null, null, 1, 1000, 100))
+		}}
+		if(n ==4)
+		{
+		if(t.db < m){
+        t.db = 1
+        u.r.db = u.r.db +t.db - 1	
+		d.a.push(T.e("[0]偷走[1][2]点法力", u.r, t, t.db - 1 , null, null, 1, 1000, 100))
+		}
+		else{
+		t.db = t.db - m
+		u.r.db = u.r.db + m
+		d.a.push(T.e("[0]偷走[1][2]点法力", u.r, t, m, null, null, 1, 1000, 100))
+		}}
+		if(n ==5)
+		{
+		if(t.dx < m){
+        t.dx = 1
+        u.r.dx = u.r.dx +t.dx - 1	
+		d.a.push(T.e("[0]偷走[1][2]点法抗", u.r, t, t.dx - 1 , null, null, 1, 1000, 100))
+		}
+		else{
+		t.dx = t.dx - m
+		u.r.dx = u.r.dx + m
+		d.a.push(T.e("[0]偷走[1][2]点法抗", u.r, t, m, null, null, 1, 1000, 100))
+		}}
+		if(n ==6)
+		{
+		if(t.dy < m){
+        t.dy = 1
+        u.r.dy = u.r.dy +t.dy - 1	
+		d.a.push(T.e("[0]偷走[1][2]点智力", u.r, t, t.dy - 1 , null, null, 1, 1000, 100))
+		}
+		else{
+		t.dy = t.dy - m
+		u.r.dy = u.r.dy + m
+		d.a.push(T.e("[0]偷走[1][2]点智力", u.r, t, m, null, null, 1, 1000, 100))
+		}}
+     
+    }
+}
 T.tha5n1.prototype = {
         t: function(a, b, c, d) {
             var u = this
@@ -20905,6 +21005,9 @@ T.marisa.prototype = {
             t.r = this
             this.k2 = t
             t = this.id 
+			u = new T.tha2b1()
+            u.f = 380
+            t.push(u)
 			u = new T.tha2s1()
             u.fr = new T.bP(u)
             u.fx = new T.cB(u)
@@ -24440,7 +24543,7 @@ T.i9m.prototype = {
         t(Z.hl, Z.ax)
         s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
         s(T.H, [T.y, T.hJ, T.tha1b1, T.tha5b1, T.tha6b1, T.tha7b1, T.tha10b1, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.thj7b1, T.dV, T.dX, T.tha4b1,T.tha3b2, T.i9 , T.i9m, T.ih, T.tha9b1,T.tha1b2, T.im, T.tha3b1, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
-        s(T.y, [T.dL, T.hI ,T.tha6n1, T.tha10t1, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.tha2n1, T.tha2n2, T.tha2n3, T.tha1n3, T.tha3n1, T.tha3n2, T.tha3s1, T.tha6n2, T.tha6n3, T.tha5n1, T.tha7n1 ,T.tha7n2,T.tha8n1 ,T.tha8t1 ,T.tha8n2 ,T.tha8t2 ,T.tha8n3 ,T.tha8t3 ,T.tha8n4 ,T.tha8t4 ,T.tha8n5 ,T.tha8t5 ,T.tha8s1 ,T.tha9n1,T.tha9n3,T.tha10n1,T.tha10n2,T.tha10s1,T.tha11n1,T.tha11n2, T.tha11n1t, T.tha11n2t, T.tha11t1, T.hS, T.hU, T.tha1n2, T.hV, T.bV, T.dR, T.hX, T.tha4n3, T.dS, T.tha4n1, T.tha4n2, T.tha4n2x, T.tha7t1, T.dT, T.i1, T.tha1n1, T.i6, T.i8, T.dW, T.ia ,T.tha4s1, T.i7, T.ig, T.tha9n2, T.tha9n2t, T.ij,T.tha1s1, T.tha9s1, T.hW, T.ik, T.il, T.tha5n3, T.tha6s1t,T.tha6s1, T.tha11s1,T.tha2s1, T.dM, T.tha5n2, T.tha5s1, T.tha7s1, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
+        s(T.y, [T.dL, T.hI ,T.tha6n1, T.tha10t1, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.tha2n1, T.tha2n2, T.tha2n3, T.tha2b1, T.tha1n3, T.tha3n1, T.tha3n2, T.tha3s1, T.tha6n2, T.tha6n3, T.tha5n1, T.tha7n1 ,T.tha7n2,T.tha8n1 ,T.tha8t1 ,T.tha8n2 ,T.tha8t2 ,T.tha8n3 ,T.tha8t3 ,T.tha8n4 ,T.tha8t4 ,T.tha8n5 ,T.tha8t5 ,T.tha8s1 ,T.tha9n1,T.tha9n3,T.tha10n1,T.tha10n2,T.tha10s1,T.tha11n1,T.tha11n2, T.tha11n1t, T.tha11n2t, T.tha11t1, T.hS, T.hU, T.tha1n2, T.hV, T.bV, T.dR, T.hX, T.tha4n3, T.dS, T.tha4n1, T.tha4n2, T.tha4n2x, T.tha7t1, T.dT, T.i1, T.tha1n1, T.i6, T.i8, T.dW, T.ia ,T.tha4s1, T.i7, T.ig, T.tha9n2, T.tha9n2t, T.ij,T.tha1s1, T.tha9s1, T.hW, T.ik, T.il, T.tha5n3, T.tha6s1t,T.tha6s1, T.tha11s1,T.tha2s1, T.dM, T.tha5n2, T.tha5s1, T.tha7s1, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
         s(T.M, [T.bf, T.co, T.dj ,T.sl , T.cG, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade])
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
         s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])

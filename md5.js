@@ -19070,7 +19070,11 @@ a=0
 T.tha1b1.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n ,m
-        this.r.f = this.r.f + 1024
+		if (d.m() < 29) {
+                this.r.f = this.r.f + 1024
+		        this.r.go = this.r.go + 0.15
+				e.a.push(T.e("[0]：这是异变啊！", this.r, null, null, null, a, 1000, 100))
+            }		
         return u && J.Q(c, T.mA()) ? C.b.v (4*a, 5) : C.b.v (4*a, 5)
     },
     T: function() {

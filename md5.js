@@ -20742,9 +20742,7 @@ T.reimu.prototype = {
             this.k2 = t
             t = this.id 
 			t.push(new T.tha1b1())
-			u = new T.tha1b2()
-            u.f = 100
-            t.push(u)
+			
             u = new T.tha1n1()
             f = new T.dF(1 / 0,u)
             u.fr = f
@@ -20761,6 +20759,9 @@ T.reimu.prototype = {
             t.push(u)
 			u = new T.tha1s1()
             u.f = 700
+            t.push(u)
+			u = new T.tha1b2()
+            u.f = 100
             t.push(u)
 }
 }
@@ -23293,7 +23294,9 @@ T.i9m.prototype = {
             if(r.r.meng > 0)
 			{
             r.r.meng = r.r.meng + 1
+			d.a.push(T.e("[0][1]", r.r, r.r, null, null, 0, 1000, 100))
 			}
+			d.a.push(T.e("[0][2]", r.r, r.r, null, null, 0, 1000, 100))
 			return a
         },
 		T: function() {

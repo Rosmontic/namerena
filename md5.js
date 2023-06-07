@@ -16118,7 +16118,7 @@ u.push($.v())
 }
 T.tha2ak.prototype = {
     t: function(a, b, c, d) {
-        var u = this，n
+        var u = this,n
 		n = 2+(c.m() & 2)
 		this.r.bagua = this.r.bagua + n
 		if(this.r.bagua >8){

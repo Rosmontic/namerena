@@ -16119,7 +16119,7 @@ u.push($.v())
 T.tha2ak.prototype = {
     t: function(a, b, c, d) {
             var u, t, s, r, q = this, p = null, o = a[0].a, n
-            n = (c.m() & )
+            n = (c.m() & 5)
 			n = C.d.v(n, 2) + 2
 		    this.r.bagua = this.r.bagua + n
 		    if(this.r.bagua > 8){
@@ -16135,7 +16135,7 @@ T.tha2ak.prototype = {
 
 T.tha2n1.prototype = {
     ar: function(a, b) {
-            if (this.r.bagua > 2+ C.d.v((a.m() & 4), 2) || this.r.bagua < 1)
+            if (this.r.bagua > 2+ C.d.v((a.m() & 5), 2) || this.r.bagua < 1)
             { 
                 return !1
             }
@@ -19555,7 +19555,7 @@ o.bL(p, !0, this.r, T.a3(), c, d)
 }
    T.tha2n2.prototype = {
         ar: function(a, b) {
-            if (this.r.bagua > 4 + C.d.v((a.m() & 8), 2)|| this.r.bagua < 2)
+            if (this.r.bagua > 4 + C.d.v((a.m() & 7), 2)|| this.r.bagua < 2)
             { 
                 return !1
             }

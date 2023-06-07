@@ -16131,7 +16131,7 @@ T.tha2ak.prototype = {
 }
 T.tha2n1.prototype = {
     ar: function(a, b) {
-            if (this.r.bagua > 2 +(b.m() & 4) && this.r.bagua < 1)
+            if (this.r.bagua > 3 && this.r.bagua < 1)
             { 
                 return !1
             }
@@ -19539,7 +19539,7 @@ o.bL(p, !0, this.r, T.a3(), c, d)
 }
    T.tha2n2.prototype = {
         ar: function(a, b) {
-            if (this.r.bagua > 4 +(b.m() & 4) && this.r.bagua < 2)
+            if (this.r.bagua > 4 && this.r.bagua < 2)
             { 
                 return !1
             }
@@ -21045,12 +21045,12 @@ T.marisa.prototype = {
             return H.a([], [P.f])
         },
         aa: function() {
-            var u, t = new T.tha2ak()
+            var u, t = new T.aK()
             t.r = this
             this.k2 = t
             t = this.id 
 			u = new T.tha2b1()
-            u.f = 0
+            u.f = 1000
             t.push(u)
 			u = new T.tha2s1()
             u.fr = new T.bP(u)

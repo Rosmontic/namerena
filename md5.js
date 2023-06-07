@@ -16119,7 +16119,8 @@ u.push($.v())
 T.tha2ak.prototype = {
     t: function(a, b, c, d) {
             var u, t, s, r, q = this, p = null, o = a[0].a, n
-            n = (c.m() & 4)/2 + 2
+            n = (c.m() & 5)
+			n = C.d.v(n, 2) + 1
 		    this.r.bagua = this.r.bagua + n
 		    if(this.r.bagua > 8){
 		    n = n - this.r.bagua + 8
@@ -16152,21 +16153,22 @@ T.tha2n1.prototype = {
 }
 T.tha2b1.prototype = {
     t: function(a, b, c, d) {
-        var u = this, n ,m ,l 
-		u.f = 0
+        var u = this, n ,m ,l
+		u.f = 50
         t = a[0].a
-		n = (c.m() & 11)
+		n = (c.m() & 13)
 		n = C.d.v(n, 2)
-		l = (c.m() & 127)
-		m = C.d.v(l, 2)
+		m = (c.m() & 127)
+		m = C.d.v(m, 2)
 		this.r.bagua = 6
         d.a.push(T.e("[0]：[等我死了再还你~]", u.r, t, null, null, 1, 1000, 100))
         if(n ==0)
 		{
 		if(t.Q < m){
+		l = t.Q -1
         t.Q = 1
         u.r.Q = u.r.Q +	t.Q - 1	
-		d.a.push(T.e("[0]偷走[1][2]点攻击", u.r, t, t.Q - 1 , null, null, 1, 1000, 100))
+		d.a.push(T.e("[0]偷走[1][2]点攻击", u.r, t, l , null, null, 1, 1000, 100))
 		}
 		else{
 		t.Q = t.Q - m
@@ -16176,9 +16178,10 @@ T.tha2b1.prototype = {
 		if(n ==1)
 		{
 		if(t.ch < m){
+		l = t.ch -1
         t.ch = 1
         u.r.ch = u.r.ch +t.ch - 1	
-		d.a.push(T.e("[0]偷走[1][2]点防御", u.r, t, t.ch - 1 , null, null, 1, 1000, 100))
+		d.a.push(T.e("[0]偷走[1][2]点防御", u.r, t, l , null, null, 1, 1000, 100))
 		}
 		else{
 		t.ch = t.ch - m
@@ -16188,9 +16191,10 @@ T.tha2b1.prototype = {
 		if(n ==2)
 		{
 		if(t.cx < m){
+		l = t.cx -1
         t.cx = 1
         u.r.cx = u.r.cx +t.cx - 1	
-		d.a.push(T.e("[0]偷走[1][2]点速度", u.r, t, t.cx - 1 , null, null, 1, 1000, 100))
+		d.a.push(T.e("[0]偷走[1][2]点速度", u.r, t, l , null, null, 1, 1000, 100))
 		}
 		else{
 		t.cx = t.cx - m
@@ -16200,9 +16204,10 @@ T.tha2b1.prototype = {
 		if(n ==3)
 		{
 		if(t.cy < m){
+		l = t.cy -1
         t.cy = 1
         u.r.cy = u.r.cy +t.cy - 1	
-		d.a.push(T.e("[0]偷走[1][2]点敏捷", u.r, t, t.cy - 1 , null, null, 1, 1000, 100))
+		d.a.push(T.e("[0]偷走[1][2]点敏捷", u.r, t, l , null, null, 1, 1000, 100))
 		}
 		else{
 		t.cy = t.cy - m
@@ -16212,9 +16217,10 @@ T.tha2b1.prototype = {
 		if(n ==4)
 		{
 		if(t.db < m){
+		l = t.db -1
         t.db = 1
         u.r.db = u.r.db +t.db - 1	
-		d.a.push(T.e("[0]偷走[1][2]点法力", u.r, t, t.db - 1 , null, null, 1, 1000, 100))
+		d.a.push(T.e("[0]偷走[1][2]点法力", u.r, t, l , null, null, 1, 1000, 100))
 		}
 		else{
 		t.db = t.db - m
@@ -16224,9 +16230,10 @@ T.tha2b1.prototype = {
 		if(n ==5)
 		{
 		if(t.dx < m){
+		l = t.dx -1
         t.dx = 1
         u.r.dx = u.r.dx +t.dx - 1	
-		d.a.push(T.e("[0]偷走[1][2]点法抗", u.r, t, t.dx - 1 , null, null, 1, 1000, 100))
+		d.a.push(T.e("[0]偷走[1][2]点法抗", u.r, t, l , null, null, 1, 1000, 100))
 		}
 		else{
 		t.dx = t.dx - m
@@ -16236,9 +16243,10 @@ T.tha2b1.prototype = {
 		if(n ==6)
 		{
 		if(t.dy < m){
+		l = t.dy -1
         t.dy = 1
         u.r.dy = u.r.dy +t.dy - 1	
-		d.a.push(T.e("[0]偷走[1][2]点智力", u.r, t, t.dy - 1 , null, null, 1, 1000, 100))
+		d.a.push(T.e("[0]偷走[1][2]点智力", u.r, t, l , null, null, 1, 1000, 100))
 		}
 		else{
 		t.dy = t.dy - m
@@ -21067,13 +21075,13 @@ T.marisa.prototype = {
             u.f = 0
             t.push(u)
             u = new T.tha2n1()
-            u.f = 75
+            u.f = 0
             t.push(u)
 			u = new T.tha2n2()
-            u.f = 80
+            u.f = 0
             t.push(u)
 			u = new T.tha2n3()
-            u.f = 150
+            u.f = 0
             t.push(u)
 
 }

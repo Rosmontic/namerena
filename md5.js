@@ -8635,7 +8635,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
-			_.bagua = 6
+			_.bagua = 0
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -16143,7 +16143,8 @@ T.tha2n1.prototype = {
     s = T.u(u.r, !1, c)
     d.a.push(T.e("[0]使用[恋符「非定向光线」]", u.r, t, null, null, 1, 1000, 100))
 	this.r.bagua = this.r.bagua - 1
-    t.a0(1.75*s, !0, u.r, T.a3(), c, d)     
+    t.a0(1.75*s, !0, u.r, T.a3(), c, d)
+	d.a.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
     }
 }
 T.tha2b1.prototype = {
@@ -16153,6 +16154,7 @@ T.tha2b1.prototype = {
         t = a[0].a
 		n = (c.m() & 6)
 		m = (c.m() & 63)
+		this.r.bagua = 6
         d.a.push(T.e("[0]：[等我死了再还你~]", u.r, t, null, null, 1, 1000, 100))
         if(n ==0)
 		{
@@ -19570,6 +19572,7 @@ o.bL(p, !0, this.r, T.a3(), c, d)
 }
                     
                 }
+			q.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
             
         }
 }
@@ -19606,6 +19609,7 @@ T.tha2n3.prototype = {
 }
                     
                 }
+		    d.a.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
             
         }
 }
@@ -21045,7 +21049,7 @@ T.marisa.prototype = {
             return H.a([], [P.f])
         },
         aa: function() {
-            var u, t = new T.aK()
+            var u, t = new T.tha2ak()
             t.r = this
             this.k2 = t
             t = this.id 

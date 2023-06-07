@@ -16125,16 +16125,24 @@ T.tha2ak.prototype = {
 		n = n - this.r.bagua + 8
 		this.r.bagua = 8
 		}
-    d.a.push(T.e("[0]为[八卦炉]填充灵力", u.r, t, null, null, 1, 1000, 100))
-    d.a.push(T.e("[八卦炉]灵力填充[0]点，剩余灵力[1]点", n, t, null, null, 1, 1000, 100))
+    d.a.push(T.e("[0]为[八卦炉]填充灵力", u.r, this.r.bagua, null, null, 1, 1000, 100))
+    d.a.push(T.e("[八卦炉]灵力填充[0]点，剩余灵力[1]点", n, this.r.bagua, null, null, 1, 1000, 100))
     }
 }
 T.tha2n1.prototype = {
+    ar: function(a, b) {
+            if (this.r.bagua > 2 +(b.m() & 4) && this.r.bagua < 1)
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
     t: function(a, b, c, d) {
         var u = this
         t = a[0].a
     s = T.u(u.r, !1, c)
     d.a.push(T.e("[0]使用[恋符「非定向光线」]", u.r, t, null, null, 1, 1000, 100))
+	this.r.bagua = this.r.bagua - 1
     t.a0(1.75*s, !0, u.r, T.a3(), c, d)     
     }
 }
@@ -19530,6 +19538,13 @@ o.bL(p, !0, this.r, T.a3(), c, d)
         }
 }
    T.tha2n2.prototype = {
+        ar: function(a, b) {
+            if (this.r.bagua > 4 +(b.m() & 4) && this.r.bagua < 2)
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
         gb3: function() {
             return 2
         },
@@ -19545,6 +19560,7 @@ o.bL(p, !0, this.r, T.a3(), c, d)
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
+			this.r.bagua = this.r.bagua - 2
             p = T.u(this.r, !0, c) * 1.4
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
@@ -19558,6 +19574,13 @@ o.bL(p, !0, this.r, T.a3(), c, d)
         }
 }
 T.tha2n3.prototype = {
+        ar: function(a, b) {
+            if (this.r.bagua < 4)
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
         gb3: function() {
             return 4
         },
@@ -19573,7 +19596,8 @@ T.tha2n3.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 2.4
+            p = T.u(this.r, !0, c) * 0.6 * this.r.bagua
+			this.r.bagua = 0
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
         if (o.fr > 0 ) {
@@ -21040,7 +21064,7 @@ T.marisa.prototype = {
             u.f = 50
             t.push(u)
 			u = new T.tha2n3()
-            u.f = 80
+            u.f = 120
             t.push(u)
 
 }

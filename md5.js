@@ -16119,7 +16119,7 @@ u.push($.v())
 T.tha2ak.prototype = {
     t: function(a, b, c, d) {
             var u, t, s, r, q = this, p = null, o = a[0].a, n
-            n = (c.m() & 4)
+            n = (c.m() & 5)
 			n = C.d.v(n, 2) + 2
 		    this.r.bagua = this.r.bagua + n
 		    if(this.r.bagua > 8){
@@ -16156,16 +16156,17 @@ T.tha2b1.prototype = {
         var u = this, n ,m ,l
 		u.f = 50
         t = a[0].a
-		n = (c.m() & 12)
-		n = C.d.v(n, 2)
+		n = (c.m() & 13)
+
 		m = (c.m() & 127)
 		m = C.d.v(m, 2) + 1
 		this.r.bagua = 0
         d.a.push(T.e("[0]：[等我死了再还你~]", u.r, t, null, null, 1, 1000, 100))
-		d.a.push(T.e("[0]偷走[1][2]", u.r, t, m, null, null, 1, 1000, 100))
+		d.a.push(T.e("[0]偷走[1][2]", u.r, t, n, null, null, 1, 1000, 100))
+	    n = C.d.v(n, 2)
         if(n ==0)
 		{
-		if(t.Q < m){
+		if(t.Q < m+1){
 		l = t.Q -1
         t.Q = 1
         u.r.Q = u.r.Q +	t.Q - 1	
@@ -16178,7 +16179,7 @@ T.tha2b1.prototype = {
 		}}
 		if(n ==1)
 		{
-		if(t.ch < m){
+		if(t.ch < m+1){
 		l = t.ch -1
         t.ch = 1
         u.r.ch = u.r.ch +t.ch - 1	
@@ -16191,7 +16192,7 @@ T.tha2b1.prototype = {
 		}}
 		if(n ==2)
 		{
-		if(t.cx < m){
+		if(t.cx < m+1){
 		l = t.cx -1
         t.cx = 1
         u.r.cx = u.r.cx +t.cx - 1	
@@ -16204,7 +16205,7 @@ T.tha2b1.prototype = {
 		}}
 		if(n ==3)
 		{
-		if(t.cy < m){
+		if(t.cy < m+1){
 		l = t.cy -1
         t.cy = 1
         u.r.cy = u.r.cy +t.cy - 1	
@@ -16217,7 +16218,7 @@ T.tha2b1.prototype = {
 		}}
 		if(n ==4)
 		{
-		if(t.db < m){
+		if(t.db < m+1){
 		l = t.db -1
         t.db = 1
         u.r.db = u.r.db +t.db - 1	
@@ -16230,7 +16231,7 @@ T.tha2b1.prototype = {
 		}}
 		if(n ==5)
 		{
-		if(t.dx < m){
+		if(t.dx < m+1){
 		l = t.dx -1
         t.dx = 1
         u.r.dx = u.r.dx +t.dx - 1	
@@ -16243,7 +16244,7 @@ T.tha2b1.prototype = {
 		}}
 		if(n ==6)
 		{
-		if(t.dy < m){
+		if(t.dy < m+1){
 		l = t.dy -1
         t.dy = 1
         u.r.dy = u.r.dy +t.dy - 1	

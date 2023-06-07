@@ -16119,19 +16119,20 @@ u.push($.v())
 T.tha2ak.prototype = {
     t: function(a, b, c, d) {
         var u = this,n
-		n = 2+(c.m() & 2)
-		this.r.bagua = this.r.bagua + n
-		if(this.r.bagua >8){
+		t = a[0].a
+		n = (c.m() & 2)
+		this.r.bagua = this.r.bagua + n + 2
+		if(this.r.bagua > 8){
 		n = n - this.r.bagua + 8
 		this.r.bagua = 8
 		}
     d.a.push(T.e("[0]为[八卦炉]填充灵力", u.r, this.r.bagua, null, null, 1, 1000, 100))
-    d.a.push(T.e("[八卦炉]灵力填充[0]点，剩余灵力[1]点", n, this.r.bagua, null, null, 1, 1000, 100))
+    d.a.push(T.e("[八卦炉]灵力填充[0]点, 剩余灵力[1]点", n + 2, this.r.bagua, null, null, 1, 1000, 100))
     }
 }
 T.tha2n1.prototype = {
     ar: function(a, b) {
-            if (this.r.bagua > 3 && this.r.bagua < 1)
+            if (this.r.bagua < 3 && this.r.bagua > 1)
             { 
                 return !1
             }
@@ -19541,7 +19542,7 @@ o.bL(p, !0, this.r, T.a3(), c, d)
 }
    T.tha2n2.prototype = {
         ar: function(a, b) {
-            if (this.r.bagua > 4 && this.r.bagua < 2)
+            if (this.r.bagua < 4 && this.r.bagua > 2)
             { 
                 return !1
             }
@@ -19578,7 +19579,7 @@ o.bL(p, !0, this.r, T.a3(), c, d)
 }
 T.tha2n3.prototype = {
         ar: function(a, b) {
-            if (this.r.bagua < 4)
+            if (this.r.bagua > 4)
             { 
                 return !1
             }

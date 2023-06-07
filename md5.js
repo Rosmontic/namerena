@@ -16124,14 +16124,14 @@ T.tha2b1.prototype = {
 		u.f = 0
         t = a[0].a
 		n = (c.m() & 6)
-		m = (c.m() & 65)
+		m = (c.m() & 63)
         d.a.push(T.e("[0]：[等我死了再还你~]", u.r, t, null, null, 1, 1000, 100))
         if(n ==0)
 		{
-		if(t.Q < m){
+		if(t.Q < 1000){
         t.Q = 1
         u.r.Q = u.r.Q +	t.Q - 1	
-		d.a.push(T.e("[0]偷走[1][2]点攻击", u.r, t, t.Q - 1 , null, null, 1, 1000, 100))
+		d.a.push(T.e("[0]偷走[1][2]点攻击", t.Q , m, m , null, null, 1, 1000, 100))
 		}
 		else{
 		t.Q = t.Q - m

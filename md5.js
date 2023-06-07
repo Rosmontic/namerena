@@ -16121,7 +16121,6 @@ T.tha2ak.prototype = {
             var u, t, s, r, q = this, p = null, o = a[0].a, n
             n = (c.m() & 4)
 			n = C.d.v(n, 2) + 2
-			d.a.push(T.e("[0]||[1]", n, this.r.bagua, p, p, 0, 1000, 100))
 		    this.r.bagua = this.r.bagua + n
 		    if(this.r.bagua > 8){
 		    n = n - this.r.bagua + 8
@@ -16163,7 +16162,7 @@ T.tha2b1.prototype = {
 		m = C.d.v(m, 2) + 1
 		this.r.bagua = 0
         d.a.push(T.e("[0]：[等我死了再还你~]", u.r, t, null, null, 1, 1000, 100))
-		d.a.push(T.e("[0]||[1]", n, m, null, null, 1, 1000, 100))
+		d.a.push(T.e("[0]偷走[1][2]", u.r, t, m, null, null, 1, 1000, 100))
         if(n ==0)
 		{
 		if(t.Q < m){

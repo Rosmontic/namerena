@@ -16119,7 +16119,7 @@ u.push($.v())
 T.tha2ak.prototype = {
     t: function(a, b, c, d) {
             var u, t, s, r, q = this, p = null, o = a[0].a, n
-            n = (c.m() & 2) + 2
+            n = (c.m() & 4)/2 + 2
 		    this.r.bagua = this.r.bagua + n
 		    if(this.r.bagua > 8){
 		    n = n - this.r.bagua + 8
@@ -16134,7 +16134,7 @@ T.tha2ak.prototype = {
 
 T.tha2n1.prototype = {
     ar: function(a, b) {
-            if (this.r.bagua > 2+ (a.m() & 2) || this.r.bagua < 1)
+            if (this.r.bagua > 2+ (a.m() & 4)/2 || this.r.bagua < 1)
             { 
                 return !1
             }
@@ -16155,16 +16155,16 @@ T.tha2b1.prototype = {
         var u = this, n ,m
 		u.f = 0
         t = a[0].a
-		n = (c.m() & 6)
-		m = (c.m() & 63)
+		n = (c.m() & 12)/2
+		m = (c.m() & 63) + 1
 		this.r.bagua = 6
         d.a.push(T.e("[0]：[等我死了再还你~]", u.r, t, null, null, 1, 1000, 100))
         if(n ==0)
 		{
-		if(t.Q < 1000){
+		if(t.Q < m){
         t.Q = 1
         u.r.Q = u.r.Q +	t.Q - 1	
-		d.a.push(T.e("[0]偷走[1][2]点攻击", u.r, m, t.Q - 1 , null, null, 1, 1000, 100))
+		d.a.push(T.e("[0]偷走[1][2]点攻击", u.r, t, t.Q - 1 , null, null, 1, 1000, 100))
 		}
 		else{
 		t.Q = t.Q - m
@@ -19544,7 +19544,7 @@ o.bL(p, !0, this.r, T.a3(), c, d)
 }
    T.tha2n2.prototype = {
         ar: function(a, b) {
-            if (this.r.bagua > 4 + (a.m() & 2) || this.r.bagua < 2)
+            if (this.r.bagua > 4 + (a.m() & 8)/2 || this.r.bagua < 2)
             { 
                 return !1
             }
@@ -19566,7 +19566,7 @@ o.bL(p, !0, this.r, T.a3(), c, d)
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
 			this.r.bagua = this.r.bagua - 2
-            p = T.u(this.r, !0, c) * 1.4
+            p = T.u(this.r, !0, c) * 1.50
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
         if (o.fr > 0 ) {
@@ -21065,13 +21065,13 @@ T.marisa.prototype = {
             u.f = 0
             t.push(u)
             u = new T.tha2n1()
-            u.f = 33
-            t.push(u)
-			u = new T.tha2n2()
             u.f = 50
             t.push(u)
+			u = new T.tha2n2()
+            u.f = 75
+            t.push(u)
 			u = new T.tha2n3()
-            u.f = 120
+            u.f = 150
             t.push(u)
 
 }
@@ -24962,12 +24962,12 @@ C.rumia = H.a(u([17, 35, 20, 1, -8, 25, 7, 685]), [P.j])
 C.daiyousei = H.a(u([0, 17, 28, 1, 2, 15, 35, 1000]), [P.j])
 C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 565]), [P.j])
 C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
-C.koakuma = H.a(u([0, 100, 0, 0, 100, 100, 100, 800]), [P.j])
+C.koakuma = H.a(u([0, 0, 0, 0, 0, 0, 0, 1000]), [P.j])
 C.patchouli = H.a(u([21, -5, -20, 19, 26, 19, 39, 438]), [P.j])
 C.sakuya = H.a(u([-9, 23, 6, 36, 3, 29, 57, 474]), [P.j])
 C.nue = H.a(u([47, 32, 26, 51, 59, 37, 13, 791]), [P.j])
 C.reimu = H.a(u([31, 38, 15, 16, 44, 25, 32, 704]), [P.j])
-C.marisa = H.a(u([39, 33, 22, 44, 56, 27, 31, 665]), [P.j])
+C.marisa = H.a(u([19, 8, 15, 29, 56, 27, 30, 625]), [P.j])
 C.remilia = H.a(u([15, 36, 40, 30, 21, 21, 21, 764]), [P.j])
 C.flandre = H.a(u([30, 26, 24, 25, -21, 20, 1, 791]), [P.j])
 C.rin = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])

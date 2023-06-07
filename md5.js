@@ -16134,7 +16134,7 @@ T.tha2ak.prototype = {
 
 T.tha2n1.prototype = {
     ar: function(a, b) {
-            if (this.r.bagua > 2+ (a.m() & 4)/2 || this.r.bagua < 1)
+            if (this.r.bagua > 2+ C.d.v((a.m() & 4), 2) || this.r.bagua < 1)
             { 
                 return !1
             }
@@ -16152,11 +16152,13 @@ T.tha2n1.prototype = {
 }
 T.tha2b1.prototype = {
     t: function(a, b, c, d) {
-        var u = this, n ,m
+        var u = this, n ,m ,l 
 		u.f = 0
         t = a[0].a
-		n = (c.m() & 12)/2
-		m = (c.m() & 63) + 1
+		n = (c.m() & 11)
+		n = C.d.v(n, 2)
+		l = (c.m() & 127)
+		m = C.d.v(l, 2)
 		this.r.bagua = 6
         d.a.push(T.e("[0]：[等我死了再还你~]", u.r, t, null, null, 1, 1000, 100))
         if(n ==0)
@@ -19544,7 +19546,7 @@ o.bL(p, !0, this.r, T.a3(), c, d)
 }
    T.tha2n2.prototype = {
         ar: function(a, b) {
-            if (this.r.bagua > 4 + (a.m() & 8)/2 || this.r.bagua < 2)
+            if (this.r.bagua > 4 + C.d.v((a.m() & 8), 2)|| this.r.bagua < 2)
             { 
                 return !1
             }
@@ -21065,10 +21067,10 @@ T.marisa.prototype = {
             u.f = 0
             t.push(u)
             u = new T.tha2n1()
-            u.f = 50
+            u.f = 75
             t.push(u)
 			u = new T.tha2n2()
-            u.f = 75
+            u.f = 80
             t.push(u)
 			u = new T.tha2n3()
             u.f = 150

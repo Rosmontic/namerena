@@ -16119,7 +16119,7 @@ u.push($.v())
 T.tha2ak.prototype = {
     t: function(a, b, c, d) {
             var u, t, s, r, q = this, p = null, o = a[0].a, n
-            n = (c.m() & 5)
+            n = (c.m() & )
 			n = C.d.v(n, 2) + 2
 		    this.r.bagua = this.r.bagua + n
 		    if(this.r.bagua > 8){
@@ -16156,8 +16156,7 @@ T.tha2b1.prototype = {
         var u = this, n ,m ,l
 		u.f = 50
         t = a[0].a
-		n = (c.m() & 13)
-
+		n = (c.m() & 11)
 		m = (c.m() & 127)
 		m = C.d.v(m, 2) + 1
 		this.r.bagua = 0

@@ -6721,6 +6721,7 @@ tha2ak: function tha2ak() {
             _.e = !1
             _.f = 0
             _.c = _.b = _.a = _.r = null
+			},
 tha12ak: function tha12ak() {
             var _ = this
             _.e = !1
@@ -16275,19 +16276,19 @@ T.tha12ak.prototype = {
     t: function(a, b, c, d) {
             var u, t, s, r, q = this, p = null, o = a[0].a, n
             this.r.rins = this.r.rins + 1	
-		    if(this.r.rins = 2){
+		    if(this.r.rins == 2){
 			d.a.push(T.e("[0]: 世界 一台机器 正暗响孤鸣 多少个世纪", q.r, this.r.rins, p, p, 0, 1000, 100))
 			return 
 		    }
-            else if(this.r.rins = 4){
+            else if(this.r.rins == 4){
 			d.a.push(T.e("[0]: 岛屿 罗盘样的形体 在大洋穹上 在星辰海底", q.r, this.r.rins, p, p, 0, 1000, 100))
 			return 
 		    }
-			else if(this.r.rins = 6){
+			else if(this.r.rins == 6){
 			d.a.push(T.e("[0]: 壳里 黝锈的齿轮 和着浪语 明晰的困意", q.r, this.r.rins, p, p, 0, 1000, 100))
 			return 
 		    }
-			else if(this.r.rins = 8){
+			else if(this.r.rins == 8){
 			d.a.push(T.e("[0]: 等等 它沉没或浮起 怎不到达 梦的沙堤", q.r, this.r.rins, p, p, 0, 1000, 100))
 			this.r.fr = 0 
 			this.r.bf(this.r.fr, null, c, d)

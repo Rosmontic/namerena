@@ -16119,8 +16119,7 @@ u.push($.v())
 T.tha2ak.prototype = {
     t: function(a, b, c, d) {
             var u, t, s, r, q = this, p = null, o = a[0].a, n
-            n = (c.m() & 5)
-			n = C.d.v(n, 2) + 2
+            n = (c.m() & 3) + 1
 		    this.r.bagua = this.r.bagua + n
 		    if(this.r.bagua > 8){
 		    n = n - this.r.bagua + 8
@@ -16154,15 +16153,13 @@ T.tha2n1.prototype = {
 T.tha2b1.prototype = {
     t: function(a, b, c, d) {
         var u = this, n ,m ,l
-		u.f = 50
+		u.f = 0
         t = a[0].a
-		n = (c.m() & 11)
+		n = (c.m() & 7)
 		m = (c.m() & 127)
 		m = C.d.v(m, 2) + 1
 		this.r.bagua = 0
         d.a.push(T.e("[0]：[等我死了再还你~]", u.r, t, null, null, 1, 1000, 100))
-		d.a.push(T.e("[0]偷走[1][2]", u.r, t, n, null, null, 1, 1000, 100))
-	    n = C.d.v(n, 2)
         if(n ==0)
 		{
 		if(t.Q < m+1){
@@ -16254,6 +16251,10 @@ T.tha2b1.prototype = {
 		u.r.dy = u.r.dy + m
 		d.a.push(T.e("[0]偷走[1][2]点智力", u.r, t, m, null, null, 1, 1000, 100))
 		}}
+		if(n ==7)
+		{
+		d.a.push(T.e("[0] [大失败]", u.r, t, null, null, 1, 1000, 100))
+		}
      
     }
 }
@@ -16392,18 +16393,43 @@ T.tha8t2.prototype = {
             }
         return this.aS(a, b)
     },
-                t: function(a, b, c, d) {
-                    
-                    var u = this
-                t = a[0].a
-        s = T.u(u.r, !1, c)
-        d.a.push(T.e("[0]使用[水木符「水精灵」]", u.r, t, null, null, 1, 1000, 100))
-        u.r.element2 = 1
-        this.r.cy = 1.1*this.r.cy
-        d.a.push($.v())
-        t.a0(0.7*s, !0, u.r, T.kV(), c, d)
-        d.a.push($.v())
-        t.a0(0.7*s, !0, u.r, T.kV(), c, d)
+                a8: function(a, b, c) {
+            var u = this.bX(a, b, c, !0)
+            return a.r1.h(0, $.aC()) != null ? u / 2 : u
+        },
+        t: function(a, b, c, d) {
+            var u, t, s = this, r = null, q = a[0].a, p = d.a, o , m ,n
+			
+			m = q.fr
+            p.push(T.e("[0]使用[水木符「水精灵」]", s.r, q, r, r, 1, 1000, 100))
+			u.r.element2 = 1
+			for(n=0 ; n<2 ; ++n ){
+			
+            if (!q.a6($.aC(), c))
+                u = q.fr > 0 && !q.A && T.bd(s.r.db, q.dx, c)
+            else
+                u = !0
+            if (u) {
+                p.push(T.e(O.c("vVob"), q, s.r, r, r, 20, 1000, 100))
+                return
+            }
+            q.j = q.j - (q.cx + 64)
+            u = q.r1
+            t = H.o(u.h(0, $.aC()), "$icG")
+            if (t == null) {
+                t = new T.cG(q)
+				t.z = 1
+                t.y = new T.ay(t)
+                u.k(0, $.aC(), t)
+                q.r2.i(0, t)
+                q.x1.i(0, t.y)
+                q.E()
+            } else{
+                t.z += 1}			
+			o = T.u(this.r, !1, c)			
+            q.bL(0.75*o, !0, this.r, T.a3(), c, d)
+            d.a.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
+			}
         }   
         }
 T.tha8n3.prototype = {
@@ -16416,19 +16442,45 @@ T.tha8n3.prototype = {
         
         return this.aS(a, b)
     },
-            t: function(a, b, c, d) {
-                
-                var u = this
-                t = a[0].a
-        s = T.u(u.r, !1, c)
-        d.a.push(T.e("[0]使用[水符「湖葬」]", u.r, t, null, null, 1, 1000, 100))
-        u.r.element3 = 1
-        this.r.dx = 1.1*this.r.dx
-        t.a0(0.9*s, !0, u.r, T.kV(), c, d)
+	a8: function(a, b, c) {
+            var u = this.bX(a, b, c, !0)
+            return a.r1.h(0, $.aC()) != null ? u / 2 : u
+        },
+        t: function(a, b, c, d) {
+            var u, t, s = this, r = null, q = a[0].a, p = d.a, o , m
+			m = q.fr
+            p.push(T.e("[0]使用[水符「湖葬」]", s.r, q, r, r, 1, 1000, 100))
+			s.r.element3 = 1
+            if (!q.a6($.aC(), c))
+                u = q.fr > 0 && !q.A && T.bd(s.r.db, q.dx, c)
+            else
+                u = !0
+            if (u) {
+                p.push(T.e(O.c("vVob"), q, s.r, r, r, 20, 1000, 100))
+                return
+            }
+            q.j = q.j - (q.cx + 64)
+            u = q.r1
+            t = H.o(u.h(0, $.aC()), "$icG")
+            if (t == null) {
+                t = new T.cG(q)
+				t.z = 1
+                t.y = new T.ay(t)
+                u.k(0, $.aC(), t)
+                q.r2.i(0, t)
+                q.x1.i(0, t.y)
+                q.E()
+            } else{
+                t.z += 1}			
+			o = T.u(this.r, !1, c)			
+            q.bL(0.85*o, !0, this.r, T.a3(), c, d)
+            d.a.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
+			
         }   
         }
 T.tha8t3.prototype = {
     ar: function(a, b) {
+
             if (this.r.element3 == 1 || this.r.element1 == 0)
             { 
                 return !1
@@ -16436,15 +16488,40 @@ T.tha8t3.prototype = {
         
         return this.aS(a, b)
     },
-            t: function(a, b, c, d) {
-                
-                var u = this
-                t = a[0].a
-        s = T.u(u.r, !1, c)
-        d.a.push(T.e("[0]使用[金水符「水银之毒」]", u.r, t, null, null, 1, 1000, 100))
-        u.r.element3 = 1
-        this.r.dx = 1.1*this.r.dx
-        t.a0(1.6*s, !0, u.r, T.kV(), c, d)
+	a8: function(a, b, c) {
+            var u = this.bX(a, b, c, !0)
+            return a.r1.h(0, $.aC()) != null ? u / 2 : u
+        },
+        t: function(a, b, c, d) {
+            var u, t, s = this, r = null, q = a[0].a, p = d.a, o , m
+			m = q.fr
+            p.push(T.e("[0]使用[金水符「水银之毒」]", s.r, q, r, r, 1, 1000, 100))
+			s.r.element3 = 1
+            if (!q.a6($.aC(), c))
+                u = q.fr > 0 && !q.A && T.bd(s.r.db, q.dx, c)
+            else
+                u = !0
+            if (u) {
+                p.push(T.e(O.c("vVob"), q, s.r, r, r, 20, 1000, 100))
+                return
+            }
+            q.j = q.j - (q.cx + 64)
+            u = q.r1
+            t = H.o(u.h(0, $.aC()), "$icG")
+            if (t == null) {
+                t = new T.cG(q)
+				t.z = 1
+                t.y = new T.ay(t)
+                u.k(0, $.aC(), t)
+                q.r2.i(0, t)
+                q.x1.i(0, t.y)
+                q.E()
+            } else{
+                t.z += 1}			
+			o = T.u(this.r, !1, c)			
+            q.bL(1.6*o, !0, this.r, T.a3(), c, d)
+            d.a.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
+			
         }   
         }
 T.tha8n4.prototype = {
@@ -21073,16 +21150,16 @@ T.marisa.prototype = {
 			u = new T.tha2s1()
             u.fr = new T.bP(u)
             u.fx = new T.cB(u)
-            u.f = 0
+            u.f = 30
             t.push(u)
             u = new T.tha2n1()
-            u.f = 0
+            u.f = 70
             t.push(u)
 			u = new T.tha2n2()
-            u.f = 0
+            u.f = 60
             t.push(u)
 			u = new T.tha2n3()
-            u.f = 0
+            u.f = 120
             t.push(u)
 
 }
@@ -24973,7 +25050,7 @@ C.rumia = H.a(u([17, 35, 20, 1, -8, 25, 7, 685]), [P.j])
 C.daiyousei = H.a(u([0, 17, 28, 1, 2, 15, 35, 1000]), [P.j])
 C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 565]), [P.j])
 C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
-C.koakuma = H.a(u([0, 0, 0, 0, 0, 0, 0, 1000]), [P.j])
+C.koakuma = H.a(u([0, 9, 19, -3, 7, 32, 31, 700]), [P.j])
 C.patchouli = H.a(u([21, -5, -20, 19, 26, 19, 39, 438]), [P.j])
 C.sakuya = H.a(u([-9, 23, 6, 36, 3, 29, 57, 474]), [P.j])
 C.nue = H.a(u([47, 32, 26, 51, 59, 37, 13, 791]), [P.j])

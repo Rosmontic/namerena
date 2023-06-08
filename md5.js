@@ -16277,7 +16277,7 @@ T.tha12ak.prototype = {
             var u, t, s, r, q = this, p = null, o = a[0].a, n
             this.r.rins = this.r.rins + 1	
 		    if(this.r.rins == 2){
-			d.a.push(T.e("[0]: 世界  一台机器  暗响孤鸣  多少个世纪", q.r, this.r.rins, p, p, 0, 1000, 100))
+			d.a.push(T.e("[0]: 世界  一台机器  正暗响孤鸣  多少个世纪", q.r, this.r.rins, p, p, 0, 1000, 100))
 			return 
 		    }
             else if(this.r.rins == 4){

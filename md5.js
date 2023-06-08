@@ -16120,6 +16120,7 @@ T.tha2ak.prototype = {
     t: function(a, b, c, d) {
             var u, t, s, r, q = this, p = null, o = a[0].a, n
             n = (c.m() & 3) + 1
+		
 		    this.r.bagua = this.r.bagua + n
 		    if(this.r.bagua > 8){
 		    n = n - this.r.bagua + 8
@@ -16134,7 +16135,7 @@ T.tha2ak.prototype = {
 
 T.tha2n1.prototype = {
     ar: function(a, b) {
-            if (this.r.bagua > 2+ C.d.v((a.m() & 5), 2) || this.r.bagua < 1)
+            if (this.r.bagua > 2+ C.d.v((a.m() & 3) || this.r.bagua < 1)
             { 
                 return !1
             }
@@ -16158,7 +16159,7 @@ T.tha2b1.prototype = {
 		n = (c.m() & 7)
 		m = (c.m() & 127)
 		m = C.d.v(m, 2) + 1
-		this.r.bagua = 0
+		this.r.bagua = 4
         d.a.push(T.e("[0]：[等我死了再还你~]", u.r, t, null, null, 1, 1000, 100))
         if(n ==0)
 		{
@@ -19221,7 +19222,7 @@ aK: function(a, b, c, d) {
 			v = t.fr
 			w = 4.2
 			this.f =0 
-            k.push(T.e("[0]使用[彗星「炽热飞星」」]", r.r, t, q, q, 1, 1000, 100))
+            k.push(T.e("[0]使用[彗星「炽热飞星」]", r.r, t, q, q, 1, 1000, 100))
             t.a0(C.d.Z(w*T.u(r.r, !1, c)), !1, r.r, T.a3(), c, d)
             if((c.m() & 63) > 31 ){
             r.r.j = r.r.j +2048
@@ -19632,7 +19633,7 @@ o.bL(p, !0, this.r, T.a3(), c, d)
 }
    T.tha2n2.prototype = {
         ar: function(a, b) {
-            if (this.r.bagua > 4 + C.d.v((a.m() & 7), 2)|| this.r.bagua < 2)
+            if (this.r.bagua > 4 + (a.m() & 3)|| this.r.bagua < 2)
             { 
                 return !1
             }
@@ -19713,10 +19714,10 @@ T.tha1s1.prototype = {
             return c.gbh() * a.J
         },
         gb3: function() {
-            return 120
+            return 12
         },
         gb4: function() {
-            return 120
+            return 12
         },
         t: function(a, b, c, d) {
 		if(this.r.meng == 0)
@@ -19736,7 +19737,7 @@ T.tha1s1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 7.2
+            p = T.u(this.r, !0, c) * 7
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 && o.e != "reimu@!" )  {
@@ -21150,16 +21151,16 @@ T.marisa.prototype = {
 			u = new T.tha2s1()
             u.fr = new T.bP(u)
             u.fx = new T.cB(u)
-            u.f = 30
+            u.f = 33
             t.push(u)
             u = new T.tha2n1()
-            u.f = 70
-            t.push(u)
-			u = new T.tha2n2()
             u.f = 60
             t.push(u)
+			u = new T.tha2n2()
+            u.f = 50
+            t.push(u)
 			u = new T.tha2n3()
-            u.f = 120
+            u.f = 150
             t.push(u)
 
 }

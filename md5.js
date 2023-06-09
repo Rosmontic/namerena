@@ -19726,6 +19726,7 @@ o.bL(p, !0, this.r, T.a3(), c, d)
 }
                     
                 }
+			q.push($.v())
 			q.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
             
         }
@@ -19763,6 +19764,7 @@ T.tha2n3.prototype = {
 }
                     
                 }
+			q.push($.v())
 		    d.a.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
             
         }
@@ -23722,7 +23724,8 @@ T.i9m.prototype = {
             if(r.r.timekp > 4)
 			{
             r.r.timekp = 0
-			d.a.push(T.e("[0]的[世界]结束", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]的[世界]结束了", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
 			}
 			return a
         },

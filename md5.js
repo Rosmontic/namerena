@@ -16172,7 +16172,7 @@ T.tha2b1.prototype = {
 		n = (c.m() & 7)
 		m = (c.m() & 127)
 		m = C.d.v(m, 2) + 1
-		this.r.bagua = 4
+		this.r.bagua = 6
         d.a.push(T.e("[0]：[等我死了再还你~]", u.r, t, null, null, 1, 1000, 100))
         if(n ==0)
 		{
@@ -16747,21 +16747,24 @@ t.a0(s, !0, u.r, T.a3(), c, d)
 }
 T.tha9n3.prototype = {
             t: function(a, b, c, d) {
-                var r,v,u = this,n,m
+                var r,v,u = this, n, m ,l
                 t = a[0].a
         s = T.u(u.r, !1, c)
 		m = t.ch
+		l = t.cy
         t.ch = C.d.Z(t.ch * 0.5)
 		d.a.push(T.e("[0]使用[伤魂「灵魂雕塑」]", u.r, t, null, null, 1, 1000, 100))
 		if(this.r.timekp > 0){
 		t.ch = 0
+		t.cy = 0
 		for(n = 0; n < 11; ++n){
 		if(t.fr > 0){
 		d.a.push($.v())
-        t.bL(0.11*s, !1, u.r, T.a3(), c, d)
+        t.bL(0.14*s, !1, u.r, T.a3(), c, d)
 		}
 		else{
 		t.ch = m
+		t.cy = l
 		return 0
 		}
         }
@@ -16770,7 +16773,7 @@ T.tha9n3.prototype = {
         for(n = 0; n < 11; ++n){		
 		if(t.fr > 0){
 		d.a.push($.v())
-        t.a0(0.11*s, !1, u.r, T.a3(), c, d)
+        t.a0(0.14*s, !1, u.r, T.a3(), c, d)
 		}
 		else{
 		t.ch = m
@@ -16779,6 +16782,7 @@ T.tha9n3.prototype = {
         }    
         }
 		t.ch = m
+		t.cy = l
         }   
         }
     T.tha9n1.prototype = {
@@ -16788,7 +16792,7 @@ T.tha9n3.prototype = {
         s = T.u(u.r, !1, c)
 		d.a.push(T.e("[0]使用[银符「银之跳跃」]", u.r, t, null, null, 1, 1000, 100))
 		if(this.r.timekp > 0){
-		for(n = 0; n < 7; ++n){
+		for(n = 0; n < 14; ++n){
 		if(t.fr > 0){
 		d.a.push($.v())
         t.bL(0.21*s, !1, u.r, T.a3(), c, d)}
@@ -17733,7 +17737,7 @@ T.tha4n1.prototype = {
             u.r.r2.i(0, u.fy)
             u.r.r1.k(0, "darkiron", u)
             u.r.E()
-            u.id = 3
+            u.id = 5
             r = u.r
             u.go = 240 + u.r.db * 4
             s = u.r
@@ -18275,11 +18279,12 @@ n.r.bf(n.r.fr, null, c, d)
             return H.a([], [T.Z])
         },
         t: function(a, a0, a1, a2) {
-            var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
-            c.f = C.d.Z(c.f * 0.8)
+            var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v, w
+            c.f = C.d.Z(c.f * 0.6)
             u = a2.a
+			w = (a.m() & 1) + 2
             u.push(T.e("[0]发动[「妖精的声援」]", c.r, b, b, b, 60, 1000, 100))
-			for(v =1 ; v < 3 ; v++){
+			for(v =1 ; v < w ; v++){
 			u.push($.v())
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
@@ -18420,14 +18425,14 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x	
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 1		
+			d.fx = 1	
 			d.fr = 1
 			d.cy = 1
 			d.ch = 1
 			d.db = 1
             c.r.x.aU(d)
             u.push(T.e("出现了[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
-			this.r.j = 1024
+			this.r.j = this.r.j+ 2000
         }
     }
     T.hha7t1.prototype = {
@@ -19749,7 +19754,7 @@ T.tha2n3.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 0.6 * this.r.bagua
+            p = T.u(this.r, !0, c) * 0.65 * this.r.bagua
 			this.r.bagua = 0
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
@@ -20862,10 +20867,10 @@ T.rumia.prototype = {
             t = this.id 
 t.push(new T.tha3b2())
 u = new T.tha3n1()
-u.f = 40
+u.f = 45
 t.push(u)
 u = new T.tha3n2()
-u.f = 80
+u.f = 85
 t.push(u)
 u = new T.tha3s1()
 u.f = 200
@@ -21215,7 +21220,7 @@ T.marisa.prototype = {
             u.f = 54
             t.push(u)
 			u = new T.tha2n2()
-            u.f = 60
+            u.f = 65
             t.push(u)
 			u = new T.tha2n3()
             u.f = 150
@@ -23529,7 +23534,7 @@ dk: function(a, b, c, d, e, f, g) {
         if (c.fr <= 0)
             return a
         if ( s.r.fr > 0 ) {
-            u = 10*(s.r.dx + s.r.ch)
+            u = 12*(s.r.dx + s.r.ch)
             g.a.push(T.e(C.c.K("[0]触发[黑雾]", $.nj()), s.r, c, null, null, 20, 1500, 100))
             c.bL(u, !1, s.r, T.a3(), f, g)
             t = s.r
@@ -25106,12 +25111,12 @@ T.i9m.prototype = {
 C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
 C.rumia = H.a(u([17, 35, 20, 1, -8, 25, 7, 685]), [P.j])
-C.daiyousei = H.a(u([0, 17, 28, 1, 2, 15, 35, 1000]), [P.j])
+C.daiyousei = H.a(u([0, 17, 28, 1, 2, 15, 35, 952]), [P.j])
 C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 764]), [P.j])
 C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
 C.koakuma = H.a(u([0, 9, 19, -3, 7, 32, 31, 700]), [P.j])
 C.patchouli = H.a(u([21, -5, -20, 19, 36, 34, 39, 438]), [P.j])
-C.sakuya = H.a(u([-9, 18, 6, 31, 3, 29, 57, 474]), [P.j])
+C.sakuya = H.a(u([-9, 18, 6, 51, 3, 29, 57, 474]), [P.j])
 C.nue = H.a(u([47, 32, 26, 51, 59, 37, 13, 791]), [P.j])
 C.reimu = H.a(u([31, 38, 6, 16, 44, 25, 32, 704]), [P.j])
 C.marisa = H.a(u([19, 8, 15, 29, 56, 17, 30, 625]), [P.j])

@@ -18798,8 +18798,8 @@ t: function(a, b, c, d) {
                 o = n[u]
 if (o.fr > 0 && o.e != "sakuya@!" && o.e != "remilia@!" ) {
 d.a.push($.v())
-o.j = o.j -8192*C.b.v(o.cx, this.r.cx)
-this.j = this.js + 2048
+o.j = o.j - 8192 - o.cx*10
+this.j = this.j + 2048
 d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
 
 

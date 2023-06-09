@@ -4576,7 +4576,7 @@
 		p51: function(a, b, c, d, e) {
             var u, t, s, r
             if (c > 0 && !(a.fr <= 0)) {
-                u = C.b.v(c + 1, 4)
+                u = C.b.v(c , 5)
                 t = a.fx
                 s = a.fr
                 r = t - s
@@ -16285,7 +16285,7 @@ T.tha12ak.prototype = {
 			return 
 		    }
 			else if(this.r.rins == 6){
-			d.a.push(T.e("[0]: 壳里  黝锈的齿轮  和着浪语  明晰的困意", q.r, this.r.rins, p, p, 0, 1000, 100))
+			d.a.push(T.e("[0]: 壳里  黝锈的齿轮  和着浪语  明晰的困噫", q.r, this.r.rins, p, p, 0, 1000, 100))
 			return 
 		    }
 			else if(this.r.rins == 8){
@@ -16308,10 +16308,10 @@ if (H.o(t.r1.h(0, $.b8()), "$idj") == null)
 s = T.u(u.r, !1, c)}
 else
 {
-s = 1.3*T.u(u.r, !1, c)
+s = 1.45*T.u(u.r, !1, c)
 }            
 d.a.push(T.e("[0]使用[冰符「冰瀑」]", u.r, t, null, null, 1, 1000, 100))
-t.a0(s, !0, u.r, T.kV(), c, d)
+t.a0(1.1*s, !0, u.r, T.kV(), c, d)
             
         }
 }
@@ -16361,8 +16361,8 @@ T.tha8n1.prototype = {
 s = T.u(u.r, !1, c)
 d.a.push(T.e("[0]使用[金符「银龙」]", u.r, t, null, null, 1, 1000, 100))
 u.r.element1 = 1
-u.r.cx = 1.1*u.r.cx
-t.a0(1.4*s, !0, u.r, T.a3(), c, d)
+u.r.cx = 1.12*u.r.cx
+t.a0(1.3*s, !0, u.r, T.a3(), c, d)
 }   
     }
 T.tha8t1.prototype = {
@@ -16392,8 +16392,8 @@ T.tha8t1.prototype = {
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
             this.r.element1 = 1
-            this.r.cx = 1.1*this.r.cx
-            p = T.u(this.r, !0, c) * 0.9
+            this.r.cx = 1.12*this.r.cx
+            p = T.u(this.r, !0, c) * 0.95
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
 if (o.fr > 0 ) {
@@ -16419,11 +16419,11 @@ T.tha8n2.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[木符「翠绿风暴」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element2 = 1
-        this.r.cy = 1.1*this.r.cy
+        this.r.cy = 1.12*this.r.cy
         d.a.push($.v())
-        t.a0(0.7*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.65*s, !0, u.r, T.a3(), c, d)
         d.a.push($.v())
-        t.a0(0.7*s, !0, u.r, T.a3(), c, d)
+        t.a0(0.65*s, !0, u.r, T.a3(), c, d)
         }   
         }
 T.tha8t2.prototype = {
@@ -16444,6 +16444,7 @@ T.tha8t2.prototype = {
 			m = q.fr
             p.push(T.e("[0]使用[水木符「水精灵」]", s.r, q, r, r, 1, 1000, 100))
 			s.r.element2 = 1
+			this.r.cy = 1.12*this.r.cy
 			for(n=0 ; n<2 ; ++n ){
 			
             if (!q.a6($.aC(), c))
@@ -16467,8 +16468,9 @@ T.tha8t2.prototype = {
                 q.E()
             } else{
                 t.z += 1}			
-			o = T.u(this.r, !1, c)			
-            q.bL(0.75*o, !0, this.r, T.a3(), c, d)
+			o = T.u(this.r, !1, c)
+			d.a.push($.v())
+            q.bL(0.7*o, !0, this.r, T.a3(), c, d)
             d.a.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
 			}
         }   
@@ -16492,6 +16494,7 @@ T.tha8n3.prototype = {
 			m = q.fr
             p.push(T.e("[0]使用[水符「湖葬」]", s.r, q, r, r, 1, 1000, 100))
 			s.r.element3 = 1
+			this.r.dx = 1.12*this.r.dx
             if (!q.a6($.aC(), c))
                 u = q.fr > 0 && !q.A && T.bd(s.r.db, q.dx, c)
             else
@@ -16514,7 +16517,7 @@ T.tha8n3.prototype = {
             } else{
                 t.z += 1}			
 			o = T.u(this.r, !1, c)			
-            q.bL(0.85*o, !0, this.r, T.a3(), c, d)
+            q.bL(0.70*o, !0, this.r, T.a3(), c, d)
             d.a.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
 			
         }   
@@ -16538,6 +16541,7 @@ T.tha8t3.prototype = {
 			m = q.fr
             p.push(T.e("[0]使用[金水符「水银之毒」]", s.r, q, r, r, 1, 1000, 100))
 			s.r.element3 = 1
+			this.r.dx = 1.12*this.r.dx
             if (!q.a6($.aC(), c))
                 u = q.fr > 0 && !q.A && T.bd(s.r.db, q.dx, c)
             else
@@ -16560,7 +16564,7 @@ T.tha8t3.prototype = {
             } else{
                 t.z += 1}			
 			o = T.u(this.r, !1, c)			
-            q.bL(1.6*o, !0, this.r, T.a3(), c, d)
+            q.bL(1.7*o, !0, this.r, T.a3(), c, d)
             d.a.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
 			
         }   
@@ -16581,7 +16585,7 @@ T.tha8n4.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[火符「火神的光辉」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element4 = 1
-        this.r.db = 1.1*this.r.db
+        this.r.db = 1.12*this.r.db
         t.a0(s, !0, u.r, T.firea(), c, d)
         }   
         }
@@ -16602,7 +16606,7 @@ T.tha8t4.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[木火符「森林大火」]", u.r, t, null, null, 1, 1000, 100))
         u.r.element4 = 1
-        this.r.db = 1.1*this.r.db
+        this.r.db = 1.12*this.r.db
         d.a.push($.v())
         t.a0(0.75*s, !0, u.r, T.firea(), c, d)
         d.a.push($.v())
@@ -16636,8 +16640,8 @@ T.tha8n5.prototype = {
                 q = d.a
                 q.push(T.e(t, s, null, null, r, 1, 1000, 100))
                 s.element5 = 1
-                this.r.ch = 1.1*this.r.ch
-                p = T.u(this.r, !0, c) * 0.70
+                this.r.ch = 1.12*this.r.ch
+                p = T.u(this.r, !0, c) * 0.7
                 for (u = 0; u < n.length; ++u) {
                     o = n[u]
     if (o.fr > 0 ) {
@@ -16673,7 +16677,7 @@ T.tha8t5.prototype = {
                     q = d.a
                     q.push(T.e(t, s, null, null, r, 1, 1000, 100))
                     s.element5 = 1
-                    this.r.ch = 1.1*this.r.ch
+                    this.r.ch = 1.12*this.r.ch
                     p = T.u(this.r, !0, c) * 0.7
                     for (u = 0; u < n.length; ++u) {
                         o = n[u]
@@ -16809,7 +16813,7 @@ T.tha9n3.prototype = {
         t = a[0].a
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[必杀「碎心」]", u.r, t, null, null, 1, 1000, 100))
-        t.bL(1.3*s, !1, u.r, T.q71(), c, d)
+        t.bL(1.25*s, !1, u.r, T.q71(), c, d)
     }
 }
     T.tha10n2.prototype = {
@@ -18516,10 +18520,13 @@ u[6] = t[6]*10
             d.j = 2048
             d.fx = 720
             d.fr = 720
-            d.cx = 10*this.r.cx
-            d.db = 2*this.r.db
-            d.dy = 2*this.r.dy
-
+            d.Q =  66
+			d.ch = 75
+			d.cx = 72
+			d.cy = 72 
+			d.db = 120
+			d.dx = 90
+            d.dy = 119
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }
@@ -19104,7 +19111,8 @@ T.tha5n3.prototype = {
 if (H.o(l.r1.h(0, $.b8()), "$idj") == null) 
 {q = T.u(n.r, !0, c)}
 else
-{q = T.u(n.r, !0, c)*1.3}
+{q = T.u(n.r, !0, c)*1.45
+}
                     p = k.length
                     o = n.r
                     if (l.aA(l.ak(C.e.Z(q * 0.4 / T.cc(l, !0, c)), o, T.kV(), c, d), o, T.kV(), c, d) > 0)
@@ -19575,7 +19583,7 @@ if (o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") == null ) {
 q.push($.v())
 o.a0(p, !0, this.r, T.kV(), c, d)}
 else if(o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") != null ) {
-p=1.3*p
+p=1.45*p
 q.push($.v())
 o.a0(p, !0, this.r, T.kV(), c, d)
 }
@@ -19607,7 +19615,7 @@ T.tha5s1.prototype = {
 q.push($.v())
 o.a0(p, !0, this.r, T.kV(), c, d)}
 else if(o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") != null ) {
-p=2*p
+p=1.99*p
 q.push($.v())
 o.a0(p, !0, this.r, T.kV(), c, d)
 }
@@ -25099,14 +25107,14 @@ C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
 C.rumia = H.a(u([17, 35, 20, 1, -8, 25, 7, 685]), [P.j])
 C.daiyousei = H.a(u([0, 17, 28, 1, 2, 15, 35, 1000]), [P.j])
-C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 565]), [P.j])
+C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 764]), [P.j])
 C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
 C.koakuma = H.a(u([0, 9, 19, -3, 7, 32, 31, 700]), [P.j])
-C.patchouli = H.a(u([21, -5, -20, 19, 36, 49, 39, 438]), [P.j])
-C.sakuya = H.a(u([-9, 23, 6, 36, 3, 29, 57, 474]), [P.j])
+C.patchouli = H.a(u([21, -5, -20, 19, 36, 34, 39, 438]), [P.j])
+C.sakuya = H.a(u([-9, 18, 6, 31, 3, 29, 57, 474]), [P.j])
 C.nue = H.a(u([47, 32, 26, 51, 59, 37, 13, 791]), [P.j])
-C.reimu = H.a(u([31, 38, 15, 16, 44, 25, 32, 704]), [P.j])
-C.marisa = H.a(u([19, 8, 15, 29, 56, 27, 30, 625]), [P.j])
+C.reimu = H.a(u([31, 38, 6, 16, 44, 25, 32, 704]), [P.j])
+C.marisa = H.a(u([19, 8, 15, 29, 56, 17, 30, 625]), [P.j])
 C.remilia = H.a(u([15, 36, 40, 30, 21, 21, 21, 764]), [P.j])
 C.flandre = H.a(u([30, 26, 24, 25, -21, 20, 1, 791]), [P.j])
 C.rin = H.a(u([ -40, 934, 6, 943, -82, 908, 9 , 723]), [P.j])

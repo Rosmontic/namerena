@@ -18271,7 +18271,7 @@ n.r.bf(n.r.fr, null, c, d)
     T.tha4n2.prototype = {
         ar: function(a, b) {
             if (b)
-                if (this.r.fr < 40)
+                if (this.r.fr < 400)
                     return !1
             return this.aS(a, b)
         },
@@ -18279,12 +18279,11 @@ n.r.bf(n.r.fr, null, c, d)
             return H.a([], [T.Z])
         },
         t: function(a, a0, a1, a2) {
-            var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v, w
+            var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
             c.f = C.d.Z(c.f * 0.6)
             u = a2.a
-			w = (a.m() & 1) + 2
             u.push(T.e("[0]发动[「妖精的声援」]", c.r, b, b, b, 60, 1000, 100))
-			for(v =1 ; v < w ; v++){
+			for(v =1 ; v < 3 ; v++){
 			u.push($.v())
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
@@ -18466,7 +18465,7 @@ u[6] = t[6]*10
     }
     T.tha7t1.prototype = {
         ar: function(a, b) {
-                if (this.r.fr > 900)
+                if (this.r.fr > 450)
                     return !1
             return this.aS(a, b)
         },
@@ -18533,7 +18532,7 @@ u[6] = t[6]*10
 			d.dx = 90
             d.dy = 119
             c.r.x.aU(d)
-            u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+            u.push(T.e("召唤出奇怪的[1]？", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }
     }
 	T.hha11t1.prototype = {
@@ -20987,21 +20986,18 @@ T.koakuma.prototype = {
             this.k2 = t
             t = this.id
             t.push(new T.tha7b1())
-u = new T.ig()
+            u = new T.tha7t1()
             u.f = 200
             t.push(u)
-            u = new T.tha7t1()
-            u.f = 0
+			u = new T.tha7s1()
+            u.f = 50
             t.push(u)
             u = new T.tha7n1()
-            u.f = 0
+            u.f = 50
             t.push(u)
             u = new T.tha7n2()
-            u.f = 0
-            t.push(u)
-            u = new T.tha7s1()
-            u.f = 0
-            t.push(u)
+            u.f = 100
+            t.push(u)         
 
 }
 }
@@ -21067,12 +21063,12 @@ T.sakuya.prototype = {
             u = new T.tha9s1()
             u.f = 60
             t.push(u)
+			u = new T.tha9n2()
+            u.f = 50
+            t.push(u)
 			u = new T.tha9n1()
             u.f = 45
-            t.push(u)
-			u = new T.tha9n2()
-            u.f = 60
-            t.push(u)
+            t.push(u)	
 			u = new T.tha9n3()
             u.f = 126
             t.push(u)

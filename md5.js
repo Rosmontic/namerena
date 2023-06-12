@@ -16159,9 +16159,10 @@ T.tha2n1.prototype = {
         t = a[0].a
     s = T.u(u.r, !1, c)
     d.a.push(T.e("[0]使用[恋符「非定向光线」]", u.r, t, null, null, 1, 1000, 100))
-	this.r.bagua = this.r.bagua - 1
-    t.a0(1.75*s, !0, u.r, T.a3(), c, d)
 	d.a.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
+	this.r.bagua = this.r.bagua - 1
+    t.a0(1.8*s, !0, u.r, T.a3(), c, d)
+	
     }
 }
 T.tha2b1.prototype = {
@@ -17739,7 +17740,7 @@ T.tha4n1.prototype = {
             u.r.E()
             u.id = 5
             r = u.r
-            u.go = 240 + u.r.db * 4
+            u.go = 240
             s = u.r
             s.j = s.j
             s = C.c.K(O.c("PurV"), $.nh())
@@ -18614,14 +18615,14 @@ u[6] = t[6]*10
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = C.d.Z(this.r.fx *0.4)
-			d.fr = C.d.Z(this.r.fr *0.4)
-			d.Q =  C.d.Z(this.r.Q  *0.4)
-			d.ch = C.d.Z(this.r.ch *0.4)
-			d.cx = C.d.Z(this.r.cx *0.64) 
-			d.cy = C.d.Z(this.r.cx *0.64) 
-			d.db = C.d.Z(this.r.db *0.4)
-			d.dx = C.d.Z(this.r.dx *0.4)
+			d.fx = C.d.Z(this.r.fx *0.6)
+			d.fr = C.d.Z(this.r.fr *0.6)
+			d.Q =  C.d.Z(this.r.Q  *0.6)
+			d.ch = C.d.Z(this.r.ch *0.6)
+			d.cx = C.d.Z(this.r.cx *0.6) 
+			d.cy = C.d.Z(this.r.cx *0.6) 
+			d.db = C.d.Z(this.r.db *0.6)
+			d.dx = C.d.Z(this.r.dx *0.6)
 			d.dy = this.r.dy
             d.j = - 1024
             c.r.x.aU(d)
@@ -18856,6 +18857,10 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
                 t.z += 1}			
 			o = T.u(this.r, !1, c)			
             q.bL(0.72*o, !0, this.r, T.a3(), c, d)
+			if(q.cx > 5)
+			{
+			q.cx = q.cx - 5
+			}
             d.a.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
 			if(q.fr > 0 && q.fr < 0.2*q.fx)
 			{
@@ -19272,7 +19277,7 @@ aK: function(a, b, c, d) {
             r.ae(0)
             t = a[0].a
 			v = t.fr
-			w = 4.2
+			w = 4.5
 			this.f =0 
             k.push(T.e("[0]使用[彗星「炽热飞星」]", r.r, t, q, q, 1, 1000, 100))
             t.a0(C.d.Z(w*T.u(r.r, !1, c)), !1, r.r, T.a3(), c, d)
@@ -19619,7 +19624,7 @@ T.tha5s1.prototype = {
 q.push($.v())
 o.a0(p, !0, this.r, T.kV(), c, d)}
 else if(o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") != null ) {
-p=1.99*p
+p=2.44*p
 q.push($.v())
 o.a0(p, !0, this.r, T.kV(), c, d)
 }
@@ -19646,7 +19651,7 @@ T.tha3n1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 0.85
+            p = T.u(this.r, !0, c) * 0.9
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
 if (o.fr > 0 ) {
@@ -19717,7 +19722,8 @@ o.bL(p, !0, this.r, T.a3(), c, d)
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
 			this.r.bagua = this.r.bagua - 2
-            p = T.u(this.r, !0, c) * 1.50
+			q.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
+            p = T.u(this.r, !0, c) * 1.5
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
         if (o.fr > 0 ) {
@@ -19726,8 +19732,7 @@ o.bL(p, !0, this.r, T.a3(), c, d)
 }
                     
                 }
-			q.push($.v())
-			q.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
+			
             
         }
 }
@@ -19754,8 +19759,9 @@ T.tha2n3.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 0.65 * this.r.bagua
+            p = T.u(this.r, !0, c) * 0.7 * this.r.bagua
 			this.r.bagua = 0
+		    d.a.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
         if (o.fr > 0 ) {
@@ -19764,13 +19770,18 @@ T.tha2n3.prototype = {
 }
                     
                 }
-			q.push($.v())
-		    d.a.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
+			
             
         }
 }
 T.tha1s1.prototype = {      
-        
+        ar: function(a, b) {
+            if (this.r.meng > 0 && this.r.meng < 7)
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
 		b5: function(a) {
             return a.b1(this.r.x.a.e)
         },

@@ -16159,10 +16159,10 @@ T.tha2n1.prototype = {
         t = a[0].a
     s = T.u(u.r, !1, c)
     d.a.push(T.e("[0]使用[恋符「非定向光线」]", u.r, t, null, null, 1, 1000, 100))
-	d.a.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
 	this.r.bagua = this.r.bagua - 1
     t.a0(1.8*s, !0, u.r, T.a3(), c, d)
-	
+	q.push($.v())
+	d.a.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
     }
 }
 T.tha2b1.prototype = {
@@ -19270,7 +19270,7 @@ aK: function(a, b, c, d) {
                 r.fy = r.r
                 r.r.ry.i(0, r.fr)
                 k.push(T.e("[0][加速]", r.r, r.fy, q, q, 1, 1000, 100))
-				r.r.cx = 1.4*r.r.cx
+				r.r.cx = 1.5*r.r.cx
                 r.r.j = r.r.j
             }
             else {
@@ -19776,7 +19776,7 @@ T.tha2n3.prototype = {
 }
 T.tha1s1.prototype = {      
         ar: function(a, b) {
-            if (this.r.meng > 0 && this.r.meng < 7)
+            if (this.r.meng > 0 )
             { 
                 return !1
             }
@@ -19797,7 +19797,7 @@ T.tha1s1.prototype = {
         t: function(a, b, c, d) {
 		if(this.r.meng == 0)
 		{this.r.meng = 1
-		d.a.push(T.e("[0] [-_-#]", this.r, null, null, null, 1, 1000, 100))
+		d.a.push(T.e("[0] [ᗜ˰ᗜ#]", this.r, null, null, null, 1, 1000, 100))
 		this.f = 700
 		return 0
 		}
@@ -21183,7 +21183,7 @@ T.reimu.prototype = {
             t = this.id 
 			t.push(new T.tha1b1())
             u = new T.tha1s1()
-            u.f = 20
+            u.f = 200
             t.push(u)			
             u = new T.tha1n1()
             f = new T.dF(1 / 0,u)

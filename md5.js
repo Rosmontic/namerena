@@ -19788,7 +19788,7 @@ T.tha1s1.prototype = {
             return 12
         },
 		ar: function(a, b) {
-            if (this.r.meng == 1000 )
+            if (this.r.meng > 0 && this.r.meng < 7 )
             { 
                 return !1
             }
@@ -21183,7 +21183,7 @@ T.reimu.prototype = {
             t = this.id 
 			t.push(new T.tha1b1())
             u = new T.tha1s1()
-            u.f = 200
+            u.f = 20
             t.push(u)			
             u = new T.tha1n1()
             f = new T.dF(1 / 0,u)

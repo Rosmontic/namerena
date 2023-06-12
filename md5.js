@@ -16161,7 +16161,7 @@ T.tha2n1.prototype = {
     d.a.push(T.e("[0]使用[恋符「非定向光线」]", u.r, t, null, null, 1, 1000, 100))
 	this.r.bagua = this.r.bagua - 1
     t.a0(1.8*s, !0, u.r, T.a3(), c, d)
-	q.push($.v())
+	d.a.push($.v())
 	d.a.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
     }
 }
@@ -19775,13 +19775,6 @@ T.tha2n3.prototype = {
         }
 }
 T.tha1s1.prototype = {      
-        ar: function(a, b) {
-            if (this.r.meng > 0 )
-            { 
-                return !1
-            }
-			return this.aS(a, b)
-		},
 		b5: function(a) {
             return a.b1(this.r.x.a.e)
         },
@@ -19794,6 +19787,13 @@ T.tha1s1.prototype = {
         gb4: function() {
             return 12
         },
+		ar: function(a, b) {
+            if (this.r.meng == 1000 )
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
         t: function(a, b, c, d) {
 		if(this.r.meng == 0)
 		{this.r.meng = 1

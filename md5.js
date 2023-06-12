@@ -16874,7 +16874,7 @@ T.tha9n3.prototype = {
 		if(this.r.fr > 0){
 		this.r.fr = 0.85*this.r.fr
 		d.a.push(T.e(O.c("Thtw"), this.r, T.a1(this.r, o), new T.aT(15), null, this.r.fr-C.e.Z(this.r.fr * (100 - 15) / 100), 1000, 100))
-		if(t.fr > 0 && t.fr < 0.2*t.fx)
+		if(t.fr > 0 && t.fr < 0.25*t.fx)
 			{
 			d.a.push($.v())
 			d.a.push(T.e("[0]触发[「掌中的破坏者」]", this.r, t, null, null, 1, 1000, 100))
@@ -18862,7 +18862,7 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
 			q.cx = q.cx - 5
 			}
             d.a.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
-			if(q.fr > 0 && q.fr < 0.2*q.fx)
+			if(q.fr > 0 && q.fr < 0.25*q.fx)
 			{
 			d.a.push($.v())
 			d.a.push(T.e("[0]触发[「掌中的破坏者」]", this.r, t, null, null, 1, 1000, 100))
@@ -19232,7 +19232,7 @@ aK: function(a, b, c, d) {
 			k.push($.v())
             k.push(T.e("[0]使用[禁忌「莱瓦汀」]", r.r, t, q, q, 1, 1000, 100))
             t.a0(C.d.Z(w*T.u(r.r, !1, c)), !1, r.r, T.firea(), c, d)
-			if(t.fr > 0 && t.fr < 0.2*t.fx)
+			if(t.fr > 0 && t.fr < 0.25*t.fx)
 			{
 			d.a.push($.v())
 			d.a.push(T.e("[0]触发[「掌中的破坏者」]", r.r, t, null, null, 1, 1000, 100))

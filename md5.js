@@ -16863,7 +16863,7 @@ T.tha9n3.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[神枪「冈格尼尔之枪」]", u.r, t, null, null, 1, 1000, 100))
 		if((c.m() & 63) > 31 ){
-        t.bL(3.2*s, !1, u.r, T.q71(), c, d)
+        t.bL(3.1*s, !1, u.r, T.q71(), c, d)
 		}
 		else
 		{
@@ -18624,14 +18624,14 @@ u[6] = t[6]*10
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = C.d.Z(this.r.fx *0.6)
-			d.fr = C.d.Z(this.r.fr *0.6)
-			d.Q =  C.d.Z(this.r.Q  *0.6)
-			d.ch = C.d.Z(this.r.ch *0.6)
-			d.cx = C.d.Z(this.r.cx *0.6) 
-			d.cy = C.d.Z(this.r.cx *0.6) 
-			d.db = C.d.Z(this.r.db *0.6)
-			d.dx = C.d.Z(this.r.dx *0.6)
+			d.fx = C.d.Z(this.r.fx *0.64)
+			d.fr = C.d.Z(this.r.fr *0.64)
+			d.Q =  C.d.Z(this.r.Q  *0.64)
+			d.ch = C.d.Z(this.r.ch *0.64)
+			d.cx = C.d.Z(this.r.cx *0.64) 
+			d.cy = C.d.Z(this.r.cx *0.64) 
+			d.db = C.d.Z(this.r.db *0.64)
+			d.dx = C.d.Z(this.r.dx *0.64)
 			d.dy = this.r.dy
             d.j = - 1024
             c.r.x.aU(d)
@@ -19236,7 +19236,7 @@ aK: function(a, b, c, d) {
             r.ae(0)
             t = a[0].a
 			v = t.fr
-			w = 3.4 - (r.r.fr / r.r.fx)
+			w = 3.9 - (r.r.fr / r.r.fx)
 			k.push(T.e("[0]：我是毁灭一切的破坏神！", r.r, t, q, q, 1, 1000, 100))
 			k.push($.v())
             k.push(T.e("[0]使用[禁忌「莱瓦汀」]", r.r, t, q, q, 1, 1000, 100))
@@ -23550,7 +23550,7 @@ dk: function(a, b, c, d, e, f, g) {
         if (c.fr <= 0)
             return a
         if ( s.r.fr > 0 ) {
-            u = 12*(s.r.dx + s.r.ch)
+            u = 16*(s.r.dx + s.r.ch)
             g.a.push(T.e(C.c.K("[0]触发[黑雾]", $.nj()), s.r, c, null, null, 20, 1500, 100))
             c.bL(u, !1, s.r, T.a3(), f, g)
             t = s.r
@@ -23839,8 +23839,7 @@ T.i9m.prototype = {
                 s = C.c.K("[0]：[!毁灭模式!]，启动", $.nl())
                 t = r.r
                 d.a.push(T.e(s, t, t, q, q, 0, 1000, 100))
-                t = r.r
-                t.j = t.j + 400
+                r.r.j = r.r.j + 4096            
             }
         },
         gR: function() {
@@ -23863,7 +23862,7 @@ T.i9m.prototype = {
             u.ch = u.ch * 5
             u.db = u.db * 5
             u.dx = u.dx * 5
-            u.j = u.j + 2048
+            u.dy = u.dy * 5
         },
         $ip: 1,
         $iA: 1
@@ -25127,7 +25126,7 @@ T.i9m.prototype = {
         C.hell = H.a(u([20, 20, 60, 50, 20, 20, 90, 120]), [P.j])
 C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
-C.rumia = H.a(u([17, 35, 20, 1, -8, 25, 7, 685]), [P.j])
+C.rumia = H.a(u([18, 35, 20, 1, -8, 25, 7, 685]), [P.j])
 C.daiyousei = H.a(u([0, 17, 28, 1, 2, 15, 35, 952]), [P.j])
 C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 764]), [P.j])
 C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
@@ -25135,7 +25134,7 @@ C.koakuma = H.a(u([0, 9, 19, -3, 7, 32, 31, 700]), [P.j])
 C.patchouli = H.a(u([21, -10, -25, 19, 36, 34, 39, 438]), [P.j])
 C.sakuya = H.a(u([-9, 18, 6, 51, 3, 29, 57, 474]), [P.j])
 C.nue = H.a(u([36, 21, 15, 40, 38, 26, 2, 89]), [P.j])
-C.reimu = H.a(u([31, 38, 6, 16, 44, 25, 32, 704]), [P.j])
+C.reimu = H.a(u([31, 38, 6, 16, 44, 25, 32, 655]), [P.j])
 C.marisa = H.a(u([19, 8, 15, 29, 56, 17, 30, 625]), [P.j])
 C.remilia = H.a(u([15, 36, 40, 30, 21, 21, 21, 764]), [P.j])
 C.flandre = H.a(u([30, 26, 24, 25, -21, 20, 1, 791]), [P.j])

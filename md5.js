@@ -4758,12 +4758,8 @@
                     t.y += 2048
 				if (a.xue =! null)
 				{
-				if (a.xue == 1)
-				    t.y += 1024
-				if (a.xue == 1.5)
-				    t.y += 2048
-				if (a.xue == 7)
-				    t.y += 13312
+				
+				    t.y += a.xue*1024
 				}	
                 u = T.e(C.c.K(O.c("lZqU"), $.ng()), a, b, null, null, 40, 1000, 100)
                 e.a.push(u)
@@ -23550,11 +23546,11 @@ dk: function(a, b, c, d, e, f, g) {
         if (c.fr <= 0)
             return a
         if ( s.r.fr > 0 ) {
-            u = 16*(s.r.dx + s.r.ch)
+            u = 20*(s.r.dx + s.r.ch)
             g.a.push(T.e(C.c.K("[0]触发[黑雾]", $.nj()), s.r, c, null, null, 20, 1500, 100))
             c.bL(u, !1, s.r, T.a3(), f, g)
             t = s.r
-            t.j = t.j - 480
+            t.j = t.j
             g.a.push($.v())
             return a
         }
@@ -25128,7 +25124,7 @@ C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
 C.rumia = H.a(u([18, 35, 20, 1, -8, 25, 7, 685]), [P.j])
 C.daiyousei = H.a(u([0, 17, 28, 1, 2, 15, 35, 952]), [P.j])
-C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 764]), [P.j])
+C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 575]), [P.j])
 C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
 C.koakuma = H.a(u([0, 9, 19, -3, 7, 32, 31, 700]), [P.j])
 C.patchouli = H.a(u([21, -10, -25, 19, 36, 34, 39, 438]), [P.j])

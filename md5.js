@@ -16168,10 +16168,10 @@ T.tha2n1.prototype = {
         t = a[0].a
     s = T.u(u.r, !1, c)
     d.a.push(T.e("[0]使用[恋符「非定向光线」]", u.r, t, null, null, 1, 1000, 100))
+	d.a.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua -1 , null, null, 1, 1000, 100))
 	this.r.bagua = this.r.bagua - 1
     t.a0(1.8*s, !0, u.r, T.a3(), c, d)
-	d.a.push($.v())
-	d.a.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
+	
     }
 }
 T.tha2b1.prototype = {
@@ -18290,7 +18290,7 @@ n.r.bf(n.r.fr, null, c, d)
         },
         t: function(a, a0, a1, a2) {
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
-            c.f = C.d.Z(c.f * 0.6)
+            c.f = C.d.Z(c.f * 0.5)
             u = a2.a
             u.push(T.e("[0]发动[「妖精的声援」]", c.r, b, b, b, 60, 1000, 100))
 			for(v =1 ; v < 3 ; v++){
@@ -18354,7 +18354,7 @@ n.r.bf(n.r.fr, null, c, d)
         },
         t: function(a, b, c, d) {
             var u, t, s, r = this, q = null, p = a[0].a, o = d.a
-            o.push(T.e("[0]发起佯攻", r.r, p, q, q, 0, 1000, 100))
+            o.push(T.e("[0]对[1]发起佯攻", r.r, p, q, q, 0, 1000, 100))
 			p.a0(0, !1, r.r, T.a3(), c, d)
         }
     }
@@ -18441,7 +18441,7 @@ n.r.bf(n.r.fr, null, c, d)
 			d.db = 1
             c.r.x.aU(d)
             u.push(T.e("出现了[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
-			this.r.j = this.r.j+ 2000
+			this.r.j = this.r.j+ 1600
         }
     }
     T.hha7t1.prototype = {
@@ -18532,15 +18532,15 @@ u[6] = t[6]*10
             d.x = s.x
             d.av()
             d.j = 2048
-            d.fx = 720
-            d.fr = 720
+            d.fx = 600
+            d.fr = 600
             d.Q =  66
-			d.ch = 75
-			d.cx = 72
-			d.cy = 72 
-			d.db = 120
-			d.dx = 90
-            d.dy = 119
+			d.ch = 66
+			d.cx = 66
+			d.cy = 66
+			d.db = 99
+			d.dx = 66
+            d.dy = 66
             c.r.x.aU(d)
             u.push(T.e("召唤出奇怪的[1]？", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }
@@ -19732,7 +19732,7 @@ o.bL(p, !0, this.r, T.a3(), c, d)
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
 			this.r.bagua = this.r.bagua - 2
 			q.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 1.5
+            p = T.u(this.r, !0, c) * 1.6
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
         if (o.fr > 0 ) {
@@ -21083,10 +21083,10 @@ T.sakuya.prototype = {
             this.k2 = t
             t = this.id 
             u = new T.tha9s1()
-            u.f = 60
+            u.f = 50
             t.push(u)
 			u = new T.tha9n2()
-            u.f = 50
+            u.f = 35
             t.push(u)
 			u = new T.tha9n1()
             u.f = 45
@@ -25132,7 +25132,7 @@ C.daiyousei = H.a(u([0, 17, 28, 1, 2, 15, 35, 952]), [P.j])
 C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 764]), [P.j])
 C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
 C.koakuma = H.a(u([0, 9, 19, -3, 7, 32, 31, 700]), [P.j])
-C.patchouli = H.a(u([21, -5, -20, 19, 36, 34, 39, 438]), [P.j])
+C.patchouli = H.a(u([21, -10, -25, 19, 36, 34, 39, 438]), [P.j])
 C.sakuya = H.a(u([-9, 18, 6, 51, 3, 29, 57, 474]), [P.j])
 C.nue = H.a(u([36, 21, 15, 40, 38, 26, 2, 89]), [P.j])
 C.reimu = H.a(u([31, 38, 6, 16, 44, 25, 32, 704]), [P.j])

@@ -16153,7 +16153,7 @@ T.tha2ak.prototype = {
 
 T.tha2n1.prototype = {
     ar: function(a, b) {
-            if (this.r.bagua > 2+ (a.m() & 3) || this.r.bagua < 1)
+            if (this.r.bagua > 2 + (a.m() & 3) || this.r.bagua < 1)
             { 
                 return !1
             }
@@ -16176,8 +16176,8 @@ T.tha2b1.prototype = {
 		u.f = 0
         t = a[0].a
 		n = (c.m() & 7)
-		m = (c.m() & 127)
-		m = C.d.v(m, 2) + 1
+		m = (c.m() & 63)
+		m = C.d.v(m, 2) + 33
 		this.r.bagua = 6
         d.a.push(T.e("[0]：[等我死了再还你~]", u.r, t, null, null, 1, 1000, 100))
         if(n ==0)
@@ -23265,7 +23265,7 @@ s.push(u)
             if (s.f <= 0 || s.ch.a != null)
                 return
             u = s.r
-            if (u.fr > 0 && !u.A && u.y.f.length > 1 && (c.m() & 63) < s.f) {
+            if (u.fr > 0 && !u.A && u.y.f.length > 0 && (c.m() & 63) < s.f) {
                 s.r.r2.i(0, s.ch)
                 s.r.E()
                 u = O.c("cAAA")

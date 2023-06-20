@@ -16171,7 +16171,7 @@ T.tha2n1.prototype = {
     }
 }
 T.tha2b1.prototype = {
-    aK: function(a, b, c, d) {
+    t: function(a, b, c, d) {
         var u = this, n ,m ,l
 		u.f = 0
         t = a[0].a
@@ -16275,12 +16275,8 @@ T.tha2b1.prototype = {
 		{
 		d.a.push(T.e("[0] [大失败]", u.r, t, null, null, 1, 1000, 100))
 		}
-		return a
-        },
-        T: function() {
-            this.r.ry.i(0, this)
-        },
-        $iG: 1
+		this.r.f + = 1600
+        }
 }
 T.tha12ak.prototype = {
     t: function(a, b, c, d) {

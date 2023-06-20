@@ -16171,7 +16171,7 @@ T.tha2n1.prototype = {
     }
 }
 T.tha2b1.prototype = {
-    t: function(a, b, c, d) {
+    aK: function(a, b, c, d) {
         var u = this, n ,m ,l
 		u.f = 0
         t = a[0].a
@@ -16275,8 +16275,12 @@ T.tha2b1.prototype = {
 		{
 		d.a.push(T.e("[0] [大失败]", u.r, t, null, null, 1, 1000, 100))
 		}
-     
-    }
+		return a
+        },
+        T: function() {
+            this.r.ry.i(0, this)
+        },
+        $iG: 1
 }
 T.tha12ak.prototype = {
     t: function(a, b, c, d) {
@@ -25132,11 +25136,11 @@ C.rumia = H.a(u([18, 35, 20, 1, -8, 25, 7, 685]), [P.j])
 C.daiyousei = H.a(u([0, 17, 28, 1, 2, 15, 35, 952]), [P.j])
 C.cirno = H.a(u([-6, 29, 16, 17, 29, 1, 57, 575]), [P.j])
 C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
-C.koakuma = H.a(u([0, 9, 19, -3, 7, 32, 31, 700]), [P.j])
+C.koakuma = H.a(u([5, 9, 19, -3, 12, 32, 31, 700]), [P.j])
 C.patchouli = H.a(u([21, -10, -25, 19, 36, 34, 39, 438]), [P.j])
 C.sakuya = H.a(u([-9, 18, 6, 51, 3, 29, 57, 474]), [P.j])
 C.nue = H.a(u([36, 21, 15, 40, 38, 26, 2, 690]), [P.j])
-C.reimu = H.a(u([31, 38, 6, 16, 44, 25, 32, 655]), [P.j])
+C.reimu = H.a(u([31, 38, 6, 16, 44, 25, 32, 703]), [P.j])
 C.marisa = H.a(u([19, 8, 15, 29, 56, 17, 30, 625]), [P.j])
 C.remilia = H.a(u([15, 36, 40, 30, 21, 21, 21, 764]), [P.j])
 C.flandre = H.a(u([30, 26, 24, 25, -21, 20, 1, 791]), [P.j])

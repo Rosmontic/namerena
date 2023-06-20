@@ -21254,6 +21254,11 @@ T.nue.prototype = {
         t.r = this
         this.k2 = t
         t = this.id
+		u = new T.hZ()
+        u.ch = new T.aN(u)
+        u.Q = new T.bP(u)
+        u.f = 256
+        t.push(u)
         
         
 }
@@ -23546,7 +23551,7 @@ dk: function(a, b, c, d, e, f, g) {
         if (c.fr <= 0)
             return a
         if ( s.r.fr > 0 ) {
-            u = 20*(s.r.dx + s.r.ch)
+            u = 16*(s.r.dx + s.r.ch)
             g.a.push(T.e(C.c.K("[0]触发[黑雾]", $.nj()), s.r, c, null, null, 20, 1500, 100))
             c.bL(u, !1, s.r, T.a3(), f, g)
             t = s.r
@@ -25129,7 +25134,7 @@ C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
 C.koakuma = H.a(u([0, 9, 19, -3, 7, 32, 31, 700]), [P.j])
 C.patchouli = H.a(u([21, -10, -25, 19, 36, 34, 39, 438]), [P.j])
 C.sakuya = H.a(u([-9, 18, 6, 51, 3, 29, 57, 474]), [P.j])
-C.nue = H.a(u([36, 21, 15, 40, 38, 26, 2, 89]), [P.j])
+C.nue = H.a(u([36, 21, 15, 40, 38, 26, 2, 690]), [P.j])
 C.reimu = H.a(u([31, 38, 6, 16, 44, 25, 32, 655]), [P.j])
 C.marisa = H.a(u([19, 8, 15, 29, 56, 17, 30, 625]), [P.j])
 C.remilia = H.a(u([15, 36, 40, 30, 21, 21, 21, 764]), [P.j])

@@ -9789,7 +9789,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
-            _.upgrade = true
+            _.spring = 0
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -17661,42 +17661,28 @@ T.thb4n2.prototype = {
 		b5: function(a) {
             return a.b1(this.r.y.f)
         },
-        am: function(a, b) {
-            if (b)
-                return a.fr + 100 < a.fx
-            return a.fr < a.fx
-        },
-        a8: function(a, b, c) {
-            var u = {}
-            if (b) {
-                u.a = a.fx - a.fr
-                a.r1.ap(0, new T.hY(u))
-                return u.a = u.a * a.L
-            }
-            return c.gbh()
-        },
         t: function(a, b, c, d) {
-            var l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+            var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
 			
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
-            t = "[0]使用[春符「惊喜之春」]"
+            k = "[0]使用[春符「惊喜之春」]"
             s = this.r
+			v = (c.m() & 3)
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
-            q.push(T.e(t, s, null, null, r, 1, 1000, 100))
+            q.push(T.e(k, s, null, null, r, 1, 1000, 100))
             t = C.e.Z(T.u(s, !0, c) / 60)
             for (l = 0; l < n.length; ++l) {
                 o = n[u]
             if (o.fr > 0 ) {
             q.push($.v())
              
-            if (t > o.fx - o.fr)
-                t = o.fx - o.fr
+            if (t > o.fx - o.fr){
+                t = o.fx - o.fr}
             r = u.fr
             o.fr = r + t
             q.push(T.e(O.c("YmSv"), q.r, T.a1(o, r), new T.aG(t), null, 0, 1000, 100))
-			v = (c.m() & 3)
 			if (v == 0)
 			{
 			o.j = o.j + 2048

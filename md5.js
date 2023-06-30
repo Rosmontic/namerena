@@ -17668,11 +17668,6 @@ T.thb4n2.prototype = {
 		b5: function(a) {
             return a.b1(this.r.y.f)
         },
-		am: function(a, b) {
-            if (b)
-                return a.fr + 100 < a.fx
-            return a.fr < a.fx
-        },
 		a8: function(a, b, c) {
             var u = {}
             if (b) {
@@ -17693,7 +17688,8 @@ T.thb4n2.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(k, s, null, null, r, 1, 1000, 100))
-            t = C.e.Z(T.u(s, !0, c) / 12)*(10 + C.e.Z((s.fr*10) / s.fx))
+            t = C.e.Z(T.u(s, !0, c) / 120)*(10 + C.e.Z(10* s.fr / s.fx))
+			t = C.e.Z(t / 10)
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             
@@ -17725,11 +17721,6 @@ T.thb4s1.prototype = {
 		b5: function(a) {
             return a.b1(this.r.y.f)
         },
-		am: function(a, b) {
-            if (b)
-                return a.fr < 0.6* a.fx
-            return a.fr < a.fx
-        },
 		a8: function(a, b, c) {
             var u = {}
             if (b) {
@@ -17751,7 +17742,8 @@ T.thb4s1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(k, s, null, null, r, 1, 1000, 100))
-            t = C.e.Z(T.u(s, !0, c) / 6)*(10 + C.e.Z((s.fr*10) / s.fx))
+            t = C.e.Z(T.u(s, !0, c) / 60)*(10 + C.e.Z(10* s.fr / s.fx))
+			t = C.e.Z(t / 10)
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             
@@ -17904,11 +17896,6 @@ T.thb3t5.prototype = {
 T.thb3t6.prototype = {
         b5: function(a) {
             return a.b1(this.r.y.f)
-        },
-		am: function(a, b) {
-            if (b)
-                return a.fr + 70 < a.fx
-            return a.fr < a.fx + 1
         },
         a8: function(a, b, c) {
             var u = {}

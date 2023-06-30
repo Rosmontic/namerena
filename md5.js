@@ -17669,9 +17669,9 @@ T.thb4n2.prototype = {
             return a.b1(this.r.y.f)
         },
 		am: function(a, b) {
-            if (b)
-                return a.fr + 100 < a.fx
-            return a.fr < a.fx + 1
+            if (b){
+                return a.fr + 100 < a.fx}
+            return 1
         },
 		a8: function(a, b, c) {
             var u = {}
@@ -17727,9 +17727,9 @@ T.thb4s1.prototype = {
             return a.b1(this.r.y.f)
         },
 		am: function(a, b) {
-            if (b)
-                return a.fr + 300 < a.fx
-            return a.fr < a.fx + 1
+            if (b){
+                return a.fr + 300 < a.fx}
+            return 1
         },
 		a8: function(a, b, c) {
             var u = {}

@@ -17675,19 +17675,19 @@ T.thb4n2.prototype = {
             t = C.e.Z(T.u(s, !0, c) / 60)
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
-            if (o.fr > 0 ) {
+            
             q.push($.v())
              
             if (t > o.fx - o.fr){
                 t = o.fx - o.fr}
-            r = u.fr
-            o.fr = r + t
-            q.push(T.e(O.c("YmSv"), q.r, T.a1(o, r), new T.aG(t), null, 0, 1000, 100))
+            l = o.fr
+            o.fr = l + t
+            q.push(T.e(O.c("YmSv"), q.r, T.a1(o, l), new T.aG(t), null, 0, 1000, 100))
 			if (v == 0)
 			{
 			o.j = o.j + 2048
 			}
-}
+
                     
                 }
             
@@ -18514,7 +18514,7 @@ T.tha9n3.prototype = {
         t: function(a, b, c, d) {
             var u = a[0].a
               , t = T.u(this.r, !0, c)
-            d.a.push(T.e("[0]使用「黯落熙春」", this.r, u, null, null, 1, 1000, 100))
+            d.a.push(T.e("[0]使用[「黯落熙春」]", this.r, u, null, null, 1, 1000, 100))
             u.a0(1.5*t, !0, this.r, T.qa(), c, d)
         }
     }

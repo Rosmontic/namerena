@@ -9749,6 +9749,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
+			_.doll = 0
             _.dolla = 0
 			_.dollb = 0
 			_.dollc = 0
@@ -17692,7 +17693,7 @@ T.thb4n2.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(k, s, null, null, r, 1, 1000, 100))
-            t = C.e.Z(T.u(s, !0, c) / 120)*(1 + (s.fr / s.fx))
+            t = C.e.Z(T.u(s, !0, c) / 12)*(10 + C.e.Z((s.fr*10) / s.fx))
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             
@@ -17750,7 +17751,7 @@ T.thb4s1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(k, s, null, null, r, 1, 1000, 100))
-            t = C.e.Z(T.u(s, !0, c) / 60)*(1 + (s.fr / s.fx))
+            t = C.e.Z(T.u(s, !0, c) / 6)*(10 + C.e.Z((s.fr*10) / s.fx))
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             
@@ -17904,6 +17905,11 @@ T.thb3t6.prototype = {
         b5: function(a) {
             return a.b1(this.r.y.f)
         },
+		am: function(a, b) {
+            if (b)
+                return a.fr + 70 < a.fx
+            return a.fr < a.fx + 1
+        },
         a8: function(a, b, c) {
             var u = {}
             if (b) {
@@ -17918,7 +17924,7 @@ T.thb3t6.prototype = {
             if (p > 8)
                q.f = p - 1
             u = a[0].a
-            t = 80
+            t = 70
             s = u.fx - u.fr
             if (t > s)
                 t = s
@@ -20623,7 +20629,7 @@ u[6] = t[6]*10
         t: function(a, a0, a1, a2) {
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
             u = a2.a
-            u.push(T.e("[0]发动[诅咒「魔彩光的上海人偶」]", c.r, b, b, b, 60, 1000, 100))
+            u.push(T.e("[0]使用[诅咒「魔彩光的上海人偶」]", c.r, b, b, b, 60, 1000, 100))
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
             r = s.b
@@ -20682,6 +20688,7 @@ u[6] = t[6]*10
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			this.r.dolla = 1
+			this.r.doll = this.r.doll + 1
         
 		    
 		}
@@ -20698,7 +20705,7 @@ u[6] = t[6]*10
         t: function(a, a0, a1, a2) {
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
             u = a2.a
-            u.push(T.e("[0]发动[诅咒「上吊的蓬莱人偶」]", c.r, b, b, b, 60, 1000, 100))
+            u.push(T.e("[0]使用[诅咒「上吊的蓬莱人偶」]", c.r, b, b, b, 60, 1000, 100))
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
             r = s.b
@@ -20757,7 +20764,7 @@ u[6] = t[6]*10
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			this.r.dollb = 1
-        
+            this.r.doll = this.r.doll + 1
 		    
 		}
     }
@@ -20773,7 +20780,7 @@ u[6] = t[6]*10
         t: function(a, a0, a1, a2) {
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
             u = a2.a
-            u.push(T.e("[0]发动[红符「红发的荷兰人偶」]", c.r, b, b, b, 60, 1000, 100))
+            u.push(T.e("[0]使用[红符「红发的荷兰人偶」]", c.r, b, b, b, 60, 1000, 100))
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
             r = s.b
@@ -20832,7 +20839,7 @@ u[6] = t[6]*10
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			this.r.dollc = 1
-        
+            this.r.doll = this.r.doll + 1
 		    
 		}
     }
@@ -20852,9 +20859,9 @@ u[6] = t[6]*10
 			{
 			u.push($.v())
 			if(v == 0){
-            u.push(T.e("[0]发动[苍符「博爱的法兰西人偶」]", c.r, b, b, b, 60, 1000, 100))}
+            u.push(T.e("[0]使用[苍符「博爱的法兰西人偶」]", c.r, b, b, b, 60, 1000, 100))}
 			if(v == 1){
-            u.push(T.e("[0]发动[苍符「博爱的奥尔良人偶」]", c.r, b, b, b, 60, 1000, 100))}
+            u.push(T.e("[0]使用[苍符「博爱的奥尔良人偶」]", c.r, b, b, b, 60, 1000, 100))}
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
             r = s.b
@@ -20916,6 +20923,7 @@ u[6] = t[6]*10
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			this.r.dolld = 2
+			this.r.doll = this.r.doll + 1
             }
 		    
 		}
@@ -20932,7 +20940,7 @@ u[6] = t[6]*10
         t: function(a, a0, a1, a2) {
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
             u = a2.a
-            u.push(T.e("[0]发动[回符「轮回的西藏人偶」]", c.r, b, b, b, 60, 1000, 100))
+            u.push(T.e("[0]使用[回符「轮回的西藏人偶」]", c.r, b, b, b, 60, 1000, 100))
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
             r = s.b
@@ -20978,20 +20986,20 @@ u[6] = t[6]*10
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 210
-			d.fr = 210
-			d.Q =  70
-			d.ch = 70
-			d.cx = 70 
-			d.cy = 70 
-			d.db = 70
-			d.dx = 70
-			d.dy = 70
-            d.j = - 2048
+			d.fx = 400
+			d.fr = 400
+			d.Q =  100
+			d.ch = 10
+			d.cx = 50 
+			d.cy = 10 
+			d.db = 100
+			d.dx = 10
+			d.dy = 100
+            d.j = - 4096
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			this.r.dolle = 1
-        
+            this.r.doll = this.r.doll + 1
 		    
 		}
     }
@@ -21053,19 +21061,20 @@ u[6] = t[6]*10
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 210
-			d.fr = 210
-			d.Q =  70
-			d.ch = 70
-			d.cx = 70 
-			d.cy = 70 
+			d.fx = 110
+			d.fr = 110
+			d.Q =  10
+			d.ch = 40
+			d.cx = 90 
+			d.cy = 100 
 			d.db = 70
 			d.dx = 70
-			d.dy = 70
-            d.j = - 2048
+			d.dy = 90
+            d.j = - 1024
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			this.r.dollf = 1
+			this.r.doll = this.r.doll + 1
         
 		    
 		}
@@ -21082,7 +21091,7 @@ u[6] = t[6]*10
         t: function(a, a0, a1, a2) {
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
             u = a2.a
-            u.push(T.e("[0]发动[雅符「春之京都人偶」]", c.r, b, b, b, 60, 1000, 100))
+            u.push(T.e("[0]使用[雅符「春之京都人偶」]", c.r, b, b, b, 60, 1000, 100))
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
             r = s.b
@@ -21128,20 +21137,20 @@ u[6] = t[6]*10
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 210
-			d.fr = 210
-			d.Q =  70
-			d.ch = 70
+			d.fx = 200
+			d.fr = 200
+			d.Q =  5
+			d.ch = 80
 			d.cx = 70 
 			d.cy = 70 
-			d.db = 70
-			d.dx = 70
-			d.dy = 70
+			d.db = 80
+			d.dx = 80
+			d.dy = 80
             d.j = - 2048
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			this.r.dollg = 1
-        
+            this.r.doll = this.r.doll + 1
 		    
 		}
     }
@@ -21157,7 +21166,7 @@ u[6] = t[6]*10
         t: function(a, a0, a1, a2) {
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
             u = a2.a
-            u.push(T.e("[0]发动[白符「白垩的俄罗斯人偶」]", c.r, b, b, b, 60, 1000, 100))
+            u.push(T.e("[0]使用[白符「白垩的俄罗斯人偶」]", c.r, b, b, b, 60, 1000, 100))
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
             r = s.b
@@ -21203,20 +21212,20 @@ u[6] = t[6]*10
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 210
-			d.fr = 210
-			d.Q =  70
-			d.ch = 70
-			d.cx = 70 
-			d.cy = 70 
-			d.db = 70
-			d.dx = 70
-			d.dy = 70
+			d.fx = 190
+			d.fr = 190
+			d.Q =  75
+			d.ch = 75
+			d.cx = 75 
+			d.cy = 75 
+			d.db = 75
+			d.dx = 75
+			d.dy = 75
             d.j = - 2048
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			this.r.dollh = 1
-        
+            this.r.doll = this.r.doll + 1
 		    
 		}
     }
@@ -26741,11 +26750,11 @@ T.i9m.prototype = {
 			if(r.r.spring % 4 == 0){
             if(r.r.fr >= 0.75*r.r.fx){
 			r.r.fr = r.r.fx
-			k = r.r.fx - h
+			k = C.d.Z(r.r.fx - h)
 			}
 			if(r.r.fr < 0.75*r.r.fx){
-			r.r.fr = r.r.fr + 0.25*r.r.fx
-			k = 0.25*r.r.fx
+			r.r.fr = r.r.fr + C.d.Z(0.25*r.r.fx)
+			k = C.d.Z(0.25*r.r.fx)
 			}
 			
 			d.a.push(T.e("[0]触发[「第一春」]", r.r, r.r, null, null, 0, 1000, 100))
@@ -28180,7 +28189,7 @@ C.rin = H.a(u([ -40, 934, 6, 943, -82, 908, 9 , 723]), [P.j])
 C.letty = H.a(u([-4, 30, 22, 17, 33, 19, 40, 400]), [P.j])
 C.chen = H.a(u([12, 15, 30, 20, 0, 11, 14, 524]), [P.j])
 C.alice = H.a(u([0, 14, -2, 1, 40, 8, 70, 500]), [P.j])
-C.lilywhite = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.lilywhite = H.a(u([-7, 1, 2, 3, -16, 26, -5, 700]), [P.j])
 C.phantom = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.youmu = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.yuyuko = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])

@@ -17815,7 +17815,6 @@ T.thb5n1.prototype = {
                 n.push(a[u].a)
             k = "[0]使用[神弦「斯特拉迪瓦里」]"
             s = this.r
-			this.f = 0
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(k, s, null, null, r, 1, 1000, 100))
@@ -17830,7 +17829,7 @@ T.thb5n1.prototype = {
             o.fr = l + t
             q.push(T.e(O.c("YmSv"), o , T.a1(o, l), new T.aG(t), null, 0, 1000, 100))
 			}
-			else{
+			if(o.y != this.r.y){
 			o.fr == C.d.Z(o.fr *0.85)
 			q.push(T.e(O.c("Thtw"), o, T.a1(o, l), new T.aT(15), null, 0, 1000, 100))
 			}

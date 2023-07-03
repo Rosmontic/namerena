@@ -17668,11 +17668,13 @@ T.thb4n2.prototype = {
 		b5: function(a) {
             return a.b1(this.r.y.f)
         },
-		am: function(a, b) {
-            if (b){
-                return a.fr + 100 < a.fx}
-            return 1
-        },
+		ar: function(a, b) {
+            if (a.fr  > 0.8 * a.fx)
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
 		a8: function(a, b, c) {
             var u = {}
             if (b) {
@@ -17726,11 +17728,13 @@ T.thb4s1.prototype = {
 		b5: function(a) {
             return a.b1(this.r.y.f)
         },
-		am: function(a, b) {
-            if (b){
-                return a.fr + 300 < a.fx}
-            return 1
-        },
+		ar: function(a, b) {
+            if (a.fr  > 0.5 * a.fx)
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
 		a8: function(a, b, c) {
             var u = {}
             if (b) {

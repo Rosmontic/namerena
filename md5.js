@@ -17817,7 +17817,7 @@ T.thb5n1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(k, s, null, null, r, 1, 1000, 100))
-            t = C.e.Z(T.u(s, !0, c) / 150)
+            t = C.e.Z(T.u(s, !0, c) / 100)
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
 				l = o.fr
@@ -17829,7 +17829,7 @@ T.thb5n1.prototype = {
             q.push(T.e(O.c("YmSv"), o , T.a1(o, l), new T.aG(t), null, 0, 1000, 100))
 			}
 			if(o.y != this.r.y){
-			o.fr == C.d.Z(o.fr *0.85)
+			o.fr = o.fr - 0.51*o.fr
 			q.push(T.e(O.c("Thtw"), o, T.a1(o, l), new T.aT(15), null, 0, 1000, 100))
 			}
 

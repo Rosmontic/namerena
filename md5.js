@@ -24363,7 +24363,7 @@ T.phantom.prototype = {
         this.k2 = t
         t = this.id
 		u = new T.thb5s1()
-        u.f = 75
+        u.f = 0
         t.push(u)
 		u = new T.thb5n1()
         u.f = 40

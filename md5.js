@@ -27049,22 +27049,22 @@ T.i9m.prototype = {
 			}while(k < 1)
 			if (k == 1)
 			{
-			r.r.mu1 == 0
-			r.r.me1 == 1
+			r.r.mu1 = 0
+			r.r.me1 = 1
 			d.a.push(T.e("[0]失去了[露娜萨·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
 			}
 			if (k == 2)
 			{
-			r.r.mu2 == 0
-			r.r.me1 == 1
+			r.r.mu2 = 0
+			r.r.me1 = 1
 			d.a.push(T.e("[0]失去了[梅露兰·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
 			}
 			if (k == 3)
 			{
-			r.r.mu3 == 0
-			r.r.me1 == 1
+			r.r.mu3 = 0
+			r.r.me1 = 1
 			d.a.push(T.e("[0]失去了[莉莉卡·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
 			}			
@@ -27074,14 +27074,14 @@ T.i9m.prototype = {
 			if (r.r.mu1 == 0)
 			{
 			if (l == 1){
-			r.r.mu1 == 0
-			r.r.me2 == 1
+			r.r.mu1 = 0
+			r.r.me2 = 1
 			d.a.push(T.e("[0]失去了[露娜萨·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
 			}
 			if (l == 2){
-			r.r.mu3 == 0
-			r.r.me2 == 1
+			r.r.mu3 = 0
+			r.r.me2 = 1
 			d.a.push(T.e("[0]失去了[莉莉卡·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
 			}			
@@ -27089,28 +27089,28 @@ T.i9m.prototype = {
 			if (r.r.mu2 == 0)
 			{
 			if (l == 1){
-			r.r.mu2 == 0
-			r.r.me2 == 1
+			r.r.mu2 = 0
+			r.r.me2 = 1
 			d.a.push(T.e("[0]失去了[梅露兰·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
 			}
 			if (l == 2){
-			r.r.mu1 == 0
-			r.r.me2 == 1
+			r.r.mu1 = 0
+			r.r.me2 = 1
 			d.a.push(T.e("[0]失去了[露娜萨·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
 			}}
 			if (r.r.mu1 == 0)
 			{
 			if (l == 1){
-			r.r.mu2 == 0
-			r.r.me2 == 1
+			r.r.mu2 = 0
+			r.r.me2 = 1
 			d.a.push(T.e("[0]失去了[梅露兰·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
 			}
 			if (l == 2){
-			r.r.mu3 == 0
-			r.r.me2 == 1
+			r.r.mu3 = 0
+			r.r.me2 = 1
 			d.a.push(T.e("[0]失去了[莉莉卡·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
 			}

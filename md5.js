@@ -17791,11 +17791,15 @@ T.thb5n1.prototype = {
         b5: function(a) {
             return a.b1(this.r.y.f)
         },
+		a8: function(a, b, c) {
+      
+            return c.gbh() * a.J
+        },
         gb3: function() {
-            return 3
+            return 30
         },
         gb4: function() {
-            return 3
+            return 30
         },		
 		ar: function(a, b) {
             if (this.r.mu1 == 0)
@@ -17803,16 +17807,7 @@ T.thb5n1.prototype = {
                 return !1
             }
 			return this.aS(a, b)
-		},
-		a8: function(a, b, c) {
-            var u = {}
-            if (b) {
-                u.a = a.fx - a.fr
-                a.r1.ap(0, new T.hY(u))
-                return u.a = u.a * a.L
-            }
-            return c.gbh() * a.J
-        },
+		},	
         t: function(a, b, c, d) {
             var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
 			
@@ -17837,7 +17832,7 @@ T.thb5n1.prototype = {
 			}
 			else{
 			o.fr == C.d.Z(o.fr *0.85)
-			d.a.push(T.e(O.c("Thtw"), o, T.a1(o, l), new T.aT(15), null, 0, 1000, 100))
+			q.push(T.e(O.c("Thtw"), o, T.a1(o, l), new T.aT(15), null, 0, 1000, 100))
 			}
 
                     
@@ -28260,7 +28255,7 @@ C.letty = H.a(u([-4, 30, 22, 17, 33, 19, 40, 400]), [P.j])
 C.chen = H.a(u([12, 15, 30, 20, 0, 11, 14, 524]), [P.j])
 C.alice = H.a(u([0, 14, -2, 1, 40, 8, 70, 500]), [P.j])
 C.lilywhite = H.a(u([-7, 1, 2, 3, -16, 26, -5, 700]), [P.j])
-C.phantom = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.phantom = H.a(u([10, 2, 35, 34, 35, 15, 9, 1215]), [P.j])
 C.youmu = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.yuyuko = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.ran = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])

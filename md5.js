@@ -17892,8 +17892,8 @@ T.thb5n2.prototype = {
                     o.r1.k(0, $.kl(), v)
                     o.y1.i(0, v)
                 }
-                    v.x = 300
-				    q.push(T.e("[0]获得[1]点护盾", o , v.x, null, null, 0, 1000, 100))
+                    v.x = 80
+				    q.push(T.e("[0]获得[1]点[护盾]", o , v.x, null, null, 0, 1000, 100))
 			}
 			if(o.y != this.r.y){
 			t = T.u(this.r, !0, c)
@@ -17919,7 +17919,7 @@ T.thb5n3.prototype = {
             return 3
         },		
 		ar: function(a, b) {
-            if (this.r.mu1 == 0)
+            if (this.r.mu3 == 0)
             { 
                 return !1
             }
@@ -24292,13 +24292,13 @@ T.phantom.prototype = {
         this.k2 = t
         t = this.id
 		u = new T.thb5n1()
-        u.f = 0
+        u.f = 64
         t.push(u)
 		u = new T.thb5n2()
-        u.f = 100
+        u.f = 128
         t.push(u)
 		u = new T.thb5n3()
-        u.f = 600
+        u.f = 256
         t.push(u)
 		
         
@@ -26745,7 +26745,8 @@ dk: function(a, b, c, d, e, f, g) {
                     r.r.y1.i(0, u)
                 }
 				v = r.r.fx - r.r.fr 
-				u.x = 1000*C.b.v(v , r.r.fx)
+				u.x = 140*C.b.v(v , r.r.fx)
+				g.a.push(T.e("[0]获得[1]点[护盾]", o , u.x, null, null, 0, 1000, 100))
 				
 			return a
             }

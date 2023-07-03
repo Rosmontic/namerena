@@ -17827,7 +17827,7 @@ T.thb5s1.prototype = {
 		},	
         t: function(a, b, c, d) {
             var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
-			this.r.id[1].f = this.r.id[1].f - 25
+			this.r.id[0].f = this.r.id[0].f - 25
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
             k = "[0]使用[大合葬「灵车大协奏曲」]"
@@ -17892,7 +17892,7 @@ T.thb5n1.prototype = {
 		},	
         t: function(a, b, c, d) {
             var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
-			this.r.id[1].f = this.r.id[1].f + 25
+			this.r.id[0].f = this.r.id[0].f + 25
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
             k = "[0]使用[神弦「斯特拉迪瓦里」]"
@@ -17943,7 +17943,7 @@ T.thb5n2.prototype = {
 		},	
         t: function(a, b, c, d) {
             var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
-			this.r.id[1].f = this.r.id[1].f + 25
+			this.r.id[0].f = this.r.id[0].f + 25
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
             k = "[0]使用[冥管「灵之克里福德」]"
@@ -17998,7 +17998,7 @@ T.thb5n3.prototype = {
 		},	
         t: function(a, b, c, d) {
             var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
-			this.r.id[1].f = this.r.id[1].f + 25
+			this.r.id[0].f = this.r.id[0].f + 25
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
             k = "[0]使用[键灵「贝森朵夫神奏」]"

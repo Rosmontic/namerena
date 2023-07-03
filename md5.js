@@ -9862,6 +9862,8 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.mu1 = 1
 			_.mu2 = 1
 			_.mu3 = 1
+			_.me1 = 0
+			_.me2 = 0		
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -10774,6 +10776,12 @@ i9m: function i9m() {
             _.c = _.b = _.a = _.r = null
         },
 		tha9b1: function tha9b1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		thb5b1: function thb5b1() {
             var _ = this
             _.e = !1
             _.f = 0
@@ -24365,6 +24373,9 @@ T.phantom.prototype = {
 		u = new T.thb5s1()
         u.f = 0
         t.push(u)
+		u = new T.thb5b1()
+        u.f = 100
+        t.push(u)
 		u = new T.thb5n1()
         u.f = 40
         t.push(u)
@@ -24374,6 +24385,7 @@ T.phantom.prototype = {
 		u = new T.thb5n3()
         u.f = 110
         t.push(u)
+		
 		
         
         
@@ -27027,6 +27039,90 @@ T.i9m.prototype = {
         },
         $iG: 1
         }
+	T.thb5b1.prototype = {
+        aK: function(a, b, c, d) {
+            var l, k ,h, u, t, s, r = this
+			h = r.r.fr
+			if(h > 0.66*r.r.fx && r.r.me1 == 0){
+			do {
+			k = (c.m() & 3)			
+			}while(k < 1)
+			if (k == 1)
+			{
+			r.r.mu1 == 0
+			r.r.me1 == 1
+			d.a.push(T.e("[0]失去了[露娜萨·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			}
+			if (k == 2)
+			{
+			r.r.mu2 == 0
+			r.r.me1 == 1
+			d.a.push(T.e("[0]失去了[梅露兰·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			}
+			if (k == 3)
+			{
+			r.r.mu3 == 0
+			r.r.me1 == 1
+			d.a.push(T.e("[0]失去了[莉莉卡·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			}			
+			}
+			if(h > 0.33*r.r.fx && r.r.me2 == 0){
+			l = (c.m() & 1) + 1
+			if (r.r.mu1 == 0)
+			{
+			if (l == 1){
+			r.r.mu1 == 0
+			r.r.me2 == 1
+			d.a.push(T.e("[0]失去了[露娜萨·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			}
+			if (l == 2){
+			r.r.mu3 == 0
+			r.r.me2 == 1
+			d.a.push(T.e("[0]失去了[莉莉卡·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			}			
+			}
+			if (r.r.mu2 == 0)
+			{
+			if (l == 1){
+			r.r.mu2 == 0
+			r.r.me2 == 1
+			d.a.push(T.e("[0]失去了[梅露兰·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			}
+			if (l == 2){
+			r.r.mu1 == 0
+			r.r.me2 == 1
+			d.a.push(T.e("[0]失去了[露娜萨·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			}}
+			if (r.r.mu1 == 0)
+			{
+			if (l == 1){
+			r.r.mu2 == 0
+			r.r.me2 == 1
+			d.a.push(T.e("[0]失去了[梅露兰·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			}
+			if (l == 2){
+			r.r.mu3 == 0
+			r.r.me2 == 1
+			d.a.push(T.e("[0]失去了[莉莉卡·普莉兹姆利巴]", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			}
+			}
+			}
+			return a			
+        },
+		T: function() {
+            this.r.ry.i(0, this)
+        },
+        $iG: 1
+        }
 	T.tha1b2.prototype = {
         aK: function(a, b, c, d) {
             var u, t, s, r = this
@@ -28067,7 +28163,7 @@ T.i9m.prototype = {
         t(P.cD, P.l)
         t(Z.hl, Z.ax)
         s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
-        s(T.H, [T.y, T.hJ, T.tha1b1, T.tha5b1, T.tha6b1, T.tha7b1, T.tha10b1,T.tha12b1, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.thj7b1, T.dV, T.dX, T.tha4b1,T.tha3b2,T.thb1b1, T.i9 , T.i9m, T.ih, T.tha9b1,T.tha1b2, T.thb2b1 , T.im, T.tha3b1, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
+        s(T.H, [T.y, T.hJ, T.tha1b1, T.tha5b1, T.tha6b1, T.tha7b1, T.tha10b1,T.tha12b1, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.thj7b1, T.dV, T.dX, T.tha4b1,T.tha3b2,T.thb1b1, T.i9 , T.i9m, T.ih, T.thb5b1, T.tha9b1,T.tha1b2, T.thb2b1 , T.im, T.tha3b1, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
         s(T.y, [T.dL, T.hI ,T.tha6n1, T.tha10t1, T.hK, T.hKm, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.tha2n1, T.tha2ak, T.tha12ak, T.tha2n2, T.tha2n3, T.tha2b1, T.tha1n3, T.tha3n1, T.thb1n1, T.thb1s1, T.thb1n2, T.thb1n3, T.thb2n1, T.thb2n2 ,T.thb2n3, T.thb2s1,  T.tha3n2, T.tha3s1, T.tha6n2, T.tha6n3, T.tha5n1, T.tha7n1 ,T.tha7n2,T.tha8n1 ,T.tha8t1 ,T.tha8n2 ,T.tha8t2 ,T.tha8n3 ,T.tha8t3 ,T.tha8n4 ,T.tha8t4 ,T.tha8n5 ,T.tha8t5 ,T.tha8s1 ,T.tha9n1,T.tha9n3,T.tha10n1,T.tha10n2,T.tha10s1,T.tha11n1,T.tha11n2, T.tha11n1t, T.tha11n2t, T.tha11t1, T.thb3n1,T.thb3n2,T.thb3n3,T.thb3n4,T.thb3n5,T.thb3n6,T.thb3n7,T.thb3n8,T.thb3s1 ,T.thb3t1,T.thb3t2,T.thb3t3,T.thb3t4,T.thb3t5,T.thb3t6,T.thb3t7, T.hS, T.thb4b1, T.thb4b2, T.hU, T.tha1n2, T.hV, T.bV, T.dR, T.hX, T.tha4n3, T.thb4n1, T.thb4n2,T.thb4s1, T.thb5s1, T.thb5n1, T.thb5n2, T.thb5n3, T.dS, T.tha4n1, T.tha4n2, T.tha4n2x, T.tha7t1, T.dT, T.i1, T.tha1n1, T.i6, T.i8, T.dW, T.ia ,T.tha4s1, T.i7, T.ig, T.tha9n2, T.tha9n2t,T.yeye, T.ij,T.tha1s1, T.tha9s1, T.hW, T.ik, T.il, T.tha5n3, T.tha6s1t,T.tha6s1, T.tha11s1,T.tha2s1, T.dM, T.tha5n2, T.tha5s1, T.tha7s1, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
         s(T.M, [T.bf, T.co, T.dj ,T.sl , T.cG, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade])
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])

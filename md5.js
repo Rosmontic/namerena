@@ -22037,7 +22037,7 @@ else
 			{w = 2
 			}
 			for(h=0 ; h<w ; ++h){
-			if (l.fr < 0){
+			if (l.fr > 0){
             k.push(T.e("[0]使用[人鬼「未来永劫斩」]", n.r, l, m, m, 1, 1000, 100))
             u = 6
             t = 100 + n.r.cy
@@ -22132,7 +22132,7 @@ o.a0(p, !0, this.r, T.a3(), c, d)}
         var u = this
         t = a[0].a
 		d.a.push(T.e("[0]: [心定神宁]", u.r, t, null, null, 1, 1000, 100))
-		u.r.kong =2 
+		u.r.kong = 1
 		u.r.j = u.r.j -2048
 		
     }
@@ -27046,7 +27046,7 @@ T: function() {
     },
 dk: function(a, b, c, d, e, f, g) {
         var u, t, s = this
-        if ( s.r.kong == 1 ) {
+        if (s.r.kong == 1 ) {
 		    u = 0.7*a + 0.7*T.u(u.r, !1, c)
             g.a.push(T.e(C.c.K("[0][招架]", $.nj()), s.r, c, null, null, 20, 1500, 100))
             g.a.push(T.e(C.c.K("[0]使用[空观剑「六根清净斩」]", $.nj()), s.r, c, null, null, 20, 1500, 100))
@@ -28802,7 +28802,7 @@ C.chen = H.a(u([12, 15, 30, 20, 0, 11, 14, 524]), [P.j])
 C.alice = H.a(u([0, 14, -2, 1, 40, 8, 70, 500]), [P.j])
 C.lilywhite = H.a(u([-7, 1, 2, 3, -16, 26, -5, 700]), [P.j])
 C.phantom = H.a(u([10, 2, 35, 34, 35, 15, 9, 1215]), [P.j])
-C.youmu = H.a(u([2, -6, 40, 42, -16, 5, 9, 501]), [P.j])
+C.youmu = H.a(u([2, -6, 40, 42, -16, 15, 9, 501]), [P.j])
 C.yuyuko = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.ran = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.yukari = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])

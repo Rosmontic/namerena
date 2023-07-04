@@ -17926,7 +17926,7 @@ T.thb5n1.prototype = {
             q.push(T.e(O.c("YmSv"), o , T.a1(o, l), new T.aG(t), null, 0, 1000, 100))
 			}
 			if(o.y != this.r.y){
-			if(!o.A && T.bd(this.r.db, o.dx, c))
+			if(o.fr > 0 &&!o.A && T.bd(this.r.db, o.dx, c))
             {
             q.push(T.e(O.c("vVob"), o, this.r, null, null, 20, 1000, 100))
             }
@@ -18035,7 +18035,7 @@ T.thb5n3.prototype = {
             q.push(T.e("[0]的行动提前了", o , o, null, null, 0, 1000, 100))
 			}
 			if(o.y != this.r.y){
-			if(!o.A && T.bd(this.r.db, o.dx, c))
+			if(o.fr > 0 &&!o.A && T.bd(this.r.db, o.dx, c))
             {
             q.push(T.e(O.c("vVob"), o, this.r, null, null, 20, 1000, 100))
             }

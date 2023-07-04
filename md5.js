@@ -22038,7 +22038,7 @@ else
 			}
 			for(h=0 ; h<w ; ++h){
 			if (l.fr > 0){
-			if (h == 2){
+			if (h == 1){
 			d.a.push($.v())}
             k.push(T.e("[0]使用[人鬼「未来永劫斩」]", n.r, l, m, m, 1, 1000, 100))
             u = 6
@@ -22078,7 +22078,7 @@ else
 		l =2}
 		for(g = 0 ; g<l ;++g ){
 		if (t.fr > 0){
-		if (g == 2){
+		if (g == 1){
 		d.a.push($.v())}
         d.a.push(T.e("[0]使用[断迷剑「迷津慈航斩」]", u.r, t, null, null, 1, 1000, 100))
 		if (v == 0){
@@ -22109,7 +22109,7 @@ else
 			{w = 2
 			}
 			for(h=0 ; h<w ; ++h){
-			if (h == 2){
+			if (h == 1){
 			d.a.push($.v())}
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
             p = T.u(this.r, !0, c) * 1.2			
@@ -27054,9 +27054,8 @@ T: function() {
 dk: function(a, b, c, d, e, f, g) {
         var u, t, s = this
         if (s.r.kong == 1 ) {
-		    u = 0.7*a + 0.7*T.u(s.r, !1, c)
-            g.a.push(T.e(C.c.K("[0][招架]", $.nj()), s.r, c, null, null, 20, 1500, 100))
-            g.a.push(T.e(C.c.K("[0]使用[空观剑「六根清净斩」]", $.nj()), s.r, c, null, null, 20, 1500, 100))
+		    u = 0.7*a + 70
+            g.a.push(T.e("[0]触发[「空观剑「六根清净斩」」]", s.r, c, null, null, 1, 1000, 100))
 			g.a.push($.v())
             c.bL(u, !1, s.r, T.a3(), f, g)
             g.a.push($.v())

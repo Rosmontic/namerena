@@ -17871,12 +17871,18 @@ T.thb5s1.prototype = {
             q.push(T.e("[0]的行动提前了", o , o, null, null, 0, 1000, 100))
 			}
 			if(o.y != this.r.y){
+			if(o.fr > 0 &&!o.A && T.bd(this.r.db, o.dx , c))
+            {
+            q.push(T.e("[0][回避]了效果", o, this.r, null, null, 20, 1000, 100))
+            }
+			else{
 			o.fr = C.d.Z(o.fr *0.85)
 			q.push(T.e(O.c("Thtw"), o, T.a1(o, l), new T.aT(15), null, 0, 1000, 100))
 			t = T.u(this.r, !0, c)
-            o.a0(0.25*t, !1, this.r, T.q8(), c, d)
+            o.bL(0.25*t, !1, this.r, T.q8(), c, d)
 			o.j = o.j - 1024
             q.push(T.e("[0]的行动延后了", o , o, null, null, 0, 1000, 100))
+			}
 			}
 
                     
@@ -17928,7 +17934,7 @@ T.thb5n1.prototype = {
 			if(o.y != this.r.y){
 			if(o.fr > 0 &&!o.A && T.bd(this.r.db, o.dx, c))
             {
-            q.push(T.e(O.c("vVob"), o, this.r, null, null, 20, 1000, 100))
+            q.push(T.e("[0][回避]了效果", o, this.r, null, null, 20, 1000, 100))
             }
 			else{
 			o.fr = C.d.Z(o.fr *0.85)
@@ -18037,7 +18043,7 @@ T.thb5n3.prototype = {
 			if(o.y != this.r.y){
 			if(o.fr > 0 &&!o.A && T.bd(this.r.db, o.dx, c))
             {
-            q.push(T.e(O.c("vVob"), o, this.r, null, null, 20, 1000, 100))
+            q.push(T.e("[0][回避]了效果", o, this.r, null, null, 20, 1000, 100))
             }
 			else{
 			o.j = o.j - 1024

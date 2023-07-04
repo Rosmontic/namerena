@@ -17908,7 +17908,7 @@ T.thb5n1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(k, s, null, null, r, 1, 1000, 100))
-            t = C.e.Z(T.u(s, !0, c) / 100)
+            t = C.e.Z(T.u(s, !0, c) / 1000)
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
 				l = o.fr
@@ -27041,9 +27041,11 @@ T.i9m.prototype = {
         }
 	T.thb5b1.prototype = {
         aK: function(a, b, c, d) {
-            var l, k ,h, u, t, s, r = this
+            var j, l, k ,h, u, t, s, r = this
 			h = r.r.fr
-			if(h > 0.66*r.r.fx && r.r.me1 == 0){
+			j = r.r.mu1 + r.r.mu2 + r.r.mu3
+			if(h < 0.66*r.r.fx && j == 3){
+			r.r.fx = 0.66*r.r.fx
 			do {
 			k = (c.m() & 3)			
 			}while(k < 1)
@@ -27069,7 +27071,8 @@ T.i9m.prototype = {
 			d.a.push($.v())
 			}			
 			}
-			if(h > 0.33*r.r.fx && r.r.me2 == 0){
+			if(h < 0.33*r.r.fx && j == 2){
+			r.r.fx = 0.5*r.r.fx
 			l = (c.m() & 1) + 1
 			if (r.r.mu1 == 0)
 			{

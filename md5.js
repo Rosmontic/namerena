@@ -22038,6 +22038,8 @@ else
 			}
 			for(h=0 ; h<w ; ++h){
 			if (l.fr > 0){
+			if (h == 2){
+			d.a.push($.v())}
             k.push(T.e("[0]使用[人鬼「未来永劫斩」]", n.r, l, m, m, 1, 1000, 100))
             u = 6
             t = 100 + n.r.cy
@@ -22051,12 +22053,13 @@ else
                             k.push(T.e(O.c("SYdr"), l, n.r, m, m, 0, 1000, 100))
                         else
                             k.push(T.e(O.c("vVob"), l, n.r, m, m, 0, 1000, 100))
+							return
                     }
-                    t -= 20
+                    t -= 15
                     q = T.u(n.r, !1, c)
                     p = k.length
                     o = n.r
-                    if (l.aA(l.ak(C.e.Z(q * 0.32 / T.cc(l, !0, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
+                    if (l.aA(l.ak(C.e.Z(q * 0.36 / T.cc(l, !0, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
                         s = !0
                     k[p].b = 300
                 }}
@@ -22075,6 +22078,8 @@ else
 		l =2}
 		for(g = 0 ; g<l ;++g ){
 		if (t.fr > 0){
+		if (g == 2){
+		d.a.push($.v())}
         d.a.push(T.e("[0]使用[断迷剑「迷津慈航斩」]", u.r, t, null, null, 1, 1000, 100))
 		if (v == 0){
         t.bL(1.1*s, !1, u.r, T.a3(), c, d) }
@@ -22104,6 +22109,8 @@ else
 			{w = 2
 			}
 			for(h=0 ; h<w ; ++h){
+			if (h == 2){
+			d.a.push($.v())}
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
             p = T.u(this.r, !0, c) * 1.2			
             for (u = 0; u < n.length; ++u) {
@@ -27047,7 +27054,7 @@ T: function() {
 dk: function(a, b, c, d, e, f, g) {
         var u, t, s = this
         if (s.r.kong == 1 ) {
-		    u = 0.7*a + 0.7*T.u(u.r, !1, c)
+		    u = 0.7*a + 0.7*T.u(s.r, !1, c)
             g.a.push(T.e(C.c.K("[0][招架]", $.nj()), s.r, c, null, null, 20, 1500, 100))
             g.a.push(T.e(C.c.K("[0]使用[空观剑「六根清净斩」]", $.nj()), s.r, c, null, null, 20, 1500, 100))
 			g.a.push($.v())

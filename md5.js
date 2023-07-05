@@ -17312,7 +17312,7 @@ u.push($.v())
             return 3
         },
         t: function(a, b, c, d) {
-            var u, s, r = this, q = null, p = r.fy, l ,n, m , o , k=d.a, w ,t,v
+            var u, s, r = this, q = null, p = r.fy, l ,n, m , o , k=d.a, w ,t,v,h
             if (p == null) {
                 r.fy = r.r
                 r.r.ry.i(0, r.fr)
@@ -17327,6 +17327,7 @@ u.push($.v())
             n = H.a([], [T.aU])
             for (u = 0; u < a.length; ++u){
                 n.push(a[u].a)}
+			h = H.a(n.slice(0), [H.n(n, 0)])
 			k.push(T.e("[0]：[幽雅地绽放吧，墨染的樱花~]", r.r, r.r, q, q, 0, 1000, 100))
 			k.push($.v())
             k.push(T.e("[0]使用[死蝶「华胥的永眠」]", r.r, r.r, q, q, 1, 1000, 100))           

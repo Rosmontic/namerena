@@ -17304,7 +17304,7 @@ u.push($.v())
             this.fr.C()
         }
 }
-    T.    T.thb7s1.prototype = {
+    T.thb7s1.prototype = {
 	    gb3: function() {
             return 3
         },

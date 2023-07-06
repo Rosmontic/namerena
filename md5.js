@@ -17343,7 +17343,8 @@ u.push($.v())
             else {
             r.ae(0)
             n = H.a([], [T.aU])
-            for (u = 0; u < 3; ++u){
+            for (u = 0; u < a.length; ++u){
+			    k.push(T.e("[0]使用[死蝶「E」]", r.r, r.r, q, q, 1, 1000, 100))
                 n.push(a[u].a)}
 			k.push(T.e("[0]：[幽雅地绽放吧，墨染的樱花~]", r.r, r.r, q, q, 1, 1000, 100))
 			k.push($.v())

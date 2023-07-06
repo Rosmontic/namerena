@@ -17353,10 +17353,18 @@ u.push($.v())
 			{
 			w = w*1.5
 			}
+			k.push($.v())
+            k.push(T.e("[0]使用[死蝶「A」]", r.r, r.r, q, q, 1, 1000, 100))
             for (u = 0; u < n.length; ++u) {
+			k.push($.v())
+            k.push(T.e("[0]使用[死蝶「B」]", r.r, r.r, q, q, 1, 1000, 100))
 			o = n[u]
+			k.push($.v())
+            k.push(T.e("[0]使用[死蝶「C」]", r.r, r.r, q, q, 1, 1000, 100))
             k.push($.v())
 		    for(v = 0 ; v < 4 ; v++){
+			k.push($.v())
+            k.push(T.e("[0]使用[死蝶「D」]", r.r, r.r, q, q, 1, 1000, 100))
             if (o.fr > 0 ) {
             o.a0(w, !0, r.r, T.a3(), c, d)}
             }                 

@@ -24878,15 +24878,10 @@ T.yuyuko.prototype = {
         t.r = this
         this.k2 = t
         t = this.id		
-		u = new T.thb7t1()
+		u = new T.thb7s1()
         u.fr = new T.bP(u)
         u.fx = new T.cB(u)
         u.f = 30
-        t.push(u)
-		u = new T.hKm()
-        u.fr = new T.bP(u)
-        u.fx = new T.cB(u)
-        u.f = 300
         t.push(u)
 		u = new T.thb7n1()
         u.f = 56

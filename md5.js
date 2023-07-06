@@ -17285,7 +17285,7 @@ u.push($.v())
             for (u = 0; u < a.length; ++u){
                 n.push(a[u].a)}
 			h = H.a(n.slice(0), [H.n(n, 0)])
-			k.push(T.e("[0]：[幽雅地绽放吧，墨染的樱花~]", r.r, q, q, h, 1, 1000, 100))
+			k.push(T.e("[0]：[幽雅地绽放吧，墨染的樱花~]", r.r, q, q, h, 0, 1000, 100))
 			k.push($.v())
             k.push(T.e("[0]使用[死蝶「华胥的永眠」]", r.r, r.r, q, q, 1, 1000, 100))           
             w = T.u(r.r, !0, c) * 0.72
@@ -17918,7 +17918,7 @@ T.thb4s1.prototype = {
             return a.b1(this.r.y.f)
         },
 		ar: function(a, b) {
-            if (a.fr  > 0.5 * a.fx)
+            if (this.r.spring  < 4)
             { 
                 return !1
             }
@@ -19090,9 +19090,9 @@ T.tha9n3.prototype = {
                 p.h(0, "Dt.iron").H(u.r, d)
             p = u.r
             if (!!r.$iav)
-                r.bL(q * 2, !0, p, T.mB(), c, d)
+                r.a0(q * 2, !0, p, T.mB(), c, d)
             else
-                r.bL(q, !0, p, T.mB(), c, d)
+                r.a0(q, !0, p, T.mB(), c, d)
         }
     }
     T.darkLock.prototype = {
@@ -23089,7 +23089,11 @@ T.tha1n3.prototype = {
                 o = n[u]
 if (o.fr > 0 ) {
 q.push($.v())
-o.bL(p, !0, this.r, T.a3(), c, d)
+if (!!o.$iav){
+o.bL(2*p, !0, this.r, T.a3(), c, d)
+}
+else{
+o.bL(p, !0, this.r, T.a3(), c, d)}
 }
                     
                 }
@@ -27371,9 +27375,8 @@ dk: function(a, b, c, d, e, f, g) {
             if ( t.f >0 ) {
                 t.f = 0
 				t.r.fly1 = 1
-                s = C.c.K("[0]触发[「反魂蝶」]", $.lb())
-                d.a.push(T.e(s, r, r, null, null, 80, 1500, 100))
-                t.r.fr = C.d.Z(t.r.fx * 0.3)
+				d.a.push(T.e("[0]触发[「反魂蝶」]", this.r, this.r, this.r, null, 1, 1000, 100))
+                t.r.fr = 10
                 r = O.c("YmSv")
                 d.a.push(T.e(r, t.r, T.a1(t.r, 0), new T.aG(t.r.fr), null, 0, 1000, 100))
                 return !0
@@ -27657,13 +27660,13 @@ dk: function(a, b, c, d, e, f, g) {
 			r.r.fly2 = r.r.fly2 + 1
 			}
 	        v = this.r.fr
-			if(this.r.fr > 0.75* this.r.fx)
+			if(this.r.fr > 0.7* this.r.fx)
 			{
-			this.r.fr = 0.75* this.r.fx
+			this.r.fr = 0.7* this.r.fx
 			}
-			this.r.fx = 0.75* this.r.fx
+			this.r.fx = 0.7* this.r.fx
 			d.a.push($.v())
-			d.a.push(T.e("[1]的生命上限减少", this.r, T.a1(this.r, v), new T.aT(25), null, 0, 1000, 100))
+			d.a.push(T.e("[0]的生命上限减少", this.r, T.a1(this.r, v), new T.aT(25), null, 0, 1000, 100))
 			}
 			if(r.r.fly1 > 0)
 			{

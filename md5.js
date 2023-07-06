@@ -22340,6 +22340,13 @@ o.a0(p, !0, this.r, T.a3(), c, d)}
         }
     }
 	T.thb7t1.prototype = {
+	    ar: function(a, b) {
+            if (this.r.fly1 > 0 || this.r.butter > 0 )
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
         t: function(a, b, c, d) {
             var v ,u, t, s, r, q = null, p, o, n = a[0].a
 			d.a.push(T.e("[0]使用[幽曲「埋骨于弘川」]", this.r, this.r, q, q, 1, 1000, 100))
@@ -24845,7 +24852,7 @@ T.yuyuko.prototype = {
         u.f = 29
         t.push(u)
 		u = new T.thb7t1()
-        u.f = 45
+        u.f = 55
         t.push(u)
 		u = new T.thb7n1()
         u.f = 56
@@ -27646,7 +27653,7 @@ dk: function(a, b, c, d, e, f, g) {
             if(r.r.butter == 1 && r.r.fly1 == 0 )
 			{
             r.r.bI(r.r, d)
-			if (r.r.fly2 > 3){
+			if (r.r.fly2 < 3){
 			r.r.fly2 = r.r.fly2 + 1
 			}
 	        v = this.r.fr
@@ -27656,10 +27663,13 @@ dk: function(a, b, c, d, e, f, g) {
 			}
 			this.r.fx = 0.75* this.r.fx
 			d.a.push($.v())
-			d.a.push(T.e("[1]的生命上限减少[2]", this.r, T.a1(this.r, v), new T.aT(25), null, 0, 1000, 100))
+			d.a.push(T.e("[1]的生命上限减少", this.r, T.a1(this.r, v), new T.aT(25), null, 0, 1000, 100))
 			}
 			if(r.r.fly1 > 0)
 			{
+			if(r.r.butter == 1){
+			r.r.bI(r.r, d)
+			}
 			r.r.fly2 = r.r.fly2 - 1
 			}
          	return a

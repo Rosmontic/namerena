@@ -17305,51 +17305,57 @@ u.push($.v())
         }
 }
     T.thb7s1.prototype = {
-	    gb3: function() {
-            return 3
+        ar: function(a, b) {
+            if (b && this.r.r1.G(0, $.b9()))
+                return !1
+            return this.aS(a, b)
         },
-        gb4: function() {
-            return 3
+        am: function(a, b) {
+            if (b)
+                return a.fr > 160
+            return !0
+        },
+        a8: function(a, b, c) {
+            return this.bs(a, b, c, !0)
+        },
+        a9: function(a, b, c) {
+            if (this.fy != null)
+                return H.a([], [T.Z])
+            return this.dM(0, b, c)
         },
         t: function(a, b, c, d) {
-            var u, s, r = this, q = null, p = r.fy, l ,n, m , o , k=d.a, w ,t,v,h
+            var u, t, s, r = this, q = null, p = r.fy ,v ,w ,h
             if (p == null) {
-                r.fy = r.r
+                r.fy = a[0].a
+                d.a.push(T.e("[0]: [沉噤]， [入梦]， [凋亡]", r.r, r.r, q, q, 1, 1000, 100))
                 r.r.ry.i(0, r.fr)
-                k.push(T.e("[0]：[华胥惊梦]", r.r, r.fy, q, q, 1, 1000, 100))
-				if (this.r.fr < this.r.fx * 0.5)
-                    this.r.j = this.r.j + 1024
-                else
-                    this.r.y2.i(0, this.fx)
+                p = r.r
+                p.j = p.j + 512
+                u = r.r              
+                u.y2.i(0, r.fx)
+            } else {
+                r.ae(0)
+                if (p.fr > 0) {
+                    u = d.a
+					v = (c.m() & 31)
+					w = p.fr
+					this.f = 0
+                    u.push(T.e("[0]对[1]使用[寿命「通向无寿国的期票」]", r.r, p, q, q, 1, 1000, 100))  
+                    h = 1 - (v + 50)/100
+                    p.fr = C.d.Z(p.fr * h)	
+                    u.push(T.e(O.c("Thtw"), p, T.a1(p, w), new T.aT(v+50), null, 0, 1000, 100))                   
+                }
             }
-            else {
-            r.ae(0)
-            n = H.a([], [T.aU])
-            for (u = 0; u < a.length; ++u){
-                n.push(a[u].a)}
-			h = H.a(n.slice(0), [H.n(n, 0)])
-			k.push(T.e("[0]：[幽雅地绽放吧，墨染的樱花~]", r.r, r.r, q, q, 0, 1000, 100))
-			k.push($.v())
-            k.push(T.e("[0]使用[死蝶「华胥的永眠」]", r.r, r.r, q, q, 1, 1000, 100))           
-            w = T.u(this.r, !0, c) * 0.72
-			if(this.r.fr < this.r.fx * 0.5)
-			{
-			w = w*1.5
-			}
-            for (u = 0; u < n.length; ++u) {
-            k.push($.v())
-		    for(v = 0 ; v < 4 ; v++){
-            if (o.fr > 0 ) {
-            o.a0(w, !0, this.r, T.a3(), c, d)}
-            }                 
-            }
-            
-    }
         },
         ay: function(a, b, c, d) {
             var u = d.a
             u.push($.v())
             u.push(T.ap("[0]被打断了", this.r, this.fy))
+			this.r.fx = this.r.fx * 0.75
+			if(this.r.fr > this.r.fx)
+			{
+			this.r.fr = this.r.fx
+			}
             this.ae(0)
         },
         aK: function(a, b, c, d) {
@@ -17365,7 +17371,7 @@ u.push($.v())
             this.fx.C()
             this.fr.C()
         }
-    }
+}
     T.bx.prototype = {
         gR: function() {
             return -1

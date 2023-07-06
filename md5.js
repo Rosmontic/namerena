@@ -10008,7 +10008,9 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
-            _.upgrade = true
+            _.buffer = 0
+			_.fly1 = 0
+			_.fly2 = 0
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -27364,7 +27366,7 @@ dk: function(a, b, c, d, e, f, g) {
 				t.r.fly1 = 1
                 s = C.c.K("[0]触发[「反魂蝶」]", $.lb())
                 d.a.push(T.e(s, r, r, null, null, 80, 1500, 100))
-                t.r.fr = t.r.fx * 0.3
+                t.r.fr = C.d.Z(t.r.fx * 0.3)
                 r = O.c("YmSv")
                 d.a.push(T.e(r, t.r, T.a1(t.r, 0), new T.aG(t.r.fr), null, 0, 1000, 100))
                 return !0

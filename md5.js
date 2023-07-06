@@ -17244,7 +17244,7 @@ u.push($.v())
         },
         am: function(a, b) {
             if (b)
-                return a.fr > 160
+                return a.fr > 10
             return !0
         },
         a8: function(a, b, c) {
@@ -17345,8 +17345,7 @@ u.push($.v())
             n = H.a([], [T.aU])
             for (u = 0; u < a.length; ++u){
                 n.push(a[u].a)}
-			h = H.a(n.slice(0), [H.n(n, 0)])
-			k.push(T.e("[0]：[幽雅地绽放吧，墨染的樱花~]", r.r, h, q, q, 1, 1000, 100))
+			k.push(T.e("[0]：[幽雅地绽放吧，墨染的樱花~]", r.r, r.r, q, q, 1, 1000, 100))
 			k.push($.v())
             k.push(T.e("[0]使用[死蝶「华胥的永眠」]", r.r, r.r, q, q, 1, 1000, 100))           
             w = T.u(r.r, !0, c) * 0.72
@@ -24884,10 +24883,10 @@ T.yuyuko.prototype = {
         u.fx = new T.cB(u)
         u.f = 30
         t.push(u)
-		u = new T.thb7s1()
+		u = new T.hKm()
         u.fr = new T.bP(u)
         u.fx = new T.cB(u)
-        u.f = 60
+        u.f = 300
         t.push(u)
 		u = new T.thb7n1()
         u.f = 56

@@ -17316,23 +17316,10 @@ u.push($.v())
                 return !1
             return this.aS(a, b)
         },
-        am: function(a, b) {
-            if (b)
-                return a.fr > 10
-            return !0
-        },
-        a8: function(a, b, c) {
-            return this.bs(a, b, c, !0)
-        },
-        a9: function(a, b, c) {
-            if (this.fy != null)
-                return H.a([], [T.Z])
-            return this.dM(0, b, c)
-        },
         t: function(a, b, c, d) {
             var u, s, r = this, q = null, p = r.fy, l ,n, m , o , k= d.a, w ,t,v,h
             if (p == null) {
-                this.fy = this.r
+                r.fy = r.r
                 r.r.ry.i(0, r.fr)
                 k.push(T.e("[0]：[华胥惊梦]", r.r, r.fy, q, q, 1, 1000, 100))
 				if (r.r.fr < r.r.fx * 0.5){
@@ -17342,7 +17329,11 @@ u.push($.v())
             }
             else {
             r.ae(0)
-            o = a[0].a
+            n = H.a([], [T.aU])
+            for (u = 0; u < a.length; ++u){
+			    k.push(T.e("[0]使用[死蝶「E」]", r.r, r.r, q, q, 1, 1000, 100))
+                n.push(a[u].a)}
+			h = H.a(n.slice(0), [H.n(n, 0)])
 			k.push(T.e("[0]：[幽雅地绽放吧，墨染的樱花~]", r.r, q, q, h, 1, 1000, 100))
 			k.push($.v())
             k.push(T.e("[0]使用[死蝶「华胥的永眠」]", r.r, r.r, q, q, 1, 1000, 100))           
@@ -17356,6 +17347,7 @@ u.push($.v())
             for (u = 0; u < 3; ++u) {
 			k.push($.v())
             k.push(T.e("[0]使用[死蝶「B」]", r.r, r.r, q, q, 1, 1000, 100))
+			o = n[u]
 			k.push($.v())
             k.push(T.e("[0]使用[死蝶「C」]", r.r, r.r, q, q, 1, 1000, 100))
             k.push($.v())

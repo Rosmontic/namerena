@@ -17342,10 +17342,12 @@ u.push($.v())
             }
             else {
             r.ae(0)
-            n = a[0].a
-			m = a[1].a
-			h = a[2].a
-			k.push(T.e("[0]：[幽雅地绽放吧，墨染的樱花~]", r.r, r.r, q, q, 1, 1000, 100))
+            n = H.a([], [T.aU])
+            for (u = 0; u < a.length; ++u)
+			    k.push(T.e("[0]使用[死蝶「E」]", r.r, r.r, q, q, 1, 1000, 100))
+                n.push(a[u].a)
+			h = H.a(n.slice(0), [H.n(n, 0)])
+			k.push(T.e("[0]：[幽雅地绽放吧，墨染的樱花~]", r.r, q, q, h, 1, 1000, 100))
 			k.push($.v())
             k.push(T.e("[0]使用[死蝶「华胥的永眠」]", r.r, r.r, q, q, 1, 1000, 100))           
             w = T.u(r.r, !0, c) * 0.72
@@ -17358,12 +17360,15 @@ u.push($.v())
             for (u = 0; u < 3; ++u) {
 			k.push($.v())
             k.push(T.e("[0]使用[死蝶「B」]", r.r, r.r, q, q, 1, 1000, 100))
-			k.push($.v())
-		    for(v = 0 ; v < 4 ; v++){
+			o = n[u]
 			k.push($.v())
             k.push(T.e("[0]使用[死蝶「C」]", r.r, r.r, q, q, 1, 1000, 100))
+            k.push($.v())
+		    for(v = 0 ; v < 4 ; v++){
+			k.push($.v())
+            k.push(T.e("[0]使用[死蝶「D」]", r.r, r.r, q, q, 1, 1000, 100))
             if (o.fr > 0 ) {
-            a[u].a.a0(w, !0, r.r, T.a3(), c, d)}
+            o.a0(w, !0, r.r, T.a3(), c, d)}
             }                 
             }
             

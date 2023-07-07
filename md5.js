@@ -20796,7 +20796,7 @@ n.r.bf(n.r.fr, null, c, d)
             var u = new T.aK()
             u.r = this
             this.k2 = u
-			this.id.push(new T.thb8t1a())
+			this.id.push(new T.dV())
         },
         aR: function() {
             this.bv()
@@ -24866,9 +24866,10 @@ T.hong.prototype = {
             u.fx = new T.cB(u)
             u.f = 150
             t.push(u)
-            u = new T.tha6s1t()
-            u.f = 0
+			u = new T.dV()
+            u.f = 75
             t.push(u)
+            
 }
 }
 T.koakuma.prototype = {

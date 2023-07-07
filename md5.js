@@ -18570,15 +18570,17 @@ T.thb8t1a.prototype = {
         },
         dk: function(a, b, c, d, e, f, g) {
             var u, t, s = this , v
-
+                v = (f.m() & 3)
+				if (v >1){
 				g.a.push(T.e("[0]使用[前鬼「护佑」]守护了[1]", s.r, d, null, null, 1, 1000, 100))
 				s.r.bL(a, !0, c, e, f, g)
 				return 0
-				    
+				  }
+				return a
 
         },
         T: function() {
-            this.r.y.x2.i(0, this)
+            this.af.r.x2.i(0, this)
         },
         $iK: 1
     }
@@ -20794,7 +20796,7 @@ n.r.bf(n.r.fr, null, c, d)
             var u = new T.aK()
             u.r = this
             this.k2 = u
-			
+			this.id.push(new T.thb8t1a())
         },
         aR: function() {
             this.bv()

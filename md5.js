@@ -17979,7 +17979,7 @@ if (H.o(t.r1.h(0, $.b8()), "$idj") == null)
 s = T.u(u.r, !1, c)}
 else
 {
-s = 1.45*T.u(u.r, !1, c)
+s = 1.3*T.u(u.r, !1, c)
 }            
 d.a.push(T.e("[0]使用[冰符「冰瀑」]", u.r, t, null, null, 1, 1000, 100))
 t.a0(1.1*s, !0, u.r, T.kV(), c, d)
@@ -22626,7 +22626,7 @@ T.tha5n3.prototype = {
 if (H.o(l.r1.h(0, $.b8()), "$idj") == null) 
 {q = T.u(n.r, !0, c)}
 else
-{q = T.u(n.r, !0, c)*1.45
+{q = T.u(n.r, !0, c)*1.3
 }
                     p = k.length
                     o = n.r
@@ -23401,7 +23401,7 @@ if (o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") == null ) {
 q.push($.v())
 o.a0(p, !0, this.r, T.kV(), c, d)}
 else if(o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") != null ) {
-p=1.45*p
+p=1.3*p
 q.push($.v())
 o.a0(p, !0, this.r, T.kV(), c, d)
 }
@@ -23433,7 +23433,7 @@ T.tha5s1.prototype = {
 q.push($.v())
 o.a0(p, !0, this.r, T.kV(), c, d)}
 else if(o.fr > 0 && H.o(a[u].a.r1.h(0, $.b8()), "$idj") != null ) {
-p=2.44*p
+p=1.6*p
 q.push($.v())
 o.a0(p, !0, this.r, T.kV(), c, d)
 }
@@ -24901,6 +24901,9 @@ T.daiyousei.prototype = {
             t.r = this
             this.k2 = t
             t = this.id 
+u = new T.tha4s1()
+u.f = 40
+t.push(u)
 u = new T.tha4n1()
 u.f = 80
 t.push(u)
@@ -24909,9 +24912,6 @@ u.f = 70
 t.push(u)
 u = new T.tha4n3()
 u.f = 60
-t.push(u)
-u = new T.tha4s1()
-u.f = 300
 t.push(u)
 u = new T.tha4b1()
 u.f = 80

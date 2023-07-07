@@ -19597,53 +19597,6 @@ T.tha9n3.prototype = {
             p.push(T.e(C.c.K(O.c("TxmT"), $.nf()), s.r, q, r, r, 0, 1000, 100))
         }
 }   
-    T.thb8s1.prototype = {
-        b5: function(a) {
-            return a.b1(this.r.y.f)
-        },
-        am: function(a, b) {
-            var u
-            if (b) {
-                if (a.fr < 60)
-                    return !1
-                u = a.r1
-                if (u.h(0, $.c5()) != null && (H.o(u.h(0, $.c5()), "$ico").Q + 1) * 60 > a.fr)
-                    return !1
-                return !a.$iav
-            }
-            return !0
-        },
-        a8: function(a, b, c) {
-            var u
-            if (b) {
-                u = T.d5(a) * a.L
-                return a.r1.h(0, $.c5()) != null ? u / 2 : u
-            }
-            return c.gbh()
-        },
-        t: function(a, b, c, d) {
-            var u, t, s = this, r = null, q = a[0].a, p = d.a
-            p.push(T.e(O.c("zfYO"), s.r, q, r, r, 60, 1000, 100))
-            u = s.r
-            u.j = u.j + u.cx
-            u = q.r1
-            t = H.o(u.h(0, $.c5()), "$ico")
-            if (t == null) {
-                t = new T.co(q)
-                t.y = new T.ay(t)
-                u.k(0, $.c5(), t)
-                q.r2.i(0, t)
-                q.x1.i(0, t.y)
-                q.E()
-            } else
-                t.Q += 4
-            if (s.r.r1.G(0, $.X())) {
-                t.z += 2
-                t.Q += 2
-            }
-            p.push(T.e(C.c.K(O.c("TxmT"), $.nf()), s.r, q, r, r, 0, 1000, 100))
-        }
-}
 T.tha4n3.prototype = {
         b5: function(a) {
             return a.b1(this.r.y.f)

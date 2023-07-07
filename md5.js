@@ -22156,8 +22156,9 @@ u[6] = t[6]*10
 			d.db = 50
 			d.dx = 80
 			d.dy = 60
+			c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
-		    c.r.x.aU(d)
+		    
 		}
     }
     T.cG.prototype = {
@@ -23309,7 +23310,7 @@ T.thb8b1.prototype = {
         return u && J.Q(c, T.mA()) ? C.b.v (9*a, 10) : C.b.v (9*a, 10)
     },
     T: function() {
-        this.r.y.y1.i(0, this)
+        this.r.y1.i(0, this)
     },
     $iD: 1
 }

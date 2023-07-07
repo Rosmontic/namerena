@@ -18259,7 +18259,7 @@ T.thb5n1.prototype = {
             q.push(T.e(O.c("YmSv"), o , T.a1(o, l), new T.aG(t), null, 0, 1000, 100))
 			}
 			if(o.y != this.r.y){
-			if(o.fr > 0 &&!o.A && T.bd(this.r.db, o.dx, c))
+			if(o.fr > 0 &&!o.A && T.bd(this.r.db, o.dx + o.cy, c))
             {
             q.push(T.e("[0][回避]了效果", o, this.r, null, null, 20, 1000, 100))
             }
@@ -18553,7 +18553,7 @@ t.a0(0.55*s, !0, u.r, T.kV(), c, d)
 T.thb8t1b.prototype = {
     ai: function(a, b) {
          this.r = a
-         this.f = 160
+         this.f = 360
         },
     t: function(a, b, c, d) {
         var u = this
@@ -18566,22 +18566,21 @@ t.a0(1.8*s, !0, u.r, T.a3(), c, d)
 T.thb8t1a.prototype = {
         ai: function(a, b) {
          this.r = a
-         this.f = 160
+         this.f = 360
         },
         dk: function(a, b, c, d, e, f, g) {
             var u, t, s = this , v
-			    v  = (f.m() & 3)
-				if (v > 1){
+
 				g.a.push(T.e("[0]使用[前鬼「护佑」]守护了[1]", s.r, d, null, null, 1, 1000, 100))
-				s.r.a0(a, !0, s.r, e, f, g)
+				s.r.bL(a, !0, c, e, f, g)
 				return 0
-				}       
-            return a
+				    
+
         },
         T: function() {
-            this.r.x1.i(0, this)
+            this.r.y.x2.i(0, this)
         },
-        $iJ: 1
+        $iK: 1
     }
 T.thb1n2.prototype = {
     t: function(a, b, c, d) {
@@ -25374,13 +25373,13 @@ T.ran.prototype = {
         this.k2 = t
         t = this.id
 		u = new T.thb8t1()
-        u.f = 55
+        u.f = 550
         t.push(u)
 		u = new T.thb8t2()
-        u.f = 80
+        u.f = 0
         t.push(u)		
 		u = new T.thb8n1()
-        u.f = 81
+        u.f = 0
         t.push(u)
 		
         

@@ -22678,7 +22678,7 @@ else
     T.thb2n1t.prototype = {
 	    ai: function(a, b) {
             this.r = a
-            this.f = 50
+            this.f = 70
         },
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o, n = this, m = null, l = a[0].a, k = d.a
@@ -22711,7 +22711,7 @@ else
     T.thb2n2t.prototype = {
 	    ai: function(a, b) {
             this.r = a
-            this.f = 80
+            this.f = 60
         },
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o, n = this, m = null, l = a[0].a, k = d.a
@@ -23539,11 +23539,11 @@ o.a0(p, !1, this.r, T.a3(), c, d)
             return 2
         },
         gb4: function() {
-            return 2
+            return 70
         },
 		ai: function(a, b) {
             this.r = a
-            this.f = 200
+            this.f = 0
         },
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o, v ,n = H.a([], [T.aU])
@@ -25487,6 +25487,7 @@ T.ran.prototype = {
 		
         
         
+}
 }
 }
 T.yukari.prototype = {

@@ -18201,14 +18201,14 @@ T.thb8s1.prototype = {
                 n.push(a[u].a)
             k = "[0]使用[幻神「饭纲权现降临」]"
             s = this.r
-			this.f = 0
+			this.f = this.f - 40
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(k, s, null, null, r, 1, 1000, 100))
             
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
-            
+            if(o.e == "ran@!" && o.e == "chen@!" && !!o.$iav ){
             q.push($.v())
             o.j = o.j + o.cx
             t = H.o(o.r1.h(0, $.c5()), "$ishenx")
@@ -18221,7 +18221,8 @@ T.thb8s1.prototype = {
                 o.E()
             } else
                 t.Q += 3  
-            d.a.push(T.e(C.c.K("[0]的属性大幅度增加", $.nf()), o, o, null, null, 0, 1000, 100))				
+            d.a.push(T.e(C.c.K("[0]的属性大幅度增加", $.nf()), o, o, null, null, 0, 1000, 100))	
+			}	
             }
             
         }
@@ -19571,7 +19572,7 @@ T.tha9n3.prototype = {
             if (u.fr > 0) {
                 t = b.a
                 t.push($.v())
-                t.push(T.ap("[1]从神现中解除", a, u))
+                t.push(T.ap("[1]从[神现]中解除", a, u))
             }
         },
         $ip: 1
@@ -20493,9 +20494,9 @@ T.tha4s1.prototype = {
                 C.a.i(q.f, u)
             }
 r.push(T.e(O.c("YmSv"), n.r, T.a1(u, 0), new T.aG(t), m, 0, 1000, 100))
-if (u.e == "cirno@!"){
+if (u.e == "cirno@!" && u.e == "lilywhite@!"){
 d.a.push($.v())
-r.push(T.e("[0]：琪露诺酱！这是我最后的灵力了！", n.r, u, m, m, 0, 1000, 100))
+r.push(T.e("[0]：[1]！这是我最后的灵力了！", n.r, u, m, m, 0, 1000, 100))
 u.Q = u.Q *2
 u.ch = u.ch *2
 u.cy = u.cy *2

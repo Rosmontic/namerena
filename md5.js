@@ -20894,6 +20894,22 @@ n.r.bf(n.r.fr, null, c, d)
             this.bv()
             var u = this.u
             u[7] = C.d.v(u[7], 1)
+        },
+		bM: function() {
+            var u, t = this
+            t.dK()
+            u = t.bb
+            if (u == null)
+                u = t.bb = new T.cB(t)
+            t.y2.i(0, u)
+        },
+        ay: function(a, b, c, d) {
+            
+            if(this.af.r.fr > 0){
+			a = C.d.Z(a *0.75)
+			}
+			return a
+            
         }
     }
 	T.hhb8t1a.prototype = {
@@ -20922,12 +20938,9 @@ n.r.bf(n.r.fr, null, c, d)
         ay: function(a, b, c, d) {
             
             if(this.af.r.fr > 0){
-			this.aP = !0
-			d.a.push(T.e("[0]发起[反击]", this.af.r, this.r, null, null, 0, 1000, 100))
-            b.aA(C.b.v(a, 6), this.af.r, T.a3(), c, d)		
-            this.aP = !1
+			a = C.d.Z(a *0.75)
 			}
-			
+			return a
             
         }
     }
@@ -20957,12 +20970,9 @@ n.r.bf(n.r.fr, null, c, d)
         ay: function(a, b, c, d) {
             
             if(this.af.r.fr > 0){
-			this.aP = !0
-			d.a.push(T.e("[0]发起[反击]", this.af.r, this.r, null, null, 0, 1000, 100))
-            b.aA(C.b.v(a, 6), this.af.r, T.a3(), c, d)		
-            this.aP = !1
+			a = C.d.Z(a *0.75)
 			}
-			
+			return a
             
         }
     }
@@ -20994,11 +21004,10 @@ n.r.bf(n.r.fr, null, c, d)
         ay: function(a, b, c, d) {
             
             if(this.af.r.fr > 0){
-			this.aP = !0
-			d.a.push(T.e("[0]发起[反击]", this.af.r, this.r, null, null, 0, 1000, 100))
-            b.aA(C.b.v(a, 4), this.af.r, T.a3(), c, d)		
-            this.aP = !1
-			}        
+			a = C.d.Z(a *0.02)
+			}
+			return a
+            
         }
     }
     T.tha4n2.prototype = {
@@ -22625,7 +22634,7 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
         },
         ay: function(a, b, c, d) {
             this.aP = !0
-            this.af.r.aA(C.b.v(a, 2), b, T.a3(), c, d)
+            b.aA(C.b.v(a, 2), this.af.r, T.a3(), c, d)
 			
             this.aP = !1
         },
@@ -28407,8 +28416,8 @@ dk: function(a, b, c, d, e, f, g) {
 	        v = this.r.fr	
 			this.r.fr = 0.8* this.r.fr
 			this.r.fx = 0.8* this.r.fx
-			d.a.push(T.e("[1]的生命、生命上限减少[2]%", this.r, T.a1(this.r, v), new T.aT(20), null, 0, 1000, 100))
 			d.a.push($.v())
+			d.a.push(T.e("[0]的生命、生命上限减少[2]%", this.r, T.a1(this.r, v), new T.aT(20), null, 0, 1000, 100))
 			}
 			if(r.r.fly1 > 0)
 			{

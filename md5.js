@@ -20906,9 +20906,11 @@ n.r.bf(n.r.fr, null, c, d)
         ay: function(a, b, c, d) {
             
             if(this.af.r.fr > 0){
-			a = C.d.Z(a *0.75)
+			this.aP = !0
+            b.aA(C.b.v(a, 10), this.af.r, T.a3(), c, d)
+			
+            this.aP = !1
 			}
-			return a
             
         }
     }
@@ -20938,9 +20940,11 @@ n.r.bf(n.r.fr, null, c, d)
         ay: function(a, b, c, d) {
             
             if(this.af.r.fr > 0){
-			a = C.d.Z(a *0.75)
+			this.aP = !0
+            b.aA(C.b.v(a, 6), this.af.r, T.a3(), c, d)
+			
+            this.aP = !1
 			}
-			return a
             
         }
     }
@@ -20970,9 +20974,11 @@ n.r.bf(n.r.fr, null, c, d)
         ay: function(a, b, c, d) {
             
             if(this.af.r.fr > 0){
-			a = C.d.Z(a *0.75)
+			this.aP = !0
+            b.aA(C.b.v(a, 6), this.af.r, T.a3(), c, d)
+			
+            this.aP = !1
 			}
-			return a
             
         }
     }
@@ -21004,9 +21010,10 @@ n.r.bf(n.r.fr, null, c, d)
         ay: function(a, b, c, d) {
             
             if(this.af.r.fr > 0){
-			a = C.d.Z(a *0.02)
+			this.aP = !0
+            b.aA(C.b.v(a, 4), this.af.r, T.a3(), c, d)		
+            this.aP = !1
 			}
-			return a
             
         }
     }
@@ -22634,7 +22641,7 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
         },
         ay: function(a, b, c, d) {
             this.aP = !0
-            b.aA(C.b.v(a, 2), this.af.r, T.a3(), c, d)
+            this.af.r.aA(C.b.v(a, 2), b, T.a3(), c, d)
 			
             this.aP = !1
         },

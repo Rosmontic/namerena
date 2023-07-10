@@ -20923,9 +20923,12 @@ n.r.bf(n.r.fr, null, c, d)
             
             if(this.af.r.fr > 0){
 			this.aP = !0
+			d.a.push(T.e("[0]发起[反击]", this.af.r, this.r, null, null, 0, 1000, 100))
             b.aA(C.b.v(a, 6), this.af.r, T.a3(), c, d)		
             this.aP = !1
-			}        
+			}
+			
+            
         }
     }
 	T.hhb8t1b.prototype = {
@@ -20955,6 +20958,7 @@ n.r.bf(n.r.fr, null, c, d)
             
             if(this.af.r.fr > 0){
 			this.aP = !0
+			d.a.push(T.e("[0]发起[反击]", this.af.r, this.r, null, null, 0, 1000, 100))
             b.aA(C.b.v(a, 6), this.af.r, T.a3(), c, d)		
             this.aP = !1
 			}
@@ -20991,6 +20995,7 @@ n.r.bf(n.r.fr, null, c, d)
             
             if(this.af.r.fr > 0){
 			this.aP = !0
+			d.a.push(T.e("[0]发起[反击]", this.af.r, this.r, null, null, 0, 1000, 100))
             b.aA(C.b.v(a, 4), this.af.r, T.a3(), c, d)		
             this.aP = !1
 			}        
@@ -28390,7 +28395,6 @@ dk: function(a, b, c, d, e, f, g) {
         },
         $iG: 1
         }
-	T.thb7b1.prototype = {
 	T.thb7b1.prototype = {
         aK: function(a, b, c, d) {
             var v ,u, t, s, r = this

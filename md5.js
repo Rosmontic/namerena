@@ -18170,6 +18170,52 @@ T.thb4s1.prototype = {
             
         }
 }
+T.thb8s1.prototype = {
+        gb3: function() {
+            return 999
+        },
+        gb4: function() {
+            return 999
+        },
+		b5: function(a) {
+            return a.b1(this.r.y.f)
+        },
+		
+        t: function(a, b, c, d) {
+            var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+			
+            for (u = 0; u < a.length; ++u)
+                n.push(a[u].a)
+            k = "[0]使用[幻神「饭纲权现降临」]"
+            s = this.r
+			this.f = 0
+            r = H.a(n.slice(0), [H.n(n, 0)])
+            q = d.a
+            q.push(T.e(k, s, null, null, r, 1, 1000, 100))
+            
+            for (u = 0; u < n.length; ++u) {
+                o = n[u]
+            
+            q.push($.v())
+            o.j = o.j + o.cx
+            u = o.r1
+            t = H.o(o.r1.h(0, $.c5()), "$ico")
+            if (t == null) {
+                t = new T.co(o)
+                t.y = new T.ay(t)
+                o.r1.k(0, $.c5(), t)
+                o.r2.i(0, t)
+                o.x1.i(0, t.y)
+                o.E()
+            } else
+                t.Q += 3
+            
+
+                    
+                }
+            
+        }
+}
 T.thb5s1.prototype = {
         b5: function(a) {
             return a.b1(this.r.x.a.e)
@@ -18222,16 +18268,16 @@ T.thb5s1.prototype = {
             q.push(T.e("[0]的行动提前了", o , o, null, null, 0, 1000, 100))
 			}
 			if(o.y != this.r.y){
-			if(o.fr > 0 &&!o.A && T.bd(this.r.db, o.dx , c))
+			if(o.fr > 0 &&!o.A && T.bd(this.r.db, o.dx  , c))
             {
             q.push(T.e("[0][回避]了效果", o, this.r, null, null, 20, 1000, 100))
             }
 			else{
-			o.fr = C.d.Z(o.fr *0.85)
+			o.fr = C.d.Z(o.fr *0.80)
 			q.push(T.e(O.c("Thtw"), o, T.a1(o, l), new T.aT(15), null, 0, 1000, 100))
 			t = T.u(this.r, !0, c)
             o.bL(0.25*t, !1, this.r, T.q8(), c, d)
-			o.j = o.j - 1024
+			o.j = o.j - 1536
             q.push(T.e("[0]的行动延后了", o , o, null, null, 0, 1000, 100))
 			}
 			}
@@ -18283,7 +18329,7 @@ T.thb5n1.prototype = {
             q.push(T.e(O.c("YmSv"), o , T.a1(o, l), new T.aG(t), null, 0, 1000, 100))
 			}
 			if(o.y != this.r.y){
-			if(o.fr > 0 &&!o.A && T.bd(this.r.db, o.dx + o.cy, c))
+			if(o.fr > 0 &&!o.A && T.bd(this.r.db, o.dx + o.dy, c))
             {
             q.push(T.e("[0][回避]了效果", o, this.r, null, null, 20, 1000, 100))
             }
@@ -18392,7 +18438,7 @@ T.thb5n3.prototype = {
             q.push(T.e("[0]的行动提前了", o , o, null, null, 0, 1000, 100))
 			}
 			if(o.y != this.r.y){
-			if(o.fr > 0 &&!o.A && T.bd(this.r.db, o.dx, c))
+			if(o.fr > 0 &&!o.A && T.bd(this.r.db, o.dx+ o.dy, c))
             {
             q.push(T.e("[0][回避]了效果", o, this.r, null, null, 20, 1000, 100))
             }
@@ -18407,6 +18453,7 @@ T.thb5n3.prototype = {
             
         }
 }
+
 T.thb3s1.prototype = {
         gb3: function() {
             return (this.r.dolla +this.r.dollb +this.r.dollc +this.r.dolld +this.r.dolle +this.r.dollf +this.r.dollg)

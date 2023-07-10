@@ -20908,7 +20908,7 @@ n.r.bf(n.r.fr, null, c, d)
             if(this.af.r.fr > 0){
 			a = C.d.Z(a *0.75)
 			}
-			
+			return a
             
         }
     }
@@ -20940,7 +20940,7 @@ n.r.bf(n.r.fr, null, c, d)
             if(this.af.r.fr > 0){
 			a = C.d.Z(a *0.75)
 			}
-			
+			return a
             
         }
     }
@@ -20972,7 +20972,7 @@ n.r.bf(n.r.fr, null, c, d)
             if(this.af.r.fr > 0){
 			a = C.d.Z(a *0.75)
 			}
-			
+			return a
             
         }
     }
@@ -21004,9 +21004,9 @@ n.r.bf(n.r.fr, null, c, d)
         ay: function(a, b, c, d) {
             
             if(this.af.r.fr > 0){
-			a = C.d.Z(a *0.05)
+			a = C.d.Z(a *0.02)
 			}
-			
+			return a
             
         }
     }

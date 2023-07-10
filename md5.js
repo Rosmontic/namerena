@@ -18193,7 +18193,14 @@ T.thb8s1.prototype = {
         },
 		b5: function(a) {
             return a.b1(this.r.y.f)
-        },	
+        },
+		ar: function(a, b) {
+            if (this.r.r1.h(0, "shens") != null )
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
         t: function(a, b, c, d) {
             var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
 			
@@ -18208,14 +18215,14 @@ T.thb8s1.prototype = {
             
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
-            if(o.e == "ran@!" && o.e == "chen@!" && !!o.$iav ){
+            if(o.e == "ran@!" || o.e == "chen@!" || !!o.$iav ){
             q.push($.v())
             o.j = o.j + o.cx
-            t = H.o(o.r1.h(0, $.c5()), "$ishenx")
+            t = H.o(o.r1.h(0, "shens"), "$ishenx")
             if (t == null) {
                 t = new T.shenx(o)
                 t.y = new T.ay(t)
-                o.r1.k(0, $.c5(), t)
+                o.r1.k(0, "shens", t)
                 o.r2.i(0, t)
                 o.x1.i(0, t.y)
                 o.E()
@@ -19566,7 +19573,7 @@ T.tha9n3.prototype = {
             var u, t
             this.C()
             u = this.x
-            u.r1.S(0, $.c5())
+            u.r1.S(0,"shens")
             this.y.C()
             u.E()
             if (u.fr > 0) {
@@ -20494,7 +20501,7 @@ T.tha4s1.prototype = {
                 C.a.i(q.f, u)
             }
 r.push(T.e(O.c("YmSv"), n.r, T.a1(u, 0), new T.aG(t), m, 0, 1000, 100))
-if (u.e == "cirno@!" && u.e == "lilywhite@!"){
+if (u.e == "cirno@!" || u.e == "lilywhite@!"){
 d.a.push($.v())
 r.push(T.e("[0]：[1]！这是我最后的灵力了！", n.r, u, m, m, 0, 1000, 100))
 u.Q = u.Q *2

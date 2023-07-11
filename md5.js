@@ -7277,6 +7277,18 @@ tha7n1: function tha7n1() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
+		thb9b2: function thb9b2() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        }
+		thb9b1: function thb9b1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        }
         tha6n3: function tha6n3() {
             var _ = this
             _.e = !1
@@ -10369,6 +10381,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.go = 1
             _.id = e
             _.jie = 0
+			_.yin = 0
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -23193,7 +23206,6 @@ else
             var u, t, s, r, q, p, o, n = this, m = null, l = a[0].a, k = d.a ,v
             k.push(T.e("[0]使用[幻巢「飞光虫之巢」]", n.r, l, m, m, 1, 1000, 100))
             u = 5
-			v = 1
             t = 100 + n.r.cy
             for (s = !1,
             r = 0; r < u; ++r) {
@@ -23206,9 +23218,13 @@ else
                         else
                             k.push(T.e(O.c("vVob"), l, n.r, m, m, 0, 1000, 100))
                         return
-                    }                  
+                    }
+                    if (v == null)
+                    {
+					v = 1
+                    }					
                     q = C.d.Z(T.u(n.r, !0, c) * v)
-					v = v + 0.4
+					v = v + 0.9
                     p = k.length
                     o = n.r
                     if (l.aA(l.ak(C.e.Z(q * 0.2 / T.cc(l, !0, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
@@ -28391,6 +28407,23 @@ dk: function(a, b, c, d, e, f, g) {
         },
         $iK: 1
     }
+	T.thb9b2.prototype = {
+        dk: function(a, b, c, d, e, f, g) {
+            var u, t, s = this
+            if (this.r.yin == 1) {
+                g.a.push(T.e(C.c.K("[0]遁入[隙间]", $.nj()), s.r, c, null, null, 20, 1500, 100))
+                t = s.r
+                t.j = t.j - 512
+				this.r.yin = 0
+                return 0
+            }
+            return a
+        },
+        T: function() {
+            this.r.x2.i(0, this)
+        },
+        $iK: 1
+    }
 	T.thb1b1.prototype = {
         dk: function(a, b, c, d, e, f, g) {
             var u, t, s, r = this ,v
@@ -28770,6 +28803,20 @@ dk: function(a, b, c, d, e, f, g) {
             if(r.r.kong == 1)
 			{
             r.r.kong = 0
+			}
+         	return a
+        },
+		T: function() {
+            this.r.ry.i(0, this)
+        },
+        $iG: 1
+        }
+	T.thb9b1.prototype = {
+        aK: function(a, b, c, d) {
+            var u, t, s, r = this
+            if(r.r.yin == 0)
+			{
+            r.r.yin = 1
 			}
          	return a
         },
@@ -29847,7 +29894,7 @@ dk: function(a, b, c, d, e, f, g) {
         t(P.cD, P.l)
         t(Z.hl, Z.ax)
         s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
-        s(T.H, [T.y, T.hJ, T.tha1b1, T.tha5b1, T.tha6b1, T.tha7b1, T.thb7b2,  T.tha10b1,T.tha12b1, T.thb5b2, T.thb7b1, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.thj7b1, T.dV, T.dX, T.tha4b1,T.tha3b2,T.thb1b1,T.thb6b1, T.i9 , T.i9m, T.thb7b3 , T.ih, T.thb5b1, T.thb6b2, T.tha9b1,T.tha1b2, T.thb2b1 , T.im, T.tha3b1, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
+        s(T.H, [T.y, T.hJ, T.tha1b1, T.tha5b1, T.tha6b1, T.tha7b1, T.thb7b2, T.thb9b2,T.thb9b1,  T.tha10b1,T.tha12b1, T.thb5b2, T.thb7b1, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.thj7b1, T.dV, T.dX, T.tha4b1,T.tha3b2,T.thb1b1,T.thb6b1, T.i9 , T.i9m, T.thb7b3 , T.ih, T.thb5b1, T.thb6b2, T.tha9b1,T.tha1b2, T.thb2b1 , T.im, T.tha3b1, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
         s(T.y, [T.dL, T.hI ,T.tha6n1, T.thb8t1b, T.tha10t1, T.hK, T.hKm, T.thb7s1,  T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.tha2n1, T.tha2ak, T.tha12ak, T.tha2n2, T.tha2n3, T.tha2b1, T.tha1n3, T.tha3n1, T.thb1n1, T.thb1s1, T.thb1n2, T.thb1n3, T.thb8t1a, T.thb2n1, T.thb2n2 ,T.thb2n3, T.thb2s1, T.thb2n1t, T.thb2n2t ,T.thb2n3t ,  T.tha3n2, T.tha3s1, T.tha6n2, T.tha6n3, T.tha5n1, T.tha7n1 ,T.tha7n2,T.tha8n1 ,T.tha8t1 ,T.tha8n2 ,T.tha8t2 ,T.tha8n3 ,T.tha8t3 ,T.tha8n4 ,T.tha8t4 ,T.tha8n5 ,T.tha8t5 ,T.tha8s1 ,T.tha9n1,T.tha9n3,T.tha10n1,T.tha10n2,T.tha10s1,T.tha11n1,T.tha11n2, T.tha11n1t, T.tha11n2t, T.tha11t1, T.thb3n1,T.thb3n2,T.thb3n3,T.thb3n4,T.thb3n5,T.thb3n6,T.thb3n7,T.thb3n8,T.thb3n9,T.thb3s1 ,T.thb9t1 ,T.thb8n1, T.thb8t1 ,T.thb8t2 ,T.thb3t1,T.thb3t2,T.thb3t3,T.thb3t4,T.thb3t5,T.thb3t6,T.thb3t7,T.thb3t8, T.hS, T.thb4b1, T.thb4b2, T.hU, T.tha1n2, T.hV, T.bV, T.dR, T.hX, T.thb8s1, T.tha4n3, T.thb4n1, T.thb4n2,T.thb4s1, T.thb5s1, T.thb5n1, T.thb5n2, T.thb5n3, T.dS, T.tha4n1, T.tha4n2, T.tha4n2x, T.tha7t1, T.dT, T.i1, T.tha1n1, T.thb9n1, T.i6, T.i8, T.dW, T.ia ,T.tha4s1, T.i7, T.ig, T.tha9n2, T.tha9n2t,T.yeye, T.ij,T.tha1s1, T.tha9s1, T.hW, T.ik, T.il, T.tha5n3, T.thb9n2, T.tha6s1t, T.tha6s1, T.thb6n1, T.thb6n2, T.thb6n3, T.thb6s1, T.thb7n1, T.thb7t1, T.thb7n2, T.tha11s1, T.tha2s1, T.dM, T.tha5n2, T.tha5s1, T.tha7s1, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
         s(T.M, [T.bf, T.co, T.dj ,T.sl , T.cG, T.aN, T.hz, T.shenx, T.darkHasteRun, T.darkSuperUpgrade])
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
@@ -30233,7 +30280,7 @@ C.phantom = H.a(u([10, 2, 35, 34, 35, 15, 9, 1215]), [P.j])
 C.youmu = H.a(u([2, -6, 40, 42, -16, 15, 9, 501]), [P.j])
 C.yuyuko = H.a(u([30, 5, 25, 58, 30, 2, 30, 480]), [P.j])
 C.ran = H.a(u([-10, 29, 41, 4, 20, 27, 61, 463]), [P.j])
-C.yukari = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.yukari = H.a(u([26, 45, 20, -10, 40, 36, 40, 661]), [P.j])
 C.yeya = H.a(u([18, -46, -11, -82, 19, -70, 940, 99749]), [P.j])
         C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])
         C.W = H.a(u([10, -6, 1000, 0, 10, -15, 6, 0]), [P.j])

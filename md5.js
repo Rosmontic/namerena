@@ -7282,13 +7282,13 @@ tha7n1: function tha7n1() {
             _.e = !1
             _.f = 0
             _.c = _.b = _.a = _.r = null
-        }
+        },
 		thb9b1: function thb9b1() {
             var _ = this
             _.e = !1
             _.f = 0
             _.c = _.b = _.a = _.r = null
-        }
+        },
         tha6n3: function tha6n3() {
             var _ = this
             _.e = !1
@@ -26047,6 +26047,12 @@ T.yukari.prototype = {
         t.push(u)
 		u = new T.thb9t1()
         u.f = 223
+        t.push(u)
+		u = new T.thb9b1()
+        u.f = 100
+        t.push(u)
+		u = new T.thb9b2()
+        u.f = 100
         t.push(u)
 		
         

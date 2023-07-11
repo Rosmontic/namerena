@@ -23817,6 +23817,23 @@ T.thb5b2.prototype = {
     },
     $iD: 1
 }
+T.thb9b2.prototype = {
+    ak: function(a, b, c, d, e) {
+        var t ,u = a > 0
+		if (this.r.yin == 1) {
+                e.a.push(T.e("[0]遁入[隙间]", this.r, null, null, null, a, 1000, 100))
+                t = s.r
+                t.j = t.j - 256
+				this.r.yin = 0
+                return u && J.Q(c, T.mA()) ? 0 : 0
+            }
+        return u && J.Q(c, T.mA()) ? a : a
+    },
+    T: function() {
+        this.r.y1.i(0, this)
+    },
+    $iD: 1
+}
 T.thb7b2.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0
@@ -26051,9 +26068,7 @@ T.yukari.prototype = {
 		u = new T.thb9b1()
         u.f = 100
         t.push(u)
-		u = new T.thb9b2()
-        u.f = 100
-        t.push(u)
+		t.push(new T.thb9b2())
 		
         
         
@@ -28404,23 +28419,6 @@ dk: function(a, b, c, d, e, f, g) {
                 g.a.push(T.e(C.c.K("[0]免疫", $.nj()), s.r, c, null, null, 20, 1500, 100))
                 t = s.r
                 t.j = t.j
-                return 0
-            }
-            return a
-        },
-        T: function() {
-            this.r.x2.i(0, this)
-        },
-        $iK: 1
-    }
-	T.thb9b2.prototype = {
-        dk: function(a, b, c, d, e, f, g) {
-            var u, t, s = this
-            if (this.r.yin == 1) {
-                g.a.push(T.e(C.c.K("[0]遁入[隙间]", $.nj()), s.r, c, null, null, 20, 1500, 100))
-                t = s.r
-                t.j = t.j - 512
-				this.r.yin = 0
                 return 0
             }
             return a

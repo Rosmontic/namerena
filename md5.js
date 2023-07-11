@@ -23821,10 +23821,11 @@ T.thb9b2.prototype = {
     ak: function(a, b, c, d, e) {
         var t ,u = a > 0
 		if (this.r.yin == 1) {
-                e.a.push(T.e("[0]遁入[隙间]", this.r, null, null, null, a, 1000, 100))
+                e.a.push(T.e("[0]遁入[隙间]", this.r, null, null, null, 1, 1000, 100))
                 t = s.r
                 t.j = t.j - 256
 				this.r.yin = 0
+				e.a.push(T.e("[0]:[1]", this.r, this.r.yin, null, null, 0, 1000, 100))
                 return u && J.Q(c, T.mA()) ? 0 : 0
             }
         return u && J.Q(c, T.mA()) ? a : a

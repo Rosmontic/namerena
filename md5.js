@@ -17826,13 +17826,13 @@ u.push($.v())
         t: function(a, b, c, d) {
             var u, t, s = this, r = null, q = a[0].a, p = d.a , v
 			v = (c.m() & 3)
-            p.push(T.e("[0]使用「姆Q」", s.r, q, r, r, 1, 1000, 100))
+            p.push(T.e("[0]使用[「姆Q」]", s.r, q, r, r, 1, 1000, 100))
             if (!q.a6($.ai(), c))
                 u = q.fr > 0 && !q.A && T.bd(s.r.db, q.dy, c)
             else
                 u = !0
             if (u || v > 1) {
-                p.push(T.e(O.c("vVob"), q, s.r, r, r, 20, 1000, 100))
+                p.push(T.e("[0]回避了效果", q, s.r, r, r, 20, 1000, 100))
                 return
             }
             t = H.o(q.r1.h(0, $.ai()), "$ibf")
@@ -23893,7 +23893,7 @@ T.thb9b2.prototype = {
         var t ,u = a > 0
 		if (this.r.yin == 1) {
                 e.a.push(T.e("[0]遁入[隙间]", this.r, null, null, null, 1, 1000, 100))
-                this.r.j = this.r.j - 256
+                this.r.j = this.r.j - 128
 				this.r.yin = 0
                 return u && J.Q(c, T.mA()) ? 0 : 0
             }
@@ -26031,9 +26031,7 @@ T.youmu.prototype = {
 		u = new T.thb6n3()
         u.f = 82
         t.push(u)
-		u = new T.thb6b1()
-        u.f = 100
-        t.push(u)
+		t.push(new T.thb6b1())
 		u = new T.thb6b2()
         u.f = 100
         t.push(u)
@@ -28528,32 +28526,24 @@ dk: function(a, b, c, d, e, f, g) {
         },
         $iK: 1
 }
-T.thb6b1.prototype = {
-T: function() {
-        this.r.x2.i(0, this)
+    T.thb6b1.prototype = {
+    ak: function(a, b, c, d, e) {
+        var t ,u = a > 0 , v
+		if (this.r.kong == 1) {
+                e.a.push(T.e("[0][招架]", this.r, null, null, null, 0, 1000, 100))
+				e.a.push($.v())
+				e.a.push(T.e("[0]发动[「空观剑「六根清净斩」」]", this.r, null, null, null, 1, 1000, 100))
+                this.r.j = this.r.j + 2048
+				this.r.kong = 0
+				v = ws
+                return u && J.Q(c, T.mA()) ? 0 : 0
+            }
+        return u && J.Q(c, T.mA()) ? a : a
     },
-dk: function(a, b, c, d, e, f, g) {
-        var n, m ,u, t, s = this
-        if (s.r.kong == 1 ) {
-		    u = a * 1.2
-			g.a.push(T.e("[0][招架]", s.r, c, null, null, 0, 1000, 100))
-			g.a.push($.v())
-            g.a.push(T.e("[0]发动[「空观剑「六根清净斩」」]", s.r, c, null, null, 1, 1000, 100))
-			for (m = 0 ; m < 3 ;++m){
-			if (c.fr > 0){
-			g.a.push($.v())
-			n =  u
-            c.bL(n, !1, s.r, T.a3(), f, g)}
-			}
-			s.r.j = s.r.j + 2048
-			s.r.kong = 2
-            return 0
-        }
-        return a
-        
+    T: function() {
+        this.r.y1.i(0, this)
     },
-    
-    $iK: 1
+    $iD: 1
 }
     T.i9.prototype = {
         ga1: function() {

@@ -23846,7 +23846,7 @@ T.tha1b1.prototype = {
 T.tha6b1.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0
-        return u && J.Q(c, T.mA()) ? C.b.v (3*a, 4) : a
+        return u && J.Q(c, T.mA()) ? a : a
     },
     T: function() {
         this.r.y1.i(0, this)
@@ -23856,7 +23856,7 @@ T.tha6b1.prototype = {
 T.tha7b1.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0
-        return u && J.Q(c, T.mA()) ? a : C.b.v(7*a, 10)
+        return u && J.Q(c, T.a3()) ? a : C.b.v(13*a, 20)
     },
     T: function() {
         this.r.y1.i(0, this)
@@ -25517,7 +25517,7 @@ T.daiyousei.prototype = {
             this.k2 = t
             t = this.id 
 u = new T.tha4s1()
-u.f = 40
+u.f = 100
 t.push(u)
 u = new T.tha4n1()
 u.f = 80
@@ -25590,7 +25590,7 @@ T.hong.prototype = {
             u.f = 150
             t.push(u)
 			u = new T.dV()
-            u.f = 75
+            u.f = 200
             t.push(u)
             
 }
@@ -25615,7 +25615,7 @@ T.koakuma.prototype = {
             u.f = 50
             t.push(u)
             u = new T.tha7n1()
-            u.f = 50
+            u.f = 62
             t.push(u)
             u = new T.tha7n2()
             u.f = 100

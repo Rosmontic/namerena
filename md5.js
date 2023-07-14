@@ -19270,22 +19270,32 @@ T.tha8s1.prototype = {
     }
 T.tha7n1.prototype = {
     t: function(a, b, c, d) {
-        var u = this
+        var u = this, v
         t = a[0].a
-s = T.u(u.r, !1, c)
-d.a.push(T.e("[0]使用[粉碎「帕西菲斯冲击」]", u.r, t, null, null, 1, 1000, 100))
-t.dx = 0.8 * t.dx
-t.a0(s, !1, u.r, T.a3(), c, d)
+    s = T.u(u.r, !1, c)
+    d.a.push(T.e("[0]使用[粉碎「帕西菲斯冲击」]", u.r, t, null, null, 1, 1000, 100))
+            v = t.fr > 0 && !t.A && T.bd(u.r.db, t.ch, c)
+            if (v) {
+                d.a.push(T.e(O.c("vVob"), t, this.r, null, null, 20, 1000, 100))
+                return
+            }
+        t.dx = 0.8 * t.dx
+        t.bL(1.4*s, !1, u.r, T.a3(), c, d)
     }
 }
 T.tha7n2.prototype = {
     t: function(a, b, c, d) {
-        var u = this
+        var u = this, v
         t = a[0].a
-s = T.u(u.r, !1, c)
-d.a.push(T.e("[0]使用[升华「墨瓦蜡泥加冲击」]", u.r, t, null, null, 1, 1000, 100))
-t.ch = 0.8 * t.ch
-t.a0(s, !0, u.r, T.a3(), c, d)
+    s = T.u(u.r, !1, c)
+    d.a.push(T.e("[0]使用[升华「墨瓦蜡泥加冲击」]", u.r, t, null, null, 1, 1000, 100))
+            v = t.fr > 0 && !t.A && T.bd(u.r.db, t.dx, c)
+            if (v) {
+                d.a.push(T.e(O.c("vVob"), t, this.r, null, null, 20, 1000, 100))
+                return
+            }
+        t.ch = 0.8 * t.ch
+        t.bL(1.4*s, !0, u.r, T.a3(), c, d)
     }
 }
 T.tha9n3.prototype = {
@@ -23290,7 +23300,7 @@ else
             n.r.cx = 1.3*n.r.cx
 			n.r.cy = 1.3*n.r.cy
 			if (this.f > 0){
-			this.f = this.f - 5}
+			this.f = this.f - 10}
 			k.push($.v())
 			k.push(T.e("[0]的速度和敏捷增加了", n.r, n.r, m, m, 1, 1000, 100))
         }
@@ -24201,7 +24211,7 @@ T.thb2s1.prototype = {
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o, v, w ,l ,n = H.a([], [T.aU])
 			v = 2 + (c.m() & 3)
-			w = 4.5 + (c.m() & 3) 
+			w = 5 + (c.m() & 3) 
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
             t = "[0]使用[童符「护法天童乱舞」]"
@@ -25882,7 +25892,7 @@ T.chen.prototype = {
         t = this.id
 		t.push(new T.thb2b1())
 		u = new T.thb2n2()
-        u.f = 30
+        u.f = 50
         t.push(u)
 		u = new T.thb2n1()
         u.f = 55

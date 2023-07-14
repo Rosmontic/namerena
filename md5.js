@@ -18626,7 +18626,7 @@ T.thb5n3.prototype = {
             q = d.a
 			if(l == 0)
 			{
-			this.r.sheng == 1
+			this.r.sheng = 1
 			}
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
             p = T.u(this.r, !0, c) * 0.45
@@ -18658,7 +18658,6 @@ T.thb9t2.prototype = {
 		},
         t: function(a, b, c, d) {
             var l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
-			l = (c.m() & 7)
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
             t = "[0]使用[境符「生与死的境界」]"
@@ -19326,7 +19325,8 @@ T.tha7n1.prototype = {
                 return
             }
         t.dx = 0.8 * t.dx
-        t.bL(1.4*s, !1, u.r, T.a3(), c, d)
+        t.bL(1.4*s, !1, u.r, T.a3(), c, d)		
+		d.a.push(T.e("[1]法抗减少", u.r, t, null, null, 0, 1000, 100))
     }
 }
 T.tha7n2.prototype = {
@@ -19342,6 +19342,7 @@ T.tha7n2.prototype = {
             }
         t.ch = 0.8 * t.ch
         t.bL(1.4*s, !0, u.r, T.a3(), c, d)
+		d.a.push(T.e("[1]防御减少", u.r, t, null, null, 0, 1000, 100))
     }
 }
 T.tha9n3.prototype = {
@@ -25661,7 +25662,7 @@ T.koakuma.prototype = {
             u.f = 50
             t.push(u)
             u = new T.tha7n1()
-            u.f = 62
+            u.f = 56
             t.push(u)
             u = new T.tha7n2()
             u.f = 100

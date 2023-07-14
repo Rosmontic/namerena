@@ -28535,7 +28535,7 @@ dk: function(a, b, c, d, e, f, g) {
 				e.a.push(T.e("[0]发动[「空观剑「六根清净斩」」]", this.r, null, null, null, 1, 1000, 100))
 				if (b.fr > 0){
 			    e.a.push($.v())
-                b.bL(a*1.5, !1, s.r, T.a3(), f, g)
+                b.bL(a*1.5, !1, this.r, T.a3(), d, e)
 			}
                 this.r.j = this.r.j + 2048
 				this.r.kong = 0

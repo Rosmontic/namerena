@@ -17377,10 +17377,10 @@ tha4b1: function tha4b1() {
             q.push(T.e(s, r, r, t, t, 0, 1000, 100))
         },
         al: function(a) {
-            a.go = a.go * (this.fx+0.7*this.r.scarlet)
-            a.Q = a.Q * (this.fx+0.7*this.r.scarlet)
-			a.cx = a.cx * (this.fx+0.7*this.r.scarlet)
-			a.db = a.db * (this.fx+0.7*this.r.scarlet)
+            a.go = a.go * (this.fx+0.5*this.r.scarlet)
+            a.Q = a.Q * (this.fx+0.5*this.r.scarlet)
+			a.cx = a.cx * (this.fx+0.5*this.r.scarlet)
+			a.db = a.db * (this.fx+0.5*this.r.scarlet)
         },
         gR: function() {           
             return 1
@@ -23275,22 +23275,22 @@ else
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o, n = this, m = null, l = a[0].a, k = d.a
             k.push(T.e("[0]使用[翔符「飞翔韦驮天」]", n.r, n.r, m, m, 1, 1000, 100))
-            n.r.cx = 1.35*n.r.cx
-			n.r.cy = 1.35*n.r.cy
+            n.r.cx = 1.3*n.r.cx
+			n.r.cy = 1.3*n.r.cy
+			if (this.f > 0){
+			this.f = this.f - 10}
 			k.push($.v())
 			k.push(T.e("[0]的速度和敏捷增加了", n.r, n.r, m, m, 1, 1000, 100))
         }
 }
     T.thb2n2.prototype = {
-	    ai: function(a, b) {
-            this.r = a
-            this.f = 50
-        },
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o, n = this, m = null, l = a[0].a, k = d.a
             k.push(T.e("[0]使用[翔符「飞翔韦驮天」]", n.r, n.r, m, m, 1, 1000, 100))
-            n.r.cx = 1.35*n.r.cx
-			n.r.cy = 1.35*n.r.cy
+            n.r.cx = 1.3*n.r.cx
+			n.r.cy = 1.3*n.r.cy
+			if (this.f > 0){
+			this.f = this.f - 5}
 			k.push($.v())
 			k.push(T.e("[0]的速度和敏捷增加了", n.r, n.r, m, m, 1, 1000, 100))
         }
@@ -23856,7 +23856,7 @@ T.tha7b1.prototype = {
    T.tha10b1.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n
-		n = 1+0.7*this.r.scarlet
+		n = 1+0.5*this.r.scarlet
 		a = C.b.v(a * n,1)
         return u && J.Q(c, T.mA()) ? a : a
     },
@@ -28533,6 +28533,10 @@ dk: function(a, b, c, d, e, f, g) {
                 e.a.push(T.e("[0][招架]", this.r, null, null, null, 0, 1000, 100))
 				e.a.push($.v())
 				e.a.push(T.e("[0]发动[「空观剑「六根清净斩」」]", this.r, null, null, null, 1, 1000, 100))
+				if (b.fr > 0){
+			    e.a.push($.v())
+                b.bL(a*1.5, !1, s.r, T.a3(), f, g)
+			}
                 this.r.j = this.r.j + 2048
 				this.r.kong = 0
 				v = ws

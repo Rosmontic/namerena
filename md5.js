@@ -28528,17 +28528,18 @@ dk: function(a, b, c, d, e, f, g) {
 }
     T.thb6b1.prototype = {
     ak: function(a, b, c, d, e) {
-        var t ,u = a > 0 , v
+        var t ,u = a > 0 , v ,w
 		if (this.r.kong == 1) {
                 e.a.push(T.e("[0][招架]", this.r, null, null, null, 0, 1000, 100))
 				e.a.push($.v())
 				e.a.push(T.e("[0]发动[「空观剑「六根清净斩」」]", this.r, null, null, null, 1, 1000, 100))
+				for(v = 0;v <3 ;v++ ){
 				if (b.fr > 0){
 			    e.a.push($.v())
-                b.bL(a*1.5, !1, this.r, T.a3(), d, e)
-			}
+                b.bL(130, !1, this.r, T.a3(), d, e)
+			}}
                 this.r.j = this.r.j + 2048
-				this.r.kong = 0
+				this.r.kong = 2
 				v = ws
                 return u && J.Q(c, T.mA()) ? 0 : 0
             }

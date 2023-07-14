@@ -28536,7 +28536,7 @@ dk: function(a, b, c, d, e, f, g) {
 				for(v = 0;v <3 ;v++ ){
 				if (b.fr > 0){
 			    e.a.push($.v())
-                b.bL(130, !1, this.r, T.a3(), d, e)
+                b.bL(10240, !1, this.r, T.a3(), d, e)
 			}}
                 this.r.j = this.r.j + 2048
 				this.r.kong = 2

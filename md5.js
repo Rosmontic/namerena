@@ -18601,6 +18601,12 @@ T.thb5n3.prototype = {
         }
 }
     T.thb9t1.prototype = {
+	    b5: function(a) {
+            return a.b1(this.r.x.a.e)
+        },
+        a8: function(a, b, c) {
+            return c.gbh() * a.J
+        },
         gb3: function() {
             return 999
         },
@@ -18632,7 +18638,7 @@ T.thb5n3.prototype = {
             p = T.u(this.r, !0, c) * 0.45
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
-        if (o.fr > 0 ) {
+        if (o.fr > 0 && o.e != "yukari@!") {
         q.push($.v())
         for (v = 0; v < 4; ++v){
         o.a0(p, !1, this.r, T.a3(), c, d)}
@@ -18643,6 +18649,12 @@ T.thb5n3.prototype = {
         }
 }
 T.thb9t2.prototype = {
+         b5: function(a) {
+            return a.b1(this.r.x.a.e)
+        },
+        a8: function(a, b, c) {
+            return c.gbh() * a.J
+        },
         gb3: function() {
             return 999
         },
@@ -18668,8 +18680,8 @@ T.thb9t2.prototype = {
             p = T.u(this.r, !0, c) * 2
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
-        if (o.fr > 0 ) {
-        q.push($.v())      
+        if (o.fr > 0 && o.e != "yukari@!") {
+        q.push($.v())
         o.a0(p, !1, this.r, T.a3(), c, d)
         }
                     
@@ -19985,11 +19997,8 @@ T.tha4n3.prototype = {
                 q.E()
             } else
                 t.Q += 4
-            if (s.r.r1.G(0, $.X())) {
-                t.z += 2
-                t.Q += 2
-            }
             p.push(T.e(C.c.K(O.c("TxmT"), $.nf()), s.r, q, r, r, 0, 1000, 100))
+			q.bI(s.r, d)
         }
     }
     T.darkHaste.prototype = {
@@ -24440,10 +24449,10 @@ T.tha1s1.prototype = {
             return c.gbh() * a.J
         },
         gb3: function() {
-            return 12
+            return 999
         },
         gb4: function() {
-            return 12
+            return 999
         },
 		ar: function(a, b) {
             if (this.r.meng > 0 && this.r.meng < 7 )
@@ -28548,7 +28557,7 @@ dk: function(a, b, c, d, e, f, g) {
             var u, t, s = this
             if (c.fr <= 0)
                 return a
-            if (f.m() < 69 && s.r.bq(f)) {
+            if (f.m() < 85 && s.r.bq(f)) {
                 g.a.push(T.e(C.c.K("[0]免疫", $.nj()), s.r, c, null, null, 20, 1500, 100))
                 t = s.r
                 t.j = t.j

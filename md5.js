@@ -9718,6 +9718,7 @@ hong: function hong(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) 
             _.go = 1
             _.id = e
             _.hongs1 = 0
+			_.ji = 1
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -18156,8 +18157,9 @@ T.tha6n2.prototype = {
         var u = this
         t = a[0].a
 s = T.u(u.r, !1, c)
-d.a.push(T.e("[0]使用[华符「彩光莲华掌」]", u.r, t, null, null, 1, 1000, 100))
-t.a0(1.6*s, !1, u.r, T.a3(), c, d)     
+d.a.push(T.e("[0]使用[彩华「虹色太极拳」]", u.r, t, null, null, 1, 1000, 100))
+t.a0(C.d.Z(this.r.ji *1.5), !1, u.r, T.a3(), c, d)
+this.r.ji = this.r.ji * 1.2
     }
 }
 T.thb4n1.prototype = {
@@ -18622,7 +18624,7 @@ T.thb5n3.prototype = {
 		},
         t: function(a, b, c, d) {
             var l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
-			l = (c.m() & 3)
+			l = (c.m() & 7)
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
 			this.r.jie = this.r.jie + 1
@@ -18635,7 +18637,7 @@ T.thb5n3.prototype = {
 			this.r.sheng = 1
 			}
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 0.45
+            p = T.u(this.r, !0, c) * 0.4
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
         if (o.fr > 0 && o.e != "yukari@!") {
@@ -18662,7 +18664,7 @@ T.thb9t2.prototype = {
             return 999
         },
 		ar: function(a, b) {
-            if (this.r.sheng < 1 )
+            if (this.r.sheng < 1 || this.r.jie < 2)
             { 
                 return !1
             }
@@ -19337,7 +19339,7 @@ T.tha7n1.prototype = {
                 return
             }
         t.dx = 0.8 * t.dx
-        t.bL(1.4*s, !1, u.r, T.a3(), c, d)		
+        t.bL(1.35*s, !1, u.r, T.a3(), c, d)		
 		d.a.push(T.e("[1]法抗减少", u.r, t, null, null, 0, 1000, 100))
     }
 }
@@ -19353,7 +19355,7 @@ T.tha7n2.prototype = {
                 return
             }
         t.ch = 0.8 * t.ch
-        t.bL(1.4*s, !0, u.r, T.a3(), c, d)
+        t.bL(1.35*s, !0, u.r, T.a3(), c, d)
 		d.a.push(T.e("[1]防御减少", u.r, t, null, null, 0, 1000, 100))
     }
 }
@@ -20368,7 +20370,7 @@ T.tha4n1.prototype = {
     }
 	T.tha1n1.prototype = {
         ga1: function() {
-            return 4000
+            return 2000
         },
         ar: function(a, b) {
             if (this.fr.a != null || this.r.meng > 0 )
@@ -20392,7 +20394,7 @@ T.tha4n1.prototype = {
             u.r.E()
             u.id = 4
             r = u.r
-            u.go = 160
+            u.go = 60
             s = u.r
             s.j = s.j
             s = C.c.K(O.c("PurV"), $.nh())
@@ -22939,7 +22941,6 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
                 p.push(T.e(O.c("vVob"), q, s.r, r, r, 20, 1000, 100))
                 return
             }
-            q.j = q.j - (q.cx + 64)
             u = q.r1
             t = H.o(u.h(0, $.aC()), "$icG")
             if (t == null) {
@@ -22953,10 +22954,10 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
             } else{
                 t.z += 1}			
 			o = T.u(this.r, !1, c)			
-            q.bL(0.72*o, !0, this.r, T.a3(), c, d)
-			if(q.cx > 5)
+            q.bL(0.55*o, !0, this.r, T.a3(), c, d)
+			if(q.cx > 11)
 			{
-			q.cx = q.cx - 5
+			q.cx = q.cx - 11
 			}
             d.a.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
 			if(q.fr > 0 && q.fr < 0.25*q.fx)
@@ -23005,7 +23006,6 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
                 p.push(T.e(O.c("vVob"), q, s.r, r, r, 20, 1000, 100))
                 return
             }
-            q.j = q.j - (q.cx + 64)
             u = q.r1
             t = H.o(u.h(0, $.aC()), "$icG")
             if (t == null) {
@@ -23017,9 +23017,13 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
                 q.x1.i(0, t.y)
                 q.E()
             } else{
-                t.z += 1}			
+                t.z += 1}
+			if(q.cx > 11)
+			{
+			q.cx = q.cx - 11
+			}
 			o = T.u(this.r, !1, c)			
-            q.bL(0.72*o, !0, this.r, T.a3(), c, d)
+            q.bL(0.55*o, !0, this.r, T.a3(), c, d)
             d.a.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
 			
         }
@@ -23889,7 +23893,6 @@ T.tha1b1.prototype = {
         var u = a > 0 , n ,m
 		if (u && d.m() < 128) {
                 this.r.f = this.r.f + 1024
-		        this.r.go = this.r.go + 0.1
 				e.a.push(T.e("[0]：这是异变啊！", this.r, null, null, null, a, 1000, 100))
             }
         return u && J.Q(c, T.mA()) ? C.b.v (4*a, 5) : C.b.v (4*a, 5)
@@ -24507,7 +24510,7 @@ T.tha6n3.prototype = {
         r = H.a(n.slice(0), [H.n(n, 0)])
         q = d.a
         q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-        p = T.u(this.r, !1, c) * 3 / (n.length + 1.5)
+        p = T.u(this.r, !1, c) * 3 / (n.length + 1)
         for (u = 0; u < n.length; ++u) {
             o = n[u]
             if (o.fr > 0) {

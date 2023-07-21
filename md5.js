@@ -19531,7 +19531,19 @@ T.tha9n3.prototype = {
         al: function(a) {
             a.O *= 4
         },
-       
+        H: function(a, b) {
+            var u, t
+            this.C()
+            u = this.x
+            u.r1.S(0, $.aB())
+            u.r2.S(0, this.y)
+            u.E()
+            if (u.fr > 0) {
+                t = b.a
+                t.push($.v())
+                t.push(T.ap(O.c("SaHA"), a, u))
+            }
+        },
         $ip: 1
     }
     T.hS.prototype = {
@@ -21283,12 +21295,13 @@ n.r.bf(n.r.fr, null, c, d)
             var u = new T.aK()
             u.r = this
             this.k2 = u
-			this.id.push(new T.thb8t1a())
         },
         aR: function() {
+            var a
             this.bv()
-            var u = this.u
-            u[7] = C.d.v(u[7], 1)
+            this.u = this.af.r.u
+            a = new T.dV()
+            this.id.push(a)
         },
 		bM: function() {
             var u, t = this
@@ -22662,6 +22675,10 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
+			if(v == 0)
+			{
+			d.id[0].f = 120
+			}
 			d.fx = 240
 			d.fr = 240
 			d.Q =  80
@@ -26219,10 +26236,6 @@ T.nue.prototype = {
         t.r = this
         this.k2 = t
         t = this.id
-		u = new T.hS()
-        u.f = 223
-        t.push(u)
-		
         
         
 }

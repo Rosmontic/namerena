@@ -17342,7 +17342,7 @@ tha4b1: function tha4b1() {
             if (a != null) {
                 u = b.a
                 u.push($.v())
-                u.push(T.ap("[0]的气被打散了", a, t.r))
+                u.push(T.ap("[0]的气被打散了", t.r, t.r))
             }
             t.fx = 1.6
         },
@@ -19531,19 +19531,7 @@ T.tha9n3.prototype = {
         al: function(a) {
             a.O *= 4
         },
-        H: function(a, b) {
-            var u, t
-            this.C()
-            u = this.x
-            u.r1.S(0, $.aB())
-            u.r2.S(0, this.y)
-            u.E()
-            if (u.fr > 0) {
-                t = b.a
-                t.push($.v())
-                t.push(T.ap(O.c("SaHA"), a, u))
-            }
-        },
+       
         $ip: 1
     }
     T.hS.prototype = {
@@ -20394,7 +20382,7 @@ T.tha4n1.prototype = {
             u.r.E()
             u.id = 4
             r = u.r
-            u.go = 60
+            u.go = 100
             s = u.r
             s.j = s.j
             s = C.c.K(O.c("PurV"), $.nh())
@@ -26231,6 +26219,10 @@ T.nue.prototype = {
         t.r = this
         this.k2 = t
         t = this.id
+		u = new T.hS()
+        u.f = 223
+        t.push(u)
+		
         
         
 }

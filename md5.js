@@ -9919,6 +9919,10 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.go = 1
             _.id = e
 			_.bagua = 0
+			_.n0 = 0
+			_.n1 = 0
+			_.n2 = 0
+			_.n3 = 0
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -17953,6 +17957,8 @@ T.tha2ak.prototype = {
 		    this.r.bagua = 8}
             d.a.push(T.e("[0]为八卦炉填充灵力[1]点", q.r, n, p, p, 0, 1000, 100))
 			d.a.push(T.e("剩余灵力[1]点", q.r, this.r.bagua, p, p, 0, 1000, 100))
+			this.r.n0 = this.r.n0 + 1
+	        d.a.push(T.e("已使用[1]次", this.r, this.r.n0 , null, null, 0, 1000, 100))
 			return 
         }
 }
@@ -17972,9 +17978,11 @@ T.tha2n1.prototype = {
         t = a[0].a
     s = T.u(u.r, !1, c)
     d.a.push(T.e("[0]使用[恋符「非定向光线」]", u.r, t, null, null, 1, 1000, 100))
-	d.a.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua -1 , null, null, 1, 1000, 100))
+	d.a.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua -1 , null, null, 0, 1000, 100))
 	this.r.bagua = this.r.bagua - 1
     t.a0(1.8*s, !0, u.r, T.a3(), c, d)
+	this.r.n1 = this.r.n1 + 1
+	d.a.push(T.e("已使用[1]次", this.r, this.r.n1 , null, null, 0, 1000, 100))
 	
     }
 }
@@ -19467,7 +19475,7 @@ T.tha9n3.prototype = {
         s = T.u(u.r, !1, c)
         d.a.push(T.e("[0]使用[神枪「冈格尼尔之枪」]", u.r, t, null, null, 1, 1000, 100))
 		if((c.m() & 63) > 31 ){
-        t.bL(3.1*s, !1, u.r, T.q71(), c, d)
+        t.bL(3.2*s, !1, u.r, T.q71(), c, d)
 		}
 		else
 		{
@@ -20914,11 +20922,10 @@ n.r.bf(n.r.fr, null, c, d)
             return H.a([], [T.Z])
         },
         t: function(a, a0, a1, a2) {
-            var v, u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null
+            var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null
+            c.f = C.d.Z(c.f * 0.75)
             u = a2.a
             u.push(T.e(O.c("EwPC"), c.r, b, b, b, 60, 1000, 100))
-			for(v = 0 ;v < 2 ; v++){
-			u.push($.v())
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
             r = s.b
@@ -20970,7 +20977,6 @@ n.r.bf(n.r.fr, null, c, d)
                 d.j = -2048
             c.r.x.aU(d)
             u.push(T.e(O.c("cPiZ"), c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
-			}
         }
 }
     T.hha4n2.prototype = {
@@ -24398,6 +24404,8 @@ o.bL(p, !0, this.r, T.a3(), c, d)}
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
+			this.r.n2 = this.r.n2 + 1
+	        d.a.push(T.e("已使用[1]次", this.r, this.r.n2 , null, null, 0, 1000, 100))
 			this.r.bagua = this.r.bagua - 2
 			q.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
             p = T.u(this.r, !0, c) * 1.6
@@ -24435,6 +24443,8 @@ T.tha2n3.prototype = {
             s = this.r
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
+			this.r.n3 = this.r.n3 + 1
+	        d.a.push(T.e("已使用[1]次", this.r, this.r.n3 , null, null, 0, 1000, 100))
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
             p = T.u(this.r, !0, c) * 0.7 * this.r.bagua
 			this.r.bagua = 0
@@ -27458,8 +27468,65 @@ t.push(u)
             s.r = this
             this.k2 = s
             s = this.id
+            s.push(new T.bV())
+            s.push(new T.dT())
+            s.push(new T.il())
+            s.push(new T.i8())
+            s.push(new T.dL())
+            s.push(new T.i6())
+            s.push(new T.dW())
+            s.push(new T.dP())
+            s.push(new T.dR())
+            s.push(new T.hV())
+            s.push(new T.hL())
+            s.push(new T.dN())
+            s.push(new T.hX())
+            s.push(new T.ij())
+            s.push(new T.hS())
+            s.push(new T.dS())
+            s.push(new T.ia())
+            s.push(new T.hU())
+            u = new T.i1()
+            t = new T.dF(1 / 0,u)
+            u.fr = t
+            u.fx = new T.ay(u)
+            u.fy = new T.aN(u)
+            t.r = 10
+            s.push(u)
+            u = new T.hM()
+            u.fr = new T.aN(u)
+            u.fx = new T.ay(u)
+            s.push(u)
+            u = new T.hI(1.7)
+            u.fr = new T.aN(u)
+            s.push(u)
+            u = new T.hK()
+            u.fr = new T.bP(u)
+            u.fx = new T.cB(u)
+            s.push(u)
+            s.push(new T.ik())
+            s.push(new T.dO())
             s.push(new T.ig())
-            
+            s.push(new T.dQ())
+            s.push(new T.dV())
+            s.push(new T.dX())
+            s.push(new T.i9())
+            s.push(new T.ih())
+            s.push(new T.bU())
+            s.push(new T.i5())
+            s.push(new T.io())
+            u = new T.im()
+            u.Q = new T.aN(u)
+            s.push(u)
+            u = new T.hZ()
+            u.ch = new T.aN(u)
+            u.Q = new T.bP(u)
+            s.push(u)
+            s.push(new T.bn())
+            s.push(new T.bn())
+            s.push(new T.bn())
+            s.push(new T.bn())
+            s.push(new T.bn())
         },
         dd: function(a, b) {
             var u, t, s, r, q, p = this, o = 0, n = 0
@@ -30364,7 +30431,7 @@ C.patchouli = H.a(u([21, -10, -25, 19, 36, 34, 39, 438]), [P.j])
 C.sakuya = H.a(u([-9, 18, 6, 51, 3, 29, 57, 474]), [P.j])
 C.nue = H.a(u([36, 21, 15, 40, 38, 26, 2, 690]), [P.j])
 C.reimu = H.a(u([31, 43, 6, 16, 44, 30, 37, 704]), [P.j])
-C.marisa = H.a(u([19, 8, 15, 29, 56, 17, 30, 625]), [P.j])
+C.marisa = H.a(u([19, 8, 15, 29, 56, 17, 30, 525]), [P.j])
 C.remilia = H.a(u([15, 36, 40, 30, 21, 21, 21, 764]), [P.j])
 C.flandre = H.a(u([30, 26, 24, 25, -21, 20, 1, 791]), [P.j])
 C.rin = H.a(u([ -40, 934, 6, 943, -82, 908, 9 , 723]), [P.j])
@@ -30377,7 +30444,7 @@ C.youmu = H.a(u([2, -6, 40, 42, -16, 15, 9, 501]), [P.j])
 C.yuyuko = H.a(u([30, 5, 25, 58, 30, 2, 30, 480]), [P.j])
 C.ran = H.a(u([-10, 29, 41, 4, 20, 27, 61, 463]), [P.j])
 C.yukari = H.a(u([26, 45, 20, -10, 40, 36, 40, 661]), [P.j])
-C.yeya = H.a(u([18, -46, -11, -82, 19, -70, 940, 99749]), [P.j])
+C.yeya = H.a(u([18, -46, -11, -82, 19, -70, 940, 999749]), [P.j])
         C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])
         C.W = H.a(u([10, -6, 1000, 0, 10, -15, 6, 0]), [P.j])
         C.X = H.a(u(["", "", "", "", "", "", "", "", "", ""]), [P.f])

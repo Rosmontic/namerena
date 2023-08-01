@@ -17958,7 +17958,6 @@ T.tha2ak.prototype = {
             d.a.push(T.e("[0]为八卦炉填充灵力[1]点", q.r, n, p, p, 0, 1000, 100))
 			d.a.push(T.e("剩余灵力[1]点", q.r, this.r.bagua, p, p, 0, 1000, 100))
 			this.r.n0 = this.r.n0 + 1
-	        d.a.push(T.e("已使用[1]次", this.r, this.r.n0 , null, null, 0, 1000, 100))
 			return 
         }
 }
@@ -17982,7 +17981,6 @@ T.tha2n1.prototype = {
 	this.r.bagua = this.r.bagua - 1
     t.a0(1.8*s, !0, u.r, T.a3(), c, d)
 	this.r.n1 = this.r.n1 + 1
-	d.a.push(T.e("已使用[1]次", this.r, this.r.n1 , null, null, 0, 1000, 100))
 	
     }
 }
@@ -23555,12 +23553,13 @@ o.a0(p, !0, this.r, T.a3(), c, d)}
                 r.fy = r.r
                 r.r.ry.i(0, r.fr)
                 k.push(T.e("[0][蓄气]", r.r, r.fy, q, q, 1, 1000, 100))
-                r.r.j = r.r.j + 400
+                
             }
             else {
             r.ae(0)
             l = a[0].a
             k.push(T.e("[0]使用[炽击「大鹏坠击拳」]", r.r, l, q, q, 1, 1000, 100))
+			this.f = 0
             t = 100 + r.r.cy
             for (s = !1,
             n = 0; n < 3; ++n) {
@@ -23574,7 +23573,7 @@ o.a0(p, !0, this.r, T.a3(), c, d)}
                             k.push(T.e(O.c("vVob"), l, r.r, q, q, 0, 1000, 100))
                         return
                     }
-                    m = 3*T.u(r.r, !1, c)
+                    m = 3.6*T.u(r.r, !1, c)
                     o =r.r
                     w = k.length
                     if (l.aA(l.ak(C.e.Z( m *0.5 / T.cc(l, !0, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
@@ -23938,7 +23937,7 @@ T.tha7b1.prototype = {
    T.tha10b1.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n
-		n = 1+0.5*this.r.scarlet
+		n = 1+0.75*this.r.scarlet
 		a = C.b.v(a * n,1)
         return u && J.Q(c, T.mA()) ? a : a
     },
@@ -24405,7 +24404,6 @@ o.bL(p, !0, this.r, T.a3(), c, d)}
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
 			this.r.n2 = this.r.n2 + 1
-	        d.a.push(T.e("已使用[1]次", this.r, this.r.n2 , null, null, 0, 1000, 100))
 			this.r.bagua = this.r.bagua - 2
 			q.push(T.e("[八卦炉]剩余灵力[1]点", this.r, this.r.bagua, null, null, 1, 1000, 100))
             p = T.u(this.r, !0, c) * 1.6
@@ -24444,7 +24442,6 @@ T.tha2n3.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
 			this.r.n3 = this.r.n3 + 1
-	        d.a.push(T.e("已使用[1]次", this.r, this.r.n3 , null, null, 0, 1000, 100))
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
             p = T.u(this.r, !0, c) * 0.7 * this.r.bagua
 			this.r.bagua = 0

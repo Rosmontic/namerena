@@ -26599,17 +26599,9 @@ t.push(u)
             u.r = t
             t.k2 = u
             u = t.id
-            if (s === 1)
-                u.push(new T.dZ())
+            u.push(new T.dZ())
                 
-            else {
-
-                s = new T.hKm()
-                s.fr = new T.bP(s)
-                s.fx = new T.cB(s)
-                s.f = 300
-                u.push(s)
-            }
+            
         },
         $ifJ: 1,
         gaj: function() {

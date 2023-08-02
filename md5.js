@@ -18915,7 +18915,7 @@ T.thb8t1a.prototype = {
         t = a[0].a
 s = T.u(u.r, !1, c)
 d.a.push(T.e("[0]使用[前鬼「迅击」]", u.r, t, null, null, 1, 1000, 100))
-t.a0(0.9*s, !1, u.r, T.a3(), c, d)
+t.a0(0.85*s, !1, u.r, T.a3(), c, d)
      this.r.j = this.r.j + 720
     }
 }
@@ -21301,6 +21301,7 @@ n.r.bf(n.r.fr, null, c, d)
             var u = new T.aK()
             u.r = this
             this.k2 = u
+			this.id.push(new T.thb8t1a())
         },
         aR: function() {
             var a
@@ -21803,7 +21804,6 @@ n.r.bf(n.r.fr, null, c, d)
         },
         t: function(a, a0, a1, a2) {
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
-            c.f = C.d.Z(c.f * 0.7)
             u = a2.a
             u.push(T.e("[0]发动[「妖精的声援」]", c.r, b, b, b, 60, 1000, 100))			
             t = H.d(c.r.a) + "?" + H.d($.nn())
@@ -23553,7 +23553,7 @@ o.a0(p, !0, this.r, T.a3(), c, d)}
                 r.fy = r.r
                 r.r.ry.i(0, r.fr)
                 k.push(T.e("[0][蓄气]", r.r, r.fy, q, q, 1, 1000, 100))
-                
+                this.f = this.f -50
             }
             else {
             r.ae(0)
@@ -23607,6 +23607,7 @@ aK: function(a, b, c, d) {
             var u, s, r = this, q = null, l ,n ,m, o , t , k = d.a , w, l = a[0].a
             k.push(T.e("[0]使用[炽击「大鹏坠击拳」]", r.r, l, q, q, 1, 1000, 100))
             t = 100 + r.r.cy
+			this.f = this.f -50
             for (s = !1,
             n = 0; n < 3; ++n) {
                 m = r.r
@@ -24109,6 +24110,7 @@ T.tha5s1.prototype = {
                 n.push(a[u].a)
             t = "[0]使用[冻符「绝对零度」]"
             s = this.r
+			this.f = this.f - 10
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
@@ -25629,7 +25631,7 @@ u = new T.tha5n3()
 u.f = 60
 t.push(u)
 u = new T.tha5s1()
-u.f = 80
+u.f = 90
 t.push(u)
 
 }

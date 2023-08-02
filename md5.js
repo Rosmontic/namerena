@@ -22232,8 +22232,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 400
-			d.fr = 400
+			d.fx = 500
+			d.fr = 500
 			d.Q =  200
 			d.ch = 50
 			d.cx = 50 
@@ -23975,7 +23975,7 @@ T.thb9b2.prototype = {
         var t ,u = a > 0
 		if (this.r.yin == 1) {
                 e.a.push(T.e("[0]遁入[隙间]", this.r, null, null, null, 1, 1000, 100))
-                this.r.j = this.r.j - 128
+                this.r.j = this.r.j - 256
 				this.r.yin = 0
                 return u && J.Q(c, T.mA()) ? 0 : 0
             }
@@ -24293,7 +24293,7 @@ T.thb2s1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * (w / 10)
+            p = T.u(this.r, !0, c) * (w / 8)
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
 q.push($.v())
@@ -24329,7 +24329,7 @@ T.thb1n3.prototype = {
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
 if (o.fr > 0 ) {
-if (v == 0 ){
+if (v == 0 || v == 2){
 q.push($.v())
 o.a0(p, !0, this.r, T.a3(), c, d)
 }
@@ -28616,7 +28616,7 @@ dk: function(a, b, c, d, e, f, g) {
 				for(v = 0;v <3 ;v++ ){
 				if (b.fr > 0){
 			    e.a.push($.v())
-                b.bL(10240, !1, this.r, T.a3(), d, e)
+                b.bL(15360, !1, this.r, T.a3(), d, e)
 			}}
                 this.r.j = this.r.j + 2048
 				this.r.kong = 2

@@ -24217,21 +24217,21 @@ this.r.dy = this.r.dy / 11
 }
 T.baals1n1.prototype = {
        gb3: function() {
-            return 3
+            return 2
         },
         gb4: function() {
-            return 3
+            return 2
         },
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o, n = H.a([], [T.aU])
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
-            t = "[0]使用[广域激光]"
+            t = "[0]: [光啊！]"
             s = this.r
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 0.6
+            p = T.u(this.r, !0, c) * 1.5
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
 if (o.fr > 0 ) {

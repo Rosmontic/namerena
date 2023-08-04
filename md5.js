@@ -21572,7 +21572,8 @@ n.r.bf(n.r.fr, null, c, d)
         },
         ay: function(a, b, c, d) {
 		    
-            if(this.fr <= 0){  
+            if(this.fr <= 0){
+			d.a.push(T.e("[0]: 失败了，对……对不起！", this.r, this.r, null, null, 0, 1000, 100))
 			}		
         }
     }
@@ -21605,7 +21606,7 @@ n.r.bf(n.r.fr, null, c, d)
         ay: function(a, b, c, d) {
 		    
             if(this.fr <= 0){			
-                
+            d.a.push(T.e("[0]: 要是能看攻略...就好了...", this.r, this.r, null, null, 0, 1000, 100))
 			}		
         }
     }
@@ -21637,7 +21638,8 @@ n.r.bf(n.r.fr, null, c, d)
         },
         ay: function(a, b, c, d) {
 		    
-            if(this.fr <= 0){    
+            if(this.fr <= 0){
+			d.a.push(T.e("[0]: 唔，如果再稳重一点的话...", this.r, this.r, null, null, 0, 1000, 100))
 			}	
         }
     }
@@ -22271,8 +22273,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             d.av()
 			if(v == 0){
-            d.fx = 625
-			d.fr = 625
+            d.fx = 725
+			d.fr = 725
 			d.Q =  110
 			d.ch = 110
 			d.cx = 60 

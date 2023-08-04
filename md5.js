@@ -18599,15 +18599,25 @@ T.thb8s1.prototype = {
 			return this.aS(a, b)
 		},
         t: function(a, b, c, d) {
-            var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
-			
+            var w, k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+			w = (c.m() & 3)
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
 			if(this.r.fr >= 0.5*this.r.fx){
+			if(w > 0){
             k = "[0]: [侵略程式...启动...]"
 			}
+			else{
+			k = "[0]: [防卫程式...启动...]"
+			}
+		}
 			if(this.r.fr < 0.5*this.r.fx){
+            if(w > 0){
             k = "[0]: [防卫程式...启动...]"
+			}
+			else{
+			k = "[0]: [侵略程式...启动...]"
+			}
 			}
             s = this.r
             r = H.a(n.slice(0), [H.n(n, 0)])
@@ -18617,22 +18627,40 @@ T.thb8s1.prototype = {
             for (u = 0; u < n.length; ++u) {
             o = n[u]
 			if(this.r.fr >= 0.5*this.r.fx){
-            if(o.ALF != null){
-            o.Q = o.Q + 60
-			o.cx = o.cx + 30
-			o.go = o.go + 0.5
+			if(w > 0){
+            if(o.IAF != null){
+            o.Q = o.Q + 50
+			o.cx = o.cx + 25
+			o.go = o.go + 0.25
 			d.a.push(T.e("[0]的攻击性能提升", o, o, null, null, 0, 1000, 100))
 			}
 			}
-			if(this.r.fr < 0.5*this.r.fx){
-            if(o.ALF != null){
-            o.ch = o.ch + 60
-			o.dx = o.dx + 60
+			else{
+			if(o.IAF != null){
+            o.ch = o.ch + 25
+			o.dx = o.dx + 25
 			o.J = 49152
 			d.a.push(T.e("[0]的防御性能提升", o, o, null, null, 0, 1000, 100))
 			}
-            
-            	
+			}
+		}
+			if(this.r.fr < 0.5*this.r.fx){
+            if(w > 0){
+            if(o.IAF != null){
+            o.ch = o.ch + 25
+			o.dx = o.dx + 25
+			o.J = 49152
+			d.a.push(T.e("[0]的防御性能提升", o, o, null, null, 0, 1000, 100))
+			}
+			}
+			else{
+			if(o.IAF != null){
+            o.Q = o.Q + 50
+			o.cx = o.cx + 25
+			o.go = o.go + 0.25
+			d.a.push(T.e("[0]的攻击性能提升", o, o, null, null, 0, 1000, 100))
+			}
+			}
 			}
             }
             

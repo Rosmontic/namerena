@@ -4811,7 +4811,7 @@
                     t.z = 4
                     t.r = a
                 }
-                e.a.push(T.e(C.c.K(O.c("UAjR"), $.ni()), a, b, null, null, 60, 1000, 100))
+                e.a.push(T.e(C.c.K("[0]中毒了", $.ni()), a, b, null, null, 60, 1000, 100))
             }
         },
 

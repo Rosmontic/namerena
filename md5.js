@@ -21592,7 +21592,8 @@ n.r.bf(n.r.fr, null, c, d)
         ay: function(a, b, c, d) {
 		    
             if(this.fr <= 0){
-		    
+		    d.a.push($.v())
+			d.a.push(T.e("[0]: [失败了，对……对不起！]", this, this.r, null, null, 0, 1000, 100))
 			}		
         }
     }
@@ -21626,7 +21627,8 @@ n.r.bf(n.r.fr, null, c, d)
         ay: function(a, b, c, d) {
 		    
             if(this.fr <= 0){
-            
+            d.a.push($.v())			
+            d.a.push(T.e("[0]: [要是能看攻略...就好了...]", this, this.r, null, null, 0, 1000, 100))
 			}		
         }
     }
@@ -29869,8 +29871,7 @@ dk: function(a, b, c, d, e, f, g) {
         },
         aX: function(a, b, c, d) {
             var u, t = this
-            d.a.push($.v())
-			d.a.push(T.e("[0]: [失败了，对……对不起！]", this, this.r, null, null, 0, 1000, 100))
+            
             return !1
         },
         T: function() {
@@ -29888,8 +29889,7 @@ dk: function(a, b, c, d, e, f, g) {
         },
         aX: function(a, b, c, d) {
             var u, t = this
-            d.a.push($.v())			
-            d.a.push(T.e("[0]: [要是能看攻略...就好了...]", this, this.r, null, null, 0, 1000, 100))
+            
             return !1
         },
         T: function() {
@@ -29907,8 +29907,7 @@ dk: function(a, b, c, d, e, f, g) {
         },
         aX: function(a, b, c, d) {
             var u, t = this
-            d.a.push($.v())
-			d.a.push(T.e("[0]: [唔，如果再稳重一点的话...]", this, this.r, null, null, 0, 1000, 100))
+            
             return !1
         },
         T: function() {

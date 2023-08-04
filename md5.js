@@ -18592,15 +18592,14 @@ T.thb8s1.prototype = {
             return a.b1(this.r.y.f)
         },
 		ar: function(a, b) {
-            if (this.r.tai != 2 || this.r.alfn < 3 )
+            if (this.r.tai != 2)
             { 
                 return !1
             }
 			return this.aS(a, b)
 		},
         t: function(a, b, c, d) {
-            var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
-			
+            var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])		
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
 			if(this.r.fr >= 0.5*this.r.fx){
@@ -18612,27 +18611,21 @@ T.thb8s1.prototype = {
             s = this.r
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
-            q.push(T.e(k, s, null, null, r, 1, 1000, 100))
-            
+            q.push(T.e(k, s, null, null, r, 1, 1000, 100))         
             for (u = 0; u < n.length; ++u) {
             o = n[u]
 			if(this.r.fr >= 0.5*this.r.fx){
-            if(o.ALF != null){
             o.Q = o.Q + 60
 			o.cx = o.cx + 30
 			o.go = o.go + 0.5
 			d.a.push(T.e("[0]的攻击性能提升", o, o, null, null, 0, 1000, 100))
-			}
+			
 			}
 			if(this.r.fr < 0.5*this.r.fx){
-            if(o.ALF != null){
             o.ch = o.ch + 60
 			o.dx = o.dx + 60
 			o.J = 49152
 			d.a.push(T.e("[0]的防御性能提升", o, o, null, null, 0, 1000, 100))
-			}
-            
-            	
 			}
             }
             

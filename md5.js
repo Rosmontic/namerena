@@ -18872,18 +18872,18 @@ T.thb8s1.prototype = {
 			}
 			if(o.yxb == 2){
             o.cx = o.cx * 2.25
-			d.a.push(T.e(["邦邦咔邦！]勇者[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("[邦邦咔邦！]勇者[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 3){
             o.cy = o.cy * 2.25
-			d.a.push(T.e(["邦邦咔邦！]勇者[0]的[闪避机率]大幅度提升！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("[邦邦咔邦！]勇者[0]的[闪避机率]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 4){
             o.ch = o.ch * 4
 			o.dx = o.dx * 4
 			o.J = o.J * 1.5
 			o.go = o.go * 0.5
-			d.a.push(T.e(["邦邦咔邦！]勇者[0]由[光属性adc]转职为[坦克]！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("[邦邦咔邦！]勇者[0]由[光属性adc]转职为[坦克]！", o, o, null, null, 0, 1000, 100))
 			}
             }
             

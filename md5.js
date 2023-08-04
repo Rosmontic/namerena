@@ -4825,7 +4825,7 @@
                 if (t == null) {
                     t = new T.fire(a,b)
                     t.y = T.u(a, !0, d) * 1.2
-                    u.k(0, $.b9(), t)
+                    u.k(0, "firex"(), t)
                     b.x1.i(0, t)
                 } else {
                     t.y = t.y + T.u(a, !0, d) * 1.2

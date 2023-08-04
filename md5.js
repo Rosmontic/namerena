@@ -10566,7 +10566,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
-			_.en = 0
+			_.al1s1 = 0
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -24231,7 +24231,7 @@ T.baals1n1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 1.5
+            p = T.u(this.r, !0, c) * ( 1.5 + 0.5 * this.r.al1s1)
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
 if (o.fr > 0 ) {
@@ -24240,6 +24240,9 @@ o.a0(p, !0, this.r, T.a3(), c, d)
 }
                     
                 }
+			if(this.r.al1s1 < 2)
+             {this.r.al1s1 = this.r.al1s1 + 1
+             }			 
             
         }
 }

@@ -18592,7 +18592,7 @@ T.thb8s1.prototype = {
             return a.b1(this.r.y.f)
         },
 		ar: function(a, b) {
-            if (this.r.tai != 2 || this.r.alfn < 3 )
+            if (this.r.tai != 2 || this.r.alfn < 2 )
             { 
                 return !1
             }
@@ -26687,7 +26687,7 @@ T.AL1S.prototype = {
         return C.AL1S
     },
     gaQ: function() {
-        return H.a([], [P.f])
+        return H.a(["berserk", "charm"], [P.f])
     },
     aa: function() {
         var u, t = new T.baals1n1()
@@ -26700,10 +26700,10 @@ T.AL1S.prototype = {
         u.f = 210
         t.push(u)
 		u =new T.baals1n4()
-        u.f = 50
+        u.f = 100
         t.push(u)
 		u =new T.baals1n3()
-        u.f = 100
+        u.f = 150
         t.push(u)
 		u =new T.baals1b1()
         u.f = 300
@@ -29141,6 +29141,8 @@ dk: function(a, b, c, d, e, f, g) {
                 return !0
 				}
             }
+			d.a.push(T.e("[0]: [ (*>﹏<*) 爱丽丝的HP归0了~]", this.r, this.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
             return !1
         },
         T: function() {

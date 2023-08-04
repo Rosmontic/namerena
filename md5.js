@@ -18856,7 +18856,7 @@ T.thb8s1.prototype = {
             k = "[0]: [勇气，是最强的魔法。]"
             w = "[0]使用[强化魔法]"		
             s = this.r
-			this.f = 
+			this.f = 0
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(k, s, null, null, r, 0, 1000, 100))

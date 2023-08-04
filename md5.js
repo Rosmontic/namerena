@@ -21523,7 +21523,6 @@ n.r.bf(n.r.fr, null, c, d)
             var u = new T.aK()
             u.r = this
             this.k2 = u
-			this.id.push(new T.hWalf())
         },
         aR: function() {
             this.bv()
@@ -23898,7 +23897,7 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
     }
 	T.hWalf.prototype = {
 	    ar: function(a, b) {
-            if (this.af.r.tai == 2)
+            if (this.r.tai == 2)
             { 
                 return !1
             }

@@ -18626,6 +18626,7 @@ T.thb8s1.prototype = {
             
             for (u = 0; u < n.length; ++u) {
             o = n[u]
+			d.a.push($.v())
 			if(this.r.fr >= 0.5*this.r.fx){
 			if(w > 0){
             if(o.IAF != null){
@@ -18637,8 +18638,8 @@ T.thb8s1.prototype = {
 			}
 			else{
 			if(o.IAF != null){
-            o.ch = o.ch + 25
-			o.dx = o.dx + 25
+            o.ch = o.ch + 50
+			o.dx = o.dx + 50
 			o.J = 49152
 			d.a.push(T.e("[0]的防御性能提升", o, o, null, null, 0, 1000, 100))
 			}
@@ -21851,15 +21852,15 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 120
-			d.fr = 120
-			d.Q =  60
-			d.ch = 60
-			d.cx = 60 
-			d.cy = 60 
-			d.db = 60
-			d.dx = 60
-			d.dy = 60
+			d.fx = 100
+			d.fr = 100
+			d.Q =  50
+			d.ch = 50
+			d.cx = 50 
+			d.cy = 50 
+			d.db = 50
+			d.dx = 50
+			d.dy = 50
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			this.r.alfn = this.r.alfn + 1
@@ -29059,15 +29060,14 @@ dk: function(a, b, c, d, e, f, g) {
             var u, t, s, r = this ,v
             if (f.m() < 128) {
             g.a.push(T.e("[0]触发[「结晶之银」]", r.r, c, null, null, 1, 1000, 100))         
-                u = H.o(r.r.r1.h(0, $.kl()), "$idK")
+                u = H.o(this.r.r1.h(0, $.kl()), "$idK")
                 if (u == null) {
-                    t = r.r
-                    u = new T.dK(t)
-                    t.r1.k(0, $.kl(), u)
-                    r.r.y1.i(0, u)
+                    u = new T.dK(this.r)
+                    this.r.r1.k(0, $.kl(), u)
+                    this.r.y1.i(0, u)
                 }
 				v = r.r.fx - r.r.fr 
-				u.x = 140*C.b.v(v , r.r.fx)
+				u.x = 140*C.b.v(v , this.r.fx)
 				g.a.push(T.e("[0]获得[1]点[护盾]", o , u.x, null, null, 0, 1000, 100))
 				
 			return a
@@ -29133,7 +29133,7 @@ dk: function(a, b, c, d, e, f, g) {
             return 10
         },
         aX: function(a, b, c, d) {
-            var u, t = this, s = c.m(), r = t.f
+            var v, u, t = this, s = c.m(), r = t.f
             if ( r > 0) {
 			    if (this.r.tai == 1){
                 r = t.r
@@ -29153,7 +29153,7 @@ dk: function(a, b, c, d, e, f, g) {
                 r = t.r
                 u = d.a
 				u.push($.v())
-                u.push(T.e("[0]: [爱丽丝正在使用凤凰治疗包......]", r, r, null, null, 1, 1000, 100))
+                u.push(T.e("[0]正在使用[凤凰治疗包]", r, r, null, null, 1, 1000, 100))
 				u.push($.v())
 				u.push(T.e("[0]: [爱丽丝 复活！]", r, r, null, null, 0, 1000, 100))
 				u.push($.v())
@@ -29164,6 +29164,14 @@ dk: function(a, b, c, d, e, f, g) {
                 s = t.r
                 u.push(T.e(r, s, T.a1(s, 0), new T.aG(t.r.fr), null, 0, 1000, 100))
 				t.r.tai = 3
+				v = H.o(this.r.r1.h(0, $.kl()), "$idK")
+                if (v == null) {
+                    v = new T.dK(this.r)
+                    this.r.r1.k(0, $.kl(), v)
+                    this.r.y1.i(0, v)
+                }
+				v.x = 400
+				u.push(T.e("[0]获得[1]点[护盾]", this.r , v.x, null, null, 0, 1000, 100))
 				t.r.j = t.r.j + 2048
 				t.f = 0
                 return !0

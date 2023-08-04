@@ -23898,7 +23898,7 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
     }
 	T.hWalf.prototype = {
 	    ar: function(a, b) {
-            if (this.r.af.tai == 2)
+            if (this.af.r.tai == 2)
             { 
                 return !1
             }
@@ -25210,7 +25210,7 @@ T.youzi1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 1.25
+            p = T.u(this.r, !0, c) * 1
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 ) {

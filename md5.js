@@ -18582,46 +18582,61 @@ T.thb8s1.prototype = {
         }
 }
     T.baals1n4.prototype = {
-	gb3: function() {
-            return 2
+        gb3: function() {
+            return 999
         },
         gb4: function() {
-            return 2
+            return 999
         },
+		b5: function(a) {
+            return a.b1(this.r.y.f)
+        },
+		ar: function(a, b) {
+            if (this.r.tai != 2 || this.r.alfn < 3 )
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
         t: function(a, b, c, d) {
-            var w, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+            var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+			
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
-            t = "[0]: [光啊！]"
+			if(this.r.fr >= 0.5*this.r.fx){
+            k = "[0]: [侵略程式...启动...]"
+			}
+			if(this.r.fr < 0.5*this.r.fx){
+            k = "[0]: [防卫程式...启动...]"
+			}
             s = this.r
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
-			if(this.r.tai == 2)
-			{
-			q.push(T.e("[0]: [自我修复程式...启动...]", s, null, null, r, 1, 1000, 100))
-			q.push($.v())
-			v = this.r.fr
-			w = C.d.Z(0.5* (this.r.fx - this.r.fr))
-			this.r.fr = this.r.fr + w
-			q.push(T.e(O.c("YmSv"), this.r, T.a1(this.r, v), new T.aG(w), null, 0, 1000, 100))
-			return
-			}
-            q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * ( 1.5 + 0.5 * this.r.al1s1)
+            q.push(T.e(k, s, null, null, r, 1, 1000, 100))
+            
             for (u = 0; u < n.length; ++u) {
-                o = n[u]
-if (o.fr > 0 ) {
-q.push($.v())
-o.a0(p, !0, this.r, T.a3(), c, d)
-}
-                    
-                }
-			 if(this.r.al1s1 < 2)
-             {this.r.al1s1 = this.r.al1s1 + 1
-             }
+            o = n[u]
+			if(this.r.fr >= 0.5*this.r.fx){
+            if(o.ALF != null){
+            o.Q = o.Q + 60
+			o.cx = o.cx + 30
+			o.go = o.go + 0.5
+			d.a.push(T.e("[0]的攻击性能提升", o, o, null, null, 0, 1000, 100))
+			}
+			}
+			if(this.r.fr < 0.5*this.r.fx){
+            if(o.ALF != null){
+            o.ch = o.ch + 60
+			o.dx = o.dx + 60
+			o.J = 49152
+			d.a.push(T.e("[0]的防御性能提升", o, o, null, null, 0, 1000, 100))
+			}
+            
+            	
+			}
+            }
             
         }
-        
 }
 T.thb5s1.prototype = {
         b5: function(a) {
@@ -21257,7 +21272,7 @@ n.r.bf(n.r.fr, null, c, d)
             this.bv()
             var u = this.u
             u[7] = C.d.v(u[7], 1)
-        }
+        },
 		bM: function() {
             var u, t = this
             t.dK()

@@ -4818,10 +4818,10 @@
         fires: function(a, b, c, d, e) {
             var u, t
             if (c > 4 && !(b.fr <= 0)) {
-                if (b.a6($.b9(), d))
+                if (b.a6("firex", d))
                     return
                 u = b.r1
-                t = H.o(u.h(0, $.b9()), "$ifire")
+                t = H.o(u.h(0, "firex"), "$ifire")
                 if (t == null) {
                     t = new T.fire(a,b)
                     t.y = T.u(a, !0, d) * 1.2
@@ -21127,7 +21127,7 @@ T.tha4n1.prototype = {
         },
         H: function(a, b) {
             var u, t = this.x
-            t.r1.S(0, $.b9())
+            t.r1.S(0, "firex")
             this.C()
             if (t.fr > 0) {
                 u = b.a

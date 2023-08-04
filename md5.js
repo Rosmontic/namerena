@@ -21494,7 +21494,7 @@ n.r.bf(n.r.fr, null, c, d)
         },
 		gaQ: function() {
              return H.a(["berserk", "charm"], [P.f])
-        }
+        },
         aa: function() {
             var u = new T.tao1()
             u.r = this
@@ -21526,7 +21526,7 @@ n.r.bf(n.r.fr, null, c, d)
         },
 		gaQ: function() {
              return H.a(["berserk", "charm"], [P.f])
-        }
+        },
         aa: function() {
             var u = new T.lv1()
             u.r = this

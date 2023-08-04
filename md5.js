@@ -18905,7 +18905,7 @@ T.thb8s1.prototype = {
             o.ch = o.ch * 4
 			o.dx = o.dx * 4
 			o.J = o.J * 1.5
-			o.go = o.go * 0.5
+			o.go = o.go * 0.75
 			d.a.push(T.e("邦邦邦邦！勇者[0]由[光属性adc]转职为[坦克]！", o, o, null, null, 0, 1000, 100))
 			}
             }
@@ -29852,8 +29852,8 @@ dk: function(a, b, c, d, e, f, g) {
                 return !0
 				}
             }
-			d.a.push(T.e("[0]: [爱丽丝的HP归0，爱丽丝败北了 ~(*>﹏<*)~]", this.r, this.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
+			d.a.push(T.e("[0]: [爱丽丝的HP归0，爱丽丝败北了 ~(*>﹏<*)~]", this.r, this.r, null, null, 0, 1000, 100))	
             return !1
         },
         T: function() {

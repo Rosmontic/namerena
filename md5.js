@@ -10574,6 +10574,8 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.go = 1
             _.id = e
 			_.al1s1 = 0
+			_.tai = 1
+			_.zhao = 1
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -17739,7 +17741,7 @@ u.push($.v())
             return 6
         },
 		ar: function(a, b) {
-            if (this.r.al1s1 < 2)
+            if (this.r.al1s1 < 2 || this.r.tai == 2)
                 return !1
             return this.aS(a, b)
         },
@@ -17748,7 +17750,7 @@ u.push($.v())
             if (p == null) {
                 r.fy = r.r
                 r.r.ry.i(0, r.fr)
-                k.push(T.e("[0]：[魔力填充中...25%...50%...75%...]", r.r, r.fy, q, q, 1, 1000, 100))
+                k.push(T.e("[0]：[魔力填充...25%...50%...75%...]", r.r, r.fy, q, q, 1, 1000, 100))
             }
             else {
             r.ae(0)
@@ -17762,6 +17764,7 @@ u.push($.v())
 			k.push($.v())
             k.push(T.e("[0]：[世界的 法则 即将崩坏！]]", r.r, r.r, q, q, 1, 1000, 100))           
             w = T.u(r.r, !0, c) * (2 * (1 + this.r.al1s1))
+			this.r.al1s1 = 0
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 ) {
@@ -24290,13 +24293,23 @@ T.baals1n1.prototype = {
             return 2
         },
         t: function(a, b, c, d) {
-            var u, t, s, r, q, p, o, n = H.a([], [T.aU])
+            var w, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
             t = "[0]: [光啊！]"
             s = this.r
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
+			if(this.r.tai == 2)
+			{
+			q.push(T.e("[0]: [自我修复程式启动]", s, null, null, r, 1, 1000, 100))
+			q.push($.v())
+			v = this.r.fr
+			w = 0.5* (this.r.fx - this.r.fr)
+			this.r.fr = this.r.fr + w
+			q.push(T.e(O.c("YmSv"), this.r, T.a1(this.r, v), new T.aG(w), null, 0, 1000, 100))
+			return
+			}
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
             p = T.u(this.r, !0, c) * ( 1.5 + 0.5 * this.r.al1s1)
             for (u = 0; u < n.length; ++u) {

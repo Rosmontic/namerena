@@ -18895,8 +18895,8 @@ T.thb8s1.prototype = {
 			d.a.push($.v())
 			if(o.yxb != null){
 			if(o.yxb == 1){
-            o.Q = o.Q * 1.5
-			o.go = o.go * 1.5
+            o.Q = o.Q * 1.75
+			o.go = o.go * 1.75
 			d.a.push(T.e("邦邦邦！勇者[0]的[攻击能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 2){
@@ -18904,14 +18904,14 @@ T.thb8s1.prototype = {
 			d.a.push(T.e("邦邦邦！勇者[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 3){
-            o.cy = o.cy * 2.25
+            o.cy = o.cy * 2.75
 			d.a.push(T.e("邦邦邦！勇者[0]的[闪避机率]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 4){
-            o.ch = o.ch * 4
-			o.dx = o.dx * 4
-			o.J = o.J * 1.5
-			o.go = o.go * 0.75
+            o.ch = o.ch * 5
+			o.dx = o.dx * 5
+			o.J = o.J * 2.5
+			o.go = o.go * 0.5
 			d.a.push(T.e("邦邦邦！勇者[0]由[光属性adc]转职为[坦克]！", o, o, null, null, 0, 1000, 100))
 			}
             }
@@ -25204,7 +25204,7 @@ T.youzi1.prototype = {
             p.push(T.e("[0]:[团队游戏的基本是合作哦]", q.r, u, null, null, t, 1000, 100))
             r = u.fr
             u.fr = r + t
-            p.push(T.e(O.c("YmSv"), q.r, T.a1(u, r), new T.aG(t), null, 0, 1000, 100))
+            p.push(T.e("[0]为[1]回复生命[2]点", q.r, T.a1(u, r), new T.aG(t), null, 0, 1000, 100))
             u.bI(q.r, d)
         }
     }
@@ -29847,6 +29847,7 @@ dk: function(a, b, c, d, e, f, g) {
                 s = t.r
                 u.push(T.e(r, s, T.a1(s, 0), new T.aG(t.r.fr), null, 0, 1000, 100))
 				t.r.tai = 2
+				t.r.bI(t.r, d)
 				t.r.j = t.r.j + 2048
                 return !0
 				}
@@ -29871,6 +29872,7 @@ dk: function(a, b, c, d, e, f, g) {
                 }
 				v.x = 400
 				u.push(T.e("[0]获得[1]点[护盾]", this.r , v.x, null, null, 0, 1000, 100))
+				t.r.bI(t.r, d)
 				t.r.j = t.r.j + 2048
 				t.f = 0
                 return !0

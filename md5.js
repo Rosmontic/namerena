@@ -18897,15 +18897,15 @@ T.thb8s1.prototype = {
 			if(o.yxb != null){
 			if(o.yxb == 1){
             o.Q = o.Q * 1.75
-			o.go = o.go * 1.75
+			o.go = o.go * 1.5
 			d.a.push(T.e("邦邦邦！勇者[0]的[攻击能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 2){
-            o.cx = o.cx * 2.5
+            o.cx = o.cx * 2.75
 			d.a.push(T.e("邦邦！勇者[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 3){
-            o.cy = o.cy * 3.25
+            o.cy = o.cy * 3.75
 			d.a.push(T.e("邦邦邦！勇者[0]的[闪避机率]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 4){
@@ -25231,7 +25231,7 @@ T.youzi1.prototype = {
                     q = T.u(n.r, !1, c)
                     p = k.length
                     o = n.r
-                    if (l.aA(l.ak(C.e.Z(q * 0.75 / T.cc(l, !0, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
+                    if (l.aA(l.ak(C.e.Z(q / T.cc(l, !0, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
                         s = !0
                     k[p].b = 300
                 }

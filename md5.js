@@ -18827,7 +18827,7 @@ T.thb8s1.prototype = {
             o.Q = o.Q + 50
 			o.cx = o.cx + 25
 			o.go = o.go + 0.25
-			d.a.push(T.e("[0]的攻击性能提升", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]的[攻击性能]提升", o, o, null, null, 0, 1000, 100))
 			}
 			}
 			else{
@@ -18835,7 +18835,7 @@ T.thb8s1.prototype = {
             o.ch = o.ch + 50
 			o.dx = o.dx + 50
 			o.J = 49152
-			d.a.push(T.e("[0]的防御性能提升", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]的[防御性能]提升", o, o, null, null, 0, 1000, 100))
 			}
 			}
 		}
@@ -18845,7 +18845,7 @@ T.thb8s1.prototype = {
             o.ch = o.ch + 25
 			o.dx = o.dx + 25
 			o.J = 49152
-			d.a.push(T.e("[0]的防御性能提升", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]的[防御性能]提升", o, o, null, null, 0, 1000, 100))
 			}
 			}
 			else{
@@ -18853,7 +18853,7 @@ T.thb8s1.prototype = {
             o.Q = o.Q + 50
 			o.cx = o.cx + 25
 			o.go = o.go + 0.25
-			d.a.push(T.e("[0]的攻击性能提升", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]的[攻击性能]提升", o, o, null, null, 0, 1000, 100))
 			}
 			}
 			}
@@ -18897,7 +18897,7 @@ T.thb8s1.prototype = {
 			if(o.yxb != null){
 			if(o.yxb == 1){
             o.Q = o.Q * 1.75
-			o.go = o.go * 1.5
+			o.go = o.go * 1.75
 			d.a.push(T.e("邦邦咔邦！[0]的[攻击能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 2){
@@ -18905,9 +18905,7 @@ T.thb8s1.prototype = {
 			d.a.push(T.e("邦邦咔邦！[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 3){
-            o.cy = o.cy * 4
-			o.ch = o.ch * 2
-			o.dx = o.dx * 2
+            o.cy = o.cy * 6
 			d.a.push(T.e("邦邦咔邦！[0]的[闪避机率]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 4){
@@ -22340,7 +22338,12 @@ n.r.bf(n.r.fr, null, c, d)
 			}
 			
             c.r.x.aU(d)
-            u.push(T.e("邦邦咔邦！[1]作为伙伴加入了队伍！", this.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+			if(v == 1){
+            u.push(T.e("邦邦！[1]作为伙伴加入了队伍！", this.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+			}
+			if(v != 1){
+            u.push(T.e("邦邦邦！[1]作为伙伴加入了队伍！", this.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+			}
         }
     }}
 	T.tha9n2t.prototype = {

@@ -25084,7 +25084,7 @@ T.youzi1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * v * 0.8
+            p = T.u(this.r, !0, c) * v 
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 ) {
@@ -25124,7 +25124,7 @@ T.youzi1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 3.2
+            p = T.u(this.r, !0, c) * 3.5
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 ) {
@@ -25156,7 +25156,7 @@ T.youzi1.prototype = {
         },
         am: function(a, b) {
             if (b)
-                return a.fr + 80 < a.fx
+                return a.fr  < 0.75*a.fx
             return a.fr < a.fx
         },
         a8: function(a, b, c) {

@@ -22304,12 +22304,12 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             d.av()
 			if(v == 0){
-            d.fx = 825
+            d.fx = 600
 			d.fr = 825
 			d.Q =  110
 			d.ch = 120
 			d.cx = 75 
-			d.cy = 90 
+			d.cy = 75 
 			d.db = 70
 			d.dx = 120
 			d.dy = 100
@@ -29896,20 +29896,16 @@ dk: function(a, b, c, d, e, f, g) {
             this.r = a
             this.f = 1000
         },
-        aX: function(a, b, c, d) {
-            var u, t = this
-			if (this.r.gui > 0) {
-			this.r.gui = 0
-			this.r.J = 256
-			d.a.push(T.e("[0][躲进了柜子]", this.r, this.r, null, null, 0, 1000, 100))
+        dk: function(a, b, c, d, e, f, g) {
+            var v, u, t = this
+			if (this.r.gui > 0 || this.r.fr < 300) {
 			if (t.r.fr < 0)
 			{
 			t.r.fr = 0
 			}
-			t.r.fr = t.r.fr + 100
-                r = O.c("YmSv")
-                s = t.r
-                u.push(T.e(r, s, T.a1(s, 0), new T.aG(t.r.fr), null, 0, 1000, 100))
+			this.r.gui = 0
+			this.r.J = 256
+			d.a.push(T.e("[0][躲进了柜子]", this.r, this.r, null, null, 0, 1000, 100))			
 				v = H.o(this.r.r1.h(0, $.kl()), "$idK")
                 if (v == null) {
                     v = new T.dK(this.r)
@@ -29917,17 +29913,17 @@ dk: function(a, b, c, d, e, f, g) {
                     this.r.y1.i(0, v)
                 }
 				v.x = 300
-				u.push(T.e("[0]获得[1]点[护盾]", this.r , v.x, null, null, 0, 1000, 100))
-				t.r.bI(t.r, d)
-			return !0
+				g.a.push(T.e("[0]获得[1]点[护盾]", this.r , v.x, null, null, 0, 1000, 100))
+				t.r.bI(t.r, g)
+			return 0
 			}
             
-            return !1
+            return a
         },
         T: function() {
-            this.r.I.i(0, this)
+            this.r.x2.i(0, this)
         },
-        $iC: 1
+        $iK: 1
     }
 	T.tao3.prototype = {
         ga1: function() {

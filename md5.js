@@ -18901,7 +18901,7 @@ T.thb8s1.prototype = {
 			d.a.push(T.e("邦邦咔邦！[0]的[攻击能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 2){
-            o.cx = o.cx * 2.75
+            o.cx = o.cx * 3
 			d.a.push(T.e("邦邦咔邦！[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 3){
@@ -25170,7 +25170,7 @@ T.youzi1.prototype = {
         var u = this
         t = a[0].a
         s = T.u(u.r, !1, c)* 2.75
-        d.a.push(T.e("[0]:[像打像素游戏一样细致...]", u.r, t, null, null, 1, 1000, 100))
+        d.a.push(T.e("[0]: [像打像素游戏一样细致...]", u.r, t, null, null, 1, 1000, 100))
 		d.a.push($.v())
         t.bL(s, !1, u.r, T.qc(), c, d)
     }
@@ -25207,7 +25207,7 @@ T.youzi1.prototype = {
             if (t > s)
                 t = s
             p = d.a
-            p.push(T.e("[0]:[团队游戏的基本是合作哦]", q.r, u, null, null, t, 1000, 100))
+            p.push(T.e("[0]: [团队游戏的基本是合作哦]", q.r, u, null, null, t, 1000, 100))
             r = u.fr
             u.fr = r + t
             p.push(T.e("[0]为[1]回复生命[2]点", q.r, T.a1(u, r), new T.aG(t), null, 0, 1000, 100))
@@ -25217,7 +25217,7 @@ T.youzi1.prototype = {
 	T.tao1.prototype = {
     t: function(a, b, c, d) {
         var u, t, s, r, q, p, o, n = this, m = null, l = a[0].a, k = d.a
-        k.push(T.e("[0]:[食我愤怒的子弹吧！]", n.r, l, m, m, 1, 1000, 100))
+        k.push(T.e("[0]: [食我愤怒的子弹吧！]", n.r, l, m, m, 1, 1000, 100))
         u = 4 + (c.m() & 1)
         t = 100 + n.r.cy
             for (s = !1,

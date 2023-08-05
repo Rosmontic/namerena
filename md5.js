@@ -18898,22 +18898,24 @@ T.thb8s1.prototype = {
 			if(o.yxb == 1){
             o.Q = o.Q * 1.75
 			o.go = o.go * 1.5
-			d.a.push(T.e("邦邦邦！勇者[0]的[攻击能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("邦邦咔邦！[0]的[攻击能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 2){
             o.cx = o.cx * 2.75
-			d.a.push(T.e("邦邦！勇者[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("邦邦咔邦！[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 3){
-            o.cy = o.cy * 3.75
-			d.a.push(T.e("邦邦邦！勇者[0]的[闪避机率]大幅度提升！", o, o, null, null, 0, 1000, 100))
+            o.cy = o.cy * 4
+			o.ch = o.ch * 2
+			o.dx = o.dx * 2
+			d.a.push(T.e("邦邦咔邦！[0]的[闪避机率]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 4){
             o.ch = o.ch * 5
 			o.dx = o.dx * 5
 			o.J = o.J * 2
 			o.go = o.go * 0.5
-			d.a.push(T.e("邦邦邦！勇者[0]由[光属性adc]转职为[坦克]！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("邦邦咔邦！[0]由[光属性adc]转职为[坦克]！", o, o, null, null, 0, 1000, 100))
 			}
             }
             
@@ -25148,7 +25150,7 @@ T.youzi1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 3
+            p = T.u(this.r, !0, c) * 4
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 ) {
@@ -25164,7 +25166,7 @@ T.youzi1.prototype = {
     t: function(a, b, c, d) {
         var u = this
         t = a[0].a
-        s = T.u(u.r, !1, c)* 2.25
+        s = T.u(u.r, !1, c)* 2.75
         d.a.push(T.e("[0]:[像打像素游戏一样细致...]", u.r, t, null, null, 1, 1000, 100))
 		d.a.push($.v())
         t.bL(s, !1, u.r, T.qc(), c, d)
@@ -25197,7 +25199,7 @@ T.youzi1.prototype = {
             if (p > 8)
                 q.f = p - 1
             u = a[0].a
-            t = C.e.Z(T.u(q.r, !0, c) / 20)
+            t = C.e.Z(T.u(q.r, !0, c) / 15)
             s = u.fx - u.fr
             if (t > s)
                 t = s

@@ -7979,6 +7979,7 @@ tha4n1: function tha4n1() {
             _.id = e
 			_.yxb = 1
 			_.per = 0
+			_.gui = 1
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -29857,7 +29858,7 @@ dk: function(a, b, c, d, e, f, g) {
 				u.push($.v())
                 u.push(T.e("[0]正在使用[凤凰治疗包]", r, r, null, null, 1, 1000, 100))
 				u.push($.v())
-				u.push(T.e("[0]: [必灭者啊，不能就这样放弃。]", r, r, null, null, 0, 1000, 100))
+				u.push(T.e("[0]: [必灭者啊，不能就这样放弃啊。]", r, r, null, null, 0, 1000, 100))
 				u.push($.v())
                 t.r.fr = t.r.fx
                 r = O.c("YmSv")
@@ -29897,6 +29898,29 @@ dk: function(a, b, c, d, e, f, g) {
         },
         aX: function(a, b, c, d) {
             var u, t = this
+			if (this.r.gui > 0) {
+			this.r.gui = 0
+			this.r.J = 256
+			d.a.push(T.e("[0][躲进了柜子]", this.r, this.r, null, null, 0, 1000, 100))
+			if (t.r.fr < 0)
+			{
+			t.r.fr = 0
+			}
+			t.r.fr = t.r.fr + 100
+                r = O.c("YmSv")
+                s = t.r
+                u.push(T.e(r, s, T.a1(s, 0), new T.aG(t.r.fr), null, 0, 1000, 100))
+				v = H.o(this.r.r1.h(0, $.kl()), "$idK")
+                if (v == null) {
+                    v = new T.dK(this.r)
+                    this.r.r1.k(0, $.kl(), v)
+                    this.r.y1.i(0, v)
+                }
+				v.x = 300
+				u.push(T.e("[0]获得[1]点[护盾]", this.r , v.x, null, null, 0, 1000, 100))
+				t.r.bI(t.r, d)
+			return !0
+			}
             
             return !1
         },

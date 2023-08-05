@@ -29889,9 +29889,6 @@ dk: function(a, b, c, d, e, f, g) {
         $iC: 1
     }
 	T.youzi3.prototype = {
-        ga1: function() {
-            return 10
-        },
 		ai: function(a, b) {
             this.r = a
             this.f = 1000
@@ -29905,7 +29902,7 @@ dk: function(a, b, c, d, e, f, g) {
 			}
 			this.r.gui = 0
 			this.r.J = 256
-			d.a.push(T.e("[0][躲进了柜子]", this.r, this.r, null, null, 0, 1000, 100))			
+			g.a.push(T.e("[0][躲进了柜子]", this.r, this.r, null, null, 0, 1000, 100))			
 				v = H.o(this.r.r1.h(0, $.kl()), "$idK")
                 if (v == null) {
                     v = new T.dK(this.r)

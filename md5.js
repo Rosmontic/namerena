@@ -18901,17 +18901,17 @@ T.thb8s1.prototype = {
 			d.a.push(T.e("邦邦邦！勇者[0]的[攻击能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 2){
-            o.cx = o.cx * 2.25
-			d.a.push(T.e("邦邦邦！勇者[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
+            o.cx = o.cx * 2.5
+			d.a.push(T.e("邦邦！勇者[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 3){
-            o.cy = o.cy * 2.75
+            o.cy = o.cy * 3.25
 			d.a.push(T.e("邦邦邦！勇者[0]的[闪避机率]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 4){
             o.ch = o.ch * 5
 			o.dx = o.dx * 5
-			o.J = o.J * 2.5
+			o.J = o.J * 2
 			o.go = o.go * 0.5
 			d.a.push(T.e("邦邦邦！勇者[0]由[光属性adc]转职为[坦克]！", o, o, null, null, 0, 1000, 100))
 			}
@@ -22305,10 +22305,10 @@ n.r.bf(n.r.fr, null, c, d)
             d.av()
 			if(v == 0){
             d.fx = 600
-			d.fr = 825
+			d.fr = 600
 			d.Q =  110
 			d.ch = 120
-			d.cx = 75 
+			d.cx = 65 
 			d.cy = 75 
 			d.db = 70
 			d.dx = 120
@@ -25164,7 +25164,7 @@ T.youzi1.prototype = {
     t: function(a, b, c, d) {
         var u = this
         t = a[0].a
-        s = T.u(u.r, !1, c)* 1.75
+        s = T.u(u.r, !1, c)* 2.25
         d.a.push(T.e("[0]:[像打像素游戏一样细致...]", u.r, t, null, null, 1, 1000, 100))
 		d.a.push($.v())
         t.bL(s, !1, u.r, T.qc(), c, d)
@@ -25213,7 +25213,7 @@ T.youzi1.prototype = {
     t: function(a, b, c, d) {
         var u, t, s, r, q, p, o, n = this, m = null, l = a[0].a, k = d.a
         k.push(T.e("[0]:[食我愤怒的子弹吧！]", n.r, l, m, m, 1, 1000, 100))
-        u = 3 + (c.m() & 1)
+        u = 4 + (c.m() & 1)
         t = 100 + n.r.cy
             for (s = !1,
             r = 0; r < u; ++r) {
@@ -25259,7 +25259,7 @@ T.youzi1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 1
+            p = T.u(this.r, !0, c) * 1.25
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 ) {
@@ -29895,7 +29895,7 @@ dk: function(a, b, c, d, e, f, g) {
         },
         dk: function(a, b, c, d, e, f, g) {
             var v, u, t = this
-			if (this.r.gui > 0 || this.r.fr < 300) {
+			if (this.r.gui > 0 && this.r.fr < 300) {
 			if (t.r.fr < 0)
 			{
 			t.r.fr = 0

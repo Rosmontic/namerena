@@ -22303,14 +22303,14 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             d.av()
 			if(v == 0){
-            d.fx = 725
-			d.fr = 725
+            d.fx = 825
+			d.fr = 825
 			d.Q =  110
-			d.ch = 110
-			d.cx = 65 
+			d.ch = 120
+			d.cx = 75 
 			d.cy = 90 
 			d.db = 70
-			d.dx = 110
+			d.dx = 120
 			d.dy = 100
 			}
 			if(v == 1){
@@ -25178,9 +25178,9 @@ T.youzi1.prototype = {
             return a.b1(this.r.y.f)
         },
         am: function(a, b) {
-            if (b)
-                return a.fr  < 0.75*a.fx
-            return a.fr < a.fx
+
+            return a.fr  < 0.75*a.fx
+           
         },
         a8: function(a, b, c) {
             var u = {}

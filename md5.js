@@ -25196,7 +25196,7 @@ T.youzi1.prototype = {
             if (p > 8)
                 q.f = p - 1
             u = a[0].a
-            t = C.e.Z(T.u(q.r, !0, c) / 25)
+            t = C.e.Z(T.u(q.r, !0, c) / 20)
             s = u.fx - u.fr
             if (t > s)
                 t = s

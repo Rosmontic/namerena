@@ -7999,7 +7999,7 @@ tha4n1: function tha4n1() {
             _.q = s
             _.a_ = t
             _.V = _.O = _.L = 0
-            _.J = 1024
+            _.J = 32768
             _.j = 0
             _.X = _.W = !1
             _.F = null
@@ -18891,22 +18891,22 @@ T.thb8s1.prototype = {
 			if(o.yxb == 1){
             o.Q = o.Q * 1.5
 			o.go = o.go * 1.5
-			d.a.push(T.e("邦邦邦邦！勇者[0]的[攻击能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("邦邦邦！勇者[0]的[攻击能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 2){
             o.cx = o.cx * 2.25
-			d.a.push(T.e("邦邦邦邦！勇者[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("邦邦邦！勇者[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 3){
             o.cy = o.cy * 2.25
-			d.a.push(T.e("邦邦邦邦！勇者[0]的[闪避机率]大幅度提升！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("邦邦邦！勇者[0]的[闪避机率]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 4){
             o.ch = o.ch * 4
 			o.dx = o.dx * 4
 			o.J = o.J * 1.5
 			o.go = o.go * 0.75
-			d.a.push(T.e("邦邦邦邦！勇者[0]由[光属性adc]转职为[坦克]！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("邦邦邦！勇者[0]由[光属性adc]转职为[坦克]！", o, o, null, null, 0, 1000, 100))
 			}
             }
             
@@ -21593,7 +21593,7 @@ n.r.bf(n.r.fr, null, c, d)
 		    
             if(this.fr <= 0){
 		    d.a.push($.v())
-			d.a.push(T.e("[0]: [失败了，对……对不起！]", this, this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]: [对……对不起！]", this, this.r, null, null, 0, 1000, 100))
 			}		
         }
     }
@@ -22301,7 +22301,7 @@ n.r.bf(n.r.fr, null, c, d)
 			d.fr = 725
 			d.Q =  110
 			d.ch = 110
-			d.cx = 60 
+			d.cx = 65 
 			d.cy = 90 
 			d.db = 70
 			d.dx = 110
@@ -25129,7 +25129,7 @@ T.youzi1.prototype = {
                 o = n[u]
             if (o.fr > 0 ) {
             q.push($.v())
-            o.a0(p, !1, this.r, T.a3(), c, d)
+            o.bL(p, !1, this.r, T.a3(), c, d)
             }
                     
                 }
@@ -29816,7 +29816,7 @@ dk: function(a, b, c, d, e, f, g) {
                 r = t.r
                 u = d.a
 				u.push($.v())
-                u.push(T.e("[0]: [反击程式...启动......你惊动了 Key ]", r, r, null, null, 1, 1000, 100))
+                u.push(T.e("[0]: [反击程式...启动......你惊扰了 Key ]", r, r, null, null, 1, 1000, 100))
 				u.push($.v())
                 t.r.fr = t.r.fx
                 r = O.c("YmSv")

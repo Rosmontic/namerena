@@ -25147,7 +25147,7 @@ T.youzi1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 3.5
+            p = T.u(this.r, !0, c) * 4
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 ) {

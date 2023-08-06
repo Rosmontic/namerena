@@ -18003,7 +18003,13 @@ u.push($.v())
                 r.r.ry.i(0, r.fr)
                 k.push(T.e("[0]：[魔力填充...25%...50%...75%...]", r.r, r.fy, q, q, 1, 1000, 100))
             }
-            else {
+			if (p != null && this.r.tai == 2)
+			{
+			r.ae(0)
+			this.r.f = this.r.f +  2048
+			return 0
+			}
+            if (p != null && this.r.tai != 2) {
             r.ae(0)
             n = H.a([], [T.aU])
             for (u = 0; u < a.length; ++u){

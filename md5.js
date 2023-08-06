@@ -18898,14 +18898,17 @@ T.thb8s1.prototype = {
 			if(o.yxb == 1){
             o.Q = o.Q * 1.75
 			o.go = o.go * 1.75
+			o.f = o.f + 2048
 			d.a.push(T.e("邦邦咔邦！[0]的[攻击能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 2){
             o.cx = o.cx * 3
+			o.f = o.f + 2048
 			d.a.push(T.e("邦邦咔邦！[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 3){
             o.cy = o.cy * 6
+			o.f = o.f + 2048
 			d.a.push(T.e("邦邦咔邦！[0]的[闪避机率]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 4){
@@ -18913,6 +18916,7 @@ T.thb8s1.prototype = {
 			o.dx = o.dx * 5
 			o.J = o.J * 2
 			o.go = o.go * 0.5
+			o.f = o.f + 2048
 			d.a.push(T.e("邦邦咔邦！[0]由[光属性adc]转职为[坦克]！", o, o, null, null, 0, 1000, 100))
 			}
             }
@@ -22343,7 +22347,9 @@ n.r.bf(n.r.fr, null, c, d)
 			}
 			if(v != 1){
             u.push(T.e("邦邦邦！[1]作为伙伴加入了队伍！", this.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+			
 			}
+			d.f = d.f + 2048
         }
     }}
 	T.tha9n2t.prototype = {
@@ -25246,7 +25252,7 @@ T.youzi1.prototype = {
 	T.tao2.prototype = {
        ai: function(a, b) {
             this.r = a
-            this.f = 50
+            this.f = 60
         },
         gb3: function() {
             return 3
@@ -29900,11 +29906,7 @@ dk: function(a, b, c, d, e, f, g) {
         },
         dk: function(a, b, c, d, e, f, g) {
             var v, u, t = this
-			if (this.r.gui > 0 && this.r.fr < 300) {
-			if (t.r.fr < 0)
-			{
-			t.r.fr = 0
-			}
+			if (this.r.gui > 0 && this.r.fr - a < 300) {
 			this.r.gui = 0
 			this.r.J = 256
 			g.a.push(T.e("[0][躲进了柜子]", this.r, this.r, null, null, 0, 1000, 100))			

@@ -22349,7 +22349,7 @@ n.r.bf(n.r.fr, null, c, d)
             u.push(T.e("邦邦邦！[1]作为伙伴加入了队伍！", this.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			
 			}
-			d.f = d.f + 2048
+			d.f = 2048
         }
     }}
 	T.tha9n2t.prototype = {
@@ -29906,7 +29906,7 @@ dk: function(a, b, c, d, e, f, g) {
         },
         dk: function(a, b, c, d, e, f, g) {
             var v, u, t = this
-			if (this.r.gui > 0 && this.r.fr - a < 300) {
+			if (this.r.gui > 0 && this.r.fr < 300) {
 			this.r.gui = 0
 			this.r.J = 256
 			g.a.push(T.e("[0][躲进了柜子]", this.r, this.r, null, null, 0, 1000, 100))			

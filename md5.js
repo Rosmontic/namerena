@@ -18913,7 +18913,7 @@ T.thb8s1.prototype = {
 			d.a.push(T.e("邦邦咔邦！[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 3){
-            o.cy = o.cy * 6
+            o.cy = 540
 			o.f = o.f + 2048
 			d.a.push(T.e("邦邦咔邦！[0]的[闪避机率]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}

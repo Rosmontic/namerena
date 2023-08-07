@@ -18913,7 +18913,7 @@ T.thb8s1.prototype = {
 			d.a.push(T.e("邦邦咔邦！[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 3){
-            o.cy = 540
+            o.cy = o.cy * 9
 			o.f = o.f + 2048
 			d.a.push(T.e("邦邦咔邦！[0]的[闪避机率]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
@@ -25190,7 +25190,7 @@ T.youzi1.prototype = {
 	T.lv2.prototype = {
 	    ai: function(a, b) {
             this.r = a
-            this.f = 75
+            this.f = 70
         },
         b5: function(a) {
             return a.b1(this.r.y.f)
@@ -25214,7 +25214,7 @@ T.youzi1.prototype = {
             if (p > 8)
                 q.f = p - 1
             u = a[0].a
-            t = C.e.Z(T.u(q.r, !0, c) / 15)
+            t = C.e.Z(T.u(q.r, !0, c) / 10)
             s = u.fx - u.fr
             if (t > s)
                 t = s

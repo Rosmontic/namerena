@@ -25230,7 +25230,7 @@ T.youzi1.prototype = {
     t: function(a, b, c, d) {
         var u, t, s, r, q, p, o, n = this, m = null, l = a[0].a, k = d.a
         k.push(T.e("[0]: [食我愤怒的子弹吧！]", n.r, l, m, m, 1, 1000, 100))
-        u = 4 + (c.m() & 1)
+        u = 5 + (c.m() & 1)
         t = 100 + n.r.cy
             for (s = !1,
             r = 0; r < u; ++r) {
@@ -25258,7 +25258,7 @@ T.youzi1.prototype = {
 	T.tao2.prototype = {
        ai: function(a, b) {
             this.r = a
-            this.f = 60
+            this.f = 40
         },
         gb3: function() {
             return 3

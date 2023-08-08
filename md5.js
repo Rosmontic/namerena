@@ -20244,6 +20244,9 @@ T.tha9n3.prototype = {
             var u = this, t ,v ,q , s
 			this.r.abs = 1
 			this.f = 0
+			this.r.cx = 2 * this.r.cx
+			this.r.cy = 4 * this.r.cy
+			this.r.go = 2 * this.r.go
             d.a.push(T.e("[0]: [阿比舒，要上了。]", this.r, this.r, null, null, 1, 1000, 100))
 			d.a.push($.v())
 			d.a.push(T.e("[0]: [动力机甲，启动。]", this.r, this.r, null, null, 0, 1000, 100))
@@ -24888,7 +24891,7 @@ T.baals1b2.prototype = {
 		},
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n ,m
-        return u && J.Q(c, T.mA()) ? C.b.v (a, 2) : C.b.v (a, 2)
+        return u && J.Q(c, T.mA()) ? C.b.v (a, 4) : C.b.v (a, 4)
     },
     T: function() {
         this.r.y1.i(0, this)
@@ -25204,7 +25207,7 @@ T.ba1a1.prototype = {
             var w, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
-            t = "[0]: [开火！]"
+            t = "[0]: [发射！]"
 			if (this.r.abst > 3)
 			{
 			this.r.abst = this.r.abst + 1
@@ -25212,7 +25215,9 @@ T.ba1a1.prototype = {
             s = this.r
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
-            q.push(T.e(t, s, null, null, r, 1, 1000, 100))
+			q.push(T.e("[0]: [阿比舒，歼灭模式。]", this.r, this.r, null, null, 1, 1000, 100))
+			q.push($.v())
+            q.push(T.e(t, s, null, null, r, 0, 1000, 100))
             p = T.u(this.r, !0, c) *  (1.75 + this.r.abst)
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
@@ -27583,8 +27588,22 @@ T.AL1S.prototype = {
         u.f = 300
         t.push(u)
         
-        
-}
+    }, 
+    bM: function() {
+            var u, t = this
+            t.dK()
+            u = t.bb
+            if (u == null)
+                u = t.bb = new T.cB(t)
+            t.y2.i(0, u)
+        },
+    ay: function(a, b, c, d) {
+		    
+            if(this.fr <= 0){
+			d.a.push($.v())
+			d.a.push(T.e("[0]: [爱丽丝的HP归0，爱丽丝败北了 ~(*>﹏<*)~]", this, this.r, null, null, 0, 1000, 100))
+			}	
+        }
 }
 T.testa.prototype = {
         gah: function() {
@@ -29984,7 +30003,7 @@ dk: function(a, b, c, d, e, f, g) {
                 r = t.r
                 u = d.a
 				u.push($.v())
-                u.push(T.e("[0]: [反击程式...启动......你惊扰了 Key ]", r, r, null, null, 1, 1000, 100))
+                u.push(T.e("[0]: [反击程式...启动......你惊扰了 Kei ]", r, r, null, null, 1, 1000, 100))
 				u.push($.v())
                 t.r.fr = t.r.fx
                 r = O.c("YmSv")
@@ -29992,16 +30011,17 @@ dk: function(a, b, c, d, e, f, g) {
                 u.push(T.e(r, s, T.a1(s, 0), new T.aG(t.r.fr), null, 0, 1000, 100))
 				t.r.tai = 2
 				t.r.bI(t.r, d)
-				t.r.j = t.r.j + 2048
+				t.r.j = t.r.j + 4096
                 return !0
 				}
 				if (this.r.tai == 2){
                 r = t.r
                 u = d.a
+				u.push(T.e("[0]: [王女...]", r, r, null, null, 0, 1000, 100))
 				u.push($.v())
-                u.push(T.e("[0]正在使用[凤凰治疗包]", r, r, null, null, 1, 1000, 100))
+                u.push(T.e("[0]正在使用[凤凰治疗包]", r, r, null, null, 0, 1000, 100))
 				u.push($.v())
-				u.push(T.e("[0]: [必灭者啊，不能就这样放弃啊。]", r, r, null, null, 0, 1000, 100))
+				u.push(T.e("[0]: [必灭者啊，不能就这样放弃啊。]", r, r, null, null, 1, 1000, 100))
 				u.push($.v())
                 t.r.fr = t.r.fx
                 r = O.c("YmSv")
@@ -30022,8 +30042,7 @@ dk: function(a, b, c, d, e, f, g) {
                 return !0
 				}
             }
-			d.a.push($.v())
-			d.a.push(T.e("[0]: [爱丽丝的HP归0，爱丽丝败北了 ~(*>﹏<*)~]", this.r, this.r, null, null, 0, 1000, 100))	
+				
             return !1
         },
         T: function() {
@@ -30211,6 +30230,10 @@ dk: function(a, b, c, d, e, f, g) {
 				if (this.r.abs === 1)
 				{
 				this.r.abs = 0
+				this.r.abst = 0
+				this.r.cx = this.r.cx / 2
+			    this.r.cy = this.r.cy / 4
+			    this.r.go = this.r.go / 2
 				e.a.push(T.e("[0]的[装甲被打破了]", this.r, null, null, null, 0, 1000, 100))
 				}
             } else {

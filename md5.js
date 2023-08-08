@@ -6149,6 +6149,82 @@ if (a == "patchouli") {
                     g.at(a, u)
                     return g
                 }
+			if (a == "hifumi") {
+                    t = H.d(a) + H.d($.ah())
+                    s = H.a([], [T.H])
+                    r = H.a([], [T.y])
+                    q = P.U(P.f, T.p)
+                    p = new F.b([T.M])
+                    p.c = p
+                    p.b = p
+                    o = new F.b([T.L])
+                    o.c = o
+                    o.b = o
+                    n = new F.b([T.G])
+                    n.c = n
+                    n.b = n
+                    m = new F.b([T.J])
+                    m.c = m
+                    m.b = m
+                    l = new F.b([T.K])
+                    l.c = l
+                    l.b = l
+                    k = new F.b([T.D])
+                    k.c = k
+                    k.b = k
+                    j = new F.b([T.A])
+                    j.c = j
+                    j.b = j
+                    i = new F.b([T.C])
+                    i.c = i
+                    i.b = i
+                    h = new F.b([T.I])
+                    h.c = h
+                    h.b = h
+                    g = [P.j]
+                    g = new T.hifumi(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g.Y(a, u, t, f)
+                    g.at(a, u)
+                    return g
+                }
+			if (a == "azusa") {
+                    t = H.d(a) + H.d($.ah())
+                    s = H.a([], [T.H])
+                    r = H.a([], [T.y])
+                    q = P.U(P.f, T.p)
+                    p = new F.b([T.M])
+                    p.c = p
+                    p.b = p
+                    o = new F.b([T.L])
+                    o.c = o
+                    o.b = o
+                    n = new F.b([T.G])
+                    n.c = n
+                    n.b = n
+                    m = new F.b([T.J])
+                    m.c = m
+                    m.b = m
+                    l = new F.b([T.K])
+                    l.c = l
+                    l.b = l
+                    k = new F.b([T.D])
+                    k.c = k
+                    k.b = k
+                    j = new F.b([T.A])
+                    j.c = j
+                    j.b = j
+                    i = new F.b([T.C])
+                    i.c = i
+                    i.b = i
+                    h = new F.b([T.I])
+                    h.c = h
+                    h.b = h
+                    g = [P.j]
+                    g = new T.azusa(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g.Y(a, u, t, f)
+                    g.at(a, u)
+                    return g
+                }
             if (a == "testa") {
                     t = H.d(a) + H.d($.ah())
                     s = H.a([], [T.H])
@@ -10821,6 +10897,82 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
 			_.zhao = 1
 			_.alfn = 0
 			_.yxb = 4
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
+		hifumi: function hifumi(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
+		azusa: function azusa(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -18866,8 +19018,8 @@ T.thb8s1.prototype = {
 			if(this.r.fr < 0.5*this.r.fx){
             if(w > 0){
             if(o.IAF != null){
-            o.ch = o.ch + 25
-			o.dx = o.dx + 25
+            o.ch = o.ch + 50
+			o.dx = o.dx + 50
 			o.J = 49152
 			d.a.push(T.e("[0]的[防御性能]提升", o, o, null, null, 0, 1000, 100))
 			}
@@ -20246,6 +20398,8 @@ T.tha9n3.prototype = {
 			this.f = 0
 			this.r.cx = 2 * this.r.cx
 			this.r.cy = 4 * this.r.cy
+			this.r.ch = 2 * this.r.ch
+			this.r.dx = 2 * this.r.dx
 			this.r.go = 2 * this.r.go
             d.a.push(T.e("[0]: [阿比舒，要上了。]", this.r, this.r, null, null, 1, 1000, 100))
 			d.a.push($.v())
@@ -25217,6 +25371,8 @@ T.ba1a1.prototype = {
             q = d.a
 			q.push(T.e("[0]: [阿比舒，歼灭模式。]", this.r, this.r, null, null, 1, 1000, 100))
 			q.push($.v())
+			q.push(T.e("[0]: [这就是我的全力！]", this.r, this.r, null, null, 0, 1000, 100))
+			q.push($.v())
             q.push(T.e(t, s, null, null, r, 0, 1000, 100))
             p = T.u(this.r, !0, c) *  (1.75 + this.r.abst)
             for (u = 0; u < n.length; ++u) {
@@ -25228,7 +25384,7 @@ T.ba1a1.prototype = {
 			o.r.ch = 0.25* o.r.ch
 			}
             q.push($.v())
-            o.a0(p, !0, this.r, T.a3(), c, d)
+            o.a0(p, !1, this.r, T.a3(), c, d)
 			o.r.ch = w
 			}           
             }
@@ -27586,8 +27742,7 @@ T.AL1S.prototype = {
         t.push(u)
 		u =new T.baals1b1()
         u.f = 300
-        t.push(u)
-        
+        t.push(u)      
     }, 
     bM: function() {
             var u, t = this
@@ -27599,7 +27754,67 @@ T.AL1S.prototype = {
         },
     ay: function(a, b, c, d) {
 		    
-            if(this.fr <= 0){
+            if(this.fr <= 0 && this.tai == 3){
+			d.a.push($.v())
+			d.a.push(T.e("[0]: [爱丽丝的HP归0，爱丽丝败北了 ~(*>﹏<*)~]", this, this.r, null, null, 0, 1000, 100))
+			}	
+        }
+}
+T.azusa.prototype = {
+    gah: function() {
+        return C.azusa
+    },
+    gaQ: function() {
+        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+    },
+    aa: function() {
+        var u, t = new T.baals1n1()
+        t.r = this
+        this.k2 = t
+        t = this.id
+		      
+    }, 
+    bM: function() {
+            var u, t = this
+            t.dK()
+            u = t.bb
+            if (u == null)
+                u = t.bb = new T.cB(t)
+            t.y2.i(0, u)
+        },
+    ay: function(a, b, c, d) {
+		    
+            if(this.fr <= 0 && this.tai == 3){
+			d.a.push($.v())
+			d.a.push(T.e("[0]: [爱丽丝的HP归0，爱丽丝败北了 ~(*>﹏<*)~]", this, this.r, null, null, 0, 1000, 100))
+			}	
+        }
+}
+T.hifumi.prototype = {
+    gah: function() {
+        return C.hifumi
+    },
+    gaQ: function() {
+        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+    },
+    aa: function() {
+        var u, t = new T.baals1n1()
+        t.r = this
+        this.k2 = t
+        t = this.id
+		      
+    }, 
+    bM: function() {
+            var u, t = this
+            t.dK()
+            u = t.bb
+            if (u == null)
+                u = t.bb = new T.cB(t)
+            t.y2.i(0, u)
+        },
+    ay: function(a, b, c, d) {
+		    
+            if(this.fr <= 0 && this.tai == 3){
 			d.a.push($.v())
 			d.a.push(T.e("[0]: [爱丽丝的HP归0，爱丽丝败北了 ~(*>﹏<*)~]", this, this.r, null, null, 0, 1000, 100))
 			}	
@@ -30017,11 +30232,14 @@ dk: function(a, b, c, d, e, f, g) {
 				if (this.r.tai == 2){
                 r = t.r
                 u = d.a
+				u.push($.v())
 				u.push(T.e("[0]: [王女...]", r, r, null, null, 0, 1000, 100))
+				u.push($.v())
+				u.push(T.e("[Key  online >>> ???]", r, r, null, null, 0, 1000, 100))
 				u.push($.v())
                 u.push(T.e("[0]正在使用[凤凰治疗包]", r, r, null, null, 0, 1000, 100))
 				u.push($.v())
-				u.push(T.e("[0]: [必灭者啊，不能就这样放弃啊。]", r, r, null, null, 1, 1000, 100))
+				u.push(T.e("[0]: [必灭者啊，不能就这样放弃。]", r, r, null, null, 1, 1000, 100))
 				u.push($.v())
                 t.r.fr = t.r.fx
                 r = O.c("YmSv")
@@ -30234,6 +30452,8 @@ dk: function(a, b, c, d, e, f, g) {
 				this.r.cx = this.r.cx / 2
 			    this.r.cy = this.r.cy / 4
 			    this.r.go = this.r.go / 2
+				this.r.ch = this.r.ch / 2
+			    this.r.dx = this.r.dx / 2
 				e.a.push(T.e("[0]的[装甲被打破了]", this.r, null, null, null, 0, 1000, 100))
 				}
             } else {
@@ -31526,7 +31746,7 @@ dk: function(a, b, c, d, e, f, g) {
         s(T.D, [T.cg, T.dF, T.el])
         s(T.J, [T.dE, T.fire, T.ay])
         s(T.av, [T.hh,T.hha4n2, T.alf, T.youzi, T.tao, T.lv, T.hha7t1, T.hha11t1 ,T.hha9n2,T.hhb3n1 ,T.hhb3n2 ,T.hhb3n3 ,T.hhb3n4 ,T.hhb3n5 ,T.hhb3n6 ,T.hhb3n7 ,T.hhb3n8 ,T.hhb3n9 ,T.hhb8n1 ,T.hhb8t1a ,T.hhb8t1b ,T.hhb8t2 , T.hi, T.ho])
-        s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.testa, T.rumia, T.daiyousei, T.cirno , T.hong , T.testa , T.koakuma , T.patchouli , T.sakuya, T.reimu, T.marisa, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.lilywhite, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.nue, T.AL1S, T.yeya])
+        s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.testa, T.rumia, T.daiyousei, T.cirno , T.hong , T.testa , T.koakuma , T.patchouli , T.sakuya, T.reimu, T.marisa, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.lilywhite, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.nue, T.AL1S, T.hifumi, T.azusa, T.yeya])
         t(T.hg, T.cy)
         t(T.f3, T.bA)
         t(T.e_, T.dN, T.tha6t2, T.yuriSuperControl)
@@ -31906,6 +32126,8 @@ C.yuyuko = H.a(u([30, 5, 25, 58, 30, 2, 30, 480]), [P.j])
 C.ran = H.a(u([-10, 29, 41, 4, 20, 27, 61, 463]), [P.j])
 C.yukari = H.a(u([26, 45, 20, -10, 40, 36, 40, 661]), [P.j])
 C.AL1S = H.a(u([22, 35, -21, 2, 26, 5, 29, 576]), [P.j])
+C.hifumi = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.azusa = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.yeya = H.a(u([18, -46, -11, -82, 19, -70, 940, 99749]), [P.j])
         C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])
         C.W = H.a(u([10, -6, 1000, 0, 10, -15, 6, 0]), [P.j])
@@ -31998,6 +32220,10 @@ C.yeya = H.a(u([18, -46, -11, -82, 19, -70, 940, 99749]), [P.j])
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAL5JREFUOE+lk0EWwyAIRPFmeLKkJ5Ob2QcthI6YLOqSJ59hRhsVh5lnVReRhnUrVA0iEndPmiTcF6YCmzePcTXozVebdNI1cIKm3tmABqiafdwTZAHoZD/H/ChoafOsRFX8AKpmh1WQAKhhahROXhxPStxYU+COa9FlVzHiOszfFXJk6DaCcjoBYBm3kTkke6TpBMBj3Lnt7wI9WlLYRbZLpwQg5C6dAGgTvsa8TpVOPOXdZ0Jj1TA89pn+/c5vsH+DBSmclfIAAAAASUVORK5CYII=",
 "AL1S",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADySURBVDhPpZPBDsFAEIb/RRMORCTiPSTewNkriBfj5ObSCBceQILgTYQjOjpjp7a1y8G3aWbamfw7+6drKAV/IAITrO1rmBH6iOmYZnecQRia3qvAAmNacaBpspWco4vWfeQEQnyrZ0fgEYvo0RpUx8VcJVeyfhaYJRsOH+jOCzpKVNz+EovUTFXEivDOPtx+EQgREnbJCcS0wxIniXz+Oz0yH0KIgDaW08VEJkIHbVRMGS1qSj2I9ULwmeUz2O376YHXB+fn/yqgo6s3+uSwkwhxsrfZm3lysJmf3G1Ux9k4NvJGN5h0yIHpyncff15n4AlFpH+WaiEtdQAAAABJRU5ErkJggg==",
+"azusa",
+"iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACTSURBVDhPrZNLDoAgDETFnQsOqXdy6yH1AOhYaqBAQfQlpITSST+pcRfDR0ZvY44lthXiTBBkNz0YfglEIvaZTomMLy9SQ/whEX6UViP4Qz3hHuTqbYCm0xnMkEjjKEsY1ObvARMZu5Kt8GNPmN6ykMmDHK026sCXirCzUQCkC6jtDt5xRO/eLWCp8Xc+Eq2UBOdO8Ja6acZVPVQAAAAASUVORK5CYII=",
+"hifumi",
+"iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACISURBVDhP3ZNRDoAgDEOniSfVY3lS/UBLVqyEfRj48iWGyZoyYEzpxjqZfexiiEm4ndM2jx4W2z2qgEnNkVaP3kTzViciIWnp85mwdIxaMv75EeRVD+ZonxQwr0YK8rkSdVdo0FoIes6XK46EOiqqD/uEIhq0Fin4IRe+3g4Y0idDOvZXr9jsAuqGOBsEeJf3AAAAAElFTkSuQmCC",
 "yeya",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAH9JREFUOE+tk10OwCAIg+VmenK4mUtdSKapP9vwEfGjVJCcc03kmJk8w7M8wYWqdohSCmMmlkcB9DUJotASIHJ3USvtMsUBUGXsD7GVAvepaWRGngDwUx3AK45+MQ+gIB4wVt550BT4hH02cWbgzkTcx80Bk38yzlMFr5fpzzpfC7V7BSjXHhMAAAAASUVORK5CYII=",
 "testa", 

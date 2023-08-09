@@ -27502,7 +27502,7 @@ T.alice.prototype = {
         t.push(u)
 		u = new T.thb3s2()
         u.f = 1080
-        t.push(u
+        t.push(u)
 		u = new T.thb3s1()
         u.f = 80
         t.push(u)
@@ -27538,7 +27538,7 @@ T.alice.prototype = {
             if (u == null)
                 u = t.bb = new T.cB(t)
             t.y2.i(0, u)
-        },
+    },
     ay: function(a, b, c, d) {
 		    
             if(this.fr <= 0){

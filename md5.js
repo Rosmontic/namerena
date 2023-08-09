@@ -19466,7 +19466,7 @@ T.thb3s1.prototype = {
 			l = this.r.dolla +this.r.dollb +this.r.dollc +this.r.dolld +this.r.dolle +this.r.dollf +this.r.dollg+this.r.dollh +this.r.dolli
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
-			q.push(T.e("[0]: [今天将要上演哪一幕的剧目呢？]", s, null, null, r, 1, 1000, 100))
+			q.push(T.e("[0]: [今天将要上演是哪一幕？]", s, null, null, r, 1, 1000, 100))
 			q.push($.v())
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
             p = T.u(this.r, !0, c) * 1
@@ -27571,7 +27571,7 @@ T.alice.prototype = {
 		    
             if(this.fr <= 0){
 			d.a.push($.v())
-			d.a.push(T.e("[0]: [人偶剧...谢幕了...]", this, this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]: [人偶剧...终于落幕了...]", this, this.r, null, null, 0, 1000, 100))
 			}	
         }
         
@@ -27889,9 +27889,9 @@ T.azusa.prototype = {
         },
     ay: function(a, b, c, d) {
 		    
-            if(this.fr <= 0 && this.tai == 3){
+            if(this.fr <= 0 ){
 			d.a.push($.v())
-			d.a.push(T.e("[0]: [爱丽丝的HP归0，爱丽丝败北了 ~(*>﹏<*)~]", this, this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]: [明明还能战斗下去...]", this, this.r, null, null, 0, 1000, 100))
 			}	
         }
 }
@@ -27919,7 +27919,7 @@ T.hifumi.prototype = {
         },
     ay: function(a, b, c, d) {
 		    
-            if(this.fr <= 0 && this.tai == 3){
+            if(this.fr <= 0 ){
 			d.a.push($.v())
 			d.a.push(T.e("[0]: [爱丽丝的HP归0，爱丽丝败北了 ~(*>﹏<*)~]", this, this.r, null, null, 0, 1000, 100))
 			}	
@@ -30340,7 +30340,7 @@ dk: function(a, b, c, d, e, f, g) {
 				u.push($.v())
 				u.push(T.e("[0]: [王女...]", r, r, null, null, 0, 1000, 100))
 				u.push($.v())
-				u.push(T.e("[Key  online >>> ???]", r, r, null, null, 0, 1000, 100))
+				u.push(T.e("[<<< Key System logout >>> ]", r, r, null, null, 0, 1000, 100))
 				u.push($.v())
                 u.push(T.e("[0]正在使用[凤凰治疗包]", r, r, null, null, 0, 1000, 100))
 				u.push($.v())

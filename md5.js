@@ -19645,7 +19645,7 @@ T.thb3t6.prototype = {
             if (p > 8)
                q.f = p - 1
             u = a[0].a
-            t = 320
+            t = 200
             s = u.fx - u.fr
             if (t > s)
                 t = s
@@ -23090,8 +23090,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 300
-			d.fr = 300
+			d.fx = 200
+			d.fr = 200
 			d.Q =  90
 			d.ch = 90
 			d.cx = 90 
@@ -23166,8 +23166,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 300
-			d.fr = 300
+			d.fx = 200
+			d.fr = 200
 			d.Q =  90
 			d.ch = 90
 			d.cx = 90 
@@ -23241,8 +23241,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 260
-			d.fr = 260
+			d.fx = 180
+			d.fr = 180
 			d.Q =  115
 			d.ch = 80
 			d.cx = 120 
@@ -23325,8 +23325,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 240
-			d.fr = 240
+			d.fx = 160
+			d.fr = 160
 			d.Q =  80
 			d.ch = 80
 			d.cx = 80 
@@ -23401,8 +23401,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 1000
-			d.fr = 1000
+			d.fx = 600
+			d.fr = 600
 			d.Q =  200
 			d.ch = 200
 			d.cx = 100 
@@ -23477,8 +23477,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 240
-			d.fr = 240
+			d.fx = 140
+			d.fr = 140
 			d.Q =  10
 			d.ch = 90
 			d.cx = 130 
@@ -23553,8 +23553,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 400
-			d.fr = 400
+			d.fx = 300
+			d.fr = 300
 			d.Q =  5
 			d.ch = 180
 			d.cx = 75 
@@ -23628,8 +23628,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 290
-			d.fr = 290
+			d.fx = 190
+			d.fr = 190
 			d.Q =  75
 			d.ch = 75
 			d.cx = 75 
@@ -23703,8 +23703,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 3000
-			d.fr = 3000
+			d.fx = 2000
+			d.fr = 2000
 			d.Q =  300
 			d.ch = 150
 			d.cx = 100 
@@ -32211,7 +32211,7 @@ C.flandre = H.a(u([30, 26, 24, 25, -21, 20, 1, 791]), [P.j])
 C.rin = H.a(u([ -40, 934, 6, 943, -82, 908, 9 , 723]), [P.j])
 C.letty = H.a(u([-4, 30, 22, 17, 33, 19, 40, 400]), [P.j])
 C.chen = H.a(u([12, 15, 30, 20, 0, 11, 14, 524]), [P.j])
-C.alice = H.a(u([0, 54, 38, 21, 50, 33, 70, 2062]), [P.j])
+C.alice = H.a(u([0, 54, 38, 21, 50, 33, 70, 1862]), [P.j])
 C.lilywhite = H.a(u([-7, 1, 2, 3, -16, 26, -5, 700]), [P.j])
 C.phantom = H.a(u([10, 2, 35, 34, 35, 15, 9, 1215]), [P.j])
 C.youmu = H.a(u([2, -6, 40, 42, -16, 15, 9, 501]), [P.j])

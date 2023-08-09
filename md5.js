@@ -22945,7 +22945,7 @@ n.r.bf(n.r.fr, null, c, d)
 			d.dy = 80
 			d.j =  -2048
 			d.J =  d.J * 2.5
-			this.J =  C.d.v(this.J, 8)
+			this.r.J =  C.d.v(this.r.J, 8)
             c.r.x.aU(d)
             u.push(T.e("[1]登场 ", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			this.r.szjn = this.r.szjn + 1

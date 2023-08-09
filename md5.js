@@ -19483,20 +19483,14 @@ o.a0(p, !1, this.r, T.a3(), c, d)}
         }
 }
 T.thb3s2.prototype = {
-        b5: function(a) {
-            return a.b1(this.r.x.a.e)
-        },
-        a8: function(a, b, c) {
-            return c.gbh() * a.J
-        },
         gb3: function() {
-            return 999
+            return (this.r.dolla +this.r.dollb +this.r.dollc +this.r.dolld +this.r.dolle +this.r.dollf +this.r.dollg +this.r.dollh +this.r.dolli)
         },
         gb4: function() {
-            return 999
+            return (this.r.dolla +this.r.dollb +this.r.dollc +this.r.dolld +this.r.dolle +this.r.dollf +this.r.dollg +this.r.dollh +this.r.dolli)
         },
 		ar: function(a, b) {
-            if (this.r.dolla +this.r.dollb +this.r.dollc +this.r.dolld +this.r.dolle +this.r.dollf +this.r.dollg +this.r.dollh +this.r.dolli< 3 || this.r.fr > this.r.fx * 0.3)
+            if (this.r.dolla +this.r.dollb +this.r.dollc +this.r.dolld +this.r.dolle +this.r.dollf +this.r.dollg +this.r.dollh +this.r.dolli< 5 || this.r.fr < this.r.fx * 0.3)
             { 
                 return !1
             }
@@ -19506,37 +19500,27 @@ T.thb3s2.prototype = {
             var l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
-            t = "[0]使用[魔操「回归虚无」]"
+            t = "[0]使用[操符「少女文乐」]"
             s = this.r
 			l = this.r.dolla +this.r.dollb +this.r.dollc +this.r.dolld +this.r.dolle +this.r.dollf +this.r.dollg+this.r.dollh +this.r.dolli
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
-			q.push(T.e("[0]: [昨日已逝，终焉的剧场...]", s, null, null, r, 1, 1000, 100))
+			q.push(T.e("[0]: [今天将要上演哪一幕的剧目呢？]", s, null, null, r, 1, 1000, 100))
 			q.push($.v())
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 2.4
+            p = T.u(this.r, !0, c) * 1
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
-   if (o.fr > 0 && o.alic == null) {
-   q.push($.v())
-   for (v = 0; v < l; ++v){
-   o.a0(p, !0, this.r, T.a3(), c, d)}
-   }
-                    
-                }
-			for (u = 0; u < n.length; ++u) {
-                o = n[u]
-        if (o.doll == null && o.alic == 1) {
-        q.push($.v())
-		o.fr = 0
-        q.push(T.e("[0][自毁了]]", o, null, null, r, 1, 1000, 100))
-		o.bf(o.fr, null, c, d)
-        }
+if (o.fr > 0 ) {
+q.push($.v())
+for (v = 0; v < l; ++v){
+o.a0(p, !1, this.r, T.a3(), c, d)}
+}
                     
                 }
             
         }
-   }
+}
 T.thb3t1.prototype = {
     t: function(a, b, c, d) {
         var u = this
@@ -27546,6 +27530,7 @@ T.alice.prototype = {
 		u = new T.thb3n5()
         u.f = 400
         t.push(u)
+    },
 	bM: function() {
             var u, t = this
             t.dK()
@@ -27563,7 +27548,6 @@ T.alice.prototype = {
         }
         
         
-}
 }
 T.lilywhite.prototype = {
     gah: function() {

@@ -10571,7 +10571,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.q = s
             _.a_ = t
             _.V = _.O = _.L = 0
-            _.J = 32768
+            _.J = 4096
             _.j = 0
             _.X = _.W = !1
             _.F = null
@@ -19089,19 +19089,19 @@ T.thb8s1.prototype = {
 			d.a.push($.v())
 			if(o.yxb != null){
 			if(o.yxb == 1){
-            o.Q = o.Q * 1.75
-			o.go = o.go * 1.75
-			o.f = o.f + 2048
+            o.Q = o.Q * 1.5
+			o.go = o.go * 2
+			o.f = o.f + 4096
 			d.a.push(T.e("邦邦咔邦！[0]的[攻击能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 2){
             o.cx = o.cx * 3
-			o.f = o.f + 2048
+			o.f = o.f + 4096
 			d.a.push(T.e("邦邦咔邦！[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 3){
-            o.cy = o.cy * 9
-			o.f = o.f + 2048
+            o.cy = o.cy * 7.5
+			o.f = o.f + 4096
 			o.J = o.J * 0.5
 			d.a.push(T.e("邦邦咔邦！[0]的[闪避机率]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
@@ -25480,7 +25480,7 @@ T.ba1a1.prototype = {
     }
 T.youzi1.prototype = {
         gb3: function() {
-            return 1
+            return 2
         },
         gb4: function() {
             return 3
@@ -25491,8 +25491,8 @@ T.youzi1.prototype = {
                 n.push(a[u].a)
             t = "[0]: [请...接我这招吧]"
             s = this.r
-			v = (c.m() & 3) + 1
-			if (v == 4)
+			v = (c.m() & 3) + 2
+			if (v == 5)
 			{
 			this.r.per = 1
 			}
@@ -25539,7 +25539,7 @@ T.youzi1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 4
+            p = T.u(this.r, !0, c) * 5
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 ) {
@@ -25604,7 +25604,7 @@ T.youzi1.prototype = {
     t: function(a, b, c, d) {
         var u, t, s, r, q, p, o, n = this, m = null, l = a[0].a, k = d.a
         k.push(T.e("[0]: [食我愤怒的子弹吧！]", n.r, l, m, m, 1, 1000, 100))
-        u = 5 + (c.m() & 1)
+        u = 3 + (c.m() & 1)
         t = 100 + n.r.cy
             for (s = !1,
             r = 0; r < u; ++r) {
@@ -25619,7 +25619,7 @@ T.youzi1.prototype = {
                         return
                     }
                     
-                    q = T.u(n.r, !1, c)
+                    q = T.u(n.r, !1, c) * 1.5
                     p = k.length
                     o = n.r
                     if (l.aA(l.ak(C.e.Z(q / T.cc(l, !0, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
@@ -25632,7 +25632,7 @@ T.youzi1.prototype = {
 	T.tao2.prototype = {
        ai: function(a, b) {
             this.r = a
-            this.f = 35
+            this.f = 40
         },
         gb3: function() {
             return 3
@@ -30331,7 +30331,7 @@ dk: function(a, b, c, d, e, f, g) {
                 u.push(T.e(r, s, T.a1(s, 0), new T.aG(t.r.fr), null, 0, 1000, 100))
 				t.r.tai = 2
 				t.r.bI(t.r, d)
-				t.r.j = t.r.j + 4096
+				t.r.j =  t.r.j + 6144
                 return !0
 				}
 				if (this.r.tai == 2){
@@ -32223,7 +32223,7 @@ C.flandre = H.a(u([30, 26, 24, 25, -21, 20, 1, 791]), [P.j])
 C.rin = H.a(u([ -40, 934, 6, 943, -82, 908, 9 , 723]), [P.j])
 C.letty = H.a(u([-4, 30, 22, 17, 33, 19, 40, 400]), [P.j])
 C.chen = H.a(u([12, 15, 30, 20, 0, 11, 14, 524]), [P.j])
-C.alice = H.a(u([10, 34, 18, 21, 50, 13, 70, 963]), [P.j])
+C.alice = H.a(u([10, 34, 18, 21, 50, 13, 70, 1340]), [P.j])
 C.lilywhite = H.a(u([-7, 1, 2, 3, -16, 26, -5, 700]), [P.j])
 C.phantom = H.a(u([10, 2, 35, 34, 35, 15, 9, 1215]), [P.j])
 C.youmu = H.a(u([2, -6, 40, 42, -16, 15, 9, 501]), [P.j])

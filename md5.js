@@ -19515,7 +19515,7 @@ T.thb3s2.prototype = {
 			q.push(T.e("[0]: [终幕已至...]", s, null, null, r, 1, 1000, 100))
 			q.push($.v())
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * l
+            p = T.u(this.r, !0, c) * 2
 			for (u = 0; u < n.length; ++u) {
                 o = n[u]
         if (o.doll == null && o.alic == 1) {
@@ -19657,7 +19657,7 @@ T.thb3t6.prototype = {
             if (p > 8)
                q.f = p - 1
             u = a[0].a
-            t = 200
+            t = 240
             s = u.fx - u.fr
             if (t > s)
                 t = s
@@ -19675,7 +19675,7 @@ T.thb3t7.prototype = {
         t = a[0].a
 s = T.u(u.r, !1, c)
 d.a.push(T.e("[0]使用[「垩之一」]", u.r, t, null, null, 1, 1000, 100))
-t.a0(1.75*s, !0, u.r, T.kV(), c, d)     
+t.a0(2*s, !0, u.r, T.kV(), c, d)     
     }
 }
 T.thb3t8.prototype = {
@@ -19694,7 +19694,7 @@ T.thb3t8.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 5
+            p = T.u(this.r, !0, c) * 4
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
 if (o.fr > 0 ) {
@@ -27526,7 +27526,7 @@ T.alice.prototype = {
         this.k2 = t
         t = this.id
 		u = new T.thb3n9()
-        u.f = 2
+        u.f = 5
         t.push(u)
 		u = new T.thb3s2()
         u.f = 1080
@@ -32223,7 +32223,7 @@ C.flandre = H.a(u([30, 26, 24, 25, -21, 20, 1, 791]), [P.j])
 C.rin = H.a(u([ -40, 934, 6, 943, -82, 908, 9 , 723]), [P.j])
 C.letty = H.a(u([-4, 30, 22, 17, 33, 19, 40, 400]), [P.j])
 C.chen = H.a(u([12, 15, 30, 20, 0, 11, 14, 524]), [P.j])
-C.alice = H.a(u([0, 24, 18, 21, 50, 3, 70, 1762]), [P.j])
+C.alice = H.a(u([10, 34, 18, 21, 50, 13, 70, 963]), [P.j])
 C.lilywhite = H.a(u([-7, 1, 2, 3, -16, 26, -5, 700]), [P.j])
 C.phantom = H.a(u([10, 2, 35, 34, 35, 15, 9, 1215]), [P.j])
 C.youmu = H.a(u([2, -6, 40, 42, -16, 15, 9, 501]), [P.j])

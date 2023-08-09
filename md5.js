@@ -19496,14 +19496,14 @@ T.thb3s2.prototype = {
             return 999
         },
 		ar: function(a, b) {
-            if (this.r.dolla +this.r.dollb +this.r.dollc +this.r.dolld +this.r.dolle +this.r.dollf +this.r.dollg +this.r.dollh +this.r.dolli< 3 || this.r.fr > this.r.fx * 0.3)
+            if (this.r.dolla +this.r.dollb +this.r.dollc +this.r.dolld +this.r.dolle +this.r.dollf +this.r.dollg +this.r.dollh +this.r.dolli < 3 || this.r.fr > this.r.fx * 0.3)
             { 
                 return !1
             }
 			return this.aS(a, b)
 		},
         t: function(a, b, c, d) {
-            var l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+            var w, l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
             t = "[0]使用[魔操「回归虚无」]"
@@ -19511,30 +19511,41 @@ T.thb3s2.prototype = {
 			l = this.r.dolla +this.r.dollb +this.r.dollc +this.r.dolld +this.r.dolle +this.r.dollf +this.r.dollg+this.r.dollh +this.r.dolli
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
-			q.push(T.e("[0]: [昨日已逝，终焉的剧场...]", s, null, null, r, 1, 1000, 100))
+			q.push(T.e("[0]: [终幕已至...]", s, null, null, r, 1, 1000, 100))
 			q.push($.v())
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 2.4
-            for (u = 0; u < n.length; ++u) {
-                o = n[u]
-   if (o.fr > 0 && o.alic == null) {
-   q.push($.v())
-   for (v = 0; v < l; ++v){
-   o.a0(p, !0, this.r, T.a3(), c, d)}
-   }
-                    
-                }
+            p = T.u(this.r, !0, c) * l
 			for (u = 0; u < n.length; ++u) {
                 o = n[u]
         if (o.doll == null && o.alic == 1) {
         q.push($.v())
 		o.fr = 0
-        q.push(T.e("[0][自毁了]]", o, null, null, r, 1, 1000, 100))
+        q.push(T.e("[0][自爆]", o, null, null, r, 1, 1000, 100))
 		o.bf(o.fr, null, c, d)
-        }
+        }}
+		this.r.dolla = 0
+        this.r.dollb = 0
+        this.r.dollc = 0
+        this.r.dolld = 0
+        this.r.dolle = 0
+        this.r.dollf = 0
+        this.r.dollg = 0
+        this.r.dollh = 0
+        this.r.dolli = 0
+            for (u = 0; u < n.length; ++u) {
+                o = n[u]
+   if (o.fr > 0 && o.alic == null) {
+   q.push($.v())
+   w = o.dx
+   o.dx = 0
+   for (v = 0; v < l; ++v){
+   
+   o.a0(p, !0, this.r, T.a3(), c, d)}
+   o.dx = w
+   }
                     
                 }
-            
+					
         }
    }
 T.thb3t1.prototype = {
@@ -32211,7 +32222,7 @@ C.flandre = H.a(u([30, 26, 24, 25, -21, 20, 1, 791]), [P.j])
 C.rin = H.a(u([ -40, 934, 6, 943, -82, 908, 9 , 723]), [P.j])
 C.letty = H.a(u([-4, 30, 22, 17, 33, 19, 40, 400]), [P.j])
 C.chen = H.a(u([12, 15, 30, 20, 0, 11, 14, 524]), [P.j])
-C.alice = H.a(u([0, 54, 38, 21, 50, 33, 70, 1862]), [P.j])
+C.alice = H.a(u([0, 34, 18, 21, 50, 13, 70, 1862]), [P.j])
 C.lilywhite = H.a(u([-7, 1, 2, 3, -16, 26, -5, 700]), [P.j])
 C.phantom = H.a(u([10, 2, 35, 34, 35, 15, 9, 1215]), [P.j])
 C.youmu = H.a(u([2, -6, 40, 42, -16, 15, 9, 501]), [P.j])

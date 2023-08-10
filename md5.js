@@ -25482,7 +25482,7 @@ T.hifumib1.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n ,m
 		e.a.push(T.e("[0]抵挡了伤害", this.r.szjn, null, null, null, 0, 1000, 100))
-		this.r.szjn.bL(a, !1 , b, T.a3(), c, e)
+		this.r.szjn.bL(a, !1 , b, T.a3(), d, e)
         return u && J.Q(c, T.mA()) ? C.b.v (a, 10) : C.b.v (a, 10)
     },
     T: function() {

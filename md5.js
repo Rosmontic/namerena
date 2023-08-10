@@ -8127,7 +8127,7 @@ tha4n1: function tha4n1() {
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
-			_.tan = 0
+			_.dan = 0
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -22953,7 +22953,6 @@ n.r.bf(n.r.fr, null, c, d)
             d.r = "十字军号"
             s = c.r
             d.x = s.x
-            s.I.i(0, d.a5)
             d.av()
 			d.fx = this.r.fx * 2
 			d.fr = this.r.fx * 2
@@ -22967,7 +22966,6 @@ n.r.bf(n.r.fr, null, c, d)
 			d.j =  -2048
 			d.J =  d.J * 2.5
 			this.r.szjn = d
-			this.r.J =  C.d.v(this.r.J, 8)
             c.r.x.aU(d)
             u.push(T.e("[1]登场 ", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			
@@ -25722,47 +25720,6 @@ o.a0(p, !0, this.r, T.a3(), c, d)
             
         }
 }
-T.baals1n1.prototype = {
-        gb3: function() {
-            return 1
-        },
-        gb4: function() {
-            return 2
-        },
-        t: function(a, b, c, d) {
-            var w, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
-            for (u = 0; u < a.length; ++u)
-                n.push(a[u].a)
-            t = "[0]: [光啊！]"
-            s = this.r
-            r = H.a(n.slice(0), [H.n(n, 0)])
-            q = d.a
-			if(this.r.szjn == 1)
-			{
-			q.push(T.e("[0]: [自我修复程式...启动...]", s, null, null, r, 1, 1000, 100))
-			q.push($.v())
-			v = this.r.fr
-			w = C.d.Z(0.5* (this.r.fx - this.r.fr))
-			this.r.fr = this.r.fr + w
-			q.push(T.e(O.c("YmSv"), this.r, T.a1(this.r, v), new T.aG(w), null, 0, 1000, 100))
-			return
-			}
-            q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * ( 1.5 + 0.5 * this.r.al1s1)
-            for (u = 0; u < n.length; ++u) {
-                o = n[u]
-            if (o.fr > 0 ) {
-            q.push($.v())
-o.a0(p, !0, this.r, T.a3(), c, d)
-}
-                    
-                }
-			 if(this.r.al1s1 < 2)
-             {this.r.al1s1 = this.r.al1s1 + 1
-             }
-            
-        }
-}
 T.ba1a1.prototype = {
         gb3: function() {
             return 2
@@ -26072,8 +26029,8 @@ T.youzi1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * (2 + this.r.tan) * 1.2
-			this.r.tan = 0
+            p = T.u(this.r, !0, c) * (2 + this.r.dan) 
+			this.r.dan = 0
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 ) {
@@ -28331,7 +28288,7 @@ T.hifumi.prototype = {
         this.k2 = t
         t = this.id
 		u =new T.hifumin2()
-        u.f = 35
+        u.f = 25
         t.push(u)
 		u =new T.hifumin1()
         u.f = 160

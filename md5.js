@@ -11059,6 +11059,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.id = e
 			_.plln = 0
 			_.szjn = null
+			_.szjm = 0
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -22038,7 +22039,8 @@ n.r.bf(n.r.fr, null, c, d)
         ay: function(a, b, c, d) {
 		    
             if(this.fr <= 0){			
-            this.af.r.szjn = this.af.r.szjn - 1    
+            this.af.r.szjn = null
+			this.af.r.szjm = 0
 			}		
         }
     }
@@ -22972,6 +22974,7 @@ n.r.bf(n.r.fr, null, c, d)
 			d.j =  -2048
 			d.J =  d.J * 2.5
 			this.r.szjn = d
+			this.r.szjm = 1
             c.r.x.aU(d)
             u.push(T.e("[1]登场 ", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			
@@ -25470,16 +25473,16 @@ T.baals1b2.prototype = {
 }
 T.hifumib1.prototype = {
     ar: function(a, b) {
-            if (this.r.szjn == null )
+            if (this.r.szjm == 0 )
             { 
                 return !1
             }
 			return this.aS(a, b)
-		},
+	},
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n ,m
 		e.a.push(T.e("[0]抵挡了伤害", this.r.szjn, null, null, null, 0, 1000, 100))
-		this.r.szjn.bL(C.b.v(a, 1.5), !1 , b, T.a3(), c, d)
+		this.r.szjn.bL(a, !1 , b, T.a3(), c, e)
         return u && J.Q(c, T.mA()) ? C.b.v (a, 10) : C.b.v (a, 10)
     },
     T: function() {

@@ -19207,18 +19207,18 @@ T.thb8s1.prototype = {
             o.Q = o.Q * 1.5
 			o.go = o.go * 2
 			o.f = o.f + 4096
-			d.a.push(T.e("邦邦咔邦！[0]的[输出能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("[邦邦咔邦！][0]的[输出能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 2){
             o.cx = o.cx * 3
 			o.f = o.f + 4096
-			d.a.push(T.e("邦邦咔邦！[0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("[邦邦咔邦！][0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 3){
             o.cy = o.cy * 7.5
 			o.f = o.f + 4096
 			o.J = o.J * 0.5
-			d.a.push(T.e("邦邦咔邦！[0]的[回避点数]大幅度提升！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("[邦邦咔邦！][0]的[回避点数]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 4){
             o.ch = o.ch * 5
@@ -19226,7 +19226,7 @@ T.thb8s1.prototype = {
 			o.J = o.J * 2
 			o.go = o.go * 0.5
 			o.f = o.f + 2048
-			d.a.push(T.e("邦邦咔邦！[0]由[光属性adc]转职为[坦克]！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("[邦邦咔邦！][0]由[光属性adc]转职为[坦克]！", o, o, null, null, 0, 1000, 100))
 			}
             }
             
@@ -22817,10 +22817,10 @@ n.r.bf(n.r.fr, null, c, d)
 			
             c.r.x.aU(d)
 			if(v == 1){
-            u.push(T.e("邦邦！[1]作为伙伴加入了队伍！", this.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+            u.push(T.e("[邦邦！][1]作为伙伴加入了队伍！", this.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			}
 			if(v != 1){
-            u.push(T.e("邦邦邦！[1]作为伙伴加入了队伍！", this.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+            u.push(T.e("[邦邦邦！][1]作为伙伴加入了队伍！", this.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			
 			}
 			d.f = 2048

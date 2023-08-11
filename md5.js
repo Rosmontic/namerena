@@ -19670,7 +19670,7 @@ T.thb3t1.prototype = {
         t = a[0].a
 s = T.u(u.r, !1, c)
 d.a.push(T.e("[0]使用[「急速激光」]", u.r, t, null, null, 1, 1000, 100))
-t.bL(2.1*s, !0, u.r, T.a3(), c, d)     
+t.bL(1.5*s, !0, u.r, T.a3(), c, d)     
     }
 }
 T.thb3t2.prototype = {
@@ -19689,7 +19689,7 @@ T.thb3t2.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 1.4
+            p = T.u(this.r, !0, c) * 1.2
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
 if (o.fr > 0 ) {
@@ -19708,9 +19708,9 @@ T.thb3t3.prototype = {
 s = T.u(u.r, !1, c)
 d.a.push(T.e("[0]使用[「赤之十」]", u.r, t, null, null, 1, 1000, 100))
 d.a.push($.v())
-t.bL(1.15*s, !0, u.r, T.a3(), c, d)
+t.bL(0.7*s, !0, u.r, T.a3(), c, d)
 d.a.push($.v())
-t.a0(1.25*s, !0, u.r, T.a3(), c, d)
+t.a0(0.9*s, !0, u.r, T.a3(), c, d)
     }
 }
 T.thb3t4.prototype = {
@@ -19749,6 +19749,7 @@ T.thb3t5.prototype = {
                 q.r2.i(0, t)
                 q.x1.i(0, t.y)
                 q.E()
+				t.z += 1
             } else
                 t.z += 3
             p.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
@@ -19790,7 +19791,7 @@ T.thb3t7.prototype = {
         t = a[0].a
 s = T.u(u.r, !1, c)
 d.a.push(T.e("[0]使用[「垩之一」]", u.r, t, null, null, 1, 1000, 100))
-t.a0(2*s, !0, u.r, T.kV(), c, d)     
+t.a0(1.4*s, !0, u.r, T.kV(), c, d)
     }
 }
 T.thb3t8.prototype = {
@@ -23585,8 +23586,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
             s.I.i(0, d.a5)
             d.av()
-			d.fx = 180
-			d.fr = 180
+			d.fx = 160
+			d.fr = 160
 			d.Q =  115
 			d.ch = 80
 			d.cx = 120 
@@ -23594,7 +23595,7 @@ n.r.bf(n.r.fr, null, c, d)
 			d.db = 80
 			d.dx = 80
 			d.dy = 90
-            d.j =  4096
+            d.j =  2048
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			this.r.dollc = 1
@@ -23755,7 +23756,7 @@ n.r.bf(n.r.fr, null, c, d)
 			d.dx = 200
 			d.dy = 100
             d.j = - 6144
-			d.J = d.J * 3
+			d.J = d.J * 4
             c.r.x.aU(d)
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			this.r.dolle = 1

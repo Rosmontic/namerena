@@ -19207,7 +19207,7 @@ T.thb8s1.prototype = {
             o.Q = o.Q * 1.5
 			o.go = o.go * 2
 			o.f = o.f + 4096
-			d.a.push(T.e("邦邦咔邦！[0]的[攻击能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("邦邦咔邦！[0]的[输出能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 2){
             o.cx = o.cx * 3
@@ -19218,7 +19218,7 @@ T.thb8s1.prototype = {
             o.cy = o.cy * 7.5
 			o.f = o.f + 4096
 			o.J = o.J * 0.5
-			d.a.push(T.e("邦邦咔邦！[0]的[闪避机率]大幅度提升！", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("邦邦咔邦！[0]的[回避点数]大幅度提升！", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.yxb == 4){
             o.ch = o.ch * 5
@@ -19581,7 +19581,7 @@ T.thb3s1.prototype = {
 			l = this.r.dolla +this.r.dollb +this.r.dollc +this.r.dolld +this.r.dolle +this.r.dollf +this.r.dollg+this.r.dollh +this.r.dolli
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
-			q.push(T.e("[0]: [今天将要上演是哪一幕呢？]", s, null, null, r, 1, 1000, 100))
+			q.push(T.e("[0]: [人偶的舞台剧，将要上演的是哪一幕呢？]", s, null, null, r, 1, 1000, 100))
 			q.push($.v())
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
             p = T.u(this.r, !0, c) * 1
@@ -22697,7 +22697,7 @@ n.r.bf(n.r.fr, null, c, d)
 			d.j = 2048
 			d.J = d.J * 1.25
             c.r.x.aU(d)
-            u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+            u.push(T.e("激活了[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			this.r.alfn = this.r.alfn + 1
         }
 		if (this.r.zhao < 5)

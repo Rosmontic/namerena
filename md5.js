@@ -22972,7 +22972,7 @@ n.r.bf(n.r.fr, null, c, d)
 			d.dx = 100
 			d.dy = 80
 			d.j =  -2048
-			d.J =  d.J * 2.5
+			d.J =  d.J * 4
 			this.r.szjn = d
 			this.r.szjm = 1
             c.r.x.aU(d)
@@ -25455,15 +25455,12 @@ T.tha1b1.prototype = {
     $iD: 1
 }
 T.baals1b2.prototype = {
-    ar: function(a, b) {
-            if (this.r.tai != 2 )
-            { 
-                return !1
-            }
-			return this.aS(a, b)
-		},
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n ,m
+		if (this.r.tai != 2 )
+            { 
+                return u && J.Q(c, T.mA()) ? C.b.v (a, 2) : C.b.v (a, 2)
+            }
         return u && J.Q(c, T.mA()) ? C.b.v (a, 4) : C.b.v (a, 4)
     },
     T: function() {
@@ -25485,8 +25482,8 @@ T.hifumib1.prototype = {
             { 
                 return u && J.Q(c, T.mA()) ? a : a
             }
-		e.a.push(T.e("[0]抵挡了伤害", this.r.szjn, null, null, null, 0, 1000, 100))
-		this.r.szjn.bL(a*100, !1 , b, T.a3(), d, e)
+		e.a.push(T.e("[0]抵挡伤害", this.r.szjn, null, null, null, 0, 1000, 100))
+		this.r.szjn.bL(a*50, !1 , b, T.a3(), d, e)
         return u && J.Q(c, T.mA()) ? C.b.v (a, 10) : C.b.v (a, 10)
     },
     T: function() {
@@ -32641,7 +32638,7 @@ C.flandre = H.a(u([30, 26, 24, 25, -21, 20, 1, 791]), [P.j])
 C.rin = H.a(u([ -40, 934, 6, 943, -82, 908, 9 , 723]), [P.j])
 C.letty = H.a(u([-4, 30, 22, 17, 33, 19, 40, 400]), [P.j])
 C.chen = H.a(u([12, 15, 30, 20, 0, 11, 14, 524]), [P.j])
-C.alice = H.a(u([10, 34, 18, 21, 50, 13, 70, 1340]), [P.j])
+C.alice = H.a(u([10, 34, 18, 21, 50, 13, 70, 939]), [P.j])
 C.lilywhite = H.a(u([-7, 1, 2, 3, -16, 26, -5, 700]), [P.j])
 C.phantom = H.a(u([10, 2, 35, 34, 35, 15, 9, 1215]), [P.j])
 C.youmu = H.a(u([2, -6, 40, 42, -16, 15, 9, 501]), [P.j])

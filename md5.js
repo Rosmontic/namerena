@@ -7692,6 +7692,42 @@ tha5n1: function tha5n1() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
+		yuzun1: function yuzun1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		yuzun2: function yuzun2() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		momorin1: function momorin1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		momorin2: function momorin2() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		midorin1: function midorin1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		midorin2: function midorin2() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
 		hifumia1: function hifumia1() {
             var _ = this
             _.e = !1
@@ -11374,6 +11410,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
+			_.al1s1 = 0
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -11488,6 +11525,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
+			_.per = 0
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -26728,6 +26766,178 @@ T.youzi1.prototype = {
             
         }
     }
+	T.yuzun1.prototype = {
+        gb3: function() {
+            return 1
+        },
+        gb4: function() {
+            return 3
+        },
+        t: function(a, b, c, d) {
+            var w, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+            for (u = 0; u < a.length; ++u)
+                n.push(a[u].a)
+            t = "[0]: [请...接我这招吧]"
+            s = this.r
+			v = (c.m() & 3) + 1
+			if (v == 5)
+			{
+			this.r.per = 1
+			}
+            r = H.a(n.slice(0), [H.n(n, 0)])
+            q = d.a
+            q.push(T.e(t, s, null, null, r, 1, 1000, 100))
+            p = T.u(this.r, !0, c) * v * 0.5
+            for (u = 0; u < n.length; ++u) {
+                o = n[u]
+            if (o.fr > 0 ) {
+            q.push($.v())
+            o.a0(p, !1, this.r, T.a3(), c, d)
+            }
+                    
+                }
+            
+        }
+}   
+    T.yuzun2.prototype = {
+        gb3: function() {
+            return 4
+        },
+        gb4: function() {
+            return 4
+        },
+		ar: function(a, b) {
+            if (this.r.per == 0 )
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
+        t: function(a, b, c, d) {
+            var w, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+            for (u = 0; u < a.length; ++u)
+                n.push(a[u].a)
+            t = "[0]: [经典...恒久流传！]"
+            s = this.r
+			this.r.per = 0
+            r = H.a(n.slice(0), [H.n(n, 0)])
+            q = d.a
+            q.push(T.e(t, s, null, null, r, 1, 1000, 100))
+            p = T.u(this.r, !0, c) * 4
+            for (u = 0; u < n.length; ++u) {
+                o = n[u]
+            if (o.fr > 0 ) {
+            q.push($.v())
+            o.bL(p, !1, this.r, T.a3(), c, d)
+            }
+                    
+                }
+            
+        }
+}
+    T.midorin1.prototype = {
+    t: function(a, b, c, d) {
+        var u = this
+        t = a[0].a
+        s = T.u(u.r, !1, c)* 1.75
+        d.a.push(T.e("[0]: [像打像素游戏一样细致...]", u.r, t, null, null, 1, 1000, 100))
+		d.a.push($.v())
+        t.bL(s, !1, u.r, T.qc(), c, d)
+    }
+    }
+	T.midorin2.prototype = {
+        b5: function(a) {
+            return a.b1(this.r.y.f)
+        },
+        am: function(a, b) {
+
+            return a.fr  < 0.75*a.fx
+           
+        },
+        a8: function(a, b, c) {
+            var u = {}
+            if (b) {
+                u.a = a.fx - a.fr
+                a.r1.ap(0, new T.hY(u))
+                return u.a = u.a * a.L
+            }
+            return c.gbh()
+        },
+        t: function(a, b, c, d) {
+            var u, t, s, r, q = this, p = q.f
+            if (p > 8)
+                q.f = p - 1
+            u = a[0].a
+            t = C.e.Z(T.u(q.r, !0, c) / 20)
+            s = u.fx - u.fr
+            if (t > s)
+                t = s
+            p = d.a
+            p.push(T.e("[0]: [团队游戏的基本是合作哦]", q.r, u, null, null, t, 1000, 100))
+            r = u.fr
+            u.fr = r + t
+            p.push(T.e("[0]为[1]回复生命[2]点", q.r, T.a1(u, r), new T.aG(t), null, 0, 1000, 100))
+            u.bI(q.r, d)
+        }
+    }
+	T.momorin1.prototype = {
+    t: function(a, b, c, d) {
+        var u, t, s, r, q, p, o, n = this, m = null, l = a[0].a, k = d.a
+        k.push(T.e("[0]: [食我愤怒的子弹吧！]", n.r, l, m, m, 1, 1000, 100))
+        u = 3 + (c.m() & 1)
+        t = 100 + n.r.cy
+            for (s = !1,
+            r = 0; r < u; ++r) {
+                q = n.r
+                if (q.fr > 0 && !q.A && l.fr > 0) {
+                    k.push($.v())
+                    if (l.fr > 0 && !l.A && T.bd(t, l.ch + l.cy, c)) {
+                        if (s)
+                            k.push(T.e(O.c("SYdr"), l, n.r, m, m, 0, 1000, 100))
+                        else
+                            k.push(T.e(O.c("vVob"), l, n.r, m, m, 0, 1000, 100))
+                        return
+                    }
+                    
+                    q = T.u(n.r, !1, c) * 0.75
+                    p = k.length
+                    o = n.r
+                    if (l.aA(l.ak(C.e.Z(q / T.cc(l, !0, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
+                        s = !0
+                    k[p].b = 300
+                }
+            }
+        }
+    }
+	T.momorin2.prototype = {
+        gb3: function() {
+            return 3
+        },
+        gb4: function() {
+            return 3
+        },
+        t: function(a, b, c, d) {
+            var w, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+            for (u = 0; u < a.length; ++u)
+                n.push(a[u].a)
+            t = "[0]: [苦呀西！ 苦呀西！]"
+            s = this.r
+			this.r.per = 0
+            r = H.a(n.slice(0), [H.n(n, 0)])
+            q = d.a
+            q.push(T.e(t, s, null, null, r, 1, 1000, 100))
+            p = T.u(this.r, !0, c) * 0.5
+            for (u = 0; u < n.length; ++u) {
+                o = n[u]
+            if (o.fr > 0 ) {
+            q.push($.v())
+            o.a0(p, !1, this.r, T.firea(), c, d)
+            }
+                    
+                }
+            
+        }
+    }
 	T.noak.prototype = {
     t: function(a, b, c, d) {
         var u = this
@@ -29034,6 +29244,12 @@ T.momori.prototype = {
         t.r = this
         this.k2 = t
         t = this.id
+		u =new T.momorin2()
+        u.f = 45
+        t.push(u)
+		u =new T.momorin1()
+        u.f = 200
+        t.push(u)
 		      
     }, 
     bM: function() {
@@ -29046,8 +29262,9 @@ T.momori.prototype = {
         },
     ay: function(a, b, c, d) {
 		    
-            if(this.fr <= 0 ){
-			
+            if(this.fr <= 0){
+            d.a.push($.v())			
+            d.a.push(T.e("[0]: [要是能看攻略...就好了...]", this, this.r, null, null, 0, 1000, 100))
 			}	
         }
 }
@@ -29063,6 +29280,12 @@ T.midori.prototype = {
         t.r = this
         this.k2 = t
         t = this.id
+		u =new T.midorin2()
+        u.f = 40
+        t.push(u)
+		u =new T.midorin1()
+        u.f = 200
+        t.push(u)
 		      
     }, 
     bM: function() {
@@ -29075,8 +29298,9 @@ T.midori.prototype = {
         },
     ay: function(a, b, c, d) {
 		    
-            if(this.fr <= 0 ){
-			
+            if(this.fr <= 0){
+			d.a.push($.v())
+			d.a.push(T.e("[0]: [唔，如果再稳重一点的话...]", this, this.r, null, null, 0, 1000, 100))
 			}	
         }
 }
@@ -29092,7 +29316,12 @@ T.yuzu.prototype = {
         t.r = this
         this.k2 = t
         t = this.id
-		      
+		u =new T.yuzun2()
+        u.f = 1000
+        t.push(u)
+		u =new T.yuzun1()
+        u.f = 160
+        t.push(u)
     }, 
     bM: function() {
             var u, t = this
@@ -29104,8 +29333,9 @@ T.yuzu.prototype = {
         },
     ay: function(a, b, c, d) {
 		    
-            if(this.fr <= 0 ){
-			
+            if(this.fr <= 0){
+		    d.a.push($.v())
+			d.a.push(T.e("[0]: [对……对不起！]", this, this.r, null, null, 0, 1000, 100))
 			}	
         }
 }
@@ -33210,7 +33440,7 @@ dk: function(a, b, c, d, e, f, g) {
         t(Z.hl, Z.ax)
         s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
         s(T.H, [T.y, T.youzi3, T.tao3, T.lv3, T.hJ, T.tha1b1, T.tha5b1, T.tha6b1, T.tha7b1, T.thb7b2, T.thb9b2,T.thb9b1,  T.tha10b1,T.tha12b1, T.thb5b2, T.thb7b1, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.thj7b1, T.dV, T.dX, T.tha4b1,T.tha3b2,T.thb1b1,T.thb6b1, T.i9 ,T.hifumib1 ,T.baals1b1 ,T.baals1b2 , T.i9m, T.thb7b3 , T.ih, T.thb5b1, T.thb6b2, T.tha9b1,T.tha1b2, T.thb2b1 , T.im, T.tha3b1, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
-        s(T.y, [T.dL, T.hifumia1, T.szja1, T.noak, T.youzi1, T.tao1, T.lv1, T.youzi2, T.tao2, T.lv2, T.hI ,T.tha6n1, T.thb8t1b, T.tha10t1, T.hK, T.hKm,T.thb9s1, T.thb7s1, T.baals1n2,  T.bx, T.hL, T.hM, T.dN, T.tha6t2, T.dO, T.dP, T.tha2n1, T.tha2ak, T.tha12ak, T.tha2n2, T.tha2n3, T.tha2b1, T.tha1n3, T.tha3n1, T.ba1a1, T.ba1n2, T.baals1n1, T.arisn1, T.arisn2, T.thb1n1, T.thb1s1, T.thb1n2, T.thb1n3, T.thb8t1a, T.thb2n1, T.thb2n2 ,T.thb2n3, T.thb2s1, T.thb2n1t, T.thb2n2t ,T.thb2n3t ,  T.tha3n2, T.tha3s1, T.tha6n2, T.tha6n3, T.tha5n1, T.tha7n1 ,T.tha7n2,T.tha8n1 ,T.tha8t1 ,T.tha8n2 ,T.tha8t2 ,T.tha8n3 ,T.tha8t3 ,T.tha8n4 ,T.tha8t4 ,T.tha8n5 ,T.tha8t5 ,T.tha8s1 ,T.tha9n1,T.tha9n3,T.tha10n1,T.tha10n2,T.tha10s1,T.tha11n1,T.tha11n2, T.tha11n1t, T.tha11n2t, T.tha11t1, T.thb3n1,T.thb3n2,T.thb3n3,T.thb3n4,T.thb3n5,T.thb3n6,T.thb3n7,T.thb3n8,T.thb3n9,T.thb3s1 ,T.thb3s2 ,T.thb9t1 ,T.thb9t2 ,T.thb8n1, T.thb8t1 ,T.thb8t2 ,T.thb3t1,T.thb3t2,T.thb3t3,T.thb3t4,T.thb3t5,T.thb3t6,T.thb3t7,T.thb3t8, T.hS, T.thb4b1, T.thb4b2, T.hU, T.tha1n2, T.ba1n1 ,T.hV, T.bV, T.dR, T.hX, T.thb8s1, T.tha4n3, T.thb4n1, T.thb4n2,T.thb4s1, T.thb5s1, T.thb5n1, T.thb5n2, T.thb5n3, T.dS, T.tha4n1, T.tha4n2, T.baals1n3, T.baals1n5, T.baals1n6, T.baals1n4, T.hifumin1, T.hifumin2,T.tha4n2x, T.tha7t1, T.dT, T.i1, T.tha1n1, T.thb9n1, T.i6, T.i8, T.dW, T.ia ,T.tha4s1, T.i7, T.ig, T.tha9n2, T.tha9n2t,T.yeye, T.ij,T.tha1s1, T.tha9s1, T.hW, T.hWalf, T.ik, T.il, T.tha5n3, T.thb9n2, T.tha6s1t, T.tha6s1, T.thb6n1, T.thb6n2, T.thb6n3, T.thb6s1, T.thb7n1, T.thb7t1, T.thb7n2, T.tha11s1, T.tha2s1, T.dM, T.tha5n2, T.tha5s1, T.tha7s1, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
+        s(T.y, [T.dL, T.yuzun1, T.yuzun2, T.momorin1, T.momorin2, T.midorin1, T.midorin2, T.hifumia1, T.szja1, T.noak, T.youzi1, T.tao1, T.lv1, T.youzi2, T.tao2, T.lv2, T.hI ,T.tha6n1, T.thb8t1b, T.tha10t1, T.hK, T.hKm,T.thb9s1, T.thb7s1, T.baals1n2,  T.bx, T.hL, T.hM, T.dN, T.tha6t2, T.dO, T.dP, T.tha2n1, T.tha2ak, T.tha12ak, T.tha2n2, T.tha2n3, T.tha2b1, T.tha1n3, T.tha3n1, T.ba1a1, T.ba1n2, T.baals1n1, T.arisn1, T.arisn2, T.thb1n1, T.thb1s1, T.thb1n2, T.thb1n3, T.thb8t1a, T.thb2n1, T.thb2n2 ,T.thb2n3, T.thb2s1, T.thb2n1t, T.thb2n2t ,T.thb2n3t ,  T.tha3n2, T.tha3s1, T.tha6n2, T.tha6n3, T.tha5n1, T.tha7n1 ,T.tha7n2,T.tha8n1 ,T.tha8t1 ,T.tha8n2 ,T.tha8t2 ,T.tha8n3 ,T.tha8t3 ,T.tha8n4 ,T.tha8t4 ,T.tha8n5 ,T.tha8t5 ,T.tha8s1 ,T.tha9n1,T.tha9n3,T.tha10n1,T.tha10n2,T.tha10s1,T.tha11n1,T.tha11n2, T.tha11n1t, T.tha11n2t, T.tha11t1, T.thb3n1,T.thb3n2,T.thb3n3,T.thb3n4,T.thb3n5,T.thb3n6,T.thb3n7,T.thb3n8,T.thb3n9,T.thb3s1 ,T.thb3s2 ,T.thb9t1 ,T.thb9t2 ,T.thb8n1, T.thb8t1 ,T.thb8t2 ,T.thb3t1,T.thb3t2,T.thb3t3,T.thb3t4,T.thb3t5,T.thb3t6,T.thb3t7,T.thb3t8, T.hS, T.thb4b1, T.thb4b2, T.hU, T.tha1n2, T.ba1n1 ,T.hV, T.bV, T.dR, T.hX, T.thb8s1, T.tha4n3, T.thb4n1, T.thb4n2,T.thb4s1, T.thb5s1, T.thb5n1, T.thb5n2, T.thb5n3, T.dS, T.tha4n1, T.tha4n2, T.baals1n3, T.baals1n5, T.baals1n6, T.baals1n4, T.hifumin1, T.hifumin2,T.tha4n2x, T.tha7t1, T.dT, T.i1, T.tha1n1, T.thb9n1, T.i6, T.i8, T.dW, T.ia ,T.tha4s1, T.i7, T.ig, T.tha9n2, T.tha9n2t,T.yeye, T.ij,T.tha1s1, T.tha9s1, T.hW, T.hWalf, T.ik, T.il, T.tha5n3, T.thb9n2, T.tha6s1t, T.tha6s1, T.thb6n1, T.thb6n2, T.thb6n3, T.thb6s1, T.thb7n1, T.thb7t1, T.thb7n2, T.tha11s1, T.tha2s1, T.dM, T.tha5n2, T.tha5s1, T.tha7s1, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP])
         s(T.M, [T.bf, T.co, T.dj ,T.sl , T.cG, T.aN, T.hz, T.shenx, T.darkHasteRun, T.darkSuperUpgrade])
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
         s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])

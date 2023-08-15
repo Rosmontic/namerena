@@ -26781,14 +26781,14 @@ T.youzi1.prototype = {
             t = "[0]: [请...接我这招吧]"
             s = this.r
 			v = (c.m() & 3) + 1
-			if (v == 5)
+			if (v == 4)
 			{
 			this.r.per = 1
 			}
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * v * 0.5
+            p = T.u(this.r, !0, c) * v * 0.65
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 ) {
@@ -26824,7 +26824,7 @@ T.youzi1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 4
+            p = T.u(this.r, !0, c) * 4.2
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 ) {
@@ -33830,9 +33830,9 @@ C.ran = H.a(u([-10, 29, 41, 4, 20, 27, 61, 463]), [P.j])
 C.yukari = H.a(u([26, 45, 20, -10, 40, 36, 40, 661]), [P.j])
 C.AL1S = H.a(u([22, 35, -21, 2, 26, 5, 29, 576]), [P.j])
 C.aris = H.a(u([-3, 49, 23, 1, 10, 21, 32, 458]), [P.j])
-C.momori = H.a(u([6, 28, 54, 40, 30, 0, 29, 42]), [P.j])
+C.momori = H.a(u([6, 28, 54, 40, 30, 0, 29, 421]), [P.j])
 C.midori = H.a(u([22, 26, 4, 16, 42, 14, 35, 423]), [P.j])
-C.yuzu = H.a(u([7, 21, 7, -10, -10, 22, 13, 777]), [P.j])
+C.yuzu = H.a(u([7, 21, 7, -10, -10, 22, 13, 577]), [P.j])
 C.rio = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.yuuka = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.noa = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])

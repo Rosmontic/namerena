@@ -11526,6 +11526,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.go = 1
             _.id = e
 			_.per = 0
+			_.gui = 1
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -26899,7 +26900,7 @@ T.youzi1.prototype = {
                         return
                     }
                     
-                    q = T.u(n.r, !1, c) * 0.75
+                    q = T.u(n.r, !1, c) * 0.88
                     p = k.length
                     o = n.r
                     if (l.aA(l.ak(C.e.Z(q / T.cc(l, !0, c)), o, T.a3(), c, d), o, T.a3(), c, d) > 0)
@@ -26926,7 +26927,7 @@ T.youzi1.prototype = {
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
             q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-            p = T.u(this.r, !0, c) * 0.5
+            p = T.u(this.r, !0, c) * 0.88
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
             if (o.fr > 0 ) {
@@ -29322,6 +29323,7 @@ T.yuzu.prototype = {
 		u =new T.yuzun1()
         u.f = 160
         t.push(u)
+		this.id.push(new T.youzi3())
     }, 
     bM: function() {
             var u, t = this
@@ -33827,10 +33829,10 @@ C.yuyuko = H.a(u([30, 5, 25, 58, 30, 2, 30, 480]), [P.j])
 C.ran = H.a(u([-10, 29, 41, 4, 20, 27, 61, 463]), [P.j])
 C.yukari = H.a(u([26, 45, 20, -10, 40, 36, 40, 661]), [P.j])
 C.AL1S = H.a(u([22, 35, -21, 2, 26, 5, 29, 576]), [P.j])
-C.aris = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-C.momori = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-C.midori = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-C.yuzu = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.aris = H.a(u([-3, 49, 23, 1, 10, 21, 32, 458]), [P.j])
+C.momori = H.a(u([6, 28, 54, 40, 30, 0, 29, 42]), [P.j])
+C.midori = H.a(u([22, 26, 4, 16, 42, 14, 35, 423]), [P.j])
+C.yuzu = H.a(u([7, 21, 7, -10, -10, 22, 13, 777]), [P.j])
 C.rio = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.yuuka = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.noa = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])

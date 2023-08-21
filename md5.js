@@ -23544,7 +23544,7 @@ n.r.bf(n.r.fr, null, c, d)
             u.push(T.e("[邦邦邦！][1]作为伙伴加入了队伍！", this.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			
 			}
-			d.f = 2048
+			d.j = 2048
         }
     }}
 	T.hifumin1.prototype = {
@@ -23755,7 +23755,7 @@ n.r.bf(n.r.fr, null, c, d)
 			if( v ==18 ){
             o.push(T.e("[0]: 另一半离地三尺 ", r.r, p, q, q, 0, 1000, 100))}
 			if( v > 18 ){
-			o.push(T.e("[0]: 关注Bilibili夜冴喵！关注Bilibili夜冴喵 ！[1]", r.r, C.d.v(v, 2), q, q, 0, 1000, 100))}
+			o.push(T.e("[0]: 关注Bilibili夜冴喵！关注Bilibili夜冴喵 ！[1]", r.r, v, q, q, 0, 1000, 100))}
 			r.r.ye = r.r.ye + 1
 			return
         }
@@ -29125,10 +29125,9 @@ T.nue.prototype = {
         return H.a([], [P.f])
     },
     aa: function() {
-        var u, t = new T.aK()
-        t.r = this
-        this.k2 = t
-        t = this.id
+        var u = new T.hO(this)
+            u.r = this
+            this.k2 = u
         
         
 }

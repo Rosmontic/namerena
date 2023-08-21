@@ -22659,7 +22659,7 @@ n.r.bf(n.r.fr, null, c, d)
             c.r.x.aU(d)
             u.push(T.e(O.c("cPiZ"), c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }
-}
+    }
     T.hha4n2.prototype = {
         gaj: function() {
             return this.af.r
@@ -23329,16 +23329,16 @@ n.r.bf(n.r.fr, null, c, d)
             f.c = f
             f.b = f
             e = [P.j]
-            d = new T.cirno(t,r,s,b,q,p,o,n,m,l,k,j,i,h,g,f,H.a([], e),H.a([], e),H.a([], e),H.a([], e))
+            d = new T.hha4n2(t,r,s,b,q,p,o,n,m,l,k,j,i,h,g,f,H.a([], e),H.a([], e),H.a([], e),H.a([], e))
             d.Y(t, r, s, b)
             d.a5 = new T.cj(d)
             d.af = c
             d.e = T.du(c.r)
-            
+            d.r = "妖精"
             s = c.r
             d.x = s.x
-            
-            d.cA()
+            s.I.i(0, d.a5)
+            d.av()
 			d.fx = C.d.v(this.r.fx, 12) 
 			d.fr = C.d.v(this.r.fx, 12)
             d.j = -2048
@@ -23755,7 +23755,7 @@ n.r.bf(n.r.fr, null, c, d)
 			if( v ==18 ){
             o.push(T.e("[0]: 另一半离地三尺 ", r.r, p, q, q, 0, 1000, 100))}
 			if( v > 18 ){
-			o.push(T.e("[0]: 关注Bilibili夜冴喵！关注Bilibili夜冴喵！", r.r, p, q, q, 0, 1000, 100))}
+			o.push(T.e("[0]: 关注Bilibili夜冴喵！关注Bilibili夜冴喵 ！[1]", r.r, C.d.v(v, 2), q, q, 0, 1000, 100))}
 			r.r.ye = r.r.ye + 1
 			return
         }
@@ -29500,7 +29500,7 @@ T.hifumi.prototype = {
         this.k2 = t
         t = this.id
 		u =new T.hifumin2()
-        u.f = 25
+        u.f = 35
         t.push(u)
 		u =new T.hifumin1()
         u.f = 160

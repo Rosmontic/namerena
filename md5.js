@@ -29125,10 +29125,13 @@ T.nue.prototype = {
         return H.a([], [P.f])
     },
     aa: function() {
-        var u = new T.hO(this)
-            u.r = this
-            this.k2 = u
-        
+        var u, t = new T.aK()
+        t.r = this
+        this.k2 = t
+        t = this.id
+        u = new T.ig()
+        u.f = 256
+        t.push(u)
         
 }
 }
@@ -29140,10 +29143,11 @@ T.yeya.prototype = {
         return H.a([], [P.f])
     },
     aa: function() {
-        var u, t = new T.yeye()
+        var u, t = new T.aK()
         t.r = this
         this.k2 = t
         t = this.id
+		
         
         
 }
@@ -33812,7 +33816,7 @@ C.hong = H.a(u([33, 26, 12, 7, -16, 1, 28, 708]), [P.j])
 C.koakuma = H.a(u([0, 9, 19, -3, 7, 32, 31, 700]), [P.j])
 C.patchouli = H.a(u([21, -10, -25, 19, 36, 34, 39, 438]), [P.j])
 C.sakuya = H.a(u([-9, 18, 6, 51, 3, 29, 57, 474]), [P.j])
-C.nue = H.a(u([36, 21, 15, 40, 38, 26, 2, 690]), [P.j])
+C.nue = H.a(u([36, 21, 15, 40, 38, 26, 2, 60]), [P.j])
 C.reimu = H.a(u([31, 43, 6, 16, 44, 30, 37, 704]), [P.j])
 C.marisa = H.a(u([19, 8, 15, 29, 56, 17, 30, 525]), [P.j])
 C.remilia = H.a(u([15, 36, 40, 30, 21, 21, 21, 764]), [P.j])

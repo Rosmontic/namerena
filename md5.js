@@ -24078,13 +24078,13 @@ n.r.bf(n.r.fr, null, c, d)
             e = [P.j]
 			for(v =1 ; v < 5 ; v++){
             d = new T.hha4n2(t,r,s,b,q,p,o,n,m,l,k,j,i,h,g,f,H.a([], e),H.a([], e),H.a([], e),H.a([], e))
-
+            d.Y(t, r, s, b)
             d.a5 = new T.cj(d)
             d.af = c
             d.e = T.du(c.r)
             d.r = "妖精"
             s = c.r
-            d.x = s.x
+           
             d.av()
 			d.fx = 100
 			d.fr = 100

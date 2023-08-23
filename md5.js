@@ -22572,13 +22572,14 @@ T.tha4n1.prototype = {
         }
 }   
     T.tomb1.prototype = {
-        am: function(a, b) {
-            return a.fr <= 0 && !a.$iav && !a.r1.G(0, $.eE()) && !a.tigerCurse
+	    b5: function(a) {
+            return a.b1(this.r.x.a.e)
         },
         a8: function(a, b, c) {
-            if (b)
-                return a.L
-            return c.gbh()
+            return c.gbh() * a.J
+        },
+        am: function(a, b) {
+            return a.fr <= 0 && !a.$iav && !a.r1.G(0, $.eE())
         },
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o, n = this, m = null
@@ -33944,7 +33945,7 @@ dk: function(a, b, c, d, e, f, g) {
         C.tigershark = H.a(u([62, 49, 89, 86, 77, 76, 30, 120]), [P.j])
         C.hell = H.a(u([20, 20, 60, 50, 20, 20, 90, 120]), [P.j])
 C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
-C.tomb = H.a(u([-72, 323, 6, -67, -49, 30, 26, 1758]), [P.j])
+C.tomb = H.a(u([-72, 323, 6, -67, -49, 330, 26, 1758]), [P.j])
 C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
 C.rumia = H.a(u([18, 35, 20, 1, -8, 25, 7, 685]), [P.j])
 C.daiyousei = H.a(u([0, 17, 28, 1, 2, 15, 35, 952]), [P.j])

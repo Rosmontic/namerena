@@ -24080,15 +24080,15 @@ n.r.bf(n.r.fr, null, c, d)
             d = new T.hha4n2(t,r,s,b,q,p,o,n,m,l,k,j,i,h,g,f,H.a([], e),H.a([], e),H.a([], e),H.a([], e))
             d.Y(t, r, s, b)
             d.a5 = new T.cj(d)
-            d.af = c
+            
             d.e = T.du(c.r)
-            d.r = "妖精"
+            d.r = "妖精1"
             s = c.r
             d.x = s.x
             d.av()
 			d.fx = 100
 			d.fr = 100
-            
+            c.r.x.aU(d)
 			u.push($.v())
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			}

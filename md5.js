@@ -10494,7 +10494,7 @@ megia: function megia(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t
             _.q = s
             _.a_ = t
             _.V = _.O = _.L = 0
-            _.J = 32768
+            _.J = 0
             _.j = 0
             _.X = _.W = !1
             _.F = null
@@ -22584,6 +22584,7 @@ T.tha4n1.prototype = {
             var u, t, s, r, q, p, o, n = this, m = null
             u = a[0].a
 			u.x = n.r.x
+			n.r.mu + = 1
             t = u.fx
             r = d.a
             r.push(T.e(O.c("hryQ"), n.r, u, m, m, 1, 1000, 100))
@@ -28542,11 +28543,13 @@ t.push(u)
             return H.a(["berserk", "charm", "ice", "poison", "curse", "fire", "disperse", "half", "exchange", "assassinate"], [P.f])
         },
         aa: function() {
-            var u, t = new T.tomb1()
+            var u, t = new T.noak()
             t.r = this
             this.k2 = t
             t = this.id 
-            
+            u =new T.tomb1()
+            u.f = 10000
+            t.push(u) 
 }
 }
 T.rumia.prototype = {

@@ -22572,20 +22572,23 @@ T.tha4n1.prototype = {
         }
 }   
     T.tomb1.prototype = {
-	    b5: function(a) {
-            return a.b1(this.r.x.a.e)
+        b5: function(a) {
+            return a.b1(this.r.y.e)
+        },
+        am: function(a, b) {
+            return a.fr <= 0 && !a.$iav && !a.r1.G(0, $.eE()) && !a.tigerCurse
         },
         a8: function(a, b, c) {
             return c.gbh() * a.J
-        },
-        am: function(a, b) {
-            return a.fr <= 0 && !a.$iav && !a.r1.G(0, $.eE())
         },
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o, n = this, m = null
             u = a[0].a
 			u.x = n.r.x
-            t = u.fx
+            t = C.e.Z(T.u(n.r, !0, c) / 25)
+            s = u.fx
+            if (t > s)
+                t = s
             r = d.a
             r.push(T.e(O.c("hryQ"), n.r, u, m, m, 1, 1000, 100))
             r.push(T.e(C.c.K(O.c("ldpQ"), $.lb()), n.r, u, m, m, t + 60, 1000, 100))
@@ -22607,8 +22610,7 @@ T.tha4n1.prototype = {
             }
             r.push(T.e(O.c("YmSv"), n.r, T.a1(u, 0), new T.aG(t), m, 0, 1000, 100))
         }
-    }
-
+}
 T.tha4s1.prototype = {
         b5: function(a) {
             return a.b1(this.r.y.e)

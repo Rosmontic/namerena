@@ -23333,10 +23333,10 @@ n.r.bf(n.r.fr, null, c, d)
             d.Y(t, r, s, b)
             d.a5 = new T.cj(d)
             d.af = c
-            d.e = T.du(c.r)
-            d.r = "妖精1"
+            
+            d.r = "妖精2"
             s = c.r
-           
+            d.x = s.x
             s.I.i(0, d.a5)
             d.av()
 			d.fx = C.d.v(this.r.fx, 12) 

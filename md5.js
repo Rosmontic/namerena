@@ -22576,21 +22576,18 @@ T.tha4n1.prototype = {
             return a.b1(this.r.y.e)
         },
         am: function(a, b) {
-            return a.fr <= 0 && !a.$iav && !a.r1.G(0, $.eE()) && !a.tigerCurse
+            return a.fr <= 0
         },
-        a8: function(a, b, c) {
-            return c.gbh() * a.J
+		a8: function(a, b, c) {
+            return a.L * a.J
         },
         t: function(a, b, c, d) {
             var u, t, s, r, q, p, o, n = this, m = null
             u = a[0].a
 			u.x = n.r.x
-            t = C.e.Z(T.u(n.r, !0, c) / 25)
-            s = u.fx
-            if (t > s)
-                t = s
+            t = u.fx
             r = d.a
-            r.push(T.e(O.c("hryQ"), n.r, u, m, m, 1, 1000, 100))
+            r.push(T.e("[0]：亡者归来", n.r, u, m, m, 1, 1000, 100))
             r.push(T.e(C.c.K(O.c("ldpQ"), $.lb()), n.r, u, m, m, t + 60, 1000, 100))
             u.fr = t
             q = u.x

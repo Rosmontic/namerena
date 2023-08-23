@@ -24084,11 +24084,11 @@ n.r.bf(n.r.fr, null, c, d)
             d.e = T.du(c.r)
             d.r = "妖精"
             s = c.r
-           
+            d.x = s.x
             d.av()
 			d.fx = 100
 			d.fr = 100
-            c.r.x.aU(d)
+            
 			u.push($.v())
             u.push(T.e("召唤出[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			}

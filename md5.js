@@ -22572,9 +22572,7 @@ T.tha4n1.prototype = {
         }
 }   
     T.tomb1.prototype = {
-        b5: function(a) {
-            return a.b1(this.r.y.e)
-        },
+        
         am: function(a, b) {
             return a.fr <= 0  && !a.$iav
         },
@@ -22587,8 +22585,8 @@ T.tha4n1.prototype = {
 			u.x = n.r.x
             t = u.fx
             r = d.a
-            r.push(T.e("[0]：亡者归来", n.r, u, m, m, 1, 1000, 100))
-            r.push(T.e(C.c.K(O.c("ldpQ"), $.lb()), n.r, u, m, m, t + 60, 1000, 100))
+            r.push(T.e("[0]：[亡者归来]", n.r, u, m, m, 1, 1000, 100))
+			r.push(T.e("[1][复活了]", n.r, u, m, m, 0, 1000, 100))
             u.fr = t
             q = u.x
             if (!C.a.w(q.f, u)) {

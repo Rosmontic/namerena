@@ -22576,7 +22576,7 @@ T.tha4n1.prototype = {
             return a.b1(this.r.y.e)
         },
         am: function(a, b) {
-            return a.fr <= 0
+            return a.fr <= 0  && !a.$iav
         },
 		a8: function(a, b, c) {
             return a.L * a.J
@@ -27062,7 +27062,6 @@ T.youzi1.prototype = {
     t: function(a, b, c, d) {
         var u = this
         t = a[0].a
-		return
 	
 		
     }
@@ -28542,7 +28541,7 @@ t.push(u)
             return H.a(["berserk", "charm", "ice", "poison", "curse", "fire", "disperse", "half", "exchange", "assassinate"], [P.f])
         },
         aa: function() {
-            var u, t = new T.aK()
+            var u, t = new T.noak()
             t.r = this
             this.k2 = t
             t = this.id 

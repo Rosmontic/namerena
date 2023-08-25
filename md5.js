@@ -6339,6 +6339,310 @@ if (a == "patchouli") {
                     g.at(a, u)
                     return g
                 }
+				if (a == "ribbit1") {
+                    t = H.d(a) + H.d($.ah())
+                    s = H.a([], [T.H])
+                    r = H.a([], [T.y])
+                    q = P.U(P.f, T.p)
+                    p = new F.b([T.M])
+                    p.c = p
+                    p.b = p
+                    o = new F.b([T.L])
+                    o.c = o
+                    o.b = o
+                    n = new F.b([T.G])
+                    n.c = n
+                    n.b = n
+                    m = new F.b([T.J])
+                    m.c = m
+                    m.b = m
+                    l = new F.b([T.K])
+                    l.c = l
+                    l.b = l
+                    k = new F.b([T.D])
+                    k.c = k
+                    k.b = k
+                    j = new F.b([T.A])
+                    j.c = j
+                    j.b = j
+                    i = new F.b([T.C])
+                    i.c = i
+                    i.b = i
+                    h = new F.b([T.I])
+                    h.c = h
+                    h.b = h
+                    g = [P.j]
+                    g = new T.ribbit1(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g.Y(a, u, t, f)
+                    g.at(a, u)
+                    return g
+                }
+				if (a == "ribbit2") {
+                    t = H.d(a) + H.d($.ah())
+                    s = H.a([], [T.H])
+                    r = H.a([], [T.y])
+                    q = P.U(P.f, T.p)
+                    p = new F.b([T.M])
+                    p.c = p
+                    p.b = p
+                    o = new F.b([T.L])
+                    o.c = o
+                    o.b = o
+                    n = new F.b([T.G])
+                    n.c = n
+                    n.b = n
+                    m = new F.b([T.J])
+                    m.c = m
+                    m.b = m
+                    l = new F.b([T.K])
+                    l.c = l
+                    l.b = l
+                    k = new F.b([T.D])
+                    k.c = k
+                    k.b = k
+                    j = new F.b([T.A])
+                    j.c = j
+                    j.b = j
+                    i = new F.b([T.C])
+                    i.c = i
+                    i.b = i
+                    h = new F.b([T.I])
+                    h.c = h
+                    h.b = h
+                    g = [P.j]
+                    g = new T.ribbit2(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g.Y(a, u, t, f)
+                    g.at(a, u)
+                    return g
+                }
+				if (a == "ribbit3") {
+                    t = H.d(a) + H.d($.ah())
+                    s = H.a([], [T.H])
+                    r = H.a([], [T.y])
+                    q = P.U(P.f, T.p)
+                    p = new F.b([T.M])
+                    p.c = p
+                    p.b = p
+                    o = new F.b([T.L])
+                    o.c = o
+                    o.b = o
+                    n = new F.b([T.G])
+                    n.c = n
+                    n.b = n
+                    m = new F.b([T.J])
+                    m.c = m
+                    m.b = m
+                    l = new F.b([T.K])
+                    l.c = l
+                    l.b = l
+                    k = new F.b([T.D])
+                    k.c = k
+                    k.b = k
+                    j = new F.b([T.A])
+                    j.c = j
+                    j.b = j
+                    i = new F.b([T.C])
+                    i.c = i
+                    i.b = i
+                    h = new F.b([T.I])
+                    h.c = h
+                    h.b = h
+                    g = [P.j]
+                    g = new T.ribbit3(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g.Y(a, u, t, f)
+                    g.at(a, u)
+                    return g
+                }
+				if (a == "ribbit4") {
+                    t = H.d(a) + H.d($.ah())
+                    s = H.a([], [T.H])
+                    r = H.a([], [T.y])
+                    q = P.U(P.f, T.p)
+                    p = new F.b([T.M])
+                    p.c = p
+                    p.b = p
+                    o = new F.b([T.L])
+                    o.c = o
+                    o.b = o
+                    n = new F.b([T.G])
+                    n.c = n
+                    n.b = n
+                    m = new F.b([T.J])
+                    m.c = m
+                    m.b = m
+                    l = new F.b([T.K])
+                    l.c = l
+                    l.b = l
+                    k = new F.b([T.D])
+                    k.c = k
+                    k.b = k
+                    j = new F.b([T.A])
+                    j.c = j
+                    j.b = j
+                    i = new F.b([T.C])
+                    i.c = i
+                    i.b = i
+                    h = new F.b([T.I])
+                    h.c = h
+                    h.b = h
+                    g = [P.j]
+                    g = new T.ribbit4(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g.Y(a, u, t, f)
+                    g.at(a, u)
+                    return g
+                }
+				if (a == "fox1") {
+                    t = H.d(a) + H.d($.ah())
+                    s = H.a([], [T.H])
+                    r = H.a([], [T.y])
+                    q = P.U(P.f, T.p)
+                    p = new F.b([T.M])
+                    p.c = p
+                    p.b = p
+                    o = new F.b([T.L])
+                    o.c = o
+                    o.b = o
+                    n = new F.b([T.G])
+                    n.c = n
+                    n.b = n
+                    m = new F.b([T.J])
+                    m.c = m
+                    m.b = m
+                    l = new F.b([T.K])
+                    l.c = l
+                    l.b = l
+                    k = new F.b([T.D])
+                    k.c = k
+                    k.b = k
+                    j = new F.b([T.A])
+                    j.c = j
+                    j.b = j
+                    i = new F.b([T.C])
+                    i.c = i
+                    i.b = i
+                    h = new F.b([T.I])
+                    h.c = h
+                    h.b = h
+                    g = [P.j]
+                    g = new T.fox1(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g.Y(a, u, t, f)
+                    g.at(a, u)
+                    return g
+                }
+				if (a == "fox2") {
+                    t = H.d(a) + H.d($.ah())
+                    s = H.a([], [T.H])
+                    r = H.a([], [T.y])
+                    q = P.U(P.f, T.p)
+                    p = new F.b([T.M])
+                    p.c = p
+                    p.b = p
+                    o = new F.b([T.L])
+                    o.c = o
+                    o.b = o
+                    n = new F.b([T.G])
+                    n.c = n
+                    n.b = n
+                    m = new F.b([T.J])
+                    m.c = m
+                    m.b = m
+                    l = new F.b([T.K])
+                    l.c = l
+                    l.b = l
+                    k = new F.b([T.D])
+                    k.c = k
+                    k.b = k
+                    j = new F.b([T.A])
+                    j.c = j
+                    j.b = j
+                    i = new F.b([T.C])
+                    i.c = i
+                    i.b = i
+                    h = new F.b([T.I])
+                    h.c = h
+                    h.b = h
+                    g = [P.j]
+                    g = new T.fox2(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g.Y(a, u, t, f)
+                    g.at(a, u)
+                    return g
+                }
+				if (a == "fox3") {
+                    t = H.d(a) + H.d($.ah())
+                    s = H.a([], [T.H])
+                    r = H.a([], [T.y])
+                    q = P.U(P.f, T.p)
+                    p = new F.b([T.M])
+                    p.c = p
+                    p.b = p
+                    o = new F.b([T.L])
+                    o.c = o
+                    o.b = o
+                    n = new F.b([T.G])
+                    n.c = n
+                    n.b = n
+                    m = new F.b([T.J])
+                    m.c = m
+                    m.b = m
+                    l = new F.b([T.K])
+                    l.c = l
+                    l.b = l
+                    k = new F.b([T.D])
+                    k.c = k
+                    k.b = k
+                    j = new F.b([T.A])
+                    j.c = j
+                    j.b = j
+                    i = new F.b([T.C])
+                    i.c = i
+                    i.b = i
+                    h = new F.b([T.I])
+                    h.c = h
+                    h.b = h
+                    g = [P.j]
+                    g = new T.fox3(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g.Y(a, u, t, f)
+                    g.at(a, u)
+                    return g
+                }
+				if (a == "fox4") {
+                    t = H.d(a) + H.d($.ah())
+                    s = H.a([], [T.H])
+                    r = H.a([], [T.y])
+                    q = P.U(P.f, T.p)
+                    p = new F.b([T.M])
+                    p.c = p
+                    p.b = p
+                    o = new F.b([T.L])
+                    o.c = o
+                    o.b = o
+                    n = new F.b([T.G])
+                    n.c = n
+                    n.b = n
+                    m = new F.b([T.J])
+                    m.c = m
+                    m.b = m
+                    l = new F.b([T.K])
+                    l.c = l
+                    l.b = l
+                    k = new F.b([T.D])
+                    k.c = k
+                    k.b = k
+                    j = new F.b([T.A])
+                    j.c = j
+                    j.b = j
+                    i = new F.b([T.C])
+                    i.c = i
+                    i.b = i
+                    h = new F.b([T.I])
+                    h.c = h
+                    h.b = h
+                    g = [P.j]
+                    g = new T.fox4(a,u,t,f,s,r,q,p,o,n,m,l,k,j,i,h,H.a([], g),H.a([], g),H.a([], g),H.a([], g))
+                    g.Y(a, u, t, f)
+                    g.at(a, u)
+                    return g
+                }
 				if (a == "rio") {
                     t = H.d(a) + H.d($.ah())
                     s = H.a([], [T.H])
@@ -11610,6 +11914,318 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.id = e
 			_.per = 0
 			_.gui = 1
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
+		ribbit1: function ribbit1(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
+			_.ri = 0
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
+		ribbit2: function ribbit2(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
+			_.ri = 0
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
+		ribbit3: function ribbit3(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
+			_.ri = 0
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
+		ribbit4: function ribbit4(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
+			_.ri = 0
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
+		fox1: function fox1(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
+			_.fo = 0
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
+		fox2: function fox2(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
+			_.fo = 0
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
+		fox3: function fox3(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
+			_.fo = 0
+            _.k2 = _.k1 = null
+            _.k3 = f
+            _.k4 = null
+            _.r1 = g
+            _.r2 = h
+            _.rx = i
+            _.ry = j
+            _.x1 = k
+            _.x2 = l
+            _.y1 = m
+            _.y2 = n
+            _.I = o
+            _.N = p
+            _.A = !1
+            _.u = q
+            _.U = null
+            _.D = r
+            _.q = s
+            _.a_ = t
+            _.V = _.O = _.L = 0
+            _.J = 32768
+            _.j = 0
+            _.X = _.W = !1
+            _.F = null
+        },
+		fox4: function fox4(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+            var _ = this
+            _.aI = 0
+            _.aP = _.bb = _.af = null
+            _.a = a
+            _.b = b
+            _.c = c
+            _.d = d
+            _.y = _.x = _.r = _.f = _.e = null
+            _.z = 0
+            _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+            _.go = 1
+            _.id = e
+			_.fo = 0
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -29479,6 +30095,247 @@ T.yuzu.prototype = {
 			}	
         }
 }
+    T.ribbit1.prototype = {
+    gah: function() {
+        return C.ribbit1
+    },
+    gaQ: function() {
+        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+    },
+    aa: function() {
+        var u, t = new T.aK()
+        t.r = this
+        this.k2 = t
+        t = this.id
+
+    }, 
+    bM: function() {
+            var u, t = this
+            t.dK()
+            u = t.bb
+            if (u == null)
+                u = t.bb = new T.cB(t)
+            t.y2.i(0, u)
+        },
+    ay: function(a, b, c, d) {
+		    
+            if(this.fr <= 0){
+		    d.a.push($.v())
+			d.a.push(T.e("[0]: [对……对不起！]", this, this.r, null, null, 0, 1000, 100))
+			}	
+        }
+    }
+	T.ribbit2.prototype = {
+    gah: function() {
+        return C.ribbit2
+    },
+    gaQ: function() {
+        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+    },
+    aa: function() {
+        var u, t = new T.aK()
+        t.r = this
+        this.k2 = t
+        t = this.id
+
+    }, 
+    bM: function() {
+            var u, t = this
+            t.dK()
+            u = t.bb
+            if (u == null)
+                u = t.bb = new T.cB(t)
+            t.y2.i(0, u)
+        },
+    ay: function(a, b, c, d) {
+		    
+            if(this.fr <= 0){
+		    d.a.push($.v())
+			d.a.push(T.e("[0]: [对……对不起！]", this, this.r, null, null, 0, 1000, 100))
+			}	
+        }
+    }
+	T.ribbit3.prototype = {
+    gah: function() {
+        return C.ribbit3
+    },
+    gaQ: function() {
+        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+    },
+    aa: function() {
+        var u, t = new T.aK()
+        t.r = this
+        this.k2 = t
+        t = this.id
+
+    }, 
+    bM: function() {
+            var u, t = this
+            t.dK()
+            u = t.bb
+            if (u == null)
+                u = t.bb = new T.cB(t)
+            t.y2.i(0, u)
+        },
+    ay: function(a, b, c, d) {
+		    
+            if(this.fr <= 0){
+		    d.a.push($.v())
+			d.a.push(T.e("[0]: [对……对不起！]", this, this.r, null, null, 0, 1000, 100))
+			}	
+        }
+    }
+	T.ribbit4.prototype = {
+    gah: function() {
+        return C.ribbit4
+    },
+    gaQ: function() {
+        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+    },
+    aa: function() {
+        var u, t = new T.aK()
+        t.r = this
+        this.k2 = t
+        t = this.id
+
+    }, 
+    bM: function() {
+            var u, t = this
+            t.dK()
+            u = t.bb
+            if (u == null)
+                u = t.bb = new T.cB(t)
+            t.y2.i(0, u)
+        },
+    ay: function(a, b, c, d) {
+		    
+            if(this.fr <= 0){
+		    d.a.push($.v())
+			d.a.push(T.e("[0]: [对……对不起！]", this, this.r, null, null, 0, 1000, 100))
+			}	
+        }
+    }
+	T.fox1.prototype = {
+    gah: function() {
+        return C.fox1
+    },
+    gaQ: function() {
+        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+    },
+    aa: function() {
+        var u, t = new T.aK()
+        t.r = this
+        this.k2 = t
+        t = this.id
+
+    }, 
+    bM: function() {
+            var u, t = this
+            t.dK()
+            u = t.bb
+            if (u == null)
+                u = t.bb = new T.cB(t)
+            t.y2.i(0, u)
+        },
+    ay: function(a, b, c, d) {
+		    
+            if(this.fr <= 0){
+		    d.a.push($.v())
+			d.a.push(T.e("[0]: [对……对不起！]", this, this.r, null, null, 0, 1000, 100))
+			}	
+        }
+    }
+	T.fox2.prototype = {
+    gah: function() {
+        return C.fox2
+    },
+    gaQ: function() {
+        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+    },
+    aa: function() {
+        var u, t = new T.aK()
+        t.r = this
+        this.k2 = t
+        t = this.id
+
+    }, 
+    bM: function() {
+            var u, t = this
+            t.dK()
+            u = t.bb
+            if (u == null)
+                u = t.bb = new T.cB(t)
+            t.y2.i(0, u)
+        },
+    ay: function(a, b, c, d) {
+		    
+            if(this.fr <= 0){
+		    d.a.push($.v())
+			d.a.push(T.e("[0]: [对……对不起！]", this, this.r, null, null, 0, 1000, 100))
+			}	
+        }
+    }
+	T.fox3.prototype = {
+    gah: function() {
+        return C.fox3
+    },
+    gaQ: function() {
+        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+    },
+    aa: function() {
+        var u, t = new T.aK()
+        t.r = this
+        this.k2 = t
+        t = this.id
+
+    }, 
+    bM: function() {
+            var u, t = this
+            t.dK()
+            u = t.bb
+            if (u == null)
+                u = t.bb = new T.cB(t)
+            t.y2.i(0, u)
+        },
+    ay: function(a, b, c, d) {
+		    
+            if(this.fr <= 0){
+		    d.a.push($.v())
+			d.a.push(T.e("[0]: [对……对不起！]", this, this.r, null, null, 0, 1000, 100))
+			}	
+        }
+    }
+	T.fox4.prototype = {
+    gah: function() {
+        return C.fox4
+    },
+    gaQ: function() {
+        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+    },
+    aa: function() {
+        var u, t = new T.aK()
+        t.r = this
+        this.k2 = t
+        t = this.id
+
+    }, 
+    bM: function() {
+            var u, t = this
+            t.dK()
+            u = t.bb
+            if (u == null)
+                u = t.bb = new T.cB(t)
+            t.y2.i(0, u)
+        },
+    ay: function(a, b, c, d) {
+		    
+            if(this.fr <= 0){
+		    d.a.push($.v())
+			d.a.push(T.e("[0]: [对……对不起！]", this, this.r, null, null, 0, 1000, 100))
+			}	
+        }
+    }
+	
 T.rio.prototype = {
     gah: function() {
         return C.rio
@@ -33587,7 +34444,7 @@ dk: function(a, b, c, d, e, f, g) {
         s(T.D, [T.cg, T.dF, T.el])
         s(T.J, [T.dE, T.fire, T.ay])
         s(T.av, [T.hh,T.hha4n2, T.alf, T.youzi, T.tao, T.lv, T.pll, T.szj, T.hha7t1, T.hha11t1 ,T.hha9n2,T.hhb3n1 ,T.hhb3n2 ,T.hhb3n3 ,T.hhb3n4 ,T.hhb3n5 ,T.hhb3n6 ,T.hhb3n7 ,T.hhb3n8 ,T.hhb3n9 ,T.hhb8n1 ,T.hhb8t1a ,T.hhb8t1b ,T.hhb8t2 , T.hi, T.ho])
-        s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.tomb, T.testa, T.rumia, T.daiyousei, T.cirno , T.hong , T.testa , T.koakuma , T.patchouli , T.sakuya, T.reimu, T.marisa, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.lilywhite, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.nue, T.AL1S, T.aris ,T.momori, T.midori, T.yuzu, T.rio, T.yuuka, T.noa, T.koyuki, T.hifumi, T.azusa, T.yeya])
+        s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.tomb, T.testa, T.rumia, T.daiyousei, T.cirno , T.hong , T.testa , T.koakuma , T.patchouli , T.sakuya, T.reimu, T.marisa, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.lilywhite, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.nue, T.AL1S, T.aris ,T.momori, T.midori, T.yuzu, T.rio, T.yuuka, T.noa, T.koyuki, T.hifumi, T.azusa, T.ribbit1, T.ribbit2, T.ribbit3, T.ribbit4, T.fox1, T.fox2, T.fox3, T.fox4, T.yeya])
         t(T.hg, T.cy)
         t(T.f3, T.bA)
         t(T.e_, T.dN, T.tha6t2, T.yuriSuperControl)
@@ -33972,6 +34829,14 @@ C.aris = H.a(u([-3, 49, 23, 1, 10, 21, 32, 458]), [P.j])
 C.momori = H.a(u([6, 28, 54, 40, 30, 19, 42, 421]), [P.j])
 C.midori = H.a(u([22, 26, 4, 16, 42, 14, 35, 423]), [P.j])
 C.yuzu = H.a(u([7, 21, 7, -10, -10, 22, 13, 577]), [P.j])
+C.ribbit1 = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.ribbit2 = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.ribbit3 = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.ribbit4 = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.fox1 = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.fox2 = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.fox3 = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.fox4 = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.rio = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.yuuka = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.noa = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
@@ -34080,6 +34945,22 @@ C.yeya = H.a(u([18, -46, -11, -82, 19, -70, 940, 99749]), [P.j])
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAALuUExURVleXlNeSQAAAP///2R0Tsb8+W6CU3N7VbiNdI9mV/y6mXphUbRxYrxpWtf/3aqgx7hfWLp2k7pcdFyImYFKTXvgfojofyuhpa52aHJrPWyEblCFdcH+w8D8vU1PU4uRbdOXiHBWXlZaVGJwV1ViSMD+wiMeOk9RVsKYfN2fjc2biGx9VlxqTdX/yFhkYk1PVICLXF9vTc//r9n/xH2Ud0VGTl9mTdv/xeT/z5KshDs4SOexjKeAbOP/zeT/xY57f9aZf9b/sc7NmYhscdOQfBEAAP//B51ZdI1zbtidh8iCcaEpJ5BQXL6DjcSMkLBxd7dnLbx1eM6Ek7+FmrNvjsd7dcx7h9+cj6ClrWmDlF6ClsRDaOmhiuqrjtqhhd/Kyt7FyLyPoad5foeMiRufo1SCb1aHclSEd3Z9iMmoldS9oe3DupaDmXFbipFig7yGgNKTgOGfgreAbqOKh4+BjsKdhNuie656cGSQe3V9aVudcERzbImfVI2lVmd1WWt5VqvAVbi/XaKNbKydcp2wXLCuW+O2h/K8kfjFlvLJmvLFmPbKnNbCiqyKa/O5kPrSpP7lue7NrvPTrvrVqPjDmbmed6Z8bfG4jvzUpfvowPXczvTPs/bDmPfAlEZAS6+Fc/C7lPbJmfHOrvbk3u7Dq+2/ku3BlO22kWRqVcidfuqxj+eykuzPxfjp5PPPvuvFouK6lOOpimJlWMWggueukc2qpZWXlubb1v/y7O3c1NW2pJB5abKWdeezld3HwrzEsvTu6f/28sXJwLKlpdaYjYiGf4SaktrW1f/s6v/07/Lo39jAwpGYj4yGhNnAwP/v6//28fzq5+auoejCxeXCpl6nc1ykdV2lcmmubIGvcqu9ltDNwdbJvpCaqWpzo3R5h1qidGSsbWevaHC6YHXAXn/FXprGjcDSznOXtpCjuIiqlnWdc16MgFyldX3GYYzUWnC7ZmiyZna+W3S5Wo+twYOuyrHIvom+gmajef///+d2umEAAAB8dFJOUwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdAW+6Qkng3B4xCLT46+r0PhtB7P5aJYmc/WLG6Mb9/FXjipF6Why0lAEBErn2bAIWvvNPAS3N9kgUkvb15TIOjfXh9PP12cIig4h+mfDu/unq89K+HQH29YclAcEi+1Yg3m3bAAAAAWJLR0QDEQxM8gAAAAd0SU1FB+cIDg8lLbFKdscAAAEbSURBVBjTARAB7/4AHB0AHnx9fh8gISJ/IyQBAgAlAyYngIGCKCkqg4QrLAQCAAUtLi+FhoeIiYqLjDAxBgIAMjM0NY2Oj5CRkpOUlTYHAgA3ODk6lpeYmZqbnJ07PAgJAD0+P56foKGio6SlpqdACgsAQUJDqKmqq6ytrq+wsURFDABGR0iys7S1tre4ubpJSksNAA5MTbu8vb6/wMHCw05PDxAAUFFSxMXGx8jJycrLU1QRAwASVVZXzM3Oz9DQ0VhZWhMUABUWW1xdXtLTX2BhYmNkFxgAZWZnaGlq1GtsbW5vcHEZcgDV1tfY2drb3N3e33N0dXZ3AODh4uPk5ebn6Onq6+x4eRoA7e7v8PHy8+b09fb3+Hp7GyqveyU66HdwAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTA4LTE0VDE1OjM3OjQxKzAwOjAwtvF7oAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wOC0xNFQxNTozNzo0MSswMDowMMeswxwAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjMtMDgtMTRUMTU6Mzc6NDUrMDA6MDBk9sbQAAAAAElFTkSuQmCC",
 "yuzu",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAL3UExURQAAAJ1dc7s6VstSXuNrdehtd85oc8xPXuF4grxRWOR3fMlXYH5EYMBxdZgqRf//265WZWAlKKFecEggVc96fOuAg/J+g9eAfqxRW5MAOspse+Jwee95gM5aZr9EWc1OXutlcMxfZcRbZeRtddRfbLVLVr1SV9yjq9N3f9txes5babRMW9JcZsSTo8ugra9db9FmcbNVZc9vd6Y8RKFSWJ5BVMlcaLVreb6EjrFUYKxNW9BjbaJGV7VYZMZibbhseMpkb6M/U5o7S6pGVKJjdrldaqpUVJY/SZQ2QnQiLq9aa7BUYbeJdptgbYQ7RY05SKVPX6NdaMWuqJtFWn0rQppoe7qeq4g2THsrQZlzhb6qt5I6S3clPaWAj+Td4ow6TXwxR7ugrIMxR4lJXM/Ayd5qcuFmceltd/Z4gOpxeuhrde5ud/R2f+52f/N5gu+AhfKOk++Jjut+he96guFsd+lyfOh/g/DEv/vo4PXZ0u6+u/KGi+hxe9xmcu6tqv/z6v3q4fPX0O6enuRoc9plccFUZPfHwP7v5f7u5Pvo3/HWz+68t91pc8tYZ7tQYPLDvPrm3f7s4vrl3PPa0u3NxtSFi7BGWKBAU+SxrdrGwfTj2//v5tvGwbGVmsaPkb9kbahPXbd2e7igr+bW2f/y6O3U086yv9+1tOGblcF0bbNiZu3BvP3o4v/y6f7n3/3e1ebBs9iWf9OSZ9KVZLyBfNC2tOjc3Off3tfDuNKulNqZeOObdOClctKgfMGwv8K4yM/AyNPO0tXQ2b2flNnFw9W7vOOrpuDRy9TEw9LHycrCzsvAyunUz+/e2OLY3sSmm+jW0dvJz9OhpNbIz9LK0tTM0/n5+urd3e7Xz/fl3dnR1cqunu7h2e3j5eTDxOPV1+nl59vW2+jl6Ono6uzl5+LLyPbm3tzX2tG0m/vz6vjz8uHMzdzR1ejg4t/Y2vPx8vHv8dPM1N3Jyffo4NjS09Gym9HKyLSrsNfLzufk5dHFyd7S1P///zpwUjIAAABldFJOUwAAAAAAAAAAAAAAAAAAAAAAAAACO8f+qh4DF7/6jyYFAxVg+ullFSgml/2NMQIeFsHASRMDP+3ilVZM8YxU2lr4v0OeRPfydW8EXvvZrwEVlfr4Bje0+x8+UfM0LXX9NlzcOa38EcJ9CgAAAAFiS0dE/DwOo38AAAAJcEhZcwAAuIwAALiMAcz2uy8AAAAHdElNRQfnCA4PIhShDmgIAAABG0lEQVQY0wEQAe/+AAAAARMUFWVmZ2gWFxgZAgMABAUGGhtpamtsbW4cHR4fBwAIICEiI29wcXJzdHUkJSYJAAonKCl2d3h5ent8fSorLAsALS4vMH5/f4CBgoOEhTEyMwAMNDU2hoeIiYqLjI2ONzg5AA0OOjuPkJGSk5SVlpc8PT4ADxA/QJiZmpucnZ6foEFCQwAREkRFoaKjpKWmp6ipRkdIAABJSkuqq6ytrq+wsbKzTE0ATk9QUbS1tre3uLm6u7y9UgBTVFVWvr/AwcLDxMXGx8jJAFdYWVrKy8zNzs/Q0dLT1NUAW1xdXtbX2Nna29zd3t/g4QBfYGHi4+Tl5ufo6err7O3uAGJjZO/w8fLz9PX29/j5+vugv3zB1gwR0wAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wOC0xNFQxNTozMjo1OSswMDowMK+d/h0AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDgtMTRUMTU6MzI6NTkrMDA6MDDewEahAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIzLTA4LTE0VDE1OjM0OjIwKzAwOjAwG5Zb8wAAAABJRU5ErkJggg==",
+"ribbit1",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACNSURBVDhPpZLRDYAgDESL+w/hDA5kYpzBb+TQllKsEnzJxYLXs6KBiGLSMNN9HcYNiLEMpmtLEzDvhzSghgD2uLbAnZUM+crwPqM9SnUzxHhrEyLFU3oj62k+4/UgnxDQUqgO8asZWI8E6BvLumUxdq29EmBHe0N75Qx6xtdwiPsn9vL7FX5PIGcwBtEJLmyMM1ydte0AAAAASUVORK5CYII=",
+"ribbit2",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACLSURBVDhPrZLRDYAgDESLe7i4e7iMA/jjEMghLaWIGvAlFwpeT1J1ROSDupnS2k0zwPt8MV1bqoB1n6UBNQRwxrUF7qhgiCvD54z2KJXNENPamxAp7tIrWU/1Ga8XtXEOLZliiG/NwHokQD9YtiOKsXvtHf6RZAZfrq/hWQzfQALsdJ/Q3v9m0AfRCS4AhGUO3IEWAAAAAElFTkSuQmCC",
+"ribbit3",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACKSURBVDhPrZJhDoAgCIWxi3aK7tk6Tf8IERExq2nfxnzaAxkWAAAphllkHaZbALE0ZrWnKYD7qgmsKVjTWdae6OYgQ1oFPResx0SdzFro7usiKu6qN+E9zTOmi/qEEFMK1RDfkiPeowXsh/PYODJ+b73TP5LO4Ev7ljyL6Q7+K+Cf5wnr1RmMAXABmTKIgTzNzDMAAAAASUVORK5CYII=",
+"ribbit4",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACFSURBVDhPrZNhDoAgCIWxi/S3+1/Bg6lPQwF1Oe3b3kT3IMJyRBSStrnedZtpgRBaYzK2dAW89zUBMQRwxrEF7qxkyCvD54z0COlkiJntTZEajKp3sp7uGsuD5jiHlIYa4lcysJ7xNd5PEWP3guMPSc1g5RWAnMNxB/8VWG0fSO/h70wUAe60gakhj53QAAAAAElFTkSuQmCC",
+"fox1",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAC/SURBVDhPnZIxDsIwDEUdrsCKxMLAxswROAMbA4eiB4IVZkZWzhDynTqy3ShNedKX3cR17MSBiGLS36xGW+W72bHmQAUTpR+rvlezgh4mdxBjpBCwnFsA68+brd7TlHJQqqDXIcG3Y1o4Xc5scUqKZR/Al5MR87zf2BdMxjkQkxKUeFNB3m8jMVJF/RW2+yzBfytKgp7TwesxsD0cr2wB97IEfQclAdSLfkozSGlv9NroYTKXWJsyj48xFSyH6Acd/+iHYY/0zgAAAABJRU5ErkJggg==",
+"fox2",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACrSURBVDhPY2RgYPgPxGQDJiiNFcy8+QqMCQGQCzAwUCNWNjrG6wJiAEYY/P//n4GRESQM8QIIpKuLgWlkORjAagAIoCvEJY7dC7MWwzWAAJgNFMMGcLoAF8DrAkKaQQBdDVYvMG6GYBhA5yMDsqIR2RXwMCDG+cgAFhZwFxw5cgTKIh38r6+v//9WRgVMEwNAemAY7AWgZiAFAUKPb0NZuAFyVMLDgDzAwAAA/+198gkJBYcAAAAASUVORK5CYII=",
+"fox3",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACmSURBVDhPnZLLEYQwCIbBuy04dmFD20fG03ZkD3bhzQK2ABbyGkRc3XwzTJAE/ElAACC2Zrq8uqw0RrtDFJyME13f2k8FTzjdAREBooRTC8KEW1z1XsEtINiDV3G/hQ/WBCH6HPOoBUII2WP6lCyJtVCOWQ4K9F+vsGfcFpZ9iFaw35qmZ3zPr+wlRBPxHbC655S8JgWapgJ6Fg4F7JB43E7ifwB8ASi1fL1H90jKAAAAAElFTkSuQmCC",
+"fox4",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAC/SURBVDhPnZI9DsIwDIUdDoLaGWYkToMEh+Ec7C3XQGKGuR25BeSZ2DhpWpp+kmXn5yXuaxwRvX0sZhVylvNrzfEPdDAIL8zWaUx2MJfoRCA1bra327VHVXEemPjdQ+Qcln7YeS/mGmQ/4dqeVABQYw5Y8bbvabSDMZ51zRliAQqOubTNUTVRB36N8+G+53zZ3TinYyAeqQciLkU7KD0g6gDOisuluPAgmE3XhWoa+0bUA/6nyePJke5RD5ZB9AHCAJchucsCAQAAAABJRU5ErkJggg==",
 "rio",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAIZUExURf////n5+bSzs3VzcmRgYGVhYZOQkN3c3P7+/qKhoUVDQk1JR1RPTlZRUVxXV29sbNfW1tLS0kFAPzw5OEpGRFVSUVNPTlBMS0E9PHh2dff29oqKiignJzY1NEVCQE5KSE9MSkZDQjIxMDg3N8zMzPT09FZWViQjIywsLDc2NTw5OTw6OTc1NDExMTU1NZeXl93d3Tg4OCIiIicnJysqKjAvLy8uLkNDRG1tbf39/cTExCkpKTMvL09DQ1NHR1lKSUc4OVtMS0lBQF5cXPLy8qWlpSMjIywoKGdISad/fr6mosiopJxjZJ56ea6Sj2FaWuLi44ODgyEhIT45OcCinubDvf3u5fvr4u7Sy+nY0H50cDAwL9DQ0PX19WBgYDMxMce9tv/47vvt4/7z6bKqpCUlJbi4uNra2j4+PiQkJWVfYOXXz/ro3vvq4N7PyF5ZXCYmJyAgIZubm6ysrCkoKCYmJiQkJDY2O3x0dtrIwtzLxJKFhUFBSC0tMCQkJnd3ePr6+nJycicnKGpqbqajpamnqJycnk1NUCsrLlZWV+/v79PT0zs7OywsLioqLWtrbqamqbm5u5mZm1NTUzAvMCoqKkJCRMjIyH5+ficmJy0tLykpK4KChNDQ0tra29jY2Xp5elRTUzg3ODQzNHBwcDIyMi4tMCcoKSUlJoeHiOvs7PX29vP09NPU1F5eXkVEREdHRzk5OcvLy62uebkAAAABYktHRACIBR1IAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAB3RJTUUH5wgPADsElFnxLAAAAPFJREFUGNNjYAACRiZmFlY2dgYY4ODk4ubh5eMXgAkICgmLiIqJS0hKQQWkZWTl5BUUlZRVIHxVNXUNTS1tHV09fYiAgaGRsYmpmYmyuYUlWMDKWt3G1s7ewdHJ2QUs4Orm7uHp5e3j6+cfABYIDAoOCQ0Lj4iMio4B8WPjjOITEpOSE1NSjdJAAukZ6plZ2Tm5efkFhUUggeKS0rLyisqq6praunoOBoaGRqMmo/Lmlta29o6mzi4Ghu4e416jvv4JEydNnjJ12nQGhhkzZ83WmDN33vwFCxeZLF6iyrB02fIVK1etXrN23foNumUbNwEABlhClE/6e2YAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDgtMTVUMDA6NTg6MzgrMDA6MDAeWmVQAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTA4LTE1VDAwOjU4OjM4KzAwOjAwbwfd7AAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyMy0wOC0xNVQwMDo1OTowNCswMDowMJ7/+poAAAAASUVORK5CYII=",
 "yuuka",

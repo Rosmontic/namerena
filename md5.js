@@ -11964,7 +11964,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
-			_SRT = 1
+			_.SRT = 1
 			_.ri = 0
             _.k2 = _.k1 = null
             _.k3 = f
@@ -12004,7 +12004,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
-			_SRT = 2
+			_.SRT = 2
 			_.ri = 0
             _.k2 = _.k1 = null
             _.k3 = f
@@ -12044,7 +12044,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
-			_SRT = 3
+			_.SRT = 3
 			_.ri = 0
             _.k2 = _.k1 = null
             _.k3 = f
@@ -12124,7 +12124,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
-			_SRTs = 1
+			_.SRTs = 1
 			_.fo = 0
             _.k2 = _.k1 = null
             _.k3 = f
@@ -12165,7 +12165,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.go = 1
             _.id = e
 			_.fo = 0
-			_SRTs = 2
+			_.SRTs = 2
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -12204,7 +12204,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
-			_SRTs = 3
+			_.SRTs = 3
 			_.fo = 0
             _.k2 = _.k1 = null
             _.k3 = f
@@ -12244,7 +12244,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
-			_SRTs = 4
+			_.SRTs = 4
 			_.fo = 0
             _.k2 = _.k1 = null
             _.k3 = f
@@ -20721,10 +20721,11 @@ T.thb8s1.prototype = {
 			d.a.push(T.e("[0]：[Ribbit3，随时准备开火哦 ~]", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.SRT == 4){
+			o.go = o.go * 1.75
             o.cx = o.cx * 0.75
 			o.cy = o.cy * 6
 			o.f = o.f + 1024
-			d.a.push(T.e("[0]：[Ribbit4，掩护射击...交给我吧。]", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]：[Ribbit4，掩护射击...交给我吧...]", o, o, null, null, 0, 1000, 100))
 			}
             }
             
@@ -35103,15 +35104,15 @@ C.yeya = H.a(u([18, -46, -11, -82, 19, -70, 940, 99749]), [P.j])
 "ribbit3",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABaSURBVDhPY/x/n/M/AwWACUqTDTBdoPANygCCB1wQGpsYFFDsAuwGoNkCBtjEgIDGYYANEBUGIEXICtH5SGCweoEEMNgMIOR/EEBTgzCAGM0wgKSWwuzMwAAAr9QgbvMBONYAAAAASUVORK5CYII=",
 "ribbit4",
-"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABcSURBVDhPY/yqZ/ifgQLABKXJBhgu4Lp4DspiYPimbwSmsYnBAMUuwGoAui0ggE0MBGgbBtgAUWEAUoSsEJ2PDAapF0gBg8wAQv4HAXQ1cAOI0QwDyGopzM4MDAABaiZpQmgTuwAAAABJRU5ErkJggg==",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABiSURBVDhPY/yqZ/ifgQLABKXJBhgu4Lp4DspiYPimbwSmsYnBAMUuwGoAui0ggE0MBGgbBtgAUWEAUoSsEJ2PDAaxF4gFWA0g5ApkQHEYoBhAjM3oauAGkOJsZLUUZmcGBgDlrilpBtD8xgAAAABJRU5ErkJggg==",
 "fox1",
-"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAC/SURBVDhPnZIxDsIwDEUdrsCKxMLAxswROAMbA4eiB4IVZkZWzhDynTqy3ShNedKX3cR17MSBiGLS36xGW+W72bHmQAUTpR+rvlezgh4mdxBjpBCwnFsA68+brd7TlHJQqqDXIcG3Y1o4Xc5scUqKZR/Al5MR87zf2BdMxjkQkxKUeFNB3m8jMVJF/RW2+yzBfytKgp7TwesxsD0cr2wB97IEfQclAdSLfkozSGlv9NroYTKXWJsyj48xFSyH6Acd/+iHYY/0zgAAAABJRU5ErkJggg==",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAADUSURBVDhPY3RwcPjPQAFggtJYwdo7T8AYH8BpAEhjsIoMGOMzBK8LiAEYBuzfvx9Mw2yGuQQEYHLIAMUAmFORDUHXjO4dFAM8k6LBtLcWH4ptIDZIDARAaia2R4HZIIBiANehg2B667VPYBqkEWYQTAymBgZQDEC2FReAqYG5AiMQwUBeA4JhAJ2PBOAGEGM7CFw6MRtM51cuA9NwA97JqkJZQPDwBgTDABJfzyIVTMMAdi8QADKhXVAWkgGw+CYGIKtFcYGjoyOUhRugq6EwOzMwAAAMilKFLFXM+AAAAABJRU5ErkJggg==",
 "fox2",
-"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACrSURBVDhPY2RgYPgPxGQDJiiNFcy8+QqMCQGQCzAwUCNWNjrG6wJiAEYY/P//n4GRESQM8QIIpKuLgWlkORjAagAIoCvEJY7dC7MWwzWAAJgNFMMGcLoAF8DrAkKaQQBdDVYvMG6GYBhA5yMDsqIR2RXwMCDG+cgAFhZwFxw5cgTKIh38r6+v//9WRgVMEwNAemAY7AWgZiAFAUKPb0NZuAFyVMLDgDzAwAAA/+198gkJBYcAAAAASUVORK5CYII=",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACvSURBVDhPY3RwcPjPQAFggtJYQeTMVWCMD+A0AKRxeXoYGOMzBK8LiAEYBuzfvx9Mw2yGuQQEYHLIAKsLkA3BpxkEsHth1mIUDWA2UAwbwIhGXDbBgKOjI5QFAdQNRJjtjJshGAaQ+eguJMsFyIbADUAW/O8LwTCAzkcGcAOOHDkCZREG72RVoSyoAfb29gxakYkMDQ0NYEFCIFhFBsqCGpA3dymYA6NJARRmZwYGAIgoRcdaHJwXAAAAAElFTkSuQmCC",
 "fox3",
-"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACmSURBVDhPnZLLEYQwCIbBuy04dmFD20fG03ZkD3bhzQK2ABbyGkRc3XwzTJAE/ElAACC2Zrq8uqw0RrtDFJyME13f2k8FTzjdAREBooRTC8KEW1z1XsEtINiDV3G/hQ/WBCH6HPOoBUII2WP6lCyJtVCOWQ4K9F+vsGfcFpZ9iFaw35qmZ3zPr+wlRBPxHbC655S8JgWapgJ6Fg4F7JB43E7ifwB8ASi1fL1H90jKAAAAAElFTkSuQmCC",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAC4SURBVDhPpZPBDcMgDEVJ7zl0gZ66B1hC6hodhVE6Ra+IaXrMoQO08S+OCAUrbZ5k2Qb8MYEMzrmX2cEh+ya3OME0ugJceKUjTBNRO9jCl0CMEV52lk4YmStpdlCKaMVM+wjPYVWAeB5rsQhYa3M0M35ulgsXoTxWAwEp7rVZUq+BgPceiXB/nGBCnZesvkEIIUc6FzrnyBg8ZTnCVgGGiODbt/ADfwnI7gwEUkpIyoke9Zqdv7Mxb6SbRKeDB/3SAAAAAElFTkSuQmCC",
 "fox4",
-"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAC/SURBVDhPnZI9DsIwDIUdDoLaGWYkToMEh+Ec7C3XQGKGuR25BeSZ2DhpWpp+kmXn5yXuaxwRvX0sZhVylvNrzfEPdDAIL8zWaUx2MJfoRCA1bra327VHVXEemPjdQ+Qcln7YeS/mGmQ/4dqeVABQYw5Y8bbvabSDMZ51zRliAQqOubTNUTVRB36N8+G+53zZ3TinYyAeqQciLkU7KD0g6gDOisuluPAgmE3XhWoa+0bUA/6nyePJke5RD5ZB9AHCAJchucsCAQAAAABJRU5ErkJggg==",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAADFSURBVDhPY3RwcPjPQAFggtJYgfuKe2CMD+A0AKRxZ4QSGKMbMuXBAzAGAbwuwAZgGkEAxMYwYP/+/WAaZjPMJSAAk0MGWF2AbAg+zSCA1YB1a5NRNIDYIDF0kKOgwIARjbhsgoGriopgGqQZBFBcQEgzCGjfv89ws8cJysPhhfhTlmAMA+j8oOC5UBaSAcTYjg2AwwAUnyCnkQIcHR3BNNwF2EKZGAA3QL1kH5RFGMBsBwGwAbAogUURPoCsGQQozM4MDACW51Iz925UsAAAAABJRU5ErkJggg==",
 "rio",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAIZUExURf////n5+bSzs3VzcmRgYGVhYZOQkN3c3P7+/qKhoUVDQk1JR1RPTlZRUVxXV29sbNfW1tLS0kFAPzw5OEpGRFVSUVNPTlBMS0E9PHh2dff29oqKiignJzY1NEVCQE5KSE9MSkZDQjIxMDg3N8zMzPT09FZWViQjIywsLDc2NTw5OTw6OTc1NDExMTU1NZeXl93d3Tg4OCIiIicnJysqKjAvLy8uLkNDRG1tbf39/cTExCkpKTMvL09DQ1NHR1lKSUc4OVtMS0lBQF5cXPLy8qWlpSMjIywoKGdISad/fr6mosiopJxjZJ56ea6Sj2FaWuLi44ODgyEhIT45OcCinubDvf3u5fvr4u7Sy+nY0H50cDAwL9DQ0PX19WBgYDMxMce9tv/47vvt4/7z6bKqpCUlJbi4uNra2j4+PiQkJWVfYOXXz/ro3vvq4N7PyF5ZXCYmJyAgIZubm6ysrCkoKCYmJiQkJDY2O3x0dtrIwtzLxJKFhUFBSC0tMCQkJnd3ePr6+nJycicnKGpqbqajpamnqJycnk1NUCsrLlZWV+/v79PT0zs7OywsLioqLWtrbqamqbm5u5mZm1NTUzAvMCoqKkJCRMjIyH5+ficmJy0tLykpK4KChNDQ0tra29jY2Xp5elRTUzg3ODQzNHBwcDIyMi4tMCcoKSUlJoeHiOvs7PX29vP09NPU1F5eXkVEREdHRzk5OcvLy62uebkAAAABYktHRACIBR1IAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAB3RJTUUH5wgPADsElFnxLAAAAPFJREFUGNNjYAACRiZmFlY2dgYY4ODk4ubh5eMXgAkICgmLiIqJS0hKQQWkZWTl5BUUlZRVIHxVNXUNTS1tHV09fYiAgaGRsYmpmYmyuYUlWMDKWt3G1s7ewdHJ2QUs4Orm7uHp5e3j6+cfABYIDAoOCQ0Lj4iMio4B8WPjjOITEpOSE1NSjdJAAukZ6plZ2Tm5efkFhUUggeKS0rLyisqq6praunoOBoaGRqMmo/Lmlta29o6mzi4Ghu4e416jvv4JEydNnjJ12nQGhhkzZ83WmDN33vwFCxeZLF6iyrB02fIVK1etXrN23foNumUbNwEABlhClE/6e2YAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDgtMTVUMDA6NTg6MzgrMDA6MDAeWmVQAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTA4LTE1VDAwOjU4OjM4KzAwOjAwbwfd7AAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyMy0wOC0xNVQwMDo1OTowNCswMDowMJ7/+poAAAAASUVORK5CYII=",
 "yuuka",

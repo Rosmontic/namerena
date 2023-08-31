@@ -30048,7 +30048,9 @@ T.yeya.prototype = {
         t.r = this
         this.k2 = t
         t = this.id
-		
+		u =new T.kg()
+        u.f = 300
+        t.push(u
         
         
 }
@@ -33347,6 +33349,7 @@ dk: function(a, b, c, d, e, f, g) {
 	T.kg.prototype = {
         aK: function(a, b, c, d) {
             var u, t, s, r = this
+			d.a.push(T.e(O.c("vVob"), this.r , this.r, null, null, 1, 1000, 100))
             return 0
         },
         T: function() {

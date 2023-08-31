@@ -30050,7 +30050,7 @@ T.yeya.prototype = {
         t = this.id
 		u =new T.kg()
         u.f = 300
-        t.push(u
+        t.push(u)
         
         
 }

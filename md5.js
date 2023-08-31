@@ -12084,7 +12084,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
-			_SRT = 4
+			_.SRT = 4
 			_.ri = 0
             _.k2 = _.k1 = null
             _.k3 = f
@@ -30032,9 +30032,7 @@ T.nue.prototype = {
         t.r = this
         this.k2 = t
         t = this.id
-        u = new T.kg()
-        u.f = 256
-        t.push(u)
+        
         
 }
 }
@@ -33349,8 +33347,7 @@ dk: function(a, b, c, d, e, f, g) {
 	T.kg.prototype = {
         aK: function(a, b, c, d) {
             var u, t, s, r = this
-            d = fdf
-            return a
+            return 0
         },
         T: function() {
             this.r.ry.i(0, this)

@@ -14375,7 +14375,7 @@ tha4b1: function tha4b1() {
             if (t !== -1)
                 u.receiver = r[t + 1]
             return u
-        }
+        },
 		rD: function(a) {
             var u, t, s = this, r = new RegExp(s.a).exec(a)
             if (r == null)
@@ -26039,7 +26039,7 @@ n.r.bf(n.r.fr, null, c, d)
             if (b) {
                 if (!(a.fr < 100)) {
                     u = a.r1
-                    u = u.G(0, $.rD()) && H.o(u.h(0, $.rD()), "$rD1").z > 1
+                    u = u.G(0, $.rD()) && H.o(u.h(0, $.rD()), "$isD").z > 1
                 } else
                     u = !0
                 if (u)

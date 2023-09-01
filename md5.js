@@ -30231,9 +30231,7 @@ T.yeya.prototype = {
         t.r = this
         this.k2 = t
         t = this.id
-		u =new T.kg()
-        u.f = 300
-        t.push(u)
+		
         
         
 }

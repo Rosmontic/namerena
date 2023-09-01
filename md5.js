@@ -26034,23 +26034,6 @@ n.r.bf(n.r.fr, null, c, d)
         }
 }   
     T.ribbit4n2.prototype = {
-        am: function(a, b) {
-            var u
-            if (b) {
-                if (!(a.fr < 100)) {
-                    u = a.r1
-                    u = u.G(0, $.rD()) && H.o(u.h(0, $.rD()), "$isD").z > 1
-                } else
-                    u = !0
-                if (u)
-                    return !1
-            }
-            return !0
-        },
-        a8: function(a, b, c) {
-            var u = this.bX(a, b, c, !0)
-            return a.r1.h(0, $.rD()) != null ? u / 2 : u
-        },
         t: function(a, b, c, d) {
             var u, t, s = this, r = null, q = a[0].a, p = d.a
             p.push(T.e("[0]：Lock on！", s.r, q, r, r, 0, 1000, 100))

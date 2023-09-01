@@ -22574,6 +22574,33 @@ T.tha9n3.prototype = {
             p.push(T.e(C.c.K(O.c("TxmT"), $.nf()), s.r, q, r, r, 0, 1000, 100))
         }
 }   
+    T.ribbit4n2.prototype = {
+        ar: function(a, b) {
+            if (a.r1.h(0, "locks") != null )
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
+        t: function(a, b, c, d) {
+            var u, t, s = this, r = null, q = a[0].a, p = d.a
+            p.push(T.e("[0]对[1]使用[胆怯者的观测]", s.r, q, r, r, 1, 1000, 100))
+            u = s.r
+            u.j = u.j + u.cy
+            u = q.r1
+            t = H.o(u.h(0, "locks"), "$ilockx")
+            if (t == null) {
+                t = new T.lockx(q)
+                t.y = new T.ay(t)
+                u.k(0, "locks", t)
+                q.r2.i(0, t)
+                q.x1.i(0, t.y)
+                q.E()
+            } else
+                t.Q += 3
+            p.push(T.e("[1]被[锁定]了", s.r, q, r, r, 0, 1000, 100))
+        }
+}
 T.tha4n3.prototype = {
         b5: function(a) {
             return a.b1(this.r.y.f)
@@ -26070,48 +26097,7 @@ n.r.bf(n.r.fr, null, c, d)
             p.push(T.e(C.c.K(O.c("clnM"), $.nk()), s.r, q, r, r, 60, 1000, 100))
         }
 }   
-    T.ribbit4n2.prototype = {
-        gb3: function() {
-            return 1
-        },
-        gb4: function() {
-            return 1
-        },
-        t: function(a, b, c, d) {
-            var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
-			this.f = 0
-            for (u = 0; u < a.length; ++u)
-                n.push(a[u].a)
-            k = "[0]使用[胆怯者的观测]"
-            s = this.r
-            r = H.a(n.slice(0), [H.n(n, 0)])
-            q = d.a
-            q.push(T.e(k, s, null, null, r, 1, 1000, 100))
-            
-            for (u = 0; u < n.length; ++u) {
-                o = n[u]
-            
-            q.push($.v())
-            o.j = o.j + o.cx
-            t = H.o(o.r1.h(0, "locks"), "$ilockx")
-            if (t == null) {
-                t = new T.lockx(o)
-                t.y = new T.ay(t)
-                o.r1.k(0, "locks", t)
-                o.r2.i(0, t)
-                o.x1.i(0, t.y)
-                o.E()
-				d.a.push(T.e("[0]的被[锁定]了", o, o, null, null, 0, 1000, 100))
-            } 
-			else{
-                t.Q += 3  
-				}
-            d.a.push(T.e("[0]的被[锁定]了", o, o, null, null, 0, 1000, 100))
-				
-            }
-            
-        }
-}
+
     T.thb7n2.prototype = {
         am: function(a, b) {
             var u

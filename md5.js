@@ -26036,20 +26036,13 @@ n.r.bf(n.r.fr, null, c, d)
     T.ribbit4n2.prototype = {
         t: function(a, b, c, d) {
             var u, t, s = this, r = null, q = a[0].a, p = d.a
-            p.push(T.e("[0]：Lock on！", s.r, q, r, r, 0, 1000, 100))
+            p.push(T.e("[0]：[Lock on！]", s.r, q, r, r, 0, 1000, 100))
 			d.a.push($.v())
 			p.push(T.e("[0]对[1]使用[胆怯者的观测]", s.r, q, r, r, 0, 1000, 100))		
-            if (!q.a6($.rD(), c))
-                u = q.fr > 0 && !q.A && T.bd(4 * s.r.cy, q.cy, c)
-            else
-                u = !0
-            if (u) {
-                p.push(T.e("[0]避免了锁定", q, s.r, r, r, 20, 1000, 100))
-                return
-            }
             q.j = q.j - (q.cx + 64)
             u = q.r1
             t = H.o(u.h(0, $.rD()), "$isD")
+			p.push(T.e("[0]对[1]使用[1ss]", s.r, q, r, r, 0, 1000, 100))
             if (t == null) {
                 t = new T.sD(q)
                 t.y = new T.ay(t)

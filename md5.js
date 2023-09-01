@@ -26072,18 +26072,11 @@ n.r.bf(n.r.fr, null, c, d)
 }   
     T.ribbit4n2.prototype = {
         gb3: function() {
-            return 1
+            return 2
         },
         gb4: function() {
-            return 1
+            return 2
         },
-		ar: function(a, b) {
-            if (this.r.r1.h(0, "locks") != null )
-            { 
-                return !1
-            }
-			return this.aS(a, b)
-		},
         t: function(a, b, c, d) {
             var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
 			
@@ -26097,7 +26090,7 @@ n.r.bf(n.r.fr, null, c, d)
             
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
-            if(!!o.$iav ){
+            
             q.push($.v())
             o.j = o.j + o.cx
             t = H.o(o.r1.h(0, "locks"), "$ilockx")
@@ -26110,8 +26103,8 @@ n.r.bf(n.r.fr, null, c, d)
                 o.E()
             } else
                 t.Q += 3  
-            d.a.push(T.e("[0]的被[锁定]了", o, o, null, null, 0, 1000, 100))	
-			}	
+            d.a.push(T.e("[0]的被[锁定]了", o, o, null, null, 0, 1000, 100))
+				
             }
             
         }

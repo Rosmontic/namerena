@@ -26072,14 +26072,17 @@ n.r.bf(n.r.fr, null, c, d)
 }   
     T.ribbit4n2.prototype = {
         gb3: function() {
-            return 2
+            return 1
         },
         gb4: function() {
-            return 2
+            return 1
+        },
+		b5: function(a) {
+            return a.b1(this.r.y.f)
         },
         t: function(a, b, c, d) {
             var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
-			
+			this.f = 0
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
             k = "[0]使用[胆怯者的观测]"

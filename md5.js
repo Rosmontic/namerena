@@ -25966,7 +25966,7 @@ n.r.bf(n.r.fr, null, c, d)
             var u = this.x
             u.dx = C.b.v(u.dx,5)
 			u.ch = C.b.v(u.ch,5)
-			u.J =  u.J * 5
+			
         },
         aq: function(a, b) {
             if (--this.z === 0)
@@ -26034,15 +26034,19 @@ n.r.bf(n.r.fr, null, c, d)
         }
 }   
     T.ribbit4n2.prototype = {
+	    a8: function(a, b, c) {
+            var u = this.bX(a, b, c, !0)
+            return a.r1.h(0, $.rD()) != null ? u / 2 : u
+        },
         t: function(a, b, c, d) {
             var u, t, s = this, r = null, q = a[0].a, p = d.a
             p.push(T.e("[0]：[Lock on！]", s.r, q, r, r, 0, 1000, 100))
 			d.a.push($.v())
-			p.push(T.e("[0]对[1]使用[胆怯者的观测]", s.r, q, r, r, 0, 1000, 100))		
+			p.push(T.e("[0]对[1]使用[胆怯者的观测]", s.r, q, r, r, 1, 1000, 100))		
             q.j = q.j - (q.cx + 64)
             u = q.r1
             t = H.o(u.h(0, $.rD()), "$isD")
-			p.push(T.e("[0]对[1]使用[1ss]", s.r, q, r, r, 0, 1000, 100))
+			p.push(T.e("[0]对[1]使用[胆怯者的观测]", s.r, q, r, r, 0, 1000, 100))
             if (t == null) {
                 t = new T.sD(q)
                 t.y = new T.ay(t)

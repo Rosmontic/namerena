@@ -22575,13 +22575,18 @@ T.tha9n3.prototype = {
         }
 }   
     T.ribbit4n2.prototype = {
-        ar: function(a, b) {
-            if (a.r1.h(0, "locks") != null )
-            { 
-                return !1
+        am: function(a, b) {
+            var u
+            if (b) {
+                if (a.fr < 40)
+                    return !1
+                u = a.r1
+                if (u.h(0, "locks"()) != null )
+                    return !1
+                return !a.$iav
             }
-			return this.aS(a, b)
-		},
+            return !0
+        },
         t: function(a, b, c, d) {
             var u, t, s = this, r = null, q = a[0].a, p = d.a
             p.push(T.e("[0]对[1]使用[胆怯者的观测]", s.r, q, r, r, 1, 1000, 100))

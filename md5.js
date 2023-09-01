@@ -26077,9 +26077,6 @@ n.r.bf(n.r.fr, null, c, d)
         gb4: function() {
             return 1
         },
-		b5: function(a) {
-            return a.b1(this.r.y.f)
-        },
         t: function(a, b, c, d) {
             var k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
 			this.f = 0
@@ -26104,8 +26101,11 @@ n.r.bf(n.r.fr, null, c, d)
                 o.r2.i(0, t)
                 o.x1.i(0, t.y)
                 o.E()
-            } else
+				d.a.push(T.e("[0]的被[锁定]了", o, o, null, null, 0, 1000, 100))
+            } 
+			else{
                 t.Q += 3  
+				}
             d.a.push(T.e("[0]的被[锁定]了", o, o, null, null, 0, 1000, 100))
 				
             }

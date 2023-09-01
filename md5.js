@@ -22615,7 +22615,7 @@ T.tha9n3.prototype = {
     }
 	T.lockx.prototype = {
         gR: function() {
-            return 1
+            return -1
         },
         al: function(a) {
             var u = this.x
@@ -27721,7 +27721,7 @@ T.tha1b1.prototype = {
     T.ribbit4b1.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n ,m
-		this.yin = 0
+		this.r.yin = 0
 		e.a.push(T.e("[0]：[好痛！]", this.r, null, null, null, 1, 1000, 100))
         return u && J.Q(c, T.mA()) ? C.b.v (a, 1) : C.b.v (a, 1)
     },

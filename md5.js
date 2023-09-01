@@ -12118,6 +12118,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.go = 1
             _.id = e
 			_.SRT = 4
+			_.yin = 0
 			_.ri = 0
             _.k2 = _.k1 = null
             _.k3 = f
@@ -22478,7 +22479,7 @@ T.tha9n3.prototype = {
             u.r1.S(0,"locks")
             this.y.C()
             u.E()
-			a.id[1].f = 100
+			
             if (u.fr > 0) {
                 t = b.a
                 t.push($.v())
@@ -26117,7 +26118,6 @@ n.r.bf(n.r.fr, null, c, d)
             k = "[0]使用[胆怯者的观测]"
             s = this.r
             q = d.a
-			this.f = 0
             q.push(T.e(k, s, null, null, r, 1, 1000, 100))           
             o = a[0].a
             q.push($.v())

@@ -33853,11 +33853,12 @@ dk: function(a, b, c, d, e, f, g) {
             var v ,u, t, s = this
             if (c.fr <= 0)
                 return a
-            v = 128 + this.r.yin * 16
+            v = 64 + this.r.yin * 16
             if (f.m() < v && s.r.bq(f)) {
-                g.a.push(T.e(C.c.K("[0]：藏起来了！", $.nj()), s.r, c, null, null, 20, 1500, 100))
+                g.a.push(T.e("[0]：藏起来了！", s.r, c, null, null, 1, 1000, 100))
+                g.a.push(T.e("[0]回避了攻击", s.r, c, null, null, 0, 1000, 100))
                 t = s.r
-                t.j = t.j
+                t.j = t.j + 256
                 return 0
             }
             return a

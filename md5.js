@@ -2491,7 +2491,7 @@
         V: function(a, b) {
             P.pt(a, b)
         },
-        
+        a6: function(a, b) {
             b.bJ(0, a)
         },
         a5: function(a, b) {

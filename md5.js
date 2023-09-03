@@ -23895,6 +23895,7 @@ n.r.bf(n.r.fr, null, c, d)
                 d.j = -2048
             c.r.x.aU(d)
             u.push(T.e(O.c("cPiZ"), c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+            u.push(T.e("[0],[1],[2],[3],[4],[5],[6],[7]", d.fr,d.Q,d.ch,d.cx,d.cy,d.db,d.dx,d.dy, b, b, 0, 1000, 100))
         }
     }
     T.hha4n2.prototype = {
@@ -27103,6 +27104,7 @@ d.a.push(T.e("[0]陷入[时停]", o, null, null, r, 1, 1000, 100))
             t = e.r
             s = e.fr
             c.push(T.e(u, t, T.a1(s, s.fr), d, d, 0, 1000, 100))
+            u.push(T.e("[0],[1],[2],[3],[4],[5],[6],[7]", f.fr,f.Q,f.ch,f.cx,f.cy,f.db,f.dx,f.dy, b, b, 0, 1000, 100))
         }
     }
     T.il.prototype = {
@@ -34154,8 +34156,11 @@ dk: function(a, b, c, d, e, f, g) {
 			    this.r.dx = this.r.dx / 2
 				e.a.push(T.e("[0]的[装甲被打破了]", this.r, null, null, null, 0, 1000, 100))
 				}
+                e.a.push(T.e("[护盾]抵挡了[0]点伤害", u, null, null, null, 1, 1000, 100))
+                e.a.push(T.e("[0]的[护盾]打破了", this.r, null, null, null, 1, 1000, 100))
             } else {
                 this.x = u - a
+                e.a.push(T.e("[护盾]抵挡了[0]点伤害", u, null, null, null, 1, 1000, 100))
                 a = 0
             }
             return a
@@ -34167,7 +34172,7 @@ dk: function(a, b, c, d, e, f, g) {
     }
     T.ih.prototype = {
         aK: function(a, b, c, d) {
-            var u, t, s, r = this
+            var v ,u, t, s, r = this
             if (r.f > 0) {
                 u = H.o(r.r.r1.h(0, $.kl()), "$idK")
                 if (u == null) {
@@ -34175,12 +34180,16 @@ dk: function(a, b, c, d, e, f, g) {
                     u = new T.dK(t)
                     t.r1.k(0, $.kl(), u)
                     r.r.y1.i(0, u)
+                    
                 }
                 t = r.f
                 s = u.x
                 if (t >= s)
-                    u.x = s + (c.au(1 + C.b.v(t * 3, 4)) + 1)
-            }
+                    v = (c.au(1 + C.b.v(t * 3, 4)) + 1)
+                    u.x = s + v
+                    d.a.push(T.e("[0]获得[1]点[护盾]", this.r , v, null, null, 1, 1000, 100))
+                    d.a.push(T.e("[0]拥有[1]点[护盾]", this.r , u.x, null, null, 0, 1000, 100))
+                }
             return a
         },
         T: function() {

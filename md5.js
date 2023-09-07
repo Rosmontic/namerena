@@ -34928,11 +34928,11 @@ dk: function(a, b, c, d, e, f, g) {
 			this.r.R2.id[2].f = 55
 			this.r.R3.j = this.r.R3.j +1024
 			d.a.push(T.e("ribbit2，Volume up！", this.r.R2 , this.r, null, null, 0, 1000, 100))
-			}	
+			}
 			else if(this.r.R2.fr < 0.5 * this.r.R2.fx && this.r.r12 == 1)
 			{
-			this.r.R2.ch = this.r.R2.ch * 1.25
-			this.r.R2.dx = this.r.R2.dx * 1.25
+			this.r.R2.ch = this.r.R2.ch * 1.5
+			this.r.R2.dx = this.r.R2.dx * 1.5
 			this.r.R2.id[1].f = 300
             this.r.r12 = 0
 			d.a.push(T.e("ribbit2，Cover！", this.r.R2 , this.r, null, null, 0, 1000, 100))

@@ -7783,6 +7783,13 @@ if (a == "patchouli") {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
+		fox1n3: function fox1n3() {
+            var _ = this
+            _.fy = _.fx = _.fr = null
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
 		arisn2: function arisn2() {
             var _ = this
             _.fy = _.fx = _.fr = null
@@ -8121,6 +8128,30 @@ tha5n1: function tha5n1() {
             _.c = _.b = _.a = _.r = null
         },
 		noak: function noak() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		fox3n2: function fox3n2() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		fox3a1: function fox3a1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		fox1a1: function fox1a1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		fox1n1: function fox1n1() {
             var _ = this
             _.e = !1
             _.f = 0
@@ -8490,7 +8521,7 @@ tha7n1: function tha7n1() {
             var _ = this
             _.x = a
             _.y = null
-            _.z = 5
+            _.z = 10
             _.Q = 3
             _.c = _.b = _.a = null
         },
@@ -8514,7 +8545,7 @@ tha7n1: function tha7n1() {
             var _ = this
             _.x = a
             _.y = null
-            _.z = 2
+            _.z = 4
             _.Q = 4
             _.c = _.b = _.a = null
         },
@@ -8544,7 +8575,7 @@ tha7n1: function tha7n1() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
-ribbit1t1: function ribbit1t1() {
+		ribbit1t1: function ribbit1t1() {
             var _ = this
             _.e = !1
             _.f = 0
@@ -8569,6 +8600,18 @@ ribbit1t1: function ribbit1t1() {
             _.c = _.b = _.a = _.r = null
         },
 		fox1n0: function fox1n0() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		fox1n2: function fox1n2() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		fox2n3: function fox2n3() {
             var _ = this
             _.e = !1
             _.f = 0
@@ -8635,6 +8678,12 @@ ribbit1t1: function ribbit1t1() {
             _.c = _.b = _.a = _.r = null
         },
 tha4n1: function tha4n1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		fox2a1: function fox2a1() {
             var _ = this
             _.e = !1
             _.f = 0
@@ -9234,6 +9283,12 @@ tha4n1: function tha4n1() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
+		fox4n2: function fox4n2() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
 		baals1n5: function baals1n5() {
             var _ = this
             _.e = !1
@@ -9687,6 +9742,7 @@ tha4n1: function tha4n1() {
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
+			_.jixie = 1
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -9724,6 +9780,7 @@ tha4n1: function tha4n1() {
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
+			_.jixie = 1
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -9761,6 +9818,7 @@ tha4n1: function tha4n1() {
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
+			_.jixie = 1
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -9798,6 +9856,8 @@ tha4n1: function tha4n1() {
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
+			_.own = null
+			_.jixie = 1
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -9835,6 +9895,7 @@ tha4n1: function tha4n1() {
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
             _.go = 1
             _.id = e
+			_.jixie = 1
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -10177,6 +10238,18 @@ tha4n1: function tha4n1() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
+		fox4a1: function fox4a1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		fox4t1: function fox4t1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
 		ribbit2a1: function ribbit2a1() {
             var _ = this
             _.e = !1
@@ -10431,14 +10504,12 @@ tha4n1: function tha4n1() {
             _.f = 0
             _.c = _.b = _.a = _.r = null
         },
-
         tha6s1: function tha6s1() {
             var _ = this
              _.fx =_.fr = _.fy = null
             _.e = !1
             _.f = 0
             _.c = _.b = _.a = _.r = null
-
         },
 		tha11s1: function tha11s1() {
             var _ = this
@@ -10446,7 +10517,6 @@ tha4n1: function tha4n1() {
             _.e = !1
             _.f = 0
             _.c = _.b = _.a = _.r = null
-
         },
 		tha2s1: function tha2s1() {
             var _ = this
@@ -10523,6 +10593,18 @@ tha5b1: function tha5b1() {
             _.c = _.b = _.a = _.r = null
         },
 		ribbit2b1: function ribbit2b1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		fox3b1: function fox3b1() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		fox1b2: function fox1b2() {
             var _ = this
             _.e = !1
             _.f = 0
@@ -12596,7 +12678,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.a_ = t
             _.V = _.O = _.L = 0
             _.J = 32768
-            _.j = 0
+            _.j = 20480
             _.X = _.W = !1
             _.F = null
         },
@@ -12739,6 +12821,12 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.go = 1
             _.id = e
 			_.SRTs = 1
+			_.SR1 = null
+			_.SR2 = null
+			_.SR3 = null
+			_.SR4 = null
+			_.R3 = null
+			_.pfcz = 0
 			_.fo = 0
             _.k2 = _.k1 = null
             _.k3 = f
@@ -12761,7 +12849,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.a_ = t
             _.V = _.O = _.L = 0
             _.J = 32768
-            _.j = 0
+            _.j = 20480
             _.X = _.W = !1
             _.F = null
         },
@@ -12781,6 +12869,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
 			_.fo = 0
 			_.SRTs = 2
 			_.BARi = null
+			_.BARn = 0
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -12821,6 +12910,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.id = e
 			_.SRTs = 3
 			_.fo = 0
+			_.hbw = 0
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -12857,9 +12947,11 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.y = _.x = _.r = _.f = _.e = null
             _.z = 0
             _.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
-            _.go = 1
+            _.go = 1.25
             _.id = e
 			_.SRTs = 4
+			_.tager = null
+			_.aim = 0
 			_.UAVi = null
 			_.fo = 0
             _.k2 = _.k1 = null
@@ -12882,7 +12974,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
             _.q = s
             _.a_ = t
             _.V = _.O = _.L = 0
-            _.J = 32768
+            _.J = 40960
             _.j = 0
             _.X = _.W = !1
             _.F = null
@@ -13837,6 +13929,12 @@ tha4b1: function tha4b1() {
             _.c = _.b = _.a = _.r = null
         },
 		kg: function kg() {
+            var _ = this
+            _.e = !1
+            _.f = 0
+            _.c = _.b = _.a = _.r = null
+        },
+		fox1b1: function fox1b1() {
             var _ = this
             _.e = !1
             _.f = 0
@@ -20359,6 +20457,78 @@ u.push($.v())
             this.fr.C()
         }
     }
+	T.fox1n3.prototype = {
+	    b5: function(a) {
+            return a.b1(this.r.x.a.e)
+        },
+        a8: function(a, b, c) {
+            return c.gbh() * a.J
+        },
+	    gb3: function() {
+            return 100
+        },
+        gb4: function() {
+            return 100
+        },
+		ar: function(a, b) {
+            if (this.r.id[1].f > 0)
+                return !1
+			if (this.r.SR2.fr > 0 ||this.r.SR3.fr > 0 ||this.r.SR4.fr > 0 )
+                return !1
+            return this.aS(a, b)
+        },
+        t: function(a, b, c, d) {
+            var u, s, r = this, q = null, p = r.fy, l ,n, m , o , k= d.a, w ,t,v,h
+            if (p == null) {
+                r.fy = r.r
+                r.r.ry.i(0, r.fr)
+                k.push(T.e("[0][正在准备引爆液压弹]", r.r, r.fy, q, q, 1, 1000, 100))
+                this.r.j = this.r.j - 1024
+            }
+            else {
+            r.ae(0)
+			m = 0
+            n = H.a([], [T.aU])
+			this.r.pfcz = 0
+            for (u = 0; u < a.length; ++u){
+                n.push(a[u].a)}
+			h = H.a(n.slice(0), [H.n(n, 0)])
+			this.f = 0
+			k.push(T.e("[0]：[很可惜，这个弹头必须在这里起爆]", r.r, q, q, h, 0, 1000, 100))
+			k.push($.v())
+            k.push(T.e("[0]：[为了让它，与过去的责任与过去的SRT一埋葬与这深渊里......]", r.r, q, q, h, 0, 1000, 100))
+			k.push($.v())
+			k.push(T.e("[0][引爆液压弹......]", r.r, q, q, 1, 1000, 100))
+            w = T.u(r.r, !0, c) * 20
+            for (u = 0; u < a.length; ++u) {
+			o = n[u]
+            k.push($.v())
+            if (o.fr > 0 ) {
+            o.bL(w, !0, r.r, T.a3(), c, d)}               
+            }
+            
+        } 
+        },
+        ay: function(a, b, c, d) {
+            var u = d.a
+            u.push($.v())
+            u.push(T.ap("[0]被打断了", this.r, this.fy))
+            this.ae(0)
+        },
+        aK: function(a, b, c, d) {
+            var u = this.fy
+            if (u != null && u.fr > 0)
+                return this
+            else
+                this.ae(0)
+            return
+        },
+        ae: function(a) {
+            this.fy = null
+            this.fx.C()
+            this.fr.C()
+        }
+    }
 	T.baals1n2.prototype = {
 	    gb3: function() {
             return 6
@@ -21412,8 +21582,7 @@ T.thb8s1.prototype = {
 			}
             if(o.SRT == 3){
                 this.r.R3 = o
-                o.Q = o.Q * 2
-                o.J = o.J * 0.5
+                o.Q = o.Q * 3
                 d.a.push(T.e("[0]：[Ribbit3，随时准备开火哦 ~]", o, o, null, null, 0, 1000, 100))
                 }  
             if(o.SRT == 2){
@@ -21426,10 +21595,10 @@ T.thb8s1.prototype = {
                     }
             if(o.SRT == 1){
                 this.r.R1 = o
-                o.go = o.go * 1.25
-                o.cy = o.cy * 1.25
+                o.go = o.go * 1.5
+                o.cy = o.cy * 1.5
                 o.cx = o.cx * 1.25
-                o.f = o.f + 2048
+                o.f = 0
                 d.a.push(T.e("[0]：[Ribbit1，突击手，已就位。]", o, o, null, null, 0, 1000, 100)) 
             }
             }
@@ -21447,7 +21616,7 @@ T.thb8s1.prototype = {
             return a.b1(this.r.y.f)
         },
         t: function(a, b, c, d) {
-            var w, k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+            var h ,w, k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
             k = "[0]: [其疾如风！]"
@@ -21458,47 +21627,60 @@ T.thb8s1.prototype = {
             q = d.a
             q.push(T.e(k, s, null, null, r, 0, 1000, 100))
             q.push(T.e(w, s, null, null, r, 1, 1000, 100))
+			q.push($.v())
             for (u = 0; u < n.length; ++u) {
             o = n[u]
-			d.a.push($.v())
 			if(o.SRT != null){
 			if(o.SRT == 1){
 			this.r.R1 = o
-			o.cy = o.cy * 1.3
-			o.f = o.f + 1024		
+			o.cx = o.cx * 1.1
+			o.cy = o.cy * 1.1
+			o.f = o.f + 2024
+			q.push(T.e("[0]", o, null, null, r, 0, 1000, 100))
 			}
 			if(o.SRT == 2){
 			this.r.R2 = o
-			o.J = 1.5 * o.J
-			o.cy = o.cy * 1.3
-            o.f = o.f + 1024			
+			h = H.o(s.r1.h(0, "taunt"), "$itauntx")
+            if (h == null) {
+                h = new T.tauntx(s)
+                h.y = new T.ay(h)
+                s.r1.k(0, "taunt", h)
+                s.r2.i(0, h)
+                s.x1.i(0, h.y)
+                s.E()
+            }
+			o.f = o.f + 512
+			q.push(T.e("[0]", o, null, null, r, 0, 1000, 100))
 			}
 			if(o.SRT == 3){
 			this.r.R3 = o
-            o.cx = o.cx * 1.15
-			o.cy = o.cy * 1.15
+            o.cx = o.cx * 1.1
+			o.cy = o.cy * 1.1
 			o.f = o.f + 2048		
+			q.push(T.e("[0]", o, null, null, r, 0, 1000, 100))
 			}
 			if(o.SRT == 4){
 			this.r.R4 = o
-			o.cx = o.cx * 1.15
-			o.cy = o.cy * 1.15
+			o.cx = o.cx * 1.1
+			o.cy = o.cy * 1.1
 			o.f = o.f + 2048
-			
+			q.push(T.e("[0]", o, null, null, r, 0, 1000, 100))		
 			}
-            }
-            
-        }
+            }}
+			q.push(T.e("[行动提前了。]", this.r, null, null, r, 0, 1000, 100))
 }}
     T.fox1n0.prototype = {
+	    b5: function(a) {
+            return a.b1(this.r.x.a.e)
+        },
+        a8: function(a, b, c) {
+            return c.gbh() * a.J
+        },
         gb3: function() {
             return 999
         },
         gb4: function() {
             return 999
-        },
-		b5: function(a) {
-            return a.b1(this.r.y.f)
         },
         t: function(a, b, c, d) {
             var w, k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
@@ -21514,46 +21696,188 @@ T.thb8s1.prototype = {
             q.push(T.e(k, s, null, null, r, 0, 1000, 100))
 			q.push($.v())
             q.push(T.e(w, s, null, null, r, 1, 1000, 100))
+			q.push($.v())
+			d.a.push(T.e("[0]：[这里是FOX1，作战开始，各小队队员务必坚守各自位置，随时报告情况]", this.r, this.r, null, null, 0, 1000, 100))
+            for (u = 0; u < n.length; ++u) {
+            o = n[u]
+			if(o.SRTs != null){
+			if(o.SRTs == 1){
+			this.r.SR1 = o
+			o.Q = o.Q * 1.2
+			o.go = o.go * 1.5
+			o.cy = o.cy * 1.5
+			o.f = 0
+			o.J = o.J / 4	
+			}
+			if(o.SRTs == 2){
+			this.r.SR2 = o
+			o.dx = o.dx * 2
+			o.db = o.db * 2
+			o.cy = o.cy * 1.5
+			o.J = o.J / 2
+			o.f = o.f + 2048
+			q.push($.v())
+			d.a.push(T.e("[0]：[这里是FOX2，OSCAR地点一切正常。]", o, o, null, null, 0, 1000, 100))
+			}
+			if(o.SRTs == 4){
+			this.r.SR4 = o
+			o.Q = o.Q * 3
+			o.cy = o.cy * 1.5
+			o.f = o.f + 2048
+			q.push($.v())
+			d.a.push(T.e("[0]：[这里是FOX4，于ALPHA地点观测到敌方单位。]", o, o, null, null, 0, 1000, 100))
+			}
+			if(o.SRTs == 3){
+			this.r.SR3 = o
+			o.ch = o.ch * 2.5
+			o.cy = o.cy * 1.5
+			o.f = o.f + 4096
+			q.push($.v())
+			d.a.push(T.e("[0]：[这里是FOX3，正在LIMA地点附近待机。]", o, o, null, null, 0, 1000, 100))
+			}
+            }
+			if(o.SRT != null){
+			if(o.SRT == 3){
+			this.r.R3 = o
+			}}
+            
+        }
+}}  
+    T.fox1n2.prototype = {
+        gb3: function() {
+            return 999
+        },
+        gb4: function() {
+            return 999
+        },
+		ar: function(a, b) {
+            if (this.r.pfcz > 1  )
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
+		b5: function(a) {
+            return a.b1(this.r.y.e)
+        },
+        am: function(a, b) {
+            return a.fr <= 0 && !a.$iav && !a.r1.G(0, $.eE()) && !a.tigerCurse
+        },
+        a8: function(a, b, c) {
+            if (b)
+                return a.L
+            return c.gbh()
+        },
+        t: function(a, b, c, d) {
+            var w, k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+
+            for (u = 0; u < a.length; ++u)
+                n.push(a[u].a)
+            k = "[0]: [我需要重新集结小队]"
+            w = "[0]使用[破釜沉舟]"		
+            s = this.r
+			this.f = 0
+			this.r.pfcz = 1
+            r = H.a(n.slice(0), [H.n(n, 0)])
+            q = d.a
+            q.push(T.e(k, s, null, null, r, 0, 1000, 100))
             for (u = 0; u < n.length; ++u) {
             o = n[u]
 			d.a.push($.v())
 			if(o.SRTs != null){
-			if(o.SRTs == 1){
-			o.Q = o.Q * 1.5
-			o.go = o.go * 1.5
-			o.cy = o.cy * 1.5
-			o.f = o.f + 2048
-			d.a.push(T.e("[0]：[Fox1，已就位。]", o, o, null, null, 0, 1000, 100))
-			}
 			if(o.SRTs == 2){
-			o.dx = o.dx * 4
-			o.cx = o.cx * 1.5
-			o.cy = o.cy * 2
-			o.J = o.J / 2
+			o.fr = 246
+			if (!C.a.w(o.x.f, o)) {
+			    p = o.x.a
+                if (!C.a.w(p.c, o))
+                    C.a.i(p.c, o)
+                p = p.e
+                if (!C.a.w(p, o)) {
+				    l = o.x.f
+                    if (l.length > 0)
+                        C.a.ck(p, C.a.aJ(p, C.a.gbe(l)) + 1, o)
+                    else
+                        p.push(o)
+                }
+                C.a.i(o.x.f, o)
+            }
+			q.push(T.e("[1]复活了", o, T.a1(o, 0), null, null, 0, 1000, 100))
+			o.cy = o.cy * 3
 			o.f = o.f + 2048
-			d.a.push(T.e("[0]：[Fox2，已就位。]", o, o, null, null, 0, 1000, 100))
 			}
 			if(o.SRTs == 3){
-            o.go = o.go * 0.5
-			o.ch = o.ch * 2
-			o.dx = o.dx * 2
-			o.cy = o.cy * 2
-			o.f = o.f + 4096	
-			d.a.push(T.e("[0]：[Fox3，已就位。]", o, o, null, null, 0, 1000, 100))
+			o.fr = 280
+			if (!C.a.w(o.x.f, o)) {
+			    p = o.x.a
+                if (!C.a.w(p.c, o))
+                    C.a.i(p.c, o)
+                p = p.e
+                if (!C.a.w(p, o)) {
+				    l = o.x.f
+                    if (l.length > 0)
+                        C.a.ck(p, C.a.aJ(p, C.a.gbe(l)) + 1, o)
+                    else
+                        p.push(o)
+                }
+                C.a.i(o.x.f, o)
+            }
+			q.push(T.e("[1]复活了", o, T.a1(o, 0), null, null, 0, 1000, 100))
+			o.cx = o.cx * 1.5
+			o.f = o.f + 2048			
 			}
 			if(o.SRTs == 4){
-            o.cx = o.cx * 0.75
-			o.Q = o.Q * 3
-			o.cy = o.cy * 3
-			o.J = o.J / 16
-			o.f = o.f + 2048
-			d.a.push(T.e("[0]：[Fox4，已就位。]", o, o, null, null, 0, 1000, 100))
+            o.fr = 234
+			if (!C.a.w(o.x.f, o)) {
+			    p = o.x.a
+                if (!C.a.w(p.c, o))
+                    C.a.i(p.c, o)
+                p = p.e
+                if (!C.a.w(p, o)) {
+				    l = o.x.f
+                    if (l.length > 0)
+                        C.a.ck(p, C.a.aJ(p, C.a.gbe(l)) + 1, o)
+                    else
+                        p.push(o)
+                }
+                C.a.i(o.x.f, o)
+            }
+			q.push(T.e("[1]复活了", o, T.a1(o, 0), null, null, 0, 1000, 100))
+			o.Q = o.Q * 2
+			o.f = o.f + 2048	
+			}
+            }  
+        }
+}}
+    T.fox2n3.prototype = {
+        gb3: function() {
+            return 999
+        },
+        gb4: function() {
+            return 999
+        },
+        t: function(a, b, c, d) {
+            var w, k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+            for (u = 0; u < a.length; ++u)
+			     n.push(a[u].a)
+            w = "[0]使用[EMP弹]"				
+            s = this.r
+			k = "[0]：[]"
+			this.f = 0
+			s.r.f = s.r.f + 1024
+            r = H.a(n.slice(0), [H.n(n, 0)])
+            q = d.a
+            q.push(T.e(w, s, null, null, r, 1, 1000, 100))
+            for (u = 0; u < n.length; ++u) {
+            o = n[u]
+			d.a.push($.v())		
+			if(o.jixie != null){
+            o.fr = 0
+			d.a.push(T.e("[0]被[瘫痪]了", o, o, null, null, 0, 1000, 100))
+			o.bf(o.fr, null, c, d)
 			}
             }
             
-        }
-}}
-    
+        }}
 T.thb5s1.prototype = {
         b5: function(a) {
             return a.b1(this.r.x.a.e)
@@ -21745,10 +22069,10 @@ T.thb5n2.prototype = {
             return c.gbh() * a.J
         },
         gb3: function() {
-            return 5
+            return 10
         },
         gb4: function() {
-            return 5
+            return 10
         },
         t: function(a, b, c, d) {
             var h ,k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
@@ -21763,17 +22087,16 @@ T.thb5n2.prototype = {
                 o = n[u]
 				l = o.fr
             q.push($.v())
-            if(o.y == this.r.y && !o.$iav){        
+            if(o.y == this.r.y && !o.$iav){
                 v = H.o(o.r1.h(0, $.kl()), "$idK")
                 if (v == null) {
                     v = new T.dK(o)
                     o.r1.k(0, $.kl(), v)
                     o.y1.i(0, v)
                 }
-                    v.x = v.x + 60
-					h = 60
+                    v.x = v.x + 80
+					h = 80
 				    q.push(T.e("[0]获得[1]点[护盾]", o , h, null, null, 0, 1000, 100))
-					o.bI(s, d)
 			}           
                 }
             
@@ -21786,18 +22109,33 @@ T.thb5n2.prototype = {
         gb4: function() {
             return 4
         },
+		ar: function(a, b) {
+            if (this.r.hbw > 0)
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
         t: function(a, b, c, d) {
             var h ,k ,l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
             for (u = 0; u < a.length; ++u)
                 n.push(a[u].a)
             k = "[0]使用[闪光盾]"
             s = this.r
-			s.J = s.J * 1.5
+			h = H.o(s.r1.h(0, "taunt"), "$itauntx")
+            if (h == null) {
+                h = new T.tauntx(s)
+                h.y = new T.ay(h)
+                s.r1.k(0, "taunt", h)
+                s.r2.i(0, h)
+                s.x1.i(0, h.y)
+                s.E()
+            }
 			this.f = C.d.v(this.f, 2)
 			s.j = s.j - 1024
             r = H.a(n.slice(0), [H.n(n, 0)])
             q = d.a
-			q.push(T.e("[0]：[看，茄子！]", s, null, null, r, 1, 1000, 100))
+			q.push(T.e("[0]：[看，茄子！]", s, null, null, r, 0, 1000, 100))
             q.push(T.e(k, s, null, null, r, 1, 1000, 100))
             for (u = 0; u < n.length; ++u) {
                 o = n[u]
@@ -21879,8 +22217,7 @@ T.thb5n3.prototype = {
                     
                 }
             
-        }
-}
+        }}
     T.thb9t1.prototype = {
 	    b5: function(a) {
             return a.b1(this.r.x.a.e)
@@ -21975,29 +22312,76 @@ T.thb9t2.prototype = {
         var u = this ,v
         t = a[0].a
         s = T.u(u.r, !1, c)      
-		v = 0.5 + C.d.Z(u.r.yin *0.5)
+		v = 0.75 + u.r.yin *0.5
+		if(H.o(this.r.r1.h(0, "locks"), "$ilockx") != null){
+		v = v * 1.5
+		}
 		if(u.r.yin > 2)
-		{   
-        d.a.push(T.e("[0]发起狙击", u.r, t, null, null, 0, 1000, 100))
-        t.bL(v*s, !0, u.r, T.a3(), c, d)
+		{
+        d.a.push(T.e("[0]发起[狙击]", u.r, t, null, null, 0, 1000, 100))
+        t.bL(C.d.Z(v*s), !1, u.r, T.a3(), c, d)
 		}
 		else{
-        d.a.push(T.e("[0]发起狙击", u.r, t, null, null, 0, 1000, 100))
-		t.a0(v*s, !0, u.r, T.a3(), c, d)
+        d.a.push(T.e("[0]发起[狙击]", u.r, t, null, null, 0, 1000, 100))
+		t.a0(C.d.Z(v*s), !1, u.r, T.a3(), c, d)
 		}
 		
 		
+    }
+    }
+	T.fox4a1.prototype = {
+    t: function(a, b, c, d) {
+        var u = this ,v , t ,s ,w
+		if(this.r.tager != null && this.r.tager.fr > 0 )
+		{
+		t = this.r.tager
+		this.r.aim = this.r.aim + 1
+		}
+		else
+		{
+		t = a[0].a
+		this.r.aim = 0
+		this.r.tager = t
+		}
+        s = T.u(u.r, !1, c)      
+		v = this.r.aim
+		if(v > 0)
+		{
+        d.a.push(T.e("[0]发起[精准狙击]", u.r, t, null, null, 1, 1000, 100))
+		t.ch = C.d.v(t.ch, 2)
+        t.bL(C.d.Z(v*s), !1, u.r, T.a3(), c, d)
+		}
+		else{
+        d.a.push(T.e("[0]瞄准了[1]", u.r, t, null, null, 1, 1000, 100))
+		this.r.j = this.r.j + 1024
+		}	
+    }
+    }
+	T.fox4t1.prototype = {
+    t: function(a, b, c, d) {
+        var u = this ,v ,t
+		t = a[0].a
+	    t.ch =  C.d.Z(t.ch *0.75)
+		t.dx =  C.d.Z(t.dx *0.75)
+        s = T.u(u.r, !1, c)
+        d.a.push(T.e("[0]发起射击", u.r, t, null, null, 0, 1000, 100))
+        t.a0(s, !1, u.r, T.a3(), c, d)
+		this.r.own.j = this.r.own.j + 512
     }
     }
    T.ribbit2a1.prototype = {
     t: function(a, b, c, d) {
-        var u = this ,v
+        var u = this ,v ,w
+		w = u.r.ch
         t = a[0].a
-        s = T.u(u.r, !1, c) * 0.8
-        d.a.push(T.e("[0]发起压制射击", u.r, t, null, null, 1, 1000, 100))
-		for (v = 0; v < 3; ++v){
-        t.a0(s, !1, u.r, T.a3(), c, d)
+        s = T.u(u.r, !1, c)
+        d.a.push(T.e("[0]发起[压制射击]", u.r, t, null, null, 1, 1000, 100))
+		u.r.ch = 0
+		for (v = 0; v < 2; ++v){
+		if(t.fr > 0){
+        t.a0(s, !1, u.r, T.a3(), c, d)}
 		}
+		u.r.ch = w
 		
     }
     }
@@ -22712,7 +23096,10 @@ T.ribbit3n2.prototype = {
         { 
             return !1
         }
-    
+    if (this.r.heli.fr <= 0 )
+            { 
+                return !1
+            }
     return this.aS(a, b)
 },
             gb3: function() {
@@ -22729,9 +23116,9 @@ T.ribbit3n2.prototype = {
                 s = this.r
                 r = H.a(n.slice(0), [H.n(n, 0)])
                 q = d.a
-				q.push(T.e("[0]；[呼...呼...我要忍不住了]", s, null, null, r, 1, 1000, 100))
+				q.push(T.e("[0]；[呼...呼...我要忍不住了]", s, null, null, r, 0, 1000, 100))
                 q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-                p = T.u(this.r, !0, c) * 1.5
+                p = T.u(this.r, !0, c) * 1.6
                 for (u = 0; u < n.length; ++u) {
                     o = n[u]
     if (o.fr > 0 ) {
@@ -22743,6 +23130,13 @@ T.ribbit3n2.prototype = {
     }
 
 T.ribbit3n3.prototype = {
+    ar: function(a, b) {
+        if (this.r.dan == 0)
+            {
+                return !1
+            }
+			return this.aS(a, b)
+		    },
             gb3: function() {
                 return 5
             },
@@ -22756,9 +23150,9 @@ T.ribbit3n3.prototype = {
                 s = this.r
                 r = H.a(n.slice(0), [H.n(n, 0)])
                 q = d.a
-				this.f = 0
+				this.r.dan = 0
 				q.push(T.e("[0]；[诶嘿嘿...全弹发射！]", s, null, null, r, 1, 1000, 100))
-                p = T.u(this.r, !0, c) * 4
+                p = T.u(this.r, !0, c) * 3.5
                 for (u = 0; u < n.length; ++u) {
                     o = n[u]
     if (o.fr > 0 ) {
@@ -22766,6 +23160,87 @@ T.ribbit3n3.prototype = {
     o.a0(p, !1, this.r, T.a3(), c, d)
     }                    
     }
+	s.go = 1
+    } 
+    }
+    T.fox1n1.prototype = {
+            gb3: function() {
+                return 2
+            },
+            gb4: function() {
+                return 4
+            },
+            t: function(a, b, c, d) {
+                var v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+                for (u = 0; u < a.length; ++u)
+                    n.push(a[u].a)
+                s = this.r
+                r = H.a(n.slice(0), [H.n(n, 0)])
+                q = d.a
+				this.f = 0
+				q.push(T.e("[0]；[作为武器，不应抱有多余的情感]", s, null, null, r, 0, 1000, 100))
+				q.push(T.e("[0]使用[破片炸弹]", s, null, null, r, 1, 1000, 100))
+                p = T.u(this.r, !0, c)
+                for (u = 0; u < n.length; ++u) {
+                    o = n[u]
+					v = o.ch
+    if (o.fr > 0 ) {
+    q.push($.v())
+	t = 1 + (c.m() & 1)
+	o.ch = 0
+    o.a0(C.d.Z(t*p), !1, this.r, T.a3(), c, d)
+	o.ch = v
+    }                    
+    }
+    }   
+    }
+	T.fox4n2.prototype = {
+        gb3: function() {
+                return 3
+            },
+        gb4: function() {
+                return 3
+            },
+		ar: function(a, b) {
+            if (this.r.tager == null)
+            {
+                return !1
+            }
+			if (this.r.tager.fr <= 0 )
+            {
+                return !1
+            }
+			return this.aS(a, b)
+		    },
+        t: function(a, b, c, d) {
+                var w, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+				w = 0
+				for (u = 0; u < a.length; ++u){
+				   	if(a[u].a == this.r.tager)
+					{
+					w = 1
+					}
+                    n.push(a[u].a)			
+					}
+                s = this.r
+				s.aim = s.aim + 1
+                r = H.a(n.slice(0), [H.n(n, 0)])
+                q = d.a
+				q.push(T.e("[0]；[三点一线]", s, null, null, r, 0, 1000, 100))
+				q.push(T.e("[0]发起[贯穿狙击]", s, null, null, r, 1, 1000, 100))
+                p = T.u(this.r, !1, c)
+                for (u = 0; u < n.length; ++u) {
+                    o = n[u]
+					if(w == 0 && u == 0)
+					{
+					o = this.r.tager
+					}
+    if (o.fr > 0 ) {
+    q.push($.v())
+    o.bL(C.d.Z(this.r.aim*p), !1, this.r, T.a3(), c, d)
+    }                    
+    }
+	this.r.target = null
     }   
     }
 T.tha7n1.prototype = {
@@ -23321,14 +23796,10 @@ T.tha9n3.prototype = {
             return -1
         },
         al: function(a) {
-            var u = this.x * 2
+		    var u = this.x
             u.ch = C.d.v(u.ch, this.z)
 			u.dx = C.d.v(u.dx, this.z)
 			u.J = u.J * this.z
-        },
-        aq: function(a, b) {
-            if (--this.Q === 0)
-                this.H(null, b)
         },
         H: function(a, b) {
             var u, t
@@ -23709,7 +24180,46 @@ T.tha4n1.prototype = {
             u.bI(q.r, d)
         }
     }
-
+    T.fox2a1.prototype = {
+        b5: function(a) {
+            return a.b1(this.r.y.f)
+        },
+		am: function(a, b) {
+            if (b)
+                return a.fr + 80 < a.fx && !a.$iav
+            return a.fr < a.fx && !a.$iav
+        },
+        a8: function(a, b, c) {
+            var u = {}
+            if (b) {
+                u.a = a.fx - a.fr
+                a.r1.ap(0, new T.hY(u))
+                return u.a = u.a * a.L
+            }
+            return c.gbh()
+        },
+        t: function(a, b, c, d) {
+            var u, t, s, r, q = this, p = q.f
+            u = a[0].a
+            t = C.e.Z(T.u(q.r, !0, c) / 24)
+            s = u.fx - u.fr
+			this.f = C.e.Z(this.f  / 2)
+            if (t > s)
+                t = s
+            p = d.a
+			p.push(T.e("[0]：[这是我的独家配方哦~]", q.r, u, null, null, 0, 1000, 100))
+            p.push(T.e("[0]制作了[稻荷寿司]", q.r, u, null, null, t, 1000, 100))
+            r = u.fr
+            u.fr = r + t
+            p.push(T.e("[0]为[1]回复体力[2]点", q.r, T.a1(u, r), new T.aG(t), null, 0, 1000, 100))
+            u.bI(q.r, d)
+			u.j = u.j +1024
+			if(u.fr >= u.fx)
+			{
+			u.go = u.go + 0.5
+			}
+        }
+    }
     T.tigerRecover.prototype = {
         b5: function(a) {
             return a.b1(this.r.y.f)
@@ -24828,10 +25338,10 @@ n.r.bf(n.r.fr, null, c, d)
             return this.af.r
         },
 		gaQ: function() {
-            return H.a(["berserk", "charm", "ice", "poison", "curse", "disperse", "half", "exchange", "blindly"], [P.f])
+            return H.a(["berserk", "charm", "ice", "poison", "curse", "disperse", "half", "exchange"], [P.f])
         },
         aa: function() {
-            var u = new T.aK()
+            var u = new T.fox4t1()
             u.r = this
             this.k2 = u
         },
@@ -24898,7 +25408,8 @@ n.r.bf(n.r.fr, null, c, d)
         aa: function() {
             var u = new T.noak()
             u.r = this
-            this.k2 = u
+            this.k2 = u	
+			this.id.push(new T.zhsh())
         },
         aR: function() {
             this.bv()
@@ -25858,8 +26369,12 @@ n.r.bf(n.r.fr, null, c, d)
     }}
 	T.ribbit1n2.prototype = {
         ar: function(a, b) {
-                if (this.r.UAVi != null )
-                    return !1
+                if (this.r.UAVi != null){
+				if (this.r.UAVi.fr <= 0)
+				{
+				return !0
+				}
+                    return !1}
             return this.aS(a, b)
         },
         a9: function(a, b, c) {
@@ -25868,7 +26383,7 @@ n.r.bf(n.r.fr, null, c, d)
         t: function(a, a0, a1, a2) {
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
             u = a2.a
-            u.push(T.e("[0]: [已抵达，准备潜入。]", c.r, b, b, b, 60, 1000, 100))
+            u.push(T.e("[0]: [扰乱作战，开始。]", c.r, b, b, b, 60, 1000, 100))
 			for(v =0 ; v < 1 ; v++){
             t = H.d(c.r.a) + "?" + H.d($.nn())
             s = c.r
@@ -25913,13 +26428,14 @@ n.r.bf(n.r.fr, null, c, d)
             d.r = "自走式闪光无人机"
             s = c.r
             d.x = s.x
+			s.I.i(0, d.a5)
             d.av()
 			d.fx = 60
 			d.fr = 60
 			d.Q =  10
 			d.ch = 10
-			d.cx = 180 
-			d.cy = 180 
+			d.cx = 200 
+			d.cy = 200 
 			d.db = 10
 			d.dx = 10
 			d.dy = 60
@@ -25932,7 +26448,7 @@ n.r.bf(n.r.fr, null, c, d)
     }}
 	T.fox2n2.prototype = {
         ar: function(a, b) {
-                if (this.r.BARi != null )
+                if (this.r.BARi != null || this.r.BARn > 3)
                     return !1
             return this.aS(a, b)
         },
@@ -25942,7 +26458,8 @@ n.r.bf(n.r.fr, null, c, d)
         t: function(a, a0, a1, a2) {
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
             u = a2.a
-            u.push(T.e("[0]: [全体隐蔽]", c.r, b, b, b, 60, 1000, 100))
+            u.push(T.e("[0]: [注意隐蔽]", c.r, b, b, b, 60, 1000, 100))
+			this.r.BARn = this.r.BARn + 1
 			for(v =0 ; v < 1 ; v++){
 			u.push($.v())
             t = H.d(c.r.a) + "?" + H.d($.nn())
@@ -25989,17 +26506,17 @@ n.r.bf(n.r.fr, null, c, d)
             s = c.r
             d.x = s.x
             d.av()
-			d.fx = 220
-			d.fr = 220
+			d.fx = 240
+			d.fr = 240
 			d.Q =  100
 			d.ch = 100
 			d.cx = 1
 			d.cy = 1
 			d.db = 1
-			d.dx = 100
+			d.dx = 10
 			d.dy = 50
 			d.j = -204800
-			d.J =  d.J * 25		
+			d.J =  d.J * 10		
 			c.r.BARi = d
             c.r.x.aU(d)
             u.push(T.e("设置了[1] ", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
@@ -26012,6 +26529,9 @@ n.r.bf(n.r.fr, null, c, d)
         t: function(a, a0, a1, a2) {
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
             u = a2.a
+			if(this.f > 16){
+			this.f = this.f - 16
+			}
             u.push(T.e("[0]: [此面向敌]", c.r, b, b, b, 60, 1000, 100))
 			for(v =0 ; v < 1 ; v++){
 			u.push($.v())
@@ -26064,7 +26584,7 @@ n.r.bf(n.r.fr, null, c, d)
 			d.Q =  200
 			d.ch = 1
 			d.cx = 1 
-			d.cy = 200 
+			d.cy = 200
 			d.db = 1
 			d.dx = 1
 			d.dy = 50
@@ -26075,8 +26595,12 @@ n.r.bf(n.r.fr, null, c, d)
     }}
 	T.fox4n1.prototype = {
         ar: function(a, b) {
-                if (this.r.UAVi != null )
-                    return !1
+                if (this.r.UAVi != null){
+				if (this.r.UAVi.fr <= 0)
+				{
+				return !0
+				}
+                    return !1}
             return this.aS(a, b)
         },
         a9: function(a, b, c) {
@@ -26086,7 +26610,7 @@ n.r.bf(n.r.fr, null, c, d)
             var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null, v
             u = a2.a
 			this.f = 0
-            u.push(T.e("[0]: [。。。]", c.r, b, b, b, 60, 1000, 100))
+            u.push(T.e("[0]: [这样就不会担心被反狙击了吧]", c.r, b, b, b, 1, 1000, 100))
 			for(v =0 ; v < 1 ; v++){
 			u.push($.v())
             t = H.d(c.r.a) + "?" + H.d($.nn())
@@ -26129,24 +26653,26 @@ n.r.bf(n.r.fr, null, c, d)
             d.a5 = new T.cj(d)
             d.af = c
             d.e = T.du(c.r)
-            d.r = "无人机"
+            d.r = "反侦察无人机"
             s = c.r
             d.x = s.x
+			s.I.i(0, d.a5)
             d.av()
 			d.fx = 160
 			d.fr = 160
-			d.Q =  10
-			d.ch = 10
-			d.cx = 150 
-			d.cy = 100 
-			d.db = 10
-			d.dx = 10
+			d.Q =  70
+			d.ch = 15
+			d.cx = 240 
+			d.cy = 240 
+			d.db = 15
+			d.dx = 15
 			d.dy = 50
 			d.j =  2048
 			d.J =  d.J * 0.5
+			d.own = c.r
 			this.r.UAVi = d
             c.r.x.aU(d)
-            u.push(T.e("[1]安装完毕 ", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+            u.push(T.e("安放了[1] ", c.r, T.a1(d, d.fr), b, b, 1, 1000, 100))
 			
         }
     }}
@@ -26211,8 +26737,8 @@ n.r.bf(n.r.fr, null, c, d)
             d.x = s.x
 			s.I.i(0, d.a5)
             d.av()
-			d.fx = this.r.fx * 1.5
-			d.fr = this.r.fx * 1.5
+			d.fx = 800
+			d.fr = 800
 			d.Q =  100
 			d.ch = 120
 			d.cx = 90 
@@ -26229,7 +26755,6 @@ n.r.bf(n.r.fr, null, c, d)
 			
         }
     }}
-	
 	T.tha9n2t.prototype = {
         ai: function(a, b) {
             this.r = a
@@ -27650,15 +28175,14 @@ n.r.bf(n.r.fr, null, c, d)
             return !0
         },
         t: function(a, b, c, d) {
-            var k ,l, v, u, t, s, r, q, p, o
+            var k ,l, v, u, t, s, r, q, p, o = a[0].a
             k = "[0]使用[胆怯者的观测]"
             s = this.r
             q = d.a
-            q.push(T.e("[0]：[果然我是什么都不会的小垃姬...]", s, null, null, 0, 1000, 100))
+			s.j = s.j + 1024
+            q.push(T.e("[0]：[果然我是什么都不会的小垃姬...]", s, s, null, null, 0, 1000, 100))
             q.push(T.e(k, s, null, null, r, 1, 1000, 100))           
-            o = a[0].a
             q.push($.v())
-            o.j = o.j + 1024
             t = H.o(o.r1.h(0, "locks"), "$ilockx")
             if (t == null) {
                 t = new T.lockx(o)
@@ -27668,7 +28192,7 @@ n.r.bf(n.r.fr, null, c, d)
                 o.x1.i(0, t.y)
                 o.E()
 				d.a.push(T.e("[0]被[锁定]了", o, o, null, null, 0, 1000, 100))
-            } 
+            }
 			else{
                 t.Q += 4
 				t.z += 5
@@ -27688,7 +28212,7 @@ n.r.bf(n.r.fr, null, c, d)
             q.push(T.e(k, s, null, null, r, 1, 1000, 100))           
             o = a[0].a
 			if (!o.a6("blindly", c)){
-                u = o.fr > 0 && !o.A && T.bd(s.db, o.dy + o.dx, c)}
+                u = o.fr > 0 && !o.A && T.bd(s.db, o.cy + o.dx, c)}
             else{
                 u = !0}
             if (u) {
@@ -28808,66 +29332,56 @@ T.tha1b1.prototype = {
     },
     $iD: 1
 	}
-	T.ribbit1t2.prototype = {
-    ai: function(a, b) {
-            this.r = a
-            this.f = 360
-        },
-	ak: function(a, b, c, d, e) {
-        var u = a > 0 , n ,m
-		this.r.yin = 0
-		e.a.push(T.e("[0]被引爆", this.r, null, null, null, 0, 1000, 100))
-		b.a0(17800, !1 , this.r, T.a3(), d, e)
-		this.r.fr = 0
-		this.r.bf(this.r.fr, null, d, e)
-		
-		bug = tnt
-        return u && 0
-    },
-    T: function() {
-        this.r.y1.i(0, this)
-    },
-    $iD: 1
-    }
-
+	
     T.ribbit4b1.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n ,m
 		this.r.yin = 0
 		e.a.push(T.e("[0]：[好痛！]", this.r, null, null, null, 1, 1000, 100))
-		if(a == 0)
-		{
-		return u && a
-		}
-        return u && C.b.v (a, 0.66)
+        return u && a
     },
     T: function() {
         this.r.y1.i(0, this)
     },
     $iD: 1
     }
-    T.ribbit1b1.prototype = {
-    ak: function(a, b, c, d, e) {
-	    var u = a > 0 , n ,m
-	    if (this.r.jd == 1)
-		{
-		return u && C.b.v (a, 1.25)
-		}
-		this.r.jd = 1
-		e.a.push($.v())
-		e.a.push(T.e("[0]：[见识一下SRT的CQB技巧吧！]", this.r, null, null, null, 0, 1000, 100))
-		this.r.cy =  this.r.cy * 1.25
-		this.r.cx =  this.r.cx * 1.25
-		e.a.push(T.e("[0]使用[战术机动]回避了攻击", this.r, null, null, null, 1, 1000, 100))
-		bug = tnt
-        return u && 0
-    },
-    T: function() {
-        this.r.y1.i(0, this)
-    },
-    $iD: 1
+	T.ribbit1b1.prototype = {
+        dk: function(a, b, c, d, e, f, g) {
+            var u, t, s = this
+            if (this.r.jd == 1){
+                return a
+				}
+                this.r.jd = 1
+				g.a.push($.v())
+				g.a.push(T.e("[0]：[见识一下SRT的CQB技巧吧！]", this.r, null, null, null, 0, 1000, 100))
+				this.r.cy =  this.r.cy * 1.3
+				this.r.cx =  this.r.cx * 1.3
+		        g.a.push(T.e("[0]使用[战术机动]回避了攻击", this.r, null, null, null, 1, 1000, 100))
+                return 0
+        },
+        T: function() {
+            this.r.x2.i(0, this)
+        },
+        $iK: 1
     }
-	
+	T.ribbit1t2.prototype = {
+	     ai: function(a, b) {
+            this.r = a
+            this.f = 360
+        },
+        dk: function(a, b, c, d, e, f, g) {
+            var u, t, s = this
+				g.a.push(T.e("[0]被引爆", this.r, null, null, null, 20, 1500, 100))
+				c.a0(19200, !1, s.r, T.a3(), f, g)
+				this.r.fr = 0
+				this.r.bf(this.r.fr, null, f, g)
+                return 0
+        },
+        T: function() {
+            this.r.x2.i(0, this)
+        },
+        $iK: 1
+    }
    T.ribbit2b1.prototype = {
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n ,m
@@ -28878,14 +29392,76 @@ T.tha1b1.prototype = {
 		}
 		if (n == 0)
 		{
+		e.a.push($.v())
 		e.a.push(T.e("[0]进行[反制速射]", this.r, null, null, null, 1, 1000, 100))
-		b.a0(16000, !1, this.r, T.a3(), d, e)
+		b.a0(14400, !1, this.r, T.a3(), d, e)
+		if(b.fr <= 0)
+		{
+		return u && 0
+		}
 		}
 		if(this.r.fd == 1)
 		{
 		return u && C.d.Z(a *0.25)
 		}
-        return u && a
+        return u && C.d.Z(a *0.75)
+    },
+    T: function() {
+        this.r.y1.i(0, this)
+    },
+    $iD: 1
+    }
+	T.fox3b1.prototype = {
+	ga1: function() {
+        return 2000
+        },
+    ak: function(a, b, c, d, e) {
+        var u = a > 0 , n ,m
+		n = (d.m() & 7)
+		if(H.o(this.r.r1.h(0, "taunt"), "$itauntx") != null){
+		n = n + 2
+		}
+		if (n > 4 && this.r.hbw == 0)
+		{
+		e.a.push(T.e("[0]使用[盾牌格挡]", this.r, null, null, null, 1, 1000, 100))
+		return 0
+		}	
+        return a
+    },
+    T: function() {
+        this.r.y1.i(0, this)
+    },
+    $iD: 1
+    }
+	T.fox1b2.prototype = {
+	ga1: function() {
+        return 2000
+        },
+    ak: function(a, b, c, d, e) {
+        var u = a > 0 , n ,m
+		if (this.r.fr - a <= 0 && this.f > 0)
+		{
+		this.f = 0
+		e.a.push(T.e("[0]：[为了SRT的复兴！]", this.r, null, null, null, 0, 1000, 100))
+		this.r.j = this.r.j + 4096
+		this.r.go = this.r.go * 2
+		this.r.pfcz = 4
+		e.a.push(T.e("[0]发动[死线反击]", this.r, null, null, null, 1, 1000, 100))
+		b.a0(19200, !1, this.r, T.a3(), d, e)
+		bug = tnt
+		return 0
+		}
+		if(this.r.pfcz > 1 )
+		{ 
+		this.r.pfcz = this.r.pfcz - 1
+		return 0
+		}
+		if(this.r.pfcz == 1 && this.r.id[1].f == 0)
+		{
+		this.r.pfcz = 0
+		return 0
+		}
+        return a
     },
     T: function() {
         this.r.y1.i(0, this)
@@ -28935,6 +29511,10 @@ T.ribbit3b1.prototype = {
             { 
                 return !1
             }
+			if (this.r.heli.fr <= 0 )
+            { 
+                return !1
+            }
 			return this.aS(a, b)
 	},
     ak: function(a, b, c, d, e) {
@@ -28953,21 +29533,14 @@ T.ribbit3b1.prototype = {
     $iD: 1
 }
 T.fox2b2.prototype = {
-    ar: function(a, b) {
-            if (this.r.BARi == null )
-            { 
-                return !1
-            }
-			return this.aS(a, b)
-	},
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n ,m
-		if (this.r.heli == null )
+		if (this.r.BARi == null )
             { 
                 return u && J.Q(c, T.mA()) ? a : a
             }
-		e.a.push(T.e("[0]抵挡伤害", this.r.heli, null, null, null, 0, 1000, 100))
-		this.r.heli.bL(a*64, !1 , b, T.a3(), d, e)
+		e.a.push(T.e("[0]抵挡伤害", this.r.BARi, null, null, null, 0, 1000, 100))
+		this.r.BARi.bL(a*64, !1 , b, T.a3(), d, e)
 		bug = tnt
         return u && J.Q(c, T.mA()) ? 0 : 0
     },
@@ -30118,10 +30691,93 @@ T.youzi1.prototype = {
     t: function(a, b, c, d) {
         var u ,t ,o = this.r ,s ,v
 		this.f = 0
-       	d.a.push(T.e("[0]使用[防弹挡板]", this.r ,o, null, null, 1, 1000, 100))
-		o.ch = o.ch * 4
+       	d.a.push(T.e("[0]使用[特殊防弹板]", this.r ,o, null, null, 1, 1000, 100))
+		o.ch = o.ch * 5
         o.fd = 1		
-		o.go = o.go * 0.75
+		o.go = o.go * 0.6
+		d.a.push(T.e("[0]的[受到的伤害大幅减少]", this.r ,this.r, null, null, 0, 1000, 100))
+    }
+    }
+	T.fox3n2.prototype = {
+    t: function(a, b, c, d) {
+        var u ,t ,o = this.r ,s ,v
+		this.f = 0
+		d.a.push(T.e("[0]：[哼，稍微认真点吧]", this.r ,o, null, null, 0, 1000, 100))
+       	d.a.push(T.e("[0][弃置了盾牌]", this.r ,o, null, null, 1, 1000, 100))	
+		d.a.push($.v())
+		d.a.push(T.e("[0]的[行动方式转变了]", this.r ,o, null, null, 0, 1000, 100))
+		o.ch = C.d.v(o.ch, 2)
+        o.hbw = 1		
+		o.go = o.go * 1.5
+		o.cx = o.cx * 1.5
+		o.cy = o.cy * 5
+		o.j = o.j + 2048
+    }
+    }
+	T.fox1a1.prototype = {
+        t: function(a, b, c, d) {
+            var k ,l, v, u, t, s, r, q, p, o
+            k = "[0]：[FOXTROT]"
+            s = this.r
+            q = d.a
+            q.push(T.e(k, s, null, null, r, 1, 1000, 100))           
+            o = a[0].a
+			if (!o.a6("blindly", c)){
+                u = o.fr > 0 && !o.A && T.bd(s.Q, o.cy + o.cx, c)}
+            else{
+                u = !0}
+            if (u) {			    
+			    d.a.push(T.e("[0][回避]了攻击", o, o, null, null, 20, 1000, 100))
+				s.j = s.j + 512
+                return
+            }
+            t = H.o(o.r1.h(0, "blindly"), "$iblindlyx")
+            if (t == null) {
+                t = new T.blindlyx(o)
+                t.y = new T.ay(t)
+                o.r1.k(0, "blindly", t)
+                o.r2.i(0, t)
+                o.x1.i(0, t.y)
+                o.E()
+				d.a.push(T.e("[0]陷入[目盲]", o, o, null, null, 0, 1000, 100))
+				w = T.u(this.r, !1, c)
+				o.a0(C.d.Z(w * 1.2) , !1, s, T.a3(), c, d)
+            }
+			else{
+                t.Q += 3
+				t.z += 10
+                d.a.push(T.e("[0]陷入[目盲]", o, o, null, null, 0, 1000, 100))
+                w = T.u(this.r, !1, c)
+				o.a0(C.d.Z(w * 1.8) , !1, s, T.a3(), c, d)
+        }
+    }}
+	T.fox3a1.prototype = {
+    t: function(a, b, c, d) {
+        var u ,s ,q ,t , v , w , n
+		q = a[0].a
+		w = q.ch
+		v = q.cy
+		if(this.r.hbw > 0){
+		t = 2
+		n = 1
+       	d.a.push(T.e("[0]使用[双连击]", this.r ,this.r, null, null, 1, 1000, 100))
+		q.ch = 0
+		q.cy = 0
+		}
+		else
+		{
+		t = 1
+		n = 1
+		d.a.push(T.e("[0]发起攻击", this.r ,this.r, null, null, 0, 1000, 100))
+		}
+        s = T.u(this.r, !1, c)
+		for(u = 0 ;u < t ;u++){
+		if(q.fr > 0 && this.r.fr > 0){
+        q.a0(C.d.Z(n*s) , !1, this.r, T.a3(), c, d)
+		}
+		}
+		q.ch = w
+		q.cy = v
     }
     }
 	T.ribbit2n3.prototype = {
@@ -30129,13 +30785,12 @@ T.youzi1.prototype = {
         var u ,s ,q ,t , v
 		q = a[0].a
 		this.f = 0
-       	d.a.push(T.e("[0]正在尝试使用[37mm铁锹迫击炮]", this.r ,this.r, null, null, 1, 1000, 100))
+       	d.a.push(T.e("[0]尝试使用[37mm铁锹迫击炮]", this.r ,this.r, null, null, 1, 1000, 100))
         s = T.u(this.r, !1, c)  
         v = C.d.v(s, 37)	
         q.bL(v, !1, this.r, T.a3(), c, d)
 		d.a.push($.v())
-		d.a.push(T.e("迫击炮伤害过低，[0]，[愤怒了]！", this.r ,this.r, null, null, 0, 1000, 100))
-		
+		d.a.push(T.e("迫击炮伤害过低，[0]，[愤怒了]！", this.r ,this.r, null, null, 0, 1000, 100))	
 		t = H.o(this.r.r1.h(0, "anger"), "$iangerx")
             if (t == null) {
                 t = new T.angerx(this.r)
@@ -30165,7 +30820,7 @@ T.youzi1.prototype = {
 		
     }
     }
-	T.szja1.prototype = {
+	T.szja1.prototype = {          
         gb3: function() {
             return 4
         },
@@ -32616,15 +33271,18 @@ T.yuzu.prototype = {
         u.f = 1000
         t.push(u)
 		u =new T.ribbit1n2()
-        u.f = 70
+        u.f = 60
         t.push(u)
 		u =new T.ribbit1n3()
-        u.f = 50
+        u.f = 64
         t.push(u)
 		u =new T.ribbit1b2()
         u.f = 100
         t.push(u)	
-		t.push(new T.ribbit1b1())
+		u =new T.ribbit1b1()
+        u.f = 100
+        t.push(u)
+		
 
     }, 
     bM: function() {
@@ -32699,13 +33357,13 @@ T.yuzu.prototype = {
         this.k2 = t
         t = this.id
 		u = new T.ribbit3n3()
-        u.f = 0
+        u.f = 256
         t.push(u)
         u = new T.ribbit3n1()
         u.f = 200
         t.push(u)
         u = new T.ribbit3n2()
-        u.f = 300
+        u.f = 3000
         t.push(u)
 		u =new T.ribbit3b2()
         u.f = 100
@@ -32743,12 +33401,12 @@ T.yuzu.prototype = {
         t = this.id
 		t.push(new T.ribbit4b1())
 		u =new T.ribbit4n2()
-        u.f = 70
+        u.f = 66
         t.push(u)
-		u = new T.ribbit4n1()
+		u =new T.ribbit4b2()
         u.f = 100
         t.push(u)
-        u =new T.ribbit4b2()
+		u = new T.ribbit4n1()
         u.f = 100
         t.push(u)
         u =new T.ribbit4b3()
@@ -32779,12 +33437,29 @@ T.yuzu.prototype = {
         return H.a([$.ai(), $.am(), $.kj()], [P.f])
     },
     aa: function() {
-        var u, t = new T.aK()
+        var u, t = new T.fox1a1()
         t.r = this
         this.k2 = t
         t = this.id
 		u =new T.fox1n0()
         u.f = 1000
+        t.push(u)
+		u =new T.fox1n2()
+        u.f = 1000
+        t.push(u)
+		u = new T.fox1n3()
+        u.fr = new T.bP(u)
+        u.fx = new T.cB(u)
+        u.f = 300
+        t.push(u)
+		u =new T.fox1b2()
+        u.f = 100
+        t.push(u)
+		u =new T.fox1b1()
+        u.f = 100
+        t.push(u)
+		u =new T.fox1n1()
+        u.f = 80
         t.push(u)
 
     }, 
@@ -32800,7 +33475,7 @@ T.yuzu.prototype = {
 		    
             if(this.fr <= 0){
 		    d.a.push($.v())
-			d.a.push(T.e("[0]: [对……对不起！]", this, this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]: [……但愿昨天的我们，没有做出错误的选择。]", this, this.r, null, null, 0, 1000, 100))
 			}	
         }
     }
@@ -32816,13 +33491,18 @@ T.yuzu.prototype = {
         t.r = this
         this.k2 = t
         t = this.id
+		u =new T.fox2n3()
+        u.f = 0
+        t.push(u)
         u =new T.fox2n2()
-        u.f = 40
+        u.f = 55
         t.push(u)
 		u =new T.fox2n1()
-        u.f = 100
+        u.f = 66
         t.push(u)
-		t.push(new T.fox2b2())
+		u =new T.fox2a1()
+        u.f = 256
+        t.push(u)
     }, 
     bM: function() {
             var u, t = this
@@ -32836,7 +33516,7 @@ T.yuzu.prototype = {
 		    
             if(this.fr <= 0){
 		    d.a.push($.v())
-			d.a.push(T.e("[0]: [对……对不起！]", this, this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]: [可以......放心把SRT交给后辈了吧。]", this, this.r, null, null, 0, 1000, 100))
 			}	
         }
     }
@@ -32848,14 +33528,19 @@ T.yuzu.prototype = {
         return H.a([$.ai(), $.am(), $.kj()], [P.f])
     },
     aa: function() {
-        var u, t = new T.aK()
+        var u, t = new T.fox3a1()
         t.r = this
         this.k2 = t
         t = this.id
+		u =new T.fox3n2()
+        u.f = 5
+        t.push(u)
 		u =new T.fox3n1()
+        u.f = 160
+        t.push(u)
+		u =new T.fox3b1()
         u.f = 100
         t.push(u)
-
     }, 
     bM: function() {
             var u, t = this
@@ -32869,10 +33554,15 @@ T.yuzu.prototype = {
 		    
             if(this.fr <= 0){
 		    d.a.push($.v())
-			d.a.push(T.e("[0]: [对……对不起！]", this, this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]: [可恶的兔崽子！]", this, this.r, null, null, 0, 1000, 100))
 			}	
-        }
-    }
+        },
+	aX: function(a, b, c, d) {
+            var u = this
+              , t = u.fr		
+            d.a.push(T.e("[0][1]: [对……对不起2！]", this, t, null, null, 0, 1000, 100))
+            return !1
+    }}
 	T.fox4.prototype = {
     gah: function() {
         return C.fox4
@@ -32881,13 +33571,17 @@ T.yuzu.prototype = {
         return H.a([$.ai(), $.am(), $.kj()], [P.f])
     },
     aa: function() {
-        var u, t = new T.aK()
+        var u, t = new T.fox4a1()
         t.r = this
         this.k2 = t
         t = this.id
         u =new T.fox4n1()
-        u.f = 100
+        u.f = 200
         t.push(u)
+		u =new T.fox4n2()
+        u.f = 40
+        t.push(u)
+		
     }, 
     bM: function() {
             var u, t = this
@@ -32897,11 +33591,11 @@ T.yuzu.prototype = {
                 u = t.bb = new T.cB(t)
             t.y2.i(0, u)
         },
-    ay: function(a, b, c, d) {
-		    
+    ay: function(a, b, c, d) {	    
             if(this.fr <= 0){
 		    d.a.push($.v())
-			d.a.push(T.e("[0]: [对……对不起！]", this, this.r, null, null, 0, 1000, 100))
+			this.tager = null
+			d.a.push(T.e("[0]: [狙击点……暴露了啊。]", this, this.r, null, null, 0, 1000, 100))
 			}	
         }
     }
@@ -35195,7 +35889,7 @@ t.push(u)
 			if (!a.$iav){
 			u.push($.v())
 			u.push(T.e("[0]：[Tango Down!]", m.r, a, l, l, 1, 1000, 100))
-            this.r.go = this.r.go * 1.5
+            this.r.go = this.r.go + 0.5
 			this.r.j = this.r.j + 2048
 			}
             return !0
@@ -35420,10 +36114,14 @@ dk: function(a, b, c, d, e, f, g) {
         $iK: 1
     }
 	T.zhsh.prototype = {
+	    ai: function(a, b) {
+            this.r = a
+            this.f = 256
+        },
         dk: function(a, b, c, d, e, f, g) {
             var u, t, s = this
-			C.d.v(a, 2)
-			s.r.bL(u, !0, c, e, f, g)
+			u = C.d.v(a, 1)
+			s.r.bL(u, !1, c, e, f, g)
             return 0
         },
         T: function() {
@@ -35436,12 +36134,9 @@ dk: function(a, b, c, d, e, f, g) {
             var v ,u, t, s = this
             if (c.fr <= 0)
                 return a
-            v = 64 + this.r.yin * 16
-			this.r.yin = this.r.yin + 1
+            v = 96 + this.r.yin * 16
             if (f.m() < v && s.r.bq(f)) {
-                g.a.push(T.e("[0]被忽视了，免于伤害", s.r, c, null, null, 1, 1000, 100))
-                t = s.r
-                t.j = t.j + 256
+                g.a.push(T.e("[0][被忽视了]", s.r, c, null, null, 1, 1000, 100))
                 return 0
             }
             return a
@@ -35827,11 +36522,10 @@ dk: function(a, b, c, d, e, f, g) {
             d.a.push(T.e("[1]:各单位，注意", this.r , this.r, null, null, 0, 1000, 100))
 			if(this.r.fr < 0.5 * this.r.fx && this.r.r11 == 1)
 			{
-			this.r.cx = 1.25 * this.r.cx
-			this.r.cy = 1.25 * this.r.cy
-			this.r.ch = 0.5 * this.r.ch
+			this.r.cx = 2 * this.r.cx
+			this.r.ch = 0
 			this.r.r11 = 0
-			d.a.push(T.e("ribbit1，Break through！", this.r , this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[Ribbit1，Break through！]", this.r , this.r, null, null, 0, 1000, 100))
 			}
 			
 			if(this.r.R2 != null )
@@ -35840,42 +36534,88 @@ dk: function(a, b, c, d, e, f, g) {
 			{
 			this.r.R2.id[2].f = 55
 			this.r.R3.j = this.r.R3.j +1024
-			d.a.push(T.e("ribbit2，Volume up！", this.r.R2 , this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[Ribbit2，Volume up！]", this.r.R2 , this.r, null, null, 0, 1000, 100))
 			}
 			else if(this.r.R2.fr < 0.5 * this.r.R2.fx && this.r.r12 == 1)
 			{
 			this.r.R2.id[2].f = 0
-			this.r.R2.ch = this.r.R2.ch * 1.5
-			this.r.R2.dx = this.r.R2.dx * 1.5
+			this.r.R2.ch = this.r.R2.ch * 2
+			this.r.R2.dx = this.r.R2.dx * 2
 			this.r.R2.id[1].f = 300
             this.r.r12 = 0
-			d.a.push(T.e("ribbit2，Cover！", this.r.R2 , this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[Ribbit2，Cover！]", this.r.R2 , this.r, null, null, 0, 1000, 100))
 			}
 			}
 			
 			if(this.r.R3 != null)
 			{
 			if(this.r.R3.heli != null && this.r.R3.fr > 0){
+			if(this.r.R3.heli.fr > 0){
 			this.r.R3.j = this.r.R3.j +1024
-			d.a.push(T.e("ribbit3，Fire suppression！", this.r.R3 , this.r, null, null, 0, 1000, 100))
-			}
+			d.a.push(T.e("[Ribbit3，Fire suppression！]", this.r.R3 , this.r, null, null, 0, 1000, 100))
+			}}
 			if(this.r.R3.heli == null && this.r.R3.fr > 0 && this.r.R2.id[1].f == 0 && this.r.r13 == 1){
-			this.r.R3.id[0].f = 500
-			this.r.R3.j = this.r.R3.j -1024
+			this.r.R3.dan = 1
+			this.r.R3.j = this.r.R3.j - 1024
 			this.r.r13 = 0
-			d.a.push(T.e("ribbit3，Maximum firepower！", this.r.R3 , this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[Ribbit3，Maximum firepower！]", this.r.R3 , this.r, null, null, 0, 1000, 100))
 			}
 			}
 			
 			if( this.r.R4 != null)
 			{
 			if( this.r.R4.yin > 1 && this.r.r14 == 1){
-			this.r.R4.cx = 0.75 * this.r.R4.cx
-			this.r.R4.Q = 2 * this.r.R4.Q
+			this.r.R4.cx = 0.8 * this.r.R4.cx
+			this.r.R4.Q = 2.4 * this.r.R4.Q
 			this.r.R4.yin = this.r.R4.yin + 2
 			this.r.r14 = 0
-			d.a.push(T.e("ribbit4，Dormant！", this.r.R4 , this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[Ribbit4，Dormant！]", this.r.R4 , this.r, null, null, 0, 1000, 100))
 			}}
+			}
+            d.a.push($.v())
+            return a
+        },
+        T: function() {
+            this.r.ry.i(0, this)
+        },
+        $iG: 1
+    }
+	T.fox1b1.prototype = {
+        aK: function(a, b, c, d) {
+            var v ,u, t, s, r = this
+			if(this.r.SR1 != null)
+			{		
+            d.a.push(T.e("[1]:各单位，注意", this.r , this.r, null, null, 0, 1000, 100))
+			if(this.r.SR2 != null )
+			{
+			if(this.r.R3 != null && this.r.SR2.fr > 0){
+			if(this.r.R3.heli != null && this.r.R3.heli.fr > 0 && this.r.SR2.id[0].f == 0)
+			{
+			this.r.SR2.id[0].f = 1024
+			this.r.SR2.j = this.r.SR2.j + 1024
+			d.a.push(T.e("[FOX2，EMI！]", this.r.SR2 , this.r, null, null, 0, 1000, 100))
+			}
+			}}
+			if(this.r.SR3 != null)
+			{
+			if(this.r.SR3.hbw == 0 && this.r.SR3.id[0].f == 5 && this.r.SR3.id[1].f <= 40 && this.r.SR3.fr > 0){
+			this.r.SR3.id[0].f = 378
+			d.a.push(T.e("[FOX3，Gank！]", this.r.SR3 , this.r, null, null, 0, 1000, 100))
+			}
+			}
+			
+			if(this.r.SR4 != null)
+			{
+			if(this.r.SR4.tager != null && this.r.SR4.fr > 0){
+			this.r.SR4.go = this.r.SR4.go + 0.1
+			this.r.SR4.J = C.d.Z(this.r.SR4.J * 1.1)
+			d.a.push(T.e("[FOX4，Spoiling attack！]", this.r.SR4 , this.r, null, null, 0, 1000, 100))
+			}
+			if(this.r.SR4.tager == null && this.r.SR4.fr > 0){
+			this.r.SR4.j = this.r.SR4.j + 1024
+			d.a.push(T.e("[FOX4，Target in sight！]", this.r.SR4 , this.r, null, null, 0, 1000, 100))
+			}
+			}
 			}
             d.a.push($.v())
             return a
@@ -35889,11 +36629,12 @@ dk: function(a, b, c, d, e, f, g) {
         aK: function(a, b, c, d) {
             var v ,u, t, s, r = this
 			u = (c.m() & 1)
-			if(u ==1 && this.r.fr < 0.5 * this.r.fx && this.r.heli == null)
+			if(u ==1 && this.r.fr < 0.5 * this.r.fx)
 			{
-			d.a.push(T.e("[1]：食用了[高热量浓缩糖果]", this.r , this.r, null, null, 0, 1000, 100))
+			if(this.r.heli == null || this.r.heli.fr <= 0)
+			d.a.push(T.e("[1]：食用了[高热量浓缩糖果]", this.r , this.r, null, null, 1, 1000, 100))
 			t = this.r.fr
-			v = C.d.Z(this.r.fx *0.15)
+			v = C.d.Z(this.r.fx *0.2)
 		    this.r.fr = t + v
 			d.a.push(T.e("[1]回复生命[2]点", r.r, T.a1(r.r, t), new T.aG(v), null, 0, 1000, 100))
 			}
@@ -37163,8 +37904,8 @@ dk: function(a, b, c, d, e, f, g) {
         t(P.cD, P.l)
         t(Z.hl, Z.ax)
         s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
-        s(T.H, [T.y, T.youzi3, T.tao3, T.lv3, T.hJ, T.tha1b1, T.ribbit1t2, T.ribbit4b1, T.squallt4, T.ribbit1b1, T.ribbit1b2,  T.ribbit2b1, T.tha5b1, T.tha6b1, T.tha7b1, T.thb7b2, T.thb9b2,T.thb9b1,  T.tha10b1,T.tha12b1, T.thb5b2, T.thb7b1, T.ribbit4n1, T.ribbit4b3, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.thj7b1, T.dV, T.dX, T.zhsh, T.tha4b1,T.tha3b2,T.thb1b1,T.thb6b1, T.i9 ,T.hifumib1 , T.ribbit3b1, T.fox2b2, T.baals1b1 ,T.baals1b2 , T.i9m, T.thb7b3 , T.ih, T.kg, T.ribbit4b2, T.ribbit3b2, T.thb5b1, T.thb6b2, T.tha9b1,T.tha1b2, T.thb2b1 , T.im, T.tha3b1, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
-        s(T.y, [T.dL, T.ribbit4a1, T.ribbit2a1, T.ribbit1n0, T.ribbit2n2, T.ribbit2n1, T.ribbit2n3, T.fox1n0, T.yuzun1, T.yuzun2, T.momorin1, T.momorin2, T.midorin1, T.midorin2, T.hifumia1, T.szja1, T.noak, T.youzi1, T.tao1, T.lv1, T.youzi2, T.tao2, T.lv2, T.hI ,T.tha6n1, T.thb8t1b, T.tha10t1, T.hK, T.hKm,T.thb9s1, T.thb7s1, T.baals1n2,  T.bx, T.hL, T.hM, T.dN, T.tha6t2, T.dO, T.dP, T.tha2n1, T.tha2ak, T.tha12ak, T.tha2n2, T.tha2n3, T.tha2b1, T.tha1n3, T.tha3n1, T.ba1a1, T.ba1n2, T.baals1n1, T.arisn1, T.arisn2, T.thb1n1, T.thb1s1, T.thb1n2, T.thb1n3, T.thb8t1a, T.thb2n1, T.thb2n2 ,T.thb2n3, T.thb2s1, T.thb2n1t, T.thb2n2t ,T.thb2n3t ,  T.tha3n2, T.tha3s1, T.tha6n2, T.tha6n3, T.tha5n1, T.tha7n1 ,T.tha7n2,T.tha8n1 ,T.tha8t1 ,T.tha8n2 ,T.tha8t2 ,T.tha8n3 ,T.tha8t3 ,T.tha8n4 ,T.tha8t4 ,T.tha8n5 ,T.tha8t5 ,T.tha8s1 , T.ribbit3n2, T.ribbit3n3, T.tha9n1,T.tha9n3,T.tha10n1,T.tha10n2,T.tha10s1,T.tha11n1,T.tha11n2, T.tha11n1t, T.tha11n2t, T.tha11t1, T.thb3n1,T.thb3n2,T.thb3n3,T.thb3n4,T.thb3n5,T.thb3n6,T.thb3n7,T.thb3n8,T.thb3n9,T.thb3s1 ,T.thb3s2 ,T.thb9t1 ,T.thb9t2 ,T.thb8n1, T.thb8t1 ,T.thb8t2 ,T.thb3t1,T.thb3t2,T.thb3t3,T.thb3t4,T.thb3t5,T.thb3t6,T.thb3t7,T.thb3t8, T.hS, T.thb4b1, T.thb4b2, T.hU, T.tha1n2, T.ba1n1 ,T.hV, T.bV, T.dR, T.hX, T.thb8s1, T.tha4n3, T.thb4n1, T.thb4n2,T.thb4s1, T.thb5s1, T.thb5n1, T.thb5n2, T.thb5n3, T.dS, T.tha4n1, T.tha4n2, T.baals1n3, T.baals1n5, T.baals1n6, T.baals1n4, T.hifumin1, T.hifumin2, T.ribbit1n2, T.ribbit3n1, T.fox2n2, T.fox2n1, T.fox3n1, T.ribbit1n3, T.fox4n1, T.tha4n2x, T.tha7t1, T.dT, T.i1, T.tha1n1, T.thb9n1, T.i6, T.i8, T.dW, T.ia ,T.tomb1 ,T.tha4s1, T.i7, T.ig, T.tha9n2, T.tha9n2t,T.yeye, T.ij, T.ribbit4n2, T.ribbit1t1, T.tha1s1, T.tha9s1, T.hW, T.hWalf, T.ik, T.il, T.tha5n3, T.thb9n2, T.tha6s1t, T.tha6s1, T.thb6n1, T.thb6n2, T.thb6n3, T.thb6s1, T.thb7n1, T.thb7t1, T.thb7n2, T.tha11s1, T.tha2s1, T.dM, T.tha5n2, T.tha5s1, T.tha7s1, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.squalla1 ,T.squalln1 ,T.squalln2 ,T.squalln3 ,T.squalln4 ,T.squalln5 ,T.squalln6 ,T.squalln7 ,T.squallt2])
+        s(T.H, [T.y, T.youzi3, T.tao3, T.lv3, T.hJ, T.tha1b1, T.ribbit1t2, T.ribbit4b1, T.squallt4, T.ribbit1b1, T.ribbit1b2, T.fox1b1,  T.ribbit2b1, T.fox3b1, T.fox1b2, T.tha5b1, T.tha6b1, T.tha7b1, T.thb7b2, T.thb9b2,T.thb9b1,  T.tha10b1,T.tha12b1, T.thb5b2, T.thb7b1, T.ribbit4n1, T.ribbit4b3, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.thj7b1, T.dV, T.dX, T.zhsh, T.tha4b1,T.tha3b2,T.thb1b1,T.thb6b1, T.i9 ,T.hifumib1 , T.ribbit3b1, T.fox2b2, T.baals1b1 ,T.baals1b2 , T.i9m, T.thb7b3 , T.ih, T.kg, T.ribbit4b2, T.ribbit3b2, T.thb5b1, T.thb6b2, T.tha9b1,T.tha1b2, T.thb2b1 , T.im, T.tha3b1, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend])
+        s(T.y, [T.dL, T.ribbit4a1, T.fox4a1, T.fox4t1, T.fox1n3, T.ribbit2a1, T.ribbit1n0, T.ribbit2n2, T.ribbit2n1, T.fox3n2 , T.fox3a1 , T.fox1a1, T.fox1n1, T.ribbit2n3, T.fox1n0, T.fox1n2, T.fox2n3, T.yuzun1, T.yuzun2, T.momorin1, T.momorin2, T.midorin1, T.midorin2, T.hifumia1, T.szja1, T.noak, T.youzi1, T.tao1, T.lv1, T.youzi2, T.tao2, T.lv2, T.hI ,T.tha6n1, T.thb8t1b, T.tha10t1, T.hK, T.hKm,T.thb9s1, T.thb7s1, T.baals1n2,  T.bx, T.hL, T.hM, T.dN, T.tha6t2, T.dO, T.dP, T.tha2n1, T.tha2ak, T.tha12ak, T.tha2n2, T.tha2n3, T.tha2b1, T.tha1n3, T.tha3n1, T.ba1a1, T.ba1n2, T.baals1n1, T.arisn1, T.arisn2, T.thb1n1, T.thb1s1, T.thb1n2, T.thb1n3, T.thb8t1a, T.thb2n1, T.thb2n2 ,T.thb2n3, T.thb2s1, T.thb2n1t, T.thb2n2t ,T.thb2n3t ,  T.tha3n2, T.tha3s1, T.tha6n2, T.tha6n3, T.tha5n1, T.tha7n1 ,T.tha7n2,T.tha8n1 ,T.tha8t1 ,T.tha8n2 ,T.tha8t2 ,T.tha8n3 ,T.tha8t3 ,T.tha8n4 ,T.tha8t4 ,T.tha8n5 ,T.tha8t5 ,T.tha8s1 , T.ribbit3n2, T.ribbit3n3, T.tha9n1,T.tha9n3,T.tha10n1,T.tha10n2,T.tha10s1,T.tha11n1,T.tha11n2, T.tha11n1t, T.tha11n2t, T.tha11t1, T.thb3n1,T.thb3n2,T.thb3n3,T.thb3n4,T.thb3n5,T.thb3n6,T.thb3n7,T.thb3n8,T.thb3n9,T.thb3s1 ,T.thb3s2 ,T.thb9t1 ,T.thb9t2 ,T.thb8n1, T.thb8t1 ,T.thb8t2 ,T.thb3t1,T.thb3t2,T.thb3t3,T.thb3t4,T.thb3t5,T.thb3t6,T.thb3t7,T.thb3t8, T.hS, T.thb4b1, T.thb4b2, T.hU, T.tha1n2, T.ba1n1 ,T.hV, T.bV, T.dR, T.hX, T.thb8s1, T.tha4n3, T.thb4n1, T.thb4n2,T.thb4s1, T.thb5s1, T.thb5n1, T.thb5n2, T.thb5n3, T.dS, T.tha4n1, T.tha4n2, T.baals1n3, T.baals1n5, T.baals1n6, T.baals1n4, T.hifumin1, T.hifumin2, T.ribbit1n2, T.ribbit3n1, T.fox2n2, T.fox2a1, T.fox2n1, T.fox3n1, T.ribbit1n3, T.fox4n1, T.fox4n2, T.tha4n2x, T.tha7t1, T.dT, T.i1, T.tha1n1, T.thb9n1, T.i6, T.i8, T.dW, T.ia ,T.tomb1 ,T.tha4s1, T.i7, T.ig, T.tha9n2, T.tha9n2t,T.yeye, T.ij, T.ribbit4n2, T.ribbit1t1, T.tha1s1, T.tha9s1, T.hW, T.hWalf, T.ik, T.il, T.tha5n3, T.thb9n2, T.tha6s1t, T.tha6s1, T.thb6n1, T.thb6n2, T.thb6n3, T.thb6s1, T.thb7n1, T.thb7t1, T.thb7n2, T.tha11s1, T.tha2s1, T.dM, T.tha5n2, T.tha5s1, T.tha7s1, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.squalla1 ,T.squalln1 ,T.squalln2 ,T.squalln3 ,T.squalln4 ,T.squalln5 ,T.squalln6 ,T.squalln7 ,T.squallt2])
         s(T.M, [T.bf, T.co, T.dj ,T.sl , T.cG, T.sD, T.aN, T.hz, T.shenx, T.lockx, T.angerx, T.blindlyx, T.tauntx, T.darkHasteRun, T.darkSuperUpgrade])
         s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
         s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])
@@ -37556,14 +38297,14 @@ C.aris = H.a(u([-3, 49, 23, 1, 10, 21, 32, 458]), [P.j])
 C.momori = H.a(u([6, 28, 54, 40, 30, 19, 42, 421]), [P.j])
 C.midori = H.a(u([22, 26, 4, 16, 42, 14, 35, 423]), [P.j])
 C.yuzu = H.a(u([7, 21, 7, -10, -10, 22, 13, 577]), [P.j])
-C.ribbit1 = H.a(u([-12, 7, 30, 30, -13, 39, 36, 430]), [P.j])
-C.ribbit2 = H.a(u([13, 0, 26, 42, 10, 31, 30, 570]), [P.j])
-C.ribbit3 = H.a(u([47, 9, 39, 30, 12, -11, 20, 292]), [P.j])
-C.ribbit4 = H.a(u([10, 10, 10, 45, 20, 50, 8, 259]), [P.j])
+C.ribbit1 = H.a(u([-12, 7, 32, 21, -13, 40, 34, 400]), [P.j])
+C.ribbit2 = H.a(u([9, 2, 28, 42, 3, 23, 24, 510]), [P.j])
+C.ribbit3 = H.a(u([49, 9, 39, 27, 20, -11, 29, 242]), [P.j])
+C.ribbit4 = H.a(u([13, 10, 10, 45, 17, 53, 2, 259]), [P.j])
 C.fox1 = H.a(u([-1, 1, 0, 32, 40, 12, 28, 402]), [P.j])
 C.fox2 = H.a(u([30, 22, 41, 42, 34, 30, 36, 399]), [P.j])
-C.fox3 = H.a(u([40, 25, 20, 21, 13, 20, 44, 687]), [P.j])
-C.fox4 = H.a(u([3, 1, 24, 3, 30, -16, 33, 302]), [P.j])
+C.fox3 = H.a(u([42, 25, 20, 21, 13, 20, 44, 487]), [P.j])
+C.fox4 = H.a(u([3, 1, 24, 2, 32, -16, 36, 302]), [P.j])
 C.Squall = H.a(u([15, 33, 3, 7, -14, 16, 16, 37]), [P.j])
 C.rio = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.yuuka = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])

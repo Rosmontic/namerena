@@ -23232,11 +23232,18 @@ T.ribbit3n2.prototype = {
             gb4: function() {
                 return 4
             },
+			ar: function(a, b) {
+            if (this.r.zt1 == 0 )
+            { 
+                return !1
+            }
+			return this.aS(a, b)
+		},
             t: function(a, b, c, d) {
                 var u, t, s, r, q, p, o, n = H.a([], [T.aU])
+				this.r.sb1 = 0
                 for (u = 0; u < a.length; ++u)
                     n.push(a[u].a)
-				if(this.r.zt1 == 1){
                 t = "[0]使用[火雨]"
                 s = this.r
                 r = H.a(n.slice(0), [H.n(n, 0)])
@@ -23250,26 +23257,7 @@ T.ribbit3n2.prototype = {
     o.a0(p, !0, this.r, T.firea(), c, d)
     }                    
     }
-    }
-	esle
-	{
-	t = "[0]发起攻击！"
-	 s = this.r
-     r = H.a(n.slice(0), [H.n(n, 0)])
-     q = d.a
-     q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-     p = T.u(this.r, !0, c) * 1.2
-	for (u = 0; u < 1; ++u) {
-    o = n[u]
-    if (o.fr > 0 ) {
-    q.push($.v())
-    o.a0(p, !1, this.r, T.a3(), c, d)
-    }                    
-    }
-	}
-	}
-	this.sb1 = 0
-    }
+    }}
 
 T.ribbit3n3.prototype = {
     ar: function(a, b) {
@@ -29581,8 +29569,7 @@ T.tha1b1.prototype = {
         },
     ak: function(a, b, c, d, e) {
         var u = a > 0 , n ,m
-		if(this.r.sb1 == 0 && this.r.zt1 == 0){
-		e.a.push(T.e("[0]：[只因你太美！]", this.r, null, null, null, 1, 1000, 100))
+		if(this.r.sb1 == 0){
 		this.r.sb1 = 1
 		return 0
 		}
@@ -34078,10 +34065,13 @@ t.push(u)
         return H.a([$.ai(), $.am(), $.kj()], [P.f])
     },
     aa: function() {
-        var u, t = new T.jntmn1()
+        var u, t = new T.aK()
         t.r = this
         this.k2 = t
         t = this.id
+		u = new T.jntmn1()
+		u.f = 1000
+		t.push(u)
 		u = new T.jntmb1()
 		u.f = 100
 		t.push(u)
@@ -36696,9 +36686,10 @@ dk: function(a, b, c, d, e, f, g) {
     }
 	T.jntmb1.prototype = {
         aK: function(a, b, c, d) {
-            if(this.r.sb1 == 1 && this.r.zt1 == 0)
+            if(this.r.sb1 == 1)
 			{
 			d.a.push(T.e("[1]无法行动。", this.r , this.r, null, null, 0, 1000, 100))
+			this.r.sb1 = 0
 			return 0
 			}
 			if(this.r.zt1 == 0)

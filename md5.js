@@ -20473,7 +20473,7 @@ u.push($.v())
 		ar: function(a, b) {
             if (this.r.id[1].f > 0)
                 return !1
-			if (this.r.SR2.fr > 0 ||this.r.SR3.fr > 0 ||this.r.SR4.fr > 0 )
+			if (this.r.SR2.fr > 0 ||this.r.SR3.fr > 0 ||this.r.SR4.fr > 0)
                 return !1
             return this.aS(a, b)
         },
@@ -21578,12 +21578,12 @@ T.thb8s1.prototype = {
             o.cx = o.cx * 0.75
 			o.cy = o.cy * 4
 			o.f = o.f + 1024
-			d.a.push(T.e("[0]：[Ribbit4，掩护射击...交给我吧...]", o, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]：[RIBBIT4，掩护射击...交给我吧...]", o, o, null, null, 0, 1000, 100))
 			}
             if(o.SRT == 3){
                 this.r.R3 = o
                 o.Q = o.Q * 3
-                d.a.push(T.e("[0]：[Ribbit3，随时准备开火哦 ~]", o, o, null, null, 0, 1000, 100))
+                d.a.push(T.e("[0]：[RIBBIT3，随时准备开火哦 ~]", o, o, null, null, 0, 1000, 100))
                 }  
             if(o.SRT == 2){
                 this.r.R2 = o
@@ -21591,7 +21591,7 @@ T.thb8s1.prototype = {
                 o.dx = o.dx * 1.5
                 o.cx = o.cx * 1.5
                 o.f = o.f + 4096
-                d.a.push(T.e("[0]：[Ribbit2，开始进行战地侦察。]", o, o, null, null, 0, 1000, 100))
+                d.a.push(T.e("[0]：[RIBBIT2，开始进行战地侦察。]", o, o, null, null, 0, 1000, 100))
                     }
             if(o.SRT == 1){
                 this.r.R1 = o
@@ -21599,7 +21599,7 @@ T.thb8s1.prototype = {
                 o.cy = o.cy * 1.5
                 o.cx = o.cx * 1.25
                 o.f = 0
-                d.a.push(T.e("[0]：[Ribbit1，突击手，已就位。]", o, o, null, null, 0, 1000, 100)) 
+                d.a.push(T.e("[0]：[RIBBIT1，突击手，已就位。]", o, o, null, null, 0, 1000, 100)) 
             }
             }
             
@@ -36525,7 +36525,7 @@ dk: function(a, b, c, d, e, f, g) {
 			this.r.cx = 2 * this.r.cx
 			this.r.ch = 0
 			this.r.r11 = 0
-			d.a.push(T.e("[Ribbit1，Break through！]", this.r , this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[RIBBIT1，Break through！]", this.r , this.r, null, null, 0, 1000, 100))
 			}
 			
 			if(this.r.R2 != null )
@@ -36534,7 +36534,7 @@ dk: function(a, b, c, d, e, f, g) {
 			{
 			this.r.R2.id[2].f = 55
 			this.r.R3.j = this.r.R3.j +1024
-			d.a.push(T.e("[Ribbit2，Volume up！]", this.r.R2 , this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[RIBBIT2，Volume up！]", this.r.R2 , this.r, null, null, 0, 1000, 100))
 			}
 			else if(this.r.R2.fr < 0.5 * this.r.R2.fx && this.r.r12 == 1)
 			{
@@ -36543,7 +36543,7 @@ dk: function(a, b, c, d, e, f, g) {
 			this.r.R2.dx = this.r.R2.dx * 2
 			this.r.R2.id[1].f = 300
             this.r.r12 = 0
-			d.a.push(T.e("[Ribbit2，Cover！]", this.r.R2 , this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[RIBBIT2，Cover！]", this.r.R2 , this.r, null, null, 0, 1000, 100))
 			}
 			}
 			
@@ -36552,13 +36552,13 @@ dk: function(a, b, c, d, e, f, g) {
 			if(this.r.R3.heli != null && this.r.R3.fr > 0){
 			if(this.r.R3.heli.fr > 0){
 			this.r.R3.j = this.r.R3.j +1024
-			d.a.push(T.e("[Ribbit3，Fire suppression！]", this.r.R3 , this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[RIBBIT3，Fire suppression！]", this.r.R3 , this.r, null, null, 0, 1000, 100))
 			}}
 			if(this.r.R3.heli == null && this.r.R3.fr > 0 && this.r.R2.id[1].f == 0 && this.r.r13 == 1){
 			this.r.R3.dan = 1
 			this.r.R3.j = this.r.R3.j - 1024
 			this.r.r13 = 0
-			d.a.push(T.e("[Ribbit3，Maximum firepower！]", this.r.R3 , this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[RIBBIT3，Maximum firepower！]", this.r.R3 , this.r, null, null, 0, 1000, 100))
 			}
 			}
 			
@@ -36569,7 +36569,7 @@ dk: function(a, b, c, d, e, f, g) {
 			this.r.R4.Q = 2.4 * this.r.R4.Q
 			this.r.R4.yin = this.r.R4.yin + 2
 			this.r.r14 = 0
-			d.a.push(T.e("[Ribbit4，Dormant！]", this.r.R4 , this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[RIBBIT4，Dormant！]", this.r.R4 , this.r, null, null, 0, 1000, 100))
 			}}
 			}
             d.a.push($.v())

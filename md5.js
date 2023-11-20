@@ -20446,7 +20446,7 @@ u = d.a
                     s = T.u(r.r, !0, c)
                     if (s > t)
                         t = s
-                    p.bL(t * 4, !0, r.r, T.a3(), c, d)}
+                    p.bL(t * 8, !0, r.r, T.a3(), c, d)}
 else{
 u = d.a
 u.push(T.e("[0]:[我将在此成为英雄！]", r.r, p, q, q, 1, 1000, 100))

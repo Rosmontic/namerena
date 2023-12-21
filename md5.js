@@ -38734,6 +38734,8 @@ dk: function(a, b, c, d, e, f, g) {
 			o.fr = o.fx
 			d.a.push(T.e("[0]复活了[1]", this.r, T.a1(o, 0), null, null, 0, 1000, 100))
 			o.f = o.f + 2048
+			this.r.bI(this.r, d)
+			o.bI(o, d)
 			}
 			}
 			return a

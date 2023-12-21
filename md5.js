@@ -22912,8 +22912,8 @@ T.thb8s1.prototype = {
 			d.a.push($.v())
 			d.a.push(T.e("[0]：[我要你陪伴我到最后！]", this.r, this.r, null, null, 0, 1000, 100))
 			o.SR0 = 1
-			this.r.db = 3 * this.r.db
-			o.Q = 3 * o.Q
+			this.r.db = 1 * this.r.db
+			o.Q = 1 * o.Q
 			o.enemy = n.length - o.y.f.length
 			if(this.r.y == o.y){
 			this.r.partner = o
@@ -22939,8 +22939,8 @@ T.thb8s1.prototype = {
 			d.a.push($.v())
 			d.a.push(T.e("[0]：[我要你陪伴我到最后！]", o, this.r, null, null, 0, 1000, 100))
 			o.SR0 = 1
-			o.db = 3 * o.db
-			this.r.Q = 3 * this.r.Q
+			o.db = 1 * o.db
+			this.r.Q = 1 * this.r.Q
 			o.enemy = n.length - o.y.f.length
 			if(this.r.y == o.y){
 			this.r.partner = o

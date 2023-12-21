@@ -14090,6 +14090,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
 			_.SR0 = 0
 			_.enemy = 0
 			_.watch = null
+			_.partner = null
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -14133,6 +14134,7 @@ sakuya: function sakuya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s,
 			_.SR0 = 0
 			_.enemy = 0
 			_.watch = null
+			_.partner = null
             _.k2 = _.k1 = null
             _.k3 = f
             _.k4 = null
@@ -22688,79 +22690,128 @@ T.thb8s1.prototype = {
 			v = 0
             for (u = 0; u < n.length; ++u) {
             o = n[u]
+			if(o.SRm == null)
+			{
+			o.j = - 8192
+			}
 			if(o.SR0 != null)
 			{
 			o.watch = this.r
 			if(o.SR0 == 0)	
 			{
+			o.j = 2048
 			v = 1
-			}			
-			else if(o.SR0 == 1)
-			{
-			o.j = 0
-			}
+			}	
 			}
 			}
 			if(v == 0)
 			{
-			this.r.SRm = 1
+			this.r.SRm = 1		
 			w = (c.m() & 7)
 			switch (w) {
             case 0:
-			d.a.push(T.e("[0]: [「激昂的Revue」上演]", this.r, this.r, null, null, 1, 1000, 100))
+			d.a.push(T.e("[0]：[第一天的选拔]", this.r, this.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			d.a.push(T.e("[0]：[「激昂的Revue」上演]", this.r, this.r, null, null, 1, 1000, 100))
 			break
 			case 1:
-			d.a.push(T.e("[0]: [「渴望的Revue」上演]", this.r, this.r, null, null, 1, 1000, 100))
+			d.a.push(T.e("[0]：[第二天的选拔]", this.r, this.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			d.a.push(T.e("[0]：[「渴望的Revue」上演]", this.r, this.r, null, null, 1, 1000, 100))
 			break
 			case 2:
-			d.a.push(T.e("[0]: [「傲慢的Revue」上演]", this.r, this.r, null, null, 1, 1000, 100))
+			d.a.push(T.e("[0]：[第三天的选拔]", this.r, this.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			d.a.push(T.e("[0]：[「傲慢的Revue」上演]", this.r, this.r, null, null, 1, 1000, 100))
 			break
 			case 3:
-			d.a.push(T.e("[0]: [「嫉妒的Revue」上演]", this.r, this.r, null, null, 1, 1000, 100))
+			d.a.push(T.e("[0]：[第四天的选拔]", this.r, this.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			d.a.push(T.e("[0]：[「嫉妒的Revue」上演]", this.r, this.r, null, null, 1, 1000, 100))
 			break
 			case 4:
+			d.a.push(T.e("[0]：[第五天的选拔]", this.r, this.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
 			d.a.push(T.e("[0]: [「约定的Revue」上演]", this.r, this.r, null, null, 1, 1000, 100))
 			break
 			case 5:
-			d.a.push(T.e("[0]: [「孤独的Revue」上演]", this.r, this.r, null, null, 1, 1000, 100))
+			d.a.push(T.e("[0]：[第六天的选拔]", this.r, this.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			d.a.push(T.e("[0]：[「孤独的Revue」上演]", this.r, this.r, null, null, 1, 1000, 100))
 			break
 			case 6:
-			d.a.push(T.e("[0]: [「羁绊的Revue」上演]", this.r, this.r, null, null, 1, 1000, 100))
+			d.a.push(T.e("[0]：[第七天的选拔]", this.r, this.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			d.a.push(T.e("[0]：[「羁绊的Revue」上演]", this.r, this.r, null, null, 1, 1000, 100))
 			break
 			case 7:
-			k = (c.m() & 511)
-			d.a.push(T.e("[0]: [「命运的Revue」上演]", this.r, this.r, null, null, 1, 1000, 100))
+			k = 256 + c.m()
+			d.a.push(T.e("[0]：[第八天的选拔]", this.r, this.r, null, null, 0, 1000, 100))
+			d.a.push($.v())
+			d.a.push(T.e("[0]：[「命运的Revue」上演]", this.r, this.r, null, null, 1, 1000, 100))
 			break
 			}
 			d.a.push($.v())
-			d.a.push(T.e("[0]: [以TopStar为目标]", this.r, this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]：[以TopStar为目标]", this.r, this.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
-			d.a.push(T.e("[0]: [歌词，舞蹈，争夺吧]", this.r, this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]：[歌词，舞蹈，相互争夺吧]", this.r, this.r, null, null, 0, 1000, 100))
 			for (u = 0; u < n.length; ++u) {
             o = n[u]
+			o.j = 0
 			switch (w) {
             case 0:
 			o.go = o.go * 2
 			o.cx = o.cx * 2
 			o.ch = C.d.v(o.ch, 2)
 			o.dx = C.d.v(o.dx, 2)
+			if (o.e == "karen@!"){
+			o.Q = o.Q * 2
+			o.cy = o.cy * 2
+			o.ch = 1
+			o.dx = 1
+			}
 			break
 			case 1:
-			o.Q = o.Q * 4
-			o.db = o.db * 4
-			o.cy = C.d.v(o.cy, 4)
+			o.Q = o.Q * 3
+			o.db = o.db * 3
+			o.cy = C.d.v(o.cy, 3)
+			if (o.e == "junna@!"){
+			o.cx = o.cx * 2
+			o.db = o.db * 2
+			o.dx = o.dx * 2
+			o.ch = o.ch * 2
+			o.cy = C.d.v(o.cy, 2)
+			}
 			case 2:
 			o.Q = o.Q + o.ch
 			o.db = o.db + o.dx
 			o.ch = 1
 			o.dx = 1
+			if (o.e == "maya@!"){
+			o.Q = o.Q * 2
+			o.db = o.db * 2
+			o.cx = o.cx * 2
+			o.cy = o.cy * 2
+			}
+			if (o.e == "kuro@!"){
+			o.ch = o.Q * 2
+			o.dx = o.db * 2
+			}
 			break
 			case 3:
 			o.J = o.J * C.d.v((o.Q + o.cx + o.cy + o.ch + o.db + o.dx + o.dy + o.fx), 256)
+			if (o.e != "mahiru@!"){
 			o.j = o.j - (4096 + 12*o.cx)
+			}
+			break
 			case 4:
 			o.ch = o.ch * 3
 			o.dx = o.dx * 3
+			if ((o.e == "futaba@!" && o.partner != null) || (o.e == "kaoruko@!" && o.partner != null)){
+			o.go = o.go * 1.5
+			o.ch = o.ch * 2.5
+			o.dx = o.dx * 2.5
+			}
 			break
 			case 5:
 			if(o.y.f.length == 1)
@@ -22771,29 +22822,41 @@ T.thb8s1.prototype = {
 			o.cy = o.cy * 2
 			o.ch = o.ch * 2
 			o.dx = o.dx * 2
-			}
+			if (o.e == "karen@!"  || o.e == "hikari@!" || o.e == "nana@!" ){
+			o.go = o.go * 2
+			}}
 			break
 			case 6:
 			if(o.y.f.length > 1)
 			{
 			o.go = o.go * 2
 			o.j = o.j + 4096
+			if (o.e == "karen@!"  || o.e == "hikari@!" ){
+			o.go = o.go * 2
+			}
+			}
+			else if(o.y.f.length == 1 && o.e == "nana@!"){
+			o.go = o.go * 2
 			}
 			break
 			case 7:
+			if(o.SRm == null){
 			l = o.fr
 			o.fx = k + 1
 			o.fr = o.fx
-			T.a1(o, l)
+			d.a.push($.v())
+			d.a.push(T.e("[1]", o, T.a1(o, l), null, null, 0, 1000, 100))
 			o.Q = C.d.v(k + 1, 2)
 			o.db = C.d.v(k + 1, 2)
 			o.cx = C.d.v(k + 1, 2)
 			o.cy = C.d.v(k + 1, 2)
 			o.ch = C.d.v(k + 1, 2)
 			o.dx = C.d.v(k + 1, 2)
+			}
 			break
 			}
 			}
+			this.f = 0
 			this.r.fr = 0
 			this.r.bf(this.r.fr, null, c, d)
 			}
@@ -22849,7 +22912,13 @@ T.thb8s1.prototype = {
 			d.a.push($.v())
 			d.a.push(T.e("[0]：[我要你陪伴我到最后！]", this.r, this.r, null, null, 0, 1000, 100))
 			o.SR0 = 1
+			this.r.db = 3 * this.r.db
+			o.Q = 3 * o.Q
 			o.enemy = n.length - o.y.f.length
+			if(this.r.y == o.y){
+			this.r.partner = o
+			o.partner = this.r
+			}
 			return
 			}
 			if(o.e == "kaoruko@!" && this.r.e == "futaba@!" )
@@ -22870,10 +22939,16 @@ T.thb8s1.prototype = {
 			d.a.push($.v())
 			d.a.push(T.e("[0]：[我要你陪伴我到最后！]", o, this.r, null, null, 0, 1000, 100))
 			o.SR0 = 1
+			o.db = 3 * o.db
+			this.r.Q = 3 * this.r.Q
 			o.enemy = n.length - o.y.f.length
+			if(this.r.y == o.y){
+			this.r.partner = o
+			o.partner = this.r
+			}
 			return
 			}
-			if(this.r.e == "karen@!" && o.e == "hikari@!" )
+			if(this.r.e == "karen@!" && o.e == "hikari@!"  && this.r.y == o.y)
 			{
 			d.a.push(T.e("[0]：[从用力举起的手中]", o, this.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
@@ -22892,7 +22967,7 @@ T.thb8s1.prototype = {
 			o.enemy = n.length - o.y.f.length
 			return
 			}
-			if(o.e == "karen@!" && this.r.e == "hikari@!" )
+			if(o.e == "karen@!" && this.r.e == "hikari@!" && this.r.y == o.y)
 			{
 			d.a.push(T.e("[0]：[从用力举起的手中]", this.r, this.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
@@ -26177,7 +26252,7 @@ T.tha4n1.prototype = {
             return a.b1(this.r.y.e)
         },
         am: function(a, b) {
-            return a.fr <= 0 && !a.$iav && !a.r1.G(0, $.eE()) && !a.tigerCurse
+            return a.fr <= 0 && !a.$iav && !a.r1.G(0, $.eE()) && !a.tigerCurse && !a.SRm
         },
         a8: function(a, b, c) {
             if (b)
@@ -26219,7 +26294,7 @@ T.tha4n1.prototype = {
             return a.b1(this.r.y.e)
         },
         am: function(a, b) {
-            return a.fr <= 0 && !a.$iav
+            return a.fr <= 0 && !a.$iav && !a.r1.G(0, $.eE()) && !a.tigerCurse && !a.SRm
         },
 		a8: function(a, b, c) {
             return a.L * a.J
@@ -26310,8 +26385,11 @@ r.push(T.e("[1]灵力散尽", n.r, T.a1(n.r, n.r.fr) , m, m, 0, 1000, 100))
 n.r.bf(n.r.fr, null, c, d)
         }
     }
-
     T.i7.prototype = {
+	    ai: function(a, b) {
+            this.r = a
+            this.f = 36
+        },
         t: function(a, b, c, d) {
             var u, t, s, r = this, q = null, p = a[0].a, o = d.a
             o.push(T.e(O.c("vDpa"), r.r, p, q, q, 0, 1000, 100))
@@ -35269,23 +35347,23 @@ t.push(u)
         return C.Kirin
     },
     gaQ: function() {
-        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+        return H.a([], [P.f])
     },
     aa: function() {
-        var u, t = new T.Kirin1()
+        var u, t = new T.noak()
         t.r = this
         this.k2 = t
         t = this.id
 		u =new T.Kirin1()
         u.f = 1024
-        t.push(u)   
+        t.push(u)
     }}
 	T.karen.prototype = {
     gah: function() {
         return C.karen
     },
     gaQ: function() {
-        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+        return H.a([], [P.f])
     },
     aa: function() {
         var u, t = new T.aK()
@@ -35295,7 +35373,7 @@ t.push(u)
 		t.push(new T.RevueStarlightready())
 		u =new T.RevueStarlightstart()
         u.f = 1024
-        t.push(u)   
+        t.push(u)  
     }, 
     bM: function() {
             var u, t = this
@@ -35310,7 +35388,7 @@ t.push(u)
             if(this.fr <= 0 ){
 			d.a.push($.v())
 			d.a.push(T.e("[0]: [...]", this, this.r, null, null, 0, 1000, 100))
-			}	
+			}
         }
 }
     T.hikari.prototype = {
@@ -35318,7 +35396,7 @@ t.push(u)
         return C.hikari
     },
     gaQ: function() {
-        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+        return H.a([], [P.f])
     },
     aa: function() {
         var u, t = new T.aK()
@@ -35351,7 +35429,7 @@ t.push(u)
         return C.mahiru
     },
     gaQ: function() {
-        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+        return H.a([], [P.f])
     },
     aa: function() {
         var u, t = new T.aK()
@@ -35384,7 +35462,7 @@ t.push(u)
         return C.junna
     },
     gaQ: function() {
-        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+        return H.a([], [P.f])
     },
     aa: function() {
         var u, t = new T.aK()
@@ -35417,7 +35495,7 @@ t.push(u)
         return C.nana
     },
     gaQ: function() {
-        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+        return H.a([], [P.f])
     },
     aa: function() {
         var u, t = new T.aK()
@@ -35450,7 +35528,7 @@ t.push(u)
         return C.maya
     },
     gaQ: function() {
-        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+        return H.a([], [P.f])
     },
     aa: function() {
         var u, t = new T.aK()
@@ -35483,7 +35561,7 @@ t.push(u)
         return C.kuro
     },
     gaQ: function() {
-        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+        return H.a([], [P.f])
     },
     aa: function() {
         var u, t = new T.aK()
@@ -35516,7 +35594,7 @@ t.push(u)
         return C.futaba
     },
     gaQ: function() {
-        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+        return H.a([], [P.f])
     },
     aa: function() {
         var u, t = new T.aK()
@@ -35526,7 +35604,10 @@ t.push(u)
 		t.push(new T.RevueStarlightready())
 		u =new T.RevueStarlightstart()
         u.f = 1024
-        t.push(u)       
+        t.push(u)
+        u = new T.dV()
+        u.f = 256
+        t.push(u)		
     }, 
     bM: function() {
             var u, t = this
@@ -35549,7 +35630,7 @@ t.push(u)
         return C.kaoruko
     },
     gaQ: function() {
-        return H.a([$.ai(), $.am(), $.kj()], [P.f])
+        return H.a([], [P.f])
     },
     aa: function() {
         var u, t = new T.aK()
@@ -35559,7 +35640,8 @@ t.push(u)
 		t.push(new T.RevueStarlightready())
 		u =new T.RevueStarlightstart()
         u.f = 1024
-        t.push(u)       
+        t.push(u)
+		
     }, 
     bM: function() {
             var u, t = this
@@ -37007,9 +37089,11 @@ t.push(u)
         bf: function(a, b, c, d) {
             var u, t, s = this, r = d.a
             r.push($.v())
-            u = this.tigerCurse ? "[1]被一百万匹力量轰散，永不超生" : s.cw()
-			if(this.SRm == 1){
-			u = "[1]：わかります"
+			u = this.tigerCurse ? "[1]被一百万匹力量轰散，永不超生" : s.cw()
+			switch (this.e) {
+			case "Kirin@!":
+			u = "[1]：[眩しい]"
+			break
 			}
             t = new T.ch()
             t.a = s.e
@@ -37459,7 +37543,6 @@ t.push(u)
         aK: function(a, b, c, d) {
             var u = this.ch
             if (u.a != null) {
-			    d.a.push(T.e("[0]从隐匿中解除", this.r, this.r, null, null, 10, 1000, 100))
                 u.C()
                 this.r.E()
             }
@@ -37693,6 +37776,10 @@ t.push(u)
         },
         cC: function(a) {
             var u, t, s = this, r = s.a9(0, (a.m() & 127) < s.r.dy, a), q = r != null ? r[0].a : null, p = s.Q
+			if(this.r.e == "futaba@!" && this.r.partner != null)
+			{
+			q = this.r.partner
+			}
             if (p == q)
                 return
             if (p != null) {
@@ -38129,7 +38216,7 @@ dk: function(a, b, c, d, e, f, g) {
             if (a > u) {
                 this.x = 0
                 a -= 0
-                e.a.push(T.e("[0]的[护盾]被打破了", this.r, null, null, null, 0, 1000, 100))
+                
 				return a
             } 
 			else {
@@ -38163,9 +38250,9 @@ dk: function(a, b, c, d, e, f, g) {
                 {
                     v = (c.au(1 + C.b.v(t * 3, 4)) + 1)
                     u.x = s + v
-                    d.a.push(T.e("[0]获得[1]点[护盾]", this.r , v, null, null, 0, 1000, 100))
+                    
                 }
-                    d.a.push(T.e("[0]拥有[1]点[护盾]", this.r , u.x, null, null, 0, 1000, 100))
+                    
                 }
             return a
         },
@@ -38617,13 +38704,36 @@ dk: function(a, b, c, d, e, f, g) {
         }
 	T.RevueStarlightready.prototype = {
         aK: function(a, b, c, d) {
-            var u, t, s, r = this , v ,w ,q = null 
+            var u, t, s, r = this , p, o, l, v ,w ,q = null 
 			if(this.r.SR0 == 1 && this.r.watch != null)
 			{
 			if(this.r.watch.SRm == 0)
 			{
 			d.a.push(T.e("[0]：......", this.r.watch , this.r, q, q, 60, 1500, 100))
 			return 0
+			}	
+			}
+			if(this.r.e == "kaoruko@!" && this.r.partner != null)
+			{
+			if(this.r.partner.fr <= 0){
+			o = this.r.partner
+            if (!C.a.w(o.x.f, o)) {
+			    p = o.x.a
+                if (!C.a.w(p.c, o))
+                    C.a.i(p.c, o)
+                p = p.e
+                if (!C.a.w(p, o)) {
+				    l = o.x.f
+                    if (l.length > 0)
+                        C.a.ck(p, C.a.aJ(p, C.a.gbe(l)) + 1, o)
+                    else
+                        p.push(o)
+                }
+                C.a.i(o.x.f, o)
+            }
+			o.fr = o.fx
+			d.a.push(T.e("[0]复活了[1]", this.r, T.a1(o, 0), null, null, 0, 1000, 100))
+			o.f = o.f + 2048
 			}
 			}
 			return a
@@ -40044,8 +40154,8 @@ C.junna = H.a(u([0, 0, 0, 0, 0, 0, 100, 0]), [P.j])
 C.nana = H.a(u([0, 0, 0, 0, 0, 0, 100, 0]), [P.j])
 C.maya = H.a(u([0, 0, 0, 0, 0, 0, 100, 0]), [P.j])
 C.kuro = H.a(u([0, 0, 0, 0, 0, 0, 100, 0]), [P.j])
-C.futaba = H.a(u([0, 0, 0, 0, 0, 0, 100, 0]), [P.j])
-C.kaoruko = H.a(u([0, 0, 0, 0, 0, 0, 100, 0]), [P.j])
+C.futaba = H.a(u([52, 4, 14, 14, -16, 11, 100, 89]), [P.j])
+C.kaoruko = H.a(u([-10, 21, -1, 21, 32, 1, 100, -1]), [P.j])
 C.yeya = H.a(u([18, -46, -11, -82, 19, -70, 940, 999749]), [P.j])
         C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])
         C.W = H.a(u([10, -6, 1000, 0, 10, -15, 6, 0]), [P.j])
@@ -40197,7 +40307,7 @@ C.yeya = H.a(u([18, -46, -11, -82, 19, -70, 940, 999749]), [P.j])
 "futaba",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAADCSURBVDhPpZHhCcIwEEa/tNI/VqWCS2ST7qAjOIAghMyiO7hJ14l3RxJtiG1sHxQu4b7HXQoFuKaGw0KqQwXc7gZ7Evm7SR79c9RHAwBHmuBKEmttvEtJg8zldf70dko5Y4zbzUySE0U6CrOkdJ0sJy+hcoWkamSVLdRySYuN433bugmSMFWR1A3DIGH/aHLmj2vp8GR/GcHNUmitEWqGz0TM/RIwUZLyLZkSMLOSOQEzkvhgoCQvZB/wX1YLmEQAvAEtCFcDr+3WqwAAAABJRU5ErkJggg==",
 "kaoruko",
-"iVBORw0KGgoAAAANSUhEUgAAAA8AAAAQCAYAAADJViUEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAC3SURBVDhPrZDLDcIwDEDtFiEhPhJInYVTlugqDJCNWCInZuHIAMZ2k6ghhkLEkxoncp9jBxohWTrdNtIiUwhB499vlnl0JoN0q4IxJojRDaKm5vksOuckTH+8oLYUmRWoxLy8IbduiYvs+jXR9ZbeIBdbZAtI3nuSAnz8XmQmEVaVFDuxOURx6PTGirlcDL/n3IPjwN/deJhCHM9Fni5+Q0eO8WxStS2tqoj4URSsmenU//aiAABPlE5S8p6x2UUAAAAASUVORK5CYII=",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAC8SURBVDhPtZDNDcIwDIXtFiEhfiSQOgunLMEqDJCNWCInZuHIAMY2TtQ2CdBIfFL7GrnvxTY0QqbQmTbTEkAhBFV5/aUDSU4zzoi3J9A0Qox+IGppXE9m55xI9kNEEyRoFFI0C6WASBqjZv7Krl8T3e5xJynwJ7aA5L0nCeHjMjPzNsMqM1pHdQ5mHjq9OWMeMFnInutP1oGfR2FZYzNeznn96jd0ZLVzkeII0raaET+ahdoO6NQv3zQAwAvSAVLyRJiTIQAAAABJRU5ErkJggg==",
 "yeya",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAH9JREFUOE+tk10OwCAIg+VmenK4mUtdSKapP9vwEfGjVJCcc03kmJk8w7M8wYWqdohSCmMmlkcB9DUJotASIHJ3USvtMsUBUGXsD7GVAvepaWRGngDwUx3AK45+MQ+gIB4wVt550BT4hH02cWbgzkTcx80Bk38yzlMFr5fpzzpfC7V7BSjXHhMAAAAASUVORK5CYII=",
 "testa", 

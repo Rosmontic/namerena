@@ -20754,6 +20754,36 @@ tha4b1: function tha4b1() {
                 if (!!t.b.$idJ)
                     return '<span class="sctext">' + u.an(s, 1, s.length - 1) + "</span>"
                 else
+				    if(this.b.e == "Kirin@!"){
+					return '<span class="starlight00">' + u.an(s, 1, s.length - 1) + "</span>"
+					}
+				    if(this.b.e == "karen@!"){
+					return '<span class="starlight01">' + u.an(s, 1, s.length - 1) + "</span>"
+					}
+					if(this.b.e == "hikari@!"){
+					return '<span class="starlight02">' + u.an(s, 1, s.length - 1) + "</span>"
+					}
+					if(this.b.e == "mahiru@!"){
+					return '<span class="starlight03">' + u.an(s, 1, s.length - 1) + "</span>"
+					}
+					if(this.b.e == "junna@!"){
+					return '<span class="starlight04">' + u.an(s, 1, s.length - 1) + "</span>"
+					}
+					if(this.b.e == "nana@!"){
+					return '<span class="starlight05">' + u.an(s, 1, s.length - 1) + "</span>"
+					}
+					if(this.b.e == "maya@!"){
+					return '<span class="starlight06">' + u.an(s, 1, s.length - 1) + "</span>"
+					}
+					if(this.b.e == "kuro@!"){
+					return '<span class="starlight07">' + u.an(s, 1, s.length - 1) + "</span>"
+					}
+					if(this.b.e == "futaba@!"){
+					return '<span class="starlight08">' + u.an(s, 1, s.length - 1) + "</span>"
+					}
+					if(this.b.e == "kaoruko@!"){
+					return '<span class="starlight09">' + u.an(s, 1, s.length - 1) + "</span>"
+					}
                     return '<span class="stext">' + u.an(s, 1, s.length - 1) + "</span>"
             }
         }
@@ -22772,9 +22802,10 @@ T.thb8s1.prototype = {
 			}
 			break
 			case 1:
-			o.Q = o.Q * 3
-			o.db = o.db * 3
-			o.cy = C.d.v(o.cy, 3)
+			o.Q = o.Q * 2
+			o.db = o.db * 2
+			o.cx = o.cx * 2
+			o.cy = C.d.v(o.cy, 6)
 			if (o.e == "junna@!"){
 			o.cx = o.cx * 2
 			o.db = o.db * 2
@@ -22822,7 +22853,7 @@ T.thb8s1.prototype = {
 			o.cy = o.cy * 2
 			o.ch = o.ch * 2
 			o.dx = o.dx * 2
-			if (o.e == "karen@!"  || o.e == "hikari@!" || o.e == "nana@!" ){
+			if (o.e == "hikari@!" || o.e == "nana@!" ){
 			o.go = o.go * 2
 			}}
 			break
@@ -22842,16 +22873,17 @@ T.thb8s1.prototype = {
 			case 7:
 			if(o.SRm == null){
 			l = o.fr
-			o.fx = k + 1
+			o.fx = k
 			o.fr = o.fx
 			d.a.push($.v())
-			d.a.push(T.e("[1]", o, T.a1(o, l), null, null, 0, 1000, 100))
-			o.Q = C.d.v(k + 1, 2)
-			o.db = C.d.v(k + 1, 2)
-			o.cx = C.d.v(k + 1, 2)
-			o.cy = C.d.v(k + 1, 2)
-			o.ch = C.d.v(k + 1, 2)
-			o.dx = C.d.v(k + 1, 2)
+			T.a1(o, l)
+			d.a.push(T.e("[1]", T.a1(o, l), T.lV(o), null, null, 0, 1000, 100))
+			o.Q = C.d.v(k, 4)
+			o.db = C.d.v(k, 4)
+			o.cx = C.d.v(k, 4)
+			o.cy = C.d.v(k, 4)
+			o.ch = C.d.v(k, 4)
+			o.dx = C.d.v(k, 4)
 			}
 			break
 			}
@@ -22894,7 +22926,7 @@ T.thb8s1.prototype = {
 			this.r.enemy = n.length - this.r.y.f.length
             for (u = 0; u < n.length; ++u) {
             o = n[u]
-			if(this.r.e == "kaoruko@!" && o.e == "futaba@!" )
+			if(this.r.e == "kaoruko@!" && o.e == "futaba@!" && this.r.y == o.y)
 			{
 			d.a.push(T.e("[0]：[歌唱舞蹈来来回回]", this.r, this.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
@@ -22912,16 +22944,12 @@ T.thb8s1.prototype = {
 			d.a.push($.v())
 			d.a.push(T.e("[0]：[我要你陪伴我到最后！]", this.r, this.r, null, null, 0, 1000, 100))
 			o.SR0 = 1
-			this.r.db = 1 * this.r.db
-			o.Q = 1 * o.Q
 			o.enemy = n.length - o.y.f.length
-			if(this.r.y == o.y){
 			this.r.partner = o
 			o.partner = this.r
-			}
 			return
 			}
-			if(o.e == "kaoruko@!" && this.r.e == "futaba@!" )
+			if(o.e == "kaoruko@!" && this.r.e == "futaba@!" && this.r.y == o.y)
 			{
 			d.a.push(T.e("[0]：[歌唱舞蹈来来回回]", o, this.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
@@ -22939,13 +22967,9 @@ T.thb8s1.prototype = {
 			d.a.push($.v())
 			d.a.push(T.e("[0]：[我要你陪伴我到最后！]", o, this.r, null, null, 0, 1000, 100))
 			o.SR0 = 1
-			o.db = 1 * o.db
-			this.r.Q = 1 * this.r.Q
 			o.enemy = n.length - o.y.f.length
-			if(this.r.y == o.y){
 			this.r.partner = o
 			o.partner = this.r
-			}
 			return
 			}
 			if(this.r.e == "karen@!" && o.e == "hikari@!"  && this.r.y == o.y)
@@ -22962,7 +22986,7 @@ T.thb8s1.prototype = {
 			d.a.push($.v())
 			d.a.push(T.e("[0]：[99期生 爱城华恋]", this.r, this.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
-			d.a.push(T.e("[0] [1]：[我会让大家星光闪耀！]", this.r, o, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0] / [1]：[我会让大家星光闪耀！]", this.r, o, null, null, 0, 1000, 100))
 			o.SR0 = 1
 			o.enemy = n.length - o.y.f.length
 			return
@@ -23069,7 +23093,7 @@ T.thb8s1.prototype = {
 			d.a.push($.v())
 			d.a.push(T.e("[0]：[99期生次席 西条克洛迪娜]", this.r, this.r, null, null, 0, 1000, 100))
 			d.a.push($.v())
-			d.a.push(T.e("[0]：[要成为Star的 是我！]", this.r, this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]：[C'est moi, la star！]", this.r, this.r, null, null, 0, 1000, 100))
 			}
 			else if (this.r.e == "futaba@!"){
 			d.a.push(T.e("[0]：[那一天 我找到了]", this.r, this.r, null, null, 0, 1000, 100))
@@ -37104,6 +37128,13 @@ t.push(u)
                     break
             if (s.fr > 0)
                 return
+			if(b != null && this.SR0 != null){
+			if(b.y.f.length == b.x.a.e.length - 1)
+			{
+			d.a.push($.v())
+			d.a.push(T.e("[0]：[position zero！]", b, b, null, null, 0, 1000, 100))
+			
+			}}
             s.x.d9(s)
             if (b != null && b.fr > 0)
                 b.bP(s, c, d)
@@ -38717,10 +38748,10 @@ dk: function(a, b, c, d, e, f, g) {
 			{
 			if(this.r.partner.fr <= 0){
 			o = this.r.partner
-            if (!C.a.w(o.x.f, o)) {
+            if (!C.a.w(o.x.f, this.r)) {
 			    p = o.x.a
-                if (!C.a.w(p.c, o))
-                    C.a.i(p.c, o)
+                if (!C.a.w(p.c, this.r))
+                    C.a.i(p.c, this.r)
                 p = p.e
                 if (!C.a.w(p, o)) {
 				    l = o.x.f
@@ -38729,7 +38760,8 @@ dk: function(a, b, c, d, e, f, g) {
                     else
                         p.push(o)
                 }
-                C.a.i(o.x.f, o)
+				d.a.push(T.e("[0]ppp", this.r, this.r, null, null, 0, 1000, 100))
+                C.a.i(o.x.f, this.r)
             }
 			o.fr = o.fx
 			d.a.push(T.e("[0]复活了[1]", this.r, T.a1(o, 0), null, null, 0, 1000, 100))
@@ -40148,16 +40180,16 @@ C.koyuki = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 C.hifumi = H.a(u([-4, 1, -8, 6, 48, 27, 31, 502]), [P.j])
 C.jntm = H.a(u([44, 30, 315, 39, 30, 25, 46, 117]), [P.j])
 C.azusa = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-C.Kirin = H.a(u([2018, 2018, 2018, 2018, 2018, 2018, 2018, -177]), [P.j])
-C.karen = H.a(u([0, 0, 0, 0, 0, 0, 100, 0]), [P.j])
-C.hikari = H.a(u([0, 0, 0, 0, 0, 0, 100, 0]), [P.j])
-C.mahiru = H.a(u([0, 0, 0, 0, 0, 0, 100, 0]), [P.j])
-C.junna = H.a(u([0, 0, 0, 0, 0, 0, 100, 0]), [P.j])
-C.nana = H.a(u([0, 0, 0, 0, 0, 0, 100, 0]), [P.j])
-C.maya = H.a(u([0, 0, 0, 0, 0, 0, 100, 0]), [P.j])
-C.kuro = H.a(u([0, 0, 0, 0, 0, 0, 100, 0]), [P.j])
-C.futaba = H.a(u([52, 4, 14, 14, -16, 11, 100, 89]), [P.j])
-C.kaoruko = H.a(u([-10, 21, -1, 21, 32, 1, 100, -1]), [P.j])
+C.Kirin = H.a(u([2018, 2018, 4036, 2018, 2018, 2018, 2018, -177]), [P.j])
+C.karen = H.a(u([4, 6, 19, 0, 5, 3, 100, 36]), [P.j])
+C.hikari = H.a(u([10, -7, 20, 40, 20, -2, 100, -69]), [P.j])
+C.mahiru = H.a(u([29, 9, -7, -18, 22, 8, 100, 57]), [P.j])
+C.junna = H.a(u([29, -18, 5, 24, 27, -1, 100, 3]), [P.j])
+C.nana = H.a(u([39, 19, 17, 15, 5, 28, 100, 117]), [P.j])
+C.maya = H.a(u([44, 11, 4, 9, 12, 8, 100, 18]), [P.j])
+C.kuro = H.a(u([43, 25, 23, 36, 21, 33, 100, 32]), [P.j])
+C.futaba = H.a(u([57, 9, 14, 14, -16, 11, 100, 89]), [P.j])
+C.kaoruko = H.a(u([-10, 21, -1, 31, 42, 1, 100, 9]), [P.j])
 C.yeya = H.a(u([18, -46, -11, -82, 19, -70, 940, 999749]), [P.j])
         C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])
         C.W = H.a(u([10, -6, 1000, 0, 10, -15, 6, 0]), [P.j])
@@ -40277,13 +40309,13 @@ C.yeya = H.a(u([18, -46, -11, -82, 19, -70, 940, 999749]), [P.j])
 "fox4",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAADFSURBVDhPY3RwcPjPQAFggtJYgfuKe2CMD+A0AKRxZ4QSGKMbMuXBAzAGAbwuwAZgGkEAxMYwYP/+/WAaZjPMJSAAk0MGWF2AbAg+zSCA1YB1a5NRNIDYIDF0kKOgwIARjbhsgoGriopgGqQZBFBcQEgzCGjfv89ws8cJysPhhfhTlmAMA+j8oOC5UBaSAcTYjg2AwwAUnyCnkQIcHR3BNNwF2EKZGAA3QL1kH5RFGMBsBwGwAbAogUURPoCsGQQozM4MDACW51Iz925UsAAAAABJRU5ErkJggg==",
 "rio",
-"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",
+"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",
 "yuuka",
 "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",
 "jntm",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAB+SURBVDhP7ZPBDoAgDEOHF/j/r+WmdqGmLqKgV1+iKdlapoG07lijlNLUPbXWpsyOgGjWJtCrL3ixGE1XsIeelHP2CVCY+QT2+gQjO0fo8QCiQdD6ENXgFPCGP6CdA/7ZmXMA0O8TjBoVevwucIFk1UqvxyfQkZ6IG3y8zmYb5UJZo3IBP3QAAAAASUVORK5CYII=",
 "noa",
-"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MjMtMDgtMTVUMDA6NTg6MzIrMDA6MDDLd4KiAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIzLTA4LTE1VDAwOjU5OjAzKzAwOjAwW1jEFAAAABN0RVh0ZGM6Zm9ybWF0AGltYWdlL3BuZ/+5Gz4AAAAVdEVYdHBob3Rvc2hvcDpDb2xvck1vZGUAM1YCs0AAAAAUdEVYdHhtcDpDb2xvclNwYWNlADY1NTM1O1RN8gAAACh0RVh0eG1wOkNyZWF0ZURhdGUAMjAyMi0wOS0yOFQyMDoyMDozMiswODowMPc/tDsAAAAxdEVYdHhtcDpDcmVhdG9yVG9vbABBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNyAoV2luZG93cymrqUMoAAAAKnRFWHR4bXA6TWV0YWRhdGFEYXRlADIwMjItMDktMjhUMjA6MjI6NDcrMDg6MDAjbS0/AAAAKHRFWHR4bXA6TW9kaWZ5RGF0ZQAyMDIyLTA5LTI4VDIwOjIyOjQ3KzA4OjAwH8l+gQAAABd0RVh0eG1wOlBpeGVsWERpbWVuc2lvbgAzMTRBzyzWAAAAF3RFWHR4bXA6UGl4ZWxZRGltZW5zaW9uADMxM0KkWAMAAAA9dEVYdHhtcE1NOkRvY3VtZW50SUQAeG1wLmRpZDowN2M5ZDNiYy05Njc2LTI1NDAtYWQxZC03NDc0ZDk3YzE5NjR2W7jUAAAAPXRFWHR4bXBNTTpJbnN0YW5jZUlEAHhtcC5paWQ6MDdjOWQzYmMtOTY3Ni0yNTQwLWFkMWQtNzQ3NGQ5N2MxOTY0AHwv3gAAAEV0RVh0eG1wTU06T3JpZ2luYWxEb2N1bWVudElEAHhtcC5kaWQ6MDdjOWQzYmMtOTY3Ni0yNTQwLWFkMWQtNzQ3NGQ5N2MxOTY0eobWJwAAAABJRU5ErkJggg==",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAC3SURBVDhPzZIxDsIwDEXTzsxsLCDBMWBGKtfgTFyDSsxwDJBgYWNmJvAsJyQkrcKAxJNc/1b+P25V8zdYrVL8fM0FNscbrSTE6qzgA6AgJDJDFABhyLUdWAr9IjFDpR2igeVpbOaPhehDvTe76UU0rGdDmniTDcCZz6tW7tE8yxEGVJrsmWwbVW/C0+E3rwCj5i5GCt2F2yA6/XNNJTuTbNBhhuQbQRTQY3ZkQxwlv7Hjm9k+jHkCKPJNmPbQCRMAAAAASUVORK5CYII=",
 "koyuki",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAL6UExURf/6+15qiDo/SNu/zuCSrNiAn9zKxdC0uf///9F4l76+zoqRptGEoP+evvu+2ffA2vzX6vrP4/PF29elxdyryMyavaWRrZqhrMfAubqvq6SZlnRva/iqyv/g8PzY6vXL4e260++70/S/1u+709Oqw4uHj3pzcraoo1tVVSwuMfLQ5dbH2du70PK/172ZsG9hamleXTI0OBckM7+hu1pwiaeHoPW81L2RqDQyN0A/Q3dqa1lfafCzzJpujDU9Te2xyo9tiCEyRbmCnz5MWrypwNCYtcWHnsZ2nUpecaSpubFykq90mNaRrrp9mJtOgUrs/+7u9MFukAAAANOrteKywuOuwsB0k3Z7oMHF2MV2l+Xk0tm7vMibqOPGxfTe2LeFpLq91M3P4MvO38V0laWXqMRwkgoXP11nf8FukLe3yfHw9KGmtL1rjt/g6Pb2+cpzlLpmjeHm6fX1+JWKnvO/1fW/1vC60vbB1uq3zuu3zTY1OPfB1/K60fC70fnJ2vXJ2fC3zfG4z6uFnklMZdaju/rE2PXH1vjQ2/nM2vK/zu6zyrKYmaKdoap1j3ZuhuWsxfbG2fzT4PfR3vLL0uy+yPjF1efDyuW0w0dPYFljdM6Uq8y+z+WsxvS70vrH2vTF1vHN0uPAxfC/zcqssK6Nk9CTq0VSZFdkd+Knv+qowvrA19OjtbKUmODKyfDP0uC+vtOztdPV3uOatfW70sibq72Wm+3V0vro4fzp4PHX0vn6/OGYtPHMzf3s4/zs4/3v5ebAxNrc6OScuPnp4OHKybZ2j8HE2N6xttuztaOesGBmgU9genCBmLG3yeTl7u7v9d+Tr9rU29O1vMu2woSOpCRCWy9ScnCPvdTb6vHx9tSCoFtogYGMnre1xeXEw6+qtitBWzx4q0qZ2nWdvb3Bycx1lvLz9YuZtUlZdW59lMnP2Li8zUlXdTdumFNuhXZ7i6Wnsvz8/fr7+9LZ54+arldlfX+XrYu/4YKQrDU9TmBiccbJ2eTl7////81RVMsAAABzdFJOUwAAAAAAAAAAAAAAAAAAj063lCQVLC+Bk02APhMLWaq2ms7l5/m1r+3AK4PJ0fDjoP2dG/Pt7/3GoOD23OlLvfy29pS4/v79WiPQtH3uvRcBrYQCbfP9jg7Cewc/Wq/+04Gn9nGEazbpaAw9vGSE8/xVQOd1mp8IAAAAAWJLR0QIht6VegAAAAd0SU1FB+cIDwA7BJRZ8SwAAAEbSURBVBjTARAB7/4ADg8QERITFBUWFxgZGhsAAQAcHR4fICEiIyRzJSYnKCkCACorLC10dXZ3eHkuLzB6MTIAMzQ1Nnt8fX5/gIE3ODk6OwCCg4R1hXSGh4iJijw9PouMAI2Oj5CRkpOUlZaXP0BBmJkAmpucnZ6foKGio6SlQkOmpwCoREWpqqusra6vsEZHSEmxALJKS0yztLW2t7i5TU5PULoAu1FSU1RVvL2+v8BWA1dYwQDCWQRaW1xdXsPExV9gYWLGALJjBQYHCGTHyMnKy8zNzs8A0GUJCgtmZ9HS09TV1tfY2QDaaAxpamvb3N3e3+Dh4uPkAOVsDW1u5ufo6err7O3u7/AAb3BxcvHy8/T19vf4+fr7/MEyfiKlJ87hAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTA4LTE1VDAwOjU4OjQ0KzAwOjAw0z8GPQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wOC0xNVQwMDo1ODo0NCswMDowMKJivoEAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjMtMDgtMTVUMDA6NTk6MDQrMDA6MDCe//qaAAAAAElFTkSuQmCC",
 "azusa",
@@ -40291,7 +40323,7 @@ C.yeya = H.a(u([18, -46, -11, -82, 19, -70, 940, 999749]), [P.j])
 "hifumi",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAJkUExURf/sqP3rqfvoqfrnpv3qp//sp/jmruvYr+LMsNrCqt7Ir+nXufPit/7rqPPhtuDKuN3Gu9rBtdS5rNrCtuXTx+bUx+jVufrnqvfovOfUxt7EuOTNw9/HvN/Hu+LNwezbz+TPwtrBtOvWtPnnre7ezO3d0uvZzezaz+fVyu7e0+rZzeTOw+TOwtvBs9zDsvXhqf/tqOzWsOXOxOXNwe/c0vHh1+rWzO7Z0OjSyOTPxefTyeDJvdO1pubNovzop+TJsOfRyOLHvOzVzOzVzeXPx+bSzOfRyenUy+fUy+XRyNe7rta5mvvnp/nkpd+/qebPxubQx+7b1O3Y0caxrKqTi8GpoerWz97Fu9a4qta6p+3YrP7rp/rkpdu3nta1qbmgmdHAuvjs5vLo5OHKt9S6qunUzOK9tdm2q9W9tMqymOfUm/3qpuPEotOuoL2ckN7Lvf328P/38vzm2vHa0O7b0/HX0dvCveDSzZyGapeHZvnmpO7Tn9Ktm9q1ovji1v707/zu6fvq4/fp4vbk3dOypb+jmd/EnO/YhN7AcPvjmvjjo+fKmvHZo/zq0Pno5PbOzP3q5v/v6fXZ0dGwkdCwktq7mt/HgseqcPzno/Xhq+rSxPXh2OfSwvjY0cCsq4R5aN7Gl9S3ps+3ptS+rejSq+TKo8ell56GfqmNhbiiqGVidYiIkdPItt/GptzFueTRyPHfopeHfVpSXZeTm5qMmm1rhcXGz+Pi5eHb4+PUuu3YqNC5qta/sv/sqbesklNUaWhpfJ2drVdaerKzwN3c38G+xfPx9dbKxebVr7yvsNLApP///1OwEpAAAAABYktHRMuEswZwAAAAB3RJTUUH5wgPCDk6aR3fvQAAAP9JREFUGNNjYAADRiZmFlYGOGBj5+Dk4uZhgnJ5+fgFBIWERUTFxCECEpJS0jKycvIKikq8IL6yiqqauoamlraOrp6+AVDA0MjYxNTM3MLSytrGFsi3s3dwdHJ2cXVz9/D08vZhYPD18w8IDAoOCQ0Lt4yIjIpmiImNi09ITEpOSU1Lz8jM4mXIzsnNyy8oLCouKS0rr6isYjCorqmtq29obGpuaW1r7+hkMOjq7unt658wcdLkKVOnTZ8BtMfAYOas2XPmzpu/YOGixUvAbl26bPmKlatWr1m7bv16kIoNGzdt3rJ12/YdO3ft3gMU2Ltv/4GDhw4fOXrs+ImTpwDbi1IMmaiW1gAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wOC0xNVQwODo1Nzo1NCswMDowMLSdjkMAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDgtMTVUMDg6NTc6NTQrMDA6MDDFwDb/AAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIzLTA4LTE1VDA4OjU3OjU4KzAwOjAwVXV9VAAAAABJRU5ErkJggg==",
 "Kirin",
-"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABuSURBVDhPY2RgYPgPxBQBSgz4zwRlkA1gXmD8DwRgESIBIxAAqf8oBlyvWQ6SIwg0WyLhBlDshWFgAM5YQA9QUMAhA4xABAnAAFQIA0ClwQAqNJjCAMyDAvTwgAFkp0MBWB1WxUQCeFImEzAwAADXCyQlbkVNoAAAAABJRU5ErkJggg==",
+"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABtSURBVDhPY7xWvew/AyWAEgNAepmgbLIB3ID/JAKoNgYWKA0G12uWQ1n4gWZLJJSF5AJywTAwACUQkQMHPUCR5ZAB3AWMSAAqhAGg0mAAFRoEYYA1L0ATGwaASsMBzrwA9SYGgEqjAAqzMwMDADrwYNFLL8dPAAAAAElFTkSuQmCC",
 "karen",
 "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACZSURBVDhPpZNBDgIhDEXbAk5mNJ7ApffkZC4cMgsP4xm+ZQRWxgn0bwoJ76VtAjFNED6BBiOOmZ7rg9Q0LNnhlBJILBL6SlhrufdHaicWiZdglwTyReLHJRle02brRHM4ji79ML/gxkmp/7I/ft/u7dybOgJUAhf6d9KADMcYcV4MkgxnyWzoBJMj4HXFon+ndylVwhevMIg+xKtH8CqX1MwAAAAASUVORK5CYII=",
 "hikari",

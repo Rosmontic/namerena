@@ -22877,7 +22877,7 @@ T.thb8s1.prototype = {
 			o.fr = o.fx
 			d.a.push($.v())
 			T.a1(o, l)
-			d.a.push(T.e("[0]:[为了「Starlight！」]", T.lV(o) ,T.a1(o, l), null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]:[为了「Starlight」]", T.lV(o) ,T.a1(o, l), null, null, 0, 1000, 100))
 			o.Q = C.d.v(k, 4)
 			o.db = C.d.v(k, 4)
 			o.cx = C.d.v(k, 4)

@@ -6363,6 +6363,44 @@
 						g.at(a, u)
 						return g
 					}
+					if (a == "KODU") {
+						t = H.d(a) + H.d($.ah())
+						s = H.a([], [T.H])
+						r = H.a([], [T.y])
+						q = P.U(P.f, T.p)
+						p = new F.b([T.M])
+						p.c = p
+						p.b = p
+						o = new F.b([T.L])
+						o.c = o
+						o.b = o
+						n = new F.b([T.G])
+						n.c = n
+						n.b = n
+						m = new F.b([T.J])
+						m.c = m
+						m.b = m
+						l = new F.b([T.K])
+						l.c = l
+						l.b = l
+						k = new F.b([T.D])
+						k.c = k
+						k.b = k
+						j = new F.b([T.A])
+						j.c = j
+						j.b = j
+						i = new F.b([T.C])
+						i.c = i
+						i.b = i
+						h = new F.b([T.I])
+						h.c = h
+						h.b = h
+						g = [P.j]
+						g = new T.KODU(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g.Y(a, u, t, f)
+						g.at(a, u)
+						return g
+					}
 					if (a == "AL1S") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
@@ -13119,6 +13157,45 @@
 				_.F = null
 			},
 			yeya: function yeya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+				var _ = this
+				_.aI = 0
+				_.aP = _.bb = _.af = null
+				_.a = a
+				_.b = b
+				_.c = c
+				_.d = d
+				_.y = _.x = _.r = _.f = _.e = null
+				_.z = 0
+				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+				_.go = 1
+				_.id = e
+				_.ye = 0
+				_.k2 = _.k1 = null
+				_.k3 = f
+				_.k4 = null
+				_.r1 = g
+				_.r2 = h
+				_.rx = i
+				_.ry = j
+				_.x1 = k
+				_.x2 = l
+				_.y1 = m
+				_.y2 = n
+				_.I = o
+				_.N = p
+				_.A = !1
+				_.u = q
+				_.U = null
+				_.D = r
+				_.q = s
+				_.a_ = t
+				_.V = _.O = _.L = 0
+				_.J = 32768
+				_.j = 0
+				_.X = _.W = !1
+				_.F = null
+			},
+			KODU: function KODU(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
 				_.aP = _.bb = _.af = null
@@ -35500,6 +35577,23 @@
 
 		}
 	}
+	T.KODU.prototype = {
+		gah: function() {
+			return C.KODU
+		},
+		gaQ: function() {
+			return H.a([], [P.f])
+		},
+		aa: function() {
+			var u, t = new T.aK()
+			t.r = this
+			this.k2 = t
+			t = this.id
+
+
+
+		}
+	}
 	T.AL1S.prototype = {
 		gah: function() {
 			return C.AL1S
@@ -40912,7 +41006,7 @@
 		s(T.D, [T.cg, T.dF, T.el])
 		s(T.J, [T.dE, T.fire, T.ay])
 		s(T.av, [T.hh, T.mir, T.hha4n2, T.alf, T.youzi, T.tao, T.lv, T.pll, T.hel, T.UAV1, T.UAV2, T.LAN, T.BAR, T.szj, T.hha7t1, T.hha11t1, T.hha9n2, T.hhb3n1, T.hhb3n2, T.hhb3n3, T.hhb3n4, T.hhb3n5, T.hhb3n6, T.hhb3n7, T.hhb3n8, T.hhb3n9, T.hhb8n1, T.hhb8t1a, T.hhb8t1b, T.hhb8t2, T.hi, T.ho, T.E8s, T.Syl, T.Windows])
-		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.tomb, T.testa, T.rumia, T.daiyousei, T.cirno, T.hong, T.testa, T.koakuma, T.patchouli, T.sakuya, T.reimu, T.Squall, T.marisa, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.lilywhite, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.nue, T.AL1S, T.aris, T.momori, T.midori, T.yuzu, T.rio, T.yuuka, T.noa, T.koyuki, T.hifumi, T.azusa, T.Kirin, T.karen, T.hikari, T.mahiru, T.junna, T.nana, T.maya, T.kuro, T.futaba, T.kaoruko, T.ribbit1, T.ribbit2, T.ribbit3, T.ribbit4, T.fox1, T.fox2, T.fox3, T.fox4, T.jntm, T.yeya])
+		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.tomb, T.testa, T.rumia, T.daiyousei, T.cirno, T.hong, T.testa, T.koakuma, T.patchouli, T.sakuya, T.reimu, T.Squall, T.marisa, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.lilywhite, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.nue, T.AL1S, T.aris, T.momori, T.midori, T.yuzu, T.rio, T.yuuka, T.noa, T.koyuki, T.hifumi, T.azusa, T.Kirin, T.karen, T.hikari, T.mahiru, T.junna, T.nana, T.maya, T.kuro, T.futaba, T.kaoruko, T.ribbit1, T.ribbit2, T.ribbit3, T.ribbit4, T.fox1, T.fox2, T.fox3, T.fox4, T.jntm, T.yeya, T.KODU])
 		t(T.hg, T.cy)
 		t(T.f3, T.bA)
 		t(T.e_, T.dN, T.tha6t2, T.yuriSuperControl)
@@ -41305,6 +41399,7 @@
 		C.tigershark = H.a(u([62, 49, 89, 86, 77, 76, 30, 120]), [P.j])
 		C.hell = H.a(u([20, 20, 60, 50, 20, 20, 90, 120]), [P.j])
 		C.megia = H.a(u([11, 45, 33, 18, 41, 10, 38, 120]), [P.j])
+		C.KODU = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.tomb = H.a(u([-72, 323, 6, -67, -49, 330, 26, 1758]), [P.j])
 		C.testa = H.a(u([-4, 31, 39, -2, 28, 45, 835, 37]), [P.j])
 		C.rumia = H.a(u([18, 35, 20, 1, -8, 25, 7, 685]), [P.j])
@@ -41404,6 +41499,7 @@
 			var u = P.f
 			return P.dq(["tigershark", "R0lGODlhEAAQAJEAAP8AAP///wAAAP///yH5BAEAAAMALAAAAAAQABAAAAI9nCepeS0AIxQNyQuoeSBgn1lQAI5lEpGSOnHjKqEgS2dPOad2l3fmTgoKg8ChccczsigcJUgjwkwqiyq0AAA7", "hell", "R0lGODlhEAAQAJEAAHb9/wAAAP///wAAACH5BAEAAAIALAAAAAAQABAAAAIslB2px5IAY2ov2omC3QBrvgUOCFbk9Z1SqnasarbiW2awaJf4EUNY41D8DAUAOw==", "dark", "R0lGODlhEAAQALMAAPr6+wQEAf7+/QwKAhEQDf38+xEODP79/f////z8/Pn5+QAAAP///wAAAAAAAAAAACH5BAEAAAwALAAAAAAQABAAAARIkEm5qp2YjYW6rxn3Wd0yiYhVGUFJlWpFcCZKpncFo7io9x3ADecpqkYdwY5HRAgSMV4NUTgUryaGbeii+EgKEOZnzGa0sUwEADs=", "yurix", "R0lGODlhEAAQAKEDAAAAAN4H28asxv///yH5BAEKAAMALAAAAAAQABAAAAI+hI85EB3s4DNBiFcvs3NjvmlL9WkesEDnKI7fw8Lpi6roMJ42jh8NNeEJVb+bsFc0HIfB5ZFhdPIO0mf0WAAAOw==", "yuriy",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAIBJREFUOE/tk8ENwCAIRWUzmKzdTDazAUuiCAfttdwkvBfzFShBIWKL+swMvq+NCKiVp1kiXJwiBIM9EN1g7JlQBbuwiUTyC94MkGsa+tWWp9dZKK0gUQ9xVyCw/p8TgcFHghHeFnh4EughCVJCzOAeZrJMJrzfvZTAfOkyfV3nB0mLXAWp5kJ6AAAAAElFTkSuQmCC",
+				"KODU",				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAF/SURBVDhPpVNNSwMxEJ1kV3uSXUF/jDct1UPBCrYFWy9e/Fueiqj4RQ+iInj1t7TF7kHEmi9nJknXliJIH2Rnku68efsyFVmWOVgCTFCvnfGmd9UAKVPOd4aaY8TrZgrd1i3nFgzHx5dTkJwFxGLCc+6FxUg4vz7EtY9FSThBkIJO88ZZq12ENcptD2bXPLT5clQ7VSBEySpQCXVOhZxR8BuJrPiEWP6CtTZkHlYbjtpOSgVkWFzVoWViAM2mnRyRcf5MKQXVd8uxNvLi+bklP1iqkgKecgPYAIv77PbEWOi2L8G4b9grBBfFSGCCN7cG9XECuRLQGK2gHwJkWr4ErgKJWF14M14HdnlYN/CJPvY3FB/1Lg4gRUV0ZXR9Ti1WwINUFEXY/g95ngcFC0CGklm7A2/ePOJUMgHax5sIvCqOJFULPSOZQCbHcWaCTuueGSORTP1QkVkJvjI/TMftOxDhaPoJxNhteiINYz6jzgZ/oejQaEJs4oKoJf/OAD/Wegah1odBNAAAAABJRU5ErkJggg==",
 				"megia", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJNJREFUOE+1k9ENgCAMRO1mdR+NruJEMIT7YAppUsthUCKfLfcODkoTWMycUD3GSL6eC0gQQsh7aS0SPueKKUBSsQqQs0JsT4EZgMQH3U+7L/WtBAIBXqzOHgIBVryl4mprFlIBkFjdEaQJUGcfqEKkL8H+BxBnf4quK/jAXoeIArM5dD1jC/L4kUT0+SsPD9PoOF9zsoUFTaO/mQAAAABJRU5ErkJggg==",
 				"tomb",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAB7SURBVDhP5ZNREoAgCEShe3l6DmYtiYMWpdVf78NQ2Z1tIs4bVGDmUl3jJFQNIBYRPbwjpVRNFiwzYoBeS4s1mxjOI/j+xmCWg8FPE+hn7DlLEqVTA3+JGolGzoBOYjRI1hTdYRrfv0L/A6HR4uLp694E2m/mYN8+gWgFhNtgWIIuqzYAAAAASUVORK5CYII=",

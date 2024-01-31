@@ -15235,7 +15235,7 @@
 				}
 				r = C.a.a4(p.D, 0, 10)
 				C.a.aE(r)
-				u.push(C.a.dm(C.a.a4(r, 3, 7), new T.hr()) + 654)
+				u.push(C.a.dm(C.a.a4(r, 3, 7), new T.hr()) + 154)
 				for (t = 0; t < u.length; ++t)
 					if (p.u[t] > u[t]) o.push(H.d($.ki()) + H.d(p.u[t] - u[t]))
 				else o.push("")
@@ -15243,7 +15243,7 @@
 			return H.d(p.e) + "\t" + H.d(p.r) + "\t" + H.d(p.c) + "\t" + H.d(p.f) + "\t" + H.d(p.fx) + o[7] + "\t" + H.d(p.aT(p.Q)) + o[0] + "\t" + H.d(p.aT(p.ch)) + o[1] + "\t" + H.d(p.aT(p.cx - 160)) + o[2] + "\t" + H.d(p.aT(p.cy)) + o[3] + "\t" + H.d(p.aT(p.db)) + o[4] + "\t" + H.d(p.aT(p.dx)) + o[5] + "\t" + H.d(p.aT(p.dy)) + o[6] + "\t" + H.d(p.cz())
 		},
 		aT: function(a) {
-			if (a > 91) return $.eF()
+			if (a > 954) return $.eF()
 			return C.b.l(a + 36)
 		},
 		gaY: function() {

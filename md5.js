@@ -27214,6 +27214,7 @@
 				p = a[0].a,
 				o = d.a
 			o.push(T.e(O.c("vDpa"), r.r, p, q, q, 0, 1000, 100))
+			o.push(T.e("[0]的附体熟练度为：[1]", this.r, this.f, null, null, 0, 1000, 100))
 			if (!p.a6($.am(), c))
 				u = p.fr > 0 && !p.A && T.bd(r.r.db, p.dx, c)
 			else
@@ -27302,6 +27303,7 @@
             else
                 d.j = -2048
             c.r.x.aU(d)
+			u.push(T.e("[0]的附体熟练度为：[1]", d, d.id[0].f, null, null, 0, 1000, 100))
             u.push(T.e(O.c("cPiZ"), c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
         }
     }

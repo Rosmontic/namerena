@@ -23489,6 +23489,10 @@
 				for (u = 0; u < n.length; ++u) {
 					o = n[u]
 					o.j = 0
+					if(o.SR0 != null)
+					{
+					o.id[1].f = 0
+					}
 					t = H.o(o.r1.h(0, "proscenium"), "$iprosceniumx")
 					if (t == null) {
 						t = new T.prosceniumx(o)
@@ -23609,12 +23613,6 @@
 		}
 	}
 	T.RevueStarlightstart.prototype = {
-		ar: function(a, b) {
-			if (this.r.SR0 > 0) {
-				return !1
-			}
-			return this.aS(a, b)
-		},
 		b5: function(a) {
 			return a.b1(this.r.x.a.e)
 		},
@@ -23632,14 +23630,18 @@
 			for (u = 0; u < a.length; ++u)
 				n.push(a[u].a)
 			s = this.r
-			this.f = 0
 			w = 0
+			if(this.r.SR0 > 0)
+			{
+			return
+			}
 			this.r.SR0 = 1
 			r = H.a(n.slice(0), [H.n(n, 0)])
 			q = d.a
-			if (this.r.watch != null) {
+			if (this.r.watch != null) {    
 				this.r.j = -4096
 			} else {
+			    this.f = 0
 				this.r.j = 2048
 			}
 			this.r.enemy = n.length - this.r.y.f.length
@@ -40101,12 +40103,7 @@
 			var u, t, s, r = this,
 				p, o, l, v, w, q = null
 			v = c.m()
-			if (this.r.SR0 == 1 && this.r.watch != null) {
-				if (this.r.watch.SRm == 0) {
-					d.a.push(T.e("[0]：......", this.r.watch, this.r, q, q, 60, 1500, 100))
-					return 0
-				}
-			}
+		
 			if (this.r.e == "kaoruko@!" && this.r.partner != null) {
 				if (this.r.partner.fr <= 0) {
 					o = this.r.partner

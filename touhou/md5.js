@@ -19499,6 +19499,11 @@
 				if (c.millionPower) {
 					this.tigerCurse = true
 				}
+				if (this.e == "targeta@!" ){
+				if(this.targettime < 100){
+				this.fr = this.fx
+				return a		
+				}}
 				this.bf(b, c, d, e)
 				return b
 			} else

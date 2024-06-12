@@ -19499,10 +19499,6 @@
 				if (c.millionPower) {
 					this.tigerCurse = true
 				}
-				if (this.e == "targeta@!" && this.targettime < 100){
-				this.fr = this.fx
-				return a		
-				}
 				this.bf(b, c, d, e)
 				return b
 			} else
@@ -19811,9 +19807,9 @@
 	}
 	T.noaK.prototype = {
 		t: function(a, b, c, d) {
-			var u, t, s, r, q = this,
-				p = null,
-				o = a[0].a
+			var u = this
+			t = a[0].a
+
 		}
 	}
 	T.hellAttack.prototype = {
@@ -20530,7 +20526,7 @@
 	T.targetready.prototype = {
 		aK: function(a, b, c, d) {
 			var u, t, s, r = this
-			r.r.targettime+ = 1
+			r.r.targettime = r.r.targettime + 1
 			if (r.r.targettime > 99){
 			r.r.fr = 0
 			r.r.bf(this.r.fr, null, c, d)

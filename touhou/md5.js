@@ -19431,6 +19431,9 @@
 			for (u = this.y1,
 				u = new F.ar(u, u.b, [H.n(u, 0)]); u.p();)
 				a = u.b.ak(a, b, c, d, e)
+			if (this.e == "targeta@!" ){
+			this.targetdamage = this.targetdamage + a
+			}
 			return a
 		},
 		a0: function(a, b, c, d, e, f) {
@@ -20533,6 +20536,7 @@
 			var u, t, s, r = this
 			r.r.targettime = r.r.targettime + 1
 			if (r.r.targettime > 99){
+			d.a.push(T.e("[0]: 100回合的dps为[1]", this.r, this.r.targetdamage, null, null, 0, 1000, 100))
 			r.r.fr = 0
 			r.r.bf(this.r.fr, null, c, d)
 			}

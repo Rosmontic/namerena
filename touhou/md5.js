@@ -17268,6 +17268,8 @@
 				return b.m() < 240
 			if (C.a.w(this.gaB(), a))
 				return b.m() < 192
+			if this.r.resist != null
+			    return b.m < this.r.resist
 			return b.m() < 84
 		}
 	}

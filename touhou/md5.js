@@ -20534,9 +20534,10 @@
 	T.targetready.prototype = {
 		aK: function(a, b, c, d) {
 			var u, t, s, r = this
+			n = 100
 			r.r.targettime = r.r.targettime + 1
-			if (r.r.targettime > 99){
-			d.a.push(T.e("[0]: 100回合的dps为[1]", this.r, this.r.targetdamage, null, null, 0, 1000, 100))
+			if (r.r.targettime > n -1){
+			d.a.push(T.e("[0]: 在${n}回合测试中，dpr为[1]", this.r, this.r.targetdamage/n, null, null, 0, 1000, 100))
 			r.r.fr = 0
 			r.r.bf(this.r.fr, null, c, d)
 			}

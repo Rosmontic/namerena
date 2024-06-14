@@ -7243,6 +7243,7 @@
 				_.go = 1
 				_.id = e
 				_.resist = 64
+				_.relief = 0.3
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -19460,6 +19461,9 @@
 		},
 		aA: function(a, b, c, d, e) {
 			var u, t, s, r, q, p = this
+			if(p.relief != null){
+			a = C.d.Z(a * (1 - p.relief))
+			}
 			if (a < 0) {
 				u = p.fr
 				t = u - a

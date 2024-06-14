@@ -7243,7 +7243,7 @@
 				_.go = 1
 				_.id = e
 				_.resist = 64
-				_.relief = 0.3
+				_.relief = 0.99
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null

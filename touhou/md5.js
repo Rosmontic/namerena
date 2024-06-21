@@ -16346,7 +16346,7 @@
 			var v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
 			for (u = 0; u < a.length; ++u)
 				n.push(a[u].a)
-			s = this.r
+			s = this
 			v = s.r.round
 			r = H.a(n.slice(0), [H.n(n, 0)])
 			o = d.a

@@ -23489,9 +23489,8 @@
 				for (u = 0; u < n.length; ++u) {
 					o = n[u]
 					o.j = 0
-					if(o.SR0 != null)
-					{
-					o.id[1].f = 0
+					if (o.SR0 != null) {
+						o.id[1].f = 0
 					}
 					t = H.o(o.r1.h(0, "proscenium"), "$iprosceniumx")
 					if (t == null) {
@@ -23631,17 +23630,16 @@
 				n.push(a[u].a)
 			s = this.r
 			w = 0
-			if(this.r.SR0 > 0)
-			{
-			return
+			if (this.r.SR0 > 0) {
+				return
 			}
 			this.r.SR0 = 1
 			r = H.a(n.slice(0), [H.n(n, 0)])
 			q = d.a
-			if (this.r.watch != null) {    
+			if (this.r.watch != null) {
 				this.r.j = -4096
 			} else {
-			    this.f = 0
+				this.f = 0
 				this.r.j = 2048
 			}
 			this.r.enemy = n.length - this.r.y.f.length
@@ -27239,74 +27237,75 @@
 		}
 	}
 	T.ig.prototype = {
-        ar: function(a, b) {
-            if (b)
-                if (this.r.fr < 80)
-                    return !1
-            return this.aS(a, b)
-        },
-        a9: function(a, b, c) {
-            return H.a([], [T.Z])
-        },
-        t: function(a, a0, a1, a2) {
-            var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null
-            c.f = C.d.Z(c.f * 0.75)
-            u = a2.a
-            u.push(T.e(O.c("EwPC"), c.r, b, b, b, 60, 1000, 100))
-            t = H.d(c.r.a) + "?" + H.d($.nn())
-            s = c.r
-            r = s.b
-            s = s.c
-            q = H.a([], [T.H])
-            p = H.a([], [T.y])
-            o = P.U(P.f, T.p)
-            n = new F.b([T.M])
-            n.c = n
-            n.b = n
-            m = new F.b([T.L])
-            m.c = m
-            m.b = m
-            l = new F.b([T.G])
-            l.c = l
-            l.b = l
-            k = new F.b([T.J])
-            k.c = k
-            k.b = k
-            j = new F.b([T.K])
-            j.c = j
-            j.b = j
-            i = new F.b([T.D])
-            i.c = i
-            i.b = i
-            h = new F.b([T.A])
-            h.c = h
-            h.b = h
-            g = new F.b([T.C])
-            g.c = g
-            g.b = g
-            f = new F.b([T.I])
-            f.c = f
-            f.b = f
-            e = [P.j]
-            d = new T.hh(t,r,s,b,q,p,o,n,m,l,k,j,i,h,g,f,H.a([], e),H.a([], e),H.a([], e),H.a([], e))
-            d.Y(t, r, s, b)
-            d.a5 = new T.cj(d)
-            d.af = c
-            d.e = T.du(c.r)
-            d.r = O.c("xRWn")
-            s = c.r
-            d.x = s.x
-            s.I.i(0, d.a5)
-            d.av()
-            if (c.r.r1.G(0, $.X()))
-                d.j = 2048
-            else
-                d.j = -2048
-            c.r.x.aU(d)
+		ar: function(a, b) {
+			if (b)
+				if (this.r.fr < 80)
+					return !1
+			return this.aS(a, b)
+		},
+		a9: function(a, b, c) {
+			return H.a([], [T.Z])
+		},
+		t: function(a, a0, a1, a2) {
+			var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this,
+				b = null
+			c.f = C.d.Z(c.f * 0.75)
+			u = a2.a
+			u.push(T.e(O.c("EwPC"), c.r, b, b, b, 60, 1000, 100))
+			t = H.d(c.r.a) + "?" + H.d($.nn())
+			s = c.r
+			r = s.b
+			s = s.c
+			q = H.a([], [T.H])
+			p = H.a([], [T.y])
+			o = P.U(P.f, T.p)
+			n = new F.b([T.M])
+			n.c = n
+			n.b = n
+			m = new F.b([T.L])
+			m.c = m
+			m.b = m
+			l = new F.b([T.G])
+			l.c = l
+			l.b = l
+			k = new F.b([T.J])
+			k.c = k
+			k.b = k
+			j = new F.b([T.K])
+			j.c = j
+			j.b = j
+			i = new F.b([T.D])
+			i.c = i
+			i.b = i
+			h = new F.b([T.A])
+			h.c = h
+			h.b = h
+			g = new F.b([T.C])
+			g.c = g
+			g.b = g
+			f = new F.b([T.I])
+			f.c = f
+			f.b = f
+			e = [P.j]
+			d = new T.hh(t, r, s, b, q, p, o, n, m, l, k, j, i, h, g, f, H.a([], e), H.a([], e), H.a([], e), H.a([], e))
+			d.Y(t, r, s, b)
+			d.a5 = new T.cj(d)
+			d.af = c
+			d.e = T.du(c.r)
+			d.r = O.c("xRWn")
+			s = c.r
+			d.x = s.x
+			s.I.i(0, d.a5)
+			d.av()
+			if (c.r.r1.G(0, $.X()))
+				d.j = 2048
+			else
+				d.j = -2048
+			c.r.x.aU(d)
 			u.push(T.e("[0]的附体熟练度为：[1]", d, d.id[0].f, null, null, 0, 1000, 100))
-            u.push(T.e(O.c("cPiZ"), c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
-        }
-    }
+			u.push(T.e(O.c("cPiZ"), c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+		}
+	}
 	T.hh.prototype = {
 		gaj: function() {
 			return this.af.r
@@ -27323,75 +27322,75 @@
 			u[7] = C.d.v(u[7], 2)
 		}
 	}
-	 T.kodun1.prototype = {
-        a9: function(a, b, c) {
-            return H.a([], [T.Z])
-        },
-        t: function(a, a0, a1, a2) {
-            var v, u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this, b = null     
-            u = a2.a
-            t = H.d(c.r.a) + "?" + H.d($.nn())
+	T.kodun1.prototype = {
+		a9: function(a, b, c) {
+			return H.a([], [T.Z])
+		},
+		t: function(a, a0, a1, a2) {
+			var v, u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this,
+				b = null
+			u = a2.a
+			t = H.d(c.r.a) + "?" + H.d($.nn())
 			v = (a1.m() & 3)
 			u.push(T.e("[0]开始[测号]", this.r, this.r, null, null, 1, 1000, 100))
-			if(v == 0)
-			{
-			u.push(T.e("[很不幸，没有出号]", this.r, this.r, null, null, 1, 1000, 100))
-			return 0
+			if (v == 0) {
+				u.push(T.e("[很不幸，没有出号]", this.r, this.r, null, null, 1, 1000, 100))
+				return 0
 			}
-            s = c.r
-            r = s.b
-            s = s.c
-            q = H.a([], [T.H])
-            p = H.a([], [T.y])
-            o = P.U(P.f, T.p)
-            n = new F.b([T.M])
-            n.c = n
-            n.b = n
-            m = new F.b([T.L])
-            m.c = m
-            m.b = m
-            l = new F.b([T.G])
-            l.c = l
-            l.b = l
-            k = new F.b([T.J])
-            k.c = k
-            k.b = k
-            j = new F.b([T.K])
-            j.c = j
-            j.b = j
-            i = new F.b([T.D])
-            i.c = i
-            i.b = i
-            h = new F.b([T.A])
-            h.c = h
-            h.b = h
-            g = new F.b([T.C])
-            g.c = g
-            g.b = g
-            f = new F.b([T.I])
-            f.c = f
-            f.b = f
-            e = [P.j]
-            d = new T.koduzh(t,r,s,b,q,p,o,n,m,l,k,j,i,h,g,f,H.a([], e),H.a([], e),H.a([], e),H.a([], e))
-            d.Y(t, r, s, b)
-            d.a5 = new T.cj(d)
-            d.af = c
-            d.e = T.du(c.r)
-            switch (v) {
-			case 1:
-			d.r = "幻术号"
-			break
-			case 2:
-			d.r = "净化号"
-			break
-			case 3:
-			d.r = "瘟疫号"
-			break
+			s = c.r
+			r = s.b
+			s = s.c
+			q = H.a([], [T.H])
+			p = H.a([], [T.y])
+			o = P.U(P.f, T.p)
+			n = new F.b([T.M])
+			n.c = n
+			n.b = n
+			m = new F.b([T.L])
+			m.c = m
+			m.b = m
+			l = new F.b([T.G])
+			l.c = l
+			l.b = l
+			k = new F.b([T.J])
+			k.c = k
+			k.b = k
+			j = new F.b([T.K])
+			j.c = j
+			j.b = j
+			i = new F.b([T.D])
+			i.c = i
+			i.b = i
+			h = new F.b([T.A])
+			h.c = h
+			h.b = h
+			g = new F.b([T.C])
+			g.c = g
+			g.b = g
+			f = new F.b([T.I])
+			f.c = f
+			f.b = f
+			e = [P.j]
+			d = new T.koduzh(t, r, s, b, q, p, o, n, m, l, k, j, i, h, g, f, H.a([], e), H.a([], e), H.a([], e), H.a([], e))
+			d.Y(t, r, s, b)
+			d.a5 = new T.cj(d)
+			d.af = c
+			d.e = T.du(c.r)
+			switch (v) {
+				case 1:
+					d.r = "幻术号"
+					break
+				case 2:
+					d.r = "净化号"
+					break
+				case 3:
+					d.r = "瘟疫号"
+					break
 			}
-            s = c.r
-            d.x = s.x
-            s.I.i(0, d.a5)
-            d.av()
+			s = c.r
+			d.x = s.x
+			s.I.i(0, d.a5)
+			d.av()
 			d.fx = (a1.m() & 255)
 			d.fr = d.fx
 			d.Q = (a1.m() & 63)
@@ -27402,27 +27401,27 @@
 			d.dx = (a1.m() & 63)
 			d.dy = (a1.m() & 63)
 			d.j = (a1.m() & 255) * 4 - 512
-            c.r.x.aU(d)
+			c.r.x.aU(d)
 			switch (v) {
-			case 1:
-			d.id[0].f = 35 + (a1.m() & 63)
-            d.id[1].f = 0
-            d.id[2].f = 0
-			break
-			case 2:
-			d.id[1].f = 35 + (a1.m() & 63)
-            d.id[0].f = 0
-            d.id[2].f = 0
-			break
-			case 3:
-			d.id[2].f = 35 + (a1.m() & 63)
-            d.id[1].f = 0
-            d.id[0].f = 0
-			break
+				case 1:
+					d.id[0].f = 35 + (a1.m() & 63)
+					d.id[1].f = 0
+					d.id[2].f = 0
+					break
+				case 2:
+					d.id[1].f = 35 + (a1.m() & 63)
+					d.id[0].f = 0
+					d.id[2].f = 0
+					break
+				case 3:
+					d.id[2].f = 35 + (a1.m() & 63)
+					d.id[1].f = 0
+					d.id[0].f = 0
+					break
 			}
 			u.push(T.e("[0]筛出了[1]", this.r, T.a1(d, d.fr), null, null, 1, 1000, 100))
-        }
-    }
+		}
+	}
 	T.koduzh.prototype = {
 		gaj: function() {
 			return this.af.r
@@ -29265,64 +29264,155 @@
 				o = d.a,
 				v = r.r.ye
 			if (v == 0) {
-				o.push(T.e("[0]: 痉挛的手掌 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってるだけで退場", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 1) {
-				o.push(T.e("[0]: 悬在中央 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[1]: それをそっかそっかっていって", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 2) {
-				o.push(T.e("[0]: 天地在旋转着收束 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[2]: お幸せについて討論", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 3) {
-				o.push(T.e("[0]: 笔还在惧怕纸张 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[3]: 何が正義なんかって思う", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 4) {
-				o.push(T.e("[0]: 我唇目冰凉 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[4]: 生意気そうにガム噛んで", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 5) {
-				o.push(T.e("[0]: 不曾留下挽联一双 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[5]: それもいいないいなって思う", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 6) {
-				o.push(T.e("[0]: 记忆 记忆最多 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[6]: テレスコープ越しの感情", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 7) {
-				o.push(T.e("[0]: 涌出三次 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[7]: ロッカーに全部詰め込んだ", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 8) {
-				o.push(T.e("[0]: 人最多三次思想 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[8]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 9) {
-				o.push(T.e("[0]: 从脉搏到海洋 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[9]: 踊ってない夜が気に入らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 10) {
-				o.push(T.e("[0]: 长满潦草的波纹 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[10]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 11) {
-				o.push(T.e("[0]: 仿佛 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[11]: 踊ってない夜が気に入らないよ", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 12) {
-				o.push(T.e("[0]: 我仿佛和这些痕迹同样来到世上 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[12]: 気に入らない夜なんてもう僕は知らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 13) {
-				o.push(T.e("[0]: 举目四望 尘土和光 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[13]: 踊ってない夜がない夜なんて", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 14) {
-				o.push(T.e("[0]: 一半又一半 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[14]: とってもとっても退屈です", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 15) {
-				o.push(T.e("[0]: 一半是掌心 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[15]: 思ってるだけで行動", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 16) {
-				o.push(T.e("[0]: 一半像翅膀 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[16]: きっとNIGHT音楽も踊る", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 17) {
-				o.push(T.e("[0]: 一半在万丈高墙 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[17]: タンスでダンスする現状", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 18) {
-				o.push(T.e("[0]: 另一半离地三尺 ", r.r, p, q, q, 0, 1000, 100))
+				o.push(T.e("[18]: これはチャンスなんかって思う", r.r, p, q, q, 0, 1000, 100))
 			}
-			if (v > 18) {
-				o.push(T.e("[0]: 关注Bilibili夜冴喵！关注Bilibili夜冴喵 ！[1]", r.r, v, q, q, 0, 1000, 100))
+			if (v == 19) {
+				o.push(T.e("[19]: カスタネットがほらたんたん", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 20) {
+				o.push(T.e("[20]: たたたたんたたんたんたたんたん", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 21) {
+				o.push(T.e("[21]: 踊ってない夜を知らない人とか", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 22) {
+				o.push(T.e("[22]: この世に一人もございません", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 23) {
+				o.push(T.e("[23]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 24) {
+				o.push(T.e("[24]: 踊ってない夜が気に入らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 25) {
+				o.push(T.e("[25]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 26) {
+				o.push(T.e("[26]: 踊ってない夜が気に入らないよ", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 27) {
+				o.push(T.e("[27]: 気に入らない夜なんてもう僕は知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 28) {
+				o.push(T.e("[28]: 踊ってない夜がない夜なんて", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 29) {
+				o.push(T.e("[29]: とってもとっても退屈です", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 30) {
+				o.push(T.e("[30]: いつも待ってる ダンスホールは待ってる", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 31) {
+				o.push(T.e("[31]: 変わってく 変わってく 傷だらけでも待ってる", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 32) {
+				o.push(T.e("[32]: ほら踊ってる ダンスホールの未来に", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 33) {
+				o.push(T.e("[33]: 色を塗って生きるのは あなた あなた", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 34) {
+				o.push(T.e("[34]: 「ダンスは笑顔で待ってる」", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 35) {
+				o.push(T.e("[35]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 36) {
+				o.push(T.e("[36]: 踊ってない夜が気に入らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 37) {
+				o.push(T.e("[37]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 38) {
+				o.push(T.e("[38]: 踊ってない夜が気に入らないよ", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 39) {
+				o.push(T.e("[39]: 気に入らない夜なんてもう僕は知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 40) {
+				o.push(T.e("[40]: 踊ってない夜がない夜なんて", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 41) {
+				o.push(T.e("[41]: 踊ってたい夜を知りたい", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 42) {
+				o.push(T.e("[42]: 踊ってたい夜を気に入りたい", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 43) {
+				o.push(T.e("[43]: 踊ってたい夜を知りたい", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 44) {
+				o.push(T.e("[44]: 踊ってない夜が気に入らないよ", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 45) {
+				o.push(T.e("[45]: 気に入らない夜なんてもう僕は知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 46) {
+				o.push(T.e("[46]: 踊ってたい夜に泣いてるなんて", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 47) {
+				o.push(T.e("[47]: とってもとっても退屈です", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 48) {
+				o.push(T.e("[48]: 踊ってたい夜が大切なんです", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 49) {
+				o.push(T.e("[49]: とってもとってもとっても大切です", r.r, p, q, q, 0, 1000, 100))
+				v = 0
 			}
 			r.r.ye = r.r.ye + 1
 			return
@@ -39669,7 +39759,6 @@
 					u = new T.dK(t)
 					t.r1.k(0, $.kl(), u)
 					r.r.y1.i(0, u)
-
 				}
 				t = r.f
 				s = u.x
@@ -40105,7 +40194,7 @@
 			var u, t, s, r = this,
 				p, o, l, v, w, q = null
 			v = c.m()
-		
+
 			if (this.r.e == "kaoruko@!" && this.r.partner != null) {
 				if (this.r.partner.fr <= 0) {
 					o = this.r.partner
@@ -41656,7 +41745,7 @@
 			var u = P.f
 			return P.dq(["tigershark", "R0lGODlhEAAQAJEAAP8AAP///wAAAP///yH5BAEAAAMALAAAAAAQABAAAAI9nCepeS0AIxQNyQuoeSBgn1lQAI5lEpGSOnHjKqEgS2dPOad2l3fmTgoKg8ChccczsigcJUgjwkwqiyq0AAA7", "hell", "R0lGODlhEAAQAJEAAHb9/wAAAP///wAAACH5BAEAAAIALAAAAAAQABAAAAIslB2px5IAY2ov2omC3QBrvgUOCFbk9Z1SqnasarbiW2awaJf4EUNY41D8DAUAOw==", "dark", "R0lGODlhEAAQALMAAPr6+wQEAf7+/QwKAhEQDf38+xEODP79/f////z8/Pn5+QAAAP///wAAAAAAAAAAACH5BAEAAAwALAAAAAAQABAAAARIkEm5qp2YjYW6rxn3Wd0yiYhVGUFJlWpFcCZKpncFo7io9x3ADecpqkYdwY5HRAgSMV4NUTgUryaGbeii+EgKEOZnzGa0sUwEADs=", "yurix", "R0lGODlhEAAQAKEDAAAAAN4H28asxv///yH5BAEKAAMALAAAAAAQABAAAAI+hI85EB3s4DNBiFcvs3NjvmlL9WkesEDnKI7fw8Lpi6roMJ42jh8NNeEJVb+bsFc0HIfB5ZFhdPIO0mf0WAAAOw==", "yuriy",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAIBJREFUOE/tk8ENwCAIRWUzmKzdTDazAUuiCAfttdwkvBfzFShBIWKL+swMvq+NCKiVp1kiXJwiBIM9EN1g7JlQBbuwiUTyC94MkGsa+tWWp9dZKK0gUQ9xVyCw/p8TgcFHghHeFnh4EughCVJCzOAeZrJMJrzfvZTAfOkyfV3nB0mLXAWp5kJ6AAAAAElFTkSuQmCC",
-				"KODU",				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAF/SURBVDhPpVNNSwMxEJ1kV3uSXUF/jDct1UPBCrYFWy9e/Fueiqj4RQ+iInj1t7TF7kHEmi9nJknXliJIH2Rnku68efsyFVmWOVgCTFCvnfGmd9UAKVPOd4aaY8TrZgrd1i3nFgzHx5dTkJwFxGLCc+6FxUg4vz7EtY9FSThBkIJO88ZZq12ENcptD2bXPLT5clQ7VSBEySpQCXVOhZxR8BuJrPiEWP6CtTZkHlYbjtpOSgVkWFzVoWViAM2mnRyRcf5MKQXVd8uxNvLi+bklP1iqkgKecgPYAIv77PbEWOi2L8G4b9grBBfFSGCCN7cG9XECuRLQGK2gHwJkWr4ErgKJWF14M14HdnlYN/CJPvY3FB/1Lg4gRUV0ZXR9Ti1WwINUFEXY/g95ngcFC0CGklm7A2/ePOJUMgHax5sIvCqOJFULPSOZQCbHcWaCTuueGSORTP1QkVkJvjI/TMftOxDhaPoJxNhteiINYz6jzgZ/oejQaEJs4oKoJf/OAD/Wegah1odBNAAAAABJRU5ErkJggg==",
+				"KODU", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAF/SURBVDhPpVNNSwMxEJ1kV3uSXUF/jDct1UPBCrYFWy9e/Fueiqj4RQ+iInj1t7TF7kHEmi9nJknXliJIH2Rnku68efsyFVmWOVgCTFCvnfGmd9UAKVPOd4aaY8TrZgrd1i3nFgzHx5dTkJwFxGLCc+6FxUg4vz7EtY9FSThBkIJO88ZZq12ENcptD2bXPLT5clQ7VSBEySpQCXVOhZxR8BuJrPiEWP6CtTZkHlYbjtpOSgVkWFzVoWViAM2mnRyRcf5MKQXVd8uxNvLi+bklP1iqkgKecgPYAIv77PbEWOi2L8G4b9grBBfFSGCCN7cG9XECuRLQGK2gHwJkWr4ErgKJWF14M14HdnlYN/CJPvY3FB/1Lg4gRUV0ZXR9Ti1WwINUFEXY/g95ngcFC0CGklm7A2/ePOJUMgHax5sIvCqOJFULPSOZQCbHcWaCTuueGSORTP1QkVkJvjI/TMftOxDhaPoJxNhteiINYz6jzgZ/oejQaEJs4oKoJf/OAD/Wegah1odBNAAAAABJRU5ErkJggg==",
 				"megia", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJNJREFUOE+1k9ENgCAMRO1mdR+NruJEMIT7YAppUsthUCKfLfcODkoTWMycUD3GSL6eC0gQQsh7aS0SPueKKUBSsQqQs0JsT4EZgMQH3U+7L/WtBAIBXqzOHgIBVryl4mprFlIBkFjdEaQJUGcfqEKkL8H+BxBnf4quK/jAXoeIArM5dD1jC/L4kUT0+SsPD9PoOF9zsoUFTaO/mQAAAABJRU5ErkJggg==",
 				"tomb",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAB7SURBVDhP5ZNREoAgCEShe3l6DmYtiYMWpdVf78NQ2Z1tIs4bVGDmUl3jJFQNIBYRPbwjpVRNFiwzYoBeS4s1mxjOI/j+xmCWg8FPE+hn7DlLEqVTA3+JGolGzoBOYjRI1hTdYRrfv0L/A6HR4uLp694E2m/mYN8+gWgFhNtgWIIuqzYAAAAASUVORK5CYII=",

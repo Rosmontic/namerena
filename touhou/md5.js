@@ -4754,6 +4754,8 @@
 						e.a.push(T.e(C.c.K(O.c("rWdW"), $.l7()), a, b, null, null, 60, 1000, 100))
 					} else
 						++u.fr
+					if (a.r1.G(0, $.X()))
+						++u.fr
 				}
 			},
 			du: function(a) {
@@ -7271,8 +7273,8 @@
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
 				_.go = 1
 				_.id = e
-				_.resist = 253
-				_.relief = 99
+				_.resist = 100
+				_.relief = 0
 				_.round = 0
 				_.reiki = 0
 				_.reikimp = 2
@@ -14606,7 +14608,7 @@
 		$ip: 1,
 		$iG: 1
 	}
-	T.bx.prototype = {
+	T.dance.prototype = {
 		gR: function() {
 			return 0
 		},
@@ -14614,7 +14616,7 @@
 			return a.b1(this.r.x.a.e)
 		},
 		a8: function(a, b, c) {
-			return c.gbh()
+			return c.gbh()* a.J
 		},
 		aK: function(a, b, c, d) {
 			return this
@@ -14630,7 +14632,8 @@
 			t.r.r1.S(0, "dancex")
 			if (t.r.fr > 0) {
 				u = b.a
-
+				u.push($.v())
+				u.push(T.ap(O.c("yFbU"), a, t.r))
 			}
 		},
 		t: function(a, b, c, d) {
@@ -16168,192 +16171,181 @@
 		}
 	}
 	T.oddloop.prototype = {
-		gb3: function() {
-			return 3
-		},
-		gb4: function() {
-			return 3
-		},
 		t: function(a, b, c, d) {
-			var v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
-			for (u = 0; u < a.length; ++u)
-				n.push(a[u].a)
-			s = this
-			v = s.r.round
-			r = H.a(n.slice(0), [H.n(n, 0)])
-			o = d.a
-			q = null
-			for (u = 0; u < n.length; ++u) {
-				p = n[u]
-				t = H.o(p.r1.h(0, "dancex"), "$idance")
+			var v, u, t, s, r = this,
+				q = null,
+				p = a[0].a,
+				o = d.a
+			v = this.r.round
+			o.push(T.e("[0]: [1]", r.r, v, q, q, 0, 1000, 100))
+			t = H.o(p.r1.h(0, "dancex"), "$idance")
+			o.push(T.e("[0]: [1]", r.r, v, q, q, 0, 1000, 100))
 			if (t == null) {
 				t = new T.dance()
 				t.r = p
 				t.fr = 1024
-				t.star = s.r
 				t.aO(0)
 			}
 			else {
 				t.fr = 1024
 			}
-			}
 			if (v == 0) {
-				o.push(T.e("[0]: 踊ってるだけで退場", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってるだけで退場", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 1) {
-				o.push(T.e("[0]: それをそっかそっかっていって", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: それをそっかそっかっていって", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 2) {
-				o.push(T.e("[0]: お幸せについて討論", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: お幸せについて討論", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 3) {
-				o.push(T.e("[0]: 何が正義なんかって思う", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 何が正義なんかって思う", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 4) {
-				o.push(T.e("[0]: 生意気そうにガム噛んで", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 生意気そうにガム噛んで", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 5) {
-				o.push(T.e("[0]: それもいいないいなって思う", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: それもいいないいなって思う", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 6) {
-				o.push(T.e("[0]: テレスコープ越しの感情", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: テレスコープ越しの感情", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 7) {
-				o.push(T.e("[0]: ロッカーに全部詰め込んだ", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: ロッカーに全部詰め込んだ", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 8) {
-				o.push(T.e("[0]: 踊ってない夜を知らない", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 9) {
-				o.push(T.e("[0]: 踊ってない夜が気に入らない", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜が気に入らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 10) {
-				o.push(T.e("[0]: 踊ってない夜を知らない", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 11) {
-				o.push(T.e("[0]: 踊ってない夜が気に入らないよ", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜が気に入らないよ", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 12) {
-				o.push(T.e("[0]: 気に入らない夜なんてもう僕は知らない", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 気に入らない夜なんてもう僕は知らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 13) {
-				o.push(T.e("[0]: 踊ってない夜がない夜なんて", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜がない夜なんて", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 14) {
-				o.push(T.e("[0]: とってもとっても退屈です", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: とってもとっても退屈です", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 15) {
-				o.push(T.e("[0]: 思ってるだけで行動", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 思ってるだけで行動", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 16) {
-				o.push(T.e("[0]: きっとNIGHT音楽も踊る", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: きっとNIGHT音楽も踊る", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 17) {
-				o.push(T.e("[0]: タンスでダンスする現状", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: タンスでダンスする現状", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 18) {
-				o.push(T.e("[0]: これはチャンスなんかって思う", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: これはチャンスなんかって思う", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 19) {
-				o.push(T.e("[0]: カスタネットがほらたんたん", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: カスタネットがほらたんたん", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 20) {
-				o.push(T.e("[0]: たたたたんたたんたんたたんたん", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: たたたたんたたんたんたたんたん", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 21) {
-				o.push(T.e("[0]: 踊ってない夜を知らない人とか", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜を知らない人とか", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 22) {
-				o.push(T.e("[0]: この世に一人もございません", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: この世に一人もございません", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 23) {
-				o.push(T.e("[0]: 踊ってない夜を知らない", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 24) {
-				o.push(T.e("[0]: 踊ってない夜が気に入らない", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜が気に入らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 25) {
-				o.push(T.e("[0]: 踊ってない夜を知らない", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 26) {
-				o.push(T.e("[0]: 踊ってない夜が気に入らないよ", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜が気に入らないよ", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 27) {
-				o.push(T.e("[0]: 気に入らない夜なんてもう僕は知らない", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 気に入らない夜なんてもう僕は知らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 28) {
-				o.push(T.e("[0]: 踊ってない夜がない夜なんて", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜がない夜なんて", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 29) {
-				o.push(T.e("[0]: とってもとっても退屈です", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: とってもとっても退屈です", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 30) {
-				o.push(T.e("[0]: いつも待ってる ダンスホールは待ってる", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: いつも待ってる ダンスホールは待ってる", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 31) {
-				o.push(T.e("[0]: 変わってく 変わってく 傷だらけでも待ってる", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 変わってく 変わってく 傷だらけでも待ってる", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 32) {
-				o.push(T.e("[0]: ほら踊ってる ダンスホールの未来に", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: ほら踊ってる ダンスホールの未来に", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 33) {
-				o.push(T.e("[0]: 色を塗って生きるのは あなた あなた", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 色を塗って生きるのは あなた あなた", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 34) {
-				o.push(T.e("[0]: 「ダンスは笑顔で待ってる」", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 「ダンスは笑顔で待ってる」", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 35) {
-				o.push(T.e("[0]: 踊ってない夜を知らない", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 36) {
-				o.push(T.e("[0]: 踊ってない夜が気に入らない", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜が気に入らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 37) {
-				o.push(T.e("[0]: 踊ってない夜を知らない", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 38) {
-				o.push(T.e("[0]: 踊ってない夜が気に入らないよ", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜が気に入らないよ", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 39) {
-				o.push(T.e("[0]: 気に入らない夜なんてもう僕は知らない", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 気に入らない夜なんてもう僕は知らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 40) {
-				o.push(T.e("[0]: 踊ってない夜がない夜なんて", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜がない夜なんて", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 41) {
-				o.push(T.e("[0]: 踊ってたい夜を知りたい", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってたい夜を知りたい", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 42) {
-				o.push(T.e("[0]: 踊ってたい夜を気に入りたい", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってたい夜を気に入りたい", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 43) {
-				o.push(T.e("[0]: 踊ってたい夜を知りたい", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってたい夜を知りたい", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 44) {
-				o.push(T.e("[0]: 踊ってない夜が気に入らないよ", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってない夜が気に入らないよ", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 45) {
-				o.push(T.e("[0]: 気に入らない夜なんてもう僕は知らない", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 気に入らない夜なんてもう僕は知らない", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 46) {
-				o.push(T.e("[0]: 踊ってたい夜に泣いてるなんて", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってたい夜に泣いてるなんて", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 47) {
-				o.push(T.e("[0]: とってもとっても退屈です", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: とってもとっても退屈です", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 48) {
-				o.push(T.e("[0]: 踊ってたい夜が大切なんです", s.r, s.r, q, q, 0, 1000, 100))
+				o.push(T.e("[0]: 踊ってたい夜が大切なんです", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 49) {
-				o.push(T.e("[0]: とってもとってもとっても大切です", s.r, s.r, q, q, 0, 1000, 100)) 
+				o.push(T.e("[0]: とってもとってもとっても大切です", r.r, p, q, q, 0, 1000, 100)) 
 			}
 			if (v == 50) {
-				o.push(T.e("[0]: ......", s.r, s.r, q, q, 0, 1000, 100))
-				s.r.round = -1
+				o.push(T.e("[0]: ......", r.r, p, q, q, 0, 1000, 100))
+				r.r.round = -1
 			}
-			s.r.round = s.r.round + 1
-
-
+			r.r.round = r.r.round + 1
+				
+			
 		}
 	}
 	T.hh.prototype = {
@@ -22202,7 +22194,7 @@
 		C.hell = H.a(u([20, 20, 60, 50, 20, 20, 90, 120]), [P.j])
 		C.ironbird = H.a(u([21, 5, 16, 49, 4, 20, 42, 267]), [P.j])
 
-		C.yeya = H.a(u([-80, -46, 289, -82, -79, -70, 999940, 749]), [P.j])
+		C.yeya = H.a(u([-80, -46, 289, -82, -79, -70, 999940, 99749]), [P.j])
 		C.targeta = H.a(u([2, 9, 25, 15, 4, 10, -9, 658]), [P.j])
 
 		C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])

@@ -6542,6 +6542,12 @@
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
 			},
+			oddloop: function oddloop() {
+				var _ = this
+				_.e = !1
+				_.f = 0
+				_.c = _.b = _.a = _.r = null
+			},
 			hh: function hh(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.a5 = _.af = null
@@ -7242,8 +7248,11 @@
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
 				_.go = 1
 				_.id = e
-				_.resist = 64
-				_.relief = 0.99
+				_.resist = 0
+				_.relief = 0
+				_.reiki = 0
+				_.reikimp = 2
+				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -7269,6 +7278,7 @@
 				_.X = _.W = !1
 				_.F = null
 			},
+
 			targeta: function targeta(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
@@ -16093,6 +16103,185 @@
 			o.bf(s, q, c, d)
 		}
 	}
+	T.oddloop.prototype = {
+		t: function(a, b, c, d) {
+			var v, u, t, s, r = this,
+				q = null,
+				p = a[0].a,
+				o = d.a
+			v = r.r.round
+			t = H.o(p.r1.h(0, $.am()), "$ibx")
+			if (t == null) {
+				t = new T.bx()
+				t.r = p
+				t.fr = 1024
+				t.aO(0)
+			} 
+			else {
+				t.fr = 1024
+			}
+			if (v == 0) {
+				o.push(T.e("[0]: 踊ってるだけで退場", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 1) {
+				o.push(T.e("[0]: それをそっかそっかっていって", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 2) {
+				o.push(T.e("[0]: お幸せについて討論", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 3) {
+				o.push(T.e("[0]: 何が正義なんかって思う", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 4) {
+				o.push(T.e("[0]: 生意気そうにガム噛んで", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 5) {
+				o.push(T.e("[0]: それもいいないいなって思う", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 6) {
+				o.push(T.e("[0]: テレスコープ越しの感情", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 7) {
+				o.push(T.e("[0]: ロッカーに全部詰め込んだ", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 8) {
+				o.push(T.e("[0]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 9) {
+				o.push(T.e("[0]: 踊ってない夜が気に入らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 10) {
+				o.push(T.e("[0]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 11) {
+				o.push(T.e("[0]: 踊ってない夜が気に入らないよ", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 12) {
+				o.push(T.e("[0]: 気に入らない夜なんてもう僕は知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 13) {
+				o.push(T.e("[0]: 踊ってない夜がない夜なんて", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 14) {
+				o.push(T.e("[0]: とってもとっても退屈です", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 15) {
+				o.push(T.e("[0]: 思ってるだけで行動", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 16) {
+				o.push(T.e("[0]: きっとNIGHT音楽も踊る", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 17) {
+				o.push(T.e("[0]: タンスでダンスする現状", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 18) {
+				o.push(T.e("[0]: これはチャンスなんかって思う", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 19) {
+				o.push(T.e("[0]: カスタネットがほらたんたん", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 20) {
+				o.push(T.e("[0]: たたたたんたたんたんたたんたん", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 21) {
+				o.push(T.e("[0]: 踊ってない夜を知らない人とか", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 22) {
+				o.push(T.e("[0]: この世に一人もございません", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 23) {
+				o.push(T.e("[0]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 24) {
+				o.push(T.e("[0]: 踊ってない夜が気に入らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 25) {
+				o.push(T.e("[0]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 26) {
+				o.push(T.e("[0]: 踊ってない夜が気に入らないよ", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 27) {
+				o.push(T.e("[0]: 気に入らない夜なんてもう僕は知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 28) {
+				o.push(T.e("[0]: 踊ってない夜がない夜なんて", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 29) {
+				o.push(T.e("[0]: とってもとっても退屈です", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 30) {
+				o.push(T.e("[0]: いつも待ってる ダンスホールは待ってる", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 31) {
+				o.push(T.e("[0]: 変わってく 変わってく 傷だらけでも待ってる", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 32) {
+				o.push(T.e("[0]: ほら踊ってる ダンスホールの未来に", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 33) {
+				o.push(T.e("[0]: 色を塗って生きるのは あなた あなた", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 34) {
+				o.push(T.e("[0]: 「ダンスは笑顔で待ってる」", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 35) {
+				o.push(T.e("[0]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 36) {
+				o.push(T.e("[0]: 踊ってない夜が気に入らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 37) {
+				o.push(T.e("[0]: 踊ってない夜を知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 38) {
+				o.push(T.e("[0]: 踊ってない夜が気に入らないよ", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 39) {
+				o.push(T.e("[0]: 気に入らない夜なんてもう僕は知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 40) {
+				o.push(T.e("[0]: 踊ってない夜がない夜なんて", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 41) {
+				o.push(T.e("[0]: 踊ってたい夜を知りたい", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 42) {
+				o.push(T.e("[0]: 踊ってたい夜を気に入りたい", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 43) {
+				o.push(T.e("[0]: 踊ってたい夜を知りたい", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 44) {
+				o.push(T.e("[0]: 踊ってない夜が気に入らないよ", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 45) {
+				o.push(T.e("[0]: 気に入らない夜なんてもう僕は知らない", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 46) {
+				o.push(T.e("[0]: 踊ってたい夜に泣いてるなんて", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 47) {
+				o.push(T.e("[0]: とってもとっても退屈です", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 48) {
+				o.push(T.e("[0]: 踊ってたい夜が大切なんです", r.r, p, q, q, 0, 1000, 100))
+			}
+			if (v == 49) {
+				o.push(T.e("[0]: とってもとってもとっても大切です", r.r, p, q, q, 0, 1000, 100)) 
+			}
+			if (v == 50) {
+				o.push(T.e("[0]: ......", r.r, p, q, q, 0, 1000, 100))
+				o = r.r
+				s = o.fr
+				o.fr = 0
+				o.bf(s, q, c, d)
+			}
+			r.r.round = r.r.round + 1
+				
+			
+		}
+	}
 	T.hh.prototype = {
 		gaj: function() {
 			return this.af.r
@@ -17826,10 +18015,13 @@
 			return C.yeya
 		},
 		aa: function() {
-			var u, t = new T.aK()
+			var u, t = new T.oddloop()
 			t.r = this
 			this.k2 = t
 			t = this.id
+			u = new T.reikirecover()
+			u.f = 1024
+			t.push(u)
 		}
 	}
 	T.targeta.prototype = {
@@ -19473,8 +19665,8 @@
 		},
 		aA: function(a, b, c, d, e) {
 			var u, t, s, r, q, p = this
-			if(p.relief != null){
-			a = C.d.Z(a * (1 - p.relief))
+			if (p.relief != null) {
+				a = C.d.Z(a * (1 - p.relief))
 			}
 			if (a < 0) {
 				u = p.fr
@@ -20571,17 +20763,21 @@
 	T.reikirecover.prototype = {
 		aK: function(a, b, c, d) {
 			var u, t, s, r = this
-			if (r.r.reiki != null){
+			if (r.r.reiki != null) {
 				t = (c.m() & 1) + r.r.reikimp
 				if (t < 0) {
 					t = 0
-				}	
+				}
 				if (r.r.reiki + t > r.r.reikimax) {
-					t = 0
+					if (r.r.reiki > r.r.reikimax) {
+						t = 0
+					} else {
+						t = r.r.reikimax - r.r.reiki
+					}
 				}
 				r.r.reiki = r.r.reiki + t
-				d.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", r.r, t, r.r.reiki, null, 0, 1000, 100))
-			}	
+				//d.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", r.r, t, r.r.reiki, null, 0, 1000, 100))
+			}
 			return a
 		},
 		T: function() {
@@ -21558,7 +21754,7 @@
 		t(Z.hl, Z.ax)
 		s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
 		s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.targetready, T.reikirecover, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend, T.hellTaichiReflect, T.wargodSay])
-		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair])
+		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair])
 		s(T.M, [T.bf, T.co, T.dj, T.cG, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade, T.ironbirdSimulateRun])
 		s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
 		s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])
@@ -21978,6 +22174,7 @@
 			return P.dq(["tigershark", "R0lGODlhEAAQAJEAAP8AAP///wAAAP///yH5BAEAAAMALAAAAAAQABAAAAI9nCepeS0AIxQNyQuoeSBgn1lQAI5lEpGSOnHjKqEgS2dPOad2l3fmTgoKg8ChccczsigcJUgjwkwqiyq0AAA7", "hell", "R0lGODlhEAAQAJEAAHb9/wAAAP///wAAACH5BAEAAAIALAAAAAAQABAAAAIslB2px5IAY2ov2omC3QBrvgUOCFbk9Z1SqnasarbiW2awaJf4EUNY41D8DAUAOw==", "dark", "R0lGODlhEAAQALMAAPr6+wQEAf7+/QwKAhEQDf38+xEODP79/f////z8/Pn5+QAAAP///wAAAAAAAAAAACH5BAEAAAwALAAAAAAQABAAAARIkEm5qp2YjYW6rxn3Wd0yiYhVGUFJlWpFcCZKpncFo7io9x3ADecpqkYdwY5HRAgSMV4NUTgUryaGbeii+EgKEOZnzGa0sUwEADs=", "yurix", "R0lGODlhEAAQAKEDAAAAAN4H28asxv///yH5BAEKAAMALAAAAAAQABAAAAI+hI85EB3s4DNBiFcvs3NjvmlL9WkesEDnKI7fw8Lpi6roMJ42jh8NNeEJVb+bsFc0HIfB5ZFhdPIO0mf0WAAAOw==", "ironbird", "R0lGODlhEAAQAKIAAGfh/ywtLf8AAP///wAAAAAAAAAAAAAAACwAAAAAEAAQAAADOzhK3K6QATKpJVHeWbHm3xVWYOecKBMEgrCu7erA7hsHjZluQO//Pglw2BMSgblj0ENRMjLHJ2Swkw4SADs=",
 				"yeya", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAH9JREFUOE+tk10OwCAIg+VmenK4mUtdSKapP9vwEfGjVJCcc03kmJk8w7M8wYWqdohSCmMmlkcB9DUJotASIHJ3USvtMsUBUGXsD7GVAvepaWRGngDwUx3AK45+MQ+gIB4wVt550BT4hH02cWbgzkTcx80Bk38yzlMFr5fpzzpfC7V7BSjXHhMAAAAASUVORK5CYII=",
 				"targeta", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABuSURBVDhPpZIJDsAgCASh//9z62qxHohCJyEEo4MSmYjuFGGyIFEqJ8z8CVB4kDOdAPkE2Yt8vWuVbDViZBIA2LXQUAVg11lYCoDVWTAFJ5iC3fXBUtAOz3qGKmiH14bG74/UCTxMgghVUMoIRA+D11ApFTPSEQAAAABJRU5ErkJggg==",
+				
 
 				"aokiji", "R0lGODlhEAAQAMIDAAAAAEB2/4Kl/////////////////////yH5BAEKAAQALAAAAAAQABAAAANISLrQsJC1MVwkLgSqLW6bQFFi4ACjIGxDoI7gqHFsO9UsXgFuPXIr0Or3691kHGSMxuRMSMPWi3IK/UqeTM7UuDio3YskDEkAADs=", "conan", "R0lGODlhEAAQAMIAAAAAANAYISpXyf///wAAAAAAAAAAAAAAACH5BAEKAAQALAAAAAAQABAAAANISATczkqBQasFcQlrBV6MsHGiEzQj5TEnELzM5cIsbdLLC+/6N/O/E6j3IP5ilVqrBUgNVi6HyDltSJoiVekTCU23me4DEkkAADs=", "covid", "R0lGODlhEAAQAIIAMf/GAOpK/f///wAAAP///wAAAAAAAAAAACH5BAEAAAQALAAAAAAQABAAAgNKSLrTvZC4AeqIqgEttoNU1wSOx1BBmoabNJGDGpjURlqBAJf6ba+WWgwmy3kcRYFO6AKolMuJBCAqmjIUJKd12moemNrxgnF9IgkAOw==", "ikaruga", "R0lGODlhEAAQAMIEAAAAAAcHB7MABFuV/////////////////yH5BAEKAAcALAAAAAAQABAAAANKeLrRsZA1Qlw8jmoCGgzaMAiC9iiTOFBk6WGUypLUk4pbW00EvhG0XWz1C2Z8o9kO1uuNSqUKCqR60l5MZ1AqAf0skczudJliFwkAOw==", "lazy", "R0lGODlhEAAQAMICAAAAAAgICP+3t/////+3t/+3t/+3t/+3tyH5BAEKAAQALAAAAAAQABAAAANPSLpM8K9JMCqQDoIwwp3VQG1fBnFeWFKW6GnL1rFi87raSQQcvXEhHkeQGwqOncBxKeAxj07io6kkQZXPKJM3YCa7yySwIhwnd5qAokhIAAA7", "mario", "R0lGODlhEAAQAIEAMQAAANgoAPz8/AAAACH5BAEAAAAALAAAAAAQABAAAQJBhD2px6AhRFgshRvvHCdJGH1CgoDhKXEWqLHboH2tvEItpq3ZvXvnfPIphooI0YgcLXyjpLKDQnE6g6hxSiVSAAUAOw==", "mosquito", "R0lGODlhEAAQAKECAAAAAP8AAP///////yH5BAEKAAMALAAAAAAQABAAAAJB3ICpaCnxRIRKoAkpsJu/AHpch4DgxR0kcK6GKrGB+zrylrzH2OL62or9SKcYYIgr5mq82eXI5AQtw1gxhVwwDAUAOw==", "saitama", "R0lGODlhEAAQAMIGAAAAAAgICGxsbP/AmP/PV/////jIUfjIUSH5BAEKAAcALAAAAAAQABAAAANKeLrRsZC1MVw8juraYNhUIVYSGIodZprPtG7ZC8YyFxSC8OZFAIi4nJAnAhgLx2DxZwQQCMZn7hmFOp/YKZZa3Xqth6bR1xADDgkAOw==", "seed", "R0lGODlhEAAQAMIDAAAAAG9tbUCy5////////////////////yH5BAEKAAQALAAAAAAQABAAAANFSLrQsJC1MVwkjuraVN6gA4CDIJCNSW5BkJon2LZpAMdzMLiAYN85HQ/28wWHpmJrN3sRjUya4xm0YJzNTmTKe1wkWkgCADs=", "slime", "R0lGODlhEAAQAMIEAAABAFaSRV6qSLn9qgAAAAAAAAAAAAAAACH5BAEKAAQALAAAAAAQABAAAANCSKrQvpA4QcWDrWoLsB5bxwDVYApB2jClaaaqRMIuCk92CuYBR8G9DSUjLBI3wMpRQzvhis4OqVUbjopKkczBvSQAADs=", "sonic", "R0lGODlhEAAQAMIDAAgICOgSJh9O/////////////////////yH5BAEKAAQALAAAAAAQABAAAANBSLrQsJA1IVwkjuraINDDsFUSFYZbh5knqj2T0LpUBp4jN9JpnJuc1S8UIGE+uUBRJRQonzXP5LlkSpCWy/URSQAAOw==", "yuri", "R0lGODlhEAAQAKEDAAAAAN4H28asxv///yH5BAEKAAMALAAAAAAQABAAAAI+hI85EB3s4DNBiFcvs3NjvmlL9WkesEDnKI7fw8Lpi6roMJ42jh8NNeEJVb+bsFc0HIfB5ZFhdPIO0mf0WAAAOw=="
 			], u, u)

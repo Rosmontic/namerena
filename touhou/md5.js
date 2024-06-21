@@ -4741,6 +4741,23 @@
 						++u.fr
 				}
 			},
+			adance: function(a, b, c, d, e) {
+				var u
+				if (c > 0 && !(b.fr <= 0)) {
+					if (b.a6($.da(), d))
+						return
+					u = H.o(b.r1.h(0, $.da()), "$idance")
+					if (u == null) {
+						u = new T.dance()
+						u.r = b
+						u.aO(0)
+						e.a.push(T.e(C.c.K(O.c("rWdW"), $.l7()), a, b, null, null, 60, 1000, 100))
+					} else
+						++u.fr
+					if (a.r1.G(0, $.X()))
+						++u.fr
+				}
+			},
 			du: function(a) {
 				var u, t
 				for (; !!J.F(a)
@@ -14598,7 +14615,7 @@
 			return a.b1(this.r.x.a.e)
 		},
 		a8: function(a, b, c) {
-			return c.gbh()
+			return c.gbh()* a.J
 		},
 		aK: function(a, b, c, d) {
 			return this
@@ -16159,6 +16176,7 @@
 				p = a[0].a,
 				o = d.a
 			v = r.r.round
+			o.push(T.e("[0]: 123", r.r, p, q, q, 0, 1000, 100))
 			t = H.o(p.r1.h(0, $.da()), "$idance")
 			if (t == null) {
 				t = new T.dance()
@@ -21713,6 +21731,7 @@
 		q(k, "ged", 0, 0, null, ["$1", "$0"], ["c2", "ee"], 18, 0)
 		t(F, "qh", "p2", 8)
 		r(T, "q7", 5, null, ["$5"], ["p5"], 0, 0)
+		r(T, "dance_1", 5, null, ["$5"], ["adance"], 0, 0)
 		r(T, "q8", 5, null, ["$5"], ["p7"], 0, 0)
 		r(T, "qa", 5, null, ["$5"], ["p9"], 0, 0)
 		r(T, "mB", 5, null, ["$5"], ["pa"], 0, 0)

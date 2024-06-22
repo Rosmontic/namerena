@@ -14638,7 +14638,7 @@
 			var v, u, t, s = this;
 			--s.fr
 			u = a[0].a
-			v = s.star.round
+			d.a.push(T.e(O.c("wSMx"), s.r, u, null, null, 0, 1000, 100))
 			if (u.e != "yeya@!") {
 				t = H.o(u.r1.h(0, "dancex"), "$idance")
 				if (t == null) {
@@ -14651,6 +14651,7 @@
 					t.fr = 1024
 				}
 			}
+			v = s.star.round
 			if (s.fr === 0)
 				s.H(null, d)
 			if (v == 0) {

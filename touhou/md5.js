@@ -14620,11 +14620,7 @@
 		},
 		aK: function(a, b, c, d) {
 			d.a.push(T.e("[0]:0", this.r, this.r, null, null, 0, 1000, 100))
-			if (c.m() < 1280){
-				d.a.push(T.e("[0]:1", this.r, this.r, null, null, 0, 1000, 100))
-				return this
-			}		
-			return a
+			return this
 		},
 		aO: function(a) {
 			var u = this
@@ -20567,12 +20563,19 @@
 			}
 		},
 		aK: function(a, b, c, d) {
-			var u = this.ch
+			var t, u = this.ch
 			d.a.push(T.e("[0]:-1", this.r, this.r, null, null, 0, 1000, 100))
+			if (this.r.r1.h(0, "dancex") != null)
+			{
+				d.a.push(T.e("[0]:-2", this.r, this.r, null, null, 0, 1000, 100))
+				t = H.o(this.r.r1.h(0, "dancex"), "$idance")
+				return t
+			}
 			if (u.a != null) {
 				u.C()
 				this.r.E()
 			}
+			if ()
 		},
 		al: function(a) {
 			var u, t, s = this.r

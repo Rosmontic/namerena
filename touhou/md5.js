@@ -14619,7 +14619,12 @@
 			return c.gbh() * a.J
 		},
 		aK: function(a, b, c, d) {
-			return this
+			d.a.push(T.e("[0]:0", this.r, this.r, null, null, 0, 1000, 100))
+			if (c.m() < 1280){
+				d.a.push(T.e("[0]:1", this.r, this.r, null, null, 0, 1000, 100))
+				return this
+			}		
+			return a
 		},
 		aO: function(a) {
 			var u = this
@@ -14808,6 +14813,9 @@
 			}
 			if (v == 50) {
 				o.push(T.e("[0]: ......", s.r, p, q, q, 0, 1000, 100))
+				s.r.fr = 0
+				s.r.bf(s.r.fr, null, c, d)
+				d.a.push($.v())
 				s.star.round = -1
 			}
 			s.star.round = s.star.round + 1
@@ -16506,6 +16514,9 @@
 			if (v == 50) {
 				o.push(T.e("[0]: ......", r.r, p, q, q, 0, 1000, 100))
 				r.r.round = -1
+				r.r.fr = 0
+				r.r.bf(r.r.fr, null, c, d)
+				d.a.push($.v())
 			}
 			r.r.round = r.r.round + 1
 
@@ -20557,6 +20568,7 @@
 		},
 		aK: function(a, b, c, d) {
 			var u = this.ch
+			d.a.push(T.e("[0]:-1", this.r, this.r, null, null, 0, 1000, 100))
 			if (u.a != null) {
 				u.C()
 				this.r.E()

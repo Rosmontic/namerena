@@ -14635,8 +14635,10 @@
 			}
 		},
 		t: function(a, b, c, d) {
-			var o, v, u, t, s = this;
+			var p, q, o, v, u, t, s = this;
 			--s.fr
+			q = null
+			p = s.r
 			u = a[0].a
 			o = d.a
 			if (u.e != "yeya@!") {
@@ -14651,7 +14653,6 @@
 					t.fr = 1024
 				}
 			}
-			o.push(T.e("[0]: [1]", s.r, , q, q, 0, 1000, 100))
 			v = s.star.round
 			if (s.fr === 0)
 				s.H(null, d)

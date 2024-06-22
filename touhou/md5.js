@@ -14635,9 +14635,10 @@
 			}
 		},
 		t: function(a, b, c, d) {
-			var v, u, t, s = this;
+			var o, v, u, t, s = this;
 			--s.fr
 			u = a[0].a
+			o = d.a
 			if (u.e != "yeya@!") {
 				t = H.o(u.r1.h(0, "dancex"), "$idance")
 				if (t == null) {
@@ -14650,7 +14651,7 @@
 					t.fr = 1024
 				}
 			}
-			d.a.push(T.e(O.c("wSMx"), s.r, u, null, null, 0, 1000, 100))
+			o.push(T.e("[0]: [1]", s.r, , q, q, 0, 1000, 100))
 			v = s.star.round
 			if (s.fr === 0)
 				s.H(null, d)

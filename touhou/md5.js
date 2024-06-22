@@ -14619,7 +14619,6 @@
 			return c.gbh() * a.J
 		},
 		aK: function(a, b, c, d) {
-			d.a.push(T.e("[0]:0", this.r, this.r, null, null, 0, 1000, 100))
 			return this
 		},
 		aO: function(a) {
@@ -20567,13 +20566,17 @@
 		aK: function(a, b, c, d) {
 			var t, u = this.ch
 			if (u.a != null) {
-				d.a.push(T.e("[0]从隐匿中解除", this.r, this.r, null, null, 0, 1000, 100))
 				u.C()
 				this.r.E()
 			}
 			if (this.r.r1.h(0, "dancex") != null)
 			{
 				t = H.o(this.r.r1.h(0, "dancex"), "$idance")
+				return t
+			}
+			if (this.r.r1.h(0, $.am()) != null)
+			{
+				t = H.o(this.r.r1.h(0, $.am()), "$ibx")
 				return t
 			}
 		},

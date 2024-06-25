@@ -18268,9 +18268,6 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
-			u = new T.reikirecover()
-			u.f = 1024
-			t.push(u)
 		}
 	}
 	T.targeta.prototype = {
@@ -18282,9 +18279,6 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
-			u = new T.reikirecover()
-			u.f = 1024
-			t.push(u)
 			u = new T.targetready()
 			u.f = 1024
 			t.push(u)
@@ -19795,6 +19789,21 @@
 				n = null,
 				m = (b.m() & 63) < o.dy,
 				l = o.fe(m, b, c)
+			if (o.r.reiki != null) {
+				t = (b.m() & 1) + o.r.reikimp
+				if (t < 0) {
+					t = 0
+				}
+				if (o.r.reiki + t > o.r.reikimax) {
+					if (o.r.reiki > o.r.reikimax) {
+						t = 0
+					} else {
+						t = o.r.reikimax - o.r.reiki
+					}
+				}
+				o.r.reiki = o.r.reiki + t
+				//d.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", r.r, t, r.r.reiki, null, 0, 1000, 100))
+			}
 			if (o.A)
 				return
 			if (l == null) {

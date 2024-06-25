@@ -14641,7 +14641,7 @@
 			p = s.r
 			u = a[0].a
 			o = d.a
-			if (s.fr === 0 || v == -1){
+			if (s.fr === 0){
 				s.H(null, d)
 				return
 			}		
@@ -14656,9 +14656,6 @@
 				} else {
 					t.fr = 1024
 				}
-			}
-			else {
-				o.push(T.e("[0]: 111", s.r, p, q, q, 0, 1000, 100))
 			}
 			v = s.star.round	
 			if (v == 0) {
@@ -14812,7 +14809,12 @@
 				o.push(T.e("[0]: とってもとってもとっても大切です", s.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 50) {
-				o.push(T.e("[0]: ......", s.r, p, q, q, 0, 1000, 100))
+				if(u.e == "yeya@!"){
+					o.push(T.e("[0]: 夜が終わりました...", s.r, p, q, q, 0, 1000, 100))
+				}
+				else{
+					o.push(T.e("[0]: ......", s.r, p, q, q, 0, 1000, 100))
+				}	
 				s.r.fr = 0
 				s.r.bf(s.r.fr, null, c, d)
 				s.star.round = -1
@@ -17878,7 +17880,7 @@
 		},
 		a6: function(a, b) {
 			if (this.resist != null)
-				return b.m < this.resist
+				return b.m() < this.resist
 			if (C.a.w(this.gaQ(), a))
 				return b.m() < 240
 			if (C.a.w(this.gaB(), a))

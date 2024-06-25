@@ -19912,6 +19912,9 @@
 				if(p.relief > 0.99){
 					a = C.d.Z(a * 0.01)
 				}
+				else{
+					a = C.d.Z(a * (1 - p.relief))
+				}
 			}
 			if (a < 0) {
 				u = p.fr

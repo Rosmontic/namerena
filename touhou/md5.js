@@ -14641,6 +14641,10 @@
 			p = s.r
 			u = a[0].a
 			o = d.a
+			if (s.fr === 0 || v = -1){
+				s.H(null, d)
+				return
+			}		
 			if (u.e != "yeya@!") {
 				t = H.o(u.r1.h(0, "dancex"), "$idance")
 				if (t == null) {
@@ -14653,9 +14657,7 @@
 					t.fr = 1024
 				}
 			}
-			v = s.star.round
-			if (s.fr === 0)
-				s.H(null, d)
+			v = s.star.round	
 			if (v == 0) {
 				o.push(T.e("[0]: 踊ってるだけで退場", s.r, p, q, q, 0, 1000, 100))
 			}
@@ -14807,10 +14809,8 @@
 				o.push(T.e("[0]: とってもとってもとっても大切です", s.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 50) {
-				o.push(T.e("[0]: ......", s.r, p, q, q, 0, 1000, 100))
 				s.r.fr = 0
 				s.r.bf(s.r.fr, null, c, d)
-				d.a.push($.v())
 				s.star.round = -1
 			}
 			s.r.bI(s.r, d)
@@ -16508,11 +16508,10 @@
 				o.push(T.e("[0]: とってもとってもとっても大切です", r.r, p, q, q, 0, 1000, 100))
 			}
 			if (v == 50) {
-				o.push(T.e("[0]: ......", r.r, p, q, q, 0, 1000, 100))
-				r.r.round = -1
+				o.push(T.e("[0]: 夜が終わりました...", r.r, p, q, q, 0, 1000, 100))
+				r.r.round = -2
 				r.r.fr = 0
 				r.r.bf(r.r.fr, null, c, d)
-				d.a.push($.v())
 			}
 			r.r.bI(r.r, d)
 			r.r.round = r.r.round + 1

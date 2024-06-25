@@ -14641,7 +14641,7 @@
 			p = s.r
 			u = a[0].a
 			o = d.a
-			if (s.fr === 0 || v = -1){
+			if (s.fr === 0 || v == -1){
 				s.H(null, d)
 				return
 			}		

@@ -9648,7 +9648,7 @@
 				_.go = 1
 				_.id = e
 				_.resist = 100
-				_.relief = 20
+				_.relief = 0.2
 				_.reiki = 0
 				_.reikimp = 2
 				_.reikimax = 8
@@ -25387,7 +25387,7 @@
 					}
 				}
 				o.r.reiki = o.r.reiki + t
-				//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o.r, t, o.r.reiki, null, 0, 1000, 100))
+				c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o.r, t, o.r.reiki, null, 0, 1000, 100))
 			}
 			if (o.A)
 				return
@@ -27987,7 +27987,7 @@
 		C.ironbird = H.a(u([21, 5, 16, 49, 4, 20, 42, 267]), [P.j])
 
 		C.yeya = H.a(u([-80, -46, 38, -82, -79, -70, 999940, 749]), [P.j])
-		C.reimu = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.reimu = H.a(u([31, 43, 30, 31, 34, 30, 27, 704]), [P.j])
 		C.marisa = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.rumia = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.daiyousei = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])

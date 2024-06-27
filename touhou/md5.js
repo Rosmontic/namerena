@@ -4861,7 +4861,7 @@
 					if (u.h(0, $.X()) != null) {
 						t.z += 2
 					}
-					e.a.push(T.e("[1][被束缚了]", a, b, null, null, 60, 1000, 100))
+					e.a.push(T.e("[1]被[束缚]了", a, b, null, null, 60, 1000, 100))
 				}
 			},
 			seals: function(a, b, c, d, e) {
@@ -19299,7 +19299,7 @@
 			var u = a[0].a,
 				t = T.u(this.r, !0, c)
 			this.r.reiki = this.r.reiki -2
-			d.a.push(T.e([0]: 使用[灵符「梦想封印」], this.r, u, null, null, 1, 1000, 100))
+			d.a.push(T.e("[0]: 使用[灵符「梦想封印」]", this.r, u, null, null, 1, 1000, 100))
 			u.a0(t * 1, !0, this.r, T.seala(), c, d)
 		}
 	}

@@ -25374,7 +25374,7 @@
 				n = null,
 				m = (b.m() & 63) < o.dy,
 				l = o.fe(m, b, c)
-			if (o.reiki != null) {
+			if (o.reiki != null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
 				t = (b.m() & 1) + o.reikimp
 				if (t < 0) {
 					t = 0
@@ -25414,7 +25414,7 @@
 					r = n
 			} else
 				r = n
-			if (l == null)
+			if (l == null ||&& H.o(o.r1.h(0, "sealx"), "$iseal") != null)
 				l = o.k2
 			l.t(r == null ? l.a9(0, m, b) : r, m, b, c)
 			if ((b.m() & 127) < o.dy + 64)

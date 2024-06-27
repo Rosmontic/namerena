@@ -25540,7 +25540,7 @@
 			}
 			if (o.A)
 				return
-			if (l == null) {
+			if (l == null || H.o(o.r1.h(0, "sealx"), "$iseal") != null) {
 				u = (b.m() & 15) + 8
 				if (o.fy >= u) {
 					for (t = o.k3,
@@ -25563,7 +25563,7 @@
 					r = n
 			} else
 				r = n
-			if (l == null || H.o(o.r1.h(0, "sealx"), "$iseal") != null)
+			if (l == null )
 				l = o.k2
 			l.t(r == null ? l.a9(0, m, b) : r, m, b, c)
 			if ((b.m() & 127) < o.dy + 64)

@@ -19303,7 +19303,7 @@
 	}
 	T.tha1n1.prototype = {
 		ga1: function() {
-			return 2000
+			return 4000
 		},
 		ar: function(a, b) {
 			if (this.fr.a != null || this.r.meng != 0 || this.r.reiki <= 3)
@@ -19333,7 +19333,7 @@
 			s.j = s.j
 			s = C.c.K(O.c("PurV"), $.nh())
 			r = u.r
-			q.push(T.e(s, r, r, t, t, 0, 1000, 100))
+			q.push(T.e(s, r, r, t, t, 1, 1000, 100))
 		},
 		ak: function(a, b, c, d, e) {
 			var u
@@ -23356,13 +23356,13 @@
 			u.fx = new T.ay(u)
 			u.fy = new T.aN(u)
 			f.r = 10
-			u.f = 35
+			u.f = 00
 			t.push(u)
 			u = new T.tha1n2()
 			u.f = 50
 			t.push(u)
 			u = new T.tha1n3()
-			u.f = 85
+			u.f = 00
 			t.push(u)
 		}
 	}

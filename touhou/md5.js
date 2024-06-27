@@ -4966,6 +4966,26 @@
 					e.a.push(T.e(C.c.K(O.c("UAjR"), $.ni()), a, b, null, null, 60, 1000, 100))
 				}
 			},
+			fires: function(a, b, c, d, e) {
+				var u, t
+				if (c > 4 && !(b.fr <= 0)) {
+					if (b.a6("firex", d))
+						return
+					u = b.r1
+					t = H.o(u.h(0, "firex"), "$ifire")
+					if (t == null) {
+						t = new T.fire(a, b)
+						t.y = T.u(a, !0, d)
+						u.k(0, "firex", t)
+						b.x1.i(0, t)
+					} else {
+						t.y = T.u(a, !0, d)
+						t.z = t.z + 1
+						t.r = a
+					}
+					e.a.push(T.e("[1]被[点燃]", a, b, null, null, 60, 1000, 100))
+				}
+			},
 			u: function(a, b, c) {
 				var u, t = b ? a.db : a.Q,
 					s = t + 64,
@@ -8597,7 +8617,7 @@
 				_.r = a
 				_.x = b
 				_.y = null
-				_.z = 4
+				_.z = 42
 				_.Q = 2
 				_.c = _.b = _.a = null
 			},
@@ -8778,6 +8798,14 @@
 				_.x = b
 				_.y = null
 				_.z = 4
+				_.c = _.b = _.a = null
+			},
+			fire: function fire(a, b) {
+				var _ = this
+				_.r = a
+				_.x = b
+				_.y = null
+				_.z = 1
 				_.c = _.b = _.a = null
 			},
 			i6: function i6() {
@@ -9560,11 +9588,13 @@
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
 				_.go = 1
 				_.id = e
-				_.resist = 0
-				_.relief = 0
+				_.resist = 100
+				_.relief = 20
 				_.reiki = 0
 				_.reikimp = 2
 				_.reikimax = 8
+				_.meng = 0
+				_.ex = 0
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -20965,6 +20995,34 @@
 		},
 		$ip: 1
 	}
+	T.fire.prototype = {
+		gR: function() {
+			return -1
+		},
+		aq: function(a, b) {
+			var u, t, s, r, q = this,
+				p = q.x
+			if (p.fr > 0) {
+				u = 0.8*q.y
+				t = q.z
+				b.a.push(T.e("[0]: [烧伤]", q.r, p, null, null, 0, 1000, 100))
+				p.aA(u, q.r, T.a3(), a, b)
+				if (--q.z === 0)
+					q.H(null, b)
+			}
+		},
+		H: function(a, b) {
+			var u, t = this.x
+			t.r1.S(0, $.b9())
+			this.C()
+			if (t.fr > 0) {
+				u = b.a
+				u.push($.v())
+				u.push(T.ap("[1]从[燃烧]中解除", a, t))
+			}
+		},
+		$ip: 1
+	}
 	T.i6.prototype = {
 		t: function(a, b, c, d) {
 			var u = a[0].a,
@@ -23037,12 +23095,6 @@
 		gah: function() {
 			return C.yeya
 		},
-		gaQ: function() {
-			return H.a([], [P.f])
-		},
-		gaB: function() {
-			return H.a([], [P.f])
-		},
 		aa: function() {
 			var u, t = new T.oddloop()
 			t.r = this
@@ -23699,7 +23751,6 @@
 			t = this.id
 		}
 	}
-
 	T.targeta.prototype = {
 		gah: function() {
 			return C.targeta
@@ -25232,7 +25283,7 @@
 					}
 				}
 				o.r.reiki = o.r.reiki + t
-				//d.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", r.r, t, r.r.reiki, null, 0, 1000, 100))
+				//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o.r, t, o.r.reiki, null, 0, 1000, 100))
 			}
 			if (o.A)
 				return
@@ -25708,7 +25759,7 @@
 					u.fy = s - t
 					r = T.u(u, !0, c)
 					d.a.push(T.e(O.c("zkrc"), q.r, o, p, p, 0, 1000, 100))
-					o.a0(r, !0, q.r, T.a3(), c, d)
+					o.a0(r, !0, q.r, T.firea(), c, d)
 					return
 				}
 			}
@@ -27373,6 +27424,7 @@
 		r(T, "kV", 5, null, ["$5"], ["pc"], 0, 0)
 		r(T, "heartbreak", 5, null, ["$5"], ["heartbreak"], 0, 0)
 		r(T, "qc", 5, null, ["$5"], ["pe"], 0, 0)
+		r(T, "firea", 5, null, ["$5"], ["fires"], 0, 0)
 		r(T, "q9", 5, null, ["$5"], ["p8"], 0, 0)
 		r(T, "qb", 5, null, ["$5"], ["pd"], 0, 0)
 		u(T, "q5", "oo", 26)
@@ -27460,7 +27512,7 @@
 		s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
 		s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])
 		s(T.D, [T.cg, T.dF, T.el])
-		s(T.J, [T.dE, T.ay])
+		s(T.J, [T.dE, T.fire, T.ay])
 		s(T.av, [T.hh, T.hi, T.ho, T.wargod])
 		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.ironbird, T.yeya, T.reimu , T.marisa , T.rumia , T.daiyousei , T.cirno , T.hong , T.koakuma , T.patchouli , T.sakuya , T.remilia , T.flandre , T.rin , T.letty , T.chen , T.alice , T.phantom , T.youmu , T.yuyuko , T.ran , T.yukari , T.suika , T.wriggle , T.mystia , T.keine , T.inaba , T.reisen , T.yagokoro , T.kaguya , T.mokou , T.aya , T.medicine , T.yuka , T.onozuka , T.shikieiki , T.aki , T.hina , T.nitori , T.momizi , T.sanae , T.kanako , T.suwako , T.iku , T.tenshi , T.kisume , T.yamame , T.parsee , T.yugi , T.satori , T.kaenbyou , T.utuho , T.koishi , T.nazrin , T.kogasa , T.ichirin , T.minamitu , T.minamitu , T.minamitu , T.nue , T.hatate, T.targeta])
 		t(T.hg, T.cy)

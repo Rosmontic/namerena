@@ -4841,6 +4841,29 @@
 					e.a.push(T.e(C.c.K(O.c("arnH"), $.n8()), a, b, null, null, 60, 1000, 100))
 				}
 			},
+			slows: function(a, b, c, d, e) {
+				var u, t
+				if (c > 0 && !(b.fr <= 0)) {
+					if (b.a6($.aC(), d))
+						return
+					u = b.r1
+					t = H.o(u.h(0, $.aC()), "$icg")
+					if (t == null) {
+						t = new T.cG(b)
+						t.y = new T.ay(t)
+						u.k(0, $.aC(), t)
+						b.r2.i(0, t)
+						b.x1.i(0, t.y)
+						b.E()
+					} else {
+						t.z += 2
+					}
+					if (u.h(0, $.X()) != null) {
+						t.z += 4
+					}
+					e.a.push(T.e(C.c.K(O.c("arnH"), $.n8()), a, b, null, null, 60, 1000, 100))
+				}
+			},
 			pa: function(a, b, c, d, e) {
 				var u, t, s, r, q
 				if (c > 0) {
@@ -21004,9 +21027,9 @@
 				p = q.x
 			if (p.fr > 0) {
 				u = 0.8*q.y
-				t = q.z
-				b.a.push(T.e("[0]: [烧伤]", q.r, p, null, null, 0, 1000, 100))
-				p.aA(u, q.r, T.a3(), a, b)
+				r = C.e.Z(u / (p.db + 64))
+				b.a.push(T.e("[1]: [烧伤]", q.r, p, null, null, 0, 1000, 100))
+				p.aA(r, q.r, T.a3(), a, b)
 				if (--q.z === 0)
 					q.H(null, b)
 			}
@@ -25759,7 +25782,7 @@
 					u.fy = s - t
 					r = T.u(u, !0, c)
 					d.a.push(T.e(O.c("zkrc"), q.r, o, p, p, 0, 1000, 100))
-					o.a0(r, !0, q.r, T.firea(), c, d)
+					o.a0(r, !0, q.r, T.a3(), c, d)
 					return
 				}
 			}
@@ -25972,7 +25995,7 @@
 			var u = a[0].a,
 				t = T.u(this.r, !1, c)
 			d.a.push(T.e(O.c("Ukql"), this.r, u, null, null, 0, 1000, 100))
-			u.a0(t, !1, this.r, T.a3(), c, d)
+			u.a0(t, !1, this.r, T.slowa(), c, d)
 		}
 	}
 	T.bU.prototype = {
@@ -27418,6 +27441,7 @@
 		r(T, "dancea", 5, null, ["$5"], ["dances"], 0, 0)
 		r(T, "q8", 5, null, ["$5"], ["p7"], 0, 0)
 		r(T, "qa", 5, null, ["$5"], ["p9"], 0, 0)
+		r(T, "slowa", 5, null, ["$5"], ["slows"], 0, 0)
 		r(T, "mB", 5, null, ["$5"], ["pa"], 0, 0)
 		r(T, "darkLock_1", 5, null, ["$5"], ["darkLockAttack"], 0, 0)
 		r(T, "mC", 5, null, ["$5"], ["pb"], 0, 0)

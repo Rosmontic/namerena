@@ -8541,7 +8541,21 @@
 			},
 			p4: function(a, b, c, d, e) {},
 			p6: function(a, b, c, d, e) {},
+			tha1n1: function tha1n1() {
+				var _ = this
+				_.fy = _.fx = _.fr = null
+				_.id = _.go = 0
+				_.e = !1
+				_.f = 0
+				_.c = _.b = _.a = _.r = null
+			},
 			tha1n2: function tha1n2() {
+				var _ = this
+				_.e = !1
+				_.f = 0
+				_.c = _.b = _.a = _.r = null
+			},
+			tha1n3: function tha1n3() {
 				var _ = this
 				_.e = !1
 				_.f = 0
@@ -19287,6 +19301,90 @@
 			return this.c = a
 		}
 	}
+	T.tha1n1.prototype = {
+		ga1: function() {
+			return 2000
+		},
+		ar: function(a, b) {
+			if (this.fr.a != null || this.r.meng != 0 || this.r.reiki <= 3)
+				return !1
+			return this.aS(a, b)
+		},
+		a9: function(a, b, c) {
+			return H.a([], [T.Z])
+		},
+		t: function(a, b, c, d) {
+			var u = this,
+				t = null,
+				s = "[0]发动[梦符「二重结界」]",
+				r = u.r,
+				q = d.a
+			this.r.reiki = this.r.reiki -3
+			q.push(T.e(s, r, r, t, t, 60, 1000, 100))
+			u.r.y1.i(0, u.fr)
+			u.r.x1.i(0, u.fx)
+			u.r.r2.i(0, u.fy)
+			u.r.r1.k(0, $.l2(), u)
+			u.r.E()
+			u.id = 2
+			r = u.r
+			u.go = 200
+			s = u.r
+			s.j = s.j
+			s = C.c.K(O.c("PurV"), $.nh())
+			r = u.r
+			q.push(T.e(s, r, r, t, t, 0, 1000, 100))
+		},
+		ak: function(a, b, c, d, e) {
+			var u
+			if (a > 0) {
+				u = b.millionPower ? 0 : this.go
+				if (a <= u) {
+					this.go = u - 0
+					a = 1
+				} else {
+					a -= u
+					this.H(b, e)
+				}
+				return a
+			}
+			return 0
+		},
+		aq: function(a, b) {
+			var u
+			if (--this.id === 0) {
+				this.H(null, b)
+				u = this.r
+				u.j = u.j - 128
+			}
+		},
+		al: function(a) {
+			this.r.J *= 1.12
+		},
+		gR: function() {
+			return this.id
+		},
+		H: function(a, b) {
+			var u, t, s, r = this
+			r.fr.C()
+			r.fx.C()
+			r.fy.C()
+			r.r.r1.S(0, $.l2())
+			r.r.E()
+			u = b.a
+			if (a != null) {
+				u.push($.v())
+				u.push(T.ap("[1]的[结界]被打破了", a, r.r))
+			} else {
+				u.push($.v())
+				t = "[1]的[结界]解除了"
+				s = r.r
+				u.push(T.ap(t, s, s))
+			}
+			r.go = r.id = 0
+		},
+		$ip: 1
+	}
 	T.tha1n2.prototype = {
 		ar: function(a, b) {
 			var u
@@ -19298,9 +19396,49 @@
 		t: function(a, b, c, d) {
 			var u = a[0].a,
 				t = T.u(this.r, !0, c)
-			this.r.reiki = this.r.reiki -2
+			this.r.reiki = this.r.reiki - 2
 			d.a.push(T.e("[0]: 使用[灵符「梦想封印」]", this.r, u, null, null, 1, 1000, 100))
-			u.a0(t * 1, !0, this.r, T.seala(), c, d)
+			u.a0(t * 1.2, !0, this.r, T.seala(), c, d)
+		}
+	}
+	T.tha1n3.prototype = {
+		ar: function(a, b) {
+			var u
+			if (this.r.meng != 0 || this.r.reiki <= 4) {
+				return !1
+			}
+			return this.aS(a, b)
+		},
+		gb3: function() {
+			return 4
+		},
+		gb4: function() {
+			return 4
+		},
+		t: function(a, b, c, d) {
+			var u, t, s, r, q, p, o, n = H.a([], [T.aU])
+			for (u = 0; u < a.length; ++u)
+				n.push(a[u].a)
+			t = "[0]使用[神技「八方龙杀阵」]"
+			s = this.r
+			r = H.a(n.slice(0), [H.n(n, 0)])
+			q = d.a
+			this.r.reiki = this.r.reiki -4
+			q.push(T.e(t, s, null, null, r, 1, 1000, 100))
+			p = T.u(this.r, !0, c) * 1.75
+			for (u = 0; u < n.length; ++u) {
+				o = n[u]
+				if (o.fr > 0) {
+					q.push($.v())
+					if (!!o.$iav) {
+						o.bL(2 * p, !0, this.r, T.a3(), c, d)
+					} else {
+						o.bL(p, !0, this.r, T.a3(), c, d)
+					}
+				}
+
+			}
+
 		}
 	}
 	T.dL.prototype = {
@@ -23212,8 +23350,19 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			u = new T.tha1n1()
+			f = new T.dF(1 / 0, u)
+			u.fr = f
+			u.fx = new T.ay(u)
+			u.fy = new T.aN(u)
+			f.r = 10
+			u.f = 35
+			t.push(u)
 			u = new T.tha1n2()
-			u.f = 160
+			u.f = 50
+			t.push(u)
+			u = new T.tha1n3()
+			u.f = 85
 			t.push(u)
 		}
 	}
@@ -27613,7 +27762,7 @@
 		t(Z.hl, Z.ax)
 		s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
 		s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.targetready, T.reikirecover, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend, T.hellTaichiReflect, T.wargodSay])
-		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.tha1n2])
+		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.tha1n1, T.tha1n2, T.tha1n3])
 		s(T.M, [T.bf, T.co, T.dj, T.cG, T.seal, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade, T.ironbirdSimulateRun])
 		s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
 		s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])

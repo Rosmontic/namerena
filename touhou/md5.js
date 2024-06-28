@@ -23471,16 +23471,13 @@
 			u.fx = new T.ay(u)
 			u.fy = new T.aN(u)
 			f.r = 10
-			u.f = 35
+			u.f = 0
 			t.push(u)
 			u = new T.tha1n2()
 			u.f = 0
 			t.push(u)
 			u = new T.tha1n3()
 			u.f = 80
-			t.push(u)
-			u = new T.thdf()
-			u.f = 1
 			t.push(u)
 		}
 	}

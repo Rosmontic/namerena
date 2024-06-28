@@ -19383,12 +19383,14 @@
 				if (u.Q && b != u.cx)
 				{
 					u.cx = b
+					d.a.push(T.e("[0]：1！", o, null, null, null, 0, 1000, 100))
 				}					
 			} else {
 				u.ch = d
 				u.cx = b
 				u.Q = !0
 				d.b.push(u.gdgay())
+				d.a.push(T.e("[0]：2！", o, null, null, null, 0, 1000, 100))
 			}
 		},
 		fa: function(a, b) {
@@ -19396,9 +19398,11 @@
 			o = r.r
 			r.Q = !1
 			r.ch = null
+			u = b.m()
+			b.a.push(T.e("[0]：[1]", o, u, null, null, 0, 1000, 100))
 			switch (o.e) {
 			case "reimu@!":
-				if (b.m() < 128 && o.yibian == 0) {
+				if (u < 128 && o.yibian == 0) {
 					o.yibian = 1
 					o.j = o.j + 512
 					o.go = o.go + 0.1
@@ -23529,7 +23533,7 @@
 			u.f = 1
 			t.push(u)
 			u = new T.thay()
-			u.f = 1
+			u.f = 1024
 			t.push(u)
 		}
 	}

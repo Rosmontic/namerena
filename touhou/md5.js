@@ -19396,14 +19396,14 @@
 			o = r.r
 			r.Q = !1
 			r.ch = null
-			switch (o.e) {
-			case "reimu@!":
+			if(this.r.e == "reimu@!"){
 				if (o.yibian == 0) {
 					o.yibian = 1
 					b.a.push($.v())
 					b.a.push(T.e("[0]：这是异变啊！", o, null, null, null, 0, 1000, 100))
 				}
 			}
+			
 		},
 		$iA: 1
 	}

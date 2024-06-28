@@ -19507,7 +19507,7 @@
 			return a.b1(this.r.x.a.e)
 		},
 		a8: function(a, b, c) {
-			return c.gbh()
+			return c.gbh() * a.J
 		},
 		gb3: function() {
 			return 999
@@ -19519,17 +19519,13 @@
 			if (this.r.meng > 0 && this.r.meng < 8) {
 				return !1
 			}
-			if (this.r.reiki <= 1 && this.r.meng == 0) {
-				return !1
-			}
 			return this.aS(a, b)
 		},
 		t: function(a, b, c, d) {
 			if (this.r.meng == 0) {
 				this.r.meng = 1
-				this.r.reiki = this.r.reiki - 1
 				d.a.push(T.e("[0] [ᗜ˰ᗜ#]", this.r, null, null, null, 1, 1000, 100))
-				this.f = 700
+				this.f = 512
 				return 0
 			}
 			if (this.r.meng > 7) {
@@ -23466,7 +23462,7 @@
 			this.k2 = t
 			t = this.id
 			u = new T.tha1s1()
-			u.f = 0
+			u.f = 15
 			t.push(u)
 			u = new T.tha1n1()
 			f = new T.dF(1 / 0, u)

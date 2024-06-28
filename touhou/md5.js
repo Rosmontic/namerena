@@ -19400,7 +19400,8 @@
 			case "reimu@!":
 				if (o.yibian == 0) {
 					o.yibian = 1
-					b.a.push(T.e("[0]：这是异变啊！", o, null, null, null, 1, 1000, 100))
+					b.a.push($.v())
+					b.a.push(T.e("[0]：这是异变啊！", o, null, null, null, 0, 1000, 100))
 				}
 			}
 		},
@@ -23492,9 +23493,6 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
-			u = new T.thay()
-			u.f = 1
-			t.push(u)
 		}
 	}
 	T.reimu.prototype = {

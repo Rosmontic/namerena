@@ -23462,20 +23462,6 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
-			u = new T.tha1s1()
-			u.f = 0
-			t.push(u)
-			u = new T.tha1n1()
-			f = new T.dF(1 / 0, u)
-			u.fr = f
-			u.fx = new T.ay(u)
-			u.fy = new T.aN(u)
-			f.r = 10
-			u.f = 0
-			t.push(u)
-			u = new T.tha1n2()
-			u.f = 0
-			t.push(u)
 			u = new T.tha1n3()
 			u.f = 80
 			t.push(u)

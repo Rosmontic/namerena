@@ -23492,6 +23492,9 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			u = new T.thay()
+			u.f = 1
+			t.push(u)
 		}
 	}
 	T.reimu.prototype = {

@@ -23482,22 +23482,9 @@
 			u = new T.thaK()
 			u.f = 1
 			t.push(u)
-		},
-		bM: function() {
-			var u, t = this
-			t.dK()
-			u = t.bb
-			if (u == null)
-				u = t.bb = new T.cB(t)
-			t.y2.i(0, u)
-		},
-		ay: function(a, b, c, d) {
-			if (d.m() < 128 && this.fr > 0 && this.yibian == 0) {
-				this.yibian = 1
-				this.f = this.f + 512
-				this.go = this.go + 0.1
-				d.a.push(T.e("[0]: 这是异变啊！", this, this, null, null, 0, 1000, 100))
-			}
+			u = new T.thdf()
+			u.f = 1
+			t.push(u)
 		}
 	}
 	T.marisa.prototype = {

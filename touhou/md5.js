@@ -23482,9 +23482,6 @@
 			u = new T.thaK()
 			u.f = 1
 			t.push(u)
-			u = new T.thdf()
-			u.f = 0
-			t.push(u)
 		}
 	}
 	T.marisa.prototype = {
@@ -25657,7 +25654,7 @@
 					}
 				}
 				o.reiki = o.reiki + t
-				c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
+				//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
 			}
 			if (o.A)
 				return

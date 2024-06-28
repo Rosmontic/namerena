@@ -19389,7 +19389,7 @@
 			u.r.r2.i(0, u.fy)
 			u.r.r1.k(0, $.l2(), u)
 			u.r.E()
-			u.id = 2
+			u.id = 3
 			r = u.r
 			u.go = 200
 			s = u.r
@@ -23477,7 +23477,7 @@
 			u.f = 35
 			t.push(u)
 			u = new T.tha1n2()
-			u.f = 50
+			u.f = 0
 			t.push(u)
 			u = new T.tha1n3()
 			u.f = 80

@@ -8541,6 +8541,18 @@
 			},
 			p4: function(a, b, c, d, e) {},
 			p6: function(a, b, c, d, e) {},
+			thaK: function thaK() {
+				var _ = this
+				_.e = !1
+				_.f = 0
+				_.c = _.b = _.a = _.r = null
+			},
+			thdf: function thdf() {
+				var _ = this
+				_.e = !1
+				_.f = 0
+				_.c = _.b = _.a = _.r = null
+			},
 			tha1n1: function tha1n1() {
 				var _ = this
 				_.fy = _.fx = _.fr = null
@@ -19301,6 +19313,51 @@
 			return this.c = a
 		}
 	}
+	T.thaK.prototype = {
+		aK: function(a, b, c, d) {
+			var u, t, s, o = this.r
+			switch (o.e) {
+				case "reimu@!":
+					o.yibian = 0
+					if (o.meng > 0) {
+						o.meng = o.meng + 1
+						return a
+					}
+			}	
+			return a
+		},
+		T: function() {
+			this.r.ry.i(0, this)
+		},
+		$iG: 1
+	}
+	T.thdf.prototype = {
+		ga1: function() {
+			return 2000
+		},
+		ak: function(a, b, c, d, e) {
+			var u = a > 0,
+				n, m, o = this.r
+			switch (o.e) {
+				case "reimu@!":
+					if (u && d.m() < 128 && o.yibian == 0) {
+						o.yibian = 1
+						o.j = o.j + 512
+						o.go = o.go + 0.08
+						if (o.meng > 0){
+							o.j = o.j + 1536
+						}
+						e.a.push(T.e("[0]：这是异变啊！", this.r, null, null, null, a, 1000, 100))
+					}
+					return a
+			}
+			return a
+		},
+		T: function() {
+			this.r.y1.i(0, this)
+		},
+		$iD: 1
+	}
 	T.tha1n1.prototype = {
 		ga1: function() {
 			return 4000
@@ -19320,7 +19377,7 @@
 				r = u.r,
 				q = d.a
 			this.r.reiki = this.r.reiki -3
-			q.push(T.e(s, r, r, t, t, 60, 1000, 100))
+			q.push(T.e(s, r, r, t, t, 1, 1000, 100))
 			u.r.y1.i(0, u.fr)
 			u.r.x1.i(0, u.fx)
 			u.r.r2.i(0, u.fy)
@@ -19331,9 +19388,7 @@
 			u.go = 200
 			s = u.r
 			s.j = s.j
-			s = C.c.K(O.c("PurV"), $.nh())
 			r = u.r
-			q.push(T.e(s, r, r, t, t, 1, 1000, 100))
 		},
 		ak: function(a, b, c, d, e) {
 			var u
@@ -19359,7 +19414,7 @@
 			}
 		},
 		al: function(a) {
-			this.r.J *= 1.12
+			this.r.J *= 1.2
 		},
 		gR: function() {
 			return this.id
@@ -23364,6 +23419,12 @@
 			u = new T.tha1n3()
 			u.f = 80
 			t.push(u)
+			u = new T.thaK()
+			u.f = 1
+			t.push(u)
+			u = new T.thdf()
+			u.f = 1
+			t.push(u)
 		}
 	}
 	T.marisa.prototype = {
@@ -25536,7 +25597,7 @@
 					}
 				}
 				o.reiki = o.reiki + t
-				c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
+				//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
 			}
 			if (o.A)
 				return
@@ -27762,7 +27823,7 @@
 		t(Z.hl, Z.ax)
 		s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
 		s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.targetready, T.reikirecover, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend, T.hellTaichiReflect, T.wargodSay])
-		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.tha1n1, T.tha1n2, T.tha1n3])
+		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.thdf, T.tha1n1, T.tha1n2, T.tha1n3])
 		s(T.M, [T.bf, T.co, T.dj, T.cG, T.seal, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade, T.ironbirdSimulateRun])
 		s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
 		s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])

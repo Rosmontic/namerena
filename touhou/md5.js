@@ -23479,9 +23479,6 @@
 			u = new T.tha1n3()
 			u.f = 80
 			t.push(u)
-			u = new T.thaK()
-			u.f = 1
-			t.push(u)
 			u = new T.thdf()
 			u.f = 1
 			t.push(u)

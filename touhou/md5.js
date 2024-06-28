@@ -19383,32 +19383,29 @@
 				if (u.Q && b != u.cx)
 				{
 					u.cx = b
-					d.a.push(T.e("[0]：1！", o, null, null, null, 0, 1000, 100))
 				}					
 			} else {
 				u.ch = d
 				u.cx = b
 				u.Q = !0
 				d.b.push(u.gdgay())
-				d.a.push(T.e("[0]：2！", o, null, null, null, 0, 1000, 100))
 			}
 		},
-		fa: function(a, b) {
+		f_: function(a, b) {
 			var o, u, t, s, r = this
 			o = r.r
 			r.Q = !1
 			r.ch = null
-			u = b.m()
-			b.a.push(T.e("[0]：[1]", o, u, null, null, 0, 1000, 100))
 			switch (o.e) {
 			case "reimu@!":
-				if (u < 128 && o.yibian == 0) {
+				if (o.yibian == 0) {
 					o.yibian = 1
 					o.j = o.j + 512
 					o.go = o.go + 0.1
 					if (o.meng > 0){
 						o.j = o.j + 1536
 					}
+					b.a.push($.v())
 					b.a.push(T.e("[0]：这是异变啊！", o, null, null, null, 1, 1000, 100))
 				}
 			}
@@ -23533,7 +23530,7 @@
 			u.f = 1
 			t.push(u)
 			u = new T.thay()
-			u.f = 1024
+			u.f = 1
 			t.push(u)
 		}
 	}
@@ -27862,7 +27859,7 @@
 		m(k = T.w.prototype, "gfz", "fA", 10)
 		m(k, "gbQ", "du", 10)
 		l(T.bU.prototype, "gdg", "f_", 20)
-		l(T.thay.prototype, "gdgay", "fa", 20)
+		l(T.thay.prototype, "gdg", "f_", 20)
 	})();
 	(function inheritance() {
 		var u = hunkHelpers.mixin,
@@ -27956,7 +27953,7 @@
 		t(T.dK, T.el)
 		s(T.b1, [T.f5, T.cL, T.fw, T.cx, T.hw, T.cM, T.iS])
 		t(T.ib, T.dU)
-		t(T.hP, T.bU, T.thay)
+		t(T.hP, [T.bU, T.thay])
 		t(O.az, Y.ht)
 		u(H.e6, H.iF)
 		u(H.cR, P.S)

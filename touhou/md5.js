@@ -8573,6 +8573,12 @@
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
 			},
+			tha1s1: function tha1s1() {
+				var _ = this
+				_.e = !1
+				_.f = 0
+				_.c = _.b = _.a = _.r = null
+			},
 			dL: function dL() {
 				var _ = this
 				_.e = !1
@@ -19343,7 +19349,7 @@
 					if (u && d.m() < 128 && o.yibian == 0) {
 						o.yibian = 1
 						o.j = o.j + 512
-						o.go = o.go + 0.08
+						o.go = o.go + 0.1
 						if (o.meng > 0){
 							o.j = o.j + 1536
 						}
@@ -19488,6 +19494,60 @@
 					if (!!o.$iav) {
 						o.bL(2 * p, !0, this.r, T.a3(), c, d)
 					} else {
+						o.bL(p, !0, this.r, T.a3(), c, d)
+					}
+				}
+
+			}
+
+		}
+	}
+	T.tha1s1.prototype = {
+		b5: function(a) {
+			return a.b1(this.r.x.a.e)
+		},
+		a8: function(a, b, c) {
+			return c.gbh()
+		},
+		gb3: function() {
+			return 999
+		},
+		gb4: function() {
+			return 999
+		},
+		ar: function(a, b) {
+			if (this.r.meng > 0 && this.r.meng < 7) {
+				return !1
+			}
+			if (this.r.reiki <= 1 && this.r.meng == 0) {
+				return !1
+			}
+			return this.aS(a, b)
+		},
+		t: function(a, b, c, d) {
+			if (this.r.meng == 0) {
+				this.r.meng = 1
+				this.r.reiki = this.r.reiki - 1
+				d.a.push(T.e("[0] [ᗜ˰ᗜ#]", this.r, null, null, null, 1, 1000, 100))
+				this.f = 700
+				return 0
+			}
+			if (this.r.meng > 6) {
+				var u, t, s, r, q, p, o, n = H.a([], [T.aU])
+				this.r.meng = 0
+				this.f = 0
+				for (u = 0; u < a.length; ++u)
+					n.push(a[u].a)
+				t = "[0]使用[「梦想天生」]"
+				s = this.r
+				r = H.a(n.slice(0), [H.n(n, 0)])
+				q = d.a
+				q.push(T.e(t, s, null, null, r, 1, 1000, 100))
+				p = T.u(this.r, !0, c) * 7.2
+				for (u = 0; u < n.length; ++u) {
+					o = n[u]
+					if (o.fr > 0 && o.e != "reimu@!") {
+						q.push($.v())
 						o.bL(p, !0, this.r, T.a3(), c, d)
 					}
 				}
@@ -23405,6 +23465,9 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			u = new T.tha1s1()
+			u.f = 18
+			t.push(u)
 			u = new T.tha1n1()
 			f = new T.dF(1 / 0, u)
 			u.fr = f
@@ -25601,7 +25664,7 @@
 			}
 			if (o.A)
 				return
-			if (l == null || H.o(o.r1.h(0, "sealx"), "$iseal") != null) {
+			if (l == null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
 				u = (b.m() & 15) + 8
 				if (o.fy >= u) {
 					for (t = o.k3,
@@ -27823,7 +27886,7 @@
 		t(Z.hl, Z.ax)
 		s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
 		s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.targetready, T.reikirecover, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend, T.hellTaichiReflect, T.wargodSay])
-		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.thdf, T.tha1n1, T.tha1n2, T.tha1n3])
+		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.thdf, T.tha1n1, T.tha1n2, T.tha1n3, T.tha1s1])
 		s(T.M, [T.bf, T.co, T.dj, T.cG, T.seal, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade, T.ironbirdSimulateRun])
 		s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
 		s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])

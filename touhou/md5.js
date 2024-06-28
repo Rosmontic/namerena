@@ -25849,7 +25849,7 @@
 						if (o.meng > 0){
 							o.j = o.j + 1536
 						}
-						e.a.push(T.e("[0]：这是异变啊！", this.r, null, null, null, a, 1000, 100))
+						e.a.push(T.e("[0]：这是异变啊！", this, null, null, null, 1, 1000, 100))
 						return a
 					}		
 			}

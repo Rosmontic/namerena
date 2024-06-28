@@ -19396,17 +19396,10 @@
 			o = r.r
 			r.Q = !1
 			r.ch = null
-			b.a.push(T.e("[0]：E！", o, null, null, null, 0, 1000, 100))
 			switch (o.e) {
 			case "reimu@!":
 				if (o.yibian == 0) {
 					o.yibian = 1
-					o.j = o.j + 5120
-					o.go = o.go + 30
-					if (o.meng > 0){
-						o.j = o.j + 1536
-					}
-					b.a.push($.v())
 					b.a.push(T.e("[0]：这是异变啊！", o, null, null, null, 1, 1000, 100))
 				}
 			}

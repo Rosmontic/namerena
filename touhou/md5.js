@@ -23474,7 +23474,7 @@
 			u.f = 35
 			t.push(u)
 			u = new T.tha1n2()
-			u.f = 50
+			u.f = 0
 			t.push(u)
 			u = new T.tha1n3()
 			u.f = 80

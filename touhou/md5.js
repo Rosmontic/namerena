@@ -19516,7 +19516,7 @@
 			return 999
 		},
 		ar: function(a, b) {
-			if (this.r.meng > 0 && this.r.meng < 7) {
+			if (this.r.meng > 0 && this.r.meng < 8) {
 				return !1
 			}
 			if (this.r.reiki <= 1 && this.r.meng == 0) {
@@ -19532,7 +19532,7 @@
 				this.f = 700
 				return 0
 			}
-			if (this.r.meng > 6) {
+			if (this.r.meng > 7) {
 				var u, t, s, r, q, p, o, n = H.a([], [T.aU])
 				this.r.meng = 0
 				this.f = 0
@@ -23466,7 +23466,7 @@
 			this.k2 = t
 			t = this.id
 			u = new T.tha1s1()
-			u.f = 18
+			u.f = 0
 			t.push(u)
 			u = new T.tha1n1()
 			f = new T.dF(1 / 0, u)
@@ -23477,7 +23477,7 @@
 			u.f = 35
 			t.push(u)
 			u = new T.tha1n2()
-			u.f = 0
+			u.f = 50
 			t.push(u)
 			u = new T.tha1n3()
 			u.f = 80
@@ -25660,7 +25660,7 @@
 					}
 				}
 				o.reiki = o.reiki + t
-				//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
+				c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
 			}
 			if (o.A)
 				return

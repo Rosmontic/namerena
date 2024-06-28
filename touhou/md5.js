@@ -8553,14 +8553,6 @@
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
 			},
-			thay: function thay() {
-				var _ = this
-				_.Q = !1
-				_.cx = _.ch = null
-				_.e = !1
-				_.f = 0
-				_.c = _.b = _.a = _.r = null
-			},
 			tha1n1: function tha1n1() {
 				var _ = this
 				_.fy = _.fx = _.fr = null
@@ -13030,6 +13022,14 @@
 				_.c = _.b = _.a = _.r = null
 			},
 			bU: function bU() {
+				var _ = this
+				_.Q = !1
+				_.cx = _.ch = null
+				_.e = !1
+				_.f = 0
+				_.c = _.b = _.a = _.r = null
+			},
+			thay: function thay() {
 				var _ = this
 				_.Q = !1
 				_.cx = _.ch = null
@@ -19398,7 +19398,7 @@
 			r.ch = null
 			switch (o.e) {
 			case "reimu@!":
-				if (u && b.m() < 128 && o.yibian == 0) {
+				if (b.m() < 128 && o.yibian == 0) {
 					o.yibian = 1
 					o.j = o.j + 512
 					o.go = o.go + 0.1

@@ -19379,12 +19379,15 @@
 		},
 		ay: function(a, b, c, d) {
 			var u = this
+			d.a.push(T.e("[0]：A！", u.r, null, null, null, 0, 1000, 100))
 			if (u.ch === d) {
 				if (u.Q && b != u.cx)
 				{
+					d.a.push(T.e("[0]：B！", u.r, null, null, null, 0, 1000, 100))
 					u.cx = b
 				}					
 			} else {
+				d.a.push(T.e("[0]：C！", u.r, null, null, null, 0, 1000, 100))
 				u.ch = d
 				u.cx = b
 				u.Q = !0
@@ -19396,12 +19399,13 @@
 			o = r.r
 			r.Q = !1
 			r.ch = null
+			b.a.push(T.e("[0]：E！", o, null, null, null, 0, 1000, 100))
 			switch (o.e) {
 			case "reimu@!":
 				if (o.yibian == 0) {
 					o.yibian = 1
-					o.j = o.j + 512
-					o.go = o.go + 0.1
+					o.j = o.j + 5120
+					o.go = o.go + 30
 					if (o.meng > 0){
 						o.j = o.j + 1536
 					}

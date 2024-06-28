@@ -23463,7 +23463,7 @@
 			this.k2 = t
 			t = this.id
 			u = new T.tha1s1()
-			u.f = 15
+			u.f = 0
 			t.push(u)
 			u = new T.tha1n1()
 			f = new T.dF(1 / 0, u)

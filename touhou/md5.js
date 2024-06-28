@@ -19379,19 +19379,16 @@
 		},
 		ay: function(a, b, c, d) {
 			var u = this
-			d.a.push(T.e("[0]：A！", u.r, null, null, null, 0, 1000, 100))
 			if (u.ch === d) {
 				if (u.Q && b != u.cx)
 				{
-					d.a.push(T.e("[0]：B！", u.r, null, null, null, 0, 1000, 100))
 					u.cx = b
 				}					
 			} else {
-				d.a.push(T.e("[0]：C！", u.r, null, null, null, 0, 1000, 100))
 				u.ch = d
 				u.cx = b
 				u.Q = !0
-				d.b.push(u.gdgay())
+				d.b.push(u.gdg())
 			}
 		},
 		f_: function(a, b) {

@@ -23482,6 +23482,9 @@
 			u = new T.thaK()
 			u.f = 1
 			t.push(u)
+			u = new T.thdf()
+			u.f = 1
+			t.push(u)
 		}
 	}
 	T.marisa.prototype = {
@@ -25816,7 +25819,7 @@
 			return p.cn(a, u, b, d, e)
 		},
 		cn: function(a, b, c, d, e) {
-			var u, o
+			var u
 			for (u = this.y2,
 				u = new F.ar(u, u.b, [H.n(u, 0)]); u.p();)
 				u.b.ay(a, c, d, e)
@@ -25835,22 +25838,7 @@
 				}
 				this.bf(b, c, d, e)
 				return b
-			} else {
-				o = this
-				switch (o.e) {
-				case "reimu@!":
-					if (e.m() < 128 && o.yibian == 0) {
-						o.yibian = 1
-						o.j = o.j + 512
-						o.go = o.go + 0.1
-						if (o.meng > 0){
-							o.j = o.j + 1536
-						}
-						e.a.push(T.e("[0]：这是异变啊！", this, null, null, null, 1, 1000, 100))
-						return a
-					}		
-			}
-			}
+			} else
 				return a
 		},
 		cw: function() {

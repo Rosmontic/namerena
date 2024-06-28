@@ -19396,14 +19396,18 @@
 			o = r.r
 			r.Q = !1
 			r.ch = null
-			if(this.r.e == "reimu@!"){
+			switch (o.e) {
+			case "reimu@!":
 				if (o.yibian == 0) {
 					o.yibian = 1
-					b.a.push($.v())
-					b.a.push(T.e("[0]：这是异变啊！", o, null, null, null, 0, 1000, 100))
+					o.j = o.j + 512
+					o.go = o.go + 3
+					if (o.meng > 0){
+						o.j = o.j + 1536
+					}
+					b.a.push(T.e("[0]：这是异变啊！", o, null, null, null, 1, 1000, 100))
 				}
 			}
-			
 		},
 		$iA: 1
 	}
@@ -23522,9 +23526,6 @@
 			u.f = 100
 			t.push(u)
 			u = new T.thaK()
-			u.f = 1
-			t.push(u)
-			u = new T.thay()
 			u.f = 1
 			t.push(u)
 		}

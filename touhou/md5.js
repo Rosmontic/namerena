@@ -19330,7 +19330,7 @@
 						o.meng = o.meng + 1
 						return a
 					}
-			}
+			}	
 			return a
 		},
 		T: function() {
@@ -19351,7 +19351,7 @@
 						o.yibian = 1
 						o.j = o.j + 512
 						o.go = o.go + 0.1
-						if (o.meng > 0) {
+						if (o.meng > 0){
 							o.j = o.j + 1536
 						}
 						e.a.push(T.e("[0]：这是异变啊！", this.r, null, null, null, a, 1000, 100))
@@ -19387,7 +19387,7 @@
 				s = "[0]发动[梦符「二重结界」]",
 				r = u.r,
 				q = d.a
-			this.r.reiki = this.r.reiki - 3
+			this.r.reiki = this.r.reiki -3
 			q.push(T.e(s, r, r, t, t, 1, 1000, 100))
 			u.r.y1.i(0, u.fr)
 			u.r.x1.i(0, u.fx)
@@ -19489,7 +19489,7 @@
 			s = this.r
 			r = H.a(n.slice(0), [H.n(n, 0)])
 			q = d.a
-			this.r.reiki = this.r.reiki - 4
+			this.r.reiki = this.r.reiki -4
 			q.push(T.e(t, s, null, null, r, 1, 1000, 100))
 			p = T.u(this.r, !0, c) * 1.75
 			for (u = 0; u < n.length; ++u) {
@@ -21332,7 +21332,7 @@
 			var u, t, s, r, q = this,
 				p = q.x
 			if (p.fr > 0) {
-				u = 0.8 * q.y
+				u = 0.8*q.y
 				r = C.e.Z(u / (p.db + 64))
 				b.a.push(T.e("[1]: [烧伤]", q.r, p, null, null, 0, 1000, 100))
 				p.aA(r, q.r, T.a3(), a, b)
@@ -23466,8 +23466,28 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			u = new T.tha1s1()
+			u.f = 15
+			t.push(u)
+			u = new T.tha1n1()
+			f = new T.dF(1 / 0, u)
+			u.fr = f
+			u.fx = new T.ay(u)
+			u.fy = new T.aN(u)
+			f.r = 10
+			u.f = 35
+			t.push(u)
+			u = new T.tha1n2()
+			u.f = 50
+			t.push(u)
 			u = new T.tha1n3()
 			u.f = 80
+			t.push(u)
+			u = new T.thaK()
+			u.f = 1
+			t.push(u)
+			u = new T.thdf()
+			u.f = 1
 			t.push(u)
 		}
 	}
@@ -25641,7 +25661,7 @@
 					}
 				}
 				o.reiki = o.reiki + t
-				//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
+				c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
 			}
 			if (o.A)
 				return
@@ -25668,7 +25688,7 @@
 					r = n
 			} else
 				r = n
-			if (l == null)
+			if (l == null )
 				l = o.k2
 			l.t(r == null ? l.a9(0, m, b) : r, m, b, c)
 			if ((b.m() & 127) < o.dy + 64)
@@ -27874,7 +27894,7 @@
 		s(T.D, [T.cg, T.dF, T.el])
 		s(T.J, [T.dE, T.fire, T.ay])
 		s(T.av, [T.hh, T.hi, T.ho, T.wargod])
-		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.ironbird, T.yeya, T.reimu, T.marisa, T.rumia, T.daiyousei, T.cirno, T.hong, T.koakuma, T.patchouli, T.sakuya, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.suika, T.wriggle, T.mystia, T.keine, T.inaba, T.reisen, T.yagokoro, T.kaguya, T.mokou, T.aya, T.medicine, T.yuka, T.onozuka, T.shikieiki, T.aki, T.hina, T.nitori, T.momizi, T.sanae, T.kanako, T.suwako, T.iku, T.tenshi, T.kisume, T.yamame, T.parsee, T.yugi, T.satori, T.kaenbyou, T.utuho, T.koishi, T.nazrin, T.kogasa, T.ichirin, T.minamitu, T.minamitu, T.minamitu, T.nue, T.hatate, T.targeta])
+		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.ironbird, T.yeya, T.reimu , T.marisa , T.rumia , T.daiyousei , T.cirno , T.hong , T.koakuma , T.patchouli , T.sakuya , T.remilia , T.flandre , T.rin , T.letty , T.chen , T.alice , T.phantom , T.youmu , T.yuyuko , T.ran , T.yukari , T.suika , T.wriggle , T.mystia , T.keine , T.inaba , T.reisen , T.yagokoro , T.kaguya , T.mokou , T.aya , T.medicine , T.yuka , T.onozuka , T.shikieiki , T.aki , T.hina , T.nitori , T.momizi , T.sanae , T.kanako , T.suwako , T.iku , T.tenshi , T.kisume , T.yamame , T.parsee , T.yugi , T.satori , T.kaenbyou , T.utuho , T.koishi , T.nazrin , T.kogasa , T.ichirin , T.minamitu , T.minamitu , T.minamitu , T.nue , T.hatate, T.targeta])
 		t(T.hg, T.cy)
 		t(T.f3, T.bA)
 		t(T.e_, T.dN, T.yuriSuperControl)
@@ -28345,7 +28365,7 @@
 		$.or = function() {
 			var u = P.f
 			return P.dq(["tigershark", "R0lGODlhEAAQAJEAAP8AAP///wAAAP///yH5BAEAAAMALAAAAAAQABAAAAI9nCepeS0AIxQNyQuoeSBgn1lQAI5lEpGSOnHjKqEgS2dPOad2l3fmTgoKg8ChccczsigcJUgjwkwqiyq0AAA7", "hell", "R0lGODlhEAAQAJEAAHb9/wAAAP///wAAACH5BAEAAAIALAAAAAAQABAAAAIslB2px5IAY2ov2omC3QBrvgUOCFbk9Z1SqnasarbiW2awaJf4EUNY41D8DAUAOw==", "dark", "R0lGODlhEAAQALMAAPr6+wQEAf7+/QwKAhEQDf38+xEODP79/f////z8/Pn5+QAAAP///wAAAAAAAAAAACH5BAEAAAwALAAAAAAQABAAAARIkEm5qp2YjYW6rxn3Wd0yiYhVGUFJlWpFcCZKpncFo7io9x3ADecpqkYdwY5HRAgSMV4NUTgUryaGbeii+EgKEOZnzGa0sUwEADs=", "yurix", "R0lGODlhEAAQAKEDAAAAAN4H28asxv///yH5BAEKAAMALAAAAAAQABAAAAI+hI85EB3s4DNBiFcvs3NjvmlL9WkesEDnKI7fw8Lpi6roMJ42jh8NNeEJVb+bsFc0HIfB5ZFhdPIO0mf0WAAAOw==", "ironbird", "R0lGODlhEAAQAKIAAGfh/ywtLf8AAP///wAAAAAAAAAAAAAAACwAAAAAEAAQAAADOzhK3K6QATKpJVHeWbHm3xVWYOecKBMEgrCu7erA7hsHjZluQO//Pglw2BMSgblj0ENRMjLHJ2Swkw4SADs=",
-				"yeya",
+				"yeya", 
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAH9JREFUOE+tk10OwCAIg+VmenK4mUtdSKapP9vwEfGjVJCcc03kmJk8w7M8wYWqdohSCmMmlkcB9DUJotASIHJ3USvtMsUBUGXsD7GVAvepaWRGngDwUx3AK45+MQ+gIB4wVt550BT4hH02cWbgzkTcx80Bk38yzlMFr5fpzzpfC7V7BSjXHhMAAAAASUVORK5CYII=",
 				"reimu",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJNJREFUOE+1k0EOwCAIBOFn+HL5mc3GliBCk6bRgwcg45QCi8ig5Kgq+3BVx0io6oIQkYxJWZ0BxkhFUhCCzEx46ACAmaiycbnFAEq996mLIpwICfHW2izHhUZugOrrbzAA+FM7wFtEiLM6DMgsQk/M4Jkw64HXrhpKRNbEZxLTQXoBHBykcnjXxGYQNu/bMv1Z5wvj8YMF0QinpAAAAABJRU5ErkJggg==",

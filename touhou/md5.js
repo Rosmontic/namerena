@@ -23474,7 +23474,7 @@
 			u.fr = f
 			u.fx = new T.ay(u)
 			u.fy = new T.aN(u)
-			f.r = 10
+			f.r = 0
 			u.f = 35
 			t.push(u)
 			u = new T.tha1n2()
@@ -23503,6 +23503,9 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			u = new T.reikirecover()
+			u.f = 256
+			t.push(u)
 		}
 	}
 	T.rumia.prototype = {

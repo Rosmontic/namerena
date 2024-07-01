@@ -19370,11 +19370,7 @@
 			return 4000
 		},
 		ar: function(a, b) {
-			if (this.fr.a != null)
-				return !1
-			if (this.r.meng != 0)
-				return !1
-			if (this.r.reiki <= 3)
+			if (this.fr.a != null || this.r.meng != 0 || this.r.reiki <= 3)
 				return !1
 			return this.aS(a, b)
 		},
@@ -23474,7 +23470,7 @@
 			u.fr = f
 			u.fx = new T.ay(u)
 			u.fy = new T.aN(u)
-			f.r = 0
+			f.r = 10
 			u.f = 35
 			t.push(u)
 			u = new T.tha1n2()
@@ -23483,13 +23479,7 @@
 			u = new T.tha1n3()
 			u.f = 80
 			t.push(u)
-			u = new T.reikirecover()
-			u.f = 256
-			t.push(u)
 			u = new T.thaK()
-			u.f = 1
-			t.push(u)
-			u = new T.thdf()
 			u.f = 1
 			t.push(u)
 		}
@@ -23503,9 +23493,6 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
-			u = new T.reikirecover()
-			u.f = 256
-			t.push(u)
 		}
 	}
 	T.rumia.prototype = {
@@ -25654,7 +25641,21 @@
 				n = null,
 				m = (b.m() & 63) < o.dy,
 				l = o.fe(m, b, c)
-			
+			if (o.reiki != null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
+				t = (b.m() & 1) + o.reikimp
+				if (t < 0) {
+					t = 0
+				}
+				if (o.reiki + t > o.reikimax) {
+					if (o.reiki > o.reikimax) {
+						t = 0
+					} else {
+						t = o.reikimax - o.reiki
+					}
+				}
+				o.reiki = o.reiki + t
+				c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
+			}
 			if (o.A)
 				return
 			if (l == null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
@@ -25815,7 +25816,7 @@
 			return p.cn(a, u, b, d, e)
 		},
 		cn: function(a, b, c, d, e) {
-			var u
+			var u, o
 			for (u = this.y2,
 				u = new F.ar(u, u.b, [H.n(u, 0)]); u.p();)
 				u.b.ay(a, c, d, e)
@@ -25834,7 +25835,22 @@
 				}
 				this.bf(b, c, d, e)
 				return b
-			} else
+			} else {
+				o = this
+				switch (o.e) {
+				case "reimu@!":
+					if (e.m() < 128 && o.yibian == 0) {
+						o.yibian = 1
+						o.j = o.j + 512
+						o.go = o.go + 0.1
+						if (o.meng > 0){
+							o.j = o.j + 1536
+						}
+						e.a.push(T.e("[0]：这是异变啊！", this, null, null, null, 1, 1000, 100))
+						return a
+					}		
+			}
+			}
 				return a
 		},
 		cw: function() {
@@ -26884,7 +26900,7 @@
 	T.reikirecover.prototype = {
 		aK: function(a, b, c, d) {
 			var u, t, s, r = this
-			if (r.r.reiki != null && H.o(r.r.r1.h(0, "sealx"), "$iseal") == null) {
+			if (r.r.reiki != null) {
 				t = (c.m() & 1) + r.r.reikimp
 				if (t < 0) {
 					t = 0
@@ -26897,7 +26913,6 @@
 					}
 				}
 				r.r.reiki = r.r.reiki + t
-				return a
 				//d.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", r.r, t, r.r.reiki, null, 0, 1000, 100))
 			}
 			return a

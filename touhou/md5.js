@@ -26894,6 +26894,7 @@
 					}
 				}
 				r.r.reiki = r.r.reiki + t
+				return a
 				//d.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", r.r, t, r.r.reiki, null, 0, 1000, 100))
 			}
 			return a

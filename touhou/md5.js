@@ -23483,6 +23483,9 @@
 			u = new T.tha1n3()
 			u.f = 80
 			t.push(u)
+			u = new T.reikirecover()
+			u.f = 256
+			t.push(u)
 			u = new T.thaK()
 			u.f = 1
 			t.push(u)
@@ -25648,21 +25651,7 @@
 				n = null,
 				m = (b.m() & 63) < o.dy,
 				l = o.fe(m, b, c)
-			if (o.reiki != null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
-				t = (b.m() & 1) + o.reikimp
-				if (t < 0) {
-					t = 0
-				}
-				if (o.reiki + t > o.reikimax) {
-					if (o.reiki > o.reikimax) {
-						t = 0
-					} else {
-						t = o.reikimax - o.reiki
-					}
-				}
-				o.reiki = o.reiki + t
-				//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
-			}
+			
 			if (o.A)
 				return
 			if (l == null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
@@ -26892,7 +26881,7 @@
 	T.reikirecover.prototype = {
 		aK: function(a, b, c, d) {
 			var u, t, s, r = this
-			if (r.r.reiki != null) {
+			if (r.r.reiki != null && H.o(r.r.r1.h(0, "sealx"), "$iseal") == null) {
 				t = (c.m() & 1) + r.r.reikimp
 				if (t < 0) {
 					t = 0

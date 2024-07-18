@@ -21982,6 +21982,7 @@
 			} else
 				t.fr += 4
 			o.push(T.e(C.c.K(O.c("rWdW"), $.l7()), r.r, p, q, q, 0, 1000, 100))
+			o.push(T.e("[0]的附身等级：[1]", r.r, this.f, q, q, 0, 1000, 100))
 			o = r.r
 			s = o.fr
 			o.fr = 0
@@ -24027,7 +24028,7 @@
 			return C.reimu
 		},
 		aa: function() {
-			var u, t = new T.aK()
+			var u, t = new T.i7()
 			t.r = this
 			this.k2 = t
 			t = this.id

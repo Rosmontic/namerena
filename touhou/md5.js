@@ -21986,7 +21986,9 @@
 			o.push($.v())
 			o.push(T.e("[0]的附身等级：[1]", r.r, this.f, q, q, 0, 1000, 100))
 			o.push($.v())
-
+			o.push(T.e("[0]的属性：[1],[2],[3]", r.r, r.r.u[0], r.r.u[1], r.r.u[2], 0, 1000, 100))
+			o.push(T.e("[0],[1],[2],[3]", r.r.u[3], r.r.u[4], r.r.u[5], r.r.u[6], 0, 1000, 100))
+			o.push(T.e("[0]", r.r.u[7], r.r.u[7], r.r.u[7], r.r.u[7], 0, 1000, 100))
 			o.push($.v())
 			o.push(T.e("[0]的召唤者：[1]", r.r, r.r.af.r, q, q, 0, 1000, 100))
 			for(n = 0; n < r.r.af.r.id.length; n++){
@@ -22299,6 +22301,7 @@
 				d.j = 2048
 			else
 				d.j = -2048
+			d.dy = 1024
 			c.r.x.aU(d)
 			u.push(T.e(O.c("cPiZ"), c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 		}

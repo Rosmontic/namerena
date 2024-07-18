@@ -21985,10 +21985,12 @@
 			o.push(T.e(C.c.K(O.c("rWdW"), $.l7()), r.r, p, q, q, 0, 1000, 100))
 			o.push($.v())
 			o.push(T.e("[0]的附身等级：[1]", r.r, this.f, q, q, 0, 1000, 100))
+			o.push($.v())
 			o.push(T.e("[0]的召唤者：[1]", r.r, r.r.af.r, q, q, 0, 1000, 100))	
 			for(n = 0; n < r.r.af.r.id.length; n++){
 				m = m + r.r.af.r.id[n].f
-				o.push(T.e("[0]的${n+1}技能等级[1]", r.r.af.r, r.r.af.r.id[n].f, q, q, 0, 1000, 100))
+				o.push($.v())
+				o.push(T.e("[0]的[2]技能等级[1]", r.r.af.r, r.r.af.r.id[n].f, n+1, q, 0, 1000, 100))
 			}
 			o.push($.v())
 			o.push(T.e("[0]召唤者的技能等级之和：[1]", r.r, m, q, q, 0, 1000, 100))

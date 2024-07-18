@@ -21986,7 +21986,9 @@
 			o.push($.v())
 			o.push(T.e("[0]的附身等级：[1]", r.r, this.f, q, q, 0, 1000, 100))
 			o.push($.v())
-			o.push(T.e("[0]的召唤者：[1]", r.r, r.r.af.r, q, q, 0, 1000, 100))	
+
+			o.push($.v())
+			o.push(T.e("[0]的召唤者：[1]", r.r, r.r.af.r, q, q, 0, 1000, 100))
 			for(n = 0; n < r.r.af.r.id.length; n++){
 				m = m + r.r.af.r.id[n].f
 				o.push($.v())
@@ -24039,10 +24041,14 @@
 			return C.reimu
 		},
 		aa: function() {
-			var u, t = new T.i7()
+			var u, t = new T.aK()
 			t.r = this
 			this.k2 = t
 			t = this.id
+			u = new T.ig()
+			u.f = 10
+			t.push(u)
+
 		}
 	}
 	T.marisa.prototype = {
@@ -24054,6 +24060,9 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			u = new T.ig()
+			u.f = 30
+			t.push(u)
 		}
 	}
 	T.rumia.prototype = {
@@ -24065,6 +24074,9 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			u = new T.ig()
+			u.f = 50
+			t.push(u)
 		}
 	}
 	T.daiyousei.prototype = {
@@ -24076,6 +24088,9 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			u = new T.ig()
+			u.f = 70
+			t.push(u)
 		}
 	}
 	T.cirno.prototype = {
@@ -24087,6 +24102,12 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			u = new T.ig()
+			u.f = 90
+			t.push(u)
+			u = new T.dT()
+			u.f = 900
+			t.push(u)
 		}
 	}
 	T.hong.prototype = {

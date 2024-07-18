@@ -21960,10 +21960,11 @@
 			this.f = C.b.v(b, 2) + 36
 		},
 		t: function(a, b, c, d) {
-			var u, t, s, r = this,
+			var n ,u, t, s, r = this,
 				q = null,
 				p = a[0].a,
 				o = d.a
+				m = 0
 			o.push(T.e(O.c("vDpa"), r.r, p, q, q, 0, 1000, 100))
 			if (!p.a6($.am(), c))
 				u = p.fr > 0 && !p.A && T.bd(r.r.db, p.dx, c)
@@ -21982,7 +21983,13 @@
 			} else
 				t.fr += 4
 			o.push(T.e(C.c.K(O.c("rWdW"), $.l7()), r.r, p, q, q, 0, 1000, 100))
-			o.push(T.e("[0]的附身等级：[1]", r.r, this.f, q, q, 0, 1000, 100))
+			o.push($.v())
+			o.push(T.e("[0]的附身等级：[1]", r.r, this.f, q, q, 0, 1000, 100))	
+			for(n = 0; n < r.r.af.id.length; n++){
+				m = m + r.r.af.id[n].f
+			}
+			o.push($.v())
+			o.push(T.e("[0]召唤者的技能等级之和：[1]", r.r, m, q, q, 0, 1000, 100))
 			o = r.r
 			s = o.fr
 			o.fr = 0

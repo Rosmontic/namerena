@@ -21955,10 +21955,6 @@
 		}
 	}
 	T.i7.prototype = {
-		ai: function(a, b) {
-			this.r = a
-			this.f = C.b.v(b, 2) + 36
-		},
 		t: function(a, b, c, d) {
 			var n ,u, t, s, r = this,
 				q = null,
@@ -21985,24 +21981,6 @@
 			o.push(T.e(C.c.K(O.c("rWdW"), $.l7()), r.r, p, q, q, 0, 1000, 100))
 			o.push($.v())
 			o.push(T.e("[0]的附身等级：[1]", r.r, this.f, q, q, 0, 1000, 100))
-			o.push($.v())
-			o.push(T.e("[0]的攻击：[1]", r.r, r.r.u[0], q, q, 0, 1000, 100))
-			o.push(T.e("防御：[1]", r.r, r.r.u[1], q, q, 0, 1000, 100))
-			o.push(T.e("速度：[1]", r.r, r.r.u[2], q, q, 0, 1000, 100))
-			o.push(T.e("敏捷：[1]", r.r, r.r.u[3], q, q, 0, 1000, 100))
-			o.push(T.e("法力：[1]", r.r, r.r.u[4], q, q, 0, 1000, 100))
-			o.push(T.e("法抗：[1]", r.r, r.r.u[5], q, q, 0, 1000, 100))
-			o.push(T.e("智力：[1]", r.r, r.r.u[6], q, q, 0, 1000, 100))
-			o.push(T.e("生命：[1]", r.r, r.r.u[7], q, q, 0, 1000, 100))
-			o.push($.v())
-			o.push(T.e("[0]的召唤者：[1]", r.r, r.r.af.r, q, q, 0, 1000, 100))
-			for(n = 0; n < r.r.af.r.id.length; n++){
-				m = m + r.r.af.r.id[n].f
-				o.push($.v())
-				o.push(T.e("[0]的[2]技能等级[1]", r.r.af.r, r.r.af.r.id[n].f, n+1, q, 0, 1000, 100))
-			}
-			o.push($.v())
-			o.push(T.e("[0]召唤者的技能等级之和：[1]", r.r, m, q, q, 0, 1000, 100))
 			o = r.r
 			s = o.fr
 			o.fr = 0
@@ -22302,16 +22280,6 @@
 			d.x = s.x
 			s.I.i(0, d.a5)
 			d.av()
-			d.fx = 1400
-			d.fr = 1400
-			d.Q = 1000
-			d.ch = 900
-			d.cx = 1300
-			d.cy = 1200
-			d.db = 700
-			d.dx = 700
-			d.dy = 1000
-			d.j = 2048
 			if (c.r.r1.G(0, $.X()))
 				d.j = 2048
 			else
@@ -26049,65 +26017,7 @@
 			s.r = this
 			this.k2 = s
 			s = this.id
-			s.push(new T.bV())
-			s.push(new T.dT())
-			s.push(new T.il())
-			s.push(new T.i8())
-			s.push(new T.dL())
-			s.push(new T.i6())
-			s.push(new T.dW())
-			s.push(new T.dP())
-			s.push(new T.dR())
-			s.push(new T.hV())
-			s.push(new T.hL())
-			s.push(new T.dN())
-			s.push(new T.hX())
-			s.push(new T.ij())
-			s.push(new T.hS())
-			s.push(new T.dS())
-			s.push(new T.ia())
-			s.push(new T.hU())
-			u = new T.i1()
-			t = new T.dF(1 / 0, u)
-			u.fr = t
-			u.fx = new T.ay(u)
-			u.fy = new T.aN(u)
-			t.r = 10
-			s.push(u)
-			u = new T.hM()
-			u.fr = new T.aN(u)
-			u.fx = new T.ay(u)
-			s.push(u)
-			u = new T.hI(1.7)
-			u.fr = new T.aN(u)
-			s.push(u)
-			u = new T.hK()
-			u.fr = new T.bP(u)
-			u.fx = new T.cB(u)
-			s.push(u)
-			s.push(new T.ik())
-			s.push(new T.dO())
-			s.push(new T.ig())
-			s.push(new T.dQ())
-			s.push(new T.dV())
-			s.push(new T.dX())
-			s.push(new T.i9())
-			s.push(new T.ih())
-			s.push(new T.bU())
-			s.push(new T.i5())
-			s.push(new T.io())
-			u = new T.im()
-			u.Q = new T.aN(u)
-			s.push(u)
-			u = new T.hZ()
-			u.ch = new T.aN(u)
-			u.Q = new T.bP(u)
-			s.push(u)
-			s.push(new T.bn())
-			s.push(new T.bn())
-			s.push(new T.bn())
-			s.push(new T.bn())
-			s.push(new T.bn())
+			s.push(new T.i7())
 		},
 		dd: function(a, b) {
 			var u, t, s, r, q, p = this,

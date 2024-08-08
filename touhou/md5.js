@@ -12931,9 +12931,6 @@
 				_.resist = 0
 				_.targettime = 0
 				_.targetdamage = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -21955,6 +21952,10 @@
 		}
 	}
 	T.i7.prototype = {
+		ai: function(a, b) {
+			this.r = a
+			this.f = C.b.v(b, 2) + 36
+		},
 		t: function(a, b, c, d) {
 			var n ,u, t, s, r = this,
 				q = null,
@@ -24048,9 +24049,6 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
-			u = new T.ig()
-			u.f = 100
-			t.push(u)
 
 		}
 	}
@@ -26227,20 +26225,20 @@
 				n = null,
 				m = (b.m() & 63) < o.dy,
 				l = o.fe(m, b, c)
-			if (o.r.reiki != null) {
-				t = (b.m() & 1) + o.r.reikimp
+			if (o.reiki != null) {
+				t = (b.m() & 1) + o.reikimp
 				if (t < 0) {
 					t = 0
 				}
-				if (o.r.reiki + t > o.r.reikimax) {
-					if (o.r.reiki > o.r.reikimax) {
+				if (o.reiki + t > o.reikimax) {
+					if (o.reiki > o.reikimax) {
 						t = 0
 					} else {
-						t = o.r.reikimax - o.r.reiki
+						t = o.reikimax - o.reiki
 					}
 				}
-				o.r.reiki = o.r.reiki + t
-				//d.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", r.r, t, r.r.reiki, null, 0, 1000, 100))
+				o.reiki = o.reiki + t
+				/*d.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", r.r, t, r.r.reiki, null, 0, 1000, 100))*/
 			}
 			if (o.A)
 				return

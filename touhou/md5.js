@@ -19925,53 +19925,32 @@
 		}
 	}
 	T.milkyholmes.prototype = {
-		b5: function(a) {
-			return a.b1(this.r.x.a.e)
-		},
-		a8: function(a, b, c) {
-			return c.gbh() * a.J
-		},
 		gb3: function() {
-			return 999
+			return 3
 		},
 		gb4: function() {
-			return 999
-		},
-		ar: function(a, b) {
-			if (this.r.milky != 0) {
-				return !1
-			}
-			return this.aS(a, b)
+			return 3
 		},
 		t: function(a, b, c, d) {
-			var m, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+			var u, t, s, r, q, p, o, n = H.a([], [T.aU])
 			for (u = 0; u < a.length; ++u)
 				n.push(a[u].a)
-			t = "[0]：[milkyholmes，集结]"
+			t = "[0]使用[bbbb]"
 			s = this.r
 			r = H.a(n.slice(0), [H.n(n, 0)])
 			q = d.a
-			this.r.milky = 1
 			q.push(T.e(t, s, null, null, r, 1, 1000, 100))
-			for (m = 0 ;u = 0; u < n.length; ++u) {
+			p = T.u(this.r, !0, c) * 1
+			for (u = 0; u < n.length; ++u) {
 				o = n[u]
-				if (o.fr > 0 && o.milky != null) {
-					this.r.holmes[m] = o
-					++m			
+				if (o.fr > 0) {
+					q.push($.v())
+					o.a0(p, !0, this.r, T.a3(), c, d)				
 				}
 			}
-			if (holmes.length > 0){
-				for (m = 0 ;u = 0; u < holmes.length; ++u) {
-					o = holmes[u]
-					o.milky = 1
-					o.holmes = this.r.holmes
-					o.holmes[u] = this.r
-					q.push(T.e(t, s, null, null, r, 0, 1000, 100))
-				}
-			}	
-			this.r.j = this.r.j + 2024
 		}
 	}
+
 
 	T.dL.prototype = {
 		ar: function(a, b) {
@@ -24569,6 +24548,7 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			
 			u = new T.milkyholmes()
 			u.f = 1024
 			t.push(u)

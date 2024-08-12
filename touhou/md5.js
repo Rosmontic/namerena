@@ -9787,8 +9787,8 @@
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
 				_.go = 1
 				_.id = e
-				_.resist = 256
-				_.relief = 0.99
+				_.resist = 100
+				_.relief = 100
 				_.round = 0
 				_.reiki = 0
 				_.reikimp = 2
@@ -9832,7 +9832,7 @@
 				_.go = 1
 				_.id = e
 				_.resist = 100
-				_.relief = 0.2
+				_.relief = 20
 				_.reiki = 0
 				_.reikimp = 2
 				_.reikimax = 8
@@ -12413,6 +12413,7 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
+				_.milky = 0
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12453,6 +12454,7 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
+				_.milky = 0
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12491,8 +12493,9 @@
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
 				_.go = 1
 				_.id = e
-				_.resist = 0
+				_.resist = 30
 				_.relief = 0
+				_.milky = 0
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12531,8 +12534,9 @@
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
 				_.go = 1
 				_.id = e
-				_.resist = 0
-				_.relief = 0
+				_.resist = 15
+				_.relief = 15
+				_.milky = 0
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -23424,7 +23428,7 @@
 		},
 		a6: function(a, b) {
 			if (this.resist != null)
-				return b.m() < this.resist
+				return b.m() < C.d.Z(this.resist * 2.56)
 			if (C.a.w(this.gaQ(), a))
 				return b.m() < 240
 			if (C.a.w(this.gaB(), a))
@@ -26178,10 +26182,10 @@
 		aA: function(a, b, c, d, e) {
 			var u, t, s, r, q, p = this
 			if (p.relief != null) {
-				if (p.relief > 0.99) {
+				if (p.relief > 99) {
 					a = C.d.Z(a * 0.01)
 				} else {
-					a = C.d.Z(a * (1 - p.relief))
+					a = C.e.Z(a * (100 - p.relief) / 100)
 				}
 			}
 			if (a < 0) {

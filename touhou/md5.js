@@ -12413,6 +12413,7 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
+				_.dodge = 10
 				_.milky = 0
 				_.k2 = _.k1 = null
 				_.k3 = f
@@ -12454,6 +12455,7 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
+				_.dodge = 10
 				_.milky = 0
 				_.k2 = _.k1 = null
 				_.k3 = f
@@ -12495,6 +12497,7 @@
 				_.id = e
 				_.resist = 30
 				_.relief = 0
+				_.dodge = 95
 				_.milky = 0
 				_.k2 = _.k1 = null
 				_.k3 = f
@@ -12536,6 +12539,7 @@
 				_.id = e
 				_.resist = 15
 				_.relief = 15
+				_.dodge = 10
 				_.milky = 0
 				_.k2 = _.k1 = null
 				_.k3 = f
@@ -26158,7 +26162,7 @@
 			return a
 		},
 		a0: function(a, b, c, d, e, f) {
-			var u, t, s, r = this
+			var n, u, t, s, r = this
 			a = r.dj(a, b, c, d, e, f)
 			if (a === 0)
 				return 0
@@ -26169,6 +26173,10 @@
 			} else {
 				t = r.ch + u
 				s = c.Q + c.cy
+			}
+			if (r.dodge != null && C.d.Z(r.dodge * 2.56) > e.m()){
+				f.a.push(T.e(O.c("vVob"), r, c, null, null, 20, 1000, 100))
+				return 0
 			}
 			if (r.fr > 0 && !r.A && T.bd(s, t, e)) {
 				f.a.push(T.e(O.c("vVob"), r, c, null, null, 20, 1000, 100))

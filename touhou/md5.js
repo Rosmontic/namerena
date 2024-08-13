@@ -19990,13 +19990,12 @@
 		aK: function(a, b, c, d) {
 			var w, n, m, u, t, s, r = this
 			n = c.m()
-			m = c.m()
 			w = 0
 			d.a.push(T.e("[0]:啊咧", this.r, this.r, null, null, 0, 1000, 100))
 			if (r.f > 0) {
-				if (m < 2 && this.r.toys == 1){
+				d.a.push(T.e("[0]:[1]", this.r, n, null, null, 0, 1000, 100))
+				if (n < 2 && this.r.toys == 1 && w == 0){
 					w = 1
-					d.a.push(T.e("[0]:A", this.r, this.r, null, null, 0, 1000, 100))
 					if (this.r.holmes.length > 0){
 						for(u = 0; u < this.r.holmes.length; u++){
 							if (this.r.holmes[u].toys == 1){
@@ -20009,7 +20008,6 @@
 					d.a.push($.v())
 				}
 				if (n > 6 && this.r.toys == 0 && w == 0){
-					d.a.push(T.e("[0]:B", this.r, this.r, null, null, 0, 1000, 100))
 					if (this.r.holmes.length > 0){
 						for(u = 0; u < this.r.holmes.length; u++){
 							if (this.r.holmes[u].toys == 0){

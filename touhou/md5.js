@@ -19979,7 +19979,10 @@
 					for (w = 0; w < o.holmes.length; ++w) {
 						d.a.push(T.e("[0]1", o.holmes[w], this.r, null, null, 0, 1000, 100))
 					}
-					o.holmes[u] = this.r
+					if(o.holmes[u] == o)
+					{
+						o.holmes[u] = this.r
+					}	
 					for (w = 0; w < o.holmes.length; ++w) {
 						d.a.push(T.e("[0]2", o.holmes[w], this.r, null, null, 0, 1000, 100))
 					}

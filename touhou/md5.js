@@ -19996,14 +19996,14 @@
 			if(n < 225 && this.r.toys == 0)
 			{
 				d.a.push(T.e("[0]:A", this.r, this.r, null, null, 0, 1000, 100))
+				d.a.push(T.e("[0]:[1]", this.r.fy, this.r.j, null, null, 0, 1000, 100))
 				return a
-				d.a.push(T.e("[0]:A1", this.r, this.r, null, null, 0, 1000, 100))
 			}
 			if(n > 31 && this.r.toys == 1)
 			{
 				d.a.push(T.e("[0]:B", this.r, this.r, null, null, 0, 1000, 100))
+				d.a.push(T.e("[0]:[1]", this.r.fy, this.r.j, null, null, 0, 1000, 100))
 				return a
-				d.a.push(T.e("[0]:B1", this.r, this.r, null, null, 0, 1000, 100))
 			}
 			if (n < 32 && this.r.toys == 1 && this.r.milky == 1){
 				w = 1
@@ -24624,7 +24624,7 @@
 			u.f = 1024
 			t.push(u)
 			u = new T.milkyready()
-			u.f = 10
+			u.f = 1024
 			t.push(u)
 
 		}

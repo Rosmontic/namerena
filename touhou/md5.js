@@ -19996,13 +19996,13 @@
 			if(n < 225 && this.r.toys == 0)
 			{
 				d.a.push(T.e("[0]:A", this.r, this.r, null, null, 0, 1000, 100))
-				d.a.push(T.e("[0]:[1]", this.r.fy, this.r.j, null, null, 0, 1000, 100))
+				d.a.push(T.e("[0]:[1]", this.r, a, null, null, 0, 1000, 100))
 				return a
 			}
 			if(n > 31 && this.r.toys == 1)
 			{
 				d.a.push(T.e("[0]:B", this.r, this.r, null, null, 0, 1000, 100))
-				d.a.push(T.e("[0]:[1]", this.r.fy, this.r.j, null, null, 0, 1000, 100))
+				d.a.push(T.e("[0]:[1]", this.r, a, null, null, 0, 1000, 100))
 				return a
 			}
 			if (n < 32 && this.r.toys == 1 && this.r.milky == 1){
@@ -26201,6 +26201,21 @@
 				n = null,
 				m = (b.m() & 63) < o.dy,
 				l = o.fe(m, b, c)
+			if (o.reiki != null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
+				t = (b.m() & 1) + o.reikimp
+				if (t < 0) {
+					t = 0
+				}
+				if (o.reiki + t > o.reikimax) {
+					if (o.reiki > o.reikimax) {
+						t = 0
+					} else {
+						t = o.reikimax - o.reiki
+					}
+				}
+				o.reiki = o.reiki + t
+				//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
+			}
 			if (o.A)
 				return
 			if (l == null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {

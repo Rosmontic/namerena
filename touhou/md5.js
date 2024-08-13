@@ -19980,7 +19980,20 @@
 					q.push($.v())
 					q.push(T.e(t, o, null, null, r, 0, 1000, 100))
 				}
-			}	
+			}
+			for (u = 0; u < this.r.holmes.length; ++u) {
+				d.a.push(T.e("[0]", this.r.holmes[u], this.r, null, null, 0, 1000, 100))
+			}
+			for (u = 0; u < this.r.holmes.length; ++u) {
+				d.a.push(T.e("[0]", this.r.holmes[0].holmes[u], this.r, null, null, 0, 1000, 100))
+			}
+			for (u = 0; u < this.r.holmes.length; ++u) {
+				d.a.push(T.e("[0]", this.r.holmes[1].holmes[u], this.r, null, null, 0, 1000, 100))
+			}
+			for (u = 0; u < this.r.holmes.length; ++u) {
+				d.a.push(T.e("[0]", this.r.holmes[2].holmes[u], this.r, null, null, 0, 1000, 100))
+			}
+
 			this.r.j = this.r.j + 2024
 		}
 	}
@@ -26206,7 +26219,7 @@
 					}
 				}
 				o.reiki = o.reiki + t
-				c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
+				//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
 			}
 			if (o.A)
 				return

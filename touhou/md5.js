@@ -19995,6 +19995,7 @@
 				if (m < 2 && this.r.toys == 1){
 					this.r.toys = 0
 					n = 0
+					d.a.push(T.e("[0]:啊咧", this.r, this.r, null, null, 0, 1000, 100))
 					if (this.r.holmes.length > 0){
 						for(u = 0; u < this.r.holmes.length; u++){
 							if (this.r.holmes[u].toys = 1){

@@ -19988,17 +19988,18 @@
 	}
 	T.milkyready.prototype = {
 		aK: function(a, b, c, d) {
-			var n, m, u, t, s, r = this
+			var w, n, m, u, t, s, r = this
 			n = c.m()
 			m = c.m()
+			w = 0
 			d.a.push(T.e("[0]:啊咧", this.r, this.r, null, null, 0, 1000, 100))
 			if (r.f > 0) {
 				if (m < 2 && this.r.toys == 1){
 					this.r.toys = 0
-					n = 0
+					w = 1
 					if (this.r.holmes.length > 0){
 						for(u = 0; u < this.r.holmes.length; u++){
-							if (this.r.holmes[u].toys = 1){
+							if (this.r.holmes[u].toys == 1){
 								this.r.holmes[u].toys = 0 
 								d.a.push(T.e("[0]", this.r.holmes[u], this.r, null, null, 0, 1000, 100))
 							}				
@@ -20007,12 +20008,12 @@
 					d.a.push(T.e("暂时失去了[toys]", this.r, this.r, null, null, 0, 1000, 100))
 					d.a.push($.v())
 				}
-				if (n > 6 && this.r.toys == 0){
+				if (n > 6 && this.r.toys == 0 && w == 0){
 					this.r.toys = 1
 					d.a.push(T.e("[0]", this.r, this.r, null, null, 0, 1000, 100))
 					if (this.r.holmes.length > 0){
 						for(u = 0; u < this.r.holmes.length; u++){
-							if (this.r.holmes[u].toys = 0){
+							if (this.r.holmes[u].toys == 0){
 								this.r.holmes[u].toys = 1
 								d.a.push(T.e("[0]", this.r.holmes[u], this.r, null, null, 0, 1000, 100))
 							}					

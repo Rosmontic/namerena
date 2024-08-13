@@ -19954,7 +19954,7 @@
 			return this.aS(a, b)
 		},
 		t: function(a, b, c, d) {
-			var w, m, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+			var m, u, t, s, r, q, p, o, n = H.a([], [T.aU])
 			for (u = 0; u < a.length; ++u)
 				n.push(a[u].a)
 			t = "[0]：[milkyholmes，集结]"
@@ -19966,7 +19966,7 @@
 			q.push(T.e(t, s, null, null, r, 0, 1000, 100))
 			for (u = 0; u < n.length; ++u) {
 				o = n[u]
-				if (o.fr > 0 && o.milky != null && o != this.r) {
+				if (o.fr > 0 && o.milky != null) {
 					this.r.holmes[m] = o
 					m = m + 1			
 				}
@@ -19974,35 +19974,16 @@
 			if (this.r.holmes.length > 0){
 				for (u = 0; u < this.r.holmes.length; ++u) {
 					o = this.r.holmes[u]
-					o.milky = 1
-					o.holmes = this.r.holmes
-					for (w = 0; w < o.holmes.length; ++w) {
-						d.a.push(T.e("[0]1", o.holmes[w], this.r, null, null, 0, 1000, 100))
-					}
-					if(o.holmes[u] == o)
-					{
+					if (o != this.r){
+						o.milky = 1
+						o.holmes = this.r.holmes
 						o.holmes[u] = this.r
-					}	
-					for (w = 0; w < o.holmes.length; ++w) {
-						d.a.push(T.e("[0]2", o.holmes[w], this.r, null, null, 0, 1000, 100))
+						q.push($.v())
+						q.push(T.e(t, o, null, null, r, 0, 1000, 100))
 					}
-					q.push($.v())
-					q.push(T.e(t, o, null, null, r, 0, 1000, 100))
+					
 				}
 			}
-			for (u = 0; u < this.r.holmes.length; ++u) {
-				d.a.push(T.e("[0]3", this.r.holmes[u], this.r, null, null, 0, 1000, 100))
-			}
-			for (u = 0; u < this.r.holmes.length; ++u) {
-				d.a.push(T.e("[0]4", this.r.holmes[0].holmes[u], this.r, null, null, 0, 1000, 100))
-			}
-			for (u = 0; u < this.r.holmes.length; ++u) {
-				d.a.push(T.e("[0]5", this.r.holmes[1].holmes[u], this.r, null, null, 0, 1000, 100))
-			}
-			for (u = 0; u < this.r.holmes.length; ++u) {
-				d.a.push(T.e("[0]6", this.r.holmes[2].holmes[u], this.r, null, null, 0, 1000, 100))
-			}
-
 			this.r.j = this.r.j + 2024
 		}
 	}
@@ -20017,7 +19998,6 @@
 				if (m < 2 && this.r.toys == 1){
 					this.r.toys = 0
 					n = 0
-					d.a.push(T.e("[0]", this.r, this.r, null, null, 0, 1000, 100))
 					if (this.r.holmes.length > 0){
 						for(u = 0; u < this.r.holmes.length; u++){
 							if (this.r.holmes[u].toys = 1){

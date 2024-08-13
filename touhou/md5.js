@@ -19992,11 +19992,16 @@
 			n = (c.m() & 8)
 			w = 0
 			d.a.push(T.e("[0]:啊咧", this.r, this.r, null, null, 0, 1000, 100))
-			d.a.push(T.e("[0]:[1]", this.r, n, null, null, 0, 1000, 100))
-			d.a.push(T.e("[0]:[1]", this.r.toys, n, null, null, 0, 1000, 100))
-			if (n < 2 && this.r.toys == 1 && w == 0){
+			if(n < 2)
+			{
+				d.a.push(T.e("[0]:A", this.r, this.r, null, null, 0, 1000, 100))
+			}
+			if(this.r.toys == 1)
+			{
+				d.a.push(T.e("[0]:B", this.r, this.r, null, null, 0, 1000, 100))
+			}
+			if (n < 2 && this.r.toys == 1 && this.r.milky == 1){
 				w = 1
-				d.a.push(T.e("[0]:[1]", this.r.toys, w, null, null, 0, 1000, 100))
 				if (this.r.holmes.length > 0){
 					for(u = 0; u < this.r.holmes.length; u++){
 						if (this.r.holmes[u].toys == 1){

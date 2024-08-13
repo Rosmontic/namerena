@@ -19953,22 +19953,21 @@
 			q = d.a
 			m = 0
 			this.r.milky = 1
-			q.push(T.e(t, s, null, null, r, 1, 1000, 100))
+			q.push(T.e(t, s, null, null, r, 0, 1000, 100))
 			for (u = 0; u < n.length; ++u) {
 				o = n[u]
-				if (o.fr > 0 && o.milky != null) {
+				if (o.fr > 0 && o.milky != null && o != this.r) {
 					this.r.holmes[m] = o
-					d.a.push(T.e("[0]: [1]", o, this.r.holmes[m], null, null, 0, 1000, 100))
 					m = m + 1			
 				}
 			}
-			q.push(T.e("[0]：[1]", s, this.r.holmes.length, null, null, r, 0, 1000, 100))
 			if (this.r.holmes.length > 0){
 				for (u = 0; u < this.r.holmes.length; ++u) {
 					o = this.r.holmes[u]
 					o.milky = 1
 					o.holmes = this.r.holmes
 					o.holmes[u] = this.r
+					q.push($.v())
 					q.push(T.e(t, o, null, null, r, 0, 1000, 100))
 				}
 			}	

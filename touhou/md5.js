@@ -19977,7 +19977,6 @@
 					if (o != this.r){
 						o.milky = 1
 						o.holmes = this.r.holmes
-						o.holmes[u] = this.r
 						q.push($.v())
 						q.push(T.e(t, o, null, null, r, 0, 1000, 100))
 					}
@@ -19992,9 +19991,7 @@
 			var n, m, u, t, s, r = this
 			n = c.m()
 			m = c.m()
-			d.a.push(T.e("[0]1", this.r, this.r, null, null, 0, 1000, 100))
 			if (r.f > 0) {
-				d.a.push(T.e("[0]2", this.r, this.r, null, null, 0, 1000, 100))
 				if (m < 2 && this.r.toys == 1){
 					this.r.toys = 0
 					n = 0

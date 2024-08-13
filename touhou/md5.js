@@ -19991,14 +19991,15 @@
 			m = c.m()
 			if (r.f > 0) {
 				if (m < 2 && this.r.toys == 1){
+					d.a.push(T.e("[0]:1", this.r, this.r, null, null, 0, 1000, 100))
 					this.r.toys = 0
 					n = 0
-					d.a.push(T.e("[0]", this.r, this.r, null, null, 0, 1000, 100))
+					d.a.push(T.e("[0]:1", this.r, this.r, null, null, 0, 1000, 100))
 					if (this.r.holmes.length > 0){
 						for(u = 0; u < this.r.holmes.length; u++){
 							if (this.r.holmes[u].toys = 1){
 								this.r.holmes[u].toys = 0 
-								d.a.push(T.e("[0]", this.r.holmes[u], this.r, null, null, 0, 1000, 100))
+								d.a.push(T.e("[0]:2", this.r.holmes[u], this.r, null, null, 0, 1000, 100))
 							}				
 						}
 					}

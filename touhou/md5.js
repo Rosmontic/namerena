@@ -19954,7 +19954,7 @@
 			return this.aS(a, b)
 		},
 		t: function(a, b, c, d) {
-			var m, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+			var w, m, u, t, s, r, q, p, o, n = H.a([], [T.aU])
 			for (u = 0; u < a.length; ++u)
 				n.push(a[u].a)
 			t = "[0]：[milkyholmes，集结]"
@@ -19976,22 +19976,28 @@
 					o = this.r.holmes[u]
 					o.milky = 1
 					o.holmes = this.r.holmes
+					for (w = 0; w < o.holmes.length; ++w) {
+						d.a.push(T.e("[0]1", o.holmes[w], this.r, null, null, 0, 1000, 100))
+					}
 					o.holmes[u] = this.r
+					for (w = 0; w < o.holmes.length; ++w) {
+						d.a.push(T.e("[0]2", o.holmes[w], this.r, null, null, 0, 1000, 100))
+					}
 					q.push($.v())
 					q.push(T.e(t, o, null, null, r, 0, 1000, 100))
 				}
 			}
 			for (u = 0; u < this.r.holmes.length; ++u) {
-				d.a.push(T.e("[0]", this.r.holmes[u], this.r, null, null, 0, 1000, 100))
+				d.a.push(T.e("[0]3", this.r.holmes[u], this.r, null, null, 0, 1000, 100))
 			}
 			for (u = 0; u < this.r.holmes.length; ++u) {
-				d.a.push(T.e("[0]", this.r.holmes[0].holmes[u], this.r, null, null, 0, 1000, 100))
+				d.a.push(T.e("[0]4", this.r.holmes[0].holmes[u], this.r, null, null, 0, 1000, 100))
 			}
 			for (u = 0; u < this.r.holmes.length; ++u) {
-				d.a.push(T.e("[0]", this.r.holmes[1].holmes[u], this.r, null, null, 0, 1000, 100))
+				d.a.push(T.e("[0]5", this.r.holmes[1].holmes[u], this.r, null, null, 0, 1000, 100))
 			}
 			for (u = 0; u < this.r.holmes.length; ++u) {
-				d.a.push(T.e("[0]", this.r.holmes[2].holmes[u], this.r, null, null, 0, 1000, 100))
+				d.a.push(T.e("[0]6", this.r.holmes[2].holmes[u], this.r, null, null, 0, 1000, 100))
 			}
 
 			this.r.j = this.r.j + 2024

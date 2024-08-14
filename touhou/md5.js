@@ -19993,10 +19993,11 @@
 	T.milkyready.prototype = {
 		aK: function(a, b, c, d) {
 			var u, t, s, r = this
-			u = c.m()
-			d.a.push(T.e("[0]1", this.r, this.r, null, null, 0, 1000, 100))
-			d.a.push(T.e("[0][1]", this.r.toys, u, null, null, 0, 1000, 100))
+			u = 0
+			d.a.push(T.e("[0]1", r.r, r.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0],[1]", r.r.toys, r, null, null, 0, 1000, 100))
 			return a
+			u = c.m()
 			if (u > this.r.lose && this.r.toys == 0){
 				this.r.lose = this.r.lose + 64
 				return a

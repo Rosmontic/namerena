@@ -12556,7 +12556,7 @@
 				_.y = _.x = _.r = _.f = _.e = null
 				_.z = 0
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
-				_.go = 4
+				_.go = 1
 				_.id = e
 				_.resist = 15
 				_.relief = 80
@@ -19995,6 +19995,8 @@
 			var u, t, s, r = this
 			u = c.m()
 			d.a.push(T.e("[0]1", this.r, this.r, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0][1]", this.r.toys, u, null, null, 0, 1000, 100))
+			return a
 			if (u > this.r.lose && this.r.toys == 0){
 				this.r.lose = this.r.lose + 64
 				return a
@@ -20009,7 +20011,6 @@
 			if (u < this.r.toys && this.r.toys > 0){
 				this.r.toys = 0
 				d.a.push(T.e("[0]：啊咧", this.r, this.r, null, null, 0, 1000, 100))
-				d.a.push(T.e("[0]", this.r, this.r, null, null, 0, 1000, 100))
 				if (this.r.holmes.length > 0){
 					for(t = 0; t < this.r.holmes.length; ++t){
 						this.r.holmes[t].toys = 0

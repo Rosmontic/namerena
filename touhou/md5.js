@@ -12429,6 +12429,7 @@
 				_.milky = 0
 				_.holmes = []
 				_.toys = 1
+				_.lose = 1
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12473,6 +12474,7 @@
 				_.milky = 0
 				_.holmes = []
 				_.toys = 1
+				_.lose = 1
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12517,6 +12519,7 @@
 				_.milky = 0
 				_.holmes = []
 				_.toys = 1
+				_.lose = 1
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12561,6 +12564,7 @@
 				_.milky = 0
 				_.holmes = []
 				_.toys = 1
+				_.lose = 1
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null

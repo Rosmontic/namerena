@@ -19993,31 +19993,18 @@
 	T.milkyready.prototype = {
 		aK: function(a, b, c, d) {
 			var u, t, s, r = this
-			u = 0
-			return a
-			u = c.m()
-			if (u > this.r.lose && this.r.toys == 0){
-				this.r.lose = this.r.lose + 64
-				return a
-			}
-			if (u < this.r.lose && this.r.toys == 0){
-				this.r.lose = 64
-				this.r.toys = 1
-				d.a.push(T.e("[0]恢复了[toys]", this.r, this.r, null, null, 0, 1000, 100))
-				d.a.push($.v())
-				return a
-			}
-			if (u < this.r.toys && this.r.toys > 0){
-				this.r.toys = 0
-				d.a.push(T.e("[0]：啊咧", this.r, this.r, null, null, 0, 1000, 100))
-				if (this.r.holmes.length > 0){
-					for(t = 0; t < this.r.holmes.length; ++t){
-						this.r.holmes[t].toys = 0
-						d.a.push(T.e("[0]", this.r.holmes[t], this.r, null, null, 0, 1000, 100))
-					}		
+			if (r.f > 0) {
+				u = H.o(r.r.r1.h(0, $.kl()), "$idK")
+				if (u == null) {
+					t = r.r
+					u = new T.dK(t)
+					t.r1.k(0, $.kl(), u)
+					r.r.y1.i(0, u)
 				}
-				d.a.push(T.e("暂时失去了[toys]", this.r, this.r, null, null, 0, 1000, 100))
-				d.a.push($.v())
+				t = r.f
+				s = u.x
+				if (t >= s)
+					u.x = s + (c.au(1 + C.b.v(t * 3, 4)) + 1)
 			}
 			return a
 		},
@@ -20025,7 +20012,7 @@
 			this.r.ry.i(0, this)
 		},
 		$iG: 1
-	}	
+	}
 	T.dL.prototype = {
 		ar: function(a, b) {
 			var u

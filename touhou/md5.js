@@ -19994,6 +19994,7 @@
 		aK: function(a, b, c, d) {
 			var u, t, s, r = this
 			u = c.m()
+			d.a.push(T.e("[0]1", this.r, this.r, null, null, 0, 1000, 100))
 			if (u > this.r.lose && this.r.toys == 0){
 				this.r.lose = this.r.lose + 64
 				return a
@@ -20012,7 +20013,7 @@
 				if (this.r.holmes.length > 0){
 					for(t = 0; t < this.r.holmes.length; ++t){
 						this.r.holmes[t].toys = 0
-						d.a.push(T.e("[0]", this.r, this.r, null, null, 0, 1000, 100))
+						d.a.push(T.e("[0]", this.r.holmes[t], this.r, null, null, 0, 1000, 100))
 					}		
 				}
 				d.a.push(T.e("暂时失去了[toys]", this.r, this.r, null, null, 0, 1000, 100))

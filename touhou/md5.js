@@ -19994,8 +19994,6 @@
 		aK: function(a, b, c, d) {
 			var u, t, s, r = this
 			u = 0
-			d.a.push(T.e("[0]1", r.r, r.r, null, null, 0, 1000, 100))
-			d.a.push(T.e("[0],[1]", r.r.toys, r, null, null, 0, 1000, 100))
 			return a
 			u = c.m()
 			if (u > this.r.lose && this.r.toys == 0){

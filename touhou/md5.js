@@ -12556,7 +12556,7 @@
 				_.y = _.x = _.r = _.f = _.e = null
 				_.z = 0
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
-				_.go = 1
+				_.go = 4
 				_.id = e
 				_.resist = 15
 				_.relief = 80
@@ -19993,18 +19993,30 @@
 	T.milkyready.prototype = {
 		aK: function(a, b, c, d) {
 			var u, t, s, r = this
-			if (r.f > 0) {
-				u = H.o(r.r.r1.h(0, $.kl()), "$idK")
-				if (u == null) {
-					t = r.r
-					u = new T.dK(t)
-					t.r1.k(0, $.kl(), u)
-					r.r.y1.i(0, u)
+			u = c.m()
+			d.a.push(T.e("[0]1", this.r, this.r, null, null, 0, 1000, 100))
+			if (u > this.r.lose && this.r.toys == 0){
+				this.r.lose = this.r.lose + 64
+				return a
+			}
+			if (u < this.r.lose && this.r.toys == 0){
+				this.r.lose = 64
+				this.r.toys = 1
+				d.a.push(T.e("[0]恢复了[toys]", this.r, this.r, null, null, 0, 1000, 100))
+				d.a.push($.v())
+				return a
+			}
+			if (u < this.r.toys && this.r.toys > 0){
+				this.r.toys = 0
+				d.a.push(T.e("[0]：啊咧", this.r, this.r, null, null, 0, 1000, 100))
+				if (this.r.holmes.length > 0){
+					for(t = 0; t < this.r.holmes.length; ++t){
+						this.r.holmes[t].toys = 0
+						d.a.push(T.e("[0]", this.r.holmes[t], this.r, null, null, 0, 1000, 100))
+					}		
 				}
-				t = r.f
-				s = u.x
-				if (t >= s)
-					u.x = s + (c.au(1 + C.b.v(t * 3, 4)) + 1)
+				d.a.push(T.e("暂时失去了[toys]", this.r, this.r, null, null, 0, 1000, 100))
+				d.a.push($.v())
 			}
 			return a
 		},
@@ -20012,7 +20024,7 @@
 			this.r.ry.i(0, this)
 		},
 		$iG: 1
-	}
+	}	
 	T.dL.prototype = {
 		ar: function(a, b) {
 			var u
@@ -26172,24 +26184,9 @@
 				n = null,
 				m = (b.m() & 63) < o.dy,
 				l = o.fe(m, b, c)
-			if (o.reiki != null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
-				t = (b.m() & 1) + o.reikimp
-				if (t < 0) {
-					t = 0
-				}
-				if (o.reiki + t > o.reikimax) {
-					if (o.reiki > o.reikimax) {
-						t = 0
-					} else {
-						t = o.reikimax - o.reiki
-					}
-				}
-				o.reiki = o.reiki + t
-				//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
-			}
 			if (o.A)
 				return
-			if (l == null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
+			if (l == null) {
 				u = (b.m() & 15) + 8
 				if (o.fy >= u) {
 					for (t = o.k3,
@@ -26212,7 +26209,7 @@
 					r = n
 			} else
 				r = n
-			if (l == null )
+			if (l == null)
 				l = o.k2
 			l.t(r == null ? l.a9(0, m, b) : r, m, b, c)
 			if ((b.m() & 127) < o.dy + 64)

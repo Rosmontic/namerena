@@ -26192,9 +26192,24 @@
 				n = null,
 				m = (b.m() & 63) < o.dy,
 				l = o.fe(m, b, c)
-			if (o.A)
-				return
-			if (l == null) {
+				if (o.reiki != null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
+					t = (b.m() & 1) + o.reikimp
+					if (t < 0) {
+						t = 0
+					}
+					if (o.reiki + t > o.reikimax) {
+						if (o.reiki > o.reikimax) {
+							t = 0
+						} else {
+							t = o.reikimax - o.reiki
+						}
+					}
+					o.reiki = o.reiki + t
+					//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
+				}
+				if (o.A)
+					return
+				if (l == null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
 				u = (b.m() & 15) + 8
 				if (o.fy >= u) {
 					for (t = o.k3,

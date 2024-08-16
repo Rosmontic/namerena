@@ -26669,7 +26669,7 @@
 	}
 	T.aK.prototype = {
 		t: function(a, b, c, d) {
-			var u, t, s, r, q = this,
+			var n, u, t, s, r, q = this,
 				p = null,
 				o = a[0].a
 			if (b) {
@@ -26692,6 +26692,10 @@
 			r = T.u(q.r, !1, c)
 			d.a.push(T.e(O.c("Ukql"), q.r, o, p, p, 0, 1000, 100))
 			o.a0(r, !1, q.r, T.mA(), c, d)
+			for (n = 0; n < this.r.id.length; ++n) {
+				d.a.push($.v())
+				d.a.push(T.e("[0]技能: [1]", n+1, this.r.id[n].f, null, null, 0, 1000, 100))
+			}
 		}
 	}
 	T.noaK.prototype = {

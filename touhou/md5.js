@@ -19994,20 +19994,18 @@
 		aK: function(a, b, c, d) {
 			var u, t, s, r = this
 			u = c.m()
-			d.a.push(T.e("[0]1", this.r, this.r, null, null, 0, 1000, 100))
-			if (this.r.toys < 0){
+			if (u > this.r.lose && this.r.toys == 0){
 				this.r.lose = this.r.lose + 64
-				d.a.push(T.e("[0]2", this.r, this.r, null, null, 0, 1000, 100))
 				return a
 			}
-			else if (this.r.toys == 0){
+			else if (u < this.r.lose && this.r.toys == 0){
 				this.r.lose = 64
 				this.r.toys = 1
 				d.a.push(T.e("[0]恢复了[toys]", this.r, this.r, null, null, 0, 1000, 100))
 				d.a.push($.v())
 				return a
 			}
-			else if (this.r.toys > 0){
+			else if (u < this.r.toys && this.r.toys > 0){
 				this.r.toys = 0
 				d.a.push(T.e("[0]：啊咧", this.r, this.r, null, null, 0, 1000, 100))
 				if (this.r.holmes.length > 0){
@@ -20020,7 +20018,6 @@
 				d.a.push($.v())
 			}
 			else{
-				d.a.push(T.e("[0]2", this.r, this.r, null, null, 0, 1000, 100))
 				return a
 			}
 			return a
@@ -24615,7 +24612,7 @@
 			u = new T.milkyholmes()
 			u.f = 1024
 			t.push(u)
-			u = new T.bV()
+			u = new T.dT()
 			u.f = 240
 			t.push(u)
 			
@@ -24634,7 +24631,7 @@
 			u = new T.milkyholmes()
 			u.f = 1024
 			t.push(u)
-			u = new T.bV()
+			u = new T.dT()
 			u.f = 240
 			t.push(u)
 
@@ -24653,7 +24650,7 @@
 			u = new T.milkyholmes()
 			u.f = 1024
 			t.push(u)
-			u = new T.bV()
+			u = new T.dT()
 			u.f = 240
 			t.push(u)
 		}
@@ -24671,7 +24668,7 @@
 			u = new T.milkyholmes()
 			u.f = 1024
 			t.push(u)
-			u = new T.bV()
+			u = new T.dT()
 			u.f = 240
 			t.push(u)
 		}

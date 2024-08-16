@@ -19995,18 +19995,19 @@
 			var u, t, s, r = this
 			u = c.m()
 			d.a.push(T.e("[0]1", this.r, this.r, null, null, 0, 1000, 100))
-			if (u > this.r.lose && this.r.toys == 0){
+			if (this.r.toys < 0){
 				this.r.lose = this.r.lose + 64
+				d.a.push(T.e("[0]2", this.r, this.r, null, null, 0, 1000, 100))
 				return a
 			}
-			if (u < this.r.lose && this.r.toys == 0){
+			else if (this.r.toys == 0){
 				this.r.lose = 64
 				this.r.toys = 1
 				d.a.push(T.e("[0]恢复了[toys]", this.r, this.r, null, null, 0, 1000, 100))
 				d.a.push($.v())
 				return a
 			}
-			if (u < this.r.toys && this.r.toys > 0){
+			else if (this.r.toys > 0){
 				this.r.toys = 0
 				d.a.push(T.e("[0]：啊咧", this.r, this.r, null, null, 0, 1000, 100))
 				if (this.r.holmes.length > 0){
@@ -20017,6 +20018,10 @@
 				}
 				d.a.push(T.e("暂时失去了[toys]", this.r, this.r, null, null, 0, 1000, 100))
 				d.a.push($.v())
+			}
+			else{
+				d.a.push(T.e("[0]2", this.r, this.r, null, null, 0, 1000, 100))
+				return a
 			}
 			return a
 		},
@@ -24606,12 +24611,14 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			t.push(new T.milkyready())
 			u = new T.milkyholmes()
 			u.f = 1024
 			t.push(u)
-			u = new T.milkyready()
-			u.f = 1
+			u = new T.bV()
+			u.f = 240
 			t.push(u)
+			
 		}
 	}
 	T.nero.prototype = {
@@ -24622,13 +24629,15 @@
 			var u, t = new T.aK()
 			t.r = this
 			this.k2 = t
-			t = this.id		
+			t = this.id	
+			t.push(new T.milkyready())
 			u = new T.milkyholmes()
 			u.f = 1024
 			t.push(u)
-			u = new T.milkyready()
-			u.f = 1
+			u = new T.bV()
+			u.f = 240
 			t.push(u)
+
 		}
 	}
 	T.gray.prototype = {
@@ -24640,11 +24649,12 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			t.push(new T.milkyready())
 			u = new T.milkyholmes()
 			u.f = 1024
 			t.push(u)
-			u = new T.milkyready()
-			u.f = 1
+			u = new T.bV()
+			u.f = 240
 			t.push(u)
 		}
 	}
@@ -24657,11 +24667,12 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			t.push(new T.milkyready())
 			u = new T.milkyholmes()
 			u.f = 1024
 			t.push(u)
-			u = new T.milkyready()
-			u.f = 1
+			u = new T.bV()
+			u.f = 240
 			t.push(u)
 		}
 	}

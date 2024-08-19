@@ -24643,8 +24643,8 @@
 		E: function() {
 			this.dL()
 			if (this.toys > 0){
-				this.dodge = this.dodge + 70
-				this.resist = this.resist + 90
+				this.dodge = this.dodge + 75
+				this.resist = this.resist + 80
 			}		
 		},
 		aa: function() {
@@ -24669,7 +24669,7 @@
 			this.dL()
 			if (this.toys > 0){
 				this.go = this.go * 4
-				this.relief = this.relief + 75
+				this.relief = this.relief + 70
 			}		
 		},
 		aa: function() {
@@ -26328,8 +26328,8 @@
 				t = r.ch + u
 				s = c.Q + c.cy
 			}
-			if (r.dodge != null && C.d.Z(r.dodge * 2.56) > e.m()){
-				f.a.push(T.e(O.c("vVob"), r, c, null, null, 20, 1000, 100))
+			if (r.dodge != null && C.d.Z((r.dodge > 95 ? 95 : r.dodge) * 2.56) > e.m()){
+					f.a.push(T.e(O.c("vVob"), r, c, null, null, 20, 1000, 100))
 				return 0
 			}
 			if (r.fr > 0 && !r.A && T.bd(s, t, e)) {
@@ -26344,7 +26344,7 @@
 		aA: function(a, b, c, d, e) {
 			var u, t, s, r, q, p = this
 			if (p.relief != null) {
-				if (p.relief > 99) {
+				if (p.relief >= 99) {
 					a = C.d.Z(a * 0.01)
 				} else {
 					a = C.e.Z(a * (100 - p.relief) / 100)

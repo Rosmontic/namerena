@@ -21496,7 +21496,7 @@
 			var u = a[0].a,
 				t = T.u(this.r, !0, c)
 			d.a.push(T.e(O.c("qctf"), this.r, u, null, null, 1, 1000, 100))
-			u.a0(t * 0.7, !0, this.r, T.kV(), c, d)
+			u.a0(t * 0.7, !0, this.r, T.a3(), c, d)
 			if (this.r.toys != null){
 				d.a.push($.v())
 				d.a.push(T.e("[0]:[1]", this.r.milky, this.r.toys, null, null, 0, 1000, 100))

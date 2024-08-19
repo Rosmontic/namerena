@@ -20002,18 +20002,16 @@
 			else if (u < this.r.lose && this.r.toys == 0){
 				this.r.lose = 64
 				this.r.toys = 1
-				d.a.push(T.e("[0]恢复了[toys]", this.r, this.r, null, null, 0, 1000, 100))
+				d.a.push(T.e("[0]恢复了[toys]", this.r, this.r, null, null, 1, 1000, 100))
 				d.a.push($.v())
 				return a
 			}
-			else if (u < 32 && this.r.toys > 0){
-				this.r.toys = 0
-				d.a.push(T.e("[0]：啊咧", this.r, this.r, null, null, 0, 1000, 100))
+			else if (this.r.milky != 0 && u < 32 && this.r.toys > 0){
+				d.a.push(T.e("[0]：啊咧", this.r, this.r, null, null, 1, 1000, 100))
 				if (this.r.holmes.length > 0){
 					for(t = 0; t < this.r.holmes.length; ++t){
 						this.r.holmes[t].toys = 0
 						d.a.push(T.e("[0]", this.r.holmes[t], this.r, null, null, 0, 1000, 100))
-
 					}
 				}
 				d.a.push(T.e("暂时失去了[toys]", this.r, this.r, null, null, 0, 1000, 100))
@@ -24645,7 +24643,11 @@
 			if (this.toys > 0){
 				this.dodge = this.dodge + 75
 				this.resist = this.resist + 80
-			}		
+			}
+			else{
+				this.dodge = 0
+				this.resist = 20
+			}
 		},
 		aa: function() {
 			var u, t = new T.aK()
@@ -24670,6 +24672,10 @@
 			if (this.toys > 0){
 				this.go = this.go * 4
 				this.relief = this.relief + 70
+			}
+			else{
+				this.go = 1
+				this.relief = 0
 			}		
 		},
 		aa: function() {

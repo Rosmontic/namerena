@@ -24646,14 +24646,14 @@
 		},
 		E: function() {
 			this.dL()
-			if (this.toys > 0){
-				this.dodge = this.dodge + 75
-				this.resist = this.resist + 80
-			}
 			if (this.toys == 0){
-				this.dodge = this.dodge - 75
+				this.dodge = 0
 				this.resist = 20
 			}
+			if (this.toys > 0){
+				this.dodge = 75
+				this.resist = this.resist + 80
+			}	
 		},
 		aa: function() {
 			var u, t = new T.aK()
@@ -24675,13 +24675,13 @@
 		},
 		E: function() {
 			this.dL()
-			if (this.toys > 0){
-				this.go = this.go * 4
-				this.relief = this.relief + 70
-			}
 			if (this.toys == 0){
 				this.go = 1
 				this.relief = 0
+			}	
+			if (this.toys > 0){
+				this.go = this.go * 4
+				this.relief = this.relief + 70
 			}		
 		},
 		aa: function() {

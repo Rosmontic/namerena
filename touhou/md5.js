@@ -21499,8 +21499,8 @@
 			u.a0(t * 0.7, !0, this.r, T.kV(), c, d)
 			if (this.r.toys != null){
 				d.a.push($.v())
-				d.a.push(T.e([0]:[1], this.r.go, this.r.dodge, null, null, 0, 1000, 100))
-				d.a.push(T.e([0]:[1], this.r.relief, this.r.resist, null, null, 0, 1000, 100))
+				d.a.push(T.e("[0]:[1]", this.r.go, this.r.dodge, null, null, 0, 1000, 100))
+				d.a.push(T.e("[0]:[1]", this.r.relief, this.r.resist, null, null, 0, 1000, 100))
 			}
 		}
 	}

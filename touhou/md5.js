@@ -24646,7 +24646,7 @@
 		},
 		E: function() {
 			this.dL()
-			if (this.toys > 0){
+			if (this.toys == 0){
 				this.dodge = 75
 				this.resist = this.resist + 80
 			}
@@ -24677,7 +24677,7 @@
 		},
 		E: function() {
 			this.dL()
-			if (this.toys > 0){
+			if (this.toys == 0){
 				this.go = this.go * 4
 				this.relief = this.relief + 70
 			}	

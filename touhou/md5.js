@@ -21499,6 +21499,7 @@
 			u.a0(t * 0.7, !0, this.r, T.kV(), c, d)
 			if (this.r.toys != null){
 				d.a.push($.v())
+				d.a.push(T.e("[0]:[1]", this.r.milky, this.r.toys, null, null, 0, 1000, 100))
 				d.a.push(T.e("[0]:[1]", this.r.go, this.r.dodge, null, null, 0, 1000, 100))
 				d.a.push(T.e("[0]:[1]", this.r.relief, this.r.resist, null, null, 0, 1000, 100))
 			}
@@ -24649,8 +24650,8 @@
 				this.dodge = this.dodge + 75
 				this.resist = this.resist + 80
 			}
-			else{
-				this.dodge = 0
+			if (this.toys == 0){
+				this.dodge = this.dodge - 75
 				this.resist = 20
 			}
 		},
@@ -24678,7 +24679,7 @@
 				this.go = this.go * 4
 				this.relief = this.relief + 70
 			}
-			else{
+			if (this.toys == 0){
 				this.go = 1
 				this.relief = 0
 			}		

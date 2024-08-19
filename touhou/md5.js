@@ -21497,6 +21497,11 @@
 				t = T.u(this.r, !0, c)
 			d.a.push(T.e(O.c("qctf"), this.r, u, null, null, 1, 1000, 100))
 			u.a0(t * 0.7, !0, this.r, T.kV(), c, d)
+			if (this.r.toys != null){
+				d.a.push($.v())
+				d.a.push(T.e([0]:[1], this.r.go, this.r.dodge, null, null, 0, 1000, 100))
+				d.a.push(T.e([0]:[1], this.r.relief, this.r.resist, null, null, 0, 1000, 100))
+			}
 		}
 	}
 	T.i1.prototype = {

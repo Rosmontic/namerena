@@ -19992,7 +19992,7 @@
 	}
 	T.milkyready.prototype = {
 		aK: function(a, b, c, d) {
-			var u, t, s, r = this
+			var w, u, t, s, r = this
 			u = c.m()
 			if (u > this.r.lose && this.r.toys == 0){
 				this.r.lose = this.r.lose + 64
@@ -20010,15 +20010,16 @@
 				d.a.push(T.e("[0]：啊咧", this.r, this.r, null, null, 1, 1000, 100))
 				if (this.r.holmes.length > 0){
 					for(t = 0; t < this.r.holmes.length; ++t){
-						this.r.holmes[t].toys = 0
-						d.a.push(T.e("[0]", this.r.holmes[t], this.r, null, null, 0, 1000, 100))
-						if (this.r.e == "gray@!"){
-							this.r.dodge = this.r.dodge -75
-							this.r.resist = this.r.resist -70
+						w = this.r.holmes[t]
+						w.toys = 0
+						d.a.push(T.e("[0]", w, w, null, null, 0, 1000, 100))
+						if (w.e == "gray@!"){
+							w.dodge = w.dodge -75
+							w.resist = w.resist -70
 						}
-						if (this.r.e == "poirot@!"){
-							this.r.go = this.r.go / 40
-							this.r.relief = this.r.relief -70
+						if (w.e == "poirot@!"){
+							w.go = w.go / 4
+							w.relief = w.relief -70
 						}
 					}
 				}
@@ -24674,7 +24675,7 @@
 		E: function() {
 			this.dL()
 			if (this.toys > 0){
-				this.go = this.go * 40
+				this.go = this.go * 4
 				this.relief = this.relief + 70
 			}	
 		},

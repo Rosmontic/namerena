@@ -20012,6 +20012,14 @@
 					for(t = 0; t < this.r.holmes.length; ++t){
 						this.r.holmes[t].toys = 0
 						d.a.push(T.e("[0]", this.r.holmes[t], this.r, null, null, 0, 1000, 100))
+						if (this.r.e == "gray@!"){
+							this.r.dodge = this.r.dodge -75
+							this.r.resist = this.r.resist -70
+						}
+						if (this.r.e == "poirot@!"){
+							this.r.go = this.r.go / 40
+							this.r.relief = this.r.relief -70
+						}
 					}
 				}
 				d.a.push(T.e("暂时失去了[toys]", this.r, this.r, null, null, 0, 1000, 100))
@@ -21496,13 +21504,7 @@
 			var u = a[0].a,
 				t = T.u(this.r, !0, c)
 			d.a.push(T.e(O.c("qctf"), this.r, u, null, null, 1, 1000, 100))
-			u.a0(t * 0.7, !0, this.r, T.a3(), c, d)
-			if (this.r.toys != null){
-				d.a.push($.v())
-				d.a.push(T.e("[0]:[1]", this.r.milky, this.r.toys, null, null, 0, 1000, 100))
-				d.a.push(T.e("[0]:[1]", this.r.go, this.r.dodge, null, null, 0, 1000, 100))
-				d.a.push(T.e("[0]:[1]", this.r.relief, this.r.resist, null, null, 0, 1000, 100))
-			}
+			u.a0(t * 0.7, !0, this.r, T.kv(), c, d)
 		}
 	}
 	T.i1.prototype = {
@@ -24646,15 +24648,9 @@
 		},
 		E: function() {
 			this.dL()
-			if (this.toys == 0){
-				this.dodge = 75
+			if (this.toys > 0){
+				this.dodge = this.dodge + 75
 				this.resist = this.resist + 80
-			}
-			else{
-				this.go = 1.5
-				this.relief = 20
-				this.dodge = 10
-				this.resist = 20
 			}
 		},
 		aa: function() {
@@ -24677,16 +24673,10 @@
 		},
 		E: function() {
 			this.dL()
-			if (this.toys == 0){
+			if (this.toys > 0){
 				this.go = this.go * 4
 				this.relief = this.relief + 70
 			}	
-			else{
-				this.go = 1
-				this.relief = 20
-				this.dodge = 10
-				this.resist = 20
-			}		
 		},
 		aa: function() {
 			var u, t = new T.aK()

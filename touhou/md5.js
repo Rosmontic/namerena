@@ -21504,7 +21504,7 @@
 			var u = a[0].a,
 				t = T.u(this.r, !0, c)
 			d.a.push(T.e(O.c("qctf"), this.r, u, null, null, 1, 1000, 100))
-			u.a0(t * 0.7, !0, this.r, T.kv(), c, d)
+			u.a0(t * 0.7, !0, this.r, T.kV(), c, d)
 		}
 	}
 	T.i1.prototype = {
@@ -24674,7 +24674,7 @@
 		E: function() {
 			this.dL()
 			if (this.toys > 0){
-				this.go = this.go * 4
+				this.go = this.go * 40
 				this.relief = this.relief + 70
 			}	
 		},

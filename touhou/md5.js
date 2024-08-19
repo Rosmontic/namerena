@@ -12513,9 +12513,9 @@
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
 				_.go = 1
 				_.id = e
-				_.resist = 95
+				_.resist = 15
 				_.relief = 0
-				_.dodge = 90
+				_.dodge = 15
 				_.milky = 0
 				_.holmes = []
 				_.toys = 1
@@ -12558,9 +12558,9 @@
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
 				_.go = 4
 				_.id = e
-				_.resist = 15
-				_.relief = 80
-				_.dodge = -20
+				_.resist = 0
+				_.relief = 15
+				_.dodge = 0
 				_.milky = 0
 				_.holmes = []
 				_.toys = 1
@@ -19996,6 +19996,7 @@
 			u = c.m()
 			if (u > this.r.lose && this.r.toys == 0){
 				this.r.lose = this.r.lose + 64
+				this.r.j = this.r.j + this.r.lose * 2
 				return a
 			}
 			else if (u < this.r.lose && this.r.toys == 0){
@@ -20005,20 +20006,18 @@
 				d.a.push($.v())
 				return a
 			}
-			else if (u < this.r.toys && this.r.toys > 0){
+			else if (u < 32 && this.r.toys > 0){
 				this.r.toys = 0
 				d.a.push(T.e("[0]：啊咧", this.r, this.r, null, null, 0, 1000, 100))
 				if (this.r.holmes.length > 0){
 					for(t = 0; t < this.r.holmes.length; ++t){
 						this.r.holmes[t].toys = 0
 						d.a.push(T.e("[0]", this.r.holmes[t], this.r, null, null, 0, 1000, 100))
-					}		
+
+					}
 				}
 				d.a.push(T.e("暂时失去了[toys]", this.r, this.r, null, null, 0, 1000, 100))
 				d.a.push($.v())
-			}
-			else{
-				return a
 			}
 			return a
 		},
@@ -24641,6 +24640,13 @@
 		gah: function() {
 			return C.gray
 		},
+		E: function() {
+			this.dL()
+			if (this.toys > 0){
+				this.dodge = this.dodge + 70
+				this.resist = this.resist + 90
+			}		
+		},
 		aa: function() {
 			var u, t = new T.aK()
 			t.r = this
@@ -24658,6 +24664,13 @@
 	T.poirot.prototype = {
 		gah: function() {
 			return C.poirot
+		},
+		E: function() {
+			this.dL()
+			if (this.toys > 0){
+				this.go = this.go * 4
+				this.relief = this.relief + 75
+			}		
 		},
 		aa: function() {
 			var u, t = new T.aK()
@@ -26692,10 +26705,6 @@
 			r = T.u(q.r, !1, c)
 			d.a.push(T.e(O.c("Ukql"), q.r, o, p, p, 0, 1000, 100))
 			o.a0(r, !1, q.r, T.mA(), c, d)
-			for (n = 0; n < this.r.id.length; ++n) {
-				d.a.push($.v())
-				d.a.push(T.e("[0]技能: [1]", n+1, this.r.id[n].f, null, null, 0, 1000, 100))
-			}
 		}
 	}
 	T.noaK.prototype = {

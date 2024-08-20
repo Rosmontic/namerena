@@ -8938,7 +8938,7 @@
 				var _ = this
 				_.x = a
 				_.y = null
-				_.z = 1
+				_.z = null
 				_.Q = 999
 				_.c = _.b = _.a = null
 			},
@@ -20057,11 +20057,11 @@
 			u.cy = u.cy * 2
 			u.cx = u.cx * 2
 			if(u.dodge != null){
-				u.dodge = (u.dodge + 45) > 90 ? 90 : (u.dodge + 45)
+				u.dodge = (u.dodge + this.z.dodge / 2) > 90 ? 90 : (u.dodge + this.z.dodge / 2)
 			}
 		},
 		aq: function(a, b) {
-			if (--this.Q === 0)
+			if (--this.Q === 0 || this.z.toys == 0)
 				this.H(null, b)
 		},
 		H: function(a, b) {
@@ -20074,7 +20074,7 @@
 			if (u.fr > 0) {
 				t = b.a
 				t.push($.v())
-				t.push(T.ap(O.c("SDIg"), a, u))
+				t.push(T.ap("[1]从[感知强化]中解除", a, u))
 			}
 		},
 		$ip: 1
@@ -20103,13 +20103,14 @@
 					q.push($.v())
 					t = H.o(o.r1.h(0, "grayas"), "$igrayax")
 					if (t == null) {
-						t = new T.H1(o)
+						s.graya.push(o)
+						t = new T.grayax(o)
+						t.z = s
 						t.y = new T.ay(t)
 						o.r1.k(0, "grayas", t)
 						o.r2.i(0, t)
 						o.x1.i(0, t.y)
 						o.E()
-						this.r.graya.push(o)
 					} else
 						t.Q += 6
 					d.a.push(T.e("[1]的感知被强化了", s, o, null, null, 0, 1000, 100))	

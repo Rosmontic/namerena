@@ -20054,8 +20054,8 @@
 		},
 		al: function(a) {
 			var u = this.x
-			u.cy = u.cy * 2
-			u.cx = u.cx * 2
+			u.cy = u.cy * 2.4
+			u.cx = u.cx * 1.6
 			if(u.dodge != null){
 				u.dodge = (u.dodge + this.z.dodge / 2) > 90 ? 90 : (u.dodge + this.z.dodge / 2)
 			}
@@ -20068,7 +20068,7 @@
 			var u, t
 			this.C()
 			u = this.x
-			u.r1.S(0, $.c5())
+			u.r1.S(0, "grayas")
 			this.y.C()
 			u.E()
 			if (u.fr > 0) {
@@ -20080,6 +20080,12 @@
 		$ip: 1
 	}
 	T.grayn1.prototype = {
+		ar: function(a, b) {
+			if (this.r.toys == 0) {
+				return !1
+			}
+			return this.aS(a, b)
+		},
 		gb3: function() {
 			return 4
 		},
@@ -20088,6 +20094,18 @@
 		},
 		b5: function(a) {
 			return a.b1(this.r.y.f)
+		},
+		am: function(a, b) {
+			var u
+			if (b) {
+				if (a.e == "gray@!"){
+					return !1
+				}
+				if (a.r1.h(0, "grayas") != null){
+					return !1
+				}			
+			}
+			return !0
 		},
 		t: function(a, b, c, d) {
 			var m, k, l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])

@@ -8743,6 +8743,12 @@
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
 			},
+			grayn1: function grayn1() {
+				var _ = this
+				_.e = !1
+				_.f = 0
+				_.c = _.b = _.a = _.r = null
+			},
 			dL: function dL() {
 				var _ = this
 				_.e = !1
@@ -8926,6 +8932,14 @@
 				_.y = null
 				_.z = 2
 				_.Q = 3
+				_.c = _.b = _.a = null
+			},
+			grayax: function grayax(a) {
+				var _ = this
+				_.x = a
+				_.y = null
+				_.z = 1
+				_.Q = 999
 				_.c = _.b = _.a = null
 			},
 			darkHasteRun: function darkHasteRun(a) {
@@ -12520,6 +12534,7 @@
 				_.holmes = []
 				_.toys = 1
 				_.lose = 1
+				_.graya = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -19992,14 +20007,14 @@
 	}
 	T.milkyready.prototype = {
 		aK: function(a, b, c, d) {
-			var w, u, t, s, r = this
+			var m, n, w, u, t, s, r = this
 			u = c.m()
 			if (u > this.r.lose && this.r.toys == 0){
 				this.r.lose = this.r.lose + 64
 				this.r.j = this.r.j + this.r.lose * 2
 				return a
 			}
-			else if (u < this.r.lose && this.r.toys == 0){
+			else if (u <= this.r.lose && this.r.toys == 0){
 				this.r.lose = 64
 				this.r.toys = 1
 				d.a.push(T.e("[0]恢复了[toys]", this.r, this.r, null, null, 1, 1000, 100))
@@ -20015,7 +20030,7 @@
 						d.a.push(T.e("[0]", w, w, null, null, 0, 1000, 100))
 						if (w.e == "gray@!"){
 							w.dodge = w.dodge -75
-							w.resist = w.resist -70
+							w.resist = w.resist -75
 						}
 						if (w.e == "poirot@!"){
 							w.go = w.go / 4
@@ -20032,7 +20047,75 @@
 			this.r.ry.i(0, this)
 		},
 		$iG: 1
-	}	
+	}
+	T.grayax.prototype = {
+		gR: function() {
+			return 1
+		},
+		al: function(a) {
+			var u = this.x
+			u.cy = u.cy * 2
+			u.cx = u.cx * 2
+			if(u.dodge != null){
+				u.dodge = (u.dodge + 45) > 90 ? 90 : (u.dodge + 45)
+			}
+		},
+		aq: function(a, b) {
+			if (--this.Q === 0)
+				this.H(null, b)
+		},
+		H: function(a, b) {
+			var u, t
+			this.C()
+			u = this.x
+			u.r1.S(0, $.c5())
+			this.y.C()
+			u.E()
+			if (u.fr > 0) {
+				t = b.a
+				t.push($.v())
+				t.push(T.ap(O.c("SDIg"), a, u))
+			}
+		},
+		$ip: 1
+	}
+	T.grayn1.prototype = {
+		gb3: function() {
+			return 4
+		},
+		gb4: function() {
+			return 4
+		},
+		b5: function(a) {
+			return a.b1(this.r.y.f)
+		},
+		t: function(a, b, c, d) {
+			var m, k, l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
+			for (u = 0; u < a.length; ++u)
+				n.push(a[u].a)
+			k = "[0]：[五感强化]的toys。"
+			s = this.r
+			r = H.a(n.slice(0), [H.n(n, 0)])
+			q = d.a
+			q.push(T.e(k, s, null, null, r, 1, 1000, 100))
+			for (u = 0; u < n.length; ++u) {
+				o = n[u]
+					q.push($.v())
+					t = H.o(o.r1.h(0, "grayas"), "$igrayax")
+					if (t == null) {
+						t = new T.H1(o)
+						t.y = new T.ay(t)
+						o.r1.k(0, "grayas", t)
+						o.r2.i(0, t)
+						o.x1.i(0, t.y)
+						o.E()
+						this.r.graya.push(o)
+					} else
+						t.Q += 6
+					d.a.push(T.e("[1]的感知被强化了", s, o, null, null, 0, 1000, 100))	
+			}
+		}
+	}
 	T.dL.prototype = {
 		ar: function(a, b) {
 			var u
@@ -24651,7 +24734,7 @@
 			this.dL()
 			if (this.toys > 0){
 				this.dodge = this.dodge + 75
-				this.resist = this.resist + 80
+				this.resist = this.resist + 75
 			}
 		},
 		aa: function() {
@@ -24663,7 +24746,7 @@
 			u = new T.milkyholmes()
 			u.f = 1024
 			t.push(u)
-			u = new T.dT()
+			u = new T.grayn1()
 			u.f = 240
 			t.push(u)
 		}
@@ -28455,8 +28538,8 @@
 		t(Z.hl, Z.ax)
 		s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
 		s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.targetready, T.reikirecover, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend, T.hellTaichiReflect, T.wargodSay])
-		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.thdf, T.tha1n1, T.tha1n2, T.tha1n3, T.tha1s1, T.milkyholmes ,T.milkyready])
-		s(T.M, [T.bf, T.co, T.dj, T.cG, T.seal, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade, T.ironbirdSimulateRun])
+		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.thdf, T.tha1n1, T.tha1n2, T.tha1n3, T.tha1s1, T.milkyholmes ,T.milkyready, T.grayn1])
+		s(T.M, [T.bf, T.co, T.dj, T.cG, T.seal, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade, T.ironbirdSimulateRun, T.grayax])
 		s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
 		s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])
 		s(T.D, [T.cg, T.dF, T.el])

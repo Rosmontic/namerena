@@ -9691,6 +9691,12 @@
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
 			},
+			grayb1: function grayb1() {
+				var _ = this
+				_.e = !1
+				_.f = 0
+				_.c = _.b = _.a = _.r = null
+			},
 			hQ: function hQ(a) {
 				var _ = this
 				_.fr = a
@@ -12541,6 +12547,7 @@
 				_.toys = 1
 				_.lose = 1
 				_.graya = []
+				_.mirage = 0
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -20013,8 +20020,21 @@
 	}
 	T.milkyready.prototype = {
 		aK: function(a, b, c, d) {
-			var m, n, w, u, t, s, r = this
+			var v, m, n, w, u, t, s, r = this
 			u = c.m()
+			if (this.r.e == "gray@!" && this.r.mirage > 0){
+				d.a.push(T.e("[0]：嘿嘿嘿嘿....", this.r, this.r, null, null, 0, 1000, 100))
+				v = this.r.fr
+				this.r.fr = this.r.fr + 50 * this.r.mirage > this.r.fx ? this.r.fx : this.r.fr + 50 * this.r.mirage
+				d.a.push($.v())
+				d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
+				if (u > 192){
+					this.r.mirage = 0
+					d.a.push(T.e("[0]幻想中解除", this.r, this.r, null, null, 0, 1000, 100))
+					return a
+				}
+				return 0
+			}
 			if (u > this.r.lose && this.r.toys == 0){
 				this.r.lose = this.r.lose + 64
 				this.r.j = this.r.j + this.r.lose * 2
@@ -20037,6 +20057,10 @@
 						if (w.e == "gray@!"){
 							w.dodge = w.dodge -75
 							w.resist = w.resist -75
+							if (w.mirage > 0){
+								w.mirage = 0
+								d.a.push(T.e("[0]幻想中解除", w, w, null, null, 0, 1000, 100))
+							}
 						}
 						if (w.e == "poirot@!"){
 							w.go = w.go / 4
@@ -20058,10 +20082,12 @@
 		t: function(a, b, c, d) {
 			var t, u = a[0].a
 			t = this.r.Q > this.r.db ? T.u(this.r, !1, c) : T.u(this.r, !0, c)
-			d.a.push(T.e("[0]发起攻击", this.r, u, null, null, 1, 1000, 100))
+			d.a.push(T.e("[0]发起攻击", this.r, u, null, null, 0, 1000, 100))
 			if (this.r.e == "gray@!" && this.r.toys > 0){
 				u.bL(t, !1, this.r, T.a3(), c, d)
-				u.bL(t, !1, this.r, T.a3(), c, d)
+				if (a.fr > 0){
+					u.bL(t, !1, this.r, T.a3(), c, d)
+				}			
 			}
 			else if (this.r.e == "poirot@!" && this.r.toys > 0){
 				u.a0(t*2, !1, this.r, T.a3(), c, d)
@@ -20097,7 +20123,7 @@
 			if (u.fr > 0) {
 				t = b.a
 				t.push($.v())
-				t.push(T.ap("[1]从[感知强化]中解除", a, u))
+				t.push(T.ap("[1]从[五感强化]中解除", a, u))
 			}
 		},
 		$ip: 1
@@ -20134,7 +20160,7 @@
 			var m, k, l, v, u, t, s, r, q, p, o, n = H.a([], [T.aU])
 			for (u = 0; u < a.length; ++u)
 				n.push(a[u].a)
-			k = "[0]：[五感强化]的toys。"
+			k = "[0]：[五感强化]的toys"
 			s = this.r
 			r = H.a(n.slice(0), [H.n(n, 0)])
 			q = d.a
@@ -20153,10 +20179,28 @@
 						o.x1.i(0, t.y)
 						o.E()
 					} else
-						t.Q += 6
+						o.cy = o.cy *1.2			
 					d.a.push(T.e("[1]的感知被强化了", s, o, null, null, 0, 1000, 100))	
 			}
 		}
+	}
+	T.grayb1.prototype = {
+		T: function() {
+			this.r.y2.i(0, this)
+		},
+		ay: function(a, b, c, d) {
+			if (this.r.toys == 0 && c.m() > 191)
+			{
+				this.r.mirage = this.r.mirage + 1
+				if (this.r.mirage > 1){
+					d.a.push(T.e("[0]的[妄想]加深了", this.r, this.r, null, null, 1, 1000, 100))
+				}
+				else{
+					d.a.push(T.e("[0]陷入[妄想]", this.r, this.r, null, null, 1, 1000, 100))
+				}
+			}
+		},
+		$iA: 1
 	}
 	T.dL.prototype = {
 		ar: function(a, b) {
@@ -24791,6 +24835,7 @@
 			u = new T.grayn1()
 			u.f = 160
 			t.push(u)
+			t.push(new T.grayb1())
 		}
 	}
 	T.poirot.prototype = {
@@ -27607,7 +27652,6 @@
 		},
 		$iG: 1
 	}
-
 	T.im.prototype = {
 		T: function() {
 			this.r.y2.i(0, this)
@@ -28579,7 +28623,7 @@
 		t(P.cD, P.l)
 		t(Z.hl, Z.ax)
 		s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
-		s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.targetready, T.reikirecover, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend, T.hellTaichiReflect, T.wargodSay])
+		s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.targetready, T.reikirecover, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend, T.hellTaichiReflect, T.wargodSay, T.grayb1])
 		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.thdf, T.tha1n1, T.tha1n2, T.tha1n3, T.tha1s1, T.milkyholmes ,T.milkyready, T.milkyak, T.grayn1])
 		s(T.M, [T.bf, T.co, T.dj, T.cG, T.seal, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade, T.ironbirdSimulateRun, T.grayax])
 		s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])

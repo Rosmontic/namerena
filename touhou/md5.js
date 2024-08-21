@@ -20023,17 +20023,19 @@
 			var v, m, n, w, u, t, s, r = this
 			u = c.m()
 			if (this.r.e == "gray@!" && this.r.mirage > 0){
-				d.a.push(T.e("[0]：嘿嘿嘿嘿....", this.r, this.r, null, null, 0, 1000, 100))
+				d.a.push(T.e("[0]：欸嘿嘿嘿....", this.r, this.r, null, null, 0, 1000, 100))
 				v = this.r.fr
 				this.r.fr = this.r.fr + 50 * this.r.mirage > this.r.fx ? this.r.fx : this.r.fr + 50 * this.r.mirage
 				d.a.push($.v())
 				d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
 				if (u > 192){
 					this.r.mirage = 0
-					d.a.push(T.e("[0]幻想中解除", this.r, this.r, null, null, 0, 1000, 100))
-					return a
+					d.a.push(T.e("[0]从[妄想]中解除", this.r, this.r, null, null, 0, 1000, 100))
+					d.a.push($.v())
 				}
-				return 0
+				else{
+					return 0
+				}	
 			}
 			if (u > this.r.lose && this.r.toys == 0){
 				this.r.lose = this.r.lose + 64
@@ -20129,6 +20131,10 @@
 		$ip: 1
 	}
 	T.grayn1.prototype = {
+		ai: function(a, b) {
+			this.r = a
+			this.f = 120 - 10 * this.r.graya.length > 40 ? 120 - 10 * this.r.graya.length : 40
+		},
 		ar: function(a, b) {
 			if (this.r.toys == 0) {
 				return !1
@@ -20171,6 +20177,7 @@
 					t = H.o(o.r1.h(0, "grayas"), "$igrayax")
 					if (t == null) {
 						s.graya.push(o)
+						s.graya = [...new Set(s.graya)]
 						t = new T.grayax(o)
 						t.z = s
 						t.y = new T.ay(t)
@@ -20192,11 +20199,15 @@
 			if (this.r.toys == 0 && c.m() > 191)
 			{
 				this.r.mirage = this.r.mirage + 1
-				if (this.r.mirage > 1){
+				if (this.r.mirage == 1){
+					d.a.push(T.e("[0]陷入[妄想]", this.r, this.r, null, null, 1, 1000, 100))
+				}
+				if (this.r.mirage > 1 && this.r.mirage < 4){
 					d.a.push(T.e("[0]的[妄想]加深了", this.r, this.r, null, null, 1, 1000, 100))
 				}
-				else{
-					d.a.push(T.e("[0]陷入[妄想]", this.r, this.r, null, null, 1, 1000, 100))
+				if (this.r.mirage > 4){
+					d.a.push(T.e("[0]的[妄想]加深...", this.r, this.r, null, null, 1, 1000, 100))
+
 				}
 			}
 		},
@@ -24832,9 +24843,7 @@
 			u = new T.milkyholmes()
 			u.f = 1024
 			t.push(u)
-			u = new T.grayn1()
-			u.f = 160
-			t.push(u)
+			t.push(new T.grayn1())
 			t.push(new T.grayb1())
 		}
 	}

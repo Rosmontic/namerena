@@ -20204,7 +20204,7 @@
 			this.r.y2.i(0, this)
 		},
 		ay: function(a, b, c, d) {
-			var n, m, t
+			var v, n, m, t
 			if (this.r.toys == 0 && c.m() > 191)
 			{
 				this.r.mirage = this.r.mirage + 1
@@ -20215,21 +20215,38 @@
 					d.a.push(T.e("[0]的[妄想]加深了", this.r, this.r, null, null, 1, 1000, 100))
 				}
 				if (this.r.mirage > 4){
+					this.r.toys = 2
 					d.a.push(T.e("[0]的[妄想]加深...", this.r, this.r, null, null, 1, 1000, 100))
-					for (n = 0; n < this.r.graya.length; ++n){
-						m = this.r.graya[n]
-						t = H.o(m.r1.h(0, "graybs"), "$igraybx")
-						if (t == null) {
-							t = new T.graybx()
-							t.r = m
-							t.yarg = this.r
-							t.fr = 1
-							t.aO(0)
-						} else {
-							t.fr = 1
+					d.a.push(T.e("[0]的[妄想]爆发了", this.r, this.r, null, null, 1, 1000, 100))
+					v = this.r.fr
+					this.r.fr = this.r.fr > this.r.fx ? this.r.fr : this.r.fx
+					d.a.push($.v())
+					d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
+					if (this.r.graya.length == 0)
+					{
+						this.r.cx *= 2
+						this.r.cy *= 4
+						this.r.dy *= 4
+						this.r.db *= 4
+						this.r.Q *= 4
+						this.r.ch *= 4
+						this.r.dx *= 4
+					}
+					else{
+						for (n = 0; n < this.r.graya.length; ++n){
+							m = this.r.graya[n]
+							t = H.o(m.r1.h(0, "graybs"), "$igraybx")
+							if (t == null) {
+								t = new T.graybx()
+								t.r = m
+								t.yarg = this.r
+								t.fr = 1
+								t.aO(0)
+							} else {
+								t.fr = 1
+							}
 						}
 					}
-
 				}
 			}
 		},
@@ -20247,6 +20264,7 @@
 			u.db *= 4
 			u.Q *= 4
 			u.ch *= 4
+			u.dx *= 4
 		},
 		b5: function(a) {
 			return a.b1(this.r.x.a.e)

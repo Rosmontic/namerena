@@ -20205,7 +20205,7 @@
 		},
 		ay: function(a, b, c, d) {
 			var v, n, m, t
-			if (this.r.toys == 0 && c.m() > 191)
+			if (this.r.toys == 0 && c.m() > 1)
 			{
 				this.r.mirage = this.r.mirage + 1
 				if (this.r.mirage == 1){
@@ -20242,13 +20242,11 @@
 								t.yarg = this.r
 								t.fr = 1
 								t.aO(0)
-							} else {
-								t.fr = 1
+							} 
 							}
 						}
 					}
 				}
-			}
 		},
 		$iA: 1
 	}
@@ -20296,7 +20294,7 @@
 			n = (c.m() & 3) + 1
 			t = T.u(s.r, !1, c)
 			d.a.push(T.e("[0]：欸嘿嘿嘿....", this.r, this.r, null, null, 0, 1000, 100))
-			switch n {
+			switch (n) {
 			case 1:
 				d.a.push(T.e("[0]在[幻觉]中发起攻击", this.r, this.r, null, null, 0, 1000, 100))
 				u.a0(t * 2, !1, s.r, T.a3(), c, d)

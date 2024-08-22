@@ -20244,19 +20244,15 @@
 					}
 					else{
 						for (n = 0; n < this.r.graya.length; ++n){
-							d.a.push(T.e("[0]:2", this.r, this.r, null, null, 0, 1000, 100))
 							m = this.r.graya[n]
-							d.a.push(T.e("[0]:3", this.r, this.r, null, null, 0, 1000, 100))
 							t = H.o(m.r1.h(0, "graybs"), "$igraybx")
 							if (t == null) {
-								d.a.push(T.e("[0]:4", this.r, this.r, null, null, 0, 1000, 100))
 								t = new T.graybx()
 								t.r = m
 								t.yarg = this.r
 								t.fr = 1
 								t.aO(0)
 							}
-
 							}
 						}
 					}

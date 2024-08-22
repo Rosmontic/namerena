@@ -20220,7 +20220,6 @@
 					d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
 					if (this.r.graya.length == 0)
 					{
-						d.a.push(T.e("[0]:1", this.r, this.r, null, null, 0, 1000, 100))
 						this.r.cx *= 2
 						this.r.cy *= 4
 						this.r.dy *= 4
@@ -20233,18 +20232,24 @@
 						for (n = 0; n < this.r.graya.length; ++n){
 							m = this.r.graya[n]				
 							t = H.o(m.r1.h(0, "graybs"), "$igraybx")
+							d.a.push(T.e("[0]:[1]1", m, t, null, null, 0, 1000, 100))
 							if (t == null) {
+								d.a.push(T.e("[0]:[1]2", m, t, null, null, 0, 1000, 100))
 								t = new T.graybx()
+								d.a.push(T.e("[0]:[1]3", m, t, null, null, 0, 1000, 100))
 								t.r = m
+								d.a.push(T.e("[0]:[1]4", m, t, null, null, 0, 1000, 100))
 								t.yarg = this.r
+								d.a.push(T.e("[0]:[1]5", m, t, null, null, 0, 1000, 100))
 								t.fr = 1
+								d.a.push(T.e("[0]:[1]6", m, t, null, null, 0, 1000, 100))
 								t.aO(0)
 							}
-							d.a.push(T.e("[0]:[1]2", m, t.yarg, null, null, 0, 1000, 100))
-							}
+							d.a.push(T.e("[0]:[1]2", m, t, null, null, 0, 1000, 100))
 						}
 					}
 				}
+			}
 		},
 		$iA: 1
 	}

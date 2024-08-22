@@ -4741,6 +4741,23 @@
 						++u.fr
 				}
 			},
+			grayab: function(a, b, c, d, e) {
+				var u
+				if (c > 0 && !(b.fr <= 0)) {
+					if (b.a6("graybs", d))
+						return
+					u = H.o(b.r1.h(0, "graybs"), "$igraybx")
+					if (u == null) {
+						u = new T.graybx()
+						u.r = b
+						u.aO(0)
+						e.a.push(T.e(C.c.K(O.c("rWdW"), $.l7()), a, b, null, null, 60, 1000, 100))
+					} else
+						++u.fr
+					if (a.r1.G(0, $.X()))
+						++u.fr
+				}
+			},
 			dances: function(a, b, c, d, e) {
 				var u
 				if (c > 0 && !(b.fr <= 0)) {
@@ -20254,7 +20271,7 @@
 	}
 	T.graybx.prototype = {
 		gR: function() {
-			return 0
+			return -1
 		},
 		b5: function(a) {
 			return a.b1(this.r.x.a.e)
@@ -28620,6 +28637,7 @@
 		t(F, "qh", "p2", 8)
 		r(T, "q7", 5, null, ["$5"], ["p5"], 0, 0)
 		r(T, "dancea", 5, null, ["$5"], ["dances"], 0, 0)
+		r(T, "grayaa", 5, null, ["$5"], ["grayab"], 0, 0)
 		r(T, "q8", 5, null, ["$5"], ["p7"], 0, 0)
 		r(T, "qa", 5, null, ["$5"], ["p9"], 0, 0)
 		r(T, "slowa", 5, null, ["$5"], ["slows"], 0, 0)

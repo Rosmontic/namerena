@@ -20205,7 +20205,7 @@
 		},
 		ay: function(a, b, c, d) {
 			var v, n, m, t
-			if (this.r.toys == 0 && c.m() > 191)
+			if (this.r.toys == 0 && c.m() > 1)
 			{
 				this.r.mirage = this.r.mirage + 1
 				if (this.r.mirage == 1){
@@ -20242,8 +20242,7 @@
 								t.yarg = this.r
 								t.fr = 1
 								t.aO(0)
-							} else {
-								t.fr = 1
+							} 
 							}
 						}
 					}
@@ -20258,13 +20257,13 @@
 		},
 		al: function(a) {
 			var u = this.x
-			u.cx *= 2
-			u.cy *= 4
+			u.cx *= 1 + this.fr
+			u.cy *= 0.2
 			u.dy *= 0.2
-			u.db *= 4
-			u.Q *= 4
-			u.ch *= 4
-			u.dx *= 4
+			u.db *= 2 + this.fr
+			u.Q *= 2 + this.fr
+			u.ch *= 2 + this.fr
+			u.dx *= 2 + this.fr
 		},
 		b5: function(a) {
 			return a.b1(this.r.x.a.e)
@@ -20291,13 +20290,29 @@
 			}
 		},
 		t: function(a, b, c, d) {
-			var u, t, s = this;
-			--s.fr
+			var v, n, u, t, s = this
 			u = a[0].a
+			n = (c.m() & 3) + 1
 			t = T.u(s.r, !1, c)
 			d.a.push(T.e("[0]：欸嘿嘿嘿....", this.r, this.r, null, null, 0, 1000, 100))
-			d.a.push(T.e("[0]发起攻击", this.r, this.r, null, null, 0, 1000, 100))
-			u.a0(t * 2, !1, s.r, T.a3(), c, d)
+			switch n {
+			case 1:
+				d.a.push(T.e("[0]在[幻觉]中发起攻击", this.r, this.r, null, null, 0, 1000, 100))
+				u.a0(t * 2, !1, s.r, T.a3(), c, d)
+			case 2:
+				d.a.push(T.e("[0]陶醉于[幻觉]", this.r, this.r, null, null, 0, 1000, 100))
+				v = this.r.fr
+				this.r.fr = this.r.fr + C.e.Z(t / 30) > this.r.fx ? this.r.fx : this.r.fr + C.e.Z(t / 25)
+				d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
+			case 3:
+				d.a.push(T.e("[0]的[幻觉]变得更加强烈", this.r, this.r, null, null, 0, 1000, 100))
+				this.fr = this.fr + 1
+			case 4:
+				d.a.push(T.e("[0]的[幻觉]变得更加强烈", this.r, this.r, null, null, 0, 1000, 100))
+				this.fr = this.fr + 1
+			}
+			
+			
 			if (s.yarg.toys != 2)
 				s.H(null, d)
 		},

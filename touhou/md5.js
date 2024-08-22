@@ -20047,20 +20047,34 @@
 		aK: function(a, b, c, d) {
 			var v, m, n, w, u, t, s, r = this
 			u = c.m()
-			if (this.r.e == "gray@!" && this.r.mirage > 0){
-				d.a.push(T.e("[0]：欸嘿嘿嘿....", this.r, this.r, null, null, 0, 1000, 100))
-				v = this.r.fr
-				this.r.fr = this.r.fr + 50 * this.r.mirage > this.r.fx ? this.r.fx : this.r.fr + 50 * this.r.mirage
-				d.a.push($.v())
-				d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
-				if (u > 192){
-					this.r.mirage = 0
-					d.a.push(T.e("[0]从[妄想]中解除", this.r, this.r, null, null, 0, 1000, 100))
+			if (this.r.e == "gray@!"){
+				if (this.r.mirage > 0){
+					d.a.push(T.e("[0]：欸嘿嘿嘿....", this.r, this.r, null, null, 0, 1000, 100))
+					d.a.push(T.e("少女幻想中....", this.r, this.r, null, null, 0, 1000, 100))
+					v = this.r.fr
+					this.r.fr = this.r.fr + 50 * this.r.mirage > this.r.fx ? this.r.fx : this.r.fr + 50 * this.r.mirage
 					d.a.push($.v())
+					d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
+					if (u > 192){
+						this.r.mirage = 0
+						d.a.push($.v())
+						d.a.push(T.e("[0]从[妄想]中解除", this.r, this.r, null, null, 0, 1000, 100))
+						d.a.push($.v())
+					}
+					else{
+						return 0
+					}
 				}
-				else{
-					return 0
-				}	
+				if (this.r.toys == 2){
+					d.a.push(T.e("[0]：欸嘿嘿嘿....", this.r, this.r, null, null, 0, 1000, 100))
+					d.a.push(T.e("少女幻想中....", this.r, this.r, null, null, 0, 1000, 100))
+					if (u > 220){
+						this.r.toys = 0
+						d.a.push(T.e("[0]从[妄想]中解除", this.r, this.r, null, null, 0, 1000, 100))
+						d.a.push($.v())
+					}
+				}
+				
 			}
 			if (u > this.r.lose && this.r.toys == 0){
 				this.r.lose = this.r.lose + 64
@@ -20161,7 +20175,7 @@
 			this.f = 120 - 10 * this.r.graya.length > 40 ? 120 - 10 * this.r.graya.length : 40
 		},
 		ar: function(a, b) {
-			if (this.r.toys == 0) {
+			if (this.r.toys != 1) {
 				return !1
 			}
 			return this.aS(a, b)
@@ -20220,14 +20234,18 @@
 		},
 		ay: function(a, b, c, d) {
 			var v, n, m, t
-			if (this.r.toys == 0 && c.m() > 1)
+			if (this.r.toys == 0 && c.m() > 150)
 			{
 				this.r.mirage = this.r.mirage + 1
 				if (this.r.mirage == 1){
 					d.a.push(T.e("[0]陷入[妄想]", this.r, this.r, null, null, 1, 1000, 100))
 				}
-				if (this.r.mirage > 1){
+				if (this.r.mirage > 1 && this.r.mirage <= 3){
+					d.a.push(T.e("[0][妄想]加深", this.r, this.r, null, null, 1, 1000, 100))
+				}
+				if (this.r.mirage > 3){
 					this.r.toys = 2
+					this.r.mirage = 0
 					d.a.push(T.e("[0]的[妄想]加深...", this.r, this.r, null, null, 0, 1000, 100))
 					d.a.push(T.e("[0]的[妄想]爆发", this.r, this.r, null, null, 1, 1000, 100))
 					v = this.r.fr
@@ -20302,6 +20320,7 @@
 				u.a0(t * 1.5, !1, s.r, T.a3(), c, d)
 				break
 			case 2:
+				d.a.push(T.e("[0]陶醉于[妄想]", this.r, this.r, null, null, 0, 1000, 100))
 				v = this.r.fr
 				this.r.fr = this.r.fr + C.e.Z(t / 30) > this.r.fx ? this.r.fx : this.r.fr + C.e.Z(t / 30)
 				d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
@@ -20311,7 +20330,7 @@
 				d.a.push(T.e("[0]的[妄想]加深", this.r, this.r, null, null, 0, 1000, 100))
 				break
 			case 4:
-				s.fr = s.fr + 0.5
+				s.fr = s.fr + 1
 				d.a.push(T.e("[0]的[妄想]加深", this.r, this.r, null, null, 0, 1000, 100))
 				break
 			}	

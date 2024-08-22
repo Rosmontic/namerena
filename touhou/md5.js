@@ -20205,7 +20205,7 @@
 		},
 		ay: function(a, b, c, d) {
 			var v, n, m, t
-			if (this.r.toys == 0 && c.m() > 1)
+			if (this.r.toys == 0 && c.m() > 191)
 			{
 				this.r.mirage = this.r.mirage + 1
 				if (this.r.mirage == 1){
@@ -20242,11 +20242,13 @@
 								t.yarg = this.r
 								t.fr = 1
 								t.aO(0)
-							} 
+							} else {
+								t.fr = 1
 							}
 						}
 					}
 				}
+			}
 		},
 		$iA: 1
 	}

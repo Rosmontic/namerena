@@ -20193,18 +20193,8 @@
 						o.r2.i(0, t)
 						o.x1.i(0, t.y)
 						o.E()
-					}
-					
-					d.a.push(T.e("[1]的感知被强化了", s, o, null, null, 0, 1000, 100))	
-			}
-			d.a.push($.v())
-			for (m = 0; m < s.graya.length; ++m) {
-				d.a.push(T.e("[0]1", s.graya[m], m, null, null, 0, 1000, 100))
-			}
-			d.a.push($.v())
-			s.graya = [...new Set(s.graya)]
-			for (m = 0; m < s.graya.length; ++m) {
-				d.a.push(T.e("[0]2", s.graya[m], m, null, null, 0, 1000, 100))
+						d.a.push(T.e("[1]的感知被强化了", s, o, null, null, 0, 1000, 100))
+					}				
 			}
 		}
 	}
@@ -20220,12 +20210,9 @@
 				if (this.r.mirage == 1){
 					d.a.push(T.e("[0]陷入[妄想]", this.r, this.r, null, null, 1, 1000, 100))
 				}
-				if (this.r.mirage > 1 && this.r.mirage < 4){
-					d.a.push(T.e("[0]的[妄想]加深了", this.r, this.r, null, null, 1, 1000, 100))
-				}
-				if (this.r.mirage > 4){
+				if (this.r.mirage > 1){
 					this.r.toys = 2
-					d.a.push(T.e("[0]的[妄想]加深...", this.r, this.r, null, null, 1, 1000, 100))
+					d.a.push(T.e("[0]的[妄想]加深...", this.r, this.r, null, null, 0, 1000, 100))
 					d.a.push(T.e("[0]的[妄想]爆发了", this.r, this.r, null, null, 1, 1000, 100))
 					v = this.r.fr
 					this.r.fr = this.r.fr > this.r.fx ? this.r.fr : this.r.fx
@@ -20244,7 +20231,7 @@
 					}
 					else{
 						for (n = 0; n < this.r.graya.length; ++n){
-							m = this.r.graya[n]
+							m = this.r.graya[n]				
 							t = H.o(m.r1.h(0, "graybs"), "$igraybx")
 							if (t == null) {
 								t = new T.graybx()
@@ -20253,6 +20240,7 @@
 								t.fr = 1
 								t.aO(0)
 							}
+							d.a.push(T.e("[0]:[1]2", m, t.yarg, null, null, 0, 1000, 100))
 							}
 						}
 					}

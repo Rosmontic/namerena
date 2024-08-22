@@ -20194,14 +20194,17 @@
 						o.x1.i(0, t.y)
 						o.E()
 					}
-					for (m = 0; m < s.graya.length; ++m) {
-						d.a.push(T.e("[0]", s.graya[m], m, null, null, 0, 1000, 100))
-					}
-					s.graya = [...new Set(s.graya)]
-					for (m = 0; m < s.graya.length; ++m) {
-						d.a.push(T.e("[0]", s.graya[m], m, null, null, 0, 1000, 100))
-					}
+					
 					d.a.push(T.e("[1]的感知被强化了", s, o, null, null, 0, 1000, 100))	
+			}
+			d.a.push($.v())
+			for (m = 0; m < s.graya.length; ++m) {
+				d.a.push(T.e("[0]1", s.graya[m], m, null, null, 0, 1000, 100))
+			}
+			d.a.push($.v())
+			s.graya = [...new Set(s.graya)]
+			for (m = 0; m < s.graya.length; ++m) {
+				d.a.push(T.e("[0]2", s.graya[m], m, null, null, 0, 1000, 100))
 			}
 		}
 	}

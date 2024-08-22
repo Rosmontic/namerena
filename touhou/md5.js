@@ -20235,7 +20235,7 @@
 							d.a.push(T.e("[0]:[1]1", m, t, null, null, 0, 1000, 100))
 							if (t == null) {
 								d.a.push(T.e("[0]:[1]2", m, t, null, null, 0, 1000, 100))
-								t = new T.bx()
+								t = new T.graybx()
 								d.a.push(T.e("[0]:[1]3", m, t, null, null, 0, 1000, 100))
 								t.r = m
 								d.a.push(T.e("[0]:[1]4", m, t, null, null, 0, 1000, 100))
@@ -20267,27 +20267,17 @@
 		},
 		aO: function(a) {
 			var u = this
-			u.r.r1.k(0, "graybs", u)
+			u.r.r1.k(0, $.am(), u)
 			u.r.ry.i(0, u)
-		},
-		al: function(a) {
-			var u = this.x
-			u.cx *= (1 + this.fr)
-			u.cy *= 0.2
-			u.dy *= 0.2
-			u.db *= (2 + this.fr)
-			u.Q *= (2 + this.fr)
-			u.ch *= (2 + this.fr)
-			u.dx *= (2 + this.fr)
 		},
 		H: function(a, b) {
 			var u, t = this
 			t.C()
-			t.r.r1.S(0, "graybs")
+			t.r.r1.S(0, $.am())
 			if (t.r.fr > 0) {
 				u = b.a
 				u.push($.v())
-				u.push(T.ap("[1]从[幻想]中清醒", t.r, t.r))
+				u.push(T.ap(O.c("yFbU"), a, t.r))
 			}
 		},
 		t: function(a, b, c, d) {

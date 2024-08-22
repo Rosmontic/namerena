@@ -20194,7 +20194,13 @@
 						o.x1.i(0, t.y)
 						o.E()
 					}
+					for (m = 0; m < s.graya.length; ++m) {
+						d.a.push(T.e("[0]", s.graya[m], m, null, null, 0, 1000, 100))
+					}
 					s.graya = [...new Set(s.graya)]
+					for (m = 0; m < s.graya.length; ++m) {
+						d.a.push(T.e("[0]", s.graya[m], m, null, null, 0, 1000, 100))
+					}
 					d.a.push(T.e("[1]的感知被强化了", s, o, null, null, 0, 1000, 100))	
 			}
 		}
@@ -20224,6 +20230,7 @@
 					d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
 					if (this.r.graya.length == 0)
 					{
+						d.a.push(T.e("[0]:1", this.r, this.r, null, null, 0, 1000, 100))
 						this.r.cx *= 2
 						this.r.cy *= 4
 						this.r.dy *= 4
@@ -20234,15 +20241,19 @@
 					}
 					else{
 						for (n = 0; n < this.r.graya.length; ++n){
+							d.a.push(T.e("[0]:2", this.r, this.r, null, null, 0, 1000, 100))
 							m = this.r.graya[n]
+							d.a.push(T.e("[0]:3", this.r, this.r, null, null, 0, 1000, 100))
 							t = H.o(m.r1.h(0, "graybs"), "$igraybx")
 							if (t == null) {
+								d.a.push(T.e("[0]:4", this.r, this.r, null, null, 0, 1000, 100))
 								t = new T.graybx()
 								t.r = m
 								t.yarg = this.r
 								t.fr = 1
 								t.aO(0)
-							} 
+							}
+
 							}
 						}
 					}

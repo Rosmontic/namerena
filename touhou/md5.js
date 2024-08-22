@@ -20247,7 +20247,6 @@
 						}
 					}
 				}
-			}
 		},
 		$iA: 1
 	}
@@ -20257,13 +20256,13 @@
 		},
 		al: function(a) {
 			var u = this.x
-			u.cx *= 1 + this.fr
+			u.cx *= (1 + this.fr)
 			u.cy *= 0.2
 			u.dy *= 0.2
-			u.db *= 2 + this.fr
-			u.Q *= 2 + this.fr
-			u.ch *= 2 + this.fr
-			u.dx *= 2 + this.fr
+			u.db *= (2 + this.fr)
+			u.Q *= (2 + this.fr)
+			u.ch *= (2 + this.fr)
+			u.dx *= (2 + this.fr)
 		},
 		b5: function(a) {
 			return a.b1(this.r.x.a.e)
@@ -20302,7 +20301,7 @@
 			case 2:
 				d.a.push(T.e("[0]陶醉于[幻觉]", this.r, this.r, null, null, 0, 1000, 100))
 				v = this.r.fr
-				this.r.fr = this.r.fr + C.e.Z(t / 30) > this.r.fx ? this.r.fx : this.r.fr + C.e.Z(t / 25)
+				this.r.fr = this.r.fr + C.e.Z(t / 30) > this.r.fx ? this.r.fx : this.r.fr + C.e.Z(t / 30)
 				d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
 			case 3:
 				d.a.push(T.e("[0]的[幻觉]变得更加强烈", this.r, this.r, null, null, 0, 1000, 100))
@@ -20311,8 +20310,6 @@
 				d.a.push(T.e("[0]的[幻觉]变得更加强烈", this.r, this.r, null, null, 0, 1000, 100))
 				this.fr = this.fr + 1
 			}
-			
-			
 			if (s.yarg.toys != 2)
 				s.H(null, d)
 		},

@@ -20229,7 +20229,7 @@
 				if (this.r.mirage > 1){
 					this.r.toys = 2
 					d.a.push(T.e("[0]的[妄想]加深...", this.r, this.r, null, null, 0, 1000, 100))
-					d.a.push(T.e("[0]的[妄想]爆发了", this.r, this.r, null, null, 1, 1000, 100))
+					d.a.push(T.e("[0]的[妄想]爆发", this.r, this.r, null, null, 1, 1000, 100))
 					v = this.r.fr
 					this.r.fr = this.r.fr > this.r.fx ? this.r.fr : this.r.fx
 					d.a.push($.v())
@@ -20248,18 +20248,14 @@
 						for (n = 0; n < this.r.graya.length; ++n){
 							m = this.r.graya[n]				
 							t = H.o(m.r1.h(0, "graybs"), "$igraybx")
-							d.a.push(T.e("[0]:[1]1", m, t, null, null, 0, 1000, 100))
 							if (t == null) {
-								d.a.push(T.e("[0]:[1]2", m, t, null, null, 0, 1000, 100))
 								t = new T.graybx()
-								d.a.push(T.e("[0]:[1]3", m, t, null, null, 0, 1000, 100))
-								t.r = m
-								d.a.push(T.e("[0]:[1]4", m, t, null, null, 0, 1000, 100))
-								t.n = this.r
-								d.a.push(T.e("[0]:[1]5", m, t, null, null, 0, 1000, 100))
+								t.r = m								
+								t.n = this.r	
 								t.aO(0)
 							}
-							d.a.push(T.e("[0]:[1]7", m, t, null, null, 0, 1000, 100))
+							d.a.push($.v())
+							d.a.push(T.e("[0]陷入了[妄想]", m, t, null, null, 0, 1000, 100))
 						}
 					}
 				}
@@ -20303,17 +20299,21 @@
 			switch (n) {
 			case 1:
 				d.a.push(T.e("[0]: 在[妄想]中对[1]发起攻击", this.r, this.r, null, null, 0, 1000, 100))
-				u.a0(t * 2, !1, s.r, T.a3(), c, d)
+				u.a0(t * 1.5, !1, s.r, T.a3(), c, d)
+				break
 			case 2:
 				v = this.r.fr
 				this.r.fr = this.r.fr + C.e.Z(t / 30) > this.r.fx ? this.r.fx : this.r.fr + C.e.Z(t / 30)
 				d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
+				break
 			case 3:
 				s.fr = s.fr + 0.5
 				d.a.push(T.e("[0]的[妄想]加深", this.r, this.r, null, null, 0, 1000, 100))
+				break
 			case 4:
-				s.fr = s.fr + 1
+				s.fr = s.fr + 0.5
 				d.a.push(T.e("[0]的[妄想]加深", this.r, this.r, null, null, 0, 1000, 100))
+				break
 			}	
 			if (s.n.toys != 2)
 				s.H(null, d)

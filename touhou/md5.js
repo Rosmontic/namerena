@@ -8968,6 +8968,7 @@
 			graybx: function graybx() {
 				var _ = this
 				_.fr = 1
+				_.n = null
 				_.e = !1
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
@@ -20254,9 +20255,8 @@
 								d.a.push(T.e("[0]:[1]3", m, t, null, null, 0, 1000, 100))
 								t.r = m
 								d.a.push(T.e("[0]:[1]4", m, t, null, null, 0, 1000, 100))
-								t.yarg = this.r
+								t.n = this.r
 								d.a.push(T.e("[0]:[1]5", m, t, null, null, 0, 1000, 100))
-								d.a.push(T.e("[0]:[1]6", m, t, null, null, 0, 1000, 100))
 								t.aO(0)
 							}
 							d.a.push(T.e("[0]:[1]7", m, t, null, null, 0, 1000, 100))
@@ -20269,7 +20269,7 @@
 	}
 	T.graybx.prototype = {
 		gR: function() {
-			return -1
+			return 0
 		},
 		b5: function(a) {
 			return a.b1(this.r.x.a.e)
@@ -20292,17 +20292,30 @@
 			if (t.r.fr > 0) {
 				u = b.a
 				u.push($.v())
-				u.push(T.ap(O.c("yFbU"), a, t.r))
+				u.push(T.ap("[1]从[妄想]中清醒", a, t.r))
 			}
 		},
 		t: function(a, b, c, d) {
-			var u, t, s = this;
-			--s.fr
+			var v, n, u, t, s = this
 			u = a[0].a
-			t = T.u(s.r, !1, c)
-			d.a.push(T.e(O.c("wSMx"), s.r, u, null, null, 0, 1000, 100))
-			u.a0(t * 1.2, !1, s.r, T.a3(), c, d)
-			if (s.fr === 0)
+			n = 1 + (c.m() & 3)
+			t = T.u(s.r, !1, c) * s.fr
+			switch (n) {
+			case 1:
+				d.a.push(T.e("[0]: 在[妄想]中对[1]发起攻击", this.r, this.r, null, null, 0, 1000, 100))
+				u.a0(t * 2, !1, s.r, T.a3(), c, d)
+			case 2:
+				v = this.r.fr
+				this.r.fr = this.r.fr + C.e.Z(t / 30) > this.r.fx ? this.r.fx : this.r.fr + C.e.Z(t / 30)
+				d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
+			case 3:
+				s.fr = s.fr + 0.5
+				d.a.push(T.e("[0]的[妄想]加深", this.r, this.r, null, null, 0, 1000, 100))
+			case 4:
+				s.fr = s.fr + 1
+				d.a.push(T.e("[0]的[妄想]加深", this.r, this.r, null, null, 0, 1000, 100))
+			}	
+			if (s.n.toys != 2)
 				s.H(null, d)
 		},
 		$ip: 1,

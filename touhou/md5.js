@@ -20144,6 +20144,8 @@
 					u.bL(t, !1, this.r, T.a3(), c, d)
 				}
 			} else if (this.r.e == "poirot@!" && this.r.toys > 0) {
+				d.a.push(T.e("[0]:[1]:", this.r.go, this.r.relief, null, null, 0, 1000, 100))
+				d.a.push(T.e("[2]:[3]:", this.r.dodge, this.r.resist, null, null, 0, 1000, 100))
 				u.a0(t * 1.5, !1, this.r, T.a3(), c, d)
 			} else {
 				u.a0(t, !1, this.r, T.a3(), c, d)
@@ -20363,16 +20365,7 @@
 			var u, t, s, r, q, p, o, n, m
 			u = c.a
 			n = b.m()
-			if (!a.$iav) {
-				u.push(T.e("[0]: 1", this.r, this.r, null, null, 1, 1000, 100))
-			}
-			if (this.r.bq(b)) {
-				u.push(T.e("[0]: 2", this.r, this.r, null, null, 1, 1000, 100))
-			}
-			if (n < C.e.Z(640 * (this.r.fx - this.r.fr) / this.r.fx)) {
-				u.push(T.e("[0]: 3", this.r, this.r, null, null, 1, 1000, 100))
-			}
-			if (!a.$iav && this.r.bq(b) && n < C.e.Z(640 * (this.r.fx - this.r.fr) / this.r.fx)) {
+			if (!a.$iav && this.r.bq(b) && n < C.e.Z(64 * (this.r.fx - this.r.fr) / this.r.fx)) {
 				u.push($.v())
 				u.push(T.e("[0]: [对...对不起...请原谅我...]", this.r, this.r, null, null, 1, 1000, 100))
 				this.r.toys = 2
@@ -25044,7 +25037,7 @@
 			u = new T.milkyak()
 			u.f = 256
 			t.push(u)
-			t.push(new T.milkyready())
+			t.push(new T.poirotb1())
 
 		}
 	}

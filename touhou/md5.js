@@ -19772,7 +19772,7 @@
 						o.meng = o.meng + 1
 						return a
 					}
-			}	
+			}
 			return a
 		},
 		T: function() {
@@ -19793,7 +19793,7 @@
 						o.yibian = 1
 						o.j = o.j + 512
 						o.go = o.go + 0.1
-						if (o.meng > 0){
+						if (o.meng > 0) {
 							o.j = o.j + 1536
 						}
 						e.a.push(T.e("[0]：这是异变啊！", this.r, null, null, null, a, 1000, 100))
@@ -19829,7 +19829,7 @@
 				s = "[0]发动[梦符「二重结界」]",
 				r = u.r,
 				q = d.a
-			this.r.reiki = this.r.reiki -3
+			this.r.reiki = this.r.reiki - 3
 			q.push(T.e(s, r, r, t, t, 1, 1000, 100))
 			u.r.y1.i(0, u.fr)
 			u.r.x1.i(0, u.fx)
@@ -19931,7 +19931,7 @@
 			s = this.r
 			r = H.a(n.slice(0), [H.n(n, 0)])
 			q = d.a
-			this.r.reiki = this.r.reiki -4
+			this.r.reiki = this.r.reiki - 4
 			q.push(T.e(t, s, null, null, r, 1, 1000, 100))
 			p = T.u(this.r, !0, c) * 1.75
 			for (u = 0; u < n.length; ++u) {
@@ -20031,19 +20031,19 @@
 				o = n[u]
 				if (o.fr > 0 && o.milky != null) {
 					this.r.holmes[m] = o
-					m = m + 1			
+					m = m + 1
 				}
 			}
-			if (this.r.holmes.length > 0){
+			if (this.r.holmes.length > 0) {
 				for (u = 0; u < this.r.holmes.length; ++u) {
 					o = this.r.holmes[u]
-					if (o != this.r){
+					if (o != this.r) {
 						o.milky = 1
 						o.holmes = this.r.holmes
 						q.push($.v())
 						q.push(T.e(t, o, null, null, r, 0, 1000, 100))
 					}
-					
+
 				}
 			}
 			this.r.j = this.r.j + 2024
@@ -20053,15 +20053,15 @@
 		aK: function(a, b, c, d) {
 			var v, m, n, w, u, t, s, r = this
 			u = c.m()
-			if (this.r.e == "gray@!"){
-				if (this.r.mirage > 0){
+			if (this.r.e == "gray@!") {
+				if (this.r.mirage > 0) {
 					d.a.push(T.e("[0]：[欸嘿嘿嘿....]", this.r, this.r, null, null, 0, 1000, 100))
 					d.a.push(T.e("[少女幻想中...]", this.r, this.r, null, null, 0, 1000, 100))
 					v = this.r.fr
 					this.r.fr = this.r.fr + 50 * this.r.mirage > this.r.fx ? this.r.fx : this.r.fr + 50 * this.r.mirage
 					d.a.push($.v())
 					d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
-					if (u > 192){
+					if (u > 192) {
 						this.r.mirage = 0
 						d.a.push(T.e("[0]从[幻想]中解除", this.r, this.r, null, null, 1, 1000, 100))
 						d.a.push($.v())
@@ -20069,57 +20069,58 @@
 					}
 					return 0
 				}
-				if (this.r.toys == 2){
+				if (this.r.toys == 2) {
 					d.a.push(T.e("[0]：[欸嘿嘿嘿....花，好多好多花......]", this.r, this.r, null, null, 0, 1000, 100))
 					d.a.push(T.e("[少女幻想中...]", this.r, this.r, null, null, 0, 1000, 100))
-					if (u > 220){
+					if (u > 220) {
 						this.r.toys = 0
-						this.r.dodge = this.r.dodge -75
-						this.r.resist = this.r.resist -75
+						this.r.dodge = this.r.dodge - 75
+						this.r.resist = this.r.resist - 75
 						d.a.push(T.e("[0]从[深度幻想]中解除", this.r, this.r, null, null, 1, 1000, 100))
 						d.a.push($.v())
 						return a
 					}
 					v = this.r.fr
 					this.r.fr = this.r.fx
-					if (v < this.r.fx){
+					if (v < this.r.fx) {
 						d.a.push($.v())
 						d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
 					}
 					return 0
-				}	
+				}
 			}
-			if (u > this.r.lose && this.r.toys == 0){
+			if (u > this.r.lose && this.r.toys == 0) {
 				this.r.lose = this.r.lose + 64
 				this.r.j = this.r.j + this.r.lose * 2
 				return a
-			}
-			else if (u <= this.r.lose && this.r.toys == 0){
+			} else if (u <= this.r.lose && this.r.toys == 0) {
 				this.r.lose = 64
 				this.r.toys = 1
 				d.a.push(T.e("[0]恢复了[toys]", this.r, this.r, null, null, 1, 1000, 100))
 				d.a.push($.v())
 				return a
-			}
-			else if (this.r.milky != 0 && u < 32 && this.r.toys == 1){
+			} else if (this.r.milky != 0 && u < 32 && this.r.toys == 1) {
 				d.a.push(T.e("[0]：啊咧", this.r, this.r, null, null, 1, 1000, 100))
-				if (this.r.holmes.length > 0){
-					for(t = 0; t < this.r.holmes.length; ++t){
+				if (this.r.holmes.length > 0) {
+					for (t = 0; t < this.r.holmes.length; ++t) {
 						w = this.r.holmes[t]
-						w.toys = 0
-						d.a.push(T.e("[0]", w, w, null, null, 0, 1000, 100))
-						if (w.e == "gray@!" && w.toys == 1){
-							w.dodge = w.dodge -75
-							w.resist = w.resist -75
-							if (w.mirage > 0){
-								w.mirage = 0
-								d.a.push(T.e("[0]从[幻想]中解除", w, w, null, null, 0, 1000, 100))
+						if (w.toys == 1) {
+							w.toys = 0
+							d.a.push(T.e("[0]", w, w, null, null, 0, 1000, 100))
+							if (w.e == "gray@!") {
+								w.dodge = w.dodge - 75
+								w.resist = w.resist - 75
+								if (w.mirage > 0) {
+									w.mirage = 0
+									d.a.push(T.e("[0]从[幻想]中解除", w, w, null, null, 0, 1000, 100))
+								}
+							}
+							if (w.e == "poirot@!") {
+								w.go = w.go / 4
+								w.relief = w.relief - 70
 							}
 						}
-						if (w.e == "poirot@!"){
-							w.go = w.go / 4
-							w.relief = w.relief -70
-						}
+
 					}
 				}
 				d.a.push(T.e("暂时失去了[toys]", this.r, this.r, null, null, 0, 1000, 100))
@@ -20137,18 +20138,16 @@
 			var t, u = a[0].a
 			t = this.r.Q > this.r.db ? T.u(this.r, !1, c) : T.u(this.r, !0, c)
 			d.a.push(T.e("[0]发起攻击", this.r, u, null, null, 0, 1000, 100))
-			if (this.r.e == "gray@!" && this.r.toys > 0){
+			if (this.r.e == "gray@!" && this.r.toys > 0) {
 				u.bL(t, !1, this.r, T.a3(), c, d)
-				if (a.fr > 0){
+				if (a.fr > 0) {
 					u.bL(t, !1, this.r, T.a3(), c, d)
-				}			
-			}
-			else if (this.r.e == "poirot@!" && this.r.toys > 0){
-				u.a0(t*1.5, !1, this.r, T.a3(), c, d)
-			}
-			else{
+				}
+			} else if (this.r.e == "poirot@!" && this.r.toys > 0) {
+				u.a0(t * 1.5, !1, this.r, T.a3(), c, d)
+			} else {
 				u.a0(t, !1, this.r, T.a3(), c, d)
-			}		
+			}
 		}
 	}
 	T.grayax.prototype = {
@@ -20159,7 +20158,7 @@
 			var u = this.x
 			u.cy = u.cy * 2.4
 			u.cx = u.cx * 1.2
-			if(u.dodge != null){
+			if (u.dodge != null) {
 				u.dodge = (u.dodge + this.z.dodge / 2) > 90 ? 90 : (u.dodge + this.z.dodge / 2)
 			}
 		},
@@ -20205,12 +20204,12 @@
 		am: function(a, b) {
 			var u
 			if (b) {
-				if (a.e == "gray@!"){
+				if (a.e == "gray@!") {
 					return !1
 				}
-				if (a.r1.h(0, "grayas") != null){
+				if (a.r1.h(0, "grayas") != null) {
 					return !1
-				}			
+				}
 			}
 			return !0
 		},
@@ -20225,19 +20224,19 @@
 			q.push(T.e(k, s, null, null, r, 1, 1000, 100))
 			for (u = 0; u < n.length; ++u) {
 				o = n[u]
-					q.push($.v())
-					t = H.o(o.r1.h(0, "grayas"), "$igrayax")
-					if (t == null && o.e != "gray@!") {
-						s.graya.push(o)	
-						t = new T.grayax(o)
-						t.z = s
-						t.y = new T.ay(t)
-						o.r1.k(0, "grayas", t)
-						o.r2.i(0, t)
-						o.x1.i(0, t.y)
-						o.E()
-						d.a.push(T.e("[1]的感知被强化了", s, o, null, null, 0, 1000, 100))
-					}				
+				q.push($.v())
+				t = H.o(o.r1.h(0, "grayas"), "$igrayax")
+				if (t == null && o.e != "gray@!") {
+					s.graya.push(o)
+					t = new T.grayax(o)
+					t.z = s
+					t.y = new T.ay(t)
+					o.r1.k(0, "grayas", t)
+					o.r2.i(0, t)
+					o.x1.i(0, t.y)
+					o.E()
+					d.a.push(T.e("[1]的感知被强化了", s, o, null, null, 0, 1000, 100))
+				}
 			}
 		}
 	}
@@ -20248,16 +20247,15 @@
 		ay: function(a, b, c, d) {
 			var s, v, n, m, t
 			s = this.r.fr <= (this.r.fx / 2) ? c.m() + 100 : c.m()
-			if (this.r.toys == 0 && c.m() > 155)
-			{
+			if (this.r.toys == 0 && c.m() > 155) {
 				this.r.mirage = this.r.mirage + 1
-				if (this.r.mirage == 1){
+				if (this.r.mirage == 1) {
 					d.a.push(T.e("[0]陷入[幻想]", this.r, this.r, null, null, 1, 1000, 100))
 				}
-				if (this.r.mirage > 1 && this.r.mirage <= 3){
+				if (this.r.mirage > 1 && this.r.mirage <= 3) {
 					d.a.push(T.e("[0][幻想]加深", this.r, this.r, null, null, 1, 1000, 100))
 				}
-				if (this.r.mirage > 3){
+				if (this.r.mirage > 3) {
 					this.r.toys = 2
 					this.r.mirage = 0
 					d.a.push(T.e("[0]的[幻想]加深...", this.r, this.r, null, null, 0, 1000, 100))
@@ -20266,8 +20264,7 @@
 					this.r.fr = this.r.fr > this.r.fx ? this.r.fr : this.r.fx
 					d.a.push($.v())
 					d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
-					if (this.r.graya.length == 0)
-					{
+					if (this.r.graya.length == 0) {
 						d.a.push($.v())
 						d.a.push(T.e("[0]: [zZZ]", this.r, this.r, null, null, 1, 1000, 100))
 						this.r.cx *= 2
@@ -20277,17 +20274,16 @@
 						this.r.Q *= 4
 						this.r.ch *= 4
 						this.r.dx *= 4
-						this.r.toys = 3		
+						this.r.toys = 3
 						d.a.push(T.e("[0]全属性增加", this.r, this.r, null, null, 0, 1000, 100))
-					}
-					else{
-						for (n = 0; n < this.r.graya.length; ++n){
-							m = this.r.graya[n]				
+					} else {
+						for (n = 0; n < this.r.graya.length; ++n) {
+							m = this.r.graya[n]
 							t = H.o(m.r1.h(0, "graybs"), "$igraybx")
 							if (t == null) {
 								t = new T.graybx()
-								t.r = m								
-								t.n = this.r	
+								t.r = m
+								t.n = this.r
 								t.aO(0)
 							}
 							d.a.push($.v())
@@ -20334,25 +20330,25 @@
 			t = T.u(s.r, !1, c) * s.fr
 			d.a.push(T.e("[0]：[欸嘿嘿嘿....]", this.r, this.r, null, null, 0, 1000, 100))
 			switch (n) {
-			case 1:
-				d.a.push(T.e("[0]: 在[幻想]中对[1]发起攻击", this.r, this.r, null, null, 0, 1000, 100))
-				u.a0(t * 1.5, !1, s.r, T.a3(), c, d)
-				break
-			case 2:
-				d.a.push(T.e("[0]陶醉于[幻想]", this.r, this.r, null, null, 0, 1000, 100))
-				v = this.r.fr
-				this.r.fr = this.r.fr + C.e.Z(t / 30) > this.r.fx ? this.r.fx : this.r.fr + C.e.Z(t / 30)
-				d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
-				break
-			case 3:
-				s.fr = s.fr + 0.5
-				d.a.push(T.e("[0]的[幻想]加深", this.r, this.r, null, null, 0, 1000, 100))
-				break
-			case 4:
-				s.fr = s.fr + 1
-				d.a.push(T.e("[0]的[幻想]加深", this.r, this.r, null, null, 0, 1000, 100))
-				break
-			}	
+				case 1:
+					d.a.push(T.e("[0]: 在[幻想]中对[1]发起攻击", this.r, this.r, null, null, 0, 1000, 100))
+					u.a0(t * 1.5, !1, s.r, T.a3(), c, d)
+					break
+				case 2:
+					d.a.push(T.e("[0]陶醉于[幻想]", this.r, this.r, null, null, 0, 1000, 100))
+					v = this.r.fr
+					this.r.fr = this.r.fr + C.e.Z(t / 30) > this.r.fx ? this.r.fx : this.r.fr + C.e.Z(t / 30)
+					d.a.push(T.e("[0]恢复[1]点生命", T.a1(this.r, v), new T.aG(this.r.fr - v), null, null, 0, 1000, 100))
+					break
+				case 3:
+					s.fr = s.fr + 0.5
+					d.a.push(T.e("[0]的[幻想]加深", this.r, this.r, null, null, 0, 1000, 100))
+					break
+				case 4:
+					s.fr = s.fr + 1
+					d.a.push(T.e("[0]的[幻想]加深", this.r, this.r, null, null, 0, 1000, 100))
+					break
+			}
 			if (s.n.toys != 2)
 				s.H(null, d)
 		},
@@ -20367,6 +20363,15 @@
 			var u, t, s, r, q, p, o, n, m
 			u = c.a
 			n = b.m()
+			if (!a.$iav) {
+				u.push(T.e("[0]: 1", this.r, this.r, null, null, 1, 1000, 100))
+			}
+			if (this.r.bq(b)) {
+				u.push(T.e("[0]: 2", this.r, this.r, null, null, 1, 1000, 100))
+			}
+			if (n < C.e.Z(640 * (this.r.fx - this.r.fr) / this.r.fx)) {
+				u.push(T.e("[0]: 3", this.r, this.r, null, null, 1, 1000, 100))
+			}
 			if (!a.$iav && this.r.bq(b) && n < C.e.Z(640 * (this.r.fx - this.r.fr) / this.r.fx)) {
 				u.push($.v())
 				u.push(T.e("[0]: [对...对不起...请原谅我...]", this.r, this.r, null, null, 1, 1000, 100))
@@ -22152,7 +22157,7 @@
 			var u, t, s, r, q = this,
 				p = q.x
 			if (p.fr > 0) {
-				u = 0.8*q.y
+				u = 0.8 * q.y
 				r = C.e.Z(u / (p.db + 64))
 				b.a.push(T.e("[1]: [烧伤]", q.r, p, null, null, 0, 1000, 100))
 				p.aA(r, q.r, T.a3(), a, b)
@@ -24965,7 +24970,7 @@
 			u = new T.dT()
 			u.f = 240
 			t.push(u)
-			
+
 		}
 	}
 	T.nero.prototype = {
@@ -24976,7 +24981,7 @@
 			var u, t = new T.milkyak()
 			t.r = this
 			this.k2 = t
-			t = this.id	
+			t = this.id
 			t.push(new T.milkyready())
 			u = new T.milkyholmes()
 			u.f = 1024
@@ -24993,7 +24998,7 @@
 		},
 		E: function() {
 			this.dL()
-			if (this.toys > 0){
+			if (this.toys > 0) {
 				this.dodge = this.dodge + 75
 				this.resist = this.resist + 75
 			}
@@ -25017,14 +25022,14 @@
 		},
 		E: function() {
 			this.dL()
-			if (this.toys == 1){
-				this.go = this.go * 4
-				this.relief = this.relief + 70
+			if (this.toys == 2) {
+				this.go = this.go * 8
+				this.relief = this.relief + 80
 			}
 			this.dL()
-			if (this.toys == 2){
-				this.go = this.go * 8
-				this.relief = this.relief + 85
+			if (this.toys == 1) {
+				this.go = this.go * 4
+				this.relief = this.relief + 70
 			}
 		},
 		aa: function() {
@@ -26562,24 +26567,24 @@
 				n = null,
 				m = (b.m() & 63) < o.dy,
 				l = o.fe(m, b, c)
-				if (o.reiki != null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
-					t = (b.m() & 1) + o.reikimp
-					if (t < 0) {
-						t = 0
-					}
-					if (o.reiki + t > o.reikimax) {
-						if (o.reiki > o.reikimax) {
-							t = 0
-						} else {
-							t = o.reikimax - o.reiki
-						}
-					}
-					o.reiki = o.reiki + t
-					//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
+			if (o.reiki != null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
+				t = (b.m() & 1) + o.reikimp
+				if (t < 0) {
+					t = 0
 				}
-				if (o.A)
-					return
-				if (l == null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
+				if (o.reiki + t > o.reikimax) {
+					if (o.reiki > o.reikimax) {
+						t = 0
+					} else {
+						t = o.reikimax - o.reiki
+					}
+				}
+				o.reiki = o.reiki + t
+				//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
+			}
+			if (o.A)
+				return
+			if (l == null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
 				u = (b.m() & 15) + 8
 				if (o.fy >= u) {
 					for (t = o.k3,
@@ -26685,7 +26690,7 @@
 				t = r.ch + u
 				s = c.Q + c.cy
 			}
-			if (r.dodge != null && C.d.Z((r.dodge > 95 ? 95 : r.dodge) * 2.56) > e.m()){
+			if (r.dodge != null && C.d.Z((r.dodge > 95 ? 95 : r.dodge) * 2.56) > e.m()) {
 				f.a.push(T.e(O.c("vVob"), r, c, null, null, 20, 1000, 100))
 				return 0
 			}
@@ -26701,7 +26706,7 @@
 		aA: function(a, b, c, d, e) {
 			var u, t, s, r, q, p = this
 			if (p.relief != null) {
-				a = p.relief >= 99 ? C.d.Z(a * 0.01) : C.e.Z(a * (100 - p.relief) / 100)	
+				a = p.relief >= 99 ? C.d.Z(a * 0.01) : C.e.Z(a * (100 - p.relief) / 100)
 			}
 			if (a < 0) {
 				u = p.fr
@@ -28801,14 +28806,14 @@
 		t(Z.hl, Z.ax)
 		s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
 		s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.targetready, T.reikirecover, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend, T.hellTaichiReflect, T.wargodSay, T.grayb1, T.poirotb1])
-		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.thdf, T.tha1n1, T.tha1n2, T.tha1n3, T.tha1s1, T.milkyholmes ,T.milkyready, T.milkyak, T.grayn1, T.graybx])
+		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.thdf, T.tha1n1, T.tha1n2, T.tha1n3, T.tha1s1, T.milkyholmes, T.milkyready, T.milkyak, T.grayn1, T.graybx])
 		s(T.M, [T.bf, T.co, T.dj, T.cG, T.seal, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade, T.ironbirdSimulateRun, T.grayax])
 		s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
 		s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])
 		s(T.D, [T.cg, T.dF, T.el])
 		s(T.J, [T.dE, T.fire, T.ay])
 		s(T.av, [T.hh, T.hi, T.ho, T.wargod])
-		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.ironbird, T.yeya, T.reimu , T.marisa , T.rumia , T.daiyousei , T.cirno , T.hong , T.koakuma , T.patchouli , T.sakuya , T.remilia , T.flandre , T.rin , T.letty , T.chen , T.alice , T.phantom , T.youmu , T.yuyuko , T.ran , T.yukari , T.suika , T.wriggle , T.mystia , T.keine , T.inaba , T.reisen , T.yagokoro , T.kaguya , T.mokou , T.aya , T.medicine , T.yuka , T.onozuka , T.shikieiki , T.aki , T.hina , T.nitori , T.momizi , T.sanae , T.kanako , T.suwako , T.iku , T.tenshi , T.kisume , T.yamame , T.parsee , T.yugi , T.satori , T.kaenbyou , T.utuho , T.koishi , T.nazrin , T.kogasa , T.ichirin , T.minamitu , T.shou , T.byakuren , T.nue , T.hatate, T.shellingford , T.nero , T.gray, T.poirot, T.targeta])
+		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.ironbird, T.yeya, T.reimu, T.marisa, T.rumia, T.daiyousei, T.cirno, T.hong, T.koakuma, T.patchouli, T.sakuya, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.suika, T.wriggle, T.mystia, T.keine, T.inaba, T.reisen, T.yagokoro, T.kaguya, T.mokou, T.aya, T.medicine, T.yuka, T.onozuka, T.shikieiki, T.aki, T.hina, T.nitori, T.momizi, T.sanae, T.kanako, T.suwako, T.iku, T.tenshi, T.kisume, T.yamame, T.parsee, T.yugi, T.satori, T.kaenbyou, T.utuho, T.koishi, T.nazrin, T.kogasa, T.ichirin, T.minamitu, T.shou, T.byakuren, T.nue, T.hatate, T.shellingford, T.nero, T.gray, T.poirot, T.targeta])
 		t(T.hg, T.cy)
 		t(T.f3, T.bA)
 		t(T.e_, T.dN, T.yuriSuperControl)
@@ -29238,7 +29243,7 @@
 		C.nero = H.a(u([24, 7, 26, 33, 23, -21, -10, 76]), [P.j])
 		C.gray = H.a(u([-3, 18, 4, 21, 3, 37, 9, 75]), [P.j])
 		C.poirot = H.a(u([4, 19, 8, -2, 12, 14, 14, 118]), [P.j])
-		
+
 		C.targeta = H.a(u([2, 9, 25, 15, 4, 10, -9, 658]), [P.j])
 
 		C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])
@@ -29283,7 +29288,7 @@
 		$.or = function() {
 			var u = P.f
 			return P.dq(["tigershark", "R0lGODlhEAAQAJEAAP8AAP///wAAAP///yH5BAEAAAMALAAAAAAQABAAAAI9nCepeS0AIxQNyQuoeSBgn1lQAI5lEpGSOnHjKqEgS2dPOad2l3fmTgoKg8ChccczsigcJUgjwkwqiyq0AAA7", "hell", "R0lGODlhEAAQAJEAAHb9/wAAAP///wAAACH5BAEAAAIALAAAAAAQABAAAAIslB2px5IAY2ov2omC3QBrvgUOCFbk9Z1SqnasarbiW2awaJf4EUNY41D8DAUAOw==", "dark", "R0lGODlhEAAQALMAAPr6+wQEAf7+/QwKAhEQDf38+xEODP79/f////z8/Pn5+QAAAP///wAAAAAAAAAAACH5BAEAAAwALAAAAAAQABAAAARIkEm5qp2YjYW6rxn3Wd0yiYhVGUFJlWpFcCZKpncFo7io9x3ADecpqkYdwY5HRAgSMV4NUTgUryaGbeii+EgKEOZnzGa0sUwEADs=", "yurix", "R0lGODlhEAAQAKEDAAAAAN4H28asxv///yH5BAEKAAMALAAAAAAQABAAAAI+hI85EB3s4DNBiFcvs3NjvmlL9WkesEDnKI7fw8Lpi6roMJ42jh8NNeEJVb+bsFc0HIfB5ZFhdPIO0mf0WAAAOw==", "ironbird", "R0lGODlhEAAQAKIAAGfh/ywtLf8AAP///wAAAAAAAAAAAAAAACwAAAAAEAAQAAADOzhK3K6QATKpJVHeWbHm3xVWYOecKBMEgrCu7erA7hsHjZluQO//Pglw2BMSgblj0ENRMjLHJ2Swkw4SADs=",
-				"yeya", 
+				"yeya",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAH9JREFUOE+tk10OwCAIg+VmenK4mUtdSKapP9vwEfGjVJCcc03kmJk8w7M8wYWqdohSCmMmlkcB9DUJotASIHJ3USvtMsUBUGXsD7GVAvepaWRGngDwUx3AK45+MQ+gIB4wVt550BT4hH02cWbgzkTcx80Bk38yzlMFr5fpzzpfC7V7BSjXHhMAAAAASUVORK5CYII=",
 				"reimu",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJNJREFUOE+1k0EOwCAIBOFn+HL5mc3GliBCk6bRgwcg45QCi8ig5Kgq+3BVx0io6oIQkYxJWZ0BxkhFUhCCzEx46ACAmaiycbnFAEq996mLIpwICfHW2izHhUZugOrrbzAA+FM7wFtEiLM6DMgsQk/M4Jkw64HXrhpKRNbEZxLTQXoBHBykcnjXxGYQNu/bMv1Z5wvj8YMF0QinpAAAAABJRU5ErkJggg==",
@@ -29352,7 +29357,7 @@
 				"byakuren", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAH9JREFUOE+tk10OwCAIg+VmenK4mUtdSKapP9vwEfGjVJCcc03kmJk8w7M8wYWqdohSCmMmlkcB9DUJotASIHJ3USvtMsUBUGXsD7GVAvepaWRGngDwUx3AK45+MQ+gIB4wVt550BT4hH02cWbgzkTcx80Bk38yzlMFr5fpzzpfC7V7BSjXHhMAAAAASUVORK5CYII=",
 				"nue", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAH9JREFUOE+tk10OwCAIg+VmenK4mUtdSKapP9vwEfGjVJCcc03kmJk8w7M8wYWqdohSCmMmlkcB9DUJotASIHJ3USvtMsUBUGXsD7GVAvepaWRGngDwUx3AK45+MQ+gIB4wVt550BT4hH02cWbgzkTcx80Bk38yzlMFr5fpzzpfC7V7BSjXHhMAAAAASUVORK5CYII=",
 				"hatate", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAH9JREFUOE+tk10OwCAIg+VmenK4mUtdSKapP9vwEfGjVJCcc03kmJk8w7M8wYWqdohSCmMmlkcB9DUJotASIHJ3USvtMsUBUGXsD7GVAvepaWRGngDwUx3AK45+MQ+gIB4wVt550BT4hH02cWbgzkTcx80Bk38yzlMFr5fpzzpfC7V7BSjXHhMAAAAASUVORK5CYII=",
-				"shellingford",	"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAGlJREFUOI1j/J+55T8DBYCFgYGBgaHchjzdnUegBkA5OEG5DaY81FImvDYQ4TLcBhDpLdwGdB5BdTYOA1kIKSDkKsKBCNNEViCiayy3wXAFYQPwGUiyAVi8SboLBp0BxKcDvAkJX0YiAADA5xtgCLfXkwAAAABJRU5ErkJggg==",
+				"shellingford", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAGlJREFUOI1j/J+55T8DBYCFgYGBgaHchjzdnUegBkA5OEG5DaY81FImvDYQ4TLcBhDpLdwGdB5BdTYOA1kIKSDkKsKBCNNEViCiayy3wXAFYQPwGUiyAVi8SboLBp0BxKcDvAkJX0YiAADA5xtgCLfXkwAAAABJRU5ErkJggg==",
 				"nero", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAGxJREFUOI1j/H+d4T8DBYCFgYGBgUHpNnm676lCDYByUIDSbUwxdHkGBgYm8qxGgMFoAIkBimoAGbGBasA9VdSQJ8JARDTiUkzAEOzpAKaJ7HSAbhgeVxAXjXhcQtgAfN5gIBSIRMQCI6XZGQDbCx3HZyClNAAAAABJRU5ErkJggg==",
 				"gray", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAGhJREFUOI1jbDjw/z8DBYCFgYGBIdWYPM2zz0INgHGQQaoxphi6PAMDAwMTIVsIuY6gAYQMYcEmiKwBnzdQDMBmCzGBizcQ8bkAayCmGpPmfAwDiNGA1wByDCEqGge3AdRJB+SEPgwAAI/+GcwLs8OtAAAAAElFTkSuQmCC",
 				"poirot", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAGhJREFUOI1jZDjA8J+BAsDCwMDAcNH+Ilma9Q/qQwyAcXCBi/YXMeRhljKRZTUSGGIGYAtskl2AbggLDnVYNWCLKRZsComxGcMAQukAXQ3BdHDR/iJB5+M1AJ+LiDKAWEMoDkRGSrMzAMC3KA4VbgzBAAAAAElFTkSuQmCC",

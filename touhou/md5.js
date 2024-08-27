@@ -20145,7 +20145,7 @@
 				}
 			} else if (this.r.e == "poirot@!" && this.r.toys > 0) {
 				d.a.push(T.e("[0]:[1]:", this.r.go, this.r.relief, null, null, 0, 1000, 100))
-				d.a.push(T.e("[2]:[3]:", this.r.dodge, this.r.resist, null, null, 0, 1000, 100))
+				d.a.push(T.e("[0]:[1]:", this.r.dodge, this.r.resist, null, null, 0, 1000, 100))
 				u.a0(t * 1.5, !1, this.r, T.a3(), c, d)
 			} else {
 				u.a0(t, !1, this.r, T.a3(), c, d)
@@ -25014,11 +25014,6 @@
 			return C.poirot
 		},
 		E: function() {
-			this.dL()
-			if (this.toys == 2) {
-				this.go = this.go * 8
-				this.relief = this.relief + 80
-			}
 			this.dL()
 			if (this.toys == 1) {
 				this.go = this.go * 4

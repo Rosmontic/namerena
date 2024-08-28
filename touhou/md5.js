@@ -12570,9 +12570,9 @@
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
 				_.go = 1
 				_.id = e
-				_.resist = 15
+				_.resist = 0
 				_.relief = 0
-				_.dodge = 10
+				_.dodge = 0
 				_.milky = 0
 				_.holmes = []
 				_.toys = 1
@@ -20074,8 +20074,6 @@
 					d.a.push(T.e("[少女幻想中...]", this.r, this.r, null, null, 0, 1000, 100))
 					if (u > 220) {
 						this.r.toys = 0
-						this.r.dodge = this.r.dodge - 75
-						this.r.resist = this.r.resist - 75
 						d.a.push(T.e("[0]从[深度幻想]中解除", this.r, this.r, null, null, 1, 1000, 100))
 						d.a.push($.v())
 						return a
@@ -20108,16 +20106,10 @@
 							w.toys = 0
 							d.a.push(T.e("[0]", w, w, null, null, 0, 1000, 100))
 							if (w.e == "gray@!") {
-								w.dodge = w.dodge - 75
-								w.resist = w.resist - 75
 								if (w.mirage > 0) {
 									w.mirage = 0
 									d.a.push(T.e("[0]从[幻想]中解除", w, w, null, null, 0, 1000, 100))
 								}
-							}
-							if (w.e == "poirot@!") {
-								w.go = w.go / 4
-								w.relief = w.relief - 70
 							}
 						}
 
@@ -20138,6 +20130,8 @@
 			var n, t, u = a[0].a
 			t = this.r.Q > this.r.db ? T.u(this.r, !1, c) : T.u(this.r, !0, c)
 			d.a.push(T.e("[0]发起攻击", this.r, u, null, null, 0, 1000, 100))
+			d.a.push(T.e("增幅[0]:减伤[1]", this.r.go, this.r.relief, null, null, 0, 1000, 100))
+			d.a.push(T.e("闪避[0]:抗性[1]", this.r.dodge, this.r.resist, null, null, 0, 1000, 100))
 			if (this.r.e == "gray@!" && this.r.toys > 0) {
 				u.bL(t, !1, this.r, T.a3(), c, d)
 				if (a.fr > 0) {
@@ -20146,8 +20140,6 @@
 			} else if (this.r.e == "poirot@!" && this.r.toys > 0) {
 				if (this.r.toys == 1){
 					d.a.push(T.e("[0]：[三重增加]的toys", this.r, u, null, null, 0, 1000, 100))
-					d.a.push(T.e("[0]:[1]:", this.r.go, this.r.relief, null, null, 0, 1000, 100))
-					d.a.push(T.e("[0]:[1]:", this.r.dodge, this.r.resist, null, null, 0, 1000, 100))
 					u.a0(t * 1.5, !1, this.r, T.a3(), c, d)
 				}
 				else {
@@ -25006,8 +24998,8 @@
 		E: function() {
 			this.dL()
 			if (this.toys > 0) {
-				this.dodge = this.dodge + 75
-				this.resist = this.resist + 75
+				this.dodge = this.dodge * 7
+				this.resist = this.resist * 8
 			}
 		},
 		aa: function() {
@@ -25030,8 +25022,8 @@
 		E: function() {
 			this.dL()
 			if (this.toys == 1) {
-				this.go = this.go 
-				this.relief = this.relief + 70
+				this.go = this.go * 4
+				this.relief = this.relief * 7
 			}
 		},
 		aa: function() {
@@ -26534,7 +26526,7 @@
 			u.A = !1
 			switch (u.e) {
 				case "gray@!":
-					u.resist = 15
+					u.resist = 10
 					u.dodge = 10
 					break
 				case "poirot@":

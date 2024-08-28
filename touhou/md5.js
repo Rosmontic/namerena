@@ -20129,7 +20129,7 @@
 		t: function(a, b, c, d) {
 			var n, t, u = a[0].a
 			t = this.r.Q > this.r.db ? T.u(this.r, !1, c) : T.u(this.r, !0, c)
-			d.a.push(T.e("[0]发起攻击", this.r, u, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]发起攻击toys[1]", this.r, this.r.toys, null, null, 0, 1000, 100))
 			d.a.push(T.e("增幅[0]:减伤[1]", this.r.go, this.r.relief, null, null, 0, 1000, 100))
 			d.a.push(T.e("闪避[0]:抗性[1]", this.r.dodge, this.r.resist, null, null, 0, 1000, 100))
 			if (this.r.e == "gray@!" && this.r.toys > 0) {

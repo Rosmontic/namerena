@@ -20095,6 +20095,12 @@
 				this.r.lose = 64
 				this.r.toys = 1
 				d.a.push(T.e("[0]恢复了[toys]", this.r, this.r, null, null, 1, 1000, 100))
+				if (w.e == "gray@!") {			
+					if (w.mirage > 0) {
+						w.mirage = 0
+						d.a.push(T.e("[0]从[幻想]中解除", w, w, null, null, 0, 1000, 100))
+					}
+				}
 				d.a.push($.v())
 				return a
 			} else if (this.r.milky != 0 && u < 32 && this.r.toys == 1) {
@@ -20106,10 +20112,12 @@
 							w.toys = 0
 							d.a.push(T.e("[0]", w, w, null, null, 0, 1000, 100))
 							if (w.e == "gray@!") {
-								if (w.mirage > 0) {
-									w.mirage = 0
-									d.a.push(T.e("[0]从[幻想]中解除", w, w, null, null, 0, 1000, 100))
-								}
+								w.dodge = w.dodge - 60
+								w.resist = w.resist - 80
+							}
+							if (w.e == "poirot@!") {
+								w.go = w.go / 4
+								w.relief = w.relief - 65
 							}
 						}
 
@@ -20162,7 +20170,7 @@
 			u.cy = u.cy * 2.4
 			u.cx = u.cx * 1.2
 			if (u.dodge != null) {
-				u.dodge = (u.dodge + this.z.dodge / 2) > 90 ? 90 : (u.dodge + this.z.dodge / 2)
+				u.dodge = (u.dodge + this.z.dodge / 2) > this.z.dodge ? this.z.dodge : (u.dodge + this.z.dodge / 2)
 			}
 		},
 		aq: function(a, b) {
@@ -24998,8 +25006,8 @@
 		E: function() {
 			this.dL()
 			if (this.toys > 0) {
-				this.dodge = this.dodge * 7
-				this.resist = this.resist * 8
+				this.dodge = this.dodge + 60
+				this.resist = this.resist + 80
 			}
 		},
 		aa: function() {
@@ -25023,7 +25031,7 @@
 			this.dL()
 			if (this.toys == 1) {
 				this.go = this.go * 4
-				this.relief = this.relief * 7
+				this.relief = this.relief + 65
 			}
 		},
 		aa: function() {

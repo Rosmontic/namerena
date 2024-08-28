@@ -8962,7 +8962,7 @@
 				_.x = a
 				_.y = null
 				_.z = null
-				_.Q = 999
+				_.Q = 9
 				_.c = _.b = _.a = null
 			},
 			graybx: function graybx() {
@@ -12572,7 +12572,7 @@
 				_.id = e
 				_.resist = 15
 				_.relief = 0
-				_.dodge = 15
+				_.dodge = 10
 				_.milky = 0
 				_.holmes = []
 				_.toys = 1
@@ -12615,7 +12615,7 @@
 				_.y = _.x = _.r = _.f = _.e = null
 				_.z = 0
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
-				_.go = 4
+				_.go = 1
 				_.id = e
 				_.resist = 0
 				_.relief = 10
@@ -20135,7 +20135,7 @@
 	}
 	T.milkyak.prototype = {
 		t: function(a, b, c, d) {
-			var t, u = a[0].a
+			var n, t, u = a[0].a
 			t = this.r.Q > this.r.db ? T.u(this.r, !1, c) : T.u(this.r, !0, c)
 			d.a.push(T.e("[0]发起攻击", this.r, u, null, null, 0, 1000, 100))
 			if (this.r.e == "gray@!" && this.r.toys > 0) {
@@ -20144,11 +20144,20 @@
 					u.bL(t, !1, this.r, T.a3(), c, d)
 				}
 			} else if (this.r.e == "poirot@!" && this.r.toys > 0) {
-				d.a.push(T.e("[0]:[1]:", this.r.go, this.r.relief, null, null, 0, 1000, 100))
-				d.a.push(T.e("[0]:[1]:", this.r.dodge, this.r.resist, null, null, 0, 1000, 100))
-				u.a0(t * 1.5, !1, this.r, T.a3(), c, d)
-			} else {
-				u.a0(t, !1, this.r, T.a3(), c, d)
+				if (this.r.toys == 1){
+					d.a.push(T.e("[0]：[三重增加]的toys", this.r, u, null, null, 0, 1000, 100))
+					d.a.push(T.e("[0]:[1]:", this.r.go, this.r.relief, null, null, 0, 1000, 100))
+					d.a.push(T.e("[0]:[1]:", this.r.dodge, this.r.resist, null, null, 0, 1000, 100))
+					u.a0(t * 1.5, !1, this.r, T.a3(), c, d)
+				}
+				else {
+					n = 0
+					d.a.push(T.e("[0]：对不起！对不起！对不起！", this.r, u, null, null, 0, 1000, 100))
+					do {
+						n = n + 1
+						u.a0(t, !1, this.r, T.a3(), c, d)
+					} while (a.fr > 0 && n < 6)
+				}	
 			}
 		}
 	}
@@ -20261,7 +20270,7 @@
 					this.r.toys = 2
 					this.r.mirage = 0
 					d.a.push(T.e("[0]的[幻想]加深...", this.r, this.r, null, null, 0, 1000, 100))
-					d.a.push(T.e("[0][幻想迸发]", this.r, this.r, null, null, 1, 1000, 100))
+					d.a.push(T.e("[0][toys迸发]", this.r, this.r, null, null, 1, 1000, 100))
 					v = this.r.fr
 					this.r.fr = this.r.fr > this.r.fx ? this.r.fr : this.r.fx
 					d.a.push($.v())
@@ -20365,11 +20374,16 @@
 			var u, t, s, r, q, p, o, n, m
 			u = c.a
 			n = b.m()
-			if (!a.$iav && this.r.bq(b) && n < C.e.Z(64 * (this.r.fx - this.r.fr) / this.r.fx)) {
+			if (this.r.toys != 2 && !a.$iav && this.r.bq(b) && n < C.e.Z(81 * (this.r.fx - this.r.fr) / this.r.fx)) {
 				u.push($.v())
-				u.push(T.e("[0]: [对...对不起...请原谅我...]", this.r, this.r, null, null, 1, 1000, 100))
+				u.push(T.e("[0]: [对...对不起...请原谅我...]", this.r, this.r, null, null, 0, 1000, 100))
 				this.r.toys = 2
+				u.push(T.e("[0][toys迸发]", this.r, this.r, null, null, 1, 1000, 100))
 				return !0
+			}if (this.r.toys == 2 && !a.$iav && this.r.bq(b) && n > 128){
+				u.push($.v())
+				u.push(T.e("[0]: [太好了...没有伤到你吧]", this.r, this.r, null, null, 0, 1000, 100))
+				this.r.toys = 1
 			}
 			return !1
 		},
@@ -25016,7 +25030,7 @@
 		E: function() {
 			this.dL()
 			if (this.toys == 1) {
-				this.go = this.go * 4
+				this.go = this.go 
 				this.relief = this.relief + 70
 			}
 		},
@@ -26518,6 +26532,15 @@
 			u.y = u.x
 			u.go = 1
 			u.A = !1
+			switch (u.e) {
+				case "gray@!":
+					u.resist = 15
+					u.dodge = 10
+					break
+				case "poirot@":
+					u.relief = 10
+					break
+			}
 			for (t = u.r2,
 				t = new F.ar(t, t.b, [H.n(t, 0)]); t.p();)
 				t.b.al(u)

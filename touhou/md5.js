@@ -25001,9 +25001,11 @@
 				this.dodge = this.dodge + 60
 				this.resist = this.resist + 80
 			}
-			if (this.toys == 0) {
+			if (this.toys == 0){
+				this.dL()
 				this.dodge = this.dodge - 60
 				this.resist = this.resist - 80
+
 			}
 		},
 		aa: function() {
@@ -25029,10 +25031,8 @@
 				this.go = this.go * 4
 				this.relief = this.relief + 65
 			}
-			this.dL()
-			if (this.toys == 0) {
-				this.go = this.go / 4
-				this.relief = this.relief - 65
+			if (this.toys == 0){
+				this.dL()
 			}
 		},
 		aa: function() {

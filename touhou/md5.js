@@ -26529,7 +26529,7 @@
 					u.resist = 10
 					u.dodge = 10
 					break
-				case "poirot@":
+				case "poirot@!":
 					u.relief = 10
 					break
 			}

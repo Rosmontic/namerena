@@ -20095,10 +20095,10 @@
 				this.r.lose = 64
 				this.r.toys = 1
 				d.a.push(T.e("[0]恢复了[toys]", this.r, this.r, null, null, 1, 1000, 100))
-				if (w.e == "gray@!") {			
-					if (w.mirage > 0) {
-						w.mirage = 0
-						d.a.push(T.e("[0]从[幻想]中解除", w, w, null, null, 0, 1000, 100))
+				if (this.r.e == "gray@!") {			
+					if (this.r.mirage > 0) {
+						this.r.mirage = 0
+						d.a.push(T.e("[0]从[幻想]中解除", this.r, this.r, null, null, 0, 1000, 100))
 					}
 				}
 				d.a.push($.v())

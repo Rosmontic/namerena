@@ -20111,14 +20111,6 @@
 						if (w.toys == 1) {
 							w.toys = 0
 							d.a.push(T.e("[0]", w, w, null, null, 0, 1000, 100))
-							if (w.e == "gray@!") {
-								w.dodge = w.dodge - 60
-								w.resist = w.resist - 80
-							}
-							if (w.e == "poirot@!") {
-								w.go = w.go / 4
-								w.relief = w.relief - 65
-							}
 						}
 
 					}
@@ -25009,6 +25001,10 @@
 				this.dodge = this.dodge + 60
 				this.resist = this.resist + 80
 			}
+			if (this.toys == 0) {
+				this.dodge = this.dodge - 60
+				this.resist = this.resist - 80
+			}
 		},
 		aa: function() {
 			var u, t = new T.milkyak()
@@ -25029,9 +25025,14 @@
 		},
 		E: function() {
 			this.dL()
-			if (this.toys == 1) {
+			if (this.toys > 0) {
 				this.go = this.go * 4
 				this.relief = this.relief + 65
+			}
+			this.dL()
+			if (this.toys == 0) {
+				this.go = this.go / 4
+				this.relief = this.relief - 65
 			}
 		},
 		aa: function() {

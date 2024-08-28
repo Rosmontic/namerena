@@ -24995,19 +24995,6 @@
 		gah: function() {
 			return C.gray
 		},
-		E: function() {
-			this.dL()
-			if (this.toys > 0) {
-				this.dodge = this.dodge + 60
-				this.resist = this.resist + 80
-			}
-			if (this.toys == 0){
-				this.dL()
-				this.dodge = this.dodge - 60
-				this.resist = this.resist - 80
-
-			}
-		},
 		aa: function() {
 			var u, t = new T.milkyak()
 			t.r = this
@@ -25024,16 +25011,6 @@
 	T.poirot.prototype = {
 		gah: function() {
 			return C.poirot
-		},
-		E: function() {
-			this.dL()
-			if (this.toys > 0) {
-				this.go = this.go * 4
-				this.relief = this.relief + 65
-			}
-			if (this.toys == 0){
-				this.dL()
-			}
 		},
 		aa: function() {
 			var u, t = new T.milkyak()
@@ -26535,11 +26512,12 @@
 			u.A = !1
 			switch (u.e) {
 				case "gray@!":
-					u.resist = 10
-					u.dodge = 10
+					u.resist = u.toys > 0 ? 90 : 10
+					u.dodge = u.toys > 0 ? 75 : 10
 					break
 				case "poirot@!":
-					u.relief = 10
+					u.relief = u.toys > 0 ? 75 : 10
+					u.go = u.toys > 0 ? 4 : 1
 					break
 			}
 			for (t = u.r2,

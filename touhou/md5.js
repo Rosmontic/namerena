@@ -25000,9 +25000,9 @@
 		},
 		E: function() {
 			this.dL()
-			if (this.toys == 0)
-				this.dodge = 10
-				this.resist = 10
+			if (this.toys > 0)
+				this.dodge = 75
+				this.resist = 90
 		},
 		aa: function() {
 			var u, t = new T.milkyak()
@@ -25024,8 +25024,8 @@
 		E: function() {
 			this.dL()
 			if (this.toys == 0)
-				this.relief = 10
-				this.go = 1
+				this.relief = 80
+				this.go = 4
 		},
 		aa: function() {
 			var u, t = new T.milkyak()
@@ -26525,16 +26525,6 @@
 			u.y = u.x
 			u.go = 1
 			u.A = !1
-			switch (u.e) {
-				case "gray@!":
-					u.resist = u.toys == 0 ? 10 : 90
-					u.dodge = u.toys == 0 ? 10 : 75
-					break
-				case "poirot@!":
-					u.relief = u.toys == 0 ? 10 : 75
-					u.go = u.toys == 0 ? 1 : 4
-					break
-			}
 			for (t = u.r2,
 				t = new F.ar(t, t.b, [H.n(t, 0)]); t.p();)
 				t.b.al(u)

@@ -20423,13 +20423,14 @@
 			s.skill = 1
 			r = H.a(n.slice(0), [H.n(n, 0)])
 			q = d.a
+			d.a.push(T.e("[0]: [1]", this.r, this.r.skill, null, null, 0, 1000, 100))
 			q.push(T.e(t, s, null, null, r, 1, 1000, 100))
 			p = T.u(this.r, !0, c) 
 			for (u = 0; u < n.length; ++u) {
 				o = n[u]
 				if (o.fr > 0) {
 					q.push($.v())
-					o.a0(u * 4.8 / (m + 0.6), !0, this.r, T.a3(), c, d)				
+					o.a0(p * 4.8 / (m + 0.6), !0, this.r, T.a3(), c, d)				
 				}
 			}
 
@@ -20469,7 +20470,7 @@
 				o = n[u]
 				if (o.fr > 0) {
 					q.push($.v())
-					o.a0(u * 4.8 / (m + 0.6), !0, this.r, T.a3(), c, d)				
+					o.a0(p * 4.8 / (m + 0.6), !0, this.r, T.a3(), c, d)				
 				}
 			}
 		}

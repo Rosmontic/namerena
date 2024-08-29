@@ -20074,6 +20074,7 @@
 					d.a.push(T.e("[少女幻想中...]", this.r, this.r, null, null, 0, 1000, 100))
 					if (u > 220) {
 						this.r.toys = 0
+						this.r.E()
 						d.a.push(T.e("[0]从[深度幻想]中解除", this.r, this.r, null, null, 1, 1000, 100))
 						d.a.push($.v())
 						return a
@@ -20094,6 +20095,7 @@
 			} else if (u <= this.r.lose && this.r.toys == 0) {
 				this.r.lose = 64
 				this.r.toys = 1
+				this.r.E()
 				d.a.push(T.e("[0]恢复了[toys]", this.r, this.r, null, null, 1, 1000, 100))
 				if (this.r.e == "gray@!") {			
 					if (this.r.mirage > 0) {
@@ -20110,6 +20112,7 @@
 						w = this.r.holmes[t]
 						if (w.toys == 1) {
 							w.toys = 0
+							w.E()
 							d.a.push(T.e("[0]", w, w, null, null, 0, 1000, 100))
 						}
 
@@ -24999,9 +25002,15 @@
 			return C.gray
 		},
 		E: function() {
-			if (this.toys > 0)
+			this.dL()
+			if (this.toys > 0){
 				this.dodge = 75
 				this.resist = 90
+			}
+			else if (this.toys == 0) {
+				this.dodge = 10
+				this.resist = 15
+			}
 		},
 		aa: function() {
 			var u, t = new T.milkyak()
@@ -25021,6 +25030,7 @@
 			return C.poirot
 		},
 		E: function() {
+			this.dL()
 			if (this.toys > 0) {
 				this.relief = 80
 				this.go = 4

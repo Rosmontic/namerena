@@ -24999,7 +24999,6 @@
 			return C.gray
 		},
 		E: function() {
-			this.dL()
 			if (this.toys > 0)
 				this.dodge = 75
 				this.resist = 90
@@ -25022,7 +25021,6 @@
 			return C.poirot
 		},
 		E: function() {
-			this.dL()
 			if (this.toys > 0) {
 				this.relief = 80
 				this.go = 4

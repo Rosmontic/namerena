@@ -25023,9 +25023,13 @@
 		},
 		E: function() {
 			this.dL()
-			if (this.toys == 0)
+			if (this.toys > 0) {
 				this.relief = 80
 				this.go = 4
+			} else if (this.toys == 0) {
+				this.relief = 10
+				this.go = 1
+			}
 		},
 		aa: function() {
 			var u, t = new T.milkyak()

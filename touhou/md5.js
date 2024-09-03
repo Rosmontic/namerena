@@ -26886,6 +26886,9 @@
 			if (this.e == "targeta@!") {
 				this.targetdamage = this.targetdamage + a
 			}
+			if (b.e == "targetb@!") {
+				b.targetdamage = b.targetdamage + a
+			}
 			return a
 		},
 		a0: function(a, b, c, d, e, f) {
@@ -28012,7 +28015,10 @@
 				r.r.bf(this.r.fr, null, c, d)
 				if (r.r.e == "targeta@!"){
 					d.a.push(T.e("[0]: 在[2]回合测试中，dpr为[1]", this.r, this.r.targetdamage / n, n, null, 0, 1000, 100))
-				}	
+				}
+				if (r.r.e == "targetb@!"){
+					d.a.push(T.e("[0]: 在[2]回合测试中，dtpr为[1]", this.r, this.r.targetdamage / n, n, null, 0, 1000, 100))
+				}
 			}
 			
 			return a

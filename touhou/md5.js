@@ -28007,11 +28007,14 @@
 			var u, t, s, r = this
 			n = 100
 			r.r.targettime = r.r.targettime + 1
-			if (r.r.targettime > n - 1 && r.r.e == "targeta@!") {
-				d.a.push(T.e("[0]: 在[2]回合测试中，dpr为[1]", this.r, this.r.targetdamage / n, n, null, 0, 1000, 100))
+			if (r.r.targettime > n - 1) {
+				r.r.fr = 0
+				r.r.bf(this.r.fr, null, c, d)
+				if (r.r.e == "targeta@!"){
+					d.a.push(T.e("[0]: 在[2]回合测试中，dpr为[1]", this.r, this.r.targetdamage / n, n, null, 0, 1000, 100))
+				}	
 			}
-			r.r.fr = 0
-			r.r.bf(this.r.fr, null, c, d)
+			
 			return a
 		},
 		T: function() {

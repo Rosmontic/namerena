@@ -20243,6 +20243,7 @@
 			r = H.a(n.slice(0), [H.n(n, 0)])
 			q = d.a
 			q.push(T.e(k, s, null, null, r, 1, 1000, 100))
+			d.a.push(T.e("22[0]22", this.f, this, null, null, 0, 1000, 100))
 			for (u = 0; u < n.length; ++u) {
 				o = n[u]
 				q.push($.v())
@@ -20398,7 +20399,7 @@
 	T.shellingfordn1.prototype = {
 		ai: function(a, b) {
 			this.r = a
-			this.f = this.r.skill == 0 ? 120 : 0
+			this.f = this.r.skill * 120
 		},
 		ar: function(a, b) {
 			if (this.r.toys != 1) {
@@ -20423,7 +20424,7 @@
 			s.skill = 1
 			r = H.a(n.slice(0), [H.n(n, 0)])
 			q = d.a
-			d.a.push(T.e("[0]: [1]", this.r, this.r.skill, null, null, 0, 1000, 100))
+			d.a.push(T.e("[0]: [1]", this.r.f, this.r.skill, null, null, 0, 1000, 100))
 			q.push(T.e(t, s, null, null, r, 1, 1000, 100))
 			p = T.u(this.r, !0, c) 
 			for (u = 0; u < n.length; ++u) {
@@ -20439,7 +20440,7 @@
 	T.shellingfordn2.prototype = {
 		ai: function(a, b) {
 			this.r = a
-			this.f = this.r.skill == 1 ? 120 : 0
+			this.f = (1 - this.r.skill) * 120
 		},
 		ar: function(a, b) {
 			if (this.r.toys != 1) {
@@ -24363,7 +24364,6 @@
 			return this.fr
 		}
 	}
-
 	T.yeya.prototype = {
 		gah: function() {
 			return C.yeya
@@ -24406,6 +24406,9 @@
 			t.push(u)
 			u = new T.thdf()
 			u.f = 1
+			t.push(u)
+			u = new T.aK()
+			u.f = 256
 			t.push(u)
 		}
 	}

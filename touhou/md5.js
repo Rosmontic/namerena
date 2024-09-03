@@ -26964,7 +26964,7 @@
 				if (c.millionPower) {
 					this.tigerCurse = true
 				}
-				if (this.this.targetdamage != null) {
+				if (this.targetdamage != null) {
 					if (this.targetdamage < 1000000) {
 						this.fr = this.fx
 						return a

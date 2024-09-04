@@ -24485,9 +24485,6 @@
 			u = new T.thaK()
 			u.f = 1
 			t.push(u)
-			u = new T.thdf()
-			u.f = 1
-			t.push(u)
 			u = new T.aK()
 			u.f = 256
 			t.push(u)
@@ -25251,16 +25248,16 @@
 			this.k2 = t
 			t = this.id
 			u = new T.dT()
-			u.f = 64
+			u.f = 26
 			t.push(u)
 			u = new T.dW()
-			u.f = 81
+			u.f = 51
 			t.push(u)
 			u = new T.i8()
-			u.f = 128
+			u.f = 77
 			t.push(u)
 			u = new T.hU()
-			u.f = 256
+			u.f = 102
 			t.push(u)
 
 		}
@@ -26772,16 +26769,7 @@
 				l = o.fe(m, b, c)
 			if (o.reiki != null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
 				t = (b.m() & 1) + o.reikimp
-				if (t < 0) {
-					t = 0
-				}
-				if (o.reiki + t > o.reikimax) {
-					if (o.reiki > o.reikimax) {
-						t = 0
-					} else {
-						t = o.reikimax - o.reiki
-					}
-				}
+				t = Math.max(0, Math.min(t, o.reikimax - o.reiki))
 				o.reiki = o.reiki + t
 				//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
 			}

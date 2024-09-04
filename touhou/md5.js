@@ -8837,8 +8837,6 @@
 			},
 			tha1n1: function tha1n1() {
 				var _ = this
-				_.fy = _.fx = _.fr = null
-				_.id = _.go = 0
 				_.e = !1
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
@@ -20060,7 +20058,7 @@
 		},
 		$iA: 1
 	}
-	T.tha1n2.prototype = {
+	T.tha1n1.prototype = {
 		ar: function(a, b) {
 			var u
 			if (this.r.meng != 0 || this.r.reiki <= 2) {
@@ -20069,20 +20067,11 @@
 			return this.aS(a, b)
 		},
 		t: function(a, b, c, d) {
-			var n, t, u, o = a[0].a
+			var u = a[0].a,
+				t = T.u(this.r, !0, c)
 			this.r.reiki = this.r.reiki - 2
-			n = (c.m() & 1) + 1
-			d.a.push(T.e("[0]使用 [梦符「二重结界」]", this.r, u, null, null, 1, 1000, 100))
-			d.a.push(T.e("[0]获得[1]层屏障", this.r, n, null, null, 0, 1000, 100))
-			u = H.o(this.r.r1.h(0, $.kl()), "$idK")
-				if (u == null) {
-					t = this.r
-					u = new T.dK(t)
-					t.r1.k(0, $.kl(), u)
-					r.r.y1.i(0, u)
-				}
-			u.x = u.x + n
-			return
+			d.a.push(T.e("[0]使用 [灵符「梦想封印」]", this.r, u, null, null, 1, 1000, 100))
+			u.a0(t * 1.2, !0, this.r, T.seala(), c, d)
 		}
 	}
 	T.tha1n2.prototype = {

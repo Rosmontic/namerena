@@ -20070,7 +20070,7 @@
 	}
 	T.pZ.prototype = {
 		ga1: function() {
-			return 5000
+			return 6000
 		},
 		gR: function() {
 			if (this.x > 0)
@@ -20079,8 +20079,9 @@
 		},
 		ak: function(a, b, c, d, e) {
 			var u = this.x
-			if (u === 0)
+			if (u === 0){
 				return a
+			}
 			this.x = this.x - 1
 			e.a.push(T.e("pZ[0]:[1]", this.r, a, null, null, 40, 1000, 100))
 			a = 0
@@ -20104,15 +20105,16 @@
 			this.r.reiki = this.r.reiki - this.mp
 			n = (c.m() & 1) + 1
 			d.a.push(T.e("[0]使用 [梦符「二重结界」]", this.r, u, null, null, 1, 1000, 100))
-			d.a.push(T.e("[0]获得[1]层屏障", this.r, n, null, null, 0, 1000, 100))
 			u = H.o(this.r.r1.h(0, "pZs"), "$ipZ")
-				if (u == null) {
-					t = this.r
-					u = new T.pZ(t)
-					t.r1.k(0, "pZs", u)
-					r.r.y1.i(0, u)
-				}
+			if (u == null) {
+				d.a.push(T.e("[0]屏障", this.r, n, null, null, 0, 1000, 100))
+				t = this.r
+				u = new T.pZ(t)
+				t.r1.k(0, "pZs", u)
+				r.r.y1.i(0, u)
+			}	
 			u.x = u.x + n
+			d.a.push(T.e("[0]获得[1]层屏障", this.r, n, null, null, 0, 1000, 100))
 			return
 		}
 	}

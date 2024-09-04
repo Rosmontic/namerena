@@ -20109,10 +20109,8 @@
 			if (u == null) {
 				t = this.r
 				u = new T.pZ(t)
-				d.a.push(T.e("[0]屏障0", this.r, n, null, null, 0, 1000, 100))
 				t.r1.k(0, "pZs", u)
-				d.a.push(T.e("[0]屏障1", this.r, n, null, null, 0, 1000, 100))
-				r.r.y1.i(0, u)
+				this.r.y1.i(0, u)
 			}	
 			u.x = u.x + n
 			d.a.push(T.e("[0]获得[1]层屏障", this.r, n, null, null, 0, 1000, 100))

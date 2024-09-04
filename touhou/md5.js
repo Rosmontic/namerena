@@ -8837,18 +8837,21 @@
 			},
 			tha1n1: function tha1n1() {
 				var _ = this
+				_.mp = 2
 				_.e = !1
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
 			},
 			tha1n2: function tha1n2() {
 				var _ = this
+				_.mp = 2
 				_.e = !1
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
 			},
 			tha1n3: function tha1n3() {
 				var _ = this
+				_.mp = 4
 				_.e = !1
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
@@ -13808,6 +13811,12 @@
 				_.x = 0
 				_.c = _.b = _.a = null
 			},
+			pZ: function pZ(a) {
+				var _ = this
+				_.r = a
+				_.x = 0
+				_.c = _.b = _.a = null
+			},
 			ih: function ih() {
 				var _ = this
 				_.e = !1
@@ -14005,7 +14014,8 @@
 				_.r = c
 			},
 			ek: function ek() {},
-			el: function el() {}
+			el: function el() {},
+			en: function en() {}
 		},
 		Q = {
 			eB: function() {
@@ -20058,26 +20068,58 @@
 		},
 		$iA: 1
 	}
+	T.pZ.prototype = {
+		ga1: function() {
+			return 5000
+		},
+		gR: function() {
+			if (this.x > 0)
+				return 1
+			return 0
+		},
+		ak: function(a, b, c, d, e) {
+			var u = this.x
+			if (u === 0)
+				return a
+			this.x = this.x - 1
+			e.a.push(T.e("pZ[0]:[1]", this.r, a, null, null, 40, 1000, 100))
+			a = 0
+			return a
+		},
+		H: function(a, b) {
+			this.C()
+			this.r.r1.S(0, "pZs")
+		}
+	}
 	T.tha1n1.prototype = {
 		ar: function(a, b) {
 			var u
-			if (this.r.meng != 0 || this.r.reiki <= 2) {
+			if (this.r.meng != 0 || this.r.reiki <= this.mp) {
 				return !1
 			}
 			return this.aS(a, b)
 		},
 		t: function(a, b, c, d) {
-			var u = a[0].a,
-				t = T.u(this.r, !0, c)
-			this.r.reiki = this.r.reiki - 2
-			d.a.push(T.e("[0]使用 [灵符「梦想封印」]", this.r, u, null, null, 1, 1000, 100))
-			u.a0(t * 1.2, !0, this.r, T.seala(), c, d)
+			var n, t, u, o = a[0].a
+			this.r.reiki = this.r.reiki - this.mp
+			n = (c.m() & 1) + 1
+			d.a.push(T.e("[0]使用 [梦符「二重结界」]", this.r, u, null, null, 1, 1000, 100))
+			d.a.push(T.e("[0]获得[1]层屏障", this.r, n, null, null, 0, 1000, 100))
+			u = H.o(this.r.r1.h(0, "pZs"), "$ipZ")
+				if (u == null) {
+					t = this.r
+					u = new T.pZ(t)
+					t.r1.k(0, "pZs", u)
+					r.r.y1.i(0, u)
+				}
+			u.x = u.x + n
+			return
 		}
 	}
 	T.tha1n2.prototype = {
 		ar: function(a, b) {
 			var u
-			if (this.r.meng != 0 || this.r.reiki <= 2) {
+			if (this.r.meng != 0 || this.r.reiki <= this.mp) {
 				return !1
 			}
 			return this.aS(a, b)
@@ -20093,7 +20135,7 @@
 	T.tha1n3.prototype = {
 		ar: function(a, b) {
 			var u
-			if (this.r.meng != 0 || this.r.reiki <= 4) {
+			if (this.r.meng != 0 || this.r.reiki <= this.mp) {
 				return !1
 			}
 			return this.aS(a, b)
@@ -24553,6 +24595,9 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			u = new T.tha1n1()
+			u.f = 150
+			t.push(u)
 			u = new T.tha1s1()
 			u.f = 15
 			t.push(u)
@@ -28076,7 +28121,7 @@
 		},
 		ak: function(a, b, c, d, e) {
 			var u = this.x
-			e.a.push(T.e("[0]:[1]", this.r, a, null, null, 40, 1000, 100))
+			e.a.push(T.e("dK[0]:[1]", this.r, a, null, null, 40, 1000, 100))
 			if (u === 0)
 				return a
 			if (a > u) {
@@ -28878,6 +28923,7 @@
 	}
 	T.ek.prototype = {}
 	T.el.prototype = {}
+	T.en.prototype = {}
 	O.az.prototype = {
 		dq: function(a, b, c) {
 			var u, t, s, r, q, p, o = b.length
@@ -29155,6 +29201,7 @@
 		t(T.ek, T.K)
 		t(T.bR, T.ek)
 		t(T.dK, T.el)
+		t(T.pZ, T.en)
 		s(T.b1, [T.f5, T.cL, T.fw, T.cx, T.hw, T.cM, T.iS])
 		t(T.ib, T.dU)
 		t(T.hP, T.bU)
@@ -29176,6 +29223,7 @@
 		u(W.ex, W.cp)
 		u(T.ek, T.p)
 		u(T.el, T.p)
+		u(T.en, T.p)
 	})()
 	var v = {
 		mangledGlobalNames: {

@@ -10025,7 +10025,7 @@
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
 				_.go = 1
 				_.id = e
-				_.resist = 100
+				_.resist = 40
 				_.relief = 20
 				_.reiki = 0
 				_.reikimp = 2
@@ -20060,91 +20060,30 @@
 		},
 		$iA: 1
 	}
-	T.tha1n1.prototype = {
-		ga1: function() {
-			return 4000
-		},
+	T.tha1n2.prototype = {
 		ar: function(a, b) {
-			if (this.fr.a != null)
+			var u
+			if (this.r.meng != 0 || this.r.reiki <= 2) {
 				return !1
-			if (this.r.meng != 0)
-				return !1
-			if (this.r.reiki <= 3)
-				return !1
+			}
 			return this.aS(a, b)
 		},
-		a9: function(a, b, c) {
-			return H.a([], [T.Z])
-		},
 		t: function(a, b, c, d) {
-			var u = this,
-				t = null,
-				s = "[0]发动[梦符「二重结界」]",
-				r = u.r,
-				q = d.a
-			this.r.reiki = this.r.reiki - 3
-			q.push(T.e(s, r, r, t, t, 1, 1000, 100))
-			u.r.y1.i(0, u.fr)
-			u.r.x1.i(0, u.fx)
-			u.r.r2.i(0, u.fy)
-			u.r.r1.k(0, $.l2(), u)
-			u.r.E()
-			u.id = 3
-			r = u.r
-			u.go = 200
-			s = u.r
-			s.j = s.j
-			r = u.r
-		},
-		ak: function(a, b, c, d, e) {
-			var u
-			if (a > 0) {
-				u = b.millionPower ? 0 : this.go
-				if (a <= u) {
-					this.go = u - 0
-					a = 1
-				} else {
-					a -= u
-					this.H(b, e)
+			var n, t, u, o = a[0].a
+			this.r.reiki = this.r.reiki - 2
+			n = (c.m() & 1) + 1
+			d.a.push(T.e("[0]使用 [梦符「二重结界」]", this.r, u, null, null, 1, 1000, 100))
+			d.a.push(T.e("[0]获得[1]层屏障", this.r, n, null, null, 0, 1000, 100))
+			u = H.o(this.r.r1.h(0, $.kl()), "$idK")
+				if (u == null) {
+					t = this.r
+					u = new T.dK(t)
+					t.r1.k(0, $.kl(), u)
+					r.r.y1.i(0, u)
 				}
-				return a
-			}
-			return 0
-		},
-		aq: function(a, b) {
-			var u
-			if (--this.id === 0) {
-				this.H(null, b)
-				u = this.r
-				u.j = u.j - 128
-			}
-		},
-		al: function(a) {
-			this.r.J *= 1.2
-		},
-		gR: function() {
-			return this.id
-		},
-		H: function(a, b) {
-			var u, t, s, r = this
-			r.fr.C()
-			r.fx.C()
-			r.fy.C()
-			r.r.r1.S(0, $.l2())
-			r.r.E()
-			u = b.a
-			if (a != null) {
-				u.push($.v())
-				u.push(T.ap("[1]的[结界]被打破了", a, r.r))
-			} else {
-				u.push($.v())
-				t = "[1]的[结界]解除了"
-				s = r.r
-				u.push(T.ap(t, s, s))
-			}
-			r.go = r.id = 0
-		},
-		$ip: 1
+			u.x = u.x + n
+			return
+		}
 	}
 	T.tha1n2.prototype = {
 		ar: function(a, b) {
@@ -20158,7 +20097,7 @@
 			var u = a[0].a,
 				t = T.u(this.r, !0, c)
 			this.r.reiki = this.r.reiki - 2
-			d.a.push(T.e("[0]: 使用[灵符「梦想封印」]", this.r, u, null, null, 1, 1000, 100))
+			d.a.push(T.e("[0]使用 [灵符「梦想封印」]", this.r, u, null, null, 1, 1000, 100))
 			u.a0(t * 1.2, !0, this.r, T.seala(), c, d)
 		}
 	}
@@ -22239,6 +22178,7 @@
 					a -= u
 					this.H(b, e)
 				}
+				e.a.push(T.e("i1,[0]:[1]", this.r, a, null, null, 40, 1000, 100))
 				return a
 			}
 			return 0
@@ -25445,7 +25385,7 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
-			u = new T.il()
+			u = new T.i1()
 			f = new T.dF(1 / 0, u)
 			u.fr = f
 			u.fx = new T.ay(u)
@@ -25458,7 +25398,12 @@
 			u.fx = new T.cB(u)
 			u.f = 215
 			t.push(u)
-
+			u = new T.ih()
+			u.f = 256
+			t.push(u)
+			u = new T.dQ()
+			u.f = 256
+			t.push(u)
 		}
 	}
 
@@ -28142,6 +28087,7 @@
 		},
 		ak: function(a, b, c, d, e) {
 			var u = this.x
+			e.a.push(T.e("[0]:[1]", this.r, a, null, null, 40, 1000, 100))
 			if (u === 0)
 				return a
 			if (a > u) {
@@ -28151,6 +28097,7 @@
 				this.x = u - a
 				a = 0
 			}
+			e.a.push(T.e("end,[0]:[1]", this.r, a, null, null, 40, 1000, 100))
 			return a
 		},
 		H: function(a, b) {

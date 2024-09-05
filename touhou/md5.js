@@ -7937,82 +7937,6 @@
 						g.at(a, u)
 						return g
 					}
-					if (a == "targetc") {
-						t = H.d(a) + H.d($.ah())
-						s = H.a([], [T.H])
-						r = H.a([], [T.y])
-						q = P.U(P.f, T.p)
-						p = new F.b([T.M])
-						p.c = p
-						p.b = p
-						o = new F.b([T.L])
-						o.c = o
-						o.b = o
-						n = new F.b([T.G])
-						n.c = n
-						n.b = n
-						m = new F.b([T.J])
-						m.c = m
-						m.b = m
-						l = new F.b([T.K])
-						l.c = l
-						l.b = l
-						k = new F.b([T.D])
-						k.c = k
-						k.b = k
-						j = new F.b([T.A])
-						j.c = j
-						j.b = j
-						i = new F.b([T.C])
-						i.c = i
-						i.b = i
-						h = new F.b([T.I])
-						h.c = h
-						h.b = h
-						g = [P.j]
-						g = new T.targetc(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
-						g.Y(a, u, t, f)
-						g.at(a, u)
-						return g
-					}
-					if (a == "targetd") {
-						t = H.d(a) + H.d($.ah())
-						s = H.a([], [T.H])
-						r = H.a([], [T.y])
-						q = P.U(P.f, T.p)
-						p = new F.b([T.M])
-						p.c = p
-						p.b = p
-						o = new F.b([T.L])
-						o.c = o
-						o.b = o
-						n = new F.b([T.G])
-						n.c = n
-						n.b = n
-						m = new F.b([T.J])
-						m.c = m
-						m.b = m
-						l = new F.b([T.K])
-						l.c = l
-						l.b = l
-						k = new F.b([T.D])
-						k.c = k
-						k.b = k
-						j = new F.b([T.A])
-						j.c = j
-						j.b = j
-						i = new F.b([T.C])
-						i.c = i
-						i.b = i
-						h = new F.b([T.I])
-						h.c = h
-						h.b = h
-						g = [P.j]
-						g = new T.targetd(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
-						g.Y(a, u, t, f)
-						g.at(a, u)
-						return g
-					}
 
 					if (a == $.kk()) {
 						t = H.d(a) + H.d($.ah())
@@ -8837,21 +8761,20 @@
 			},
 			tha1n1: function tha1n1() {
 				var _ = this
-				_.mp = 2
+				_.fy = _.fx = _.fr = null
+				_.id = _.go = 0
 				_.e = !1
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
 			},
 			tha1n2: function tha1n2() {
 				var _ = this
-				_.mp = 2
 				_.e = !1
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
 			},
 			tha1n3: function tha1n3() {
 				var _ = this
-				_.mp = 4
 				_.e = !1
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
@@ -10026,7 +9949,7 @@
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
 				_.go = 1
 				_.id = e
-				_.resist = 40
+				_.resist = 100
 				_.relief = 20
 				_.reiki = 0
 				_.reikimp = 2
@@ -12865,94 +12788,6 @@
 				_.X = _.W = !1
 				_.F = null
 			},
-			targetc: function targetc(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
-				var _ = this
-				_.aI = 0
-				_.aP = _.bb = _.af = null
-				_.a = a
-				_.b = b
-				_.c = c
-				_.d = d
-				_.y = _.x = _.r = _.f = _.e = null
-				_.z = 0
-				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
-				_.go = 0.01
-				_.id = e
-				_.resist = 0
-				_.targettime = 0
-				_.targetdamage = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
-				_.k2 = _.k1 = null
-				_.k3 = f
-				_.k4 = null
-				_.r1 = g
-				_.r2 = h
-				_.rx = i
-				_.ry = j
-				_.x1 = k
-				_.x2 = l
-				_.y1 = m
-				_.y2 = n
-				_.I = o
-				_.N = p
-				_.A = !1
-				_.u = q
-				_.U = null
-				_.D = r
-				_.q = s
-				_.a_ = t
-				_.V = _.O = _.L = 0
-				_.J = 327680
-				_.j = 0
-				_.X = _.W = !1
-				_.F = null
-			},
-			targetd: function targetd(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
-				var _ = this
-				_.aI = 0
-				_.aP = _.bb = _.af = null
-				_.a = a
-				_.b = b
-				_.c = c
-				_.d = d
-				_.y = _.x = _.r = _.f = _.e = null
-				_.z = 0
-				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
-				_.go = 0.01
-				_.id = e
-				_.resist = 0
-				_.targettime = 0
-				_.targetdamage = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
-				_.k2 = _.k1 = null
-				_.k3 = f
-				_.k4 = null
-				_.r1 = g
-				_.r2 = h
-				_.rx = i
-				_.ry = j
-				_.x1 = k
-				_.x2 = l
-				_.y1 = m
-				_.y2 = n
-				_.I = o
-				_.N = p
-				_.A = !1
-				_.u = q
-				_.U = null
-				_.D = r
-				_.q = s
-				_.a_ = t
-				_.V = _.O = _.L = 0
-				_.J = 327680
-				_.j = 0
-				_.X = _.W = !1
-				_.F = null
-			},
 
 			d8: function d8(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
@@ -13811,12 +13646,6 @@
 				_.x = 0
 				_.c = _.b = _.a = null
 			},
-			pZ: function pZ(a) {
-				var _ = this
-				_.r = a
-				_.x = 0
-				_.c = _.b = _.a = null
-			},
 			ih: function ih() {
 				var _ = this
 				_.e = !1
@@ -14014,8 +13843,7 @@
 				_.r = c
 			},
 			ek: function ek() {},
-			el: function el() {},
-			en: function en() {}
+			el: function el() {}
 		},
 		Q = {
 			eB: function() {
@@ -20047,80 +19875,122 @@
 		$iG: 1
 	}
 	T.thdf.prototype = {
-		T: function() {
-			this.r.y2.i(0, this)
+		ga1: function() {
+			return 2000
 		},
-		ay: function(a, b, c, d) {
-			var n, m, o = this.r
+		ak: function(a, b, c, d, e) {
+			var u = a > 0,
+				n, m, o = this.r
 			switch (o.e) {
 				case "reimu@!":
-					if (c.m() < 128 && o.yibian == 0) {
+					if (u && d.m() < 128 && o.yibian == 0) {
 						o.yibian = 1
 						o.j = o.j + 512
 						o.go = o.go + 0.1
 						if (o.meng > 0) {
 							o.j = o.j + 1536
 						}
-						d.a.push(T.e("[0]：这是异变啊！", this.r, null, null, null, 1, 1000, 100))
+						e.a.push(T.e("[0]：这是异变啊！", this.r, null, null, null, a, 1000, 100))
 					}
+					return a
 			}
-			
-		},
-		$iA: 1
-	}
-	T.pZ.prototype = {
-		ga1: function() {
-			return 5000
-		},
-		gR: function() {
-			if (this.x > 0)
-				return 1
-			return 0
-		},
-		ak: function(a, b, c, d, e) {
-			var u = this.x
-			if (u === 0){
-				return a
-			}
-			this.x = this.x - 1
-			e.a.push(T.e("[0]:[1]", this.r, a, null, null, 40, 1000, 100))
-			a = 0
 			return a
 		},
-		H: function(a, b) {
-			this.C()
-			this.r.r1.S(0, "pZs")
-		}
+		T: function() {
+			this.r.y1.i(0, this)
+		},
+		$iD: 1
 	}
 	T.tha1n1.prototype = {
+		ga1: function() {
+			return 4000
+		},
 		ar: function(a, b) {
-			var u
-			if (this.r.meng != 0 || this.r.reiki <= this.mp) {
+			if (this.fr.a != null)
 				return !1
-			}
+			if (this.r.meng != 0)
+				return !1
+			if (this.r.reiki <= 3)
+				return !1
 			return this.aS(a, b)
 		},
+		a9: function(a, b, c) {
+			return H.a([], [T.Z])
+		},
 		t: function(a, b, c, d) {
-			var n, t, u, o = a[0].a
-			this.r.reiki = this.r.reiki - this.mp
-			n = (c.m() & 1) + 1
-			d.a.push(T.e("[0]使用 [梦符「二重结界」]", this.r, u, null, null, 1, 1000, 100))
-			u = H.o(this.r.r1.h(0, "pZs"), "$ipZ")
-			if (u == null) {
-				t = this.r
-				u = new T.pZ(t)
-				t.r1.k(0, "pZs", u)
-				this.r.y1.i(0, u)
-			}	
-			u.x = u.x + n
-			d.a.push(T.e("[0]获得[1]层屏障", this.r, n, null, null, 0, 1000, 100))
-			return
-		}
+			var u = this,
+				t = null,
+				s = "[0]发动[梦符「二重结界」]",
+				r = u.r,
+				q = d.a
+			this.r.reiki = this.r.reiki - 3
+			q.push(T.e(s, r, r, t, t, 1, 1000, 100))
+			u.r.y1.i(0, u.fr)
+			u.r.x1.i(0, u.fx)
+			u.r.r2.i(0, u.fy)
+			u.r.r1.k(0, $.l2(), u)
+			u.r.E()
+			u.id = 3
+			r = u.r
+			u.go = 200
+			s = u.r
+			s.j = s.j
+			r = u.r
+		},
+		ak: function(a, b, c, d, e) {
+			var u
+			if (a > 0) {
+				u = b.millionPower ? 0 : this.go
+				if (a <= u) {
+					this.go = u - 0
+					a = 1
+				} else {
+					a -= u
+					this.H(b, e)
+				}
+				return a
+			}
+			return 0
+		},
+		aq: function(a, b) {
+			var u
+			if (--this.id === 0) {
+				this.H(null, b)
+				u = this.r
+				u.j = u.j - 128
+			}
+		},
+		al: function(a) {
+			this.r.J *= 1.2
+		},
+		gR: function() {
+			return this.id
+		},
+		H: function(a, b) {
+			var u, t, s, r = this
+			r.fr.C()
+			r.fx.C()
+			r.fy.C()
+			r.r.r1.S(0, $.l2())
+			r.r.E()
+			u = b.a
+			if (a != null) {
+				u.push($.v())
+				u.push(T.ap("[1]的[结界]被打破了", a, r.r))
+			} else {
+				u.push($.v())
+				t = "[1]的[结界]解除了"
+				s = r.r
+				u.push(T.ap(t, s, s))
+			}
+			r.go = r.id = 0
+		},
+		$ip: 1
 	}
 	T.tha1n2.prototype = {
 		ar: function(a, b) {
 			var u
-			if (this.r.meng != 0 || this.r.reiki <= this.mp) {
+			if (this.r.meng != 0 || this.r.reiki <= 2) {
 				return !1
 			}
 			return this.aS(a, b)
@@ -20129,14 +19999,14 @@
 			var u = a[0].a,
 				t = T.u(this.r, !0, c)
 			this.r.reiki = this.r.reiki - 2
-			d.a.push(T.e("[0]使用 [灵符「梦想封印」]", this.r, u, null, null, 1, 1000, 100))
+			d.a.push(T.e("[0]: 使用[灵符「梦想封印」]", this.r, u, null, null, 1, 1000, 100))
 			u.a0(t * 1.2, !0, this.r, T.seala(), c, d)
 		}
 	}
 	T.tha1n3.prototype = {
 		ar: function(a, b) {
 			var u
-			if (this.r.meng != 0 || this.r.reiki <= this.mp) {
+			if (this.r.meng != 0 || this.r.reiki <= 4) {
 				return !1
 			}
 			return this.aS(a, b)
@@ -22210,7 +22080,6 @@
 					a -= u
 					this.H(b, e)
 				}
-				e.a.push(T.e("i1,[0]:[1]", this.r, a, null, null, 40, 1000, 100))
 				return a
 			}
 			return 0
@@ -24596,11 +24465,16 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
-			u = new T.tha1n1()
-			u.f = 150
-			t.push(u)
 			u = new T.tha1s1()
 			u.f = 15
+			t.push(u)
+			u = new T.tha1n1()
+			f = new T.dF(1 / 0, u)
+			u.fr = f
+			u.fx = new T.ay(u)
+			u.fy = new T.aN(u)
+			f.r = 10
+			u.f = 35
 			t.push(u)
 			u = new T.tha1n2()
 			u.f = 50
@@ -24608,11 +24482,15 @@
 			u = new T.tha1n3()
 			u.f = 80
 			t.push(u)
+			u = new T.thaK()
+			u.f = 1
+			t.push(u)
+			u = new T.thdf()
+			u.f = 1
+			t.push(u)
 			u = new T.aK()
 			u.f = 256
 			t.push(u)
-			t.push(new T.thaK())
-			t.push(new T.thdf())
 		}
 	}
 	T.marisa.prototype = {
@@ -25379,66 +25257,12 @@
 			u.f = 51
 			t.push(u)
 			u = new T.i8()
-			u.f = 72
+			u.f = 77
 			t.push(u)
 			u = new T.hU()
-			u.f = 112
+			u.f = 102
 			t.push(u)
 
-		}
-	}
-	T.targetc.prototype = {
-		gah: function() {
-			return C.targetc
-		},
-		aa: function() {
-			var u, t = new T.aK()
-			t.r = this
-			this.k2 = t
-			t = this.id
-			u = new T.hL()
-			u.f = 26
-			t.push(u)
-			u = new T.dN()
-			u.f = 51
-			t.push(u)
-			u = new T.dR()
-			u.f = 72
-			t.push(u)
-			u = new T.ij()
-			u.f = 112
-			t.push(u)
-
-		}
-	}
-	T.targetd.prototype = {
-		gah: function() {
-			return C.targetd
-		},
-		aa: function() {
-			var u, t = new T.aK()
-			t.r = this
-			this.k2 = t
-			t = this.id
-			u = new T.i1()
-			f = new T.dF(1 / 0, u)
-			u.fr = f
-			u.fx = new T.ay(u)
-			u.fy = new T.aN(u)
-			f.r = 10
-			u.f = 40
-			t.push(u)
-			u = new T.hK()
-			u.fr = new T.bP(u)
-			u.fx = new T.cB(u)
-			u.f = 215
-			t.push(u)
-			u = new T.ih()
-			u.f = 256
-			t.push(u)
-			u = new T.dQ()
-			u.f = 256
-			t.push(u)
 		}
 	}
 
@@ -28122,7 +27946,6 @@
 		},
 		ak: function(a, b, c, d, e) {
 			var u = this.x
-			e.a.push(T.e("dK[0]:[1]", this.r, a, null, null, 40, 1000, 100))
 			if (u === 0)
 				return a
 			if (a > u) {
@@ -28132,7 +27955,6 @@
 				this.x = u - a
 				a = 0
 			}
-			e.a.push(T.e("end,[0]:[1]", this.r, a, null, null, 40, 1000, 100))
 			return a
 		},
 		H: function(a, b) {
@@ -28924,7 +28746,6 @@
 	}
 	T.ek.prototype = {}
 	T.el.prototype = {}
-	T.en.prototype = {}
 	O.az.prototype = {
 		dq: function(a, b, c) {
 			var u, t, s, r, q, p, o = b.length
@@ -29181,15 +29002,15 @@
 		t(P.cD, P.l)
 		t(Z.hl, Z.ax)
 		s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
-		s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.targetready, T.reikirecover, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend, T.hellTaichiReflect, T.wargodSay, T.grayb1, T.poirotb1, T.thdf])
-		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.tha1n1, T.tha1n2, T.tha1n3, T.tha1s1, T.milkyholmes, T.milkyready, T.milkyak, T.shellingfordn2, T.shellingfordn1, T.grayn1, T.graybx])
+		s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.targetready, T.reikirecover, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend, T.hellTaichiReflect, T.wargodSay, T.grayb1, T.poirotb1])
+		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.thdf, T.tha1n1, T.tha1n2, T.tha1n3, T.tha1s1, T.milkyholmes, T.milkyready, T.milkyak, T.shellingfordn2, T.shellingfordn1, T.grayn1, T.graybx])
 		s(T.M, [T.bf, T.co, T.dj, T.cG, T.seal, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade, T.ironbirdSimulateRun, T.grayax])
 		s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
 		s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])
-		s(T.D, [T.cg, T.dF, T.el, T.en])
+		s(T.D, [T.cg, T.dF, T.el])
 		s(T.J, [T.dE, T.fire, T.ay])
 		s(T.av, [T.hh, T.hi, T.ho, T.wargod])
-		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.ironbird, T.yeya, T.reimu, T.marisa, T.rumia, T.daiyousei, T.cirno, T.hong, T.koakuma, T.patchouli, T.sakuya, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.suika, T.wriggle, T.mystia, T.keine, T.inaba, T.reisen, T.yagokoro, T.kaguya, T.mokou, T.aya, T.medicine, T.yuka, T.onozuka, T.shikieiki, T.aki, T.hina, T.nitori, T.momizi, T.sanae, T.kanako, T.suwako, T.iku, T.tenshi, T.kisume, T.yamame, T.parsee, T.yugi, T.satori, T.kaenbyou, T.utuho, T.koishi, T.nazrin, T.kogasa, T.ichirin, T.minamitu, T.shou, T.byakuren, T.nue, T.hatate, T.shellingford, T.nero, T.gray, T.poirot, T.targeta, T.targetb, T.targetc, T.targetd])
+		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.ironbird, T.yeya, T.reimu, T.marisa, T.rumia, T.daiyousei, T.cirno, T.hong, T.koakuma, T.patchouli, T.sakuya, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.suika, T.wriggle, T.mystia, T.keine, T.inaba, T.reisen, T.yagokoro, T.kaguya, T.mokou, T.aya, T.medicine, T.yuka, T.onozuka, T.shikieiki, T.aki, T.hina, T.nitori, T.momizi, T.sanae, T.kanako, T.suwako, T.iku, T.tenshi, T.kisume, T.yamame, T.parsee, T.yugi, T.satori, T.kaenbyou, T.utuho, T.koishi, T.nazrin, T.kogasa, T.ichirin, T.minamitu, T.shou, T.byakuren, T.nue, T.hatate, T.shellingford, T.nero, T.gray, T.poirot, T.targeta, T.targetb])
 		t(T.hg, T.cy)
 		t(T.f3, T.bA)
 		t(T.e_, T.dN, T.yuriSuperControl)
@@ -29202,7 +29023,6 @@
 		t(T.ek, T.K)
 		t(T.bR, T.ek)
 		t(T.dK, T.el)
-		t(T.pZ, T.en)
 		s(T.b1, [T.f5, T.cL, T.fw, T.cx, T.hw, T.cM, T.iS])
 		t(T.ib, T.dU)
 		t(T.hP, T.bU)
@@ -29224,7 +29044,6 @@
 		u(W.ex, W.cp)
 		u(T.ek, T.p)
 		u(T.el, T.p)
-		u(T.en, T.p)
 	})()
 	var v = {
 		mangledGlobalNames: {
@@ -29623,9 +29442,7 @@
 		C.poirot = H.a(u([4, 19, 8, -2, 12, 14, 14, 118]), [P.j])
 
 		C.targeta = H.a(u([2, 9, 25, 15, 4, 10, -9, 658]), [P.j])
-		C.targetb = H.a(u([8, 39, 52, 26, 47, 62, 13, 206]), [P.j])
-		C.targetc = H.a(u([24, 30, 34, 41, 44, 21, 29, 240]), [P.j])
-		C.targetd = H.a(u([45, 43, 14, 22, 33, 12, 52, 192]), [P.j])
+		C.targetb = H.a(u([8, 39, 52, 26, 47, 62, 13, 9706]), [P.j])
 
 		C.V = H.a(u(["*::class", "*::dir", "*::draggable", "*::hidden", "*::id", "*::inert", "*::itemprop", "*::itemref", "*::itemscope", "*::lang", "*::spellcheck", "*::title", "*::translate", "A::accesskey", "A::coords", "A::hreflang", "A::name", "A::shape", "A::tabindex", "A::target", "A::type", "AREA::accesskey", "AREA::alt", "AREA::coords", "AREA::nohref", "AREA::shape", "AREA::tabindex", "AREA::target", "AUDIO::controls", "AUDIO::loop", "AUDIO::mediagroup", "AUDIO::muted", "AUDIO::preload", "BDO::dir", "BODY::alink", "BODY::bgcolor", "BODY::link", "BODY::text", "BODY::vlink", "BR::clear", "BUTTON::accesskey", "BUTTON::disabled", "BUTTON::name", "BUTTON::tabindex", "BUTTON::type", "BUTTON::value", "CANVAS::height", "CANVAS::width", "CAPTION::align", "COL::align", "COL::char", "COL::charoff", "COL::span", "COL::valign", "COL::width", "COLGROUP::align", "COLGROUP::char", "COLGROUP::charoff", "COLGROUP::span", "COLGROUP::valign", "COLGROUP::width", "COMMAND::checked", "COMMAND::command", "COMMAND::disabled", "COMMAND::label", "COMMAND::radiogroup", "COMMAND::type", "DATA::value", "DEL::datetime", "DETAILS::open", "DIR::compact", "DIV::align", "DL::compact", "FIELDSET::disabled", "FONT::color", "FONT::face", "FONT::size", "FORM::accept", "FORM::autocomplete", "FORM::enctype", "FORM::method", "FORM::name", "FORM::novalidate", "FORM::target", "FRAME::name", "H1::align", "H2::align", "H3::align", "H4::align", "H5::align", "H6::align", "HR::align", "HR::noshade", "HR::size", "HR::width", "HTML::version", "IFRAME::align", "IFRAME::frameborder", "IFRAME::height", "IFRAME::marginheight", "IFRAME::marginwidth", "IFRAME::width", "IMG::align", "IMG::alt", "IMG::border", "IMG::height", "IMG::hspace", "IMG::ismap", "IMG::name", "IMG::usemap", "IMG::vspace", "IMG::width", "INPUT::accept", "INPUT::accesskey", "INPUT::align", "INPUT::alt", "INPUT::autocomplete", "INPUT::autofocus", "INPUT::checked", "INPUT::disabled", "INPUT::inputmode", "INPUT::ismap", "INPUT::list", "INPUT::max", "INPUT::maxlength", "INPUT::min", "INPUT::multiple", "INPUT::name", "INPUT::placeholder", "INPUT::readonly", "INPUT::required", "INPUT::size", "INPUT::step", "INPUT::tabindex", "INPUT::type", "INPUT::usemap", "INPUT::value", "INS::datetime", "KEYGEN::disabled", "KEYGEN::keytype", "KEYGEN::name", "LABEL::accesskey", "LABEL::for", "LEGEND::accesskey", "LEGEND::align", "LI::type", "LI::value", "LINK::sizes", "MAP::name", "MENU::compact", "MENU::label", "MENU::type", "METER::high", "METER::low", "METER::max", "METER::min", "METER::value", "OBJECT::typemustmatch", "OL::compact", "OL::reversed", "OL::start", "OL::type", "OPTGROUP::disabled", "OPTGROUP::label", "OPTION::disabled", "OPTION::label", "OPTION::selected", "OPTION::value", "OUTPUT::for", "OUTPUT::name", "P::align", "PRE::width", "PROGRESS::max", "PROGRESS::min", "PROGRESS::value", "SELECT::autocomplete", "SELECT::disabled", "SELECT::multiple", "SELECT::name", "SELECT::required", "SELECT::size", "SELECT::tabindex", "SOURCE::type", "TABLE::align", "TABLE::bgcolor", "TABLE::border", "TABLE::cellpadding", "TABLE::cellspacing", "TABLE::frame", "TABLE::rules", "TABLE::summary", "TABLE::width", "TBODY::align", "TBODY::char", "TBODY::charoff", "TBODY::valign", "TD::abbr", "TD::align", "TD::axis", "TD::bgcolor", "TD::char", "TD::charoff", "TD::colspan", "TD::headers", "TD::height", "TD::nowrap", "TD::rowspan", "TD::scope", "TD::valign", "TD::width", "TEXTAREA::accesskey", "TEXTAREA::autocomplete", "TEXTAREA::cols", "TEXTAREA::disabled", "TEXTAREA::inputmode", "TEXTAREA::name", "TEXTAREA::placeholder", "TEXTAREA::readonly", "TEXTAREA::required", "TEXTAREA::rows", "TEXTAREA::tabindex", "TEXTAREA::wrap", "TFOOT::align", "TFOOT::char", "TFOOT::charoff", "TFOOT::valign", "TH::abbr", "TH::align", "TH::axis", "TH::bgcolor", "TH::char", "TH::charoff", "TH::colspan", "TH::headers", "TH::height", "TH::nowrap", "TH::rowspan", "TH::scope", "TH::valign", "TH::width", "THEAD::align", "THEAD::char", "THEAD::charoff", "THEAD::valign", "TR::align", "TR::bgcolor", "TR::char", "TR::charoff", "TR::valign", "TRACK::default", "TRACK::kind", "TRACK::label", "TRACK::srclang", "UL::compact", "UL::type", "VIDEO::controls", "VIDEO::height", "VIDEO::loop", "VIDEO::mediagroup", "VIDEO::muted", "VIDEO::preload", "VIDEO::width"]), [P.f])
 		C.W = H.a(u([10, -6, 1000, 0, 10, -15, 6, 0]), [P.j])
@@ -29744,8 +29561,6 @@
 				"poirot", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAGhJREFUOI1jZDjA8J+BAsDCwMDAcNH+Ilma9Q/qQwyAcXCBi/YXMeRhljKRZTUSGGIGYAtskl2AbggLDnVYNWCLKRZsComxGcMAQukAXQ3BdHDR/iJB5+M1AJ+LiDKAWEMoDkRGSrMzAMC3KA4VbgzBAAAAAElFTkSuQmCC",
 				"targeta", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABuSURBVDhPpZIJDsAgCASh//9z62qxHohCJyEEo4MSmYjuFGGyIFEqJ8z8CVB4kDOdAPkE2Yt8vWuVbDViZBIA2LXQUAVg11lYCoDVWTAFJ5iC3fXBUtAOz3qGKmiH14bG74/UCTxMgghVUMoIRA+D11ApFTPSEQAAAABJRU5ErkJggg==",
 				"targetb", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABuSURBVDhPpZIJDsAgCASh//9z62qxHohCJyEEo4MSmYjuFGGyIFEqJ8z8CVB4kDOdAPkE2Yt8vWuVbDViZBIA2LXQUAVg11lYCoDVWTAFJ5iC3fXBUtAOz3qGKmiH14bG74/UCTxMgghVUMoIRA+D11ApFTPSEQAAAABJRU5ErkJggg==",
-				"targetc", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABuSURBVDhPpZIJDsAgCASh//9z62qxHohCJyEEo4MSmYjuFGGyIFEqJ8z8CVB4kDOdAPkE2Yt8vWuVbDViZBIA2LXQUAVg11lYCoDVWTAFJ5iC3fXBUtAOz3qGKmiH14bG74/UCTxMgghVUMoIRA+D11ApFTPSEQAAAABJRU5ErkJggg==",
-				"targetd", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABuSURBVDhPpZIJDsAgCASh//9z62qxHohCJyEEo4MSmYjuFGGyIFEqJ8z8CVB4kDOdAPkE2Yt8vWuVbDViZBIA2LXQUAVg11lYCoDVWTAFJ5iC3fXBUtAOz3qGKmiH14bG74/UCTxMgghVUMoIRA+D11ApFTPSEQAAAABJRU5ErkJggg==",
 				"aokiji", "R0lGODlhEAAQAMIDAAAAAEB2/4Kl/////////////////////yH5BAEKAAQALAAAAAAQABAAAANISLrQsJC1MVwkLgSqLW6bQFFi4ACjIGxDoI7gqHFsO9UsXgFuPXIr0Or3691kHGSMxuRMSMPWi3IK/UqeTM7UuDio3YskDEkAADs=", "conan", "R0lGODlhEAAQAMIAAAAAANAYISpXyf///wAAAAAAAAAAAAAAACH5BAEKAAQALAAAAAAQABAAAANISATczkqBQasFcQlrBV6MsHGiEzQj5TEnELzM5cIsbdLLC+/6N/O/E6j3IP5ilVqrBUgNVi6HyDltSJoiVekTCU23me4DEkkAADs=", "covid", "R0lGODlhEAAQAIIAMf/GAOpK/f///wAAAP///wAAAAAAAAAAACH5BAEAAAQALAAAAAAQABAAAgNKSLrTvZC4AeqIqgEttoNU1wSOx1BBmoabNJGDGpjURlqBAJf6ba+WWgwmy3kcRYFO6AKolMuJBCAqmjIUJKd12moemNrxgnF9IgkAOw==", "ikaruga", "R0lGODlhEAAQAMIEAAAAAAcHB7MABFuV/////////////////yH5BAEKAAcALAAAAAAQABAAAANKeLrRsZA1Qlw8jmoCGgzaMAiC9iiTOFBk6WGUypLUk4pbW00EvhG0XWz1C2Z8o9kO1uuNSqUKCqR60l5MZ1AqAf0skczudJliFwkAOw==", "lazy", "R0lGODlhEAAQAMICAAAAAAgICP+3t/////+3t/+3t/+3t/+3tyH5BAEKAAQALAAAAAAQABAAAANPSLpM8K9JMCqQDoIwwp3VQG1fBnFeWFKW6GnL1rFi87raSQQcvXEhHkeQGwqOncBxKeAxj07io6kkQZXPKJM3YCa7yySwIhwnd5qAokhIAAA7", "mario", "R0lGODlhEAAQAIEAMQAAANgoAPz8/AAAACH5BAEAAAAALAAAAAAQABAAAQJBhD2px6AhRFgshRvvHCdJGH1CgoDhKXEWqLHboH2tvEItpq3ZvXvnfPIphooI0YgcLXyjpLKDQnE6g6hxSiVSAAUAOw==", "mosquito", "R0lGODlhEAAQAKECAAAAAP8AAP///////yH5BAEKAAMALAAAAAAQABAAAAJB3ICpaCnxRIRKoAkpsJu/AHpch4DgxR0kcK6GKrGB+zrylrzH2OL62or9SKcYYIgr5mq82eXI5AQtw1gxhVwwDAUAOw==", "saitama", "R0lGODlhEAAQAMIGAAAAAAgICGxsbP/AmP/PV/////jIUfjIUSH5BAEKAAcALAAAAAAQABAAAANKeLrRsZC1MVw8juraYNhUIVYSGIodZprPtG7ZC8YyFxSC8OZFAIi4nJAnAhgLx2DxZwQQCMZn7hmFOp/YKZZa3Xqth6bR1xADDgkAOw==", "seed", "R0lGODlhEAAQAMIDAAAAAG9tbUCy5////////////////////yH5BAEKAAQALAAAAAAQABAAAANFSLrQsJC1MVwkjuraVN6gA4CDIJCNSW5BkJon2LZpAMdzMLiAYN85HQ/28wWHpmJrN3sRjUya4xm0YJzNTmTKe1wkWkgCADs=", "slime", "R0lGODlhEAAQAMIEAAABAFaSRV6qSLn9qgAAAAAAAAAAAAAAACH5BAEKAAQALAAAAAAQABAAAANCSKrQvpA4QcWDrWoLsB5bxwDVYApB2jClaaaqRMIuCk92CuYBR8G9DSUjLBI3wMpRQzvhis4OqVUbjopKkczBvSQAADs=", "sonic", "R0lGODlhEAAQAMIDAAgICOgSJh9O/////////////////////yH5BAEKAAQALAAAAAAQABAAAANBSLrQsJA1IVwkjuraINDDsFUSFYZbh5knqj2T0LpUBp4jN9JpnJuc1S8UIGE+uUBRJRQonzXP5LlkSpCWy/URSQAAOw==", "yuri", "R0lGODlhEAAQAKEDAAAAAN4H28asxv///yH5BAEKAAMALAAAAAAQABAAAAI+hI85EB3s4DNBiFcvs3NjvmlL9WkesEDnKI7fw8Lpi6roMJ42jh8NNeEJVb+bsFc0HIfB5ZFhdPIO0mf0WAAAOw=="
 			], u, u)
 		}()

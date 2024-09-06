@@ -20265,7 +20265,11 @@ T.tha2b1.prototype = {
 			}
 			d.a.push(T.e("[0]：[等我死了再还你~]", u.r, t, null, null, 1, 1000, 100))
 			d.a.push(T.e(`[0]偷走[1]的[2]点${attrNames[n]}`, u.r, t, l || m, null, null, 0, 1000, 100))
-		} else if (n == 7) {
+			d.a.push($.v())
+			d.a.push(T.e(`[0]的${attrNames[n]}：[1]`, u.r, u.r.u[n], null, null, null, 0, 1000, 100))
+			d.a.push(T.e(`[0]的${attrNames[n]}：[1]`, t, t.u[n], null, null, null, 0, 1000, 100))
+
+		} else if (n >= 7) {
 			d.a.push(T.e("[0] [大失败]", u.r, t, null, null, 1, 1000, 100))
 		}
 		u.r.j = u.r.j + 2048 - m * 10
@@ -29628,7 +29632,7 @@ T.tha2b1.prototype = {
 
 		C.yeya = H.a(u([-80, -46, 38, -82, -79, -70, 999940, 749]), [P.j])
 		C.reimu = H.a(u([31, 43, 30, 31, 34, 30, 27, 704]), [P.j])
-		C.marisa = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.marisa = H.a(u([20, 3, 14, 19, 51, 11, 30, 565]), [P.j])
 		C.rumia = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.daiyousei = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.cirno = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])

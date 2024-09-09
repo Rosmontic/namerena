@@ -10084,6 +10084,7 @@
 				_.reiki = 0
 				_.reikimp = 2
 				_.reikimax = 8
+				_.gossip = true
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -20253,6 +20254,7 @@ T.tha2b1.prototype = {
 		m = (c.m() & 63)
 		m = C.d.v(m, 2) + 33
 		t = a[0].a
+		u.f = 0
 		if (n >= 0 && n <= 6) {
 			var attrNames = ["攻击", "防御", "速度", "敏捷", "法力", "法抗", "智力"]
 			if (t.u[n] < m + 1) {
@@ -20262,13 +20264,11 @@ T.tha2b1.prototype = {
 			} else {
 				t.u[n] = t.u[n] - m
 				u.r.u[n] = u.r.u[n] + m
+				l = m
 			}
 			d.a.push(T.e("[0]：[等我死了再还你~]", u.r, t, null, null, 1, 1000, 100))
-			d.a.push(T.e(`[0]偷走[1]的[2]点${attrNames[n]}`, u.r, t, l || m, null, null, 0, 1000, 100))
+			d.a.push(T.e(`[0]偷走[1]的[2]点${attrNames[n]}`, u.r, t, l, null, null, 0, 1000, 100))
 			d.a.push($.v())
-			d.a.push(T.e(`[0]的${attrNames[n]}：[1]`, u.r, u.r.u[n], null, null, null, 0, 1000, 100))
-			d.a.push(T.e(`[0]的${attrNames[n]}：[1]`, t, t.u[n], null, null, null, 0, 1000, 100))
-
 		} else if (n >= 7) {
 			d.a.push(T.e("[0] [大失败]", u.r, t, null, null, 1, 1000, 100))
 		}
@@ -27021,6 +27021,12 @@ T.tha2b1.prototype = {
 				l = o.fe(m, b, c)
 			if (o.reiki != null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
 				t = (b.m() & 1) + o.reikimp
+				if (o.reiki == 0 && o.e == "marisa@!" && o.gossip == true){
+					o.reikimax = 8
+					t = 8
+					o.gossip = false
+					c.a.push(T.e("[0]回复了所有灵力", o, o, null, null, 0, 1000, 100))
+				}
 				t = Math.max(0, Math.min(t, o.reikimax - o.reiki))
 				o.reiki = o.reiki + t
 				//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
@@ -27491,6 +27497,9 @@ T.tha2b1.prototype = {
 				u = u.db > u.Q
 			} else
 				u = !1
+			for (n = 0;n < 7 ;++n){
+				d.a.push(T.e("[0]", this.r.u[n], this.r, null, null, 0, 1000, 100))
+			}
 			if (u) {
 				u = q.r
 				t = C.b.ao(u.db - u.Q, 2)

@@ -27756,9 +27756,9 @@
 				u = u.db > u.Q
 			} else
 				u = !1
-			for (n = 0; n < 7; ++n) {
-				d.a.push(T.e("[0]", this.r.u[n], this.r, null, null, 0, 1000, 100))
-			}
+			//for (n = 0; n < 7; ++n) {
+				//d.a.push(T.e("[0]", this.r.u[n], this.r, null, null, 0, 1000, 100))
+			//}
 			if (u) {
 				u = q.r
 				t = C.b.ao(u.db - u.Q, 2)
@@ -29962,7 +29962,7 @@
 		C.nero = H.a(u([24, 7, 26, 33, 23, -21, -10, 76]), [P.j])
 		C.gray = H.a(u([-3, 18, 4, 21, 3, 37, 9, 75]), [P.j])
 		C.poirot = H.a(u([4, 19, 8, -2, 12, 14, 14, 118]), [P.j])
-		C.quicksilve = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.quicksilve = H.a(u([2, -92, 3525, 1532, -78, -50, 55, -80]), [P.j])
 
 		C.targeta = H.a(u([2, 9, 25, 15, 4, 10, -9, 658]), [P.j])
 		C.targetb = H.a(u([8, 39, 52, 26, 47, 62, 13, 206]), [P.j])

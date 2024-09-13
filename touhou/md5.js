@@ -8901,6 +8901,20 @@
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
 			},
+			tha2n1: function tha2n1() {
+				var _ = this
+				_.mp = 1
+				_.e = !1
+				_.f = 0
+				_.c = _.b = _.a = _.r = null
+			},
+			tha2n2: function tha2n2() {
+				var _ = this
+				_.mp = 1
+				_.e = !1
+				_.f = 0
+				_.c = _.b = _.a = _.r = null
+			},
 			tha2n3: function tha2n3() {
 				var _ = this
 				_.mp = 4
@@ -20340,6 +20354,72 @@
 		}
 	}
 	T.tha2n3.prototype = {
+		ar: function(a, b) {
+			if (this.r.reiki < this.mp) {
+				return !1
+			}
+			return this.aS(a, b)
+		},
+		gb3: function() {
+			return 4
+		},
+		gb4: function() {
+			return 4
+		},
+		t: function(a, b, c, d) {
+			var u, t, s, r, q, p, o, n = H.a([], [T.aU])
+			for (u = 0; u < a.length; ++u)
+				n.push(a[u].a)
+			t = "[0]使用[恋符「极限火花」]"
+			s = this.r
+			r = H.a(n.slice(0), [H.n(n, 0)])
+			q = d.a
+			q.push(T.e(t, s, null, null, r, 1, 1000, 100))
+			p = T.u(this.r, !0, c) * 2.1
+			this.r.reiki = 0
+			for (u = 0; u < n.length; ++u) {
+				o = n[u]
+				if (o.fr > 0) {
+					q.push($.v())
+					o.a0(p, !0, this.r, T.a3(), c, d)
+				}
+			}
+		}
+	}
+	T.tha2n1.prototype = {
+		ar: function(a, b) {
+			if (this.r.reiki < this.mp) {
+				return !1
+			}
+			return this.aS(a, b)
+		},
+		gb3: function() {
+			return 4
+		},
+		gb4: function() {
+			return 4
+		},
+		t: function(a, b, c, d) {
+			var u, t, s, r, q, p, o, n = H.a([], [T.aU])
+			for (u = 0; u < a.length; ++u)
+				n.push(a[u].a)
+			t = "[0]使用[恋符「极限火花」]"
+			s = this.r
+			r = H.a(n.slice(0), [H.n(n, 0)])
+			q = d.a
+			q.push(T.e(t, s, null, null, r, 1, 1000, 100))
+			p = T.u(this.r, !0, c) * 2.1
+			this.r.reiki = 0
+			for (u = 0; u < n.length; ++u) {
+				o = n[u]
+				if (o.fr > 0) {
+					q.push($.v())
+					o.a0(p, !0, this.r, T.a3(), c, d)
+				}
+			}
+		}
+	}
+	T.tha2n2.prototype = {
 		ar: function(a, b) {
 			if (this.r.reiki < this.mp) {
 				return !1

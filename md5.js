@@ -22203,7 +22203,7 @@
 			}
 			if (p != null && this.r.tai == 2) {
 				r.ae(0)
-				this.r.f = this.r.f + 2048
+				this.r.j = this.r.j + 2048
 				return 0
 			}
 			if (p != null && this.r.tai != 2) {
@@ -23094,15 +23094,15 @@
 				if (this.r.fr >= 0.5 * this.r.fx) {
 					if (w > 0) {
 						if (o.IAF != null) {
-							o.Q = o.Q + 50
-							o.cx = o.cx + 25
-							o.go = o.go + 0.25
+							o.Q = o.Q + 100
+							o.cx = o.cx + 40
+							o.go = o.go + 0.4
 							d.a.push(T.e("[0]的[攻击性能]提升", o, o, null, null, 0, 1000, 100))
 						}
 					} else {
 						if (o.IAF != null) {
-							o.ch = o.ch + 50
-							o.dx = o.dx + 50
+							o.ch = o.ch + 75
+							o.dx = o.dx + 75
 							o.J = 49152
 							d.a.push(T.e("[0]的[防御性能]提升", o, o, null, null, 0, 1000, 100))
 						}
@@ -23111,16 +23111,16 @@
 				if (this.r.fr < 0.5 * this.r.fx) {
 					if (w > 0) {
 						if (o.IAF != null) {
-							o.ch = o.ch + 50
-							o.dx = o.dx + 50
+							o.ch = o.ch + 100
+							o.dx = o.dx + 100
 							o.J = 49152
 							d.a.push(T.e("[0]的[防御性能]提升", o, o, null, null, 0, 1000, 100))
 						}
 					} else {
 						if (o.IAF != null) {
-							o.Q = o.Q + 50
-							o.cx = o.cx + 25
-							o.go = o.go + 0.25
+							o.Q = o.Q + 75
+							o.cx = o.cx + 30
+							o.go = o.go + 0.3
 							d.a.push(T.e("[0]的[攻击性能]提升", o, o, null, null, 0, 1000, 100))
 						}
 					}
@@ -23167,17 +23167,20 @@
 						o.Q = o.Q * 1.5
 						o.go = o.go * 2
 						o.j = o.j + 2048
+						o.E()
 						d.a.push(T.e("[邦邦咔邦！][0]的[输出能力]大幅度提升！", o, o, null, null, 0, 1000, 100))
 					}
 					if (o.yxb == 2) {
 						o.cx = o.cx * 2.5
 						o.j = o.j + 2048
+						o.E()
 						d.a.push(T.e("[邦邦咔邦！][0]的[移动速度]大幅度提升！", o, o, null, null, 0, 1000, 100))
 					}
 					if (o.yxb == 3) {
 						o.cy = o.cy * 7.5
 						o.j = o.j + 2048
 						o.J = o.J * 0.5
+						o.E()
 						d.a.push(T.e("[邦邦咔邦！][0]的[回避点数]大幅度提升！", o, o, null, null, 0, 1000, 100))
 					}
 					if (o.yxb == 4) {
@@ -23186,6 +23189,7 @@
 						o.J = o.J * 2
 						o.go = o.go * 0.5
 						o.j = o.j + 2048
+						o.E()
 						d.a.push(T.e("[邦邦咔邦！][0]由[光属性adc]转职为[坦克]！", o, o, null, null, 0, 1000, 100))
 					}
 				}
@@ -32548,7 +32552,7 @@
 				q.push(T.e("[0]: [自我修复程式...启动...]", s, null, null, r, 1, 1000, 100))
 				q.push($.v())
 				v = this.r.fr
-				w = C.d.Z(0.5 * (this.r.fx - this.r.fr))
+				w = C.d.Z(0.6 * (this.r.fx - this.r.fr))
 				this.r.fr = this.r.fr + w
 				q.push(T.e(O.c("YmSv"), this.r, T.a1(this.r, v), new T.aG(w), null, 0, 1000, 100))
 				return
@@ -39569,7 +39573,7 @@
 					this.r.r1.k(0, $.kl(), v)
 					this.r.y1.i(0, v)
 				}
-				v.x = 300
+				v.x = 320
 				g.a.push(T.e("[0]获得[1]点[护盾]", this.r, v.x, null, null, 20, 1000, 100))
 				t.r.bI(t.r, g)
 				return 0

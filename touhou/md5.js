@@ -23240,6 +23240,7 @@
 				d.j = -2048
 			c.r.x.aU(d)
 			u.push(T.e(O.c("cPiZ"), c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+			u.push(T.e("[0]的名字为：[1]", d, d.e, null, null, 0, 1000, 100))
 		}
 	}
 	T.hellWargod.prototype = {

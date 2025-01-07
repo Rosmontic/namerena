@@ -5466,6 +5466,44 @@
 						g.at(a, u)
 						return g
 					}
+					if (a == "HermitXII") {
+						t = H.d(a) + H.d($.ah())
+						s = H.a([], [T.H])
+						r = H.a([], [T.y])
+						q = P.U(P.f, T.p)
+						p = new F.b([T.M])
+						p.c = p
+						p.b = p
+						o = new F.b([T.L])
+						o.c = o
+						o.b = o
+						n = new F.b([T.G])
+						n.c = n
+						n.b = n
+						m = new F.b([T.J])
+						m.c = m
+						m.b = m
+						l = new F.b([T.K])
+						l.c = l
+						l.b = l
+						k = new F.b([T.D])
+						k.c = k
+						k.b = k
+						j = new F.b([T.A])
+						j.c = j
+						j.b = j
+						i = new F.b([T.C])
+						i.c = i
+						i.b = i
+						h = new F.b([T.I])
+						h.c = h
+						h.b = h
+						g = [P.j]
+						g = new T.HermitXII(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g.Y(a, u, t, f)
+						g.at(a, u)
+						return g
+					}
 					if (a == "reimu") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
@@ -10086,6 +10124,47 @@
 				_.X = _.W = !1
 				_.F = null
 			},
+			HermitXII: function HermitXII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+				var _ = this
+				_.aI = 0
+				_.aP = _.bb = _.af = null
+				_.a = a
+				_.b = b
+				_.c = c
+				_.d = d
+				_.y = _.x = _.r = _.f = _.e = null
+				_.z = 0
+				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+				_.go = 1
+				_.id = e
+				_.resist = 0
+				_.relief = 0
+				_.k2 = _.k1 = null
+				_.k3 = f
+				_.k4 = null
+				_.r1 = g
+				_.r2 = h
+				_.rx = i
+				_.ry = j
+				_.x1 = k
+				_.x2 = l
+				_.y1 = m
+				_.y2 = n
+				_.I = o
+				_.N = p
+				_.A = !1
+				_.u = q
+				_.U = null
+				_.D = r
+				_.q = s
+				_.a_ = t
+				_.V = _.O = _.L = 0
+				_.J = 32768
+				_.j = 0
+				_.X = _.W = !1
+				_.F = null
+			},
+
 			reimu: function reimu(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
@@ -24885,6 +24964,17 @@
 			t = this.id
 		}
 	}
+	T.HermitXII.prototype = {
+		gah: function() {
+			return C.HermitXII
+		},
+		aa: function() {
+			var u, t = new T.aK()
+			t.r = this
+			this.k2 = t
+			t = this.id
+		}
+	}
 	T.reimu.prototype = {
 		gah: function() {
 			return C.reimu
@@ -29531,7 +29621,7 @@
 		s(T.D, [T.cg, T.dF, T.el, T.en])
 		s(T.J, [T.dE, T.fire, T.ay])
 		s(T.av, [T.hh, T.hi, T.ho, T.wargod])
-		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.ironbird, T.yeya, T.reimu, T.marisa, T.rumia, T.daiyousei, T.cirno, T.hong, T.koakuma, T.patchouli, T.sakuya, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.suika, T.wriggle, T.mystia, T.keine, T.inaba, T.reisen, T.yagokoro, T.kaguya, T.mokou, T.aya, T.medicine, T.yuka, T.onozuka, T.shikieiki, T.aki, T.hina, T.nitori, T.momizi, T.sanae, T.kanako, T.suwako, T.iku, T.tenshi, T.kisume, T.yamame, T.parsee, T.yugi, T.satori, T.kaenbyou, T.utuho, T.koishi, T.nazrin, T.kogasa, T.ichirin, T.minamitu, T.shou, T.byakuren, T.nue, T.hatate, T.shellingford, T.nero, T.gray, T.poirot, T.quicksilve, T.targeta, T.targetb, T.targetc, T.targetd])
+		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.ironbird, T.yeya, T.HermitXII, T.reimu, T.marisa, T.rumia, T.daiyousei, T.cirno, T.hong, T.koakuma, T.patchouli, T.sakuya, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.suika, T.wriggle, T.mystia, T.keine, T.inaba, T.reisen, T.yagokoro, T.kaguya, T.mokou, T.aya, T.medicine, T.yuka, T.onozuka, T.shikieiki, T.aki, T.hina, T.nitori, T.momizi, T.sanae, T.kanako, T.suwako, T.iku, T.tenshi, T.kisume, T.yamame, T.parsee, T.yugi, T.satori, T.kaenbyou, T.utuho, T.koishi, T.nazrin, T.kogasa, T.ichirin, T.minamitu, T.shou, T.byakuren, T.nue, T.hatate, T.shellingford, T.nero, T.gray, T.poirot, T.quicksilve, T.targeta, T.targetb, T.targetc, T.targetd])
 		t(T.hg, T.cy)
 		t(T.f3, T.bA)
 		t(T.e_, T.dN, T.yuriSuperControl)
@@ -29900,6 +29990,7 @@
 		C.ironbird = H.a(u([21, 5, 16, 49, 4, 20, 42, 267]), [P.j])
 
 		C.yeya = H.a(u([-80, -46, 38, -82, -79, -70, 999940, 749]), [P.j])
+		C.HermitXII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.reimu = H.a(u([31, 43, 30, 31, 34, 30, 27, 704]), [P.j])
 		C.marisa = H.a(u([20, 3, 14, 19, 51, 11, 30, 565]), [P.j])
 		C.rumia = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
@@ -30014,6 +30105,8 @@
 			return P.dq(["tigershark", "R0lGODlhEAAQAJEAAP8AAP///wAAAP///yH5BAEAAAMALAAAAAAQABAAAAI9nCepeS0AIxQNyQuoeSBgn1lQAI5lEpGSOnHjKqEgS2dPOad2l3fmTgoKg8ChccczsigcJUgjwkwqiyq0AAA7", "hell", "R0lGODlhEAAQAJEAAHb9/wAAAP///wAAACH5BAEAAAIALAAAAAAQABAAAAIslB2px5IAY2ov2omC3QBrvgUOCFbk9Z1SqnasarbiW2awaJf4EUNY41D8DAUAOw==", "dark", "R0lGODlhEAAQALMAAPr6+wQEAf7+/QwKAhEQDf38+xEODP79/f////z8/Pn5+QAAAP///wAAAAAAAAAAACH5BAEAAAwALAAAAAAQABAAAARIkEm5qp2YjYW6rxn3Wd0yiYhVGUFJlWpFcCZKpncFo7io9x3ADecpqkYdwY5HRAgSMV4NUTgUryaGbeii+EgKEOZnzGa0sUwEADs=", "yurix", "R0lGODlhEAAQAKEDAAAAAN4H28asxv///yH5BAEKAAMALAAAAAAQABAAAAI+hI85EB3s4DNBiFcvs3NjvmlL9WkesEDnKI7fw8Lpi6roMJ42jh8NNeEJVb+bsFc0HIfB5ZFhdPIO0mf0WAAAOw==", "ironbird", "R0lGODlhEAAQAKIAAGfh/ywtLf8AAP///wAAAAAAAAAAAAAAACwAAAAAEAAQAAADOzhK3K6QATKpJVHeWbHm3xVWYOecKBMEgrCu7erA7hsHjZluQO//Pglw2BMSgblj0ENRMjLHJ2Swkw4SADs=",
 				"yeya",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAH9JREFUOE+tk10OwCAIg+VmenK4mUtdSKapP9vwEfGjVJCcc03kmJk8w7M8wYWqdohSCmMmlkcB9DUJotASIHJ3USvtMsUBUGXsD7GVAvepaWRGngDwUx3AK45+MQ+gIB4wVt550BT4hH02cWbgzkTcx80Bk38yzlMFr5fpzzpfC7V7BSjXHhMAAAAASUVORK5CYII=",
+				"HermitXII",		
+				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAABVQTFRFAAAA2CgA/Pz8AAAAMDAwo6Oj4ODgmp1wAAAAAAd0Uk5TAP///////6V/pvsAAABFSURBVBiVlc9JDgAhCERRkp+q+x+5DcQWXSkreAlTUBExk5H2uIaasQAJbCaMWrJTFqhBiltLStX/WmT2OyB2eDr9eP8D3csBlMkIer8AAAAASUVORK5CYII=",
 				"reimu",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJNJREFUOE+1k0EOwCAIBOFn+HL5mc3GliBCk6bRgwcg45QCi8ig5Kgq+3BVx0io6oIQkYxJWZ0BxkhFUhCCzEx46ACAmaiycbnFAEq996mLIpwICfHW2izHhUZugOrrbzAA+FM7wFtEiLM6DMgsQk/M4Jkw64HXrhpKRNbEZxLTQXoBHBykcnjXxGYQNu/bMv1Z5wvj8YMF0QinpAAAAABJRU5ErkJggg==",
 				"marisa",

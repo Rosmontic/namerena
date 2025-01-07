@@ -23393,13 +23393,14 @@
 		},
 		t: function(a, a0, a1, a2) {
 			var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this,
-				b = null, v = a[0].a ,w
-			if (c.r.fr == 0){
-				u.push(T.e("[0][心相-殇]", c.r, c.r, b, b, 1, 1000, 100))
-				return
-			}
-			u.push(T.e("[0][心相-映画]", c.r, c.r, b, b, 1, 1000, 100))
+				b = null, v ,w
 			u = a2.a
+			if (c.r.fr > 0){
+				u.push(T.e("[0][心相-殇]", c.r, c.r, b, b, 1, 1000, 100))
+				
+			}
+			v = a[0].a
+			u.push(T.e("[0][心相-映画]", c.r, c.r, b, b, 1, 1000, 100))
 			t = H.d(c.r.a) + "?" + H.d($.nn())
 			s = c.r
 			r = s.b

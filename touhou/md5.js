@@ -9417,6 +9417,49 @@
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
 			},
+			suo: function suo(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+				var _ = this
+				_.a5 = _.af = null
+				_.a = a
+				_.b = b
+				_.c = c
+				_.d = d
+				_.y = _.x = _.r = _.f = _.e = null
+				_.z = 0
+				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+				_.go = 1
+				_.id = e
+				_.k2 = _.k1 = null
+				_.k3 = f
+				_.k4 = null
+				_.r1 = g
+				_.r2 = h
+				_.rx = i
+				_.ry = j
+				_.x1 = k
+				_.x2 = l
+				_.y1 = m
+				_.y2 = n
+				_.I = o
+				_.N = p
+				_.A = !1
+				_.u = q
+				_.U = null
+				_.D = r
+				_.q = s
+				_.a_ = t
+				_.V = _.O = _.L = 0
+				_.J = 32768
+				_.j = 0
+				_.X = _.W = !1
+				_.F = null
+			},
+			hermitXIIn1: function hermitXIIn1() {
+				var _ = this
+				_.e = !1
+				_.f = 0
+				_.c = _.b = _.a = _.r = null
+			},
 			wargod: function wargod(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.a5 = _.af = null
@@ -10139,6 +10182,7 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
+				_.ous = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -23215,6 +23259,20 @@
 			u[7] = C.d.v(u[7], 2)
 		}
 	}
+	T.suo.prototype = {
+		gaj: function() {
+			return this.af.r
+		},
+		aa: function() {
+			var u = new T.aK()
+			u.r = this
+			this.k2 = u
+		},
+		aR: function() {
+			this.bv()
+			var u = this.u
+		}
+	}
 	T.wargod.prototype = {
 		gaj: function() {
 			return this.af.r
@@ -23319,7 +23377,80 @@
 				d.j = -2048
 			c.r.x.aU(d)
 			u.push(T.e(O.c("cPiZ"), c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
-			u.push(T.e("[0]的名字为：[1]", d, d.e, null, null, 0, 1000, 100))
+		}
+	}
+	T.hermitXIIn1.prototype = {
+		ar: function(a, b) {
+			if (b){
+				return this.aS(a, b)
+			}	
+		},
+		a8: function(a, b, c) {
+            return this.bs(a, b, c, !0)
+        },
+		a9: function(a, b, c) {
+			return H.a([], [T.Z])
+		},
+		t: function(a, a0, a1, a2) {
+			var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this,
+				b = null, v = a[0].a ,w
+			if (c.r.fr == 0){
+				u.push(T.e("[0][心相-殇]", c.r, c.r, b, b, 1, 1000, 100))
+				return
+			}
+			u.push(T.e("[0][心相-映画]", c.r, c.r, b, b, 1, 1000, 100))
+			u = a2.a
+			t = H.d(c.r.a) + "?" + H.d($.nn())
+			s = c.r
+			r = s.b
+			s = s.c
+			q = H.a([], [T.H])
+			p = H.a([], [T.y])
+			o = P.U(P.f, T.p)
+			n = new F.b([T.M])
+			n.c = n
+			n.b = n
+			m = new F.b([T.L])
+			m.c = m
+			m.b = m
+			l = new F.b([T.G])
+			l.c = l
+			l.b = l
+			k = new F.b([T.J])
+			k.c = k
+			k.b = k
+			j = new F.b([T.K])
+			j.c = j
+			j.b = j
+			i = new F.b([T.D])
+			i.c = i
+			i.b = i
+			h = new F.b([T.A])
+			h.c = h
+			h.b = h
+			g = new F.b([T.C])
+			g.c = g
+			g.b = g
+			f = new F.b([T.I])
+			f.c = f
+			f.b = f
+			e = [P.j]
+			d = new T.suo(t, r, s, b, q, p, o, n, m, l, k, j, i, h, g, f, H.a([], e), H.a([], e), H.a([], e), H.a([], e))
+			d.Y(t, r, s, b)
+			d.a5 = new T.cj(d)
+			d.af = c
+			d.e = T.du(c.r)
+			d.r = "惢?"
+			s = c.r
+			d.x = s.x
+			s.I.i(0, d.a5)
+			d.av()
+			for (w = 0 ;w <7 ;w++)
+			{
+				d.r.u[w] = v.u[w]
+			}
+			c.r.x.aU(d)
+			u.push(T.e("[0][心相]显现:[1]", v, T.a1(d, d.fr), b, b, 0, 1000, 100))
 		}
 	}
 	T.hellWargod.prototype = {
@@ -24973,6 +25104,9 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			u = new T.hermitXIIn1()
+			u.f = 80
+			t.push(u)
 		}
 	}
 	T.reimu.prototype = {
@@ -29614,13 +29748,13 @@
 		t(Z.hl, Z.ax)
 		s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
 		s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.targetready, T.reikirecover, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend, T.hellTaichiReflect, T.wargodSay, T.grayb1, T.poirotb1, T.thdf])
-		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.tha1n1, T.tha1n2, T.tha1n3, T.tha1s1, T.tha2n1, T.tha2n2, T.tha2n3, T.tha2s1, T.tha2b1, T.milkyholmes, T.milkyready, T.milkyak, T.shellingfordn2, T.shellingfordn1, T.grayn1, T.graybx])
+		s(T.y, [T.dL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.tha1n1, T.tha1n2, T.tha1n3, T.tha1s1, T.tha2n1, T.tha2n2, T.tha2n3, T.tha2s1, T.tha2b1, T.milkyholmes, T.milkyready, T.milkyak, T.shellingfordn2, T.shellingfordn1, T.grayn1, T.graybx,  T.hermitXIIn1])
 		s(T.M, [T.bf, T.co, T.dj, T.cG, T.seal, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade, T.ironbirdSimulateRun, T.grayax])
 		s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
 		s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])
 		s(T.D, [T.cg, T.dF, T.el, T.en])
 		s(T.J, [T.dE, T.fire, T.ay])
-		s(T.av, [T.hh, T.hi, T.ho, T.wargod])
+		s(T.av, [T.hh, T.suo, T.hi, T.ho, T.wargod])
 		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.ironbird, T.yeya, T.HermitXII, T.reimu, T.marisa, T.rumia, T.daiyousei, T.cirno, T.hong, T.koakuma, T.patchouli, T.sakuya, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.suika, T.wriggle, T.mystia, T.keine, T.inaba, T.reisen, T.yagokoro, T.kaguya, T.mokou, T.aya, T.medicine, T.yuka, T.onozuka, T.shikieiki, T.aki, T.hina, T.nitori, T.momizi, T.sanae, T.kanako, T.suwako, T.iku, T.tenshi, T.kisume, T.yamame, T.parsee, T.yugi, T.satori, T.kaenbyou, T.utuho, T.koishi, T.nazrin, T.kogasa, T.ichirin, T.minamitu, T.shou, T.byakuren, T.nue, T.hatate, T.shellingford, T.nero, T.gray, T.poirot, T.quicksilve, T.targeta, T.targetb, T.targetc, T.targetd])
 		t(T.hg, T.cy)
 		t(T.f3, T.bA)
@@ -29990,7 +30124,7 @@
 		C.ironbird = H.a(u([21, 5, 16, 49, 4, 20, 42, 267]), [P.j])
 
 		C.yeya = H.a(u([-80, -46, 38, -82, -79, -70, 999940, 749]), [P.j])
-		C.HermitXII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.HermitXII = H.a(u([-43, 0, -1, 6, 88, 84, 57, -82]), [P.j])
 		C.reimu = H.a(u([31, 43, 30, 31, 34, 30, 27, 704]), [P.j])
 		C.marisa = H.a(u([20, 3, 14, 19, 51, 11, 30, 565]), [P.j])
 		C.rumia = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])

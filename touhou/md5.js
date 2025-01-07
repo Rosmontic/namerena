@@ -23398,6 +23398,7 @@
 			}
 			v = a[0].a
 			u.push(T.e("[0][心相-映画]", c.r, c.r, b, b, 1, 1000, 100))
+			u.push(T.e("[0][心相]显现:[1]", v, v, b, b, 0, 1000, 100))
 			t = H.d(c.r.a) + "?" + H.d($.nn())
 			s = c.r
 			r = s.b
@@ -23438,14 +23439,14 @@
 			d.a5 = new T.cj(d)
 			d.af = c
 			d.e = T.du(c.r)
-			d.r = "惢?"
+			d.r = "惢"
 			s = c.r
 			d.x = s.x
 			s.I.i(0, d.a5)
 			d.av()
 			for (w = 0 ;w <7 ;w++)
 			{
-				d.r.u[w] = v.u[w]
+				d.u[w] = v.u[w]
 			}
 			c.r.x.aU(d)
 			u.push(T.e("[0][心相]显现:[1]", v, T.a1(d, d.fr), b, b, 0, 1000, 100))

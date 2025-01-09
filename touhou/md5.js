@@ -23309,7 +23309,6 @@
 		},
 		aR: function() {
 			this.bv()
-			var u = this.u
 		}
 	}
 	T.wargod.prototype = {

@@ -23431,7 +23431,7 @@
 				b = null, v, w, xin
 			u = a2.a
 			v = a[0].a
-			xin = H.o(this.r.r1.h(0, "ouss"), "$iousx")
+			xin = H.o(v.r1.h(0, "ouss"), "$iousx")
 			if (xin != null){
 				u.push(T.e("[0]:[心相-殇]", c.r, c.r, b, b, 1, 1000, 100))
 				xin.z = xin.z - 3
@@ -23495,9 +23495,12 @@
 			{
 				d.u[w] = v.u[w]
 			}
+
 			c.r.x.aU(d)
 			d.r.xiang = v
 			u.push(T.e("[0][心相]显现:[1]", v, T.a1(d, d.fr), b, b, 0, 1000, 100))
+			u.push(T.e("[0],[1],[2],[3]", d, d.Q, d.cx, d.dy, 0, 1000, 100))
+			u.push(T.e("[0],[1],[2],[3]", d, d.u[0], d.u[2], d.u[7], 0, 1000, 100))
 		}
 	}
 	T.hellWargod.prototype = {

@@ -23434,7 +23434,7 @@
 			xin = H.o(v.r1.h(0, "ouss"), "$iousx")
 			if (xin != null){
 				u.push(T.e("[0]:[心相-殇]", c.r, c.r, b, b, 1, 1000, 100))
-				xin.z = xin.z - 3
+				xin.z = Math.max(xin.z - 3, 0)
 				v.bL((T.u(c.r, !0, a1)* 3), !0, c.r, T.q7(), a1, a2)
 				return
 			}
@@ -23491,16 +23491,20 @@
 			d.x = s.x
 			s.I.i(0, d.a5)
 			d.av()
-			for (w = 0 ;w <7 ;w++)
-			{
-				d.u[w] = v.u[w]
-			}
-
+			d.Q = v[0]
+			d.ch = v[1]
+			d.cx = v[2] + 160
+			d.cy = v[3]
+			d.db = v[4]
+			d.dx = v[5]
+			d.dy = v[6]
+			d.fx = v[7]
+			d.fr = d.fx
 			c.r.x.aU(d)
 			d.r.xiang = v
 			u.push(T.e("[0][心相]显现:[1]", v, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			u.push(T.e("[0],[1],[2],[3]", d, d.Q, d.cx, d.dy, 0, 1000, 100))
-			u.push(T.e("[0],[1],[2],[3]", d, d.u[0], d.u[2], d.u[7], 0, 1000, 100))
+			u.push(T.e("[0],[1],[2],[3]", d.fx, d.cy, d.dx, d.db, 0, 1000, 100))
 		}
 	}
 	T.hellWargod.prototype = {

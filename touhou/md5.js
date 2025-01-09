@@ -23491,14 +23491,14 @@
 			d.x = s.x
 			s.I.i(0, d.a5)
 			d.av()
-			d.Q = v[0]
-			d.ch = v[1]
-			d.cx = v[2] + 160
-			d.cy = v[3]
-			d.db = v[4]
-			d.dx = v[5]
-			d.dy = v[6]
-			d.fx = v[7]
+			d.Q = v.u[0]
+			d.ch = v.u[1]
+			d.cx = v.u[2] + 160
+			d.cy = v.u[3]
+			d.db = v.u[4]
+			d.dx = v.u[5]
+			d.dy = v.u[6]
+			d.fx = v.u[7]
 			d.fr = d.fx
 			c.r.x.aU(d)
 			d.r.xiang = v

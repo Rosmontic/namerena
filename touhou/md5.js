@@ -4715,15 +4715,15 @@
 				var u, t, s, r
 				if (c > 0 && !(a.fr <= 0)) {
 					u = C.b.v(c + 1, 2)
+					if (a.xiang != null)
+					{
+						a = a.af
+					}
 					t = a.fx
 					s = a.fr
 					r = t - s
 					if (u > r)
 						u = r
-					if (a.xiang != null)
-					{
-						a = a.af
-					}
 					a.fr = s + u
 					e.a.push(T.e(O.c("YmSv"), a, T.a1(a, s), new T.aG(u), null, u, 1000, 100))
 				}

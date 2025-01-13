@@ -21158,6 +21158,7 @@
 				this.r.bf(this.r.fr, this.r, c, d)
 			}
 			if (u.fr > 0){
+				d.a.push(T.e("[0]:对[1]发动[心斩]", this.r.af, u, null, null, 0, 1000, 100))
 				d.a.push(T.e("[0]:对[1]发动[心斩]", this.r, u, null, null, 0, 1000, 100))
 				u.bL(t * 1.5, !0, this.r, T.q7(), c, d)
 			}

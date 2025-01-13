@@ -4717,7 +4717,7 @@
 					u = C.b.v(c + 1, 2)
 					if (a.xiang != null)
 					{
-						a = a.af
+						a = a.owner
 					}
 					t = a.fx
 					s = a.fr
@@ -9454,6 +9454,7 @@
 				_.go = 1
 				_.id = e
 				_.xiang = null
+				_.owner = null
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -21158,7 +21159,6 @@
 				this.r.bf(this.r.fr, this.r, c, d)
 			}
 			if (u.fr > 0){
-				d.a.push(T.e("[0]:对[1]发动[心斩]", this.r.af, u, null, null, 0, 1000, 100))
 				d.a.push(T.e("[0]:对[1]发动[心斩]", this.r, u, null, null, 0, 1000, 100))
 				u.bL(t * 1.5, !0, this.r, T.q7(), c, d)
 			}
@@ -23568,6 +23568,7 @@
 			d.Y(t, r, s, b)
 			d.a5 = new T.cj(d)
 			d.af = c
+			d.owner = c.r
 			d.e = T.du(c.r)
 			d.r = "*惢*"
 			s = c.r

@@ -21159,7 +21159,7 @@
 			}
 			if (u.fr > 0){
 				d.a.push(T.e("[0]:对[1]发动[心斩]", this.r, u, null, null, 0, 1000, 100))
-				u.bL(t * 1.5, !0, u, T.q7(), c, d)
+				u.bL(t * 1.5, !0, this.r, T.q7(), c, d)
 			}
 		}
 	}
@@ -23517,7 +23517,7 @@
 			if (xin != null){
 				u.push(T.e("[0]:[心相-殇]", c.r, c.r, b, b, 1, 1000, 100))
 				xin.z = Math.max(xin.z - 3, 0)
-				c.r.bL((T.u(c.r, !0, a1)* 3), !0, v, T.q7(), a1, a2)
+				v.bL((T.u(c.r, !0, a1)* 3), !0, c.r, T.q7(), a1, a2)
 				return
 			}
 			xin = new T.ousx(v)

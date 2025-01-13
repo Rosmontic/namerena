@@ -20329,13 +20329,6 @@
 						d.a.push(T.e("[0]：这是异变啊！", this.r, null, null, null, 1, 1000, 100))
 						d.a.push(T.e("[0]行动提前", this.r, null, null, null, 1, 1000, 100))
 					}
-				case "HermitXII@!":
-					if (H.o(b.r1.h(0, "ouss"), "$iousx") != null){
-						d.a.push(T.e("[0]：[寸心怞怞]", b, null, null, null, 1, 1000, 100))
-						if (a > 2){
-							a = 1
-						}
-					}
 			}
 		},
 		$iA: 1
@@ -23524,7 +23517,7 @@
 			if (xin != null){
 				u.push(T.e("[0]:[心相-殇]", c.r, c.r, b, b, 1, 1000, 100))
 				xin.z = Math.max(xin.z - 3, 0)
-				v.bL((T.u(c.r, !0, a1)* 3), !0, v, T.q7(), a1, a2)
+				c.r.bL((T.u(c.r, !0, a1)* 3), !0, v, T.q7(), a1, a2)
 				return
 			}
 			xin = new T.ousx(v)
@@ -23590,7 +23583,7 @@
 			d.fx = v.u[7]
 			d.fr = d.fx
 			c.r.x.aU(d)
-			d.r.xiang = v
+			d.xiang = v
 			u.push(T.e("[0][心相]显现:[1]", v, T.a1(d, d.fr), b, b, 0, 1000, 100))
 		}
 	}

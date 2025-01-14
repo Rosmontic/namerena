@@ -5508,6 +5508,424 @@
 						g.at(a, u)
 						return g
 					}
+					if (a == "HermitXI") {
+						t = H.d(a) + H.d($.ah())
+						s = H.a([], [T.H])
+						r = H.a([], [T.y])
+						q = P.U(P.f, T.p)
+						p = new F.b([T.M])
+						p.c = p
+						p.b = p
+						o = new F.b([T.L])
+						o.c = o
+						o.b = o
+						n = new F.b([T.G])
+						n.c = n
+						n.b = n
+						m = new F.b([T.J])
+						m.c = m
+						m.b = m
+						l = new F.b([T.K])
+						l.c = l
+						l.b = l
+						k = new F.b([T.D])
+						k.c = k
+						k.b = k
+						j = new F.b([T.A])
+						j.c = j
+						j.b = j
+						i = new F.b([T.C])
+						i.c = i
+						i.b = i
+						h = new F.b([T.I])
+						h.c = h
+						h.b = h
+						g = [P.j]
+						g = new T.HermitXI(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g.Y(a, u, t, f)
+						g.at(a, u)
+						return g
+					}
+if (a == "HermitX") {
+						t = H.d(a) + H.d($.ah())
+						s = H.a([], [T.H])
+						r = H.a([], [T.y])
+						q = P.U(P.f, T.p)
+						p = new F.b([T.M])
+						p.c = p
+						p.b = p
+						o = new F.b([T.L])
+						o.c = o
+						o.b = o
+						n = new F.b([T.G])
+						n.c = n
+						n.b = n
+						m = new F.b([T.J])
+						m.c = m
+						m.b = m
+						l = new F.b([T.K])
+						l.c = l
+						l.b = l
+						k = new F.b([T.D])
+						k.c = k
+						k.b = k
+						j = new F.b([T.A])
+						j.c = j
+						j.b = j
+						i = new F.b([T.C])
+						i.c = i
+						i.b = i
+						h = new F.b([T.I])
+						h.c = h
+						h.b = h
+						g = [P.j]
+						g = new T.HermitX(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g.Y(a, u, t, f)
+						g.at(a, u)
+						return g
+					}
+if (a == "HermitIX") {
+						t = H.d(a) + H.d($.ah())
+						s = H.a([], [T.H])
+						r = H.a([], [T.y])
+						q = P.U(P.f, T.p)
+						p = new F.b([T.M])
+						p.c = p
+						p.b = p
+						o = new F.b([T.L])
+						o.c = o
+						o.b = o
+						n = new F.b([T.G])
+						n.c = n
+						n.b = n
+						m = new F.b([T.J])
+						m.c = m
+						m.b = m
+						l = new F.b([T.K])
+						l.c = l
+						l.b = l
+						k = new F.b([T.D])
+						k.c = k
+						k.b = k
+						j = new F.b([T.A])
+						j.c = j
+						j.b = j
+						i = new F.b([T.C])
+						i.c = i
+						i.b = i
+						h = new F.b([T.I])
+						h.c = h
+						h.b = h
+						g = [P.j]
+						g = new T.HermitIX(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g.Y(a, u, t, f)
+						g.at(a, u)
+						return g
+					}
+if (a == "HermitVIII") {
+						t = H.d(a) + H.d($.ah())
+						s = H.a([], [T.H])
+						r = H.a([], [T.y])
+						q = P.U(P.f, T.p)
+						p = new F.b([T.M])
+						p.c = p
+						p.b = p
+						o = new F.b([T.L])
+						o.c = o
+						o.b = o
+						n = new F.b([T.G])
+						n.c = n
+						n.b = n
+						m = new F.b([T.J])
+						m.c = m
+						m.b = m
+						l = new F.b([T.K])
+						l.c = l
+						l.b = l
+						k = new F.b([T.D])
+						k.c = k
+						k.b = k
+						j = new F.b([T.A])
+						j.c = j
+						j.b = j
+						i = new F.b([T.C])
+						i.c = i
+						i.b = i
+						h = new F.b([T.I])
+						h.c = h
+						h.b = h
+						g = [P.j]
+						g = new T.HermitVIII(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g.Y(a, u, t, f)
+						g.at(a, u)
+						return g
+					}
+if (a == "HermitVII") {
+						t = H.d(a) + H.d($.ah())
+						s = H.a([], [T.H])
+						r = H.a([], [T.y])
+						q = P.U(P.f, T.p)
+						p = new F.b([T.M])
+						p.c = p
+						p.b = p
+						o = new F.b([T.L])
+						o.c = o
+						o.b = o
+						n = new F.b([T.G])
+						n.c = n
+						n.b = n
+						m = new F.b([T.J])
+						m.c = m
+						m.b = m
+						l = new F.b([T.K])
+						l.c = l
+						l.b = l
+						k = new F.b([T.D])
+						k.c = k
+						k.b = k
+						j = new F.b([T.A])
+						j.c = j
+						j.b = j
+						i = new F.b([T.C])
+						i.c = i
+						i.b = i
+						h = new F.b([T.I])
+						h.c = h
+						h.b = h
+						g = [P.j]
+						g = new T.HermitVII(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g.Y(a, u, t, f)
+						g.at(a, u)
+						return g
+					}
+if (a == "HermitVI") {
+						t = H.d(a) + H.d($.ah())
+						s = H.a([], [T.H])
+						r = H.a([], [T.y])
+						q = P.U(P.f, T.p)
+						p = new F.b([T.M])
+						p.c = p
+						p.b = p
+						o = new F.b([T.L])
+						o.c = o
+						o.b = o
+						n = new F.b([T.G])
+						n.c = n
+						n.b = n
+						m = new F.b([T.J])
+						m.c = m
+						m.b = m
+						l = new F.b([T.K])
+						l.c = l
+						l.b = l
+						k = new F.b([T.D])
+						k.c = k
+						k.b = k
+						j = new F.b([T.A])
+						j.c = j
+						j.b = j
+						i = new F.b([T.C])
+						i.c = i
+						i.b = i
+						h = new F.b([T.I])
+						h.c = h
+						h.b = h
+						g = [P.j]
+						g = new T.HermitVI(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g.Y(a, u, t, f)
+						g.at(a, u)
+						return g
+					}
+if (a == "HermitV") {
+						t = H.d(a) + H.d($.ah())
+						s = H.a([], [T.H])
+						r = H.a([], [T.y])
+						q = P.U(P.f, T.p)
+						p = new F.b([T.M])
+						p.c = p
+						p.b = p
+						o = new F.b([T.L])
+						o.c = o
+						o.b = o
+						n = new F.b([T.G])
+						n.c = n
+						n.b = n
+						m = new F.b([T.J])
+						m.c = m
+						m.b = m
+						l = new F.b([T.K])
+						l.c = l
+						l.b = l
+						k = new F.b([T.D])
+						k.c = k
+						k.b = k
+						j = new F.b([T.A])
+						j.c = j
+						j.b = j
+						i = new F.b([T.C])
+						i.c = i
+						i.b = i
+						h = new F.b([T.I])
+						h.c = h
+						h.b = h
+						g = [P.j]
+						g = new T.HermitV(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g.Y(a, u, t, f)
+						g.at(a, u)
+						return g
+					}
+if (a == "HermitIV") {
+						t = H.d(a) + H.d($.ah())
+						s = H.a([], [T.H])
+						r = H.a([], [T.y])
+						q = P.U(P.f, T.p)
+						p = new F.b([T.M])
+						p.c = p
+						p.b = p
+						o = new F.b([T.L])
+						o.c = o
+						o.b = o
+						n = new F.b([T.G])
+						n.c = n
+						n.b = n
+						m = new F.b([T.J])
+						m.c = m
+						m.b = m
+						l = new F.b([T.K])
+						l.c = l
+						l.b = l
+						k = new F.b([T.D])
+						k.c = k
+						k.b = k
+						j = new F.b([T.A])
+						j.c = j
+						j.b = j
+						i = new F.b([T.C])
+						i.c = i
+						i.b = i
+						h = new F.b([T.I])
+						h.c = h
+						h.b = h
+						g = [P.j]
+						g = new T.HermitIV(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g.Y(a, u, t, f)
+						g.at(a, u)
+						return g
+					}
+if (a == "HermitIII") {
+						t = H.d(a) + H.d($.ah())
+						s = H.a([], [T.H])
+						r = H.a([], [T.y])
+						q = P.U(P.f, T.p)
+						p = new F.b([T.M])
+						p.c = p
+						p.b = p
+						o = new F.b([T.L])
+						o.c = o
+						o.b = o
+						n = new F.b([T.G])
+						n.c = n
+						n.b = n
+						m = new F.b([T.J])
+						m.c = m
+						m.b = m
+						l = new F.b([T.K])
+						l.c = l
+						l.b = l
+						k = new F.b([T.D])
+						k.c = k
+						k.b = k
+						j = new F.b([T.A])
+						j.c = j
+						j.b = j
+						i = new F.b([T.C])
+						i.c = i
+						i.b = i
+						h = new F.b([T.I])
+						h.c = h
+						h.b = h
+						g = [P.j]
+						g = new T.HermitIII(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g.Y(a, u, t, f)
+						g.at(a, u)
+						return g
+					}
+if (a == "HermitII") {
+						t = H.d(a) + H.d($.ah())
+						s = H.a([], [T.H])
+						r = H.a([], [T.y])
+						q = P.U(P.f, T.p)
+						p = new F.b([T.M])
+						p.c = p
+						p.b = p
+						o = new F.b([T.L])
+						o.c = o
+						o.b = o
+						n = new F.b([T.G])
+						n.c = n
+						n.b = n
+						m = new F.b([T.J])
+						m.c = m
+						m.b = m
+						l = new F.b([T.K])
+						l.c = l
+						l.b = l
+						k = new F.b([T.D])
+						k.c = k
+						k.b = k
+						j = new F.b([T.A])
+						j.c = j
+						j.b = j
+						i = new F.b([T.C])
+						i.c = i
+						i.b = i
+						h = new F.b([T.I])
+						h.c = h
+						h.b = h
+						g = [P.j]
+						g = new T.HermitII(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g.Y(a, u, t, f)
+						g.at(a, u)
+						return g
+					}
+if (a == "HermitI") {
+						t = H.d(a) + H.d($.ah())
+						s = H.a([], [T.H])
+						r = H.a([], [T.y])
+						q = P.U(P.f, T.p)
+						p = new F.b([T.M])
+						p.c = p
+						p.b = p
+						o = new F.b([T.L])
+						o.c = o
+						o.b = o
+						n = new F.b([T.G])
+						n.c = n
+						n.b = n
+						m = new F.b([T.J])
+						m.c = m
+						m.b = m
+						l = new F.b([T.K])
+						l.c = l
+						l.b = l
+						k = new F.b([T.D])
+						k.c = k
+						k.b = k
+						j = new F.b([T.A])
+						j.c = j
+						j.b = j
+						i = new F.b([T.C])
+						i.c = i
+						i.b = i
+						h = new F.b([T.I])
+						h.c = h
+						h.b = h
+						g = [P.j]
+						g = new T.HermitI(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g.Y(a, u, t, f)
+						g.at(a, u)
+						return g
+					}
 					if (a == "reimu") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
@@ -10210,6 +10628,446 @@
 				_.relief = 0
 				_.ous = []
 				_.xinsu = []
+				_.k2 = _.k1 = null
+				_.k3 = f
+				_.k4 = null
+				_.r1 = g
+				_.r2 = h
+				_.rx = i
+				_.ry = j
+				_.x1 = k
+				_.x2 = l
+				_.y1 = m
+				_.y2 = n
+				_.I = o
+				_.N = p
+				_.A = !1
+				_.u = q
+				_.U = null
+				_.D = r
+				_.q = s
+				_.a_ = t
+				_.V = _.O = _.L = 0
+				_.J = 32768
+				_.j = 0
+				_.X = _.W = !1
+				_.F = null
+			},
+			HermitXI: function HermitXI(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+				var _ = this
+				_.aI = 0
+				_.aP = _.bb = _.af = null
+				_.a = a
+				_.b = b
+				_.c = c
+				_.d = d
+				_.y = _.x = _.r = _.f = _.e = null
+				_.z = 0
+				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+				_.go = 1
+				_.id = e
+				_.resist = 0
+				_.relief = 0
+				_.k2 = _.k1 = null
+				_.k3 = f
+				_.k4 = null
+				_.r1 = g
+				_.r2 = h
+				_.rx = i
+				_.ry = j
+				_.x1 = k
+				_.x2 = l
+				_.y1 = m
+				_.y2 = n
+				_.I = o
+				_.N = p
+				_.A = !1
+				_.u = q
+				_.U = null
+				_.D = r
+				_.q = s
+				_.a_ = t
+				_.V = _.O = _.L = 0
+				_.J = 32768
+				_.j = 0
+				_.X = _.W = !1
+				_.F = null
+			},
+HermitX: function HermitX(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+				var _ = this
+				_.aI = 0
+				_.aP = _.bb = _.af = null
+				_.a = a
+				_.b = b
+				_.c = c
+				_.d = d
+				_.y = _.x = _.r = _.f = _.e = null
+				_.z = 0
+				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+				_.go = 1
+				_.id = e
+				_.resist = 0
+				_.relief = 0
+				_.k2 = _.k1 = null
+				_.k3 = f
+				_.k4 = null
+				_.r1 = g
+				_.r2 = h
+				_.rx = i
+				_.ry = j
+				_.x1 = k
+				_.x2 = l
+				_.y1 = m
+				_.y2 = n
+				_.I = o
+				_.N = p
+				_.A = !1
+				_.u = q
+				_.U = null
+				_.D = r
+				_.q = s
+				_.a_ = t
+				_.V = _.O = _.L = 0
+				_.J = 32768
+				_.j = 0
+				_.X = _.W = !1
+				_.F = null
+			},
+HermitIX: function HermitIX(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+				var _ = this
+				_.aI = 0
+				_.aP = _.bb = _.af = null
+				_.a = a
+				_.b = b
+				_.c = c
+				_.d = d
+				_.y = _.x = _.r = _.f = _.e = null
+				_.z = 0
+				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+				_.go = 1
+				_.id = e
+				_.resist = 0
+				_.relief = 0
+				_.k2 = _.k1 = null
+				_.k3 = f
+				_.k4 = null
+				_.r1 = g
+				_.r2 = h
+				_.rx = i
+				_.ry = j
+				_.x1 = k
+				_.x2 = l
+				_.y1 = m
+				_.y2 = n
+				_.I = o
+				_.N = p
+				_.A = !1
+				_.u = q
+				_.U = null
+				_.D = r
+				_.q = s
+				_.a_ = t
+				_.V = _.O = _.L = 0
+				_.J = 32768
+				_.j = 0
+				_.X = _.W = !1
+				_.F = null
+			},
+HermitVIII: function HermitVIII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+				var _ = this
+				_.aI = 0
+				_.aP = _.bb = _.af = null
+				_.a = a
+				_.b = b
+				_.c = c
+				_.d = d
+				_.y = _.x = _.r = _.f = _.e = null
+				_.z = 0
+				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+				_.go = 1
+				_.id = e
+				_.resist = 0
+				_.relief = 0
+				_.k2 = _.k1 = null
+				_.k3 = f
+				_.k4 = null
+				_.r1 = g
+				_.r2 = h
+				_.rx = i
+				_.ry = j
+				_.x1 = k
+				_.x2 = l
+				_.y1 = m
+				_.y2 = n
+				_.I = o
+				_.N = p
+				_.A = !1
+				_.u = q
+				_.U = null
+				_.D = r
+				_.q = s
+				_.a_ = t
+				_.V = _.O = _.L = 0
+				_.J = 32768
+				_.j = 0
+				_.X = _.W = !1
+				_.F = null
+			},
+HermitVII: function HermitVII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+				var _ = this
+				_.aI = 0
+				_.aP = _.bb = _.af = null
+				_.a = a
+				_.b = b
+				_.c = c
+				_.d = d
+				_.y = _.x = _.r = _.f = _.e = null
+				_.z = 0
+				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+				_.go = 1
+				_.id = e
+				_.resist = 0
+				_.relief = 0
+				_.k2 = _.k1 = null
+				_.k3 = f
+				_.k4 = null
+				_.r1 = g
+				_.r2 = h
+				_.rx = i
+				_.ry = j
+				_.x1 = k
+				_.x2 = l
+				_.y1 = m
+				_.y2 = n
+				_.I = o
+				_.N = p
+				_.A = !1
+				_.u = q
+				_.U = null
+				_.D = r
+				_.q = s
+				_.a_ = t
+				_.V = _.O = _.L = 0
+				_.J = 32768
+				_.j = 0
+				_.X = _.W = !1
+				_.F = null
+			},
+HermitVI: function HermitVI(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+				var _ = this
+				_.aI = 0
+				_.aP = _.bb = _.af = null
+				_.a = a
+				_.b = b
+				_.c = c
+				_.d = d
+				_.y = _.x = _.r = _.f = _.e = null
+				_.z = 0
+				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+				_.go = 1
+				_.id = e
+				_.resist = 0
+				_.relief = 0
+				_.k2 = _.k1 = null
+				_.k3 = f
+				_.k4 = null
+				_.r1 = g
+				_.r2 = h
+				_.rx = i
+				_.ry = j
+				_.x1 = k
+				_.x2 = l
+				_.y1 = m
+				_.y2 = n
+				_.I = o
+				_.N = p
+				_.A = !1
+				_.u = q
+				_.U = null
+				_.D = r
+				_.q = s
+				_.a_ = t
+				_.V = _.O = _.L = 0
+				_.J = 32768
+				_.j = 0
+				_.X = _.W = !1
+				_.F = null
+			},
+HermitV: function HermitV(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+				var _ = this
+				_.aI = 0
+				_.aP = _.bb = _.af = null
+				_.a = a
+				_.b = b
+				_.c = c
+				_.d = d
+				_.y = _.x = _.r = _.f = _.e = null
+				_.z = 0
+				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+				_.go = 1
+				_.id = e
+				_.resist = 0
+				_.relief = 0
+				_.k2 = _.k1 = null
+				_.k3 = f
+				_.k4 = null
+				_.r1 = g
+				_.r2 = h
+				_.rx = i
+				_.ry = j
+				_.x1 = k
+				_.x2 = l
+				_.y1 = m
+				_.y2 = n
+				_.I = o
+				_.N = p
+				_.A = !1
+				_.u = q
+				_.U = null
+				_.D = r
+				_.q = s
+				_.a_ = t
+				_.V = _.O = _.L = 0
+				_.J = 32768
+				_.j = 0
+				_.X = _.W = !1
+				_.F = null
+			},
+HermitIV: function HermitIV(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+				var _ = this
+				_.aI = 0
+				_.aP = _.bb = _.af = null
+				_.a = a
+				_.b = b
+				_.c = c
+				_.d = d
+				_.y = _.x = _.r = _.f = _.e = null
+				_.z = 0
+				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+				_.go = 1
+				_.id = e
+				_.resist = 0
+				_.relief = 0
+				_.k2 = _.k1 = null
+				_.k3 = f
+				_.k4 = null
+				_.r1 = g
+				_.r2 = h
+				_.rx = i
+				_.ry = j
+				_.x1 = k
+				_.x2 = l
+				_.y1 = m
+				_.y2 = n
+				_.I = o
+				_.N = p
+				_.A = !1
+				_.u = q
+				_.U = null
+				_.D = r
+				_.q = s
+				_.a_ = t
+				_.V = _.O = _.L = 0
+				_.J = 32768
+				_.j = 0
+				_.X = _.W = !1
+				_.F = null
+			},
+HermitIII: function HermitIII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+				var _ = this
+				_.aI = 0
+				_.aP = _.bb = _.af = null
+				_.a = a
+				_.b = b
+				_.c = c
+				_.d = d
+				_.y = _.x = _.r = _.f = _.e = null
+				_.z = 0
+				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+				_.go = 1
+				_.id = e
+				_.resist = 0
+				_.relief = 0
+				_.k2 = _.k1 = null
+				_.k3 = f
+				_.k4 = null
+				_.r1 = g
+				_.r2 = h
+				_.rx = i
+				_.ry = j
+				_.x1 = k
+				_.x2 = l
+				_.y1 = m
+				_.y2 = n
+				_.I = o
+				_.N = p
+				_.A = !1
+				_.u = q
+				_.U = null
+				_.D = r
+				_.q = s
+				_.a_ = t
+				_.V = _.O = _.L = 0
+				_.J = 32768
+				_.j = 0
+				_.X = _.W = !1
+				_.F = null
+			},
+HermitII: function HermitII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+				var _ = this
+				_.aI = 0
+				_.aP = _.bb = _.af = null
+				_.a = a
+				_.b = b
+				_.c = c
+				_.d = d
+				_.y = _.x = _.r = _.f = _.e = null
+				_.z = 0
+				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+				_.go = 1
+				_.id = e
+				_.resist = 0
+				_.relief = 0
+				_.k2 = _.k1 = null
+				_.k3 = f
+				_.k4 = null
+				_.r1 = g
+				_.r2 = h
+				_.rx = i
+				_.ry = j
+				_.x1 = k
+				_.x2 = l
+				_.y1 = m
+				_.y2 = n
+				_.I = o
+				_.N = p
+				_.A = !1
+				_.u = q
+				_.U = null
+				_.D = r
+				_.q = s
+				_.a_ = t
+				_.V = _.O = _.L = 0
+				_.J = 32768
+				_.j = 0
+				_.X = _.W = !1
+				_.F = null
+			},
+HermitI: function HermitI(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+				var _ = this
+				_.aI = 0
+				_.aP = _.bb = _.af = null
+				_.a = a
+				_.b = b
+				_.c = c
+				_.d = d
+				_.y = _.x = _.r = _.f = _.e = null
+				_.z = 0
+				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+				_.go = 1
+				_.id = e
+				_.resist = 0
+				_.relief = 0
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -21152,11 +22010,15 @@
 	}
 	T.xindL.prototype = {
 		t: function(a, b, c, d) {
-			var u = this.r.xiang, t = T.u(this.r, !0, c)
+			var w, v, u = this.r.xiang, t = T.u(this.r, !0, c)
 			if (u.fr <= 0){
 				this.r.fr = 0
 				d.a.push(T.e("[0]:[心无罣碍，无罣碍故]", this.r, u, null, null, 0, 1000, 100))
 				this.r.bf(this.r.fr, this.r, c, d)
+				v = this.r.af.fr
+				this.r.af.fr = this.r.af.fx
+				w = this.r.af.fr - v
+				d.a.push(T.e("[1]回复生命[2]点", this.r, T.a1(this.r.af, v), new T.aG(w), null, 0, 1000, 100))
 			}
 			if (u.fr > 0){
 				d.a.push(T.e("[0]:对[1]发动[心斩]", this.r, u, null, null, 0, 1000, 100))
@@ -25249,6 +26111,128 @@
 			t.push(new T.thdf())
 		}
 	}
+	T.HermitXI.prototype = {
+		gah: function() {
+			return C.HermitXI
+		},
+		aa: function() {
+			var u, t = new T.aK()
+			t.r = this
+			this.k2 = t
+			t = this.id
+		}
+	}
+T.HermitX.prototype = {
+		gah: function() {
+			return C.HermitX
+		},
+		aa: function() {
+			var u, t = new T.aK()
+			t.r = this
+			this.k2 = t
+			t = this.id
+		}
+	}
+T.HermitIX.prototype = {
+		gah: function() {
+			return C.HermitIX
+		},
+		aa: function() {
+			var u, t = new T.aK()
+			t.r = this
+			this.k2 = t
+			t = this.id
+		}
+	}
+T.HermitVIII.prototype = {
+		gah: function() {
+			return C.HermitVIII
+		},
+		aa: function() {
+			var u, t = new T.aK()
+			t.r = this
+			this.k2 = t
+			t = this.id
+		}
+	}
+T.HermitVII.prototype = {
+		gah: function() {
+			return C.HermitVII
+		},
+		aa: function() {
+			var u, t = new T.aK()
+			t.r = this
+			this.k2 = t
+			t = this.id
+		}
+	}
+T.HermitVI.prototype = {
+		gah: function() {
+			return C.HermitVI
+		},
+		aa: function() {
+			var u, t = new T.aK()
+			t.r = this
+			this.k2 = t
+			t = this.id
+		}
+	}
+T.HermitV.prototype = {
+		gah: function() {
+			return C.HermitV
+		},
+		aa: function() {
+			var u, t = new T.aK()
+			t.r = this
+			this.k2 = t
+			t = this.id
+		}
+	}
+T.HermitIV.prototype = {
+		gah: function() {
+			return C.HermitIV
+		},
+		aa: function() {
+			var u, t = new T.aK()
+			t.r = this
+			this.k2 = t
+			t = this.id
+		}
+	}
+T.HermitIII.prototype = {
+		gah: function() {
+			return C.HermitIII
+		},
+		aa: function() {
+			var u, t = new T.aK()
+			t.r = this
+			this.k2 = t
+			t = this.id
+		}
+	}
+T.HermitII.prototype = {
+		gah: function() {
+			return C.HermitII
+		},
+		aa: function() {
+			var u, t = new T.aK()
+			t.r = this
+			this.k2 = t
+			t = this.id
+		}
+	}
+T.HermitI.prototype = {
+		gah: function() {
+			return C.HermitI
+		},
+		aa: function() {
+			var u, t = new T.aK()
+			t.r = this
+			this.k2 = t
+			t = this.id
+		}
+	}
+
 	T.reimu.prototype = {
 		gah: function() {
 			return C.reimu
@@ -29895,7 +30879,7 @@
 		s(T.D, [T.cg, T.dF, T.el, T.en])
 		s(T.J, [T.dE, T.fire, T.ay])
 		s(T.av, [T.hh, T.suo, T.hi, T.ho, T.wargod])
-		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.ironbird, T.yeya, T.HermitXII, T.reimu, T.marisa, T.rumia, T.daiyousei, T.cirno, T.hong, T.koakuma, T.patchouli, T.sakuya, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.suika, T.wriggle, T.mystia, T.keine, T.inaba, T.reisen, T.yagokoro, T.kaguya, T.mokou, T.aya, T.medicine, T.yuka, T.onozuka, T.shikieiki, T.aki, T.hina, T.nitori, T.momizi, T.sanae, T.kanako, T.suwako, T.iku, T.tenshi, T.kisume, T.yamame, T.parsee, T.yugi, T.satori, T.kaenbyou, T.utuho, T.koishi, T.nazrin, T.kogasa, T.ichirin, T.minamitu, T.shou, T.byakuren, T.nue, T.hatate, T.shellingford, T.nero, T.gray, T.poirot, T.quicksilve, T.targeta, T.targetb, T.targetc, T.targetd])
+		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.ironbird, T.yeya, T.HermitXII, T.HermitXI, T.HermitX, T.HermitIX, T.HermitVIII, T.HermitVII, T.HermitVI, T.HermitV, T.HermitIV, T.HermitIII, T.HermitII, T.HermitI, T.reimu, T.marisa, T.rumia, T.daiyousei, T.cirno, T.hong, T.koakuma, T.patchouli, T.sakuya, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.suika, T.wriggle, T.mystia, T.keine, T.inaba, T.reisen, T.yagokoro, T.kaguya, T.mokou, T.aya, T.medicine, T.yuka, T.onozuka, T.shikieiki, T.aki, T.hina, T.nitori, T.momizi, T.sanae, T.kanako, T.suwako, T.iku, T.tenshi, T.kisume, T.yamame, T.parsee, T.yugi, T.satori, T.kaenbyou, T.utuho, T.koishi, T.nazrin, T.kogasa, T.ichirin, T.minamitu, T.shou, T.byakuren, T.nue, T.hatate, T.shellingford, T.nero, T.gray, T.poirot, T.quicksilve, T.targeta, T.targetb, T.targetc, T.targetd])
 		t(T.hg, T.cy)
 		t(T.f3, T.bA)
 		t(T.e_, T.dN, T.yuriSuperControl)
@@ -30264,7 +31248,19 @@
 		C.ironbird = H.a(u([21, 5, 16, 49, 4, 20, 42, 267]), [P.j])
 
 		C.yeya = H.a(u([-80, -46, 38, -82, -79, -70, 999940, 749]), [P.j])
-		C.HermitXII = H.a(u([-43, 0, -1, 6, 88, 84, 57, 182]), [P.j])
+		C.HermitXII = H.a(u([-43, 0, -1, 6, 88, 84, 57, 238]), [P.j])
+		C.HermitXI = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.HermitX = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.HermitIX = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.HermitVIII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.HermitVII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.HermitVI = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.HermitV = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.HermitIV = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.HermitIII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.HermitII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+C.HermitI = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+
 		C.reimu = H.a(u([31, 43, 30, 31, 34, 30, 27, 704]), [P.j])
 		C.marisa = H.a(u([20, 3, 14, 19, 51, 11, 30, 565]), [P.j])
 		C.rumia = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])

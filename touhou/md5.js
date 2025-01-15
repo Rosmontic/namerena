@@ -4715,8 +4715,7 @@
 				var u, t, s, r
 				if (c > 0 && !(a.fr <= 0)) {
 					u = C.b.v(c + 1, 2)
-					if (a.xiang != null)
-					{
+					if (a.xiang != null) {
 						a = a.owner
 					}
 					t = a.fx
@@ -5546,7 +5545,7 @@
 						g.at(a, u)
 						return g
 					}
-if (a == "HermitX") {
+					if (a == "HermitX") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
 						r = H.a([], [T.y])
@@ -5584,7 +5583,7 @@ if (a == "HermitX") {
 						g.at(a, u)
 						return g
 					}
-if (a == "HermitIX") {
+					if (a == "HermitIX") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
 						r = H.a([], [T.y])
@@ -5622,7 +5621,7 @@ if (a == "HermitIX") {
 						g.at(a, u)
 						return g
 					}
-if (a == "HermitVIII") {
+					if (a == "HermitVIII") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
 						r = H.a([], [T.y])
@@ -5660,7 +5659,7 @@ if (a == "HermitVIII") {
 						g.at(a, u)
 						return g
 					}
-if (a == "HermitVII") {
+					if (a == "HermitVII") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
 						r = H.a([], [T.y])
@@ -5698,7 +5697,7 @@ if (a == "HermitVII") {
 						g.at(a, u)
 						return g
 					}
-if (a == "HermitVI") {
+					if (a == "HermitVI") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
 						r = H.a([], [T.y])
@@ -5736,7 +5735,7 @@ if (a == "HermitVI") {
 						g.at(a, u)
 						return g
 					}
-if (a == "HermitV") {
+					if (a == "HermitV") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
 						r = H.a([], [T.y])
@@ -5774,7 +5773,7 @@ if (a == "HermitV") {
 						g.at(a, u)
 						return g
 					}
-if (a == "HermitIV") {
+					if (a == "HermitIV") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
 						r = H.a([], [T.y])
@@ -5812,7 +5811,7 @@ if (a == "HermitIV") {
 						g.at(a, u)
 						return g
 					}
-if (a == "HermitIII") {
+					if (a == "HermitIII") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
 						r = H.a([], [T.y])
@@ -5850,7 +5849,7 @@ if (a == "HermitIII") {
 						g.at(a, u)
 						return g
 					}
-if (a == "HermitII") {
+					if (a == "HermitII") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
 						r = H.a([], [T.y])
@@ -5888,7 +5887,7 @@ if (a == "HermitII") {
 						g.at(a, u)
 						return g
 					}
-if (a == "HermitI") {
+					if (a == "HermitI") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
 						r = H.a([], [T.y])
@@ -10693,7 +10692,7 @@ if (a == "HermitI") {
 				_.X = _.W = !1
 				_.F = null
 			},
-HermitX: function HermitX(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+			HermitX: function HermitX(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
 				_.aP = _.bb = _.af = null
@@ -10733,7 +10732,7 @@ HermitX: function HermitX(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, 
 				_.X = _.W = !1
 				_.F = null
 			},
-HermitIX: function HermitIX(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+			HermitIX: function HermitIX(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
 				_.aP = _.bb = _.af = null
@@ -10773,7 +10772,7 @@ HermitIX: function HermitIX(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r
 				_.X = _.W = !1
 				_.F = null
 			},
-HermitVIII: function HermitVIII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+			HermitVIII: function HermitVIII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
 				_.aP = _.bb = _.af = null
@@ -10813,7 +10812,7 @@ HermitVIII: function HermitVIII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, 
 				_.X = _.W = !1
 				_.F = null
 			},
-HermitVII: function HermitVII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+			HermitVII: function HermitVII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
 				_.aP = _.bb = _.af = null
@@ -10853,7 +10852,7 @@ HermitVII: function HermitVII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q,
 				_.X = _.W = !1
 				_.F = null
 			},
-HermitVI: function HermitVI(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+			HermitVI: function HermitVI(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
 				_.aP = _.bb = _.af = null
@@ -10893,7 +10892,7 @@ HermitVI: function HermitVI(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r
 				_.X = _.W = !1
 				_.F = null
 			},
-HermitV: function HermitV(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+			HermitV: function HermitV(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
 				_.aP = _.bb = _.af = null
@@ -10933,7 +10932,7 @@ HermitV: function HermitV(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, 
 				_.X = _.W = !1
 				_.F = null
 			},
-HermitIV: function HermitIV(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+			HermitIV: function HermitIV(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
 				_.aP = _.bb = _.af = null
@@ -10973,7 +10972,7 @@ HermitIV: function HermitIV(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r
 				_.X = _.W = !1
 				_.F = null
 			},
-HermitIII: function HermitIII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+			HermitIII: function HermitIII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
 				_.aP = _.bb = _.af = null
@@ -11013,7 +11012,7 @@ HermitIII: function HermitIII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q,
 				_.X = _.W = !1
 				_.F = null
 			},
-HermitII: function HermitII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+			HermitII: function HermitII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
 				_.aP = _.bb = _.af = null
@@ -11053,7 +11052,7 @@ HermitII: function HermitII(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r
 				_.X = _.W = !1
 				_.F = null
 			},
-HermitI: function HermitI(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+			HermitI: function HermitI(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
 				_.aP = _.bb = _.af = null
@@ -21481,7 +21480,7 @@ HermitI: function HermitI(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, 
 			s = this.r
 			r = H.a(n.slice(0), [H.n(n, 0)])
 			q = d.a
-			if (c.m() > 239){
+			if (c.m() > 239) {
 				t = "[0]使用[魔炮「超究极火花」]"
 				this.r.reiki = 10
 			}
@@ -22010,8 +22009,9 @@ HermitI: function HermitI(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, 
 	}
 	T.xindL.prototype = {
 		t: function(a, b, c, d) {
-			var w, v, u = this.r.xiang, t = T.u(this.r, !0, c)
-			if (u.fr <= 0){
+			var w, v, u = this.r.xiang,
+				t = T.u(this.r, !0, c)
+			if (u.fr <= 0) {
 				this.r.fr = 0
 				d.a.push(T.e("[0]:[心无罣碍，无罣碍故]", this.r, u, null, null, 0, 1000, 100))
 				this.r.bf(this.r.fr, this.r, c, d)
@@ -22020,7 +22020,7 @@ HermitI: function HermitI(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, 
 				w = this.r.af.fr - v
 				d.a.push(T.e("[1]回复生命[2]点", this.r, T.a1(this.r.af, v), new T.aG(w), null, 0, 1000, 100))
 			}
-			if (u.fr > 0){
+			if (u.fr > 0) {
 				d.a.push(T.e("[0]:对[1]发动[心斩]", this.r, u, null, null, 0, 1000, 100))
 				u.bL(t * 1.5, !0, this.r, T.q7(), c, d)
 			}
@@ -22937,16 +22937,16 @@ HermitI: function HermitI(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, 
 			var u = this.x
 		},
 		aq: function(a, b) {
-			if (this.x.Q.fr <= 0){
+			if (this.x.Q.fr <= 0) {
 				b.a.push(T.e("[0]脱离了[心相]", this.x, null, null, null, null, 0, 1000, 100))
 				this.H(null, b)
 			}
-			if (--this.z === 0){
+			if (--this.z === 0) {
 				b.a.push(T.e("[0][心楞遮菩地唎怛提那咩夜悉度苏夜啰谨婆楞他啰醯南摩醯楞喝唎伽地烁驮栗夜漫...]", this.x, null, null, null, null, 0, 1000, 100))
 				this.x.fr = 0
-				this.x.bf(this.x.fr, null, a, b)	
+				this.x.bf(this.x.fr, null, a, b)
 			}
-				
+
 		},
 		H: function(a, b) {
 			var u, t
@@ -23339,18 +23339,18 @@ HermitI: function HermitI(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, 
 			r = u.fr
 			u.fr = r + t
 			if (u.fr < this.r.fr) {
-				u.fr = Math.min(this.r.fr , u.fx)
+				u.fr = Math.min(this.r.fr, u.fx)
 			}
 			t = u.fr - r
 			p.push(T.e(O.c("YmSv"), q.r, T.a1(u, r), new T.aG(t), null, 0, 1000, 100))
 			u.bI(q.r, d)
 			q.r.xinsu.push(o)
-			for (var i = 0; i < q.r.xinsu.length; i++){
-				if (q.r.xinsu[i].fr  < q.r.xinsu[i].fx){
+			for (var i = 0; i < q.r.xinsu.length; i++) {
+				if (q.r.xinsu[i].fr < q.r.xinsu[i].fx) {
 					u = q.r.xinsu[i]
 					r = u.fr
 					if (u.fr < this.r.fr) {
-						u.fr = Math.min(this.r.fr , u.fx)
+						u.fr = Math.min(this.r.fr, u.fx)
 					}
 					t = u.fr - r
 					p.push($.v())
@@ -24364,23 +24364,24 @@ HermitI: function HermitI(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, 
 	}
 	T.hermitXIIn1.prototype = {
 		ar: function(a, b) {
-			if (b){
+			if (b) {
 				return this.aS(a, b)
-			}	
+			}
 		},
 		a8: function(a, b, c) {
-            return this.bs(a, b, c, !0)
-        },
+			return this.bs(a, b, c, !0)
+		},
 		t: function(a, a0, a1, a2) {
 			var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this,
-				b = null, v, w, xin
+				b = null,
+				v, w, xin
 			u = a2.a
 			v = a[0].a
 			xin = H.o(v.r1.h(0, "ouss"), "$iousx")
-			if (xin != null){
+			if (xin != null) {
 				u.push(T.e("[0]:[心相-殇]", c.r, c.r, b, b, 1, 1000, 100))
 				xin.z = Math.max(xin.z - 3, 0)
-				v.bL((T.u(c.r, !0, a1)* 3), !0, c.r, T.q7(), a1, a2)
+				v.bL((T.u(c.r, !0, a1) * 3), !0, c.r, T.q7(), a1, a2)
 				return
 			}
 			xin = new T.ousx(v)
@@ -26122,7 +26123,7 @@ HermitI: function HermitI(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, 
 			t = this.id
 		}
 	}
-T.HermitX.prototype = {
+	T.HermitX.prototype = {
 		gah: function() {
 			return C.HermitX
 		},
@@ -26133,7 +26134,7 @@ T.HermitX.prototype = {
 			t = this.id
 		}
 	}
-T.HermitIX.prototype = {
+	T.HermitIX.prototype = {
 		gah: function() {
 			return C.HermitIX
 		},
@@ -26144,7 +26145,7 @@ T.HermitIX.prototype = {
 			t = this.id
 		}
 	}
-T.HermitVIII.prototype = {
+	T.HermitVIII.prototype = {
 		gah: function() {
 			return C.HermitVIII
 		},
@@ -26155,7 +26156,7 @@ T.HermitVIII.prototype = {
 			t = this.id
 		}
 	}
-T.HermitVII.prototype = {
+	T.HermitVII.prototype = {
 		gah: function() {
 			return C.HermitVII
 		},
@@ -26166,7 +26167,7 @@ T.HermitVII.prototype = {
 			t = this.id
 		}
 	}
-T.HermitVI.prototype = {
+	T.HermitVI.prototype = {
 		gah: function() {
 			return C.HermitVI
 		},
@@ -26177,7 +26178,7 @@ T.HermitVI.prototype = {
 			t = this.id
 		}
 	}
-T.HermitV.prototype = {
+	T.HermitV.prototype = {
 		gah: function() {
 			return C.HermitV
 		},
@@ -26188,7 +26189,7 @@ T.HermitV.prototype = {
 			t = this.id
 		}
 	}
-T.HermitIV.prototype = {
+	T.HermitIV.prototype = {
 		gah: function() {
 			return C.HermitIV
 		},
@@ -26199,7 +26200,7 @@ T.HermitIV.prototype = {
 			t = this.id
 		}
 	}
-T.HermitIII.prototype = {
+	T.HermitIII.prototype = {
 		gah: function() {
 			return C.HermitIII
 		},
@@ -26210,7 +26211,7 @@ T.HermitIII.prototype = {
 			t = this.id
 		}
 	}
-T.HermitII.prototype = {
+	T.HermitII.prototype = {
 		gah: function() {
 			return C.HermitII
 		},
@@ -26221,7 +26222,7 @@ T.HermitII.prototype = {
 			t = this.id
 		}
 	}
-T.HermitI.prototype = {
+	T.HermitI.prototype = {
 		gah: function() {
 			return C.HermitI
 		},
@@ -29106,7 +29107,7 @@ T.HermitI.prototype = {
 			} else
 				u = !1
 			//for (n = 0; n < 7; ++n) {
-				//d.a.push(T.e("[0]", this.r.u[n], this.r, null, null, 0, 1000, 100))
+			//d.a.push(T.e("[0]", this.r.u[n], this.r, null, null, 0, 1000, 100))
 			//}
 			if (u) {
 				u = q.r
@@ -31250,16 +31251,16 @@ T.HermitI.prototype = {
 		C.yeya = H.a(u([-80, -46, 38, -82, -79, -70, 999940, 749]), [P.j])
 		C.HermitXII = H.a(u([-43, 0, -1, 6, 88, 84, 57, 238]), [P.j])
 		C.HermitXI = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-C.HermitX = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-C.HermitIX = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-C.HermitVIII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-C.HermitVII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-C.HermitVI = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-C.HermitV = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-C.HermitIV = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-C.HermitIII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-C.HermitII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-C.HermitI = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.HermitX = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.HermitIX = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.HermitVIII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.HermitVII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.HermitVI = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.HermitV = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.HermitIV = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.HermitIII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.HermitII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.HermitI = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 
 		C.reimu = H.a(u([31, 43, 30, 31, 34, 30, 27, 704]), [P.j])
 		C.marisa = H.a(u([20, 3, 14, 19, 51, 11, 30, 565]), [P.j])
@@ -31375,8 +31376,19 @@ C.HermitI = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 			return P.dq(["tigershark", "R0lGODlhEAAQAJEAAP8AAP///wAAAP///yH5BAEAAAMALAAAAAAQABAAAAI9nCepeS0AIxQNyQuoeSBgn1lQAI5lEpGSOnHjKqEgS2dPOad2l3fmTgoKg8ChccczsigcJUgjwkwqiyq0AAA7", "hell", "R0lGODlhEAAQAJEAAHb9/wAAAP///wAAACH5BAEAAAIALAAAAAAQABAAAAIslB2px5IAY2ov2omC3QBrvgUOCFbk9Z1SqnasarbiW2awaJf4EUNY41D8DAUAOw==", "dark", "R0lGODlhEAAQALMAAPr6+wQEAf7+/QwKAhEQDf38+xEODP79/f////z8/Pn5+QAAAP///wAAAAAAAAAAACH5BAEAAAwALAAAAAAQABAAAARIkEm5qp2YjYW6rxn3Wd0yiYhVGUFJlWpFcCZKpncFo7io9x3ADecpqkYdwY5HRAgSMV4NUTgUryaGbeii+EgKEOZnzGa0sUwEADs=", "yurix", "R0lGODlhEAAQAKEDAAAAAN4H28asxv///yH5BAEKAAMALAAAAAAQABAAAAI+hI85EB3s4DNBiFcvs3NjvmlL9WkesEDnKI7fw8Lpi6roMJ42jh8NNeEJVb+bsFc0HIfB5ZFhdPIO0mf0WAAAOw==", "ironbird", "R0lGODlhEAAQAKIAAGfh/ywtLf8AAP///wAAAAAAAAAAAAAAACwAAAAAEAAQAAADOzhK3K6QATKpJVHeWbHm3xVWYOecKBMEgrCu7erA7hsHjZluQO//Pglw2BMSgblj0ENRMjLHJ2Swkw4SADs=",
 				"yeya",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAH9JREFUOE+tk10OwCAIg+VmenK4mUtdSKapP9vwEfGjVJCcc03kmJk8w7M8wYWqdohSCmMmlkcB9DUJotASIHJ3USvtMsUBUGXsD7GVAvepaWRGngDwUx3AK45+MQ+gIB4wVt550BT4hH02cWbgzkTcx80Bk38yzlMFr5fpzzpfC7V7BSjXHhMAAAAASUVORK5CYII=",
-				"HermitXII",		
+				"HermitXII",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAABVQTFRFAAAA2CgA/Pz8AAAAMDAwo6Oj4ODgmp1wAAAAAAd0Uk5TAP///////6V/pvsAAABFSURBVBiVlc9JDgAhCERRkp+q+x+5DcQWXSkreAlTUBExk5H2uIaasQAJbCaMWrJTFqhBiltLStX/WmT2OyB2eDr9eP8D3csBlMkIer8AAAAASUVORK5CYII=",
+				"HermitXI", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHNJREFUOI2lkksOwCAIRB+NJ5Zz6JXpojZpjKKVWTN83iCAEVACKKUcmVWVKzIdQMwsfsJMtVbXrKokEZkyyDkvmwpgfyD2TVMQwbMBA5ir+6ExaD7bMQw3iMa4DXGUCEz+YFbcn/ll4BZ6ch9pR2+Mx7oBv8A4EYjfUwIAAAAASUVORK5CYII=",
+				"HermitX", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHFJREFUOI2lU0EOwCAIK8b/f5ld1kU2QHA9EZDSqggAxQ9MBqo9HhEBAAw2M1Ft5sD5LnRhCKgkssPaOmhGB6sYXpIKVNXEHlwFHSWugg5SgtVChPQSVwuRHZcge8aUwJu8I/l8pAqMNdzbeLpMD8EpLnt+MDYwR/yxAAAAAElFTkSuQmCC",
+				"HermitIX", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHhJREFUOI2lUlsKwDAI07H7X9n9TNAsPsoCpUhsfDQqIiY/YXCf5Ni1eIwiCS6gJNmP85iTBBjoA8TdcOXcsQAKJPKNFXiNojjCpu3UkaspEgRM3D6KEE8esW6JK5Gp9XGZ0UjRLOtlVkZiXVFnsh1U1em4m+9r8QD7PScQ+yeYvgAAAABJRU5ErkJggg==",
+				"HermitVIII", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHJJREFUOI2lU0EOwCAIa5f9/8vsQDTIwMnoxYOlNq0QgKCBCwBEVCM6d3dTgGT55TFzW7VTDD5JFag48NySA88rOcg4VOF/TZLUFjogNh/Jpp0hDdEPZZwwxCyTyMnLwVcjnrs4OG3DPrIsUwUzYDTX+QHnDUYdZcCKnQAAAABJRU5ErkJggg==",
+				"HermitVII", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAaklEQVR4nFXMIQ/CQAyG4fugEomcRE5O8f8T5DJFUAuKTC1TBPUies1d694nbVWK8txzPoyp71kGY+unZMAtepUDg/dHAVwlaVcDLtLX104OnONP3eBHhgPoYYMQA3jXu4AXNDFYoJeRPH/93nbqDhCsDgAAAABJRU5ErkJggg==",
+				"HermitVI", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHNJREFUOI2dU0EOwCAIaxf//2V2UBM2C4o9CUpbQQnAMGDWlyRxCvY62x6UxSSaDyqYok0lT5QnWraZKYcEmRNFvhBEk4hIH5l1Rbu+LATVaaQOJtnfhY9lE1VRBEmwuwZJ/ZAqytJBtYEfgusPBfedb/AC5BczI1nVla0AAAAASUVORK5CYII=",
+				"HermitV", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHpJREFUOI2lk1EOwCAIQ1uz+1+5+1g0iIBm9g+BBwEkAOFCDwBI/xgkP0DmtMqKLACb2JNIjncPalGyJEha7KizCVC1mvkGwJMr2dipg6jCbpjpFjJICSA5BZx01KrgTDZ22UI1zMgXDtEejre3Q8wgx6e8S/AiLr/zC4dxRCvkTxpKAAAAAElFTkSuQmCC",
+				"HermitIV", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAF9JREFUOI21k0EOwCAIBGcb//9lemq0aKyI3SMhAywgwEioAJjFGZIqoA2sqC14hUs7FR/4Gsd32gFGSTP4EOCTZ/6kPThv4qPVtf7TQeQyO0DkIl+AnX8AEMlvTJt4Ayg/Fy+HuqiLAAAAAElFTkSuQmCC",
+				"HermitIII", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAf1JREFUOE9N00sIT2kYBvAfw4IxaFBsZBKiNMql3BJyK2wkU2w1KxEbCylCNsTUWCtS2JGElVwiuYZpMojJZeE6TLnzPbz/8tXpnPOd7zzv8z7P83bBJ7ys+2f0wzvc9239iB74oc7kfM51RZ8ueI4puIFVWI0HeIzjOI877dsLdEev+nkgTgfgKYbXfTf+xAUcaKCLcROn8AZHcQavi93TADzDULzHEUzDgvY8vlFejw14hbsNaCZG4h6uYF0AQm1AfZzXWlqJW0U/rTzCZFzDH1V5QgPajyEB+A+927W9Vb6YTcwuJoMwBsMa6NIS8bdicBYTOyL+gi0l6McScFdV69x+Rvb+adQ/NIaTAhyAh5jfdNiDgziHKBxBuzUNcib6zCmL9yFFtkWrfEy/oR/0vEeDw2VdbMtecrGmUT6GX7G1MVmWoh2A64Ua+6L+ZvxV1nVaWIu/KzPRLGcuBOAtLkUQTMXO0uBkBeYybjc3fq/eT2BRMX0SgMTy39oMg6zlrcefysrRmN4YLUGeo0XPKvQyAE+aWJvKrgQqgUmgRlQ+VjRh5yLeb8Re7KjoP+pEOQOUlapjMQODW5xHVdUkb1xF+FBreWGdvff9MGV4MmnJeWzriwQpfs9C/7L3ajkQ8K/D9P045z1jmiteZ4D+L/ECFvUzFxE+GenzBc+FhQVIFaWdAAAAAElFTkSuQmCC",
+				"HermitII", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAF5JREFUOI2tk8EOwCAIQ9uF///l7rCYqIMExN7k8NqqEIDQkAGAdMYg+QHGoaJhat7Qc4r0lGwzAJKlOu0Etg+qL/IDzMpUSVeQ5Ka7fweRojp3E1S/8wI4Xig01/kFfBQXMK3m/IoAAAAASUVORK5CYII=",
+				"HermitI", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAC5JREFUOI3t0zERADAMAzG5V/6U06UIkjUPQJ4clEEXqnpGEmeyjgUWWOAXwzs/7F0FH3A84LAAAAAASUVORK5CYII=",
 				"reimu",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJNJREFUOE+1k0EOwCAIBOFn+HL5mc3GliBCk6bRgwcg45QCi8ig5Kgq+3BVx0io6oIQkYxJWZ0BxkhFUhCCzEx46ACAmaiycbnFAEq996mLIpwICfHW2izHhUZugOrrbzAA+FM7wFtEiLM6DMgsQk/M4Jkw64HXrhpKRNbEZxLTQXoBHBykcnjXxGYQNu/bMv1Z5wvj8YMF0QinpAAAAABJRU5ErkJggg==",
 				"marisa",

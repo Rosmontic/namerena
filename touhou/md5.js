@@ -24436,7 +24436,7 @@
 			d.owner = c.r
 			d.e = T.du(c.r)
 			xin.Q = d
-			d.r = this.r.r +"*惢*"
+			d.r = ${this.r.r} +"*惢*"
 			s = c.r
 			d.x = s.x
 			s.I.i(0, d.a5)

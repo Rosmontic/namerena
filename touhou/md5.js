@@ -10623,7 +10623,7 @@
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
 				_.go = 1
 				_.id = e
-				_.resist = 0
+				_.resist = 95
 				_.relief = 0
 				_.ous = []
 				_.xinsu = []
@@ -23337,7 +23337,7 @@
 			if (t > s)
 				t = s
 			p = d.a
-			p.push(T.e("[0]:[心愫-忉忉]", q.r, u, null, null, 1, 1000, 100))
+			p.push(T.e("[0]：[心愫-忉忉]", q.r, u, null, null, 1, 1000, 100))
 			r = u.fr
 			u.fr = r + t
 			if (u.fr < this.r.fr) {
@@ -24381,7 +24381,7 @@
 			v = a[0].a
 			xin = H.o(v.r1.h(0, "ouss"), "$iousx")
 			if (xin != null) {
-				u.push(T.e("[0]:[心相-殇]", c.r, c.r, b, b, 1, 1000, 100))
+				u.push(T.e("[0]：[心相-殇]", c.r, c.r, b, b, 1, 1000, 100))
 				xin.z = Math.max(xin.z - 3, 0)
 				v.bL((T.u(c.r, !0, a1) * 3), !0, c.r, T.q7(), a1, a2)
 				xin.Q = c.r
@@ -24393,7 +24393,7 @@
 			v.r2.i(0, xin)
 			v.x1.i(0, xin.y)
 			v.E()
-			u.push(T.e("[0]:[心相-映画]", c.r, c.r, b, b, 1, 1000, 100))
+			u.push(T.e("[0]：[心相-映画]", c.r, c.r, b, b, 1, 1000, 100))
 			t = H.d(v.a) + "xinxiang" + H.d($.nn())
 			s = c.r
 			r = s.b
@@ -24452,7 +24452,7 @@
 			d.fr = d.fx
 			c.r.x.aU(d)
 			d.xiang = v
-			u.push(T.e("[0][心相]显现:[1]", v, T.a1(d, d.fr), b, b, 0, 1000, 100))
+			u.push(T.e("[0][心相]显现：[1]", v, T.a1(d, d.fr), b, b, 0, 1000, 100))
 		}
 	}
 	T.hellWargod.prototype = {
@@ -25714,7 +25714,7 @@
 		},
 		a6: function(a, b) {
 			if (this.resist != null)
-				return b.m() < C.d.Z(this.resist * 2.56)
+				return b.m() < C.d.Z(this.resist * 2.55)
 			if (C.a.w(this.gaQ(), a))
 				return b.m() < 240
 			if (C.a.w(this.gaB(), a))
@@ -31382,13 +31382,13 @@
 				"HermitXII","iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAABVQTFRFAAAA2CgA/Pz8AAAAMDAwo6Oj4ODgmp1wAAAAAAd0Uk5TAP///////6V/pvsAAABFSURBVBiVlc9JDgAhCERRkp+q+x+5DcQWXSkreAlTUBExk5H2uIaasQAJbCaMWrJTFqhBiltLStX/WmT2OyB2eDr9eP8D3csBlMkIer8AAAAASUVORK5CYII=",
 				"HermitXI", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHNJREFUOI2lkksOwCAIRB+NJ5Zz6JXpojZpjKKVWTN83iCAEVACKKUcmVWVKzIdQMwsfsJMtVbXrKokEZkyyDkvmwpgfyD2TVMQwbMBA5ir+6ExaD7bMQw3iMa4DXGUCEz+YFbcn/ll4BZ6ch9pR2+Mx7oBv8A4EYjfUwIAAAAASUVORK5CYII=",
 				"HermitX", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHFJREFUOI2lU0EOwCAIK8b/f5ld1kU2QHA9EZDSqggAxQ9MBqo9HhEBAAw2M1Ft5sD5LnRhCKgkssPaOmhGB6sYXpIKVNXEHlwFHSWugg5SgtVChPQSVwuRHZcge8aUwJu8I/l8pAqMNdzbeLpMD8EpLnt+MDYwR/yxAAAAAElFTkSuQmCC",
-				"HermitIX", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHhJREFUOI2lUlsKwDAI07H7X9n9TNAsPsoCpUhsfDQqIiY/YXCf5Ni1eIwiCS6gJNmP85iTBBjoA8TdcOXcsQAKJPKNFXiNojjCpu3UkaspEgRM3D6KEE8esW6JK5Gp9XGZ0UjRLOtlVkZiXVFnsh1U1em4m+9r8QD7PScQ+yeYvgAAAABJRU5ErkJggg==",
+				"HermitIX", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJFJREFUOI2lUssOwyAMs6f+d8KXeweaKSAIU2uJQ96JMQEIL3ABgPSsB0l8qgR3PzfpC6w3IFlud9wgkioMDdwdJH9PEiQNvtVZysi2mW1jYXNFQEzP01prSz62HOTi6jeumenZjuLgYs4dODAzoStzuDf7Mi8AdNRBTN/FSx38I/GjkMysjJcnnECyN3hUfeML8baav7lx5IgAAAAASUVORK5CYII=",
 				"HermitVIII", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHJJREFUOI2lU0EOwCAIa5f9/8vsQDTIwMnoxYOlNq0QgKCBCwBEVCM6d3dTgGT55TFzW7VTDD5JFag48NySA88rOcg4VOF/TZLUFjogNh/Jpp0hDdEPZZwwxCyTyMnLwVcjnrs4OG3DPrIsUwUzYDTX+QHnDUYdZcCKnQAAAABJRU5ErkJggg==",
 				"HermitVII", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAaklEQVR4nFXMIQ/CQAyG4fugEomcRE5O8f8T5DJFUAuKTC1TBPUies1d694nbVWK8txzPoyp71kGY+unZMAtepUDg/dHAVwlaVcDLtLX104OnONP3eBHhgPoYYMQA3jXu4AXNDFYoJeRPH/93nbqDhCsDgAAAABJRU5ErkJggg==",
 				"HermitVI", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHNJREFUOI2dU0EOwCAIaxf//2V2UBM2C4o9CUpbQQnAMGDWlyRxCvY62x6UxSSaDyqYok0lT5QnWraZKYcEmRNFvhBEk4hIH5l1Rbu+LATVaaQOJtnfhY9lE1VRBEmwuwZJ/ZAqytJBtYEfgusPBfedb/AC5BczI1nVla0AAAAASUVORK5CYII=",
 				"HermitV", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHpJREFUOI2lk1EOwCAIQ1uz+1+5+1g0iIBm9g+BBwEkAOFCDwBI/xgkP0DmtMqKLACb2JNIjncPalGyJEha7KizCVC1mvkGwJMr2dipg6jCbpjpFjJICSA5BZx01KrgTDZ22UI1zMgXDtEejre3Q8wgx6e8S/AiLr/zC4dxRCvkTxpKAAAAAElFTkSuQmCC",
 				"HermitIV", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAF9JREFUOI21k0EOwCAIBGcb//9lemq0aKyI3SMhAywgwEioAJjFGZIqoA2sqC14hUs7FR/4Gsd32gFGSTP4EOCTZ/6kPThv4qPVtf7TQeQyO0DkIl+AnX8AEMlvTJt4Ayg/Fy+HuqiLAAAAAElFTkSuQmCC",
-				"HermitIII", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAf1JREFUOE9N00sIT2kYBvAfw4IxaFBsZBKiNMql3BJyK2wkU2w1KxEbCylCNsTUWCtS2JGElVwiuYZpMojJZeE6TLnzPbz/8tXpnPOd7zzv8z7P83bBJ7ys+2f0wzvc9239iB74oc7kfM51RZ8ueI4puIFVWI0HeIzjOI877dsLdEev+nkgTgfgKYbXfTf+xAUcaKCLcROn8AZHcQavi93TADzDULzHEUzDgvY8vlFejw14hbsNaCZG4h6uYF0AQm1AfZzXWlqJW0U/rTzCZFzDH1V5QgPajyEB+A+927W9Vb6YTcwuJoMwBsMa6NIS8bdicBYTOyL+gi0l6McScFdV69x+Rvb+adQ/NIaTAhyAh5jfdNiDgziHKBxBuzUNcib6zCmL9yFFtkWrfEy/oR/0vEeDw2VdbMtecrGmUT6GX7G1MVmWoh2A64Ua+6L+ZvxV1nVaWIu/KzPRLGcuBOAtLkUQTMXO0uBkBeYybjc3fq/eT2BRMX0SgMTy39oMg6zlrcefysrRmN4YLUGeo0XPKvQyAE+aWJvKrgQqgUmgRlQ+VjRh5yLeb8Re7KjoP+pEOQOUlapjMQODW5xHVdUkb1xF+FBreWGdvff9MGV4MmnJeWzriwQpfs9C/7L3ajkQ8K/D9P045z1jmiteZ4D+L/ECFvUzFxE+GenzBc+FhQVIFaWdAAAAAElFTkSuQmCC",
+				"HermitIII", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAD5JREFUOI3tkDESACAIw1LO/3+5Tp6OCo50y9JCBJhCAsA29u554aisA4jjhdUq6Yq/XDAyyye3g3bw30EmE7zdXAU3kQ2EAAAAAElFTkSuQmCC",
 				"HermitII", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAF5JREFUOI2tk8EOwCAIQ9uF///l7rCYqIMExN7k8NqqEIDQkAGAdMYg+QHGoaJhat7Qc4r0lGwzAJKlOu0Etg+qL/IDzMpUSVeQ5Ka7fweRojp3E1S/8wI4Xig01/kFfBQXMK3m/IoAAAAASUVORK5CYII=",
 				"HermitI", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAC5JREFUOI3t0zERADAMAzG5V/6U06UIkjUPQJ4clEEXqnpGEmeyjgUWWOAXwzs/7F0FH3A84LAAAAAASUVORK5CYII=",
 				"reimu",

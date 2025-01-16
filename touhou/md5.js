@@ -22894,6 +22894,8 @@
 				r = p.r.db + 50
 			if (r > 99)
 				r = 99
+			if (r < 10)
+				r = 10
 			t = C.e.Z(n.fr * (100 - r) / 100)
 			n.fr = t
 			q = s - t
@@ -22938,7 +22940,7 @@
 		},
 		aq: function(a, b) {
 			if (this.x.Q.fr <= 0) {
-				b.a.push(T.e("[0]脱离了[心相]", this.x, null, null, null, null, 0, 1000, 100))
+				b.a.push(T.e("[0]战胜了[心相]", this.x, null, null, null, null, 0, 1000, 100))
 				this.H(null, b)
 			}
 			if (--this.z === 0) {
@@ -24382,6 +24384,7 @@
 				u.push(T.e("[0]:[心相-殇]", c.r, c.r, b, b, 1, 1000, 100))
 				xin.z = Math.max(xin.z - 3, 0)
 				v.bL((T.u(c.r, !0, a1) * 3), !0, c.r, T.q7(), a1, a2)
+				xin.Q = c.r
 				return
 			}
 			xin = new T.ousx(v)
@@ -24389,7 +24392,6 @@
 			v.r1.k(0, "ouss", xin)
 			v.r2.i(0, xin)
 			v.x1.i(0, xin.y)
-			xin.Q = c.r
 			v.E()
 			u.push(T.e("[0]:[心相-映画]", c.r, c.r, b, b, 1, 1000, 100))
 			t = H.d(v.a) + "xinxiang" + H.d($.nn())
@@ -24433,7 +24435,8 @@
 			d.af = c
 			d.owner = c.r
 			d.e = T.du(c.r)
-			d.r = "*惢*"
+			xin.Q = d
+			d.r = "this.r.r" +"*惢*"
 			s = c.r
 			d.x = s.x
 			s.I.i(0, d.a5)
@@ -31376,8 +31379,7 @@
 			return P.dq(["tigershark", "R0lGODlhEAAQAJEAAP8AAP///wAAAP///yH5BAEAAAMALAAAAAAQABAAAAI9nCepeS0AIxQNyQuoeSBgn1lQAI5lEpGSOnHjKqEgS2dPOad2l3fmTgoKg8ChccczsigcJUgjwkwqiyq0AAA7", "hell", "R0lGODlhEAAQAJEAAHb9/wAAAP///wAAACH5BAEAAAIALAAAAAAQABAAAAIslB2px5IAY2ov2omC3QBrvgUOCFbk9Z1SqnasarbiW2awaJf4EUNY41D8DAUAOw==", "dark", "R0lGODlhEAAQALMAAPr6+wQEAf7+/QwKAhEQDf38+xEODP79/f////z8/Pn5+QAAAP///wAAAAAAAAAAACH5BAEAAAwALAAAAAAQABAAAARIkEm5qp2YjYW6rxn3Wd0yiYhVGUFJlWpFcCZKpncFo7io9x3ADecpqkYdwY5HRAgSMV4NUTgUryaGbeii+EgKEOZnzGa0sUwEADs=", "yurix", "R0lGODlhEAAQAKEDAAAAAN4H28asxv///yH5BAEKAAMALAAAAAAQABAAAAI+hI85EB3s4DNBiFcvs3NjvmlL9WkesEDnKI7fw8Lpi6roMJ42jh8NNeEJVb+bsFc0HIfB5ZFhdPIO0mf0WAAAOw==", "ironbird", "R0lGODlhEAAQAKIAAGfh/ywtLf8AAP///wAAAAAAAAAAAAAAACwAAAAAEAAQAAADOzhK3K6QATKpJVHeWbHm3xVWYOecKBMEgrCu7erA7hsHjZluQO//Pglw2BMSgblj0ENRMjLHJ2Swkw4SADs=",
 				"yeya",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAH9JREFUOE+tk10OwCAIg+VmenK4mUtdSKapP9vwEfGjVJCcc03kmJk8w7M8wYWqdohSCmMmlkcB9DUJotASIHJ3USvtMsUBUGXsD7GVAvepaWRGngDwUx3AK45+MQ+gIB4wVt550BT4hH02cWbgzkTcx80Bk38yzlMFr5fpzzpfC7V7BSjXHhMAAAAASUVORK5CYII=",
-				"HermitXII",
-				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAABVQTFRFAAAA2CgA/Pz8AAAAMDAwo6Oj4ODgmp1wAAAAAAd0Uk5TAP///////6V/pvsAAABFSURBVBiVlc9JDgAhCERRkp+q+x+5DcQWXSkreAlTUBExk5H2uIaasQAJbCaMWrJTFqhBiltLStX/WmT2OyB2eDr9eP8D3csBlMkIer8AAAAASUVORK5CYII=",
+				"HermitXII","iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAABVQTFRFAAAA2CgA/Pz8AAAAMDAwo6Oj4ODgmp1wAAAAAAd0Uk5TAP///////6V/pvsAAABFSURBVBiVlc9JDgAhCERRkp+q+x+5DcQWXSkreAlTUBExk5H2uIaasQAJbCaMWrJTFqhBiltLStX/WmT2OyB2eDr9eP8D3csBlMkIer8AAAAASUVORK5CYII=",
 				"HermitXI", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHNJREFUOI2lkksOwCAIRB+NJ5Zz6JXpojZpjKKVWTN83iCAEVACKKUcmVWVKzIdQMwsfsJMtVbXrKokEZkyyDkvmwpgfyD2TVMQwbMBA5ir+6ExaD7bMQw3iMa4DXGUCEz+YFbcn/ll4BZ6ch9pR2+Mx7oBv8A4EYjfUwIAAAAASUVORK5CYII=",
 				"HermitX", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHFJREFUOI2lU0EOwCAIK8b/f5ld1kU2QHA9EZDSqggAxQ9MBqo9HhEBAAw2M1Ft5sD5LnRhCKgkssPaOmhGB6sYXpIKVNXEHlwFHSWugg5SgtVChPQSVwuRHZcge8aUwJu8I/l8pAqMNdzbeLpMD8EpLnt+MDYwR/yxAAAAAElFTkSuQmCC",
 				"HermitIX", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHhJREFUOI2lUlsKwDAI07H7X9n9TNAsPsoCpUhsfDQqIiY/YXCf5Ni1eIwiCS6gJNmP85iTBBjoA8TdcOXcsQAKJPKNFXiNojjCpu3UkaspEgRM3D6KEE8esW6JK5Gp9XGZ0UjRLOtlVkZiXVFnsh1U1em4m+9r8QD7PScQ+yeYvgAAAABJRU5ErkJggg==",

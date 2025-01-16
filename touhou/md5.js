@@ -22015,10 +22015,7 @@
 				this.r.fr = 0
 				d.a.push(T.e("[0]:[心无罣碍，无罣碍故]", this.r, u, null, null, 0, 1000, 100))
 				this.r.bf(this.r.fr, this.r, c, d)
-				v = this.r.af.fr
-				this.r.af.fr = this.r.af.fx
-				w = this.r.af.fr - v
-				d.a.push(T.e("[1]回复生命[2]点", this.r, T.a1(this.r.af, v), new T.aG(w), null, 0, 1000, 100))
+				return
 			}
 			if (u.fr > 0) {
 				d.a.push(T.e("[0]:对[1]发动[心斩]", this.r, u, null, null, 0, 1000, 100))
@@ -24436,7 +24433,12 @@
 			d.owner = c.r
 			d.e = T.du(c.r)
 			xin.Q = d
-			d.r = H.d(v.r) +"-蕊"
+			if(v.r != null){
+				d.r = H.d(v.r) +"*蕊*"
+			}
+			else{
+				d.r = "*蕊*"
+			}
 			s = c.r
 			d.x = s.x
 			s.I.i(0, d.a5)
@@ -28175,7 +28177,10 @@
 	T.ch.prototype = {}
 	T.aT.prototype = {
 		l: function(a) {
-			return J.bc(this.a)
+			if (this.e != "HermitXI@!"){
+				return J.bc(this.a)
+			}
+			return J.bc(this.a + 10000)
 		}
 	}
 	T.aG.prototype = {

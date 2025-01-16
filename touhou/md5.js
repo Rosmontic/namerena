@@ -28902,7 +28902,7 @@
 					o.push("")
 			}
 			if (p.e == "HermitXI@!"){
-				return H.d(p.e) + "\t" + H.d(p.r) + "\t" + H.d(p.c) + "\t" + H.d(p.f) + "\t" + H.d(p.aT(9999)) + o[7] + "\t" + H.d(p.aT(9999)) + o[0] + "\t" + H.d(p.aT(9999)) + o[1] + "\t" + H.d(p.aT(9999)) + o[2] + "\t" + H.d(p.aT(9999)) + o[3] + "\t" + H.d(p.aT(9999)) + o[4] + "\t" + H.d(p.aT(9999)) + o[5] + "\t" + H.d(p.aT(9999)) + o[6] + "\t" + H.d(p.cz())
+				return H.d(p.e) + "\t" + H.d(p.r) + "\t" + H.d(p.c) + "\t" + H.d(p.f) + "\t" + H.d(p.fx) + o[7] + "\t" + H.d(p.aT(9999)) + o[0] + "\t" + H.d(p.aT(9999)) + o[1] + "\t" + H.d(p.aT(9999)) + o[2] + "\t" + H.d(p.aT(9999)) + o[3] + "\t" + H.d(p.aT(9999)) + o[4] + "\t" + H.d(p.aT(9999)) + o[5] + "\t" + H.d(p.aT(9999)) + o[6] + "\t" + H.d(p.cz())
 			}
 			return H.d(p.e) + "\t" + H.d(p.r) + "\t" + H.d(p.c) + "\t" + H.d(p.f) + "\t" + H.d(p.fx) + o[7] + "\t" + H.d(p.aT(p.Q)) + o[0] + "\t" + H.d(p.aT(p.ch)) + o[1] + "\t" + H.d(p.aT(p.cx - 160)) + o[2] + "\t" + H.d(p.aT(p.cy)) + o[3] + "\t" + H.d(p.aT(p.db)) + o[4] + "\t" + H.d(p.aT(p.dx)) + o[5] + "\t" + H.d(p.aT(p.dy)) + o[6] + "\t" + H.d(p.cz())
 		},

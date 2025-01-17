@@ -24385,6 +24385,7 @@
 				u.push(T.e("[0]：[心相-殇]", c.r, c.r, b, b, 1, 1000, 100))
 				xin.z = Math.max(xin.z - 3, 0)
 				v.bL((T.u(c.r, !0, a1) * 3), !0, c.r, T.q7(), a1, a2)
+				xin.Q = c.r
 				return
 			}
 			xin = new T.ousx(v)
@@ -29824,7 +29825,6 @@
 		},
 		ak: function(a, b, c, d, e) {
 			var u = this.x
-			e.a.push(T.e("dK[0]:[1]", this.r, a, null, null, 40, 1000, 100))
 			if (u === 0)
 				return a
 			if (a > u) {
@@ -29834,7 +29834,6 @@
 				this.x = u - a
 				a = 0
 			}
-			e.a.push(T.e("end,[0]:[1]", this.r, a, null, null, 40, 1000, 100))
 			return a
 		},
 		H: function(a, b) {

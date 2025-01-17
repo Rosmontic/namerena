@@ -22939,7 +22939,7 @@
 		},
 		aq: function(a, b) {
 			if (this.x.Q.fr <= 0) {
-				b.a.push(T.e("[0]战胜了[心相]", this.x, null, null, null, null, 0, 1000, 100))
+				b.a.push(T.e("[0][心神通透]", this.x, null, null, null, null, 0, 1000, 100))
 				this.H(null, b)
 			}
 			if (--this.z === 0) {
@@ -22956,12 +22956,6 @@
 			u.r1.S(0, "ouss")
 			this.y.C()
 			u.E()
-			if (u.fr > 0) {
-				t = b.a
-				t.push($.v())
-				t.push(T.ap("[1][幡然省悟]", a, u))
-			}
-
 		},
 		$ip: 1
 	}
@@ -24258,6 +24252,9 @@
 			u.r = this
 			this.k2 = u
 		},
+		a6: function(a, b) {
+			return 1
+		},
 		aR: function() {
 			this.bv()
 		}
@@ -24388,7 +24385,6 @@
 				u.push(T.e("[0]：[心相-殇]", c.r, c.r, b, b, 1, 1000, 100))
 				xin.z = Math.max(xin.z - 3, 0)
 				v.bL((T.u(c.r, !0, a1) * 3), !0, c.r, T.q7(), a1, a2)
-				xin.Q = c.r
 				return
 			}
 			xin = new T.ousx(v)
@@ -24462,7 +24458,6 @@
 			c.r.x.aU(d)
 			d.xiang = v
 			u.push(T.e("[0][心相]显现：[1]", v, T.a1(d, d.fr), b, b, 0, 1000, 100))
-			u.push(T.e("[0]攻击：[2] 速度：[1]", d, d.cx, d.Q, b, 0, 1000, 100))
 		}
 	}
 	T.hellWargod.prototype = {
@@ -31395,7 +31390,7 @@
 				"HermitXII","iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAABVQTFRFAAAA2CgA/Pz8AAAAMDAwo6Oj4ODgmp1wAAAAAAd0Uk5TAP///////6V/pvsAAABFSURBVBiVlc9JDgAhCERRkp+q+x+5DcQWXSkreAlTUBExk5H2uIaasQAJbCaMWrJTFqhBiltLStX/WmT2OyB2eDr9eP8D3csBlMkIer8AAAAASUVORK5CYII=",
 				"HermitXI", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHNJREFUOI2lkksOwCAIRB+NJ5Zz6JXpojZpjKKVWTN83iCAEVACKKUcmVWVKzIdQMwsfsJMtVbXrKokEZkyyDkvmwpgfyD2TVMQwbMBA5ir+6ExaD7bMQw3iMa4DXGUCEz+YFbcn/ll4BZ6ch9pR2+Mx7oBv8A4EYjfUwIAAAAASUVORK5CYII=",
 				"HermitX", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHFJREFUOI2lU0EOwCAIK8b/f5ld1kU2QHA9EZDSqggAxQ9MBqo9HhEBAAw2M1Ft5sD5LnRhCKgkssPaOmhGB6sYXpIKVNXEHlwFHSWugg5SgtVChPQSVwuRHZcge8aUwJu8I/l8pAqMNdzbeLpMD8EpLnt+MDYwR/yxAAAAAElFTkSuQmCC",
-				"HermitIX", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJFJREFUOI2lUssOwyAMs6f+d8KXeweaKSAIU2uJQ96JMQEIL3ABgPSsB0l8qgR3PzfpC6w3IFlud9wgkioMDdwdJH9PEiQNvtVZysi2mW1jYXNFQEzP01prSz62HOTi6jeumenZjuLgYs4dODAzoStzuDf7Mi8AdNRBTN/FSx38I/GjkMysjJcnnECyN3hUfeML8baav7lx5IgAAAAASUVORK5CYII=",
+				"HermitIX", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAANBJREFUOI2lkuENgkAMhT+MAzACbsAI5waMwAboBLoBbuAIugGOwAa4gW5w/uAdFsKFBF7SpKGvr+3jEsCzEVsE/G6BUCpWbZCr5pXP9iYiJPrgTLEG3soz4Kz8C7R2eNigMhM98FFjptzWqjmBVMSr2eKhCDiJk1oBIgSnM2qgMANO0yYLJ1UHdGoslOemNmBqYge86A2bTroBFwke7AnhjpKxUY1pboiYuDekJ//fBr15wdAcOJpaa/LoQyrMxCLCGZ0wh7sihkWBJQxPeTV+NedIUueafbkAAAAASUVORK5CYII=",
 				"HermitVIII", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHJJREFUOI2lU0EOwCAIa5f9/8vsQDTIwMnoxYOlNq0QgKCBCwBEVCM6d3dTgGT55TFzW7VTDD5JFag48NySA88rOcg4VOF/TZLUFjogNh/Jpp0hDdEPZZwwxCyTyMnLwVcjnrs4OG3DPrIsUwUzYDTX+QHnDUYdZcCKnQAAAABJRU5ErkJggg==",
 				"HermitVII", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAaklEQVR4nFXMIQ/CQAyG4fugEomcRE5O8f8T5DJFUAuKTC1TBPUies1d694nbVWK8txzPoyp71kGY+unZMAtepUDg/dHAVwlaVcDLtLX104OnONP3eBHhgPoYYMQA3jXu4AXNDFYoJeRPH/93nbqDhCsDgAAAABJRU5ErkJggg==",
 				"HermitVI", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHNJREFUOI2dU0EOwCAIaxf//2V2UBM2C4o9CUpbQQnAMGDWlyRxCvY62x6UxSSaDyqYok0lT5QnWraZKYcEmRNFvhBEk4hIH5l1Rbu+LATVaaQOJtnfhY9lE1VRBEmwuwZJ/ZAqytJBtYEfgusPBfedb/AC5BczI1nVla0AAAAASUVORK5CYII=",

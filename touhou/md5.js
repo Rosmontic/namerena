@@ -9872,6 +9872,7 @@
 				_.id = e
 				_.xiang = null
 				_.owner = null
+				_.resist = 500
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -9898,6 +9899,12 @@
 				_.F = null
 			},
 			hermitXIIn1: function hermitXIIn1() {
+				var _ = this
+				_.e = !1
+				_.f = 0
+				_.c = _.b = _.a = _.r = null
+			},
+			hermitXn1: function hermitXn1() {
 				var _ = this
 				_.e = !1
 				_.f = 0
@@ -10707,6 +10714,8 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
+				_.summonlist = ["谶","殇","錾","呪","倏","婳","厐","韫","硎","巉","蘂","皛","曭"]
+				_.summonstats = [21, 21, 210, 210, 21, 21, 210, 210, 90, 0]
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -21660,9 +21669,6 @@
 		t: function(a, b, c, d) {
 			var n, t, u = a[0].a
 			t = this.r.Q > this.r.db ? T.u(this.r, !1, c) : T.u(this.r, !0, c)
-			d.a.push(T.e("[0]发起攻击toys[1]", this.r, this.r.toys, null, null, 0, 1000, 100))
-			d.a.push(T.e("增幅[0]:减伤[1]", this.r.go, this.r.relief, null, null, 0, 1000, 100))
-			d.a.push(T.e("闪避[0]:抗性[1]", this.r.dodge, this.r.resist, null, null, 0, 1000, 100))
 			if (this.r.e == "gray@!" && this.r.toys > 0) {
 				u.bL(t, !1, this.r, T.a3(), c, d)
 				if (a.fr > 0) {
@@ -22937,7 +22943,7 @@
 		},
 		aq: function(a, b) {
 			if (this.x.Q.fr <= 0) {
-				b.a.push(T.e("[0]战胜了[心相]", this.x, null, null, null, null, 0, 1000, 100))
+				b.a.push(T.e("[0]化解了[1]", this.x, this.x.Q, null, null, null, 0, 1000, 100))
 				this.H(null, b)
 			}
 			if (--this.z === 0) {
@@ -22954,7 +22960,11 @@
 			u.r1.S(0, "ouss")
 			this.y.C()
 			u.E()
-
+			if (u.fr > 0) {
+				t = b.a
+				t.push($.v())
+				t.push(T.ap("[1]，[幡然省悟]", a, u))
+			}
 		},
 		$ip: 1
 	}
@@ -24455,6 +24465,71 @@
 			c.r.x.aU(d)
 			d.xiang = v
 			u.push(T.e("[0][心相]显现：[1]", v, T.a1(d, d.fr), b, b, 0, 1000, 100))
+			u.push(T.e("[0]攻击：[2] 速度：[1]", d, d.cx, d.Q, b, 0, 1000, 100))
+		}
+	}
+	T.hermitXn1.prototype = {
+		ar: function(a, b) {
+			if (b)
+				if (this.r.fr < 0)
+					return !1
+			return this.aS(a, b)
+		},
+		a9: function(a, b, c) {
+			return H.a([], [T.Z])
+		},
+		t: function(a, a0, a1, a2) {
+			var x, u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this,
+				b = null
+			u = a2.a
+			x = a1.m() & 127 + 1
+			u.push(T.e(O.c("EwPC"), c.r, b, b, b, 60, 1000, 100))
+			t = H.d(c.r.a) + "?" + H.d($.nn())
+			s = c.r
+			r = s.b
+			s = s.c
+			q = H.a([], [T.H])
+			p = H.a([], [T.y])
+			o = P.U(P.f, T.p)
+			n = new F.b([T.M])
+			n.c = n
+			n.b = n
+			m = new F.b([T.L])
+			m.c = m
+			m.b = m
+			l = new F.b([T.G])
+			l.c = l
+			l.b = l
+			k = new F.b([T.J])
+			k.c = k
+			k.b = k
+			j = new F.b([T.K])
+			j.c = j
+			j.b = j
+			i = new F.b([T.D])
+			i.c = i
+			i.b = i
+			h = new F.b([T.A])
+			h.c = h
+			h.b = h
+			g = new F.b([T.C])
+			g.c = g
+			g.b = g
+			f = new F.b([T.I])
+			f.c = f
+			f.b = f
+			e = [P.j]
+			d = new T.hh(t, r, s, b, q, p, o, n, m, l, k, j, i, h, g, f, H.a([], e), H.a([], e), H.a([], e), H.a([], e))
+			d.Y(t, r, s, b)
+			d.a5 = new T.cj(d)
+			d.af = c
+			d.e = T.du(c.r)
+			d.r = O.c("xRWn")
+			s = c.r
+			d.x = s.x
+			s.I.i(0, d.a5)
+			d.av()
+			u.push(T.e("[0]召唤了：[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 		}
 	}
 	T.hellWargod.prototype = {
@@ -26122,7 +26197,7 @@
 			return C.HermitXI
 		},
 		aa: function() {
-			var u, t = new T.aK()
+			var u, t = new T.noaK()
 			t.r = this
 			this.k2 = t
 			t = this.id
@@ -28264,6 +28339,11 @@
 		},
 		cw: function() {
 			return O.c("eQGF")
+		}
+		a6: function(a, b) {
+			if (this.resist != null)
+				return b.m() < C.d.Z(this.resist * 2.55)
+			return b.m() < 0
 		},
 		$ifJ: 1
 	}
@@ -28769,7 +28849,7 @@
 		aA: function(a, b, c, d, e) {
 			var u, t, s, r, q, p = this
 			if (p.relief != null) {
-				a = p.relief >= 99 ? C.d.Z(a * 0.01) : C.e.Z(a * (100 - p.relief) / 100)
+				a = p.relief >= 99 ? C.d.Z(a * 0.02) : C.e.Z(a * (100 - p.relief) / 100)
 			}
 			if (a < 0) {
 				u = p.fr
@@ -28901,7 +28981,7 @@
 				else
 					o.push("")
 			}
-			if (p.e == "HermitXI@!"){
+			if (p.e == "HermitXII@!"){
 				return H.d(p.e) + "\t" + H.d(p.r) + "\t" + H.d(p.c) + "\t" + H.d(p.f) + "\t" + H.d(p.fx) + o[7] + "\t" + H.d(p.aT(9999)) + o[0] + "\t" + H.d(p.aT(9999)) + o[1] + "\t" + H.d(p.aT(9999)) + o[2] + "\t" + H.d(p.aT(9999)) + o[3] + "\t" + H.d(p.aT(9999)) + o[4] + "\t" + H.d(p.aT(9999)) + o[5] + "\t" + H.d(p.aT(9999)) + o[6] + "\t" + H.d(p.cz())
 			}
 			return H.d(p.e) + "\t" + H.d(p.r) + "\t" + H.d(p.c) + "\t" + H.d(p.f) + "\t" + H.d(p.fx) + o[7] + "\t" + H.d(p.aT(p.Q)) + o[0] + "\t" + H.d(p.aT(p.ch)) + o[1] + "\t" + H.d(p.aT(p.cx - 160)) + o[2] + "\t" + H.d(p.aT(p.cy)) + o[3] + "\t" + H.d(p.aT(p.db)) + o[4] + "\t" + H.d(p.aT(p.dx)) + o[5] + "\t" + H.d(p.aT(p.dy)) + o[6] + "\t" + H.d(p.cz())
@@ -30881,7 +30961,7 @@
 		t(Z.hl, Z.ax)
 		s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
 		s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.targetready, T.reikirecover, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend, T.hellTaichiReflect, T.wargodSay, T.grayb1, T.poirotb1, T.thdf])
-		s(T.y, [T.dL, T.xindL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.tha1n1, T.tha1n2, T.tha1n3, T.tha1s1, T.tha2n1, T.tha2n2, T.tha2n3, T.tha2s1, T.tha2b1, T.milkyholmes, T.milkyready, T.milkyak, T.shellingfordn2, T.shellingfordn1, T.grayn1, T.graybx, T.hermitXIIn1, T.hermitXIIn2])
+		s(T.y, [T.dL, T.xindL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.tha1n1, T.tha1n2, T.tha1n3, T.tha1s1, T.tha2n1, T.tha2n2, T.tha2n3, T.tha2s1, T.tha2b1, T.milkyholmes, T.milkyready, T.milkyak, T.shellingfordn2, T.shellingfordn1, T.grayn1, T.graybx, T.hermitXn1, T.hermitXIIn1, T.hermitXIIn2])
 		s(T.M, [T.bf, T.ousx, T.co, T.dj, T.cG, T.seal, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade, T.ironbirdSimulateRun, T.grayax])
 		s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
 		s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])
@@ -31387,7 +31467,7 @@
 				"HermitXII","iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAABVQTFRFAAAA2CgA/Pz8AAAAMDAwo6Oj4ODgmp1wAAAAAAd0Uk5TAP///////6V/pvsAAABFSURBVBiVlc9JDgAhCERRkp+q+x+5DcQWXSkreAlTUBExk5H2uIaasQAJbCaMWrJTFqhBiltLStX/WmT2OyB2eDr9eP8D3csBlMkIer8AAAAASUVORK5CYII=",
 				"HermitXI", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHNJREFUOI2lkksOwCAIRB+NJ5Zz6JXpojZpjKKVWTN83iCAEVACKKUcmVWVKzIdQMwsfsJMtVbXrKokEZkyyDkvmwpgfyD2TVMQwbMBA5ir+6ExaD7bMQw3iMa4DXGUCEz+YFbcn/ll4BZ6ch9pR2+Mx7oBv8A4EYjfUwIAAAAASUVORK5CYII=",
 				"HermitX", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHFJREFUOI2lU0EOwCAIK8b/f5ld1kU2QHA9EZDSqggAxQ9MBqo9HhEBAAw2M1Ft5sD5LnRhCKgkssPaOmhGB6sYXpIKVNXEHlwFHSWugg5SgtVChPQSVwuRHZcge8aUwJu8I/l8pAqMNdzbeLpMD8EpLnt+MDYwR/yxAAAAAElFTkSuQmCC",
-				"HermitIX", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJFJREFUOI2lUssOwyAMs6f+d8KXeweaKSAIU2uJQ96JMQEIL3ABgPSsB0l8qgR3PzfpC6w3IFlud9wgkioMDdwdJH9PEiQNvtVZysi2mW1jYXNFQEzP01prSz62HOTi6jeumenZjuLgYs4dODAzoStzuDf7Mi8AdNRBTN/FSx38I/GjkMysjJcnnECyN3hUfeML8baav7lx5IgAAAAASUVORK5CYII=",
+				"HermitIX", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAANBJREFUOI2lkuENgkAMhT+MAzACbsAI5waMwAboBLoBbuAIugGOwAa4gW5w/uAdFsKFBF7SpKGvr+3jEsCzEVsE/G6BUCpWbZCr5pXP9iYiJPrgTLEG3soz4Kz8C7R2eNigMhM98FFjptzWqjmBVMSr2eKhCDiJk1oBIgSnM2qgMANO0yYLJ1UHdGoslOemNmBqYge86A2bTroBFwke7AnhjpKxUY1pboiYuDekJ//fBr15wdAcOJpaa/LoQyrMxCLCGZ0wh7sihkWBJQxPeTV+NedIUueafbkAAAAASUVORK5CYII=",
 				"HermitVIII", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHJJREFUOI2lU0EOwCAIa5f9/8vsQDTIwMnoxYOlNq0QgKCBCwBEVCM6d3dTgGT55TFzW7VTDD5JFag48NySA88rOcg4VOF/TZLUFjogNh/Jpp0hDdEPZZwwxCyTyMnLwVcjnrs4OG3DPrIsUwUzYDTX+QHnDUYdZcCKnQAAAABJRU5ErkJggg==",
 				"HermitVII", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAaklEQVR4nFXMIQ/CQAyG4fugEomcRE5O8f8T5DJFUAuKTC1TBPUies1d694nbVWK8txzPoyp71kGY+unZMAtepUDg/dHAVwlaVcDLtLX104OnONP3eBHhgPoYYMQA3jXu4AXNDFYoJeRPH/93nbqDhCsDgAAAABJRU5ErkJggg==",
 				"HermitVI", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHNJREFUOI2dU0EOwCAIaxf//2V2UBM2C4o9CUpbQQnAMGDWlyRxCvY62x6UxSSaDyqYok0lT5QnWraZKYcEmRNFvhBEk4hIH5l1Rbu+LATVaaQOJtnfhY9lE1VRBEmwuwZJ/ZAqytJBtYEfgusPBfedb/AC5BczI1nVla0AAAAASUVORK5CYII=",

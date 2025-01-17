@@ -22013,7 +22013,7 @@
 		t: function(a, b, c, d) {
 			var w, v, u = this.r.xiang,
 				t = T.u(this.r, !0, c)
-			if (u.fr <= 0) {
+			if (u.fr <= 0 || this.r.xiang == this.r.owner) {
 				this.r.fr = 0
 				d.a.push(T.e("[0]:[心无罣碍，无罣碍故]", this.r, u, null, null, 0, 1000, 100))
 				this.r.bf(this.r.fr, this.r, c, d)

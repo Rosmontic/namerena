@@ -24496,7 +24496,7 @@
 				b = null
 			u = a2.a
 			u.push(T.e("[0]：一者曰：由于梓不会写抽卡器，所以会先行测试(此术玄妙，理解不了也可以正常施放)", c.r, c.r, b, b, 1, 1000, 100))
-			while (c.r.vw.length < count && c.r.wv.length > 0) {
+			while (c.r.vw.length < 10 && c.r.wv.length > 0) {
 				v = Math.floor(Math.random() * c.r.wv.length)
 				c.r.vw.push(c.r.wv.splice(v, 1)[0])
 			}

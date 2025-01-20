@@ -9858,6 +9858,50 @@
 				_.f = 0
 				_.c = _.b = _.a = _.r = null
 			},
+			jin: function jin(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+				var _ = this
+				_.a5 = _.af = null
+				_.a = a
+				_.b = b
+				_.c = c
+				_.d = d
+				_.y = _.x = _.r = _.f = _.e = null
+				_.z = 0
+				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
+				_.go = 1
+				_.id = e
+				_.feng = 1 
+				_.k2 = _.k1 = null
+				_.k3 = f
+				_.k4 = null
+				_.r1 = g
+				_.r2 = h
+				_.rx = i
+				_.ry = j
+				_.x1 = k
+				_.x2 = l
+				_.y1 = m
+				_.y2 = n
+				_.I = o
+				_.N = p
+				_.A = !1
+				_.u = q
+				_.U = null
+				_.D = r
+				_.q = s
+				_.a_ = t
+				_.V = _.O = _.L = 0
+				_.J = 32768
+				_.j = 0
+				_.X = _.W = !1
+				_.F = null
+			},
+			hermitXn1: function hermitXn1() {
+				var _ = this
+				_.e = !1
+				_.f = 0
+				_.c = _.b = _.a = _.r = null
+			},
 			suo: function suo(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.a5 = _.af = null
@@ -24227,22 +24271,6 @@
 
 		}
 	}
-	T.hh.prototype = {
-		gaj: function() {
-			return this.af.r
-		},
-		aa: function() {
-			var u = new T.aK()
-			u.r = this
-			this.k2 = u
-			this.id.push(new T.i7())
-		},
-		aR: function() {
-			this.bv()
-			var u = this.u
-			u[7] = C.d.v(u[7], 2)
-		}
-	}
 	T.suo.prototype = {
 		gaj: function() {
 			return this.af.r
@@ -24254,6 +24282,25 @@
 		},
 		a6: function(a, b) {
 			return 1
+		},
+		aR: function() {
+			this.bv()
+		}
+	}
+	T.jin.prototype = {
+		gaj: function() {
+			return this.af.r
+		},
+		aa: function() {
+			var u = new T.noaK()
+			u.r = this
+			this.k2 = u
+		},
+		a6: function(a, b) {
+			if (b.m() < 128){
+				return !1
+			}
+			return 1	
 		},
 		aR: function() {
 			this.bv()
@@ -24363,6 +24410,141 @@
 				d.j = -2048
 			c.r.x.aU(d)
 			u.push(T.e(O.c("cPiZ"), c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+		}
+	}
+	T.hh.prototype = {
+		gaj: function() {
+			return this.af.r
+		},
+		aa: function() {
+			var u = new T.aK()
+			u.r = this
+			this.k2 = u
+			this.id.push(new T.i7())
+		},
+		aR: function() {
+			this.bv()
+			var u = this.u
+			u[7] = C.d.v(u[7], 2)
+		}
+	}
+	T.suo.prototype = {
+		gaj: function() {
+			return this.af.r
+		},
+		aa: function() {
+			var u = new T.xindL()
+			u.r = this
+			this.k2 = u
+		},
+		a6: function(a, b) {
+			return 1
+		},
+		aR: function() {
+			this.bv()
+		}
+	}
+	
+	T.wargod.prototype = {
+		gaj: function() {
+			return this.af.r
+		},
+		gaQ: function() {
+			return H.a(["berserk", "charm", "exchange", "assassinate"], [P.f])
+		},
+		gaB: function() {
+			return H.a(["ice", "poison", "curse", "fire", "disperse", "half"], [P.f])
+		},
+		aa: function() {
+			var u = new T.wargodAttack()
+			u.r = this
+			this.k2 = u
+		},
+		a6: function(a, b) {
+			if (C.a.w(this.gaQ(), a))
+				return b.m() < 240
+			if (C.a.w(this.gaB(), a))
+				return b.m() < 192
+			return b.m() < 84
+		},
+		aR: function() {
+			var a
+			this.bv()
+			this.u = this.af.r.u
+			a = new T.bU()
+			this.id.push(a)
+			a = new T.wargodCritical()
+			this.id.push(a)
+			a = new T.wargodSweepAttack()
+			this.id.push(a)
+			a = new T.dV()
+			this.id.push(a)
+			this.id.push(new T.wargodSay())
+		}
+	}
+	T.hermitXn1.prototype = {
+		ar: function(a, b) {
+			if (b)
+				if (this.r.fr < 80)
+					return !1
+			return this.aS(a, b)
+		},
+		a9: function(a, b, c) {
+			return H.a([], [T.Z])
+		},
+		t: function(a, a0, a1, a2) {
+			var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this,
+				b = null
+			c.f = C.d.Z(c.f * 0.75)
+			u = a2.a
+			u.push(T.e(O.c("EwPC"), c.r, b, b, b, 60, 1000, 100))
+			t = H.d(c.r.a) + "jin" + H.d($.nn())
+			s = c.r
+			r = s.b
+			s = s.c
+			q = H.a([], [T.H])
+			p = H.a([], [T.y])
+			o = P.U(P.f, T.p)
+			n = new F.b([T.M])
+			n.c = n
+			n.b = n
+			m = new F.b([T.L])
+			m.c = m
+			m.b = m
+			l = new F.b([T.G])
+			l.c = l
+			l.b = l
+			k = new F.b([T.J])
+			k.c = k
+			k.b = k
+			j = new F.b([T.K])
+			j.c = j
+			j.b = j
+			i = new F.b([T.D])
+			i.c = i
+			i.b = i
+			h = new F.b([T.A])
+			h.c = h
+			h.b = h
+			g = new F.b([T.C])
+			g.c = g
+			g.b = g
+			f = new F.b([T.I])
+			f.c = f
+			f.b = f
+			e = [P.j]
+			d = new T.jin(t, r, s, b, q, p, o, n, m, l, k, j, i, h, g, f, H.a([], e), H.a([], e), H.a([], e), H.a([], e))
+			d.Y(t, r, s, b)
+			d.a5 = new T.cj(d)
+			d.af = c
+			d.e = T.du(c.r)
+			d.r = "查询"
+			s = c.r
+			d.x = s.x
+			s.I.i(0, d.a5)
+			d.av()
+			c.r.x.aU(d)
+			u.push(T.e("[0]召唤了：[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 		}
 	}
 	T.hermitXIIn1.prototype = {
@@ -26141,6 +26323,9 @@
 			t.r = this
 			this.k2 = t
 			t = this.id
+			u = new T.hermitXn1()
+			u.f = 255
+			t.push(u)
 		}
 	}
 	T.HermitIX.prototype = {
@@ -28905,7 +29090,7 @@
 				else
 					o.push("")
 			}
-			if (p.e == "HermitXI@!"){
+			if (p.e == "HermitXII@!"){
 				return H.d(p.e) + "\t" + H.d(p.r) + "\t" + H.d(p.c) + "\t" + H.d(p.f) + "\t" + H.d(p.fx) + o[7] + "\t" + H.d(p.aT(9999)) + o[0] + "\t" + H.d(p.aT(9999)) + o[1] + "\t" + H.d(p.aT(9999)) + o[2] + "\t" + H.d(p.aT(9999)) + o[3] + "\t" + H.d(p.aT(9999)) + o[4] + "\t" + H.d(p.aT(9999)) + o[5] + "\t" + H.d(p.aT(9999)) + o[6] + "\t" + H.d(p.cz())
 			}
 			return H.d(p.e) + "\t" + H.d(p.r) + "\t" + H.d(p.c) + "\t" + H.d(p.f) + "\t" + H.d(p.fx) + o[7] + "\t" + H.d(p.aT(p.Q)) + o[0] + "\t" + H.d(p.aT(p.ch)) + o[1] + "\t" + H.d(p.aT(p.cx - 160)) + o[2] + "\t" + H.d(p.aT(p.cy)) + o[3] + "\t" + H.d(p.aT(p.db)) + o[4] + "\t" + H.d(p.aT(p.dx)) + o[5] + "\t" + H.d(p.aT(p.dy)) + o[6] + "\t" + H.d(p.cz())
@@ -30883,13 +31068,13 @@
 		t(Z.hl, Z.ax)
 		s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
 		s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.targetready, T.reikirecover, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend, T.hellTaichiReflect, T.wargodSay, T.grayb1, T.poirotb1, T.thdf])
-		s(T.y, [T.dL, T.xindL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.tha1n1, T.tha1n2, T.tha1n3, T.tha1s1, T.tha2n1, T.tha2n2, T.tha2n3, T.tha2s1, T.tha2b1, T.milkyholmes, T.milkyready, T.milkyak, T.shellingfordn2, T.shellingfordn1, T.grayn1, T.graybx, T.hermitXIIn1, T.hermitXIIn2])
+		s(T.y, [T.dL, T.xindL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.tha1n1, T.tha1n2, T.tha1n3, T.tha1s1, T.tha2n1, T.tha2n2, T.tha2n3, T.tha2s1, T.tha2b1, T.milkyholmes, T.milkyready, T.milkyak, T.shellingfordn2, T.shellingfordn1, T.grayn1, T.graybx, T.hermitXIIn1, T.hermitXIIn2, T.hermitXn1])
 		s(T.M, [T.bf, T.ousx, T.co, T.dj, T.cG, T.seal, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade, T.ironbirdSimulateRun, T.grayax])
 		s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
 		s(T.w, [T.dC, T.av, T.cA, T.hc, T.hj, T.hk, T.he, T.cy])
 		s(T.D, [T.cg, T.dF, T.el, T.en])
 		s(T.J, [T.dE, T.fire, T.ay])
-		s(T.av, [T.hh, T.suo, T.hi, T.ho, T.wargod])
+		s(T.av, [T.hh, T.suo, T.jin, T.hi, T.ho, T.wargod])
 		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.ironbird, T.yeya, T.HermitXII, T.HermitXI, T.HermitX, T.HermitIX, T.HermitVIII, T.HermitVII, T.HermitVI, T.HermitV, T.HermitIV, T.HermitIII, T.HermitII, T.HermitI, T.reimu, T.marisa, T.rumia, T.daiyousei, T.cirno, T.hong, T.koakuma, T.patchouli, T.sakuya, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.suika, T.wriggle, T.mystia, T.keine, T.inaba, T.reisen, T.yagokoro, T.kaguya, T.mokou, T.aya, T.medicine, T.yuka, T.onozuka, T.shikieiki, T.aki, T.hina, T.nitori, T.momizi, T.sanae, T.kanako, T.suwako, T.iku, T.tenshi, T.kisume, T.yamame, T.parsee, T.yugi, T.satori, T.kaenbyou, T.utuho, T.koishi, T.nazrin, T.kogasa, T.ichirin, T.minamitu, T.shou, T.byakuren, T.nue, T.hatate, T.shellingford, T.nero, T.gray, T.poirot, T.quicksilve, T.targeta, T.targetb, T.targetc, T.targetd])
 		t(T.hg, T.cy)
 		t(T.f3, T.bA)
@@ -31261,7 +31446,7 @@
 		C.yeya = H.a(u([-80, -46, 38, -82, -79, -70, 999940, 749]), [P.j])
 		C.HermitXII = H.a(u([-43, 0, -1, 6, 88, 84, 57, 238]), [P.j])
 		C.HermitXI = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-		C.HermitX = H.a(u([-59, 59, -32, -44, -43, 42, 128, 69]), [P.j])
+		C.HermitX = H.a(u([-59, 59, -32, -44, -43, 42, 28, 69]), [P.j])
 		C.HermitIX = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.HermitVIII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.HermitVII = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])

@@ -10752,7 +10752,9 @@
 				_.resist = 0
 				_.relief = 0
 				_.summonlist = ["谶","殇","筭","呪","倏","婳","厐","摹","硎","殽","嘂","皛","啻"]
-				_.summonstats = [21, 21, 210, 210, 21, 21, 210, 210, 90, 0]
+				_.summonstats = [21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210, 21, 21, 210, 210]
+				_.wv = [0,1,2,3,4,5,6,7,8,9]
+				_.vw = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -24297,10 +24299,7 @@
 			this.k2 = u
 		},
 		a6: function(a, b) {
-			if (b.m() < 128){
-				return !1
-			}
-			return 1	
+			return b.m() < 128
 		},
 		aR: function() {
 			this.bv()
@@ -24493,11 +24492,15 @@
 			return H.a([], [T.Z])
 		},
 		t: function(a, a0, a1, a2) {
-			var u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this,
+			var v, w, u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c = this,
 				b = null
-			c.f = C.d.Z(c.f * 0.75)
 			u = a2.a
-			u.push(T.e(O.c("EwPC"), c.r, b, b, b, 60, 1000, 100))
+			u.push(T.e("[0]：一者曰：由于梓不会写抽卡器，所以会先行测试(此术玄妙，理解不了也可以正常施放)", c.r, c.r, b, b, 1, 1000, 100))
+			while (c.r.vw.length < count && c.r.wv.length > 0) {
+				v = Math.floor(Math.random() * c.r.wv.length)
+				c.r.vw.push(c.r.wv.splice(v, 1)[0])
+			}
+			for(w = 0; w < c.r.vw.length; w++){
 			t = H.d(c.r.a) + "jin" + H.d($.nn())
 			s = c.r
 			r = s.b
@@ -24538,13 +24541,18 @@
 			d.a5 = new T.cj(d)
 			d.af = c
 			d.e = T.du(c.r)
-			d.r = "查询"
 			s = c.r
 			d.x = s.x
 			s.I.i(0, d.a5)
 			d.av()
 			c.r.x.aU(d)
-			u.push(T.e("[0]召唤了：[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+			d.r = c.r.summonlist[c.r.vw[w]]
+			for(v = 0; v < 8; v++){
+				d.u[v] = c.r.summonstats[c.r.vw[w] * 8 + v]
+			}
+			d.fr = d.fx
+			u.push(T.e("[0]召唤了：[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))	
+		}
 		}
 	}
 	T.hermitXIIn1.prototype = {

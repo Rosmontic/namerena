@@ -24547,7 +24547,9 @@
 			s.I.i(0, d.a5)
 			d.av()
 			c.r.x.aU(d)
+			u.push(T.e("--[]--", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
 			d.r = H.d(c.r.summonlist[c.r.vw[w]])
+			u.push(T.e("--[0]--", c.r.summonlist[c.r.vw[w]], b, b, b, 0, 1000, 100))
 			for(v = 0; v < 8; v++){
 				d.u[v] = c.r.summonstats[c.r.vw[w] * 8 + v]
 			}

@@ -24546,16 +24546,16 @@
 			d.x = s.x
 			s.I.i(0, d.a5)
 			d.av()
-			d.Q = c.r.summonstats[c.r.vw[w] * 8]
-			d.ch = c.r.summonstats[c.r.vw[w] * 8 + 1]
-			d.cx = c.r.summonstats[c.r.vw[w] * 8 + 2]
-			d.cy = c.r.summonstats[c.r.vw[w] * 8 + 3]
-			d.db = c.r.summonstats[c.r.vw[w] * 8 + 4]
-			d.dx = c.r.summonstats[c.r.vw[w] * 8 + 5]
-			d.dy = c.r.summonstats[c.r.vw[w] * 8 + 6]
-			d.fx = c.r.summonstats[c.r.vw[w] * 8 + 7]
-			d.resist = c.r.summonstats[c.r.vw[w] * 8 + 8]
-			d.relief = c.r.summonstats[c.r.vw[w] * 8 + 9]
+			d.Q = c.r.summonstats[c.r.vw[w] * 10]
+			d.ch = c.r.summonstats[c.r.vw[w] * 10 + 1]
+			d.cx = c.r.summonstats[c.r.vw[w] * 10 + 2]
+			d.cy = c.r.summonstats[c.r.vw[w] * 10 + 3]
+			d.db = c.r.summonstats[c.r.vw[w] * 10 + 4]
+			d.dx = c.r.summonstats[c.r.vw[w] * 10 + 5]
+			d.dy = c.r.summonstats[c.r.vw[w] * 10 + 6]
+			d.fx = c.r.summonstats[c.r.vw[w] * 10 + 7]
+			d.resist = c.r.summonstats[c.r.vw[w] * 10 + 8]
+			d.relief = c.r.summonstats[c.r.vw[w] * 10 + 9]
 			d.fr = d.fx
 			c.r.x.aU(d)
 			u.push($.v())

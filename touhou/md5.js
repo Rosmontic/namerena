@@ -24547,19 +24547,16 @@
 			s.I.i(0, d.a5)
 			d.av()
 			c.r.x.aU(d)
-			for(v = 0; v < 8; v++){
-				d.u[v] = c.r.summonstats[c.r.vw[w] * 8 + v]
-			}
-			d.Q = d.u[0]
-			d.ch = d.u[1]
-			d.cx = d.u[2] + 160
-			d.cy = d.u[3]
-			d.db = d.u[4]
-			d.dx = d.u[5]
-			d.dy = d.u[6]
-			d.fx = d.u[7]
-			d.resist = c.r.summonstats[c.r.vw[w] * 8 + 9]
-			d.relief = c.r.summonstats[c.r.vw[w] * 8 + 10]
+			d.Q = c.r.summonstats[c.r.vw[w] * 8]
+			d.ch = c.r.summonstats[c.r.vw[w] * 8 + 1]
+			d.cx = c.r.summonstats[c.r.vw[w] * 8 + 2] + 160
+			d.cy = c.r.summonstats[c.r.vw[w] * 8 + 3]
+			d.db = c.r.summonstats[c.r.vw[w] * 8 + 4]
+			d.dx = c.r.summonstats[c.r.vw[w] * 8 + 5]
+			d.dy = c.r.summonstats[c.r.vw[w] * 8 + 6]
+			d.fx = c.r.summonstats[c.r.vw[w] * 8 + 7]
+			d.resist = c.r.summonstats[c.r.vw[w] * 8 + 8]
+			d.relief = c.r.summonstats[c.r.vw[w] * 8 + 9]
 			d.fr = d.fx
 			u.push($.v())
 			u.push(T.e("[0]召唤了：[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))

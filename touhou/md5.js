@@ -24546,10 +24546,9 @@
 			d.x = s.x
 			s.I.i(0, d.a5)
 			d.av()
-			c.r.x.aU(d)
 			d.Q = c.r.summonstats[c.r.vw[w] * 8]
 			d.ch = c.r.summonstats[c.r.vw[w] * 8 + 1]
-			d.cx = c.r.summonstats[c.r.vw[w] * 8 + 2] + 160
+			d.cx = c.r.summonstats[c.r.vw[w] * 8 + 2]
 			d.cy = c.r.summonstats[c.r.vw[w] * 8 + 3]
 			d.db = c.r.summonstats[c.r.vw[w] * 8 + 4]
 			d.dx = c.r.summonstats[c.r.vw[w] * 8 + 5]
@@ -24558,8 +24557,12 @@
 			d.resist = c.r.summonstats[c.r.vw[w] * 8 + 8]
 			d.relief = c.r.summonstats[c.r.vw[w] * 8 + 9]
 			d.fr = d.fx
+			c.r.x.aU(d)
 			u.push($.v())
 			u.push(T.e("[0]召唤了：[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+			u.push(T.e("[0]/[1]/[2]", d.Q, d.ch, d.cx, b, 0, 1000, 100))
+			u.push(T.e("[0]/[1]/[2]", d.cy, d.db, d.dx, b, 0, 1000, 100))
+			u.push(T.e("[0]/[1]/[2]", d.dy, d.resist, d.relief, b, 0, 1000, 100))
 		}
 		}
 	}

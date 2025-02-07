@@ -13650,46 +13650,6 @@
 				_.X = _.W = !1
 				_.F = null
 			},
-			yeya: function yeya(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
-				var _ = this
-				_.aI = 0
-				_.aP = _.bb = _.af = null
-				_.a = a
-				_.b = b
-				_.c = c
-				_.d = d
-				_.y = _.x = _.r = _.f = _.e = null
-				_.z = 0
-				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
-				_.go = 1
-				_.id = e
-				_.resist = 0
-				_.relief = 0
-				_.k2 = _.k1 = null
-				_.k3 = f
-				_.k4 = null
-				_.r1 = g
-				_.r2 = h
-				_.rx = i
-				_.ry = j
-				_.x1 = k
-				_.x2 = l
-				_.y1 = m
-				_.y2 = n
-				_.I = o
-				_.N = p
-				_.A = !1
-				_.u = q
-				_.U = null
-				_.D = r
-				_.q = s
-				_.a_ = t
-				_.V = _.O = _.L = 0
-				_.J = 32768
-				_.j = 0
-				_.X = _.W = !1
-				_.F = null
-			},
 			shellingford: function shellingford(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
@@ -26122,7 +26082,7 @@
 			return C.yeya
 		},
 		aa: function() {
-			var u, t = new T.oddloop()
+			var u, t = new T.aK()
 			t.r = this
 			this.k2 = t
 			t = this.id

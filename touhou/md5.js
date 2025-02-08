@@ -9838,7 +9838,7 @@
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
 				_.go = 1
 				_.id = e
-				_.feng = 1 
+				_.feng = 1
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -10594,9 +10594,6 @@
 				_.resist = 100
 				_.relief = 100
 				_.round = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -10719,9 +10716,9 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.summonlist = ["谶","殇","筭","翳","倏","婳","摹","硎","皛","啻"]
-				_.summonstats = [66,66,66,99,66,66,99,99,99,33,75,0,225,225,100,325,75,225,100,0,0,64,96,361,0,81,169,324,36,25,23,43,63,83,103,123,143,273,30,30,11,1,1111,1111,11,1,11,111,1,1,-36,-36,-360,-36,-36,-36,72,532,72,36,0,100,50,50,0,100,100,100,50,50,73,499,17,43,11,433,2,859,3,5,97,99,98,96,95,92,93,94,90,100,10,10,10,10,10,10,10,10,10,10]
-				_.wv = [0,1,2,3,4,5,6,7,8,9]
+				_.summonlist = ["谶", "殇", "筭", "翳", "倏", "婳", "摹", "硎", "皛", "啻"]
+				_.summonstats = [66, 66, 66, 99, 66, 66, 99, 99, 99, 33, 75, 0, 225, 225, 100, 325, 75, 225, 100, 0, 0, 64, 96, 361, 0, 81, 169, 324, 36, 25, 23, 43, 63, 83, 103, 123, 143, 273, 30, 30, 11, 1, 1111, 1111, 11, 1, 11, 111, 1, 1, -36, -36, -360, -36, -36, -36, 72, 532, 72, 36, 0, 100, 50, 50, 0, 100, 100, 100, 50, 50, 73, 499, 17, 43, 11, 433, 2, 859, 3, 5, 97, 99, 98, 96, 95, 92, 93, 94, 90, 100, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+				_.wv = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 				_.vw = []
 				_.k2 = _.k1 = null
 				_.k3 = f
@@ -11124,9 +11121,6 @@
 				_.id = e
 				_.resist = 40
 				_.relief = 20
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.meng = 0
 				_.yibian = 0
 				_.ex = 0
@@ -11170,10 +11164,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
-				_.gossip = true
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11214,9 +11204,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11257,9 +11244,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11300,9 +11284,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11343,9 +11324,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11386,9 +11364,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11429,9 +11404,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11472,9 +11444,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11515,9 +11484,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11558,9 +11524,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11601,9 +11564,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11644,9 +11604,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11687,9 +11644,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11730,9 +11684,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11773,9 +11724,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11816,9 +11764,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11859,9 +11804,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11902,9 +11844,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11945,9 +11884,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -11988,9 +11924,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12031,9 +11964,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12074,9 +12004,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12117,9 +12044,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12160,9 +12084,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12203,9 +12124,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12246,9 +12164,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12289,9 +12204,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12332,9 +12244,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12375,9 +12284,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12418,9 +12324,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12461,9 +12364,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12504,9 +12404,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12547,9 +12444,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12590,9 +12484,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12633,9 +12524,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12676,9 +12564,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12719,9 +12604,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12762,9 +12644,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12805,9 +12684,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12848,9 +12724,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12891,9 +12764,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12934,9 +12804,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -12977,9 +12844,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13020,9 +12884,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13063,9 +12924,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13106,9 +12964,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13149,9 +13004,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13192,9 +13044,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13235,9 +13084,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13278,9 +13124,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13321,9 +13164,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13364,9 +13204,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13407,9 +13244,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13450,9 +13284,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13493,9 +13324,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13536,9 +13364,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13579,9 +13404,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13622,9 +13444,6 @@
 				_.id = e
 				_.resist = 0
 				_.relief = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13890,9 +13709,6 @@
 				_.resist = 0
 				_.targettime = 0
 				_.targetdamage = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13934,9 +13750,6 @@
 				_.resist = 0
 				_.targettime = 0
 				_.targetdamage = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13978,9 +13791,6 @@
 				_.resist = 0
 				_.targettime = 0
 				_.targetdamage = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -14022,9 +13832,6 @@
 				_.resist = 0
 				_.targettime = 0
 				_.targetdamage = 0
-				_.reiki = 0
-				_.reikimp = 2
-				_.reikimax = 8
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -14921,12 +14728,6 @@
 				_.c = _.b = _.a = _.r = null
 			},
 			targetready: function targetready() {
-				var _ = this
-				_.e = !1
-				_.f = 0
-				_.c = _.b = _.a = _.r = null
-			},
-			reikirecover: function reikirecover() {
 				var _ = this
 				_.e = !1
 				_.f = 0
@@ -21211,7 +21012,6 @@
 		},
 		t: function(a, b, c, d) {
 			var n, t, u, o = a[0].a
-			this.r.reiki = this.r.reiki - this.mp
 			n = (c.m() & 1) + 1
 			d.a.push(T.e("[0]使用 [梦符「二重结界」]", this.r, u, null, null, 1, 1000, 100))
 			u = H.o(this.r.r1.h(0, "pZs"), "$ipZ")
@@ -21229,7 +21029,7 @@
 	T.tha1n2.prototype = {
 		ar: function(a, b) {
 			var u
-			if (this.r.meng != 0 ) {
+			if (this.r.meng != 0) {
 				return !1
 			}
 			return this.aS(a, b)
@@ -21237,7 +21037,6 @@
 		t: function(a, b, c, d) {
 			var u = a[0].a,
 				t = T.u(this.r, !0, c)
-			this.r.reiki = this.r.reiki - this.mp
 			d.a.push(T.e("[0]使用 [灵符「梦想封印」]", this.r, u, null, null, 1, 1000, 100))
 			u.a0(t * 1.2, !0, this.r, T.seala(), c, d)
 		}
@@ -21245,7 +21044,7 @@
 	T.tha1n3.prototype = {
 		ar: function(a, b) {
 			var u
-			if (this.r.meng != 0 ) {
+			if (this.r.meng != 0) {
 				return !1
 			}
 			return this.aS(a, b)
@@ -21264,7 +21063,6 @@
 			s = this.r
 			r = H.a(n.slice(0), [H.n(n, 0)])
 			q = d.a
-			this.r.reiki = this.r.reiki - this.mp
 			q.push(T.e(t, s, null, null, r, 1, 1000, 100))
 			p = T.u(this.r, !0, c) * 1.7
 			for (u = 0; u < n.length; ++u) {
@@ -21304,7 +21102,6 @@
 		t: function(a, b, c, d) {
 			if (this.r.meng == 0) {
 				this.r.meng = 1
-				this.r.reiki = this.r.reiki - this.mp
 				d.a.push(T.e("[0] [ᗜ˰ᗜ#]", this.r, null, null, null, 1, 1000, 100))
 				this.f = 512
 				this.r.E()
@@ -24057,9 +23854,7 @@
 				r.r.bf(r.r.fr, null, c, d)
 			}
 			r.r.bI(r.r, d)
-			r.r.round = r.r.round + 1
-
-
+			r.r.round = r.r.round + 1		
 		}
 	}
 	T.suo.prototype = {
@@ -24232,7 +24027,7 @@
 			this.bv()
 		}
 	}
-	
+
 	T.wargod.prototype = {
 		gaj: function() {
 			return this.af.r
@@ -24290,64 +24085,64 @@
 				v = Math.floor(Math.random() * c.r.wv.length)
 				c.r.vw.push(c.r.wv.splice(v, 1)[0])
 			}
-			for(w = 0; w < c.r.vw.length; w++){
-			t =  H.d(c.r.summonlist[c.r.vw[w]])
-			s = c.r
-			r = s.b
-			s = s.c
-			q = H.a([], [T.H])
-			p = H.a([], [T.y])
-			o = P.U(P.f, T.p)
-			n = new F.b([T.M])
-			n.c = n
-			n.b = n
-			m = new F.b([T.L])
-			m.c = m
-			m.b = m
-			l = new F.b([T.G])
-			l.c = l
-			l.b = l
-			k = new F.b([T.J])
-			k.c = k
-			k.b = k
-			j = new F.b([T.K])
-			j.c = j
-			j.b = j
-			i = new F.b([T.D])
-			i.c = i
-			i.b = i
-			h = new F.b([T.A])
-			h.c = h
-			h.b = h
-			g = new F.b([T.C])
-			g.c = g
-			g.b = g
-			f = new F.b([T.I])
-			f.c = f
-			f.b = f
-			e = [P.j]
-			d = new T.jin(t, r, s, b, q, p, o, n, m, l, k, j, i, h, g, f, H.a([], e), H.a([], e), H.a([], e), H.a([], e))
-			d.Y(t, r, s, b)
-			d.a5 = new T.cj(d)
-			d.af = c
-			d.e = T.du(c.r)
-			s = c.r
-			d.x = s.x
-			s.I.i(0, d.a5)
-			d.av()
-			for (var vw = 0; vw < 7; vw++){
-				d.u[vw] = c.r.summonstats[c.r.vw[w] * 10 + vw]
+			for (w = 0; w < c.r.vw.length; w++) {
+				t = H.d(c.r.summonlist[c.r.vw[w]])
+				s = c.r
+				r = s.b
+				s = s.c
+				q = H.a([], [T.H])
+				p = H.a([], [T.y])
+				o = P.U(P.f, T.p)
+				n = new F.b([T.M])
+				n.c = n
+				n.b = n
+				m = new F.b([T.L])
+				m.c = m
+				m.b = m
+				l = new F.b([T.G])
+				l.c = l
+				l.b = l
+				k = new F.b([T.J])
+				k.c = k
+				k.b = k
+				j = new F.b([T.K])
+				j.c = j
+				j.b = j
+				i = new F.b([T.D])
+				i.c = i
+				i.b = i
+				h = new F.b([T.A])
+				h.c = h
+				h.b = h
+				g = new F.b([T.C])
+				g.c = g
+				g.b = g
+				f = new F.b([T.I])
+				f.c = f
+				f.b = f
+				e = [P.j]
+				d = new T.jin(t, r, s, b, q, p, o, n, m, l, k, j, i, h, g, f, H.a([], e), H.a([], e), H.a([], e), H.a([], e))
+				d.Y(t, r, s, b)
+				d.a5 = new T.cj(d)
+				d.af = c
+				d.e = T.du(c.r)
+				s = c.r
+				d.x = s.x
+				s.I.i(0, d.a5)
+				d.av()
+				for (var vw = 0; vw < 7; vw++) {
+					d.u[vw] = c.r.summonstats[c.r.vw[w] * 10 + vw]
+				}
+				d.resist = c.r.summonstats[c.r.vw[w] * 10 + 8]
+				d.relief = c.r.summonstats[c.r.vw[w] * 10 + 9]
+				d.fr = d.fx
+				c.r.x.aU(d)
+				u.push($.v())
+				u.push(T.e("[0]召唤了：[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+				u.push(T.e("[0]/[1]/[2]", d.Q, d.ch, d.cx, b, 0, 1000, 100))
+				u.push(T.e("[0]/[1]/[2]", d.cy, d.db, d.dx, b, 0, 1000, 100))
+				u.push(T.e("[0]/[1]/[2]", d.dy, d.resist, d.relief, b, 0, 1000, 100))
 			}
-			d.resist = c.r.summonstats[c.r.vw[w] * 10 + 8]
-			d.relief = c.r.summonstats[c.r.vw[w] * 10 + 9]
-			d.fr = d.fx
-			c.r.x.aU(d)
-			u.push($.v())
-			u.push(T.e("[0]召唤了：[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
-			u.push(T.e("[0]/[1]/[2]", d.Q, d.ch, d.cx, b, 0, 1000, 100))
-			u.push(T.e("[0]/[1]/[2]", d.cy, d.db, d.dx, b, 0, 1000, 100))
-			u.push(T.e("[0]/[1]/[2]", d.dy, d.resist, d.relief, b, 0, 1000, 100))
-		}
 		}
 	}
 	T.hermitXIIn1.prototype = {
@@ -24383,10 +24178,15 @@
 			t = H.d(v.a) + "xinxiang" + H.d($.nn())
 			s = c.r
 			r = s.b
+			u.push(T.e("1.[0] [1] ", r, b, b, b, 0, 1000, 100))
 			s = s.c
+			u.push(T.e("2.[0] [1] ", s, c, b, b, 0, 1000, 100))
 			q = H.a([], [T.H])
+			u.push(T.e("3.[0] [1] ", q, b, b, b, 0, 1000, 100))
 			p = H.a([], [T.y])
+			u.push(T.e("4.[0] [1] ", p, b, b, b, 0, 1000, 100))
 			o = P.U(P.f, T.p)
+			u.push(T.e("5.[0] [1] ", o, b, b, b, 0, 1000, 100))
 			n = new F.b([T.M])
 			n.c = n
 			n.b = n
@@ -24416,16 +24216,19 @@
 			f.b = f
 			e = [P.j]
 			d = new T.suo(t, r, s, b, q, p, o, n, m, l, k, j, i, h, g, f, H.a([], e), H.a([], e), H.a([], e), H.a([], e))
+			
 			d.Y(t, r, s, b)
 			d.a5 = new T.cj(d)
+			u.push(T.e("6.[0] [1] ", d.a5, b, b, b, 0, 1000, 100))
 			d.af = c
+			u.push(T.e("7.[0] [1] ", d.af, b, b, b, 0, 1000, 100))
 			d.owner = c.r
 			d.e = T.du(c.r)
+			u.push(T.e("8.[0] [1] ", d.e, b, b, b, 0, 1000, 100))
 			xin.Q = d
-			if(v.r != null){
-				d.r = H.d(v.r) +"*蕊*"
-			}
-			else{
+			if (v.r != null) {
+				d.r = H.d(v.r) + "*蕊*"
+			} else {
 				d.r = "*蕊*"
 			}
 			s = c.r
@@ -28621,12 +28424,6 @@
 				l = o.fe(m, b, c)
 			if (o.reiki != null && H.o(o.r1.h(0, "sealx"), "$iseal") == null) {
 				t = (b.m() & 1) + o.reikimp
-				if (o.reiki == 0 && o.e == "marisa@!" && o.gossip == true) {
-					o.reikimax = 8
-					t = 8
-					o.gossip = false
-					c.a.push(T.e("[0]回复了所有灵力", o, o, null, null, 0, 1000, 100))
-				}
 				t = Math.max(0, Math.min(t, o.reikimax - o.reiki))
 				o.reiki = o.reiki + t
 				//c.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", o, t, o.reiki, null, 0, 1000, 100))
@@ -28887,7 +28684,7 @@
 				else
 					o.push("")
 			}
-			if (p.e == "HermitXII@!"){
+			if (p.e == "HermitXII@!") {
 				return H.d(p.e) + "\t" + H.d(p.r) + "\t" + H.d(p.c) + "\t" + H.d(p.f) + "\t" + H.d(p.fx) + o[7] + "\t" + H.d(p.aT(9999)) + o[0] + "\t" + H.d(p.aT(9999)) + o[1] + "\t" + H.d(p.aT(9999)) + o[2] + "\t" + H.d(p.aT(9999)) + o[3] + "\t" + H.d(p.aT(9999)) + o[4] + "\t" + H.d(p.aT(9999)) + o[5] + "\t" + H.d(p.aT(9999)) + o[6] + "\t" + H.d(p.cz())
 			}
 			return H.d(p.e) + "\t" + H.d(p.r) + "\t" + H.d(p.c) + "\t" + H.d(p.f) + "\t" + H.d(p.fx) + o[7] + "\t" + H.d(p.aT(p.Q)) + o[0] + "\t" + H.d(p.aT(p.ch)) + o[1] + "\t" + H.d(p.aT(p.cx - 160)) + o[2] + "\t" + H.d(p.aT(p.cy)) + o[3] + "\t" + H.d(p.aT(p.db)) + o[4] + "\t" + H.d(p.aT(p.dx)) + o[5] + "\t" + H.d(p.aT(p.dy)) + o[6] + "\t" + H.d(p.cz())
@@ -29859,31 +29656,6 @@
 				r.r.bf(this.r.fr, null, c, d)
 			}
 
-			return a
-		},
-		T: function() {
-			this.r.ry.i(0, this)
-		},
-		$iG: 1
-	}
-	T.reikirecover.prototype = {
-		aK: function(a, b, c, d) {
-			var u, t, s, r = this
-			if (r.r.reiki != null) {
-				t = (c.m() & 1) + r.r.reikimp
-				if (t < 0) {
-					t = 0
-				}
-				if (r.r.reiki + t > r.r.reikimax) {
-					if (r.r.reiki > r.r.reikimax) {
-						t = 0
-					} else {
-						t = r.r.reikimax - r.r.reiki
-					}
-				}
-				r.r.reiki = r.r.reiki + t
-				//d.a.push(T.e("[0]: 回复灵力[1]点，当前灵力为[2]", r.r, t, r.r.reiki, null, 0, 1000, 100))
-			}
 			return a
 		},
 		T: function() {
@@ -30864,7 +30636,7 @@
 		t(P.cD, P.l)
 		t(Z.hl, Z.ax)
 		s(F.ab, [T.H, T.M, T.D, T.J, T.L, T.K, T.A, T.G, T.C, T.I])
-		s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.targetready, T.reikirecover, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend, T.hellTaichiReflect, T.wargodSay, T.grayb1, T.poirotb1, T.thdf])
+		s(T.H, [T.y, T.hJ, T.hR, T.i0, T.i3, T.dU, T.dZ, T.bU, T.dQ, T.hZ, T.i5, T.dV, T.dX, T.i9, T.ih, T.targetready, T.im, T.io, T.tigerMillionPunch, T.darkRevive, T.hellDefend, T.hellTaichiReflect, T.wargodSay, T.grayb1, T.poirotb1, T.thdf])
 		s(T.y, [T.dL, T.xindL, T.hI, T.hK, T.bx, T.dance, T.hL, T.hM, T.dN, T.dO, T.dP, T.hS, T.hU, T.hV, T.bV, T.dR, T.hX, T.dS, T.dT, T.i1, T.i6, T.i8, T.dW, T.ia, T.i7, T.oddloop, T.ig, T.ij, T.hW, T.ik, T.il, T.dM, T.hO, T.dc, T.hQ, T.i_, T.bI, T.i2, T.i4, T.ie, T.aK, T.noaK, T.bm, T.bn, T.hT, T.dY, T.ic, T.tigerAttack, T.tigerCheckHP, T.tigerIceAttack, T.tigerBlastPunch, T.tigerBlade, T.tigerRecover, T.tigerFastPunch, T.tigerWindAttack, T.tigerBlastKick, T.darkRecover, T.darkFastAttack, T.darkIron, T.darkHaste, T.darkLock, T.darkDemonSword, T.darkAttack, T.hellFireAttack, T.hellWindAttack, T.hellCutter, T.hellBehead, T.hellCheckHP, T.hellWargod, T.hellAttack, T.hellSword, T.hellHeartbreakSword, T.hellEclipseSword, T.wargodSweepAttack, T.wargodCritical, T.wargodAttack, T.ironbirdLaser, T.ironbirdCheckHP, T.ironbirdSimulate, T.ironbirdForceShield, T.robotForceShield, T.ironbirdUpgrade, T.ironbirdRepair, T.thaK, T.tha1n1, T.tha1n2, T.tha1n3, T.tha1s1, T.tha2b1, T.milkyholmes, T.milkyready, T.milkyak, T.shellingfordn2, T.shellingfordn1, T.grayn1, T.graybx, T.hermitXIIn1, T.hermitXIIn2, T.hermitXn1])
 		s(T.M, [T.bf, T.ousx, T.co, T.dj, T.cG, T.seal, T.aN, T.hz, T.darkHasteRun, T.darkSuperUpgrade, T.ironbirdSimulateRun, T.grayax])
 		s(T.p, [T.dt, T.aQ, T.ii, T.h0, T.iT])
@@ -31368,7 +31140,7 @@
 			return P.dq(["tigershark", "R0lGODlhEAAQAJEAAP8AAP///wAAAP///yH5BAEAAAMALAAAAAAQABAAAAI9nCepeS0AIxQNyQuoeSBgn1lQAI5lEpGSOnHjKqEgS2dPOad2l3fmTgoKg8ChccczsigcJUgjwkwqiyq0AAA7", "hell", "R0lGODlhEAAQAJEAAHb9/wAAAP///wAAACH5BAEAAAIALAAAAAAQABAAAAIslB2px5IAY2ov2omC3QBrvgUOCFbk9Z1SqnasarbiW2awaJf4EUNY41D8DAUAOw==", "dark", "R0lGODlhEAAQALMAAPr6+wQEAf7+/QwKAhEQDf38+xEODP79/f////z8/Pn5+QAAAP///wAAAAAAAAAAACH5BAEAAAwALAAAAAAQABAAAARIkEm5qp2YjYW6rxn3Wd0yiYhVGUFJlWpFcCZKpncFo7io9x3ADecpqkYdwY5HRAgSMV4NUTgUryaGbeii+EgKEOZnzGa0sUwEADs=", "yurix", "R0lGODlhEAAQAKEDAAAAAN4H28asxv///yH5BAEKAAMALAAAAAAQABAAAAI+hI85EB3s4DNBiFcvs3NjvmlL9WkesEDnKI7fw8Lpi6roMJ42jh8NNeEJVb+bsFc0HIfB5ZFhdPIO0mf0WAAAOw==", "ironbird", "R0lGODlhEAAQAKIAAGfh/ywtLf8AAP///wAAAAAAAAAAAAAAACwAAAAAEAAQAAADOzhK3K6QATKpJVHeWbHm3xVWYOecKBMEgrCu7erA7hsHjZluQO//Pglw2BMSgblj0ENRMjLHJ2Swkw4SADs=",
 				"yeya",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAH9JREFUOE+tk10OwCAIg+VmenK4mUtdSKapP9vwEfGjVJCcc03kmJk8w7M8wYWqdohSCmMmlkcB9DUJotASIHJ3USvtMsUBUGXsD7GVAvepaWRGngDwUx3AK45+MQ+gIB4wVt550BT4hH02cWbgzkTcx80Bk38yzlMFr5fpzzpfC7V7BSjXHhMAAAAASUVORK5CYII=",
-				"HermitXII","iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAABVQTFRFAAAA2CgA/Pz8AAAAMDAwo6Oj4ODgmp1wAAAAAAd0Uk5TAP///////6V/pvsAAABFSURBVBiVlc9JDgAhCERRkp+q+x+5DcQWXSkreAlTUBExk5H2uIaasQAJbCaMWrJTFqhBiltLStX/WmT2OyB2eDr9eP8D3csBlMkIer8AAAAASUVORK5CYII=",
+				"HermitXII", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAABVQTFRFAAAA2CgA/Pz8AAAAMDAwo6Oj4ODgmp1wAAAAAAd0Uk5TAP///////6V/pvsAAABFSURBVBiVlc9JDgAhCERRkp+q+x+5DcQWXSkreAlTUBExk5H2uIaasQAJbCaMWrJTFqhBiltLStX/WmT2OyB2eDr9eP8D3csBlMkIer8AAAAASUVORK5CYII=",
 				"HermitXI", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHNJREFUOI2lkksOwCAIRB+NJ5Zz6JXpojZpjKKVWTN83iCAEVACKKUcmVWVKzIdQMwsfsJMtVbXrKokEZkyyDkvmwpgfyD2TVMQwbMBA5ir+6ExaD7bMQw3iMa4DXGUCEz+YFbcn/ll4BZ6ch9pR2+Mx7oBv8A4EYjfUwIAAAAASUVORK5CYII=",
 				"HermitX", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAHFJREFUOI2lU0EOwCAIK8b/f5ld1kU2QHA9EZDSqggAxQ9MBqo9HhEBAAw2M1Ft5sD5LnRhCKgkssPaOmhGB6sYXpIKVNXEHlwFHSWugg5SgtVChPQSVwuRHZcge8aUwJu8I/l8pAqMNdzbeLpMD8EpLnt+MDYwR/yxAAAAAElFTkSuQmCC",
 				"HermitIX", "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAANBJREFUOI2lkuENgkAMhT+MAzACbsAI5waMwAboBLoBbuAIugGOwAa4gW5w/uAdFsKFBF7SpKGvr+3jEsCzEVsE/G6BUCpWbZCr5pXP9iYiJPrgTLEG3soz4Kz8C7R2eNigMhM98FFjptzWqjmBVMSr2eKhCDiJk1oBIgSnM2qgMANO0yYLJ1UHdGoslOemNmBqYge86A2bTroBFwke7AnhjpKxUY1pboiYuDekJ//fBr15wdAcOJpaa/LoQyrMxCLCGZ0wh7sihkWBJQxPeTV+NedIUueafbkAAAAASUVORK5CYII=",

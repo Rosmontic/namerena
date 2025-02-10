@@ -24175,7 +24175,7 @@
 			v.x1.i(0, xin.y)
 			v.E()
 			u.push(T.e("[0]：[心相-映画]", c.r, c.r, b, b, 1, 1000, 100))
-			t = H.d(v.a) + "xinxiang" + H.d($.nn())
+			t = H.d(v.a) + "xinxiang"
 			s = c.r
 			r = s.b
 			s = s.c
@@ -24211,7 +24211,6 @@
 			f.b = f
 			e = [P.j]
 			d = new T.suo(t, r, s, b, q, p, o, n, m, l, k, j, i, h, g, f, H.a([], e), H.a([], e), H.a([], e), H.a([], e))
-			
 			d.Y(t, r, s, b)
 			d.a5 = new T.cj(d)
 			d.af = c
@@ -24238,8 +24237,8 @@
 			d.fr = d.fx
 			c.r.x.aU(d)
 			d.xiang = v
-			u.push(T.e(" [0] [1] ", d.c, d.f, b, b, 0, 1000, 100))
-			u.push(T.e(" [0] [1] ", c.r.c, c.r.f, b, b, 0, 1000, 100))
+			u.push(T.e(" [0] [1] ", d.U, d.f, b, b, 0, 1000, 100))
+			u.push(T.e(" [0] [1] ", c.r.U, c.r.f, b, b, 0, 1000, 100))
 			u.push(T.e("[0][心相]显现：[1]", v, T.a1(d, d.fr), b, b, 0, 1000, 100))
 		}
 	}

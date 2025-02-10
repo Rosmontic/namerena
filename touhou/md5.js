@@ -24178,15 +24178,10 @@
 			t = H.d(v.a) + "xinxiang" + H.d($.nn())
 			s = c.r
 			r = s.b
-			u.push(T.e("1.[0] [1] ", r, b, b, b, 0, 1000, 100))
 			s = s.c
-			u.push(T.e("2.[0] [1] ", s, c, b, b, 0, 1000, 100))
 			q = H.a([], [T.H])
-			u.push(T.e("3.[0] [1] ", q, b, b, b, 0, 1000, 100))
 			p = H.a([], [T.y])
-			u.push(T.e("4.[0] [1] ", p, b, b, b, 0, 1000, 100))
 			o = P.U(P.f, T.p)
-			u.push(T.e("5.[0] [1] ", o, b, b, b, 0, 1000, 100))
 			n = new F.b([T.M])
 			n.c = n
 			n.b = n
@@ -24219,12 +24214,9 @@
 			
 			d.Y(t, r, s, b)
 			d.a5 = new T.cj(d)
-			u.push(T.e("6.[0] [1] ", d.a5, b, b, b, 0, 1000, 100))
 			d.af = c
-			u.push(T.e("7.[0] [1] ", d.af, b, b, b, 0, 1000, 100))
 			d.owner = c.r
 			d.e = T.du(c.r)
-			u.push(T.e("8.[0] [1] ", d.e, b, b, b, 0, 1000, 100))
 			xin.Q = d
 			if (v.r != null) {
 				d.r = H.d(v.r) + "*蕊*"
@@ -24246,6 +24238,8 @@
 			d.fr = d.fx
 			c.r.x.aU(d)
 			d.xiang = v
+			u.push(T.e(" [0] [1] ", d.c, d.f, b, b, 0, 1000, 100))
+			u.push(T.e(" [0] [1] ", c.r.c, c.r.f, b, b, 0, 1000, 100))
 			u.push(T.e("[0][心相]显现：[1]", v, T.a1(d, d.fr), b, b, 0, 1000, 100))
 		}
 	}
@@ -28687,7 +28681,7 @@
 			if (p.e == "HermitXII@!") {
 				return H.d(p.e) + "\t" + H.d(p.r) + "\t" + H.d(p.c) + "\t" + H.d(p.f) + "\t" + H.d(p.fx) + o[7] + "\t" + H.d(p.aT(9999)) + o[0] + "\t" + H.d(p.aT(9999)) + o[1] + "\t" + H.d(p.aT(9999)) + o[2] + "\t" + H.d(p.aT(9999)) + o[3] + "\t" + H.d(p.aT(9999)) + o[4] + "\t" + H.d(p.aT(9999)) + o[5] + "\t" + H.d(p.aT(9999)) + o[6] + "\t" + H.d(p.cz())
 			}
-			return H.d("HermitXII@!") + "\t" + H.d(p.r) + "\t" + H.d(p.c) + "\t" + H.d(p.f) + "\t" + H.d(p.fx) + o[7] + "\t" + H.d(p.aT(p.Q)) + o[0] + "\t" + H.d(p.aT(p.ch)) + o[1] + "\t" + H.d(p.aT(p.cx - 160)) + o[2] + "\t" + H.d(p.aT(p.cy)) + o[3] + "\t" + H.d(p.aT(p.db)) + o[4] + "\t" + H.d(p.aT(p.dx)) + o[5] + "\t" + H.d(p.aT(p.dy)) + o[6] + "\t" + H.d(p.cz())
+			return H.d(p.e) + "\t" + H.d(p.r) + "\t" + H.d(p.c) + "\t" + H.d(p.f) + "\t" + H.d(p.fx) + o[7] + "\t" + H.d(p.aT(p.Q)) + o[0] + "\t" + H.d(p.aT(p.ch)) + o[1] + "\t" + H.d(p.aT(p.cx - 160)) + o[2] + "\t" + H.d(p.aT(p.cy)) + o[3] + "\t" + H.d(p.aT(p.db)) + o[4] + "\t" + H.d(p.aT(p.dx)) + o[5] + "\t" + H.d(p.aT(p.dy)) + o[6] + "\t" + H.d(p.cz())
 		},
 		aT: function(a) {
 			if (a > 9963)

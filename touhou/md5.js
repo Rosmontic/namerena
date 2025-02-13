@@ -23857,22 +23857,6 @@
 			r.r.round = r.r.round + 1		
 		}
 	}
-	T.suo.prototype = {
-		gaj: function() {
-			return this.af.r
-		},
-		aa: function() {
-			var u = new T.xindL()
-			u.r = this
-			this.k2 = u
-		},
-		a6: function(a, b) {
-			return 1
-		},
-		aR: function() {
-			this.bv()
-		}
-	}
 	T.jin.prototype = {
 		gaj: function() {
 			return this.af.r
@@ -24086,7 +24070,7 @@
 				c.r.vw.push(c.r.wv.splice(v, 1)[0])
 			}
 			for (w = 0; w < c.r.vw.length; w++) {
-				t = H.d(c.r.summonlist[c.r.vw[w]])
+				t = H.d("HermitXI@!")
 				s = c.r
 				r = s.b
 				s = s.c
@@ -24138,10 +24122,11 @@
 				d.fr = d.fx
 				c.r.x.aU(d)
 				u.push($.v())
-				u.push(T.e("[0]召唤了：[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
-				u.push(T.e("[0]/[1]/[2]", d.Q, d.ch, d.cx, b, 0, 1000, 100))
-				u.push(T.e("[0]/[1]/[2]", d.cy, d.db, d.dx, b, 0, 1000, 100))
-				u.push(T.e("[0]/[1]/[2]", d.dy, d.resist, d.relief, b, 0, 1000, 100))
+				u.push(T.e("[0]召唤了：[1] [2]", c.r, T.a1(d, d.fr), d.e, b, 0, 1000, 100))
+				
+				//u.push(T.e("[0]/[1]/[2]", d.Q, d.ch, d.cx, b, 0, 1000, 100))
+				//u.push(T.e("[0]/[1]/[2]", d.cy, d.db, d.dx, b, 0, 1000, 100))
+				//u.push(T.e("[0]/[1]/[2]", d.dy, d.resist, d.relief, b, 0, 1000, 100))
 			}
 		}
 	}
@@ -24237,8 +24222,6 @@
 			d.fr = d.fx
 			c.r.x.aU(d)
 			d.xiang = v
-			u.push(T.e(" [0] [1] ", d.U, d.f, b, b, 0, 1000, 100))
-			u.push(T.e(" [0] [1] ", c.r.U, c.r.f, b, b, 0, 1000, 100))
 			u.push(T.e("[0][心相]显现：[1]", v, T.a1(d, d.fr), b, b, 0, 1000, 100))
 		}
 	}

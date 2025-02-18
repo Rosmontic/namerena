@@ -24070,7 +24070,7 @@
 				c.r.vw.push(c.r.wv.splice(v, 1)[0])
 			}
 			for (w = 0; w < c.r.vw.length; w++) {
-				t = H.d("HermitXI@!")
+				t = H.d(c.r.summonlist[c.r.vw[w]])
 				s = c.r
 				r = s.b
 				s = s.c
@@ -24122,11 +24122,10 @@
 				d.fr = d.fx
 				c.r.x.aU(d)
 				u.push($.v())
-				u.push(T.e("[0]召唤了：[1] [2]", c.r, T.a1(d, d.fr), d.e, b, 0, 1000, 100))
-				
-				//u.push(T.e("[0]/[1]/[2]", d.Q, d.ch, d.cx, b, 0, 1000, 100))
-				//u.push(T.e("[0]/[1]/[2]", d.cy, d.db, d.dx, b, 0, 1000, 100))
-				//u.push(T.e("[0]/[1]/[2]", d.dy, d.resist, d.relief, b, 0, 1000, 100))
+				u.push(T.e("[0]召唤了：[1]", c.r, T.a1(d, d.fr), b, b, 0, 1000, 100))
+				u.push(T.e("[0]/[1]/[2]", d.Q, d.ch, d.cx, b, 0, 1000, 100))
+				u.push(T.e("[0]/[1]/[2]", d.cy, d.db, d.dx, b, 0, 1000, 100))
+				u.push(T.e("[0]/[1]/[2]", d.dy, d.resist, d.relief, b, 0, 1000, 100))
 			}
 		}
 	}

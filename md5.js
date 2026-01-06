@@ -41081,9 +41081,6 @@
 			r.r.nvp = r.r.nvp + 1
 			}
 			r.r.E()
-			d.a.push(T.e("nvp[0]，go[1]", this.r.nvp, this.r.go, null, null, 0, 1000, 100))
-			r.r.dL()
-			d.a.push(T.e("nvp[0]，go[1]", this.r.nvp, this.r.go, null, null, 0, 1000, 100))
 			return a
 		},
 		T: function() {

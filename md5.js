@@ -13959,7 +13959,7 @@
 				_.y = _.x = _.r = _.f = _.e = null
 				_.z = 0
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
-				_.go = 1
+				_.go = 6
 				_.id = e
 				_.k2 = _.k1 = null
 				_.k3 = f

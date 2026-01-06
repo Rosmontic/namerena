@@ -41079,7 +41079,8 @@
 			var u, t, s, r = this
 			if (r.r.nvq != 1){
 			r.r.nvp = r.r.nvp + 1
-			}			
+			}
+			d.a.push(T.e("nvp[0]，go[1]", this.r.nvp, this.r.go, null, null, 0, 1000, 100))
 			return a
 		},
 		T: function() {

@@ -13961,6 +13961,7 @@
 				_.fy = _.fx = _.fr = _.dy = _.dx = _.db = _.cy = _.cx = _.ch = _.Q = null
 				_.go = 6
 				_.id = e
+				_.nvp = 1
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -36958,6 +36959,11 @@
 		gah: function() {
 			return C.sherii
 		},
+		E: function() {
+			this.dL()
+			if (this.nvp > 0)
+				this.go *= (this.nvp/10 + 2.5)
+		},
 		gaQ: function() {
 			return H.a([], [P.f])
 		},
@@ -39903,7 +39909,7 @@
 			return H.d(p.e) + "\t" + H.d(p.r) + "\t" + H.d(p.c) + "\t" + H.d(p.f) + "\t" + H.d(p.fx) + o[7] + "\t" + H.d(p.aT(p.Q)) + o[0] + "\t" + H.d(p.aT(p.ch)) + o[1] + "\t" + H.d(p.aT(p.cx - 160)) + o[2] + "\t" + H.d(p.aT(p.cy)) + o[3] + "\t" + H.d(p.aT(p.db)) + o[4] + "\t" + H.d(p.aT(p.dx)) + o[5] + "\t" + H.d(p.aT(p.dy)) + o[6] + "\t" + H.d(p.cz())
 		},
 		aT: function(a) {
-			if (a > 91)
+			if (a > 987)
 				return $.eF()
 			return C.b.l(a + 36)
 		},

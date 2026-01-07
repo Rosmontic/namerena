@@ -41130,7 +41130,7 @@
 				for (i = 0; i < this.r.x.a.e.length; i++) {
             if (this.r.e == "sherii@!") {
 				if (this.r.x.a.e[i].e == "hanna@!" && this.r.x.a.e[i].fr > 0){
-					r.r.jiban[0] = this.r.x.a.e[i].e
+					r.r.jiban[0] = this.r.x.a.e[i]
 					d.a.push(T.e("[0]:汉娜桑~~", this.r, this.r, null, null, 0, 1000, 100))
 					d.a.push(T.e("[0]:肌肉笨蛋！", this.r.x.a.e[i], this.r, null, null, 0, 1000, 100))
 				}}
@@ -41144,7 +41144,7 @@
 						r.r.nvq = 1
 					}
 			}
-			if (r.r.nvq == 1 || n ==1){
+			if (r.r.nvq == 1){
 				r.r.nvq = 2
 				d.a.push(T.e("[1]已经魔女化", this.r, this.r, null, null, 0, 1000, 100))
 			}

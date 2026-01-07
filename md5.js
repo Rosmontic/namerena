@@ -13975,6 +13975,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.zt1 = 0
+				_.jiban = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -37001,7 +37003,7 @@
 		E: function() {
 			var m, n = 0
 			this.dL()
-			if (this.nvp > 0 && this.nvq != 1)
+			if (this.nvp > 0 && this.nvq == 0)
 				this.go *= Math.min((this.nvp/10 + 2.5),6)
 			if (this.nvq == 1)
 				this.go *= 12
@@ -41120,16 +41122,30 @@
 	T.yukix1.prototype = {
 		aK: function(a, b, c, d) {
 			var u, t, s, r = this,i ,n=0
-			if (r.r.nvq != 1){
+			if (r.r.nvq == 0){
 			r.r.nvp = r.r.nvp + 1
 			}
-			for (i = 0; i < this.r.x.a.e.length; i++) {
-				d.a.push(T.e("[0][1]", this.r.x.a.e[i], this.r.x.a.e[i].e, null, null, 0, 1000, 100))
-            if (this.r.x.a.e[i].e == "sherii@!") {
-				n = 1
-				break}}
+			if (r.r.zt1 == 0){
+				r.r.zt1 = 1
+				for (i = 0; i < this.r.x.a.e.length; i++) {
+            if (this.r.e == "sherii@!") {
+				if (this.r.x.a.e[i].e == "hanna@!" && this.r.x.a.e[i].fr > 0){
+					r.r.jiban[0] = this.r.x.a.e[i].e
+					d.a.push(T.e("[0]:汉娜桑~~", this.r, this.r, null, null, 0, 1000, 100))
+					d.a.push(T.e("[0]:肌肉笨蛋！", this.r.x.a.e[i], this.r, null, null, 0, 1000, 100))
+				}}
+			}
+			}
+			switch(r.r.e){
+				case "sherii@!":
+					if (r.r.jiban[0] != null && r.r.jiban[0].fr == 0){
+						d.a.push(T.e("[0]:完美犯罪 吗？", this.r, this.r, null, null, 0, 1000, 100))
+						d.a.push($.v())
+						r.r.nvq = 1
+					}
+			}
 			if (r.r.nvq == 1 || n ==1){
-				r.r.nvq = 1
+				r.r.nvq = 2
 				d.a.push(T.e("[1]已经魔女化", this.r, this.r, null, null, 0, 1000, 100))
 			}
 			r.r.E()

@@ -13785,6 +13785,8 @@
 				_.nvq = 0
 				_.mvp = 1
 				_.mvq = 0
+				_.zt1 = 0
+				_.jiban = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13823,6 +13825,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.zt1 = 0
+				_.jiban = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13861,6 +13865,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.zt1 = 0
+				_.jiban = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13899,6 +13905,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.zt1 = 0
+				_.jiban = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -13937,6 +13945,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.zt1 = 0
+				_.jiban = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -14015,6 +14025,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.zt1 = 0
+				_.jiban = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -14053,6 +14065,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.zt1 = 0
+				_.jiban = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -14091,6 +14105,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.zt1 = 0
+				_.jiban = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -14129,6 +14145,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.zt1 = 0
+				_.jiban = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -14167,6 +14185,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.zt1 = 0
+				_.jiban = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -14205,6 +14225,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.zt1 = 0
+				_.jiban = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -14243,6 +14265,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.zt1 = 0
+				_.jiban = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -14281,6 +14305,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.zt1 = 0
+				_.jiban = []
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -37004,8 +37030,8 @@
 			var m, n = 0
 			this.dL()
 			if (this.nvp > 0 && this.nvq == 0)
-				this.go *= Math.min((this.nvp/10 + 2.5),6)
-			if (this.nvq == 1)
+				this.go *= Math.min((this.nvp / 10 + 2.5), 6)
+			if (this.nvq > 0)
 				this.go *= 12
 		},
 		gaQ: function() {
@@ -37025,6 +37051,13 @@
 	T.hanna.prototype = {
 		gah: function() {
 			return C.hanna
+		},
+		E: function() {
+			var m, n = 0
+			this.dL()
+			if (this.nvq > 0) 
+				this.cy *= 4
+				this.cx *= 2.6
 		},
 		gaQ: function() {
 			return H.a([], [P.f])
@@ -41121,30 +41154,32 @@
 	}
 	T.yukix1.prototype = {
 		aK: function(a, b, c, d) {
-			var u, t, s, r = this,i ,n=0
-			if (r.r.nvq == 0){
-			r.r.nvp = r.r.nvp + 1
+			var u, t, s, r = this,
+				i, n = 0
+			if (r.r.nvq == 0) {
+				r.r.nvp = r.r.nvp + 1
 			}
-			if (r.r.zt1 == 0){
+			if (r.r.zt1 == 0) {
 				r.r.zt1 = 1
 				for (i = 0; i < this.r.x.a.e.length; i++) {
-            if (this.r.e == "sherii@!") {
-				if (this.r.x.a.e[i].e == "hanna@!" && this.r.x.a.e[i].fr > 0){
-					r.r.jiban[0] = this.r.x.a.e[i]
-					d.a.push(T.e("[0]:汉娜桑~~", this.r, this.r, null, null, 0, 1000, 100))
-					d.a.push(T.e("[0]:肌肉笨蛋！", this.r.x.a.e[i], this.r, null, null, 0, 1000, 100))
-				}}
+					if (this.r.e == "sherii@!") {
+						if (this.r.x.a.e[i].e == "hanna@!" && this.r.x.a.e[i].fr > 0) {
+							r.r.jiban[0] = this.r.x.a.e[i]
+							d.a.push(T.e("[0]:汉娜桑~~", this.r, this.r, null, null, 0, 1000, 100))
+							d.a.push(T.e("[0]:肌肉笨蛋！", this.r.x.a.e[i], this.r, null, null, 0, 1000, 100))
+						}
+					}
+				}
 			}
-			}
-			switch(r.r.e){
+			switch (r.r.e) {
 				case "sherii@!":
-					if (r.r.jiban[0] != null && r.r.jiban[0].fr == 0){
+					if (r.r.jiban[0] != null && r.r.jiban[0].fr == 0) {
 						d.a.push(T.e("[0]:完美犯罪 吗？", this.r, this.r, null, null, 0, 1000, 100))
 						d.a.push($.v())
 						r.r.nvq = 1
 					}
 			}
-			if (r.r.nvq == 1){
+			if (r.r.nvq == 1) {
 				r.r.nvq = 2
 				d.a.push(T.e("[1]已经魔女化", this.r, this.r, null, null, 0, 1000, 100))
 			}
@@ -43081,13 +43116,13 @@
 		C.futaba = H.a(u([57, 9, 14, 14, -16, 11, 100, 89]), [P.j])
 		C.kaoruko = H.a(u([-10, 21, -1, 31, 42, 1, 100, 9]), [P.j])
 		C.yeya = H.a(u([18, -46, -11, -82, 19, -70, 940, 999749]), [P.j])
-		C.yuki = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.yuki = H.a(u([954, 941, 957, 932, 931, 952, 915, 698]), [P.j])
 		C.ema = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.hiro = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.meruru = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.koko = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-		C.sherii = H.a(u([350, 3, 20, 19, -72, -12, 17, 66]), [P.j])
-		C.hanna = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.sherii = H.a(u([150, 3, 20, 19, -72, -12, 17, 66]), [P.j])
+		C.hanna = H.a(u([3, -9, 2, 3, 9, 13, 15, 80]), [P.j])
 		C.anan = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.noa = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.reia = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
@@ -44410,4 +44445,3 @@
 //# sourceMappingURL=md5.js.map
 //# sourceMappingURL=md5.js.map
 //# sourceMappingURL=md5.js.map
-

@@ -37000,8 +37000,10 @@
 		},
 		E: function() {
 			this.dL()
-			if (this.nvp > 0)
-				this.go *= (this.nvp/10 + 2.5)
+			if (this.nvp > 0 && this.nvq != 1)
+				this.go *= Math.min((this.nvp/10 + 2.5),6)
+			else
+				this.go *= 12
 		},
 		gaQ: function() {
 			return H.a([], [P.f])
@@ -41121,6 +41123,9 @@
 			r.r.nvp = r.r.nvp + 1
 			}
 			r.r.E()
+			if (r.r.nvq == 1){
+			d.a.push(T.e("[1]已经魔女化", this.r, this.r, null, null, 0, 1000, 100))
+			}
 			return a
 		},
 		T: function() {

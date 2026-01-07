@@ -36999,10 +36999,11 @@
 			return C.sherii
 		},
 		E: function() {
+			var m, n = 0
 			this.dL()
 			if (this.nvp > 0 && this.nvq != 1)
 				this.go *= Math.min((this.nvp/10 + 2.5),6)
-			else
+			if (this.nvq == 1)
 				this.go *= 12
 		},
 		gaQ: function() {
@@ -41118,14 +41119,19 @@
 	}
 	T.yukix1.prototype = {
 		aK: function(a, b, c, d) {
-			var u, t, s, r = this
+			var u, t, s, r = this,i ,n=0
 			if (r.r.nvq != 1){
 			r.r.nvp = r.r.nvp + 1
 			}
-			r.r.E()
-			if (r.r.nvq == 1){
-			d.a.push(T.e("[1]已经魔女化", this.r, this.r, null, null, 0, 1000, 100))
+			for (var i = 0; i < this.r.x.a.e.length; i++) {
+            if (this.r.x.a.e[i].e === "sherii@!") {
+				n = 1
+				break}}
+			if (r.r.nvq == 1 || n ==1){
+				r.r.nvq = 1
+				d.a.push(T.e("[1]已经魔女化", this.r, this.r, null, null, 0, 1000, 100))
 			}
+			r.r.E()
 			return a
 		},
 		T: function() {

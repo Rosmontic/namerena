@@ -40764,7 +40764,7 @@
 	T.yukix2.prototype = {
 		dk: function(a, b, c, d, e, f, g) {
 			var u, t, s = this
-			if (c.fr <= 0)
+			if (c.fr > 0)
 				g.a.push(T.e("[0]: [风]", this.r, this.r, null, null, 1, 1000, 100))
 				return a
 			return a

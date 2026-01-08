@@ -41225,7 +41225,7 @@
 	T.yukix1.prototype = {
 		aK: function(a, b, c, d) {
 			var u, t, s, r = this,
-				i, n = 0
+				i, n = 0 ,l = (c.m() & 15)
 			if (r.r.nvq == 0) {
 				r.r.nvp = r.r.nvp + 1
 			}
@@ -41237,6 +41237,18 @@
 							r.r.jiban[0] = this.r.x.a.e[i]
 							d.a.push(T.e("[0]:汉娜桑~~", this.r, this.r, null, null, 0, 1000, 100))
 							d.a.push(T.e("[0]:肌肉笨蛋！", this.r.x.a.e[i], this.r, null, null, 0, 1000, 100))
+							r.r.x.a.e[i].jiban[0] = this.r
+							r.r.jiban[0].zt1.zt1 = 1
+						}
+					}
+					if (this.r.e == "hanna@!!") {
+						if (this.r.x.a.e[i].e == "sherii@!" && this.r.x.a.e[i].fr > 0) {
+							r.r.jiban[0] = this.r.x.a.e[i]
+							d.a.push(T.e("[0]:你不要过来呀desuwa", this.r, this.r, null, null, 0, 1000, 100))
+							d.a.push(T.e("[0]:巴！顿！术！", this.r.x.a.e[i], this.r, null, null, 0, 1000, 100))
+							r.r.x.a.e[i].jiban[0] = this.r
+							r.r.jiban[0].zt1 = 1
+							r.r.jiban[0].j += 2048
 						}
 					}
 				}
@@ -41248,10 +41260,12 @@
 						d.a.push($.v())
 						r.r.nvq = 1
 					}
+					break
 			}
 			if (r.r.nvq == 1) {
 				r.r.nvq = 2
 				d.a.push(T.e("[1]已经魔女化", this.r, this.r, null, null, 0, 1000, 100))
+				d.a.push($.v())
 			}
 			r.r.E()
 			return a

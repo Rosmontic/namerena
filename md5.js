@@ -40764,9 +40764,7 @@
 	T.yukix2.prototype = {
 		dk: function(a, b, c, d, e, f, g) {
 			var u, t, s = this
-			if (c.fr > 0)
 				g.a.push(T.e("[0]: [风]", this.r, this.r, null, null, 1, 1000, 100))
-				return a
 			return a
 		},
 		T: function() {
@@ -40776,9 +40774,18 @@
 	}
 	T.yukix3.prototype = {
 		ak: function(a, b, c, d, e) {
-			var u = a > 0,
-				n, m
-				e.a.push(T.e("[0]: [山]", this.r, this.r, null, null, 1, 1000, 100))
+			var u = a > 0, n = (d.m() & 7), m
+			if (this.r.e == "sherii@!"){
+				return u && a
+			}
+			if (a >= 200){
+				this.r.nvp += 2
+				e.a.push(T.e("[0]的[魔女化]加重", this.r, this.r, null, null, 0, 1000, 100))
+			}
+			else if ((a >= 100 && a < 200 && n > 3) || (a >= 50 && a < 100 && n > 5) ){
+				this.r.nvp += 1
+				e.a.push(T.e("[0]的[魔女化]微增", this.r, this.r, null, null, 0, 1000, 100))
+			}
 			return u && a
 		},
 		T: function() {

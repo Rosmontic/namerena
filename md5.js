@@ -7427,7 +7427,7 @@
 						g.at(a, u)
 						return g
 					}
-					if (a == "rio") {
+					if (a == "A01") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
 						r = H.a([], [T.y])
@@ -7460,12 +7460,12 @@
 						h.c = h
 						h.b = h
 						g = [P.j]
-						g = new T.rio(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g = new T.A01(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
 						g.Y(a, u, t, f)
 						g.at(a, u)
 						return g
 					}
-					if (a == "yuuka") {
+					if (a == "B02") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
 						r = H.a([], [T.y])
@@ -7498,12 +7498,12 @@
 						h.c = h
 						h.b = h
 						g = [P.j]
-						g = new T.yuuka(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g = new T.B02(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
 						g.Y(a, u, t, f)
 						g.at(a, u)
 						return g
 					}
-					if (a == "noa1") {
+					if (a == "C03") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
 						r = H.a([], [T.y])
@@ -7536,12 +7536,12 @@
 						h.c = h
 						h.b = h
 						g = [P.j]
-						g = new T.noa1(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g = new T.C03(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
 						g.Y(a, u, t, f)
 						g.at(a, u)
 						return g
 					}
-					if (a == "koyuki") {
+					if (a == "D04") {
 						t = H.d(a) + H.d($.ah())
 						s = H.a([], [T.H])
 						r = H.a([], [T.y])
@@ -7574,7 +7574,7 @@
 						h.c = h
 						h.b = h
 						g = [P.j]
-						g = new T.koyuki(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
+						g = new T.D04(a, u, t, f, s, r, q, p, o, n, m, l, k, j, i, h, H.a([], g), H.a([], g), H.a([], g), H.a([], g))
 						g.Y(a, u, t, f)
 						g.at(a, u)
 						return g
@@ -14919,7 +14919,7 @@
 				_.X = _.W = !1
 				_.F = null
 			},
-			rio: function rio(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+			A01: function A01(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
 				_.aP = _.bb = _.af = null
@@ -14957,7 +14957,7 @@
 				_.X = _.W = !1
 				_.F = null
 			},
-			yuuka: function yuuka(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+			B02: function B02(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
 				_.aP = _.bb = _.af = null
@@ -14995,7 +14995,7 @@
 				_.X = _.W = !1
 				_.F = null
 			},
-			noa1: function noa1(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+			C03: function C03(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
 				_.aP = _.bb = _.af = null
@@ -15033,7 +15033,7 @@
 				_.X = _.W = !1
 				_.F = null
 			},
-			koyuki: function koyuki(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
+			D04: function D04(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t) {
 				var _ = this
 				_.aI = 0
 				_.aP = _.bb = _.af = null
@@ -37077,9 +37077,11 @@
 		E: function() {
 			var m, n = 0
 			this.dL()
-			if (this.nvq > 0)
+			if (this.nvq > 0){
 				this.cy *= 4
-			this.cx *= 2.6
+				this.cx *= 2.6
+			}
+				
 		},
 		gaQ: function() {
 			return H.a([], [P.f])
@@ -37792,9 +37794,9 @@
 		}
 	}
 
-	T.rio.prototype = {
+	T.A01.prototype = {
 		gah: function() {
-			return C.rio
+			return C.A01
 		},
 		gaQ: function() {
 			return H.a([$.ai(), $.am(), $.kj()], [P.f])
@@ -37821,9 +37823,9 @@
 			}
 		}
 	}
-	T.yuuka.prototype = {
+	T.B02.prototype = {
 		gah: function() {
-			return C.yuuka
+			return C.B02
 		},
 		gaQ: function() {
 			return H.a([$.ai(), $.am(), $.kj()], [P.f])
@@ -37850,9 +37852,9 @@
 			}
 		}
 	}
-	T.noa1.prototype = {
+	T.C03.prototype = {
 		gah: function() {
-			return C.noa1
+			return C.C03
 		},
 		gaQ: function() {
 			return H.a([$.ai(), $.am(), $.kj()], [P.f])
@@ -37879,9 +37881,9 @@
 			}
 		}
 	}
-	T.koyuki.prototype = {
+	T.D04.prototype = {
 		gah: function() {
-			return C.koyuki
+			return C.D04
 		},
 		gaQ: function() {
 			return H.a([$.ai(), $.am(), $.kj()], [P.f])
@@ -41244,7 +41246,7 @@
 					if (this.r.e == "hanna@!!") {
 						if (this.r.x.a.e[i].e == "sherii@!" && this.r.x.a.e[i].fr > 0) {
 							r.r.jiban[0] = this.r.x.a.e[i]
-							d.a.push(T.e("[0]:你不要过来呀desuwa", this.r, this.r, null, null, 0, 1000, 100))
+							d.a.push(T.e("[0]:你不要过来desuwa", this.r, this.r, null, null, 0, 1000, 100))
 							d.a.push(T.e("[0]:巴！顿！术！", this.r.x.a.e[i], this.r, null, null, 0, 1000, 100))
 							r.r.x.a.e[i].jiban[0] = this.r
 							r.r.jiban[0].zt1 = 1
@@ -41264,7 +41266,7 @@
 			}
 			if (r.r.nvq == 1) {
 				r.r.nvq = 2
-				d.a.push(T.e("[1]已经魔女化", this.r, this.r, null, null, 0, 1000, 100))
+				d.a.push(T.e("[1]变为魔女", this.r, this.r, null, null, 0, 1000, 100))
 				d.a.push($.v())
 			}
 			r.r.E()
@@ -42750,7 +42752,7 @@
 		s(T.D, [T.cg, T.dF, T.el])
 		s(T.J, [T.dE, T.fire, T.ay])
 		s(T.av, [T.hh, T.koduzh, T.mir, T.hha4n2, T.alf, T.youzi, T.tao, T.lv, T.pll, T.hel, T.UAV1, T.UAV2, T.LAN, T.BAR, T.szj, T.hha7t1, T.hha11t1, T.hha9n2, T.hhb3n1, T.hhb3n2, T.hhb3n3, T.hhb3n4, T.hhb3n5, T.hhb3n6, T.hhb3n7, T.hhb3n8, T.hhb3n9, T.hhb8n1, T.hhb8t1a, T.hhb8t1b, T.hhb8t2, T.hi, T.ho, T.E8s, T.Syl, T.Windows])
-		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.tomb, T.testa, T.rumia, T.daiyousei, T.cirno, T.hong, T.testa, T.koakuma, T.patchouli, T.sakuya, T.reimu, T.Squall, T.marisa, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.lilywhite, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.nue, T.AL1S, T.aris, T.momori, T.midori, T.yuzu, T.rio, T.yuuka, T.noa1, T.koyuki, T.hifumi, T.azusa, T.Kirin, T.karen, T.hikari, T.mahiru, T.junna, T.nana, T.maya, T.kuro, T.futaba, T.kaoruko, T.ribbit1, T.ribbit2, T.ribbit3, T.ribbit4, T.fox1, T.fox2, T.fox3, T.fox4, T.jntm, T.yeya, T.yuki, T.ema, T.hiro, T.meruru, T.koko, T.sherii, T.hanna, T.anan, T.noa, T.reia, T.miria, T.nanoka, T.maago, T.arisa, T.KODU])
+		s(T.cA, [T.eY, T.eZ, T.f_, T.f0, T.d7, T.d8, T.f1, T.f2, T.bA, T.f4, T.f6, T.tigershark, T.dark, T.hell, T.yuri2, T.yuriy, T.megia, T.tomb, T.testa, T.rumia, T.daiyousei, T.cirno, T.hong, T.testa, T.koakuma, T.patchouli, T.sakuya, T.reimu, T.Squall, T.marisa, T.remilia, T.flandre, T.rin, T.letty, T.chen, T.alice, T.lilywhite, T.phantom, T.youmu, T.yuyuko, T.ran, T.yukari, T.nue, T.AL1S, T.aris, T.momori, T.midori, T.yuzu, T.A01, T.B02, T.C03, T.D04, T.hifumi, T.azusa, T.Kirin, T.karen, T.hikari, T.mahiru, T.junna, T.nana, T.maya, T.kuro, T.futaba, T.kaoruko, T.ribbit1, T.ribbit2, T.ribbit3, T.ribbit4, T.fox1, T.fox2, T.fox3, T.fox4, T.jntm, T.yeya, T.yuki, T.ema, T.hiro, T.meruru, T.koko, T.sherii, T.hanna, T.anan, T.noa, T.reia, T.miria, T.nanoka, T.maago, T.arisa, T.KODU])
 		t(T.hg, T.cy)
 		t(T.f3, T.bA)
 		t(T.e_, T.dN, T.tha6t2, T.yuriSuperControl)
@@ -43182,10 +43184,10 @@
 		C.fox3 = H.a(u([42, 25, 20, 21, 13, 20, 44, 487]), [P.j])
 		C.fox4 = H.a(u([3, 1, 24, 2, 32, -16, 36, 302]), [P.j])
 		C.Squall = H.a(u([15, 33, 3, 7, -14, 16, 16, 37]), [P.j])
-		C.rio = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-		C.yuuka = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-		C.noa1 = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-		C.koyuki = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.A01 = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.B02 = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.C03 = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.D04 = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.hifumi = H.a(u([-4, 1, -8, 6, 48, 27, 31, 502]), [P.j])
 		C.jntm = H.a(u([44, 30, 315, 39, 30, 25, 46, 117]), [P.j])
 		C.azusa = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
@@ -43332,15 +43334,15 @@
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAC4SURBVDhPpZPBDcMgDEVJ7zl0gZ66B1hC6hodhVE6Ra+IaXrMoQO08S+OCAUrbZ5k2Qb8MYEMzrmX2cEh+ya3OME0ugJceKUjTBNRO9jCl0CMEV52lk4YmStpdlCKaMVM+wjPYVWAeB5rsQhYa3M0M35ulgsXoTxWAwEp7rVZUq+BgPceiXB/nGBCnZesvkEIIUc6FzrnyBg8ZTnCVgGGiODbt/ADfwnI7gwEUkpIyoke9Zqdv7Mxb6SbRKeDB/3SAAAAAElFTkSuQmCC",
 				"fox4",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAADFSURBVDhPY3RwcPjPQAFggtJYgfuKe2CMD+A0AKRxZ4QSGKMbMuXBAzAGAbwuwAZgGkEAxMYwYP/+/WAaZjPMJSAAk0MGWF2AbAg+zSCA1YB1a5NRNIDYIDF0kKOgwIARjbhsgoGriopgGqQZBFBcQEgzCGjfv89ws8cJysPhhfhTlmAMA+j8oOC5UBaSAcTYjg2AwwAUnyCnkQIcHR3BNNwF2EKZGAA3QL1kH5RFGMBsBwGwAbAogUURPoCsGQQozM4MDACW51Iz925UsAAAAABJRU5ErkJggg==",
-				"rio",
+				"A01",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAuBJREFUOE+Vk1lIFAEcxr+Z3dGxcW3X3djYNCuVUrPESjs0xEwLNA1LxMjsJB/E7EW7L0qlh8TMrB6yIIvCNCo0LzzINE2yFDvcyjaxXNhz1lmddSc2UsQQ7P/0f/l+/I/vIzDLigmPSxTMw6aat+21UyXEbPRJibtjApIOVf9Sf6ovPr4/6n8BVPqlWzUBUXERwz++o+Na/vaq+vLKCciME5zO3hLj5aNYZ9C6rDf5pG3Ws1a4yhQQ20b43gc3EsvLS586IETC1h3REpXHRkEgeYIgSLt93KK/XVAZXrK31bZsidzDbATDe6CgsBuhqakIWLUSes1XrquiLI9TqwuJ5NSMvDUpB7JpVzcIgh3jdgKGzucmhU+/24jnSryq7kDCUuDru3lg/eIxTzkXgiBgaOAbusqu5ztWYHKKHpYtDF67zS52wrDBAqK/AYFe3eikVGi79wX+oc7wtvKo7JYJWk1fJeHCvBHZbS4fupuaJ25AHblZ9Wzx8sBog9EIdftrBLl0QLlCgroGPdzdxzE20I+rJU2/APgCMP9zxITUo6c27Dl8XuYug5G14mPnW/haHtoVchj7egclLW06sZGzwWwyPiZJsk2v13Mmk+nu5BeSUtIvBKdlnpTLZRgXgMFhHYqyDwzZ3r8MNAMhHp6LHi1QKRmRSASe52EwGGC1Wk9MAuLj03JCDmbmKlULMMLb0dXaiPtZyewoEAugiabpSKlUGkbT9CjHcasoitrp7OxcONUHqjN3qz97Ba2d86H3HUqz0wQ5TRIsNzqk0Wh2AWgGQALgATiJxeIMhmHeTwUQWZfv1DHeAZEdLbXPXlw5Bj9//1g3iQRjY2McSZImlmUprVb7RKfT7ZvJiWHzV0dE/exszAXO8gpFUYVSqdxE0zQrCILIYrEoHEKKomJ7enqe/3HilGA4emFauEQApH/HFtE0XSyVShMZhjmnVqsvTgfMJphiADIALADOIfgNZwknM8BQAoIAAAAASUVORK5CYII=",
-				"yuuka",
+				"B02",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAMAUExURQAAAGtmc6ulb2Bbfo6V/3N1v3Nvq2FdaFROTFVCIVFUZkpIkAAA7U5GO0kXAE9LTzRHVP///3qI/0hCaExFblJNfFFMeVhNbz1HVE9obmRfflFMe1VRhFZRhVlVi1ZSh1ROfktUcURRhlJLgGRek0lOXXNwmFpVhFpbe05LgGZhm2djkD86MlBRanJtpzYwWlNOg1VQgU9RZF1agjQuUjItS09LgFRPh2hieFRQajMuR0pGcF5alUM9ZEQ+YkpEd1ROe2FelzozXkhCdj02Wl1ZjkZBdDw0WFRPgD01X0tBb0ZAc0pDa0lEcjo0XUA3XVJJd0dBbElDZj44YjoyVFNLc0tCa0tGbz03XTs0WFRKczUtRzgxVDYtSEc+ZUI5WT42W0I7YWhfjkxFbjw1WlJNgVtXjmFclmRfml1ZkllXi2Bbl2Vfm2Rem25opnVvsWdhnllTi1hVhEhGZlhUj3Jrq4J6spGHtYB5vG1lo2Ncl15YkU9JcEE8WFpVhmBZkpWMsuXY3Ih7qmpgl2delWhhmlZPfTw2VjcyU1lShWJZjYyBqfTq6LKitHlokn1skG1ilWRckk9Ie0pEeUQ8Zl5WiXNlj4Fxmc3Cz9zLzINvh19Ncmtcg2xjml1Tg01GejYwWjw0XVlPf4l2kZZ9i7Kgr/Dl4ci+06OVwJ6MpnBmnHZokFdPfzgyW2lZdI5+nNDG1//48/vv7Pnn47amt3BlmVVLeEpDdVNHbse0v/jt7v728v7z7/7x66ibsVlPfT83ZEU/c0VAc5mIl/vu6f/07//08P7w672st1JJa0Q8akU/cktGekE8a0U6W4F1hdfKzOfW0/LPyerZ1nNsg0M8aEQ9cVBMgUxIe0VAcTYuUi0mSExEXp6Rmeva2Pb19cnHz1dScD44aEtHfFNQhU5LfjUuT05IYnZ4kKKyzvb2+Ozs7vT094GAijQwR0A8ZFJOg1VShjs1T2Jea7KutpyrxYmlys/Mz+bm6NDQ0np6fj4+RD08R0tHc1ZTif///1vtQXUAAABldFJOUwAAAAAAAAAAAAAAAAAAAAAAAAATIywcAxAFJYbK3uTSkZqMikEcZNru+eA8E7z6/vm3bPz6xfn9Fsq4m/6Z+bIu4e3JGbXiJpb2/v1qkPyu59eE/Fti7MXtiHlbjjOaDGXvMHHkg21GJAAAAAFiS0dEEeK1PboAAAAHdElNRQfnCA4PEQvYbQDNAAACjXpUWHRSYXcgcHJvZmlsZSB0eXBlIHhtcAAAOI2dVVuS3CAM/OcUOQJWCwmO47HNX6rymeOnBTOzO/ZsthK7/BJCLbUanH7//JV+xFFtSdjQvXq2xWA3K66STayYW7MDu8jRb7dbF6G9mYalOIruyLp7VtC3WktafXVOLPBVj6LGJwMCnCSCjkMyNq9YvRon2h5gtkiOb9vscMRYCgRmo9YjD6xz4Ok+MvkIQ9stZuhzhuRSdS85SSTXfZhgciDLznwyT4aAo9G2wKAACm0brYJxSeeTYBxhoJ1uzIRX5h2okk+n3MsTZmFYi6iqnUqTNAajvOrKk8FYTvdxyOH0kmNk7ERe0OIcmQjvwvs+AZiRw9mfYMQryyJCjL9mwRTYKjZCrA2mGhmix2Oc7Sdh3UlsZDWJ/dyLIFh3tvqS8wA8PtqU+EGybWc5lJUHgcugnLawXoLDtYTOToSkd9G/Dh5KdBZHnx7hHKMeMSRKccQPXt4V9n1REza9w32EvPOzanStzUXDAJtGCHgJ2UabtKkOZc9JjKxjNbEHFtqiGHl5SBR16L7xrVGaSsh4ExSTGIUnaiMjqMu8Qr9OSZ4zepPBOYEUGUQAroCsC8MuWghJ6ak8voiY+aQ/84TGGiDLfC4qGmubwOkFOYSJkKYFgeWC3GbpJ2AN4PSvyPderhoqL2ySxgIqmlh9t+2yNWRuVn04Ybzlseajq9yJpJbZwRjncpQmkh4b1wu1ZawpIyI/+B7izJ80vdqFhPQFCzEBo9F19HEH3RGKntsONzEucBkSCCmQIxCh0gA4Q+QIwfLllMG3Akj/L8FXBaanBO/bvPS/70Fnr7lf4kh38+UvMSe8+VWV6NYoS+ZfJv0BXN2Sc/nKHKoAAAEbSURBVBjTARAB7/4AAAABAgMEExQVFhcYGQUGBwAICQoLGhscHR4fICEiIyQMAA0OJSYnZWZnaGlqKClrKisADywtLmxtbm9wcXJzLzB0MQAQMjN1dnd4eXp7fH00NTY3ADg5fn+AgYKDhIWGh4g6OzwAPT6JiouMjY6PkJGSkz9AQQBClJWWl5iZmpucnZ6fQ0RFAKChoqOkpaanqKmqq6xGR0gArUlKrq+wsbKztLW2t0tMTQBOT1C4ubq7vL2+v8DBwlFSAFNUVVbDxMXGx8jJysvMzVcAWFkRWs7P0NHS09TV1tfY2QBbXF1e2tvc3d7f4OHi4+TlABJfYGHm5+jp6uvs7e7v8PEAYmNk8vP09fb3+Pn6+/z9/mxWfoK5Op/bAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTA4LTE0VDE1OjE3OjAwKzAwOjAwzKDHLwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wOC0xNFQxNToxNzowMCswMDowML39f5MAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjMtMDgtMTRUMTU6MTc6MTErMDA6MDCANVVmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAABJRU5ErkJggg==",
 				"jntm",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAB+SURBVDhP7ZPBDoAgDEOHF/j/r+WmdqGmLqKgV1+iKdlapoG07lijlNLUPbXWpsyOgGjWJtCrL3ixGE1XsIeelHP2CVCY+QT2+gQjO0fo8QCiQdD6ENXgFPCGP6CdA/7ZmXMA0O8TjBoVevwucIFk1UqvxyfQkZ6IG3y8zmYb5UJZo3IBP3QAAAAASUVORK5CYII=",
-				"noa1",
+				"C03",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAdNJREFUOI2lkk9IFAEUxn8z7qrrajZZkdKhQA/WIcsowlv052AdiqKoJbQET5EZRhoSpIcwgs2VlYKKINoKopN4CTwIdegQZX/AQDwUW7vrLjaM46wz8zot7tb6Z+m7vcf7vvfxvadUgPAfUAF0UHRQVkvKnlczzUKcZM8q+YitHR3g2DwKDa0o9o/AswcP2f1lAgyDb7saiRsGtp3mfNe1vAJqdnGxr5+Gr5/xvH+Hd/w1teNj7EnEODQ6wpPw4PIOhsPD7ItFqb4fItl8jN+1dYgLGyY+oj2NEO25yq91G/mkukwZFsHe3sVATrVdkMnbt2QBxPIhJki09Zz8OHlC5v2IuVYRvUYTHSTecla+B+/I43tDUgHiAVhT6qNyepp0Ffxs78Rju1QPBFG94Dowc/w0MzsbKUnbbLp7g4X6emKGu5jBnGWR2rYdxwbt1QtMTSPdtBe1zEORC5T7qXn5HMUV3vSHGalcz83rXbkZDAyG2G+ZlCYTmFu3sLnnMsUJi9n2NpTULN5kgg9Hj9B86crSZzx8JoDiVTnQsIOmuXkoLuJtiZ9UPI5W5qOzu3vlP8jgYCCA7TiMRSJ5z5cjoC8jtBQyHDW7UQg5x0Ehm//GHxintr7vM5exAAAAAElFTkSuQmCC",
-				"koyuki",
+				"D04",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAL6UExURf/6+15qiDo/SNu/zuCSrNiAn9zKxdC0uf///9F4l76+zoqRptGEoP+evvu+2ffA2vzX6vrP4/PF29elxdyryMyavaWRrZqhrMfAubqvq6SZlnRva/iqyv/g8PzY6vXL4e260++70/S/1u+709Oqw4uHj3pzcraoo1tVVSwuMfLQ5dbH2du70PK/172ZsG9hamleXTI0OBckM7+hu1pwiaeHoPW81L2RqDQyN0A/Q3dqa1lfafCzzJpujDU9Te2xyo9tiCEyRbmCnz5MWrypwNCYtcWHnsZ2nUpecaSpubFykq90mNaRrrp9mJtOgUrs/+7u9MFukAAAANOrteKywuOuwsB0k3Z7oMHF2MV2l+Xk0tm7vMibqOPGxfTe2LeFpLq91M3P4MvO38V0laWXqMRwkgoXP11nf8FukLe3yfHw9KGmtL1rjt/g6Pb2+cpzlLpmjeHm6fX1+JWKnvO/1fW/1vC60vbB1uq3zuu3zTY1OPfB1/K60fC70fnJ2vXJ2fC3zfG4z6uFnklMZdaju/rE2PXH1vjQ2/nM2vK/zu6zyrKYmaKdoap1j3ZuhuWsxfbG2fzT4PfR3vLL0uy+yPjF1efDyuW0w0dPYFljdM6Uq8y+z+WsxvS70vrH2vTF1vHN0uPAxfC/zcqssK6Nk9CTq0VSZFdkd+Knv+qowvrA19OjtbKUmODKyfDP0uC+vtOztdPV3uOatfW70sibq72Wm+3V0vro4fzp4PHX0vn6/OGYtPHMzf3s4/zs4/3v5ebAxNrc6OScuPnp4OHKybZ2j8HE2N6xttuztaOesGBmgU9genCBmLG3yeTl7u7v9d+Tr9rU29O1vMu2woSOpCRCWy9ScnCPvdTb6vHx9tSCoFtogYGMnre1xeXEw6+qtitBWzx4q0qZ2nWdvb3Bycx1lvLz9YuZtUlZdW59lMnP2Li8zUlXdTdumFNuhXZ7i6Wnsvz8/fr7+9LZ54+arldlfX+XrYu/4YKQrDU9TmBiccbJ2eTl7////81RVMsAAABzdFJOUwAAAAAAAAAAAAAAAAAAj063lCQVLC+Bk02APhMLWaq2ms7l5/m1r+3AK4PJ0fDjoP2dG/Pt7/3GoOD23OlLvfy29pS4/v79WiPQtH3uvRcBrYQCbfP9jg7Cewc/Wq/+04Gn9nGEazbpaAw9vGSE8/xVQOd1mp8IAAAAAWJLR0QIht6VegAAAAd0SU1FB+cIDwA7BJRZ8SwAAAEbSURBVBjTARAB7/4ADg8QERITFBUWFxgZGhsAAQAcHR4fICEiIyRzJSYnKCkCACorLC10dXZ3eHkuLzB6MTIAMzQ1Nnt8fX5/gIE3ODk6OwCCg4R1hXSGh4iJijw9PouMAI2Oj5CRkpOUlZaXP0BBmJkAmpucnZ6foKGio6SlQkOmpwCoREWpqqusra6vsEZHSEmxALJKS0yztLW2t7i5TU5PULoAu1FSU1RVvL2+v8BWA1dYwQDCWQRaW1xdXsPExV9gYWLGALJjBQYHCGTHyMnKy8zNzs8A0GUJCgtmZ9HS09TV1tfY2QDaaAxpamvb3N3e3+Dh4uPkAOVsDW1u5ufo6err7O3u7/AAb3BxcvHy8/T19vf4+fr7/MEyfiKlJ87hAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTA4LTE1VDAwOjU4OjQ0KzAwOjAw0z8GPQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wOC0xNVQwMDo1ODo0NCswMDowMKJivoEAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjMtMDgtMTVUMDA6NTk6MDQrMDA6MDCe//qaAAAAAElFTkSuQmCC",
 				"azusa",
 				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAo5JREFUOE9Nkwlz4jgQhT/5wuYw5kwCM1P5/39qlt2BBLDBgLEtbEtbEpvUqkpVqm716+s9oZTWoNBaIQAhHJSG5iFRXWNtjufj+T0cx8EcbUL+O0IZBK0RQlhHdcspixONrNBdZ7+5ro/fi+iPJoSj5Puv8VkAE9w2Ddf0k7o40zQSx3Px/MDkp20eqK7D9wP6w4R4scJxXZtQmPRKdVz2O8rrGe3AePZCEEbfbSFcZF1yST8xTfTjGclyjXDEE6A4p9yyA4qO+eqdRjYUl4yurWwLvhfRT6Z2DunuNw6C8XLNYDxBtE2j84+/uZd3Zq9rVKuQ5Y3kdU2RHWyWwWRB9vGH/ihG4HDabxgMp0zefiDK4qov+3/Qjsf05Sf54Q/z9Tuu53Peby1AsljRtS3p9jeT5Zp0t8ERgsnrL0SRn3R+3BIOYnsf1Z3Jy9oONfvYoNF2+gaoOB0s2D0/86gLkuVPRHHO9DX7pDeICaIBraxJlm9IWZHtNggBfhCZZfAo7ySLN6rblaYqiBdrRHW96vy4w/UC4vmC2zlltnq3gXVV2CGG0dCuLN3+RTxbkh92oFrGpoJHXevLcYusJfPVL8prjuv3iGfzb7aZR348oHVLNByTbTeEUcT45QdCK6Vv2Z7b5YwXREyXr1xPKVppev2+5YKsSlzXZTRdkH1uUY1kNFkwnM6fPGgfksvxg6os6UUDxrMlqmtppMTQPgh7CNflku5pZUXUHxIv3nB9H2GUYAQjyzvF+YisKoxUwmiA3wvRCB6yQlZ3HLQNHk6X+GH4pPKXFkyfRoHlJedR3zFVfWnOqNDzfIJwQH88wQuCp+8LwKrKjP1po5E1TV3bNkDjep6txlyznv/L+V8qznwvQOJyPwAAAABJRU5ErkJggg==",

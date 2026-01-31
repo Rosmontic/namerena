@@ -15400,6 +15400,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.chp = 0
+				_.chq = 0
 				_.mvp = 1
 				_.mvq = 0
 				_.zt1 = 0
@@ -15443,6 +15445,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.chp = 0
+				_.chq = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15484,6 +15488,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.chp = 0
+				_.chq = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15525,6 +15531,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.chp = 0
+				_.chq = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15566,6 +15574,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.chp = 0
+				_.chq = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15607,8 +15617,11 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.chp = 0
+				_.chq = 0
 				_.zt1 = 0
 				_.jiban = []
+				_.xz = 5
 				_.k2 = _.k1 = null
 				_.k3 = f
 				_.k4 = null
@@ -15648,6 +15661,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.chp = 0
+				_.chq = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15689,6 +15704,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.chp = 0
+				_.chq = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15730,6 +15747,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.chp = 0
+				_.chq = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15771,6 +15790,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.chp = 0
+				_.chq = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15812,6 +15833,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.chp = 0
+				_.chq = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15853,6 +15876,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.chp = 0
+				_.chq = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15894,6 +15919,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.chp = 0
+				_.chq = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15935,6 +15962,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvq = 0
+				_.chp = 0
+				_.chq = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -42092,9 +42121,9 @@
 			var m, n = 0
 			this.dL()
 			if(this.nvp > 0 && this.nvq == 0)
-				this.go *= Math.min((this.nvp / 10 + 2.5), 6)
+				this.go *= Math.min((this.nvp / 10 + 2.5), this.xz)
 			if(this.nvq > 0)
-				this.go *= 12
+				this.go = 10
 		},
 		gaQ: function()
 		{
@@ -45356,9 +45385,11 @@
 			if(r.fr > 0 && !r.A && T.bd(s, t, e))
 			{
 				f.a.push(T.e(O.c("vVob"), r, c, null, null, 20, 1000, 100))
+				//f.a.push(T.e("[1]攻击[偏移]", r, c, null, null, 20, 1000, 100))
 				return 0
 			}
-			f.a.push(T.e("[0][承受]了攻击", r, c, null, null, 20, 1000, 100))
+			//f.a.push(T.e("[0][承受]了攻击", r, c, null, null, 20, 1000, 100))
+			//f.a.push(T.e("[1]攻击[命中]", r, c, null, null, 20, 1000, 100))
 			return r.bL(a, b, c, d, e, f)
 		},
 		bL: function(a, b, c, d, e, f)
@@ -46388,7 +46419,7 @@
 		dk: function(a, b, c, d, e, f, g)
 		{
 			var u, t, s = this
-			g.a.push(T.e("[0]: [风]", this.r, this.r, null, null, 1, 1000, 100))
+			//g.a.push(T.e("[0]: [风]", this.r, this.r, null, null, 1, 1000, 100))
 			return a
 		},
 		T: function()

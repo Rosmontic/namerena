@@ -46985,7 +46985,7 @@
 							r.r.jiban[0].zt1.zt1 = 1
 						}
 					}
-					if(this.r.e == "hanna@!!")
+					if(this.r.e == "hanna@!")
 					{
 						if(this.r.x.a.e[i].e == "sherii@!" && this.r.x.a.e[i].fr > 0)
 						{

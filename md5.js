@@ -46982,7 +46982,8 @@
 							d.a.push(T.e("[0]:汉娜桑~~", this.r, this.r, null, null, 0, 1000, 100))
 							d.a.push(T.e("[0]:肌肉笨蛋！", this.r.x.a.e[i], this.r, null, null, 0, 1000, 100))
 							r.r.x.a.e[i].jiban[0] = this.r
-							r.r.jiban[0].zt1.zt1 = 1
+							r.r.jiban[0].zt1 = 1
+							this.r.j += 2048
 						}
 					}
 					if(this.r.e == "hanna@!")

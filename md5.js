@@ -15399,7 +15399,7 @@
 				_.go = 1
 				_.id = e
 				_.nvp = 1
-				_.nvq = 0
+				_.nvo = 0
 				_.chp = 0
 				_.chq = 0
 				_.mvp = 1
@@ -15444,7 +15444,7 @@
 				_.go = 1
 				_.id = e
 				_.nvp = 1
-				_.nvq = 0
+				_.nvo = 0
 				_.chp = 0
 				_.chq = 0
 				_.zt1 = 0
@@ -15487,7 +15487,7 @@
 				_.go = 1
 				_.id = e
 				_.nvp = 1
-				_.nvq = 0
+				_.nvo = 0
 				_.chp = 0
 				_.chq = 0
 				_.zt1 = 0
@@ -15530,7 +15530,7 @@
 				_.go = 1
 				_.id = e
 				_.nvp = 1
-				_.nvq = 0
+				_.nvo = 0
 				_.chp = 0
 				_.chq = 0
 				_.zt1 = 0
@@ -15573,7 +15573,7 @@
 				_.go = 1
 				_.id = e
 				_.nvp = 1
-				_.nvq = 0
+				_.nvo = 0
 				_.chp = 0
 				_.chq = 0
 				_.zt1 = 0
@@ -15616,7 +15616,7 @@
 				_.go = 6
 				_.id = e
 				_.nvp = 1
-				_.nvq = 0
+				_.nvo = 0
 				_.chp = 0
 				_.chq = 0
 				_.zt1 = 0
@@ -15660,7 +15660,7 @@
 				_.go = 1
 				_.id = e
 				_.nvp = 1
-				_.nvq = 0
+				_.nvo = 0
 				_.chp = 0
 				_.chq = 0
 				_.zt1 = 0
@@ -15703,7 +15703,7 @@
 				_.go = 1
 				_.id = e
 				_.nvp = 1
-				_.nvq = 0
+				_.nvo = 0
 				_.chp = 0
 				_.chq = 0
 				_.zt1 = 0
@@ -15746,7 +15746,7 @@
 				_.go = 1
 				_.id = e
 				_.nvp = 1
-				_.nvq = 0
+				_.nvo = 0
 				_.chp = 0
 				_.chq = 0
 				_.zt1 = 0
@@ -15789,7 +15789,7 @@
 				_.go = 1
 				_.id = e
 				_.nvp = 1
-				_.nvq = 0
+				_.nvo = 0
 				_.chp = 0
 				_.chq = 0
 				_.zt1 = 0
@@ -15832,7 +15832,7 @@
 				_.go = 1
 				_.id = e
 				_.nvp = 1
-				_.nvq = 0
+				_.nvo = 0
 				_.chp = 0
 				_.chq = 0
 				_.zt1 = 0
@@ -15875,7 +15875,7 @@
 				_.go = 1
 				_.id = e
 				_.nvp = 1
-				_.nvq = 0
+				_.nvo = 0
 				_.chp = 0
 				_.chq = 0
 				_.zt1 = 0
@@ -15918,7 +15918,7 @@
 				_.go = 1
 				_.id = e
 				_.nvp = 1
-				_.nvq = 0
+				_.nvo = 0
 				_.chp = 0
 				_.chq = 0
 				_.zt1 = 0
@@ -15961,7 +15961,7 @@
 				_.go = 1
 				_.id = e
 				_.nvp = 1
-				_.nvq = 0
+				_.nvo = 0
 				_.chp = 0
 				_.chq = 0
 				_.zt1 = 0
@@ -26745,6 +26745,8 @@
 			t.a0(s, !1, u.r, T.a3(), c, d)
 		}
 	}
+
+
 	T.tha2ak.prototype = {
 		t: function(a, b, c, d)
 		{
@@ -42120,9 +42122,9 @@
 		{
 			var m, n = 0
 			this.dL()
-			if(this.nvp > 0 && this.nvq == 0)
+			if(this.nvp > 0 && this.nvo == 0)
 				this.go *= Math.min((this.nvp / 10 + 2.5), this.xz)
-			if(this.nvq > 0)
+			if(this.nvo > 0)
 				this.go = 10
 		},
 		gaQ: function()
@@ -42153,7 +42155,7 @@
 		{
 			var m, n = 0
 			this.dL()
-			if(this.nvq > 0)
+			if(this.nvo > 0)
 			{
 				this.cy *= 4
 				this.cx *= 2.6
@@ -46965,7 +46967,7 @@
 			var u, t, s, r = this,
 				i, n = 0,
 				l = (c.m() & 15)
-			if(r.r.nvq == 0)
+			if(r.r.nvo == 0)
 			{
 				r.r.nvp = r.r.nvp + 1
 			}
@@ -46981,6 +46983,7 @@
 							r.r.jiban[0] = this.r.x.a.e[i]
 							d.a.push(T.e("[0]:汉娜桑~~", this.r, this.r, null, null, 0, 1000, 100))
 							d.a.push(T.e("[0]:肌肉笨蛋！", this.r.x.a.e[i], this.r, null, null, 0, 1000, 100))
+							d.a.push($.v())
 							r.r.x.a.e[i].jiban[0] = this.r
 							r.r.jiban[0].zt1 = 1
 							this.r.j += 2048
@@ -46993,6 +46996,7 @@
 							r.r.jiban[0] = this.r.x.a.e[i]
 							d.a.push(T.e("[0]:你不要过来desuwa", this.r, this.r, null, null, 0, 1000, 100))
 							d.a.push(T.e("[0]:巴！顿！术！", this.r.x.a.e[i], this.r, null, null, 0, 1000, 100))
+							d.a.push($.v())
 							r.r.x.a.e[i].jiban[0] = this.r
 							r.r.jiban[0].zt1 = 1
 							r.r.jiban[0].j += 2048
@@ -47007,13 +47011,13 @@
 					{
 						d.a.push(T.e("[0]:完美犯罪 吗？", this.r, this.r, null, null, 0, 1000, 100))
 						d.a.push($.v())
-						r.r.nvq = 1
+						r.r.nvo = 1
 					}
 					break
 			}
-			if(r.r.nvq == 1)
+			if(r.r.nvo == 1)
 			{
-				r.r.nvq = 2
+				r.r.nvo = 2
 				d.a.push(T.e("[1]变为魔女", this.r, this.r, null, null, 0, 1000, 100))
 				d.a.push($.v())
 			}

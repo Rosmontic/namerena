@@ -15617,7 +15617,7 @@
 				_.id = e
 				_.nvp = 1
 				_.nvo = 0
-				_.chp = 100
+				_.chp = 30
 				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
@@ -47012,7 +47012,7 @@
 			switch (r.r.e)
 			{
 				case "sherii@!":
-					if(r.r.jiban[0] != null && r.r.jiban[0].fr == 0)
+					if(r.r.jiban[0] != null && r.r.jiban[0].fr == 0 && r.r.nvo == 0)
 					{
 						d.a.push(T.e("[0]:[完美犯罪 吗？]", this.r, this.r, null, null, 0, 1000, 100))
 						d.a.push($.v())
@@ -47028,6 +47028,7 @@
 					r.r.fr = 0	
 					d.a.push(T.e("[1][变为残骸]", this.r, T.a1(r.r, r.r.fr), null, null, 0, 1000, 100))
 					r.r.bf(r.r.fr, null, c, d)
+					return 0
 				}
 				r.r.cho += (c.m() & 1) + 1 
 				

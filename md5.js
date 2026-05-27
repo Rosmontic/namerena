@@ -15401,7 +15401,7 @@
 				_.nvp = 1
 				_.nvo = 0
 				_.chp = 0
-				_.chq = 0
+				_.cho = 0
 				_.mvp = 1
 				_.mvq = 0
 				_.zt1 = 0
@@ -15446,7 +15446,7 @@
 				_.nvp = 1
 				_.nvo = 0
 				_.chp = 0
-				_.chq = 0
+				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15489,7 +15489,7 @@
 				_.nvp = 1
 				_.nvo = 0
 				_.chp = 0
-				_.chq = 0
+				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15532,7 +15532,7 @@
 				_.nvp = 1
 				_.nvo = 0
 				_.chp = 0
-				_.chq = 0
+				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15575,7 +15575,7 @@
 				_.nvp = 1
 				_.nvo = 0
 				_.chp = 0
-				_.chq = 0
+				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15617,8 +15617,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvo = 0
-				_.chp = 0
-				_.chq = 0
+				_.chp = 100
+				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.xz = 5
@@ -15661,8 +15661,8 @@
 				_.id = e
 				_.nvp = 1
 				_.nvo = 0
-				_.chp = 0
-				_.chq = 0
+				_.chp = 20
+				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15705,7 +15705,7 @@
 				_.nvp = 1
 				_.nvo = 0
 				_.chp = 0
-				_.chq = 0
+				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15748,7 +15748,7 @@
 				_.nvp = 1
 				_.nvo = 0
 				_.chp = 0
-				_.chq = 0
+				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15791,7 +15791,7 @@
 				_.nvp = 1
 				_.nvo = 0
 				_.chp = 0
-				_.chq = 0
+				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15834,7 +15834,7 @@
 				_.nvp = 1
 				_.nvo = 0
 				_.chp = 0
-				_.chq = 0
+				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15877,7 +15877,7 @@
 				_.nvp = 1
 				_.nvo = 0
 				_.chp = 0
-				_.chq = 0
+				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15920,7 +15920,7 @@
 				_.nvp = 1
 				_.nvo = 0
 				_.chp = 0
-				_.chq = 0
+				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -15963,7 +15963,7 @@
 				_.nvp = 1
 				_.nvo = 0
 				_.chp = 0
-				_.chq = 0
+				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
 				_.k2 = _.k1 = null
@@ -46971,6 +46971,7 @@
 			{
 				r.r.nvp = r.r.nvp + 1
 			}
+
 			if(r.r.zt1 == 0)
 			{
 				r.r.zt1 = 1
@@ -46981,8 +46982,8 @@
 						if(this.r.x.a.e[i].e == "hanna@!" && this.r.x.a.e[i].fr > 0)
 						{
 							r.r.jiban[0] = this.r.x.a.e[i]
-							d.a.push(T.e("[0]:汉娜桑~~", this.r, this.r, null, null, 0, 1000, 100))
-							d.a.push(T.e("[0]:肌肉笨蛋！", this.r.x.a.e[i], this.r, null, null, 0, 1000, 100))
+							d.a.push(T.e("[0]:[汉娜桑~~]", this.r, this.r, null, null, 0, 1000, 100))
+							d.a.push(T.e("[0]:[肌肉笨蛋！]", this.r.x.a.e[i], this.r, null, null, 0, 1000, 100))
 							d.a.push($.v())
 							r.r.x.a.e[i].jiban[0] = this.r
 							r.r.jiban[0].zt1 = 1
@@ -46994,8 +46995,8 @@
 						if(this.r.x.a.e[i].e == "sherii@!" && this.r.x.a.e[i].fr > 0)
 						{
 							r.r.jiban[0] = this.r.x.a.e[i]
-							d.a.push(T.e("[0]:你不要过来desuwa", this.r, this.r, null, null, 0, 1000, 100))
-							d.a.push(T.e("[0]:巴！顿！术！", this.r.x.a.e[i], this.r, null, null, 0, 1000, 100))
+							d.a.push(T.e("[0]:[你不要过来desuwa]", this.r, this.r, null, null, 0, 1000, 100))
+							d.a.push(T.e("[0]:[巴！顿！术！]", this.r.x.a.e[i], this.r, null, null, 0, 1000, 100))
 							d.a.push($.v())
 							r.r.x.a.e[i].jiban[0] = this.r
 							r.r.jiban[0].zt1 = 1
@@ -47004,21 +47005,37 @@
 					}
 				}
 			}
+			if (r.r.nvp >= r.r.chp && r.r.nvo < 2)
+			{
+				r.r.nvo = 1
+			}
 			switch (r.r.e)
 			{
 				case "sherii@!":
 					if(r.r.jiban[0] != null && r.r.jiban[0].fr == 0)
 					{
-						d.a.push(T.e("[0]:完美犯罪 吗？", this.r, this.r, null, null, 0, 1000, 100))
+						d.a.push(T.e("[0]:[完美犯罪 吗？]", this.r, this.r, null, null, 0, 1000, 100))
 						d.a.push($.v())
 						r.r.nvo = 1
 					}
 					break
 			}
+			if(r.r.nvo == 2)
+			{
+				if (r.r.cho > 12)
+				{
+					r.r.cho = 100
+					r.r.fr = 0	
+					d.a.push(T.e("[1][变为残骸]", this.r, T.a1(r.r, r.r.fr), null, null, 0, 1000, 100))
+					r.r.bf(r.r.fr, null, c, d)
+				}
+				r.r.cho += (c.m() & 1) + 1 
+				
+			}
 			if(r.r.nvo == 1)
 			{
 				r.r.nvo = 2
-				d.a.push(T.e("[1]变为魔女", this.r, this.r, null, null, 0, 1000, 100))
+				d.a.push(T.e("[1][变为魔女]", this.r, this.r, null, null, 0, 1000, 100))
 				d.a.push($.v())
 			}
 			r.r.E()

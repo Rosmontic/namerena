@@ -42057,7 +42057,7 @@
 				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
 				u = 1
 			}
-			if(u == 0 && this.nvo != 0){
+			if(u == 0 && this.nvo == 0){
 				this.nvp += (c.m() & 1)
 				if (this.fr + this.fr < this.fx){
 					this.nvp += 1 + (c.m() & 1)
@@ -42107,7 +42107,7 @@
 				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
 				u = 1
 			}
-			if(u == 0 && this.nvo != 0){
+			if(u == 0 && this.nvo == 0){
 				this.nvp += (c.m() & 1)
 				if (this.fr + this.fr < this.fx){
 					this.nvp += 1 + (c.m() & 1)

@@ -15445,7 +15445,7 @@
 				_.id = e
 				_.nvp = 1
 				_.nvo = 0
-				_.chp = 0
+				_.chp = 24
 				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
@@ -15488,7 +15488,7 @@
 				_.id = e
 				_.nvp = 1
 				_.nvo = 0
-				_.chp = 0
+				_.chp = 25
 				_.cho = 0
 				_.zt1 = 0
 				_.jiban = []
@@ -42057,10 +42057,10 @@
 				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
 				u = 1
 			}
-			if(u == 0){
-				this.r.nvp += 1
+			if(u == 0 && this.nvo != 0){
+				this.nvp += (c.m() & 1)
 				if (this.fr + this.fr < this.fx){
-					this.r.nvp += 1
+					this.nvp += 1 + (c.m() & 1)
 				}
 				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
 			}
@@ -42107,10 +42107,10 @@
 				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
 				u = 1
 			}
-			if(u == 0){
-				this.r.nvp += 1
+			if(u == 0 && this.nvo != 0){
+				this.nvp += (c.m() & 1)
 				if (this.fr + this.fr < this.fx){
-					this.r.nvp += 1
+					this.nvp += 1 + (c.m() & 1)
 				}
 				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
 			}
@@ -42147,23 +42147,6 @@
 			if(u == null)
 				u = t.bb = new T.cB(t)
 			t.y2.i(0, u)
-		},
-		ay: function(a, b, c, d)
-		{
-			var u = 0
-			if(this.fr <= 0)
-			{
-				d.a.push($.v())
-				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
-				u = 1
-			}
-			if(u == 0){
-				this.r.nvp += 1
-				if (this.fr + this.fr < this.fx){
-					this.r.nvp += 1
-				}
-				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
-			}
 		}
 	}
 	T.koko.prototype = {
@@ -49303,8 +49286,8 @@
 		C.kaoruko = H.a(u([-10, 21, -1, 31, 42, 1, 100, 9]), [P.j])
 		C.yeya = H.a(u([18, -46, -11, -82, 19, -70, 940, 999749]), [P.j])
 		C.yuki = H.a(u([954, 941, 957, 932, 931, 952, 915, 698]), [P.j])
-		C.ema = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
-		C.hiro = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
+		C.ema = H.a(u([0, 0, 0, 0, 0, 0, 0, 300]), [P.j])
+		C.hiro = H.a(u([0, 0, 0, 0, 0, 0, 0, 300]), [P.j])
 		C.meruru = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.koko = H.a(u([0, 0, 0, 0, 0, 0, 0, 0]), [P.j])
 		C.sherii = H.a(u([150, 3, 20, 19, -72, -12, 17, 66]), [P.j])

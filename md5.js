@@ -36612,14 +36612,14 @@
 		{
 			var u = this,
 				t = u.fr
-
+			d.a.push(T.e("[0]:[自由啊。。。]", this, this, null, null, 0, 7200, 100))
 			if(t > 0)
 			{
 				u.fr = 0
 				if(!u.aP)
 					u.bf(t, null, c, d)
 			}
-
+			
 			u.a5.C()
 			return !1
 		}
@@ -42051,12 +42051,7 @@
 		ay: function(a, b, c, d)
 		{
 			var u = 0
-			if(this.fr <= 0)
-			{
-				d.a.push($.v())
-				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
-				u = 1
-			}
+			this.aP = !0
 			if(u == 0 && this.nvo == 0){
 				this.nvp += (c.m() & 1)
 				if (this.fr + this.fr < this.fx){
@@ -42064,12 +42059,20 @@
 				}
 				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
 			}
+			this.aP = !1
+
 		},
 		aX: function(a, b, c, d)
 		{
 			var u = this,
 				t = u.fr
-			d.a.push(T.e("[0]:[自由啊。。。]", this, this, null, null, 0, 1000, 100))
+			if(t > 0)
+			{
+				u.fr = 0
+				if(!u.aP)
+					u.bf(t, null, c, d)
+				d.a.push(T.e("[0]:[自由啊。。。]", this, this, null, null, 0, 7200, 100))
+			}
 			return !1
 		}
 	}

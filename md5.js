@@ -42064,6 +42064,13 @@
 				}
 				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
 			}
+		},
+		aX: function(a, b, c, d)
+		{
+			var u = this,
+				t = u.fr
+			d.a.push(T.e("[0]:[自由啊。。。]", this, this, null, null, 0, 1000, 100))
+			return !1
 		}
 	}
 	T.hiro.prototype = {

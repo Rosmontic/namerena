@@ -42147,6 +42147,23 @@
 			if(u == null)
 				u = t.bb = new T.cB(t)
 			t.y2.i(0, u)
+		},
+		ay: function(a, b, c, d)
+		{
+			var u = 0
+			if(this.fr <= 0)
+			{
+				d.a.push($.v())
+				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
+				u = 1
+			}
+			if(u == 0 && this.nvo == 0){
+				this.nvp += (c.m() & 1)
+				if (this.fr + this.fr < this.fx){
+					this.nvp += 1 + (c.m() & 1)
+				}
+				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
+			}
 		}
 	}
 	T.koko.prototype = {
@@ -42171,6 +42188,32 @@
 			t.push(new T.yukix1())
 			t.push(new T.yukix2())
 			t.push(new T.yukix3())
+		},
+		bM: function()
+		{
+			var u, t = this
+			t.dK()
+			u = t.bb
+			if(u == null)
+				u = t.bb = new T.cB(t)
+			t.y2.i(0, u)
+		},
+		ay: function(a, b, c, d)
+		{
+			var u = 0
+			if(this.fr <= 0)
+			{
+				d.a.push($.v())
+				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
+				u = 1
+			}
+			if(u == 0 && this.nvo == 0){
+				this.nvp += (c.m() & 1)
+				if (this.fr + this.fr < this.fx){
+					this.nvp += 1 + (c.m() & 1)
+				}
+				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
+			}
 		}
 	}
 	T.sherii.prototype = {
@@ -42204,6 +42247,32 @@
 			t.push(new T.yukix1())
 			t.push(new T.yukix2())
 			t.push(new T.yukix3())
+		},
+		bM: function()
+		{
+			var u, t = this
+			t.dK()
+			u = t.bb
+			if(u == null)
+				u = t.bb = new T.cB(t)
+			t.y2.i(0, u)
+		},
+		ay: function(a, b, c, d)
+		{
+			var u = 0
+			if(this.fr <= 0)
+			{
+				d.a.push($.v())
+				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
+				u = 1
+			}
+			if(u == 0 && this.nvo == 0){
+				this.nvp += (c.m() & 1)
+				if (this.fr + this.fr < this.fx){
+					this.nvp += 1 + (c.m() & 1)
+				}
+				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
+			}
 		}
 	}
 	T.hanna.prototype = {
@@ -42239,6 +42308,32 @@
 			t.push(new T.yukix1())
 			t.push(new T.yukix2())
 			t.push(new T.yukix3())
+		},
+		bM: function()
+		{
+			var u, t = this
+			t.dK()
+			u = t.bb
+			if(u == null)
+				u = t.bb = new T.cB(t)
+			t.y2.i(0, u)
+		},
+		ay: function(a, b, c, d)
+		{
+			var u = 0
+			if(this.fr <= 0)
+			{
+				d.a.push($.v())
+				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
+				u = 1
+			}
+			if(u == 0 && this.nvo == 0){
+				this.nvp += (c.m() & 1)
+				if (this.fr + this.fr < this.fx){
+					this.nvp += 1 + (c.m() & 1)
+				}
+				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
+			}
 		}
 	}
 	T.anan.prototype = {
@@ -42263,6 +42358,32 @@
 			t.push(new T.yukix1())
 			t.push(new T.yukix2())
 			t.push(new T.yukix3())
+		},
+		bM: function()
+		{
+			var u, t = this
+			t.dK()
+			u = t.bb
+			if(u == null)
+				u = t.bb = new T.cB(t)
+			t.y2.i(0, u)
+		},
+		ay: function(a, b, c, d)
+		{
+			var u = 0
+			if(this.fr <= 0)
+			{
+				d.a.push($.v())
+				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
+				u = 1
+			}
+			if(u == 0 && this.nvo == 0){
+				this.nvp += (c.m() & 1)
+				if (this.fr + this.fr < this.fx){
+					this.nvp += 1 + (c.m() & 1)
+				}
+				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
+			}
 		}
 	}
 	T.noa.prototype = {
@@ -42287,6 +42408,32 @@
 			t.push(new T.yukix1())
 			t.push(new T.yukix2())
 			t.push(new T.yukix3())
+		},
+		bM: function()
+		{
+			var u, t = this
+			t.dK()
+			u = t.bb
+			if(u == null)
+				u = t.bb = new T.cB(t)
+			t.y2.i(0, u)
+		},
+		ay: function(a, b, c, d)
+		{
+			var u = 0
+			if(this.fr <= 0)
+			{
+				d.a.push($.v())
+				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
+				u = 1
+			}
+			if(u == 0 && this.nvo == 0){
+				this.nvp += (c.m() & 1)
+				if (this.fr + this.fr < this.fx){
+					this.nvp += 1 + (c.m() & 1)
+				}
+				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
+			}
 		}
 	}
 	T.reia.prototype = {
@@ -42311,6 +42458,32 @@
 			t.push(new T.yukix1())
 			t.push(new T.yukix2())
 			t.push(new T.yukix3())
+		},
+		bM: function()
+		{
+			var u, t = this
+			t.dK()
+			u = t.bb
+			if(u == null)
+				u = t.bb = new T.cB(t)
+			t.y2.i(0, u)
+		},
+		ay: function(a, b, c, d)
+		{
+			var u = 0
+			if(this.fr <= 0)
+			{
+				d.a.push($.v())
+				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
+				u = 1
+			}
+			if(u == 0 && this.nvo == 0){
+				this.nvp += (c.m() & 1)
+				if (this.fr + this.fr < this.fx){
+					this.nvp += 1 + (c.m() & 1)
+				}
+				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
+			}
 		}
 	}
 	T.miria.prototype = {
@@ -42335,6 +42508,32 @@
 			t.push(new T.yukix1())
 			t.push(new T.yukix2())
 			t.push(new T.yukix3())
+		},
+		bM: function()
+		{
+			var u, t = this
+			t.dK()
+			u = t.bb
+			if(u == null)
+				u = t.bb = new T.cB(t)
+			t.y2.i(0, u)
+		},
+		ay: function(a, b, c, d)
+		{
+			var u = 0
+			if(this.fr <= 0)
+			{
+				d.a.push($.v())
+				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
+				u = 1
+			}
+			if(u == 0 && this.nvo == 0){
+				this.nvp += (c.m() & 1)
+				if (this.fr + this.fr < this.fx){
+					this.nvp += 1 + (c.m() & 1)
+				}
+				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
+			}
 		}
 	}
 	T.nanoka.prototype = {
@@ -42359,6 +42558,32 @@
 			t.push(new T.yukix1())
 			t.push(new T.yukix2())
 			t.push(new T.yukix3())
+		},
+		bM: function()
+		{
+			var u, t = this
+			t.dK()
+			u = t.bb
+			if(u == null)
+				u = t.bb = new T.cB(t)
+			t.y2.i(0, u)
+		},
+		ay: function(a, b, c, d)
+		{
+			var u = 0
+			if(this.fr <= 0)
+			{
+				d.a.push($.v())
+				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
+				u = 1
+			}
+			if(u == 0 && this.nvo == 0){
+				this.nvp += (c.m() & 1)
+				if (this.fr + this.fr < this.fx){
+					this.nvp += 1 + (c.m() & 1)
+				}
+				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
+			}
 		}
 	}
 	T.maago.prototype = {
@@ -42383,6 +42608,32 @@
 			t.push(new T.yukix1())
 			t.push(new T.yukix2())
 			t.push(new T.yukix3())
+		},
+		bM: function()
+		{
+			var u, t = this
+			t.dK()
+			u = t.bb
+			if(u == null)
+				u = t.bb = new T.cB(t)
+			t.y2.i(0, u)
+		},
+		ay: function(a, b, c, d)
+		{
+			var u = 0
+			if(this.fr <= 0)
+			{
+				d.a.push($.v())
+				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
+				u = 1
+			}
+			if(u == 0 && this.nvo == 0){
+				this.nvp += (c.m() & 1)
+				if (this.fr + this.fr < this.fx){
+					this.nvp += 1 + (c.m() & 1)
+				}
+				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
+			}
 		}
 	}
 	T.arisa.prototype = {
@@ -42407,6 +42658,32 @@
 			t.push(new T.yukix1())
 			t.push(new T.yukix2())
 			t.push(new T.yukix3())
+		},
+		bM: function()
+		{
+			var u, t = this
+			t.dK()
+			u = t.bb
+			if(u == null)
+				u = t.bb = new T.cB(t)
+			t.y2.i(0, u)
+		},
+		ay: function(a, b, c, d)
+		{
+			var u = 0
+			if(this.fr <= 0)
+			{
+				d.a.push($.v())
+				d.a.push(T.e("[0]: [...]", this, this, null, null, 0, 1000, 100))
+				u = 1
+			}
+			if(u == 0 && this.nvo == 0){
+				this.nvp += (c.m() & 1)
+				if (this.fr + this.fr < this.fx){
+					this.nvp += 1 + (c.m() & 1)
+				}
+				d.a.push(T.e("[0]的[魔女化]加重", this, this, null, null, 0, 1000, 100))
+			}
 		}
 	}
 	T.KODU.prototype = {

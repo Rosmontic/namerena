@@ -2050,7 +2050,7 @@ r.cx=s
 s.toString
 W.A(s,"mousedown",r.gcW(),!1)
 r.ch=H.k(t.querySelector(".inputoptions"),"$ir")
-$.fU="http://"+H.d($.hy())+J.cA(window.location.pathname,J.cz(window.location.pathname,"/"))+"#n="
+$.fU=window.location.protocol+"//"+window.location.host+J.cA(window.location.pathname,J.cz(window.location.pathname,"/"))+"#n="
 W.A(window,"resize",r.gd8(r),!1)
 r.bw(0,null)
 W.A(window,"message",r.gd5(r),!1)
@@ -4540,7 +4540,7 @@ m.b="raw"
 q=O.k6(r,m)
 p=C.b.J(q,J.cz(q,"#"))
 if(p.length<1000){n.id=p
-window.location.hash=p}o="http://"+H.d($.hy())+J.cA(window.location.pathname,J.cz(window.location.pathname,"/"))
+window.location.hash=p}o=window.location.protocol+"//"+window.location.host+J.cA(window.location.pathname,J.cz(window.location.pathname,"/"))
 m=n.go
 if(m!=null)o=o+"?"+m
 u.value=q
